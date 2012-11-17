@@ -75,7 +75,7 @@ object Saphon extends App {
 
     // analyze column headers
     val head_ : IndexedSeq[String] = row_( 0)
-    val meta_ : IndexedSeq[String] = row_( 2)
+    val meta_ : IndexedSeq[String] = row_( 1)
     val iName = head_.indexOf( "Name")
     val iNameShort = head_.indexOf( "Display form")
     val iNameAlt = head_.indexOf( "Alternate names")
@@ -252,9 +252,10 @@ object Saphon extends App {
     }
 
     // check for close geographical coordinates 
-    for( x <- lang_; xg <- x.geo_; y <- lang_; yg <- y.geo_) {
-      if( x.id < y.id && distance( xg, yg) < 1.) {
-        println( "WARNING: %s and %s are within 1 km.".format( x.name, y.name))
+    for( x <- lang_; y <- lang_) {
+      if( x.id < y.id && distance( x.geo_(0), y.geo_(0)) < 1.) {
+        println( "WARNING: primary locations for %s and %s are within 1 km."
+          .format( x.name, y.name))
       }
     }
 
