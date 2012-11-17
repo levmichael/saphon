@@ -1,4 +1,4 @@
-package salang
+package saphon
 
 import collection.mutable.HashMap
 import collection.mutable.Set
@@ -64,7 +64,7 @@ case class Lang (
   bib_ : IndexedSeq[ String]
 )
 
-object Data extends App {
+object Saphon extends App {
 
   def readLanguages( filename: String) :
     (IndexedSeq[String], IndexedSeq[String], IndexedSeq[String], IndexedSeq[Lang]) = 
@@ -120,8 +120,7 @@ object Data extends App {
       s3
     }
 
-    // val body_ = row_.slice( 3, row_.indexWhere( _( 0) == ""))
-    val body_ = row_.tail.tail.tail
+    val body_ = row_.tail.tail
 
     // analyze language families
     val family_ = body_.map( r => fixFamily( r( iFamily), r( iName)))
