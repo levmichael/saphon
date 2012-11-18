@@ -399,6 +399,7 @@ object Saphon extends App {
 
   val (family_, feat_, area_, lang_) = readLanguages( args( 0))
   println( "%d languages" format lang_.length)
+  println( "%d features" format feat_.length)
   println( "%d families" format family_.length)
   val c_ = {
     val c_ = Array.fill( family_.length)( 0)
