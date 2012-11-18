@@ -1,1 +1,5 @@
 project/target
+data
+target
+*.swp
+*.pyc

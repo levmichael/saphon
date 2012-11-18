@@ -284,16 +284,15 @@ object Saphon extends App {
       (0 until nNote).map( i => "Notes")
 
     fo.write( row1.map( esc( _)).mkString( ",") ++ "\n")
-    fo.write( row1.map( esc( _)).mkString( ",") ++ "\n")
 
-    val row3 = "o, o, o, o, o, o, o".split( ", ") ++
+    val row2 = "o, o, o, o, o, o, o".split( ", ") ++
       (0 until nGeo).map( i => "g, g, g".split( ", ")).flatten ++
       feat_.map( s => "f") ++ 
       area_.map( s => "a") ++
       (0 until nBib).map( i => "b") ++
       (0 until nNote).map( i => "n")
 
-    fo.write( row3.map( esc( _)).mkString( ",") ++ "\n")
+    fo.write( row2.map( esc( _)).mkString( ",") ++ "\n")
 
     for( lang <- lang_) {
       val row = 
