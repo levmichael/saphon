@@ -53,8 +53,8 @@ def readSaphon( filename):
     key = lambda x: (family_.count( x), x))  # O(n^2), i don't care
 
   # create return values
-  feat_ = [head_[ i] for i in iFeat_]  # decompose the unicode? nah.
-  area_ = [head_[ i] for i in iArea_]  # decompose the unicode? nah.
+  feat_ = [head_[ i] for i in iFeat_]
+  area_ = [head_[ i] for i in iArea_]
 
   nan = float( 'nan')
   def readFloat( s):
@@ -66,8 +66,8 @@ def readSaphon( filename):
 
   def parseGeoFields( geo_):
     x_ = [readFloat( g) for g in geo_]
-    y_ = [Geo(x_[i+1], x_[i+2], x_[i+0]) for i in range( 0, len(g), 3) 
-      if not math.isnan( x_[i+1]) and not math.isnan( x_[i+2])]
+    y_ = [Geo(x_[i+1], x_[i+2], x_[i+0]) for i in range( 0, len(geo_), 3) 
+      if not (math.isnan( x_[i+1]) or math.isnan( x_[i+2]))]
     return y_
 
   lang_ = []
