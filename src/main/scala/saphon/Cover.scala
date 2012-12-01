@@ -68,7 +68,7 @@ object Cover extends App {
     }
 
     // replicate oral vowels as nasal vowels if nasspr
-    if( inv contains "nasspr") {
+    if( inv contains "nasal harmony") {
       for( f <- inv.toSeq if isOralVowel( f)) {
         inv += vowelRE.r.replaceAllIn( f, m => (m.group( 0) ++ "\u0303"))
       }
