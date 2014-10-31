@@ -71,3 +71,52 @@ aff.by.fabb <- function( s) {
 lookup <- function( s) {
   l$name.lang[ grep( s, l$iso)]
 }
+
+# distance
+
+dist <- function( geo, a, b) {
+  lon <- function( i) { geo$x[i] / 180. * pi}
+  lat <- function( i) { geo$y[i] / 180. * pi}
+  ax <- cos( lon( a)) * cos( lat( a))
+  ay <- sin( lon( a)) * cos( lat( a))
+  az <- sin( lat( a))
+  bx <- cos( lon( b)) * cos( lat( b))
+  by <- sin( lon( b)) * cos( lat( b))
+  bz <- sin( lat( b))
+  dot <- ax * bx + ay * by + az * bz
+  phi <- acos( ifelse( dot > 1., 1., dot))
+  phi * 6371
+}
+
+# family abbreviations
+
+list.fabb = list(
+  'Tupí' = 'T',
+  'Arawak' = 'A',
+  'Carib' = 'C',
+  'Macro-Ge' = 'Ge',
+  'Quechua' = 'Q',
+  'Panoan' = 'P',
+  'Tucanoan' = 'Tu',
+  'Arawan' = 'An',
+  'Chibchan' = 'Cb',
+  'Guaicuru' = 'G',
+  'Mataco' = 'Mt',
+  'Jivaroan' = 'J',
+  'Witotoan' = 'W',
+  'Barbacoan' = 'B',
+  'Chapakuran' = 'Cp',
+  'Choco' = 'Cc',
+  'Guahiban' = 'Gh',
+  'Nadahup' = 'N',
+  'Nambiquaran' = 'Nm',
+  'Tacanan' = 'Tn',
+  'Yanomam' = 'Y',
+  'Zaparoan' = 'Z'
+)
+
+fabb <- function( s) {
+  t <- list.fabb[[s]]
+  if( is.null(t)) return( '')
+  return( t)
+}

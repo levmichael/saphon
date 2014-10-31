@@ -37,7 +37,7 @@ object Cover extends App {
   val vowelRE = "[" ++ vowelStr ++ "]"
   val vowels = Set( vowelStr:_*)
   def isIPA( sound:String) = 
-    sound != "tone" && sound != "nasal harmony" && sound != "creakspr"
+    sound != "tone" && sound != "nasal harmony" && sound != "laryngeal harmony"
   def isVowel( sound:String) = {
     isIPA( sound) && !sound.forall( s => !(vowels contains s))
   }

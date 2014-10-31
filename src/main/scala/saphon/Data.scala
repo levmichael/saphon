@@ -349,8 +349,29 @@ object Saphon extends App {
   {
     val fo = new CSVWriter( new FileWriter( fn))
     fo.writeNext( Array("lam") ++ 
-      mu_.map( "%.4f" format _))
+      lam_.map( "%.4f" format _))
     fo.writeNext( Array("") ++ feat_)  // headers
+    fo.writeNext( Array("mu") ++ 
+      mu_.map( "%.4f" format _))
+    for( k <- 0 until family_.length) {
+      fo.writeNext( Array( family_( k)) ++
+        theta__( k).map( "%.4f" format _))
+    }
+    fo.close();
+  }
+
+  def writeFreqsLambda2( 
+    fn : String,
+    family_ : Seq[ String], 
+    feat_ : Seq[ String], 
+    lam_ : Seq[ Double],
+    mu_ : Seq[ Double],
+    theta__ : Seq[ Seq[ Double]]): Unit = 
+  {
+    val fo = new CSVWriter( new FileWriter( fn))
+    fo.writeNext( Array("") ++ feat_)  // headers
+    fo.writeNext( Array("lam") ++ 
+      lam_.map( "%.4f" format _))
     fo.writeNext( Array("mu") ++ 
       mu_.map( "%.4f" format _))
     for( k <- 0 until family_.length) {
@@ -381,6 +402,20 @@ object Saphon extends App {
       (row: Array[ java.lang.String]) => row.toIndexedSeq)
 
     val lam_ = row_(0).tail.map( _.toDouble)
+    // throw away labels without checking
+    val mu_ = row_(2).tail.map( _.toDouble)
+    val theta__ = row_.tail.tail.tail.map( _.tail.map( _.toDouble))
+
+    (lam_, mu_, theta__)
+  }
+
+  def readFreqsLambda2( fn : String) = 
+  {
+    val javaRow_ = new CSVReader( new FileReader( fn)).readAll()
+    val row_ = javaRow_.toIndexedSeq.map( 
+      (row: Array[ java.lang.String]) => row.toIndexedSeq)
+
+    val lam_ = row_(1).tail.map( _.toDouble)
     // throw away labels without checking
     val mu_ = row_(2).tail.map( _.toDouble)
     val theta__ = row_.tail.tail.tail.map( _.tail.map( _.toDouble))
