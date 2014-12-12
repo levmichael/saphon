@@ -1,0 +1,9 @@
+name: Günün Yajich
+name.short: Günün Yajich
+name.comp: GununYajich
+iso: gny
+family: Chon
+country: Argentina
+geo: -41.102 -66.992 505
+feat: p' p b t' t ts' ts d ʈʂ' ʈʂ k' k ɡ q ʔ m n s ɬ ʂ x w j ɾ l ʎ i e a o u ɨ
+bib: Viegas, Pedro Barros. 2005. Voces en el viento: Raíces lingüísticas de la Patagonia. Buenos Aires: Mondragon Ediciones. 69.

@@ -1,0 +1,9 @@
+name: Ashéninka (Apurucayali dialect)
+name.short: Ashéninka Ap
+name.comp: AsheninkaA
+iso: cpc
+family: Arawak
+country: Peru
+geo: -10.018 -74.793 1306
+feat: p tʰ t tsʰ ts tʃʰ tʃ k m n ɲ N s ç h ʋ j ɰ ɾ ɾʲ i i: a a: o o:
+bib: Payne, David, Judith Payne, and Jorge Sanchez Santos. 1982. Morfología, fonología, y fonética del Ashéninca del Apurucayali. Lima: Ministerio de Educación and Instituto Lingüístico de Verano.

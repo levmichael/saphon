@@ -1,0 +1,11 @@
+name: Tsáfiki
+name.short: Tsáfiki
+name.comp: Tsafiki
+iso: cof
+family: Barbacoan
+country: Ecuador
+geo: -0.260 -79.147 597
+feat: p b t ts d k ʔ m n β s h w j ɾ l i ĩ e ẽ a ã o õ u ũ
+bib: Moore, Bruce. 1972. El Sistema Fonético del Idioma Colorado. Boletín de Informaciones Científicas Nacionales 13. 72-78.
+bib: Moore, Bruce R. 1962. Correspondences in South Barbacoan Chibcha. Ecuadorian Indian Languages: I. Ed. Benjamin Elson. Linguistic Series, 7. Norman: Summer Institute of Linguistics of the University of Oklahoma. 97-106.
+bib: Curnow, Timothy J. and Anthony J. Liddicoat. 1998. The Barbacoan Languages of Colombia and Ecuador. Anthropological Linguistics 40. 387.

@@ -1,0 +1,9 @@
+name: Sabanê
+name.short: Sabanê
+name.comp: Sabane
+iso: sae
+family: Nambiquaran
+country: Brazil
+geo: -12.964 -60.261 341
+feat: p ɓ t ɗ k ʔ m n s h l i e a o u
+bib: Antunes de Araujo, Gabriel. 2004. A grammar of Sabanê, a Nambikwaran language. PhD dissertation, Free Univeristy of Amsterdam.

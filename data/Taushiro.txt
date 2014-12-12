@@ -1,0 +1,9 @@
+name: Taushiro
+name.short: Taushiro
+name.comp: Taushiro
+iso: trr
+family: Isolate
+country: Peru
+geo: -3.746 -74.564 194
+feat: t tʃ k kʷ ʔ n ɲ x h w j ɾ i a o u ɨ
+bib: Alicea, Neftalí. 1975. Análisis fonémico preliminar del idioma taushiro. Datos Etno-Lingüísticos 23. Lima: Instituto Lingüístico de Verano.

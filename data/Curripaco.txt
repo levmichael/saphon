@@ -1,0 +1,12 @@
+name: Curripaco
+name.short: Curripaco
+name.comp: Curripaco
+iso: kpc
+family: Arawak
+country: Venezuela
+country: Brazil
+country: Colombia
+geo: 2.304 -68.499 139
+feat: pʰ p b tʰ t ts d dz kʰ k ʔ ʰm m ʰn n ɸ β ʂ ʃ h w j ɾ ʰɾ ɺ i e a u
+note: [public] Granadillo describes the sound represented as /ɺ/ as a retroflex trill.
+bib: Granadillo, Tania. 2006. An ethnographic account of language documentation among the Kurripako of Venezuela. PhD dissertation, University of Arizona.

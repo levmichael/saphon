@@ -1,0 +1,11 @@
+name: Tupinambá
+name.short: Tupinambá
+name.comp: Tupinamba
+iso: tpn
+family: Tupí
+country: Brazil
+geo: -22.808 -42.106 7
+geo: -7.053 -34.881 10
+geo: -0.845 -47.812 1
+feat: p b t k ʔ m n ɲ s ʃ w j ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
+bib: Moore, Denny, Sidney Facundes and Nádia Pires. 1993. Nheengatu (Língua Geral Amazônica), its History, and the Effects of Language Contact. Museu Paraense Emílio Goeldi, Brazil.

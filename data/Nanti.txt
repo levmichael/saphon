@@ -1,0 +1,10 @@
+name: Nanti
+name.short: Nanti
+name.comp: Nanti
+iso: cox
+family: Arawak
+country: Peru
+geo: -12.045 -72.339 823
+feat: p b t tʲ ts tʃ k ɡ m n ɲ N s ʃ h j ɾ ɾʲ i i: e e: a a: o o: ɨi
+note: [public]Michael observes that /ɨi/ is a light (monomoraic) dipthong that constitutes a single segment.
+bib: Michael, Lev. 2008. Nanti Evidential Practice: Language, Knowledge, and Social Action in an Amazonian Society. PhD dissertation, University of Texas at Austin.

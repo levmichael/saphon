@@ -1,0 +1,11 @@
+name: Aʔɨwa
+name.short: Aʔɨwa
+name.alt: Vacacocha
+name.alt: Auishiri
+name.comp: Aiwa
+iso: ash
+family: Isolate
+country: Peru
+geo: -2.000 -74.500 0
+feat: p t ts tʃ kʲ k kʷ ʔ m n s ʃ h w j ɾ l i ĩ e a ã o õ u ũ ɨ
+bib: Michael, Lev and Christine Beier. Phonological sketch and classification of Aʔɨwa [ISO 639: ash]. Talk given at the 2012 Winter meeting of the Society for the Study of the Indigenous Languages of the Americas, Portland, OR.

@@ -1,0 +1,12 @@
+name: Bora
+name.short: Bora
+name.comp: Bora
+iso: boa
+family: Boran
+country: Peru
+country: Colombia
+geo: -2.250 -71.750 103
+feat: pʰ p pʲ pʲʰ tʰ t tʲ tʲʰ tsʰ ts tʃʰ tʃ kʲ kʲʰ kʰ k kʷ ʔʲ ʔ m mʲ n ɲ β βʲ h hʲ j ɾ i i: e e: a a: o o: ɨ ɨ: ɯ ɯ:
+bib: Weber, David and Wesley Thiesen. 2001. A synopsis of Bora tone. Work Papers of the Summer Institute of Linguistics, North Dakota Session 45. 2.
+bib: Parker, Steve. 2000. Central vs. Back Vowels. Work Papers of the Summer Institute of Linguistics, University of North Dakota Session 44. 1–19.
+bib: Parker, Steve. 2001. On the Acoustic Qualities of Bora Vowels. Phonetica 58. 179–195.

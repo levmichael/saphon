@@ -1,0 +1,10 @@
+name: Barí
+name.short: Barí
+name.comp: Bari
+iso: mot
+family: Chibchan
+country: Venezuela
+country: Colombia
+geo: 9.000 -73.000 130
+feat: b t d k m n ɲ s h r i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃ tone
+bib: Mogollón, María. 2000. Fonología del barí. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Cara y Cuervo.

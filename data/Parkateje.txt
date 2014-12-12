@@ -1,0 +1,10 @@
+name: Parkateje
+name.short: Parkateje
+name.comp: Parkateje
+iso: qpt
+family: Macro-Ge
+country: Brazil
+geo: -5.250 -48.917 105
+feat: p t k ʔ m n h w j ɾ i ĩ e ẽ ɛ a ɔ o õ u ũ ɨ ɨ̃ ə ə̃ ɜ
+note: [public]Macro-Ge, not a standard ISO code.
+bib: Ferreira, Marília de Nazaré de Oliveira. 2003. Estudo morfossintático da língua Parkatêjê. PhD dissertation, Universidade Estadual de Campinas.

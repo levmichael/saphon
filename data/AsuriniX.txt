@@ -1,0 +1,11 @@
+name: Asurini do Xingú
+name.short: Asurini Xng
+name.comp: AsuriniX
+iso: asn
+family: Tupí
+country: Brazil
+geo: -3.300 -49.300 76
+feat: p t tʃ dʒ k kʷ ʔ m n ŋ ɸ β h w j ɾ i ĩ ɛ ɛ̃ a ã o õ u ũ ɨ
+bib: Nicholson, Velda C. 1982. Breve estudo da língua asurini do xingu. Ensaios Lingüísticos Nº 5: 1-85.
+bib: Nicholson, Velda. 1978. Aspectos da língua asurinini. Sociedade Internacional de Lingüística, Cuiabá, MT.
+bib: Pereira, A. A. 2009. Estudo Morfossintático do Asuriní do Xingú. Doctoral, Universidade Estadual de Campinas.

@@ -1,0 +1,9 @@
+name: Paraujano
+name.short: Paraujano
+name.comp: Paraujano
+iso: pbg
+family: Arawak
+country: Venezuela
+geo: 10.489 -72.064 156
+feat: p t tʃ k m n ɲ ʃ h w j ɾ l i i: e e: a a: o o: u u: ɨ ɨ:
+bib: Patte, Marie-France. 1989. Estudio descriptivo de la lengua Añun (o "Paraujano"). San Cristóbal: Universidad Católica del Táchira.

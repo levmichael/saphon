@@ -1,0 +1,12 @@
+name: Trió
+name.short: Trió
+name.alt: Tiriyó
+name.comp: Trio
+iso: tri
+family: Carib
+country: Suriname
+country: Brazil
+geo: 2.221 -55.960 nan
+feat: p t k m n s h w j ɾ i i: e e: a a: o o: u u: ɨ ɨ: ə ə:
+bib: Meira, Sérgio. 1999. A Grammar of Tiriyó. PhD dissertation, Rice University.
+bib: Meira, Sérgio. 1998. A Reconstruction of Proto-Taranoan: Phonology and Morphology. MA thesis, Rice University.

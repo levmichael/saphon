@@ -1,0 +1,9 @@
+name: Muylaq' Aymara
+name.short: Aymara Muy
+name.comp: AymaraMul
+iso: ayr_muy
+family: Aymaran
+country: Peru
+geo: -16.675 -70.711 nan
+feat: p' pʰ p t' tʰ t tʃ' tʃʰ tʃ k' kʰ k q' qʰ q m n ɲ s x h w j ɾ l ʎ i a u
+bib: Coler, Matt, and Edwin Banegas Flores. A grammatical description of Muylaq' Aymara. Under review.

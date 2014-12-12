@@ -1,0 +1,9 @@
+name: Ashéninka (Perené dialect)
+name.short: Ashéninka Pe
+name.comp: AsheninkaPe
+iso: prq
+family: Arawak
+country: Peru
+geo: -10.873 -75.245 1368
+feat: p t tsʰ ts tʃ kʲ k m n ɲ N s ʃ h w j ɾ ɾʲ i i: e e: a a: o o: ɨ ɨ:
+bib: Mihas, Elena. 2010. Essentials of Ashéninka Perené Grammar. PhD dissertation, University of Wisconsin-Milwaukee.

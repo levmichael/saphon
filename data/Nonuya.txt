@@ -1,0 +1,9 @@
+name: Nonuya
+name.short: Nonuya
+name.comp: Nonuya
+iso: noj
+family: Witotoan
+country: Colombia
+geo: -0.500 -72.500 nan
+feat: p b t tʲ ts d dz tʃ dʒ k ɡ ʔ m n ɲ ɸ β ʃ h ɾ i e a o u ɨ
+bib: Echeverri, Juan Alvaro. 2012. Nonuya Phonemes. Ms.

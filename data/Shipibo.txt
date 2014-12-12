@@ -1,0 +1,11 @@
+name: Shipibo
+name.short: Shipibo
+name.comp: Shipibo
+iso: shp
+family: Panoan
+country: Peru
+geo: -7.884 -74.742 161
+feat: p bβ t ts ɖʐ tʃ k m n β s ʂ ʃ h w j i i: a a: ʊ ʊ: ɨ ɨ:
+note: [public]The phoneme /o/ is realized at a height between [o] and [u]
+note: /ø/: “es apagada, casi como la 'eu' del francés, pero con los labios retraídos”=??
+bib: Elias-Ulloa, Jose. 2010. An acoustic phonetics of Shipibo-Conibo (Pano), an endangered Amazonian language: A new approach to documenting linguistic data. Edwin Mellen Press.

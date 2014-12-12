@@ -1,0 +1,9 @@
+name: Yora
+name.short: Yora
+name.comp: Yora
+iso: mts
+family: Panoan
+country: Peru
+geo: -11.500 -72.300 534
+feat: p t ts tʃ k m n ɸ s ʂ ʃ h j ɾ i ĩ a ã u ũ ɨ ɨ̃
+bib: Anonymous. 2001. Vamos a leer: Aprestamiento para la lectura y escritura No. 2; yora; con traducción al castellano. 1st ed. Peru: Ministerio de Educación. 29 double p.4

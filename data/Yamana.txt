@@ -1,0 +1,11 @@
+name: Yahgan
+name.short: Yahgan
+name.alt: Yámana
+name.comp: Yamana
+iso: yag
+family: Isolate
+country: Chile
+geo: -54.935 -67.626 38
+feat: p t ʈʂ tʃ k m n f s ʐ ʃ h w j l i e a o u ə
+bib: Viegas, Pedro Barros. 2005. Voces en el viento: Raíces lingüísticas de la Patagonia. Buenos Aires: Mondragon Ediciones. 34.
+bib: Meroz, Yoram. p.c.

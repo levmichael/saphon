@@ -1,0 +1,10 @@
+name: Cholón
+name.short: Cholón
+name.comp: Cholon
+iso: cht
+family: Hibito-Cholon
+country: Peru
+geo: -8.414 -76.365 559
+feat: p tˣ t tʃ k ʔ m n ɲ ŋ s w j l ʎ i ɪ a ʊ u
+note: [public]There is some question as to whether the language exhibited contrastive long vowels.
+bib: Alexander-Bakkerus, Astrid. 2005. Eighteenth-Century Cholón. PhD dissertation, Universiteit Leiden.

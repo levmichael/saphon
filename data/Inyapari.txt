@@ -1,0 +1,10 @@
+name: Iñapari
+name.short: Iñapari
+name.comp: Inyapari
+iso: inp
+family: Arawak
+country: Peru
+geo: -12.088 -69.544 276
+feat: p t tʃ ʔ m n ɲ s h w j ɾ l i ĩ i: e ẽ e: a ã a: o õ o: u ũ u: ɯ ɯ̃ ɯ: tone
+bib: Faust, Norma and Eugene Loos. 2002. Gramática del idioma yaminahua. Serie lingüística peruana, 51. Lima: Instituto Lingüístico de Verano. 17-18.
+bib: Parker, Steve. 1999. A sketch of Iñapari phonology. IJAL 65.1-39.

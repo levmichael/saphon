@@ -1,0 +1,9 @@
+name: Kuruáya
+name.short: Kuruáya
+name.comp: Kuruaya
+iso: kyr
+family: Tupí
+country: Brazil
+geo: -7.560 -55.694 277
+feat: p b t d tʃ dʒ k ʔ m n ŋ ð s ʃ h w j ɾ i ĩ e ẽ a ã ɔ o õ ɨ
+bib: Mendes Junior, Djalma Gomes. 2007. Comparação fonológica do kuruáya com o mundurukú. MA thesis, Universidade de Brasília.

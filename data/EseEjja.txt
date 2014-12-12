@@ -1,0 +1,9 @@
+name: Ese Ejja (Bolivia)
+name.short: Ese Ejja B
+name.comp: EseEjja
+iso: ese_bol
+family: Tacanan
+country: Bolivia
+geo: -11.203 -66.261 nan
+feat: p ɓ̥ t ɗ̥ tʃ k kʷ ʔ m n ɲ s ʃ x h w j i e a o
+bib: Vuillermet, Marine. 2006. L'ese ejja de Bolivie: Esquisse phonologique et phonétique. MA thesis, Université Lumière Lyon 2. 19.

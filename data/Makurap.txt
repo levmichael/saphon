@@ -1,0 +1,9 @@
+name: Makuráp
+name.short: Makuráp
+name.comp: Makurap
+iso: mpu
+family: Tupí
+country: Brazil
+geo: -11.996 -62.630 208
+feat: p t tʃ k m n ŋ w j ɾ i ĩ e ẽ a ã o õ ɨ ɨ̃
+bib: Braga, Alzerinda de Oliveira. 1992. A fonologia segmental e aspectos morfofonológicos da língua makurap (tupí). MA thesis, Universidade Estadual de Campinas.

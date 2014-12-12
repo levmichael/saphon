@@ -1,0 +1,9 @@
+name: Emberá-Catío
+name.short: Emberá-Catío
+name.comp: EmberaCatio
+iso: cto
+family: Choco
+country: Colombia
+geo: 7.442 -76.511 480
+feat: p' pʰ b t' tʰ d tʃ' tʃʰ dʒ k' kʰ m n s' sʰ h w ɾ r i ĩ e ẽ a ã o õ u ũ ɯ ɯ̃
+bib: Mortensen, Charles Arthur. 1994. Nasalization in a revision of Embera-Katio phonology. MA thesis, University of Texas at Arlington.

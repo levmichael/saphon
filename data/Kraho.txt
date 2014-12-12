@@ -1,0 +1,10 @@
+name: Krahô
+name.short: Krahô
+name.comp: Kraho
+iso: xra
+family: Macro-Ge
+country: Brazil
+geo: -8.000 -48.000 168
+feat: p t ts kʰ k m n ŋ h w j l i ĩ i: ĩ: e e: ɛ ɛ̃ ɛ: ɛ̃: a ã a: ã: ɔ ɔ̃ ɔ: ɔ̃: o o: u ũ u: ũ: ʌ ʌ̃ ʌ: ʌ̃: ɤ ɤ: ɯ ɯ̃ ɯ: ɯ̃:
+bib: Popjes, Jack and Jo Popjes. 1990. Canela-Krahô. In Desmond Derbyshire and Geoffrey Pullum (eds.), Handbook of Amazonian Languages, Vol. 1. Berlin: Mouton de Gruyter.
+bib: Popjes, Jack and Josephine Popjes. 2009. Phonemic Statement of Canela. Anápolis: Associação Internacional de Linguística.

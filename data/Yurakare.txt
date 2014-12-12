@@ -1,0 +1,10 @@
+name: Yurakaré
+name.short: Yurakaré
+name.comp: Yurakare
+iso: yuz
+family: Isolate
+country: Bolivia
+geo: -16.593 -65.255 213
+feat: p b t d tʃ ɟ k ʔ m n ɲ s ʃ ʒ̺ h w j l i e æ a o u ɨ
+note: The segment given here as /ʒ̺/ is described by the author as a voiced post-alveolar apical fricative.
+bib: Van Gijn, Rik. 2006. A grammar of Yurakaré. PhD dissertation, Radboud Universiteit.

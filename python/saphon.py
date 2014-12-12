@@ -1,4 +1,4 @@
-import csv, math, re, sys
+import csv, math, re, sys, os
 
 class Geo:
   def __init__(self, lat, lon, elv):
@@ -24,7 +24,7 @@ class Lang:
     self.note_ = note_
     self.bib_ = bib_
 
-def readSaphon(filename):
+def readSaphonTable(filename):
   row_ = [row for row in csv.reader(open(filename, 'rb'))]
 
   head_ = row_[0]
@@ -72,31 +72,59 @@ def readSaphon(filename):
 
   lang_ = []
   for i, r in enumerate(body_):
+    r = [f.strip() for f in r] # strip all cells in row
     lang_.append(
       Lang(
         i,
         r[iName],
         r[iNameShort],
-        re.split(r"\s*[,;]\s*", r[iNameAlt]),
+        re.split(r"\s*[,;]\s*", r[iNameAlt]) if r[iNameAlt] != '' else [],
         r[iNameComp],
-        re.split(r"\s+", r[iISO]),
+        re.split(r"\s+", r[iISO]) if r[iISO] != '' else [],
         familyOrdered_.index(familyName(r[iFamily], r[iName])),
         r[iFamily],
-        re.split(r"\s*[,]\s*", r[iCountry]),
+        re.split(r"\s*[,]\s*", r[iCountry]) if r[iCountry] != '' else [],
         parseGeoFields([r[i] for i in iGeo_]),
         [1 if '1' in r[i] else 0 for i in iFeat_],
         [1 if '1' in r[i] else 0 for i in iArea_],
-        [r[i] for i in iNote_ if r[i].strip() != ''],
-        [r[i] for i in iBib_ if r[i].strip() != ''],
+        [r[i] for i in iNote_ if r[i] != ''],
+        [r[i] for i in iBib_ if r[i] != ''],
       ))
 
   return familyOrdered_, feat_, area_, lang_
 
+def writeSaphonFiles(dir, lang_, feat_):
+  if not os.path.exists(dir):
+    os.makedirs(dir)
+  for lang in lang_:
+    fo = open(dir+'/'+lang.nameComp+'.txt', 'w')
+    fo.write('name: ' + lang.name + '\n')
+    fo.write('name.short: ' + lang.nameShort + '\n')
+    for nameAlt in lang.nameAlt_:
+      fo.write('name.alt: ' + nameAlt + '\n')
+    fo.write('name.comp: ' + lang.nameComp + '\n')
+    for iso in lang.iso_:
+      fo.write('iso: ' + iso + '\n')
+    fo.write('family: ' + lang.familyStr + '\n')
+    for country in lang.country_:
+      fo.write('country: ' + country + '\n')
+    for geo in lang.geo_:
+      fo.write('geo: %.3f %.3f %.0f\n' % (geo.lat,geo.lon,geo.elv))
+
+    inventory = [feat for x,feat in zip(lang.feat_, feat_) if x]
+    fo.write('feat: ' + ' '.join(inventory) + '\n')
+
+    for note in lang.note_:
+      fo.write('note: ' + note + '\n')
+    for bib in lang.bib_:
+      fo.write('bib: ' + bib + '\n')
 
 if __name__ == '__main__':
-  family_, feat_, area_, lang_ = readSaphon( sys.argv[1])
+  family_, feat_, area_, lang_ = readSaphonTable(sys.argv[1])
 
   print "%d languages" % len(lang_)
   print "%d families" % len(family_)
   print "%d features" % len(feat_)
   print "%d areas" % len(area_)
+
+  writeSaphonFiles(sys.argv[2], lang_, feat_)

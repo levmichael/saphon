@@ -1,0 +1,11 @@
+name: Sáliba
+name.short: Sáliba
+name.comp: Saliba
+iso: slc
+family: Salivan
+country: Colombia
+country: Venezuela
+geo: 6.000 -70.000 104
+feat: p b t d c ɟ k kʷ ɡ ɡʷ m n ɲ ɸ s x h hʷ r l i ĩ e ẽ a ã o õ u ũ
+bib: Estrada Ramírez, Hortensia. 2000. La lengua sáliba. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. 683-684.
+bib: Estrada Ramirez, Hortensia. 1996. La lenga sáliba: Clases nominales y sistema de concordancia. Bogotá: Colcultura. 4-16.

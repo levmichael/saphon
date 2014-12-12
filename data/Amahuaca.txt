@@ -1,0 +1,12 @@
+name: Amahuaca
+name.short: Amahuaca
+name.comp: Amahuaca
+iso: amc
+family: Panoan
+country: Peru
+country: Brazil
+geo: -10.474 -72.641 317
+feat: p t ts tʃ k ʔ m n s ʃ x h w j ɾ i ĩ a ã o õ ɨ ɨ̃ tone
+note: “ɨ is hiɡh back close unrounded” = ɯ ?
+bib: Osborn, Henry. 1948. Amahuaca phonemes. International Journal of American Linguistics 14: 188-190.
+bib: Russell, Robert & Dolores. 1959. Syntactotonemics in Amahuaca (Pano). Série Lingüistica Especial, 128-167. Publicaçoes do Museu Nacional, Rio de Janeiro, Brasil.

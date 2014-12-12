@@ -1,0 +1,9 @@
+name: Amarakaeri
+name.short: Amarakaeri
+name.comp: Amarakaeri
+iso: amr
+family: Harakmbet
+country: Peru
+geo: -12.694 -70.323 288
+feat: p mb t nd k ŋɡ ʔ m n ŋ s x w j ɾ i ĩ i: ĩ: e ẽ e: ẽ: a ã a: ã: o õ o: õ: ɨ ɨ:
+bib: Tripp, Robert (compiler). 1995. Diccionario amarakaeri-castellano. Yarinacocha: Ministerio de Educación and Instituto Lingüístico de Verano.

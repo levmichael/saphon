@@ -1,0 +1,13 @@
+name: Ingarikó
+name.short: Ingarikó
+name.alt: Akawaio
+name.comp: Ingariko
+iso: ake
+family: Carib
+country: Brazil
+country: Guiana
+geo: 5.880 -60.687 401
+geo: 6.315 -61.393 185
+geo: 5.070 60.344 835
+feat: p t k ʔ m n s w j ɾ i i: e e: a a: o o: u ɤ ɯ
+bib: Souza Cruz, Odileiz. 2005. Fonología e gramática Ingarikó. PhD dissertation, Free University of Amsterdam.

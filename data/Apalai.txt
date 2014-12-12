@@ -1,0 +1,9 @@
+name: Apalaí
+name.short: Apalaí
+name.comp: Apalai
+iso: apy
+family: Carib
+country: Brazil
+geo: 1.217 -54.657 261
+feat: p t k ʔ m n s z ʃ w j ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
+bib: Koehn, Edward and Sally Koehn. 1971. Fonologia da Língua Apalai. Estudos Sôbre Línguas E Culturas Indígenas. Brasília: Instituto Lingüístico de Verão. 17-28.

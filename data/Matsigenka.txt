@@ -1,0 +1,11 @@
+name: Matsigenka
+name.short: Matsigenka
+name.alt: Machiguenga
+name.comp: Matsigenka
+iso: mcb
+family: Arawak
+country: Peru
+geo: -12.408 -72.908 376
+feat: p t tʲ ts tʃ kʲ k ɡ m n ɲ N β s ʃ j ɾ ɾʲ i i: e e: a a: o o: ɨi
+note: [public]Note that /ɨi/ is a light (monomoraic) dipthong that constitutes a single segment.
+bib: Michael, Lev. 2011. Unpublished field notes.

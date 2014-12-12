@@ -1,0 +1,9 @@
+name: Guató
+name.short: Guató
+name.comp: Guato
+iso: gta
+family: Macro-Ge
+country: Brazil
+geo: -17.000 -58.000 103
+feat: p b t d tʃ dʒ k kʷ ɡ ɡʷ m n f v h j ɾ i e ɛ a ɔ o u ɨ tone
+bib: Postigo, Adriana Viana. 2009. Fonologia da Língua Guató. MA thesis, Universidade Federal de Mato Grosso do Sul.

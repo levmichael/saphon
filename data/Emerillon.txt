@@ -1,0 +1,9 @@
+name: Emerillon
+name.short: Emerillon
+name.comp: Emerillon
+iso: eme
+family: Tupí
+country: French Guiana
+geo: 3.285 -53.803 nan
+feat: p b t d tʃ dʒ k kʷ ɡ ʔ s z h w j ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃ ə ə̃
+bib: Rose, Françoise. 2003. Morphosyntaxe de l'émérillon, langue tupí-guaraní de Guyane française. PhD dissertation, Université Lumière Lyon 2.

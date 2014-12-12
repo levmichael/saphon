@@ -1,0 +1,9 @@
+name: Pumé
+name.short: Pumé
+name.comp: Pume
+iso: yae
+family: Isolate
+country: Venezuela
+geo: 7.769 -67.598 53
+feat: pʰ p b tʰ t d tʃʰ tʃ dʒ kʰ k ɡ ʔ m n ɲ ŋ β ɣ h j ɾ ɾ̃ i ĩ e ɛ ɛ̃ a ã ɔ ɔ̃ o u ũ ɤ ɯ ɯ̃
+bib: Mosonyi, E.E., J.C. Mosonyi and Jorge Ramón García. 2000. Yaruro (Pumé). Manual de Lenguas Indígenas de Venezuela. Caracas: Fundación BIGOTT.

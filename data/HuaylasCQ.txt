@@ -1,0 +1,10 @@
+name: Huaylas-Conchucos Quechua
+name.short: Huaylas C  Q
+name.comp: HuaylasCQ
+iso: qxn
+iso: qwh
+family: Quechua
+country: Peru
+geo: -8.674 -77.886 2263
+feat: p t ts tʃ k q m n ɲ s ʃ h w j ɾ l ʎ i i: a a: u u:
+bib: Julca, Felix. 2009. personal communication.

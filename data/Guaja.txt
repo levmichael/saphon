@@ -1,0 +1,11 @@
+name: Guajá
+name.short: Guajá
+name.comp: Guaja
+iso: gvj
+family: Tupí
+country: Brazil
+geo: -2.767 -46.487 nan
+feat: p t tʃ k kʷ ʔ m n h w j ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
+bib: Nascimento, Ana Paula Lion Mamede. 2008. Estudo fonético e fonológico da língua Guajá. PhD dissertation, Universidade de Brasília.
+bib: Magalhães, Marina Maria Silva. 2002. Aspectos fonológicos e morfossintáticos da língua guajá. MA thesis, Universidade de Brasília.
+bib: Magalhães, Marina Maria. 2007. Sobre A Morfologia e A Sintaxe da Língua Guajá. PhD Disseration, Universidad de Brasilia.

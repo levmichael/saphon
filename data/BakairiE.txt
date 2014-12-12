@@ -1,0 +1,9 @@
+name: Bakairí (Eastern dialect)
+name.short: Bakairí East
+name.comp: BakairiE
+iso: bkq_est
+family: Carib
+country: Brazil
+geo: -14.436 -54.029 497
+feat: p b t d k ɡ m n s z ʃ h w j ɾ l i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃ ə ə̃
+bib: Meira, Sérgio. 2005. Reconstructing Pre-Bakairi Segmental Phonology. Anthropological Linguistics 47.3. 261-291.

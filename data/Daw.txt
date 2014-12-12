@@ -1,0 +1,9 @@
+name: Dâw
+name.short: Dâw
+name.comp: Daw
+iso: kwa
+family: Nadahup
+country: Brazil
+geo: -0.150 -67.050 54
+feat: p b t d c ɟ k ɡ ʔ m m̰ n n̰ ɲ ɲ̰ ŋ ʃ x h w w̰ j j̰ l i ĩ e ɛ ɛ̃ a ã ɔ ɔ̃ o u ũ ɤ ɯ ɯ̃ tone
+bib: Martins, Silvana Andrade, 2004. Fonologia e gramática dâw. PhD dissertation, Vrije Universiteit Amsterdam.

@@ -1,0 +1,9 @@
+name: Matís
+name.short: Matís
+name.comp: Matis
+iso: mpq
+family: Panoan
+country: Brazil
+geo: -4.418 -70.306 83
+feat: p b t ts d ʈʂ tʃ k m n s ʂ ʃ w j i e a o u ɨ
+bib: Ferreira, Rogério Vicente. 2005. Língua matis (pano): uma descrição gramatical. PhD dissertation, Universidade Estadual de Campinas.

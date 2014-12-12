@@ -1,0 +1,9 @@
+name: Mapoyo
+name.short: Mapoyo
+name.comp: Mapoyo
+iso: mcg
+family: Carib
+country: Venezuela
+geo: 6.000 -67.000 88
+feat: p t k ʔ m n ɲ s h w j ɾ i e a o u ɨ ə
+bib: Mattei Muller, Marie-Claude. 2003. Pémono: eslabón perdido entre mapoyo y yawarana. Amerindia 28. 33-54.

@@ -1,0 +1,10 @@
+name: Yavitero
+name.short: Yavitero
+name.comp: Yavitero
+iso: yvt
+family: Arawak
+country: Venezuela
+geo: 2.767 -67.998 117
+feat: b t ts d dz k ɡ m n ɲ s h w j ɾ ɺ ɺ̥ i e a u
+note: [public]The authors observe that /p/and /r/ appear (only?) in loans, and that /nʲ/ is rare; /ɺ/ is a voiced lateral tap and /ɺ̥ / its voiceless counterpart.
+bib: Mosonyi, Esteban, Jorge Mosonyi, and Águeda Largo. 2000. Yavitero. In Esteban Mosonyi and Jorge Mosonyi (eds.), Manual de lenguas indígenas de Venezuela, Tomo II. 594-661.

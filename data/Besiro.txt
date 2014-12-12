@@ -1,0 +1,10 @@
+name: Bésɨro
+name.short: Bésɨro
+name.alt: Chiquitano
+name.comp: Besiro
+iso: cax
+family: Macro-Ge
+country: Bolivia
+geo: -16.637 -61.927 nan
+feat: p t tʃ c k ʔ m n ɲ β s ʂ ʃ ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
+bib: Sans, Pierric. 2010. Éléments de sociolinguistique et de phonologie du bésɨro (chiquitano). MA thesis, Université Lumiére Lyon 2.

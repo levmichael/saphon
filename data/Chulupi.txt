@@ -1,0 +1,12 @@
+name: Chulupí
+name.short: Chulupí
+name.alt: Nivaclé
+name.comp: Chulupi
+iso: cag
+family: Mataco
+country: Paraguay
+country: Argentina
+geo: -23.535 -60.527 162
+geo: -24.070 -61.031 170
+feat: p' p t' t ts' ts tʃ' tʃ kl k' k ʔ m n ɲ ɸ s ɬ ʃ x w j i e a ɑ o u
+bib: Campbell, Lyle and Verónica Grondona. 2007. Internal reconstruction in Chulupí (Nivaclé). Diachronica 24:1.

@@ -1,0 +1,10 @@
+name: Yine
+name.short: Yine
+name.alt: Piro
+name.comp: Yine
+iso: pib
+family: Arawak
+country: Peru
+geo: -11.137 -73.087 366
+feat: p t ts tʃ cç k m n s ʃ ç h̃ w j ɾ l i i: e e: a a: o o: ɯ ɯ:
+bib: Sebastián, Rittma and Stephen Marlett. 2008. Yine. Journal of the International Phonetic Association, 38: 365-369.

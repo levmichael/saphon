@@ -1,0 +1,10 @@
+name: Yaathe
+name.short: Yaathe
+name.alt: Iatê
+name.comp: Yaathe
+iso: fun
+family: Macro-Ge
+country: Brazil
+geo: -8.000 -37.300 664
+feat: pʰ p tʰ t ts d tʃʰ tʃ dʒ kʰ k m n ɸ s ʃ h w j l ʎ i i: e e: ɛ a a: ɔ o o: u u: tone
+bib: da Silva, Fábia Pereira. 2011. A sílaba em yaathe. MA thesis, Universidade Federal de Alagoas.

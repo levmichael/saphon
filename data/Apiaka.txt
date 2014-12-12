@@ -1,0 +1,9 @@
+name: Apiaká
+name.short: Apiaká
+name.comp: Apiaka
+iso: api
+family: Tupí
+country: Brazil
+geo: -11.049 -56.651 nan
+feat: p t k ʔ m n ŋ s h w j ɾ i ĩ e ẽ a ã o u ũ ɨ
+bib: Padua, Alexandre Jorge. 2007. Contribuição para a fonologia da língua apiaká (tupí-guaraní). MA thesis, Universidade de Brasília.

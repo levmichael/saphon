@@ -1,0 +1,9 @@
+name: Caquinte
+name.short: Caquinte
+name.comp: Caquinte
+iso: cot
+family: Arawak
+country: Peru
+geo: -11.709 -73.925 422
+feat: p t tʲ ts tʃ k m n ɲ ŋ N β s ʃ ɣ h j ɾ ɾʲ i i: e e: a a: o o:
+bib: Swift, Ken. 1988. Morfología del caquinte (Arawak Preandino). Lima: Ministerio de Educación and Instituto Lingüístico de Verano.

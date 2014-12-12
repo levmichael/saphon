@@ -1,0 +1,10 @@
+name: Mocoví
+name.short: Mocoví
+name.comp: Mocovi
+iso: moc
+family: Guaicuru
+country: Argentina
+geo: -28.406 -59.412 154
+feat: p t d tʃ dʒ k q ʔ m n ɲ s ʃ ɣ ʁ h w j ɾ l ʎ i i: e e: a a: o o:
+bib: Coria, Teresa, et al. 2006. Lengua, cultura e historia mocoví in Santa Fe. Buenos Aires: Universidad de Buenos Aires, Facultad de Filosofía y Letras. 190-192.
+bib: Grondona, Veronica María. 1998. A Grammar of Mocovi. PhD dissertation, University of Pittsburgh.

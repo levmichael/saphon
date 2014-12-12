@@ -1,0 +1,9 @@
+name: Xiriâna
+name.short: Xiriâna
+name.comp: Xiriana
+iso: xir
+family: Arawak
+country: Brazil
+geo: -0.293 -62.706 45
+feat: p b t ts d c ɟ k ʔ m n ɲ ɸ s x h w ɾ ʀ i e a u ɨ
+bib: Ramirez, Henri. 1992. Le Bahuana: Une nouvelle langue de la famille Arawak. Chantiers Amerindia 17, supplement 1. AEA.

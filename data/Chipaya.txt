@@ -1,0 +1,9 @@
+name: Chipaya
+name.short: Chipaya
+name.comp: Chipaya
+iso: cap
+family: Uru-Chipaya
+country: Bolivia
+geo: -18.296 -68.151 3677
+feat: p' pʰ p t' tʰ t ts' tsʰ ts ʈʂ' ʈʂʰ ʈʂ tʃ' tʃʰ tʃ k' kʰ k kʷ q' qʰ q qʷ m n ɲ ŋ s̪ s ɬ ʂ ʃ x xʷ χ χʷ w j ɾ l ʎ i i: e e: a a: o o: u u:
+bib: Olson, Ronald. 1967. The syllable in Chipaya. International Journal of American Linguistics, 33(4): 300-304.

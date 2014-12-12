@@ -1,0 +1,12 @@
+name: Epena
+name.short: Epena
+name.comp: Epena
+iso: sja
+family: Choco
+country: Colombia
+country: Ecuador
+geo: 3.000 -77.000 788
+feat: pʰ p b tʰ t d tʃ kʰ k ɡ ʔ s h w j ɾ r i ĩ i: e ẽ e: a ã a: o õ o: u ũ u: ɨ ɨ̃ ɨ: ə ə̃ ə:
+note: mid central unrounded vowel?
+bib: Harms, Phillip L. 1984. Fonología del epena pedee (saija). In Sistemas fonológicas de idiomas colombianos 5. Lomalinda: Editorial Townsend. 157-201.
+bib: Harms, Phillip L. 1994. Epena Pedee syntax: Studies in the languages of Colombia 4. Summer Institute of Linguistics and the University of Texas at Arlington Publications in Linguistics, 118. Dallas: Summer Institute of Linguistics and the University of Texas at Arlington. 4.

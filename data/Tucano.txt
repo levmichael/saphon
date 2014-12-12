@@ -1,0 +1,10 @@
+name: Tucano
+name.short: Tucano
+name.comp: Tucano
+iso: tuo
+family: Tucanoan
+country: Brazil
+country: Colombia
+geo: 0.300 -69.100 152
+feat: pʰ p b tʰ t d kʰ k ɡ ʔ s h w j ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃ tone
+bib: Welch, Betty and Birdie West. 2000. El tucano. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. Bogotá: Instituto Caro y Cuervo.

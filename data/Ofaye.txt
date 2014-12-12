@@ -1,0 +1,9 @@
+name: Ofayé
+name.short: Ofayé
+name.comp: Ofaye
+iso: opy
+family: Macro-Ge
+country: Brazil
+geo: -15.169 -53.171 461
+feat: t d tʃ dʒ k kʷ ɡ ʔ n ʃ h w j ɾ i ĩ e ẽ ɛ a ã o õ ə
+bib: Oliveira, Maria Das Dores de. 2006. Ofayé, A língua do povo do mel: fonologia e gramática. PhD dissertation, Universidade Federal de Alagoas.

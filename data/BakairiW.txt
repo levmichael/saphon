@@ -1,0 +1,10 @@
+name: Bakairí (Western dialect)
+name.short: Bakairí West
+name.comp: BakairiW
+iso: bkq_wst
+family: Carib
+country: Brazil
+geo: -14.730 -56.248 215
+feat: p b t d k ɡ ʔ m n s ʃ h w j ɾ l i ĩ e ẽ a ã o õ u ũ ə ə̃
+bib: Meira, Sérgio. 2005. Reconstructing Pre-Bakairi Segmental Phonology. Anthropological Linguistics 47.3. 261-291.
+bib: `

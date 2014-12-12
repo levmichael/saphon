@@ -1,0 +1,10 @@
+name: Kayabí
+name.short: Kayabí
+name.comp: Kayabi
+iso: kyz
+family: Tupí
+country: Brazil
+geo: -11.104 -56.528 nan
+feat: p t k kʷ ɡ ʔ m n ŋ ɸ s w j ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
+note: [public]Souza states that [f] and [ɸ] occur in free variation, with [f] being the more frequent (23).
+bib: Souza, Patrícia de Oliveira Borges. 2004. Estudos de aspectos da lígua kaiabi (tupí). MA thesis, Universidade Estadual de Campinas.

@@ -1,0 +1,10 @@
+name: Pirahã
+name.short: Pirahã
+name.comp: Piraha
+iso: myp
+family: Mura
+country: Brazil
+geo: -7.000 -62.000 60
+feat: p b t k ɡ ʔ s h i a o tone
+bib: Everett, Daniel Leonard. 1979. Aspectos da fonologia do pirahã. MA thesis, Universidade Estadual de Campinas.
+bib: Everett, Daniel Leonard. 1983. A lingua piraha e a teoria da sintaxe. PhD dissertation, Universidade Estadual de Campinas.

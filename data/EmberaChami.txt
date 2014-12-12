@@ -1,0 +1,9 @@
+name: Emberá-Chamí
+name.short: Emberá-Chamí
+name.comp: EmberaChami
+iso: cmi
+family: Choco
+country: Colombia
+geo: 5.027 -76.039 957
+feat: p b ɓ t d ɗ tʃ k m n s x w j ɾ r i ĩ e ẽ a ã o õ u ũ ɯ ɯ̃
+bib: Aguirre-Licht, Daniel. 1998. Embera. Munich: Lincom Europa.

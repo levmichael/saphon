@@ -1,0 +1,10 @@
+name: Piratapuyo
+name.short: Piratapuyo
+name.comp: Piratapuyo
+iso: pir
+family: Tucanoan
+country: Brazil
+country: Colombia
+geo: 0.200 -69.300 106
+feat: p b t d k ɡ ʔ s h w j ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃ tone
+bib: Klumpp, James W. and Deloris A. Klumpp. 1973. Sistema fonológico del piratapuyo. In Viola Waterhouse (ed.), Sistemas fonológicos de idiomas Colombianos 2, 107-20. Bogotá: Ministerio de Gobierno.

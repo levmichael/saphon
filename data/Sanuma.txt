@@ -1,0 +1,10 @@
+name: Sanumá
+name.short: Sanumá
+name.comp: Sanuma
+iso: xsu
+family: Yanomam
+country: Venezuela
+country: Brazil
+geo: 5.928 -64.972 937
+feat: p tʰ t ts k m n s h w l i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃ ə
+bib: Borgman, Donald M. 1990. Sanuma. In, Handbook of Amazonian Languages, Volume 2. (Ed.), Desmond C. Derbyshire and Geoffrey K. Pullum. Berlin: Mouton de Gruyter. 220-227.

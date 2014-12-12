@@ -1,0 +1,9 @@
+name: Trinitario
+name.short: Trinitario
+name.comp: Trinitario
+iso: trn
+family: Arawak
+country: Bolivia
+geo: -14.801 -64.904 nan
+feat: p t tʲ ts tʃ c k ʔ m n ɲ β s ç x w j ɾ i i: e e: æ æ: a a: o o: u u:
+bib: Rose, Françoise. To appear. "Mojeño Trinitario", in Lenguas de Bolivia, vol 3. Oriente, Mily Crevels and Peter Muysken (eds), La Paz: Plural Editores.

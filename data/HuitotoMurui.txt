@@ -1,0 +1,10 @@
+name: Huitoto, Murui
+name.short: Huitoto Mur
+name.comp: HuitotoMurui
+iso: huu
+family: Witotoan
+country: Colombia
+country: Peru
+geo: -1.275 -73.653 181
+feat: b t d c ɟ k ɡ m n ɲ ɸ β θ ɾ i e a o u ɨ tone
+bib: Petersen, Gabriele and Carlos Rosselli Patiño. 2000. El idioma uitoto. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. Bogotá: Instituto Caro y Cuervo.

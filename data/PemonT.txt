@@ -1,0 +1,13 @@
+name: Pemon (Tarepang dialect)
+name.short: Pemon Trpng
+name.comp: PemonT
+iso: aoc_tar
+family: Carib
+country: Brazil
+country: Guyana
+geo: 4.924 -61.055 770
+feat: p t k ʔ m n s w j ɾ i i: e e: a a: o o: u u: ə
+note: [public]Pessoa and Cruz propose different phonemic inventories, but since Cruz served as an advisor for Pessoa's master's thesis, we infer that Pessoa's inventory is accurate.
+bib: Pessoa, Katia Nepomuceno. 2005. Comparação de Aspectos fonológicos das línguas pemon e do Taurepang (Família Caribe). Simpósio Internacional Sobre Linguistica Histórica Na América Do Sul. Livro de resumos. Belém-Pará. 74.
+bib: Cruz, Maria Odileiz Sousa. 1995. A fonologia Taurepang: a lingua da familia Karib falada em Roraima. MA thesis, Universidade Federal de Pernambuco.
+bib: Pessoa, Katia Nepomuceno. 2006. Fonologia Taurepang e comparação preliminar da fonologia de línguas do grupo Pemóng (Família Caribe). PhD dissertation, Universidade Federal de Pernambuco.

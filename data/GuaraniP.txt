@@ -1,0 +1,11 @@
+name: Paraguayan Guaraní
+name.short: Guaraní Prgy
+name.comp: GuaraniP
+iso: gug
+family: Tupí
+country: Paraguay
+geo: -24.911 -57.501 143
+feat: p mb t nd dʒ k kʷ ŋɡ ŋɡʷ ʔ s ʃ x ɣ ɣʷ ʋ ɾ l i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
+note: [public]/r/ is only found in loans.
+bib: Walker, R. 1999. Guaraní voiceless stops in oral versus nasal contexts: An acoustical study. Journal of the International Phonetic Association. Vol. 29 (1), pp. 63-94.
+bib: Krivoshein de Canese, Natalia, & Feliciano Acosta Alcaraz. 2000. Diccionario guaraní-español, español-guaraní. Asunción: Instituto Superior de Lenguas.

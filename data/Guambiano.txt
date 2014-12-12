@@ -1,0 +1,12 @@
+name: Guambiano
+name.short: Guambiano
+name.comp: Guambiano
+iso: gum
+family: Barbacoan
+country: Colombia
+geo: 2.480 -76.672 1717
+feat: p t ts ʈʂ tʃ k kʷ ʔ m n ɲ s ʂ ʃ ʒ w j ɾ l ʎ i e a o ɨ
+note: [public]Branch and Long posit /kʷ/ and /ʒ/, while Vásquez excludes these segments from the inventory. Vásquez also proposes /ə/ instead of /ɨ/, and /u/ instead of /o/. Long posits /ʔ/, which we include here due to its appearance in other Barbacoan languages.
+bib: Branks, Thomas and Judith Branks. 1973. Fonología del guambiano. Sistemas Fonológicos de Idiomas Colombianos: Tomo II. Bogota: Ministerio de Gobierno. 39-56.
+bib: Long, Violeta. 1985. Estudio de la lengua guambiano. University of St. Andrews Centre for Latin American Studies Working Paper 20. Larnaca, Cyprus.
+bib: Vásquez, Beatriz. 2000. Guambiano: algunos aspectos sobre morfología nominal. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. 155-156.

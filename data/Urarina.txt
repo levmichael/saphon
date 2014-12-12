@@ -1,0 +1,9 @@
+name: Urarina
+name.short: Urarina
+name.comp: Urarina
+iso: ura
+family: Isolate
+country: Peru
+geo: -4.000 -75.000 128
+feat: b t d tʃ k kʷ m n ɲ fʷ s ʃ h hʲ l ɽ i e a u ʉ tone
+bib: Olawsky, Knut. 2006. A Grammar of Urarina. Berlin: Mouton de Gruyter. 30-54.

@@ -1,0 +1,11 @@
+name: Awa-Cuaiquer
+name.short: Awa-Cuaiquer
+name.alt: Awa Pit
+name.comp: AwaCuaiquer
+iso: kwi
+family: Barbacoan
+country: Ecuador
+country: Colombia
+geo: 1.300 -78.150 828
+feat: p t ts tʃ k m n s z ʃ ʒ h w j ɾ l i ĩ e ẽ a ã u ũ ɨ ɨ̃
+bib: Calvache, Rocío Dueñas. 2000. Aproximación al Awa Pit. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo.

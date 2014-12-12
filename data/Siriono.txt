@@ -1,0 +1,9 @@
+name: Sirionó
+name.short: Sirionó
+name.comp: Siriono
+iso: srq
+family: Tupí
+country: Bolivia
+geo: -14.771 -64.227 nan
+feat: t tʃ kʲ k m n ɲ β s h w j ɾ i e a o u ɨ nasal harmony
+bib: Gasparini, Noé. 2012. Observations sociolinguistiques et esquisse de la phonologie du siriono, langue tupí-guaraní de Bolivie. MA thesis, Lumière Lyon 2.

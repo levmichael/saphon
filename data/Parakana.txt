@@ -1,0 +1,9 @@
+name: Parakanã
+name.short: Parakanã
+name.comp: Parakana
+iso: pak
+family: Tupí
+country: Brazil
+geo: -5.822 -52.511 nan
+feat: p t tʃ k kʷ ʔ m n ŋ β h ɾ i e a o ɨ
+bib: da Silva, Gino Ferreira. 2003. Construindo um dicionário parakanã-portugûes. MA thesis, Universidade Federal do Pará.

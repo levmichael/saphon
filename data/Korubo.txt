@@ -1,0 +1,9 @@
+name: Korubo
+name.short: Korubo
+name.comp: Korubo
+iso: xor
+family: Panoan
+country: Brazil
+geo: -5.132 -70.606 115
+feat: p t ts tʃ k kʷ m n β s ɬ ʃ w j i e a o u ɨ
+bib: de Oliveira, Sanderson Castro Soares. 2009. Preliminares sobre a fonética e a fonologia da língua falada pelo primeiro grupo de indios korúbo recémcontatados. MA thesis, Universidade de Brasília.

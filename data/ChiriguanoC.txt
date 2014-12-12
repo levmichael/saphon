@@ -1,0 +1,9 @@
+name: Chiriguano (Chané dialect)
+name.short: Chiriguano C
+name.comp: ChiriguanoC
+iso: gui_chn
+family: Tupí
+country: Bolivia
+geo: -17.793 -63.180 470
+feat: p t tʃ k kʷ m n ŋ β s ʝ ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
+bib: Dietrich, Wolf. 1986. El Idioma chiriguano: Gramática, textos, vocabulario. Madrid: Instituto de Cooperación Iberoamericana. 45-50.

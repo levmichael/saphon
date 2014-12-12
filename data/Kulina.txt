@@ -1,0 +1,12 @@
+name: Kulina
+name.short: Kulina
+name.alt: Culina
+name.comp: Kulina
+iso: cul
+family: Arawan
+country: Brazil
+country: Peru
+geo: -6.000 -70.300 215
+feat: pʰ p b tʰ t tsʰ ts d dz kʰ k ʔ m n h w ɾ i e a o
+bib: Adams, Patsy and Esther Gordon de Powlison. 1976. Los Fonemas Segmentales Del Culina Peruano (Arahuaca Araua). Datos Etno-Lingüísticos 28. Lima, Peru: Instituto Lingüístico de Verano. 1-16.
+bib: Dixon, R.M.W. 2004. Proto-Arawá Phonology. Anthropological Linguistics 46(1): 1-83.

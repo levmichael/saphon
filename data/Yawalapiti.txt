@@ -1,0 +1,10 @@
+name: Yawalapití
+name.short: Yawalapití
+name.comp: Yawalapiti
+iso: yaw
+family: Arawak
+country: Brazil
+geo: -12.672 -53.561 335
+feat: p t ts tʃ k m n ɲ ʂ ʃ h w j ɾ r̥ l ʎ i a u ɨ
+note: [public]Mujica describes the segment /r̥/ as a 'vibrante alveolar ensurdecido com fricção'.
+bib: Mujica, Mitzila Isabel Ortega. 1992. Aspectos fonológicos e gramaticais da língua Yawalapití (Aruak). MA thesis, Universidade Estadual de Campinas.

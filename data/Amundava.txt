@@ -1,0 +1,9 @@
+name: Amundava
+name.short: Amundava
+name.comp: Amundava
+iso: adw
+family: Tupí
+country: Brazil
+geo: -10.994 -63.064 208
+feat: p t tʃ k kʷ ʔ m n ɲ ŋ ŋʷ β h ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
+bib: Sampaio, Wany Bernadette de Araújo. 1998. Estudo comparativo sincrônico entre o parintintin (tenharim) e o uru-eu-uau-uau (amondawa): contribuições para uma revisão na classificação das línguas tupi-kawahib. MA thesis, Universidade Estadual de Campinas.

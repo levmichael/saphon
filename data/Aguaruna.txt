@@ -1,0 +1,11 @@
+name: Aguaruna
+name.short: Aguaruna
+name.comp: Aguaruna
+iso: agr
+family: Jivaroan
+country: Peru
+geo: -4.765 -77.960 1097
+feat: p t ts tʃ k ʔ m n s ʃ h β̞ j ɰ ɾ i ĩ a ã u ũ ɨ ɨ̃
+note: [public]There is also an unspecified nasal archiphoneme /N/ that forms homorganic NC clusters when followed by stops or affricates.
+bib: Overall, Simon E. 2007. A grammar of Aguaruna. PhD dissertation, La Trobe University.
+bib: Overall, Simon. 2013. Phoneme inventory of Aguaruna. Ms.

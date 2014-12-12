@@ -1,0 +1,11 @@
+name: Barasana-Eduria
+name.short: Barasana-E
+name.comp: BarasanaE
+iso: bsn
+family: Tucanoan
+country: Colombia
+geo: -0.100 -70.400 133
+feat: p b t d c ɟ k ɡ h w ɾ i e a o u ɨ tone nasal harmony
+note: [public]/p/ occurs in loans from Spanish and other indigenous languages.
+bib: Gomez-Imbert, Elsa. 1997. Morphologie et phonologie Barasana: Approche non-linéaire. PhD dissertation, Université Paris 8.
+bib: Gomez, Elsa & Michael Kenstowicz. 2000. Barasana tone and accent. IJAL 66.419-463.

@@ -1,0 +1,9 @@
+name: Tapirapé
+name.short: Tapirapé
+name.comp: Tapirape
+iso: taf
+family: Tupí
+country: Brazil
+geo: -10.708 -50.619 nan
+feat: p t tʃ k kʷ ʔ m n ŋ h w j ɾ i ĩ e ẽ a ã o õ ɨ ɨ̃
+bib: Praça, Walkíria Neiva. 2007. Morfossintaxe da língua Tapirapé. PhD dissertation, Universidade de Brasília.

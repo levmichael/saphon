@@ -1,0 +1,9 @@
+name: Baré
+name.short: Baré
+name.comp: Bare
+iso: bae
+family: Arawak
+country: Venezuela
+geo: 1.000 -67.000 98
+feat: pʰ p b tʰ t d tʃ kʰ k ʰm m ʰn n s h ʰw w j ɻ i e a u
+bib: Aikhenvald, Alexandra 1995. Bare. Languages of the World/Materials 100. Munich: Lincom Europa.

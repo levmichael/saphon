@@ -1,0 +1,9 @@
+name: Jauja-Huanca Quechua
+name.short: Jauja-Huanca
+name.comp: JaujaHuancaQ
+iso: qxw
+family: Quechua
+country: Peru
+geo: -12.073 -75.219 3449
+feat: p t ʈʂ tʃ k m n ɲ s ʃ h w j ɾ l ʎ i i: a a: u u:
+bib: Wroughton, John R. 1996. Gramática y textos del quechua Shausha Huanca. Documento de Trabajo 30. Yarinacocha: Ministerio de Educación and Instituto Lingüístico de Verano. 15-16.

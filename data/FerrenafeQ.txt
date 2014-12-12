@@ -1,0 +1,10 @@
+name: Ferreñafe Quechua
+name.short: Ferreñafe Q
+name.comp: FerrenafeQ
+iso: quf
+family: Quechua
+country: Peru
+geo: -6.638 -79.790 39
+feat: p t ʈʂ tʃ k q m n ɲ s ʃ ʒ w j ɾ l i a u
+bib: Taylor, Gérald. 1982. Aspectos de la dialectología quechua. Paris: Association d'Ethnolinguistique Amerindienne. 3.
+bib: Escribens Trisano, Augusto. 1977. Fonoloɡía del quechua de Ferreñafe. Lima : Universidad Nacional Mayor de San Marcos, Centro de Investigación de Lingüística Aplicada.

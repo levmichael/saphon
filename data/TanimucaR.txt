@@ -1,0 +1,11 @@
+name: Tanimuca-Retuarã
+name.short: Tanimuca-Rtr
+name.comp: TanimucaR
+iso: tnc
+family: Tucanoan
+country: Colombia
+geo: -0.330 -70.554 nan
+feat: p b t d k ʔ s h w j ɾ i ĩ e ẽ a ã o õ u ũ tone
+note: [public]We use /j/ to represent what Ardila describes as a 'semivocal palatal', depite Ardila's useof /dy/ in her orthography.
+bib: Ardila, Olga. 2000. Reseña bibliográfica del tanimuca. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. Bogotá: Instituto Caro y Cuervo.
+bib: Keller, Natalia Eraso. 1999. Cambios tonales en la palabra verbal de la lengua tanimuca. Congresso de Lingüística Amerindia y Criolla, 72-95. Memorias.

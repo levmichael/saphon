@@ -1,0 +1,11 @@
+name: Warao
+name.short: Warao
+name.comp: Warao
+iso: wba
+family: Isolate
+country: Venezuela
+country: Suriname
+country: Guyana
+geo: 9.307 -61.355 11
+feat: p t k kʷ m n s h w j ɾ i e a o u
+bib: Romero-Figueroa, Andrés. 1997. A Reference Grammar of Warao. Munich: Lincom.

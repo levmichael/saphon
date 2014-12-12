@@ -1,0 +1,9 @@
+name: Itonama
+name.short: Itonama
+name.comp: Itonama
+iso: ito
+family: Isolate
+country: Bolivia
+geo: -12.809 -64.327 144
+feat: p b t' t tʲ d tʃ' tʃ k' k ʔ m n s h w j ɾ l i e a o u ɨ
+bib: Crevels, Mily. 2002. Itonama o Sihnipadara, Lengua no clasificada de la Amazonía Boliviana. Estudios de Lingüística 16.

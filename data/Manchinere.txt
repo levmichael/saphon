@@ -1,0 +1,11 @@
+name: Manchinere
+name.short: Manchinere
+name.alt: Machinere
+name.comp: Manchinere
+iso: mpd
+family: Arawak
+country: Bolivia
+country: Brazil
+geo: -10.737 -70.291 349
+feat: p t ts tʃ k m n s ʃ h w j ɾ i e a o ɨ
+bib: dos Santos Silva, Edineide. 2008. Fonética e Análise Fonológica Preliminar Da Lingua Manxinéri. PhD dissertation, Universidade De Brasilia. 5.

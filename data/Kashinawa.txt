@@ -1,0 +1,9 @@
+name: Kashinawa
+name.short: Kashinawa
+name.comp: Kashinawa
+iso: cbs
+family: Panoan
+country: Peru
+geo: -10.125 -71.226 316
+feat: p b t ts d tʃ k m n s ʂ ʃ h w j i ĩ a ã u ũ ɤ ɤ̃ tone
+bib: Kensinger, Kenneth. 1963. The phonological hierarchy of Cashinahua (Pano). In Studies in Peruvian Indian languages 1. Summer Institute of Linguistics Publications in Linguistics and Related Fields, 9. Norman: Summer Institute of Linguistics of the University of Oklahoma. 207-17.

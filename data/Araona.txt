@@ -1,0 +1,10 @@
+name: Araona
+name.short: Araona
+name.comp: Araona
+iso: aro
+family: Tacanan
+country: Bolivia
+geo: -12.353 -67.751 199
+feat: p b t ts d tʃ dʒ k kʷ m n ɲ s z ʃ h w j l i e a o
+note: [public]/l/ is sometimes realized as a flap.
+bib: Pitman, Mary. 1981. Diccionario araona y castellano. Riberalta: Instituto Lingüístico de Verano and Ministerio de Educación y Cultura.

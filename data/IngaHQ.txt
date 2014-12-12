@@ -1,0 +1,10 @@
+name: Inga (Highland dialect)
+name.short: Inga Highlnd
+name.comp: IngaHQ
+iso: inb
+family: Quechua
+country: Colombia
+geo: 1.223 -76.658 1189
+feat: p b t ts d tʃ k ɡ m n ɲ s ʃ x w j ɾ l ʎ i a u
+note: [public]According to Levinsohn and Jansasoy, “la vibrante es dental, retrofleja, sonora y (en el dialecto de Santiago) múltiple” (122).
+bib: Levinsohn, Stephen and Francisco Tandioy Jansasoy. 2000. Inga. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. 121-122.

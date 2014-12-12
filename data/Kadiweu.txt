@@ -1,0 +1,10 @@
+name: Kadiwéu
+name.short: Kadiwéu
+name.comp: Kadiweu
+iso: kbc
+family: Guaicuru
+country: Brazil
+geo: -20.002 -57.002 97
+feat: p b b: t d d: tʃ dʒ k ɡ ɡ: q ɢ m m: n n: w w: j j: l l: i i: e e: a a: o o: tone
+note: [public]Sandalo notes that there are register-based phonological differences, and “noble and non-noble Kadiwéu differ in that Noble Kadiwéu lacks long semivowels.”
+bib: Sandalo, Filomena. 1997. A grammar of Kadiwéu: with special reference to the polysynthesis parameter. MIT Occasional Papers in Linguistics, 11. Cambridge, MA: MIT. 14-15.

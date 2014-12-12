@@ -1,0 +1,10 @@
+name: Ancash Quechua (Sihuas and Corongo dialects)
+name.short: Ancash Q
+name.comp: AncashQ
+iso: qwa
+iso: qws
+family: Quechua
+country: Peru
+geo: -8.583 -77.759 3792
+feat: p t ts ʈʂ tʃ k q m n ɲ s ʃ h w j ɾ l ʎ i i: a a: u u:
+bib: Julca, Felix. 2009. personal communication

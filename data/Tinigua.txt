@@ -1,0 +1,9 @@
+name: Tinigua
+name.short: Tinigua
+name.comp: Tinigua
+iso: tit
+family: Isolate
+country: Colombia
+geo: 2.345 -73.304 211
+feat: pʰ p b tʰ t ts d tʃ c ɟ kʰ k kʷ ɡ m n ɲ ɸ s z h w i ḭ i: e ḛ e: a a̰ a: o o̰ o: u ṵ u: ɨ ɨ̰ ɨ:
+bib: Tobar, Nubia. 2000. La lengua tinigua. Anotaciones fonológicas y morfológicas. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo.

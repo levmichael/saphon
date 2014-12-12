@@ -1,0 +1,11 @@
+name: Oro Win
+name.short: Oro Win
+name.comp: OroWin
+iso: orw
+family: Chapakuran
+country: Brazil
+geo: -11.088 -64.078 nan
+feat: p t̪ʙ t k ʔ m n β s w j ɾ i ʏ e a o ø
+note: [public]Popky lists /f/ and /h/ as phonemes and does not list the phoneme /β/. Birchall has clarifed that these three sounds are allophones of a single phoneme /β/.
+bib: Popky, Donna H. 1999. Oro Win: a descriptive and comparative look at an endangered language. MA thesis, University of Pittsburgh.
+bib: Joshua Birchall, personal communication.

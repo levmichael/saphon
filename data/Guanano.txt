@@ -1,0 +1,13 @@
+name: Wanano
+name.short: Wanano
+name.alt: Guanano
+name.comp: Guanano
+iso: gvc
+family: Tucanoan
+country: Colombia
+country: Brazil
+geo: 0.500 -69.300 144
+feat: pʰ p b tʰ t d tʃ kʰ k ɡ ʔ s h w j ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃ tone
+bib: Waltz, Nathan and Carolyn Waltz. 1972. Fonología del guanano. In Viola Waterhouse (ed.), Sistemas fonológicos de idiomas colombianos 1.  Bogotá: Ministerio de Gobierno and Instituto Lingüístico de Verano. 31-37.
+bib: Waltz, Nathan and Carolyn Waltz. 1997. Introduction. El agua, la roca, y el humo: Estudios sobre la cultura wanana del Vaupés. Santafé de Bogotá, D.C., Colombia: Instituto Lingüístico de Verano.
+bib: Waltz, Nathan and Carolyn Waltz. 2000. El wanano. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. Bogotá: Instituto Caro y Cuervo. 453-454.

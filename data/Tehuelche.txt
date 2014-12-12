@@ -1,0 +1,10 @@
+name: Tehuelche
+name.short: Tehuelche
+name.comp: Tehuelche
+iso: teh
+family: Chon
+country: Argentina
+geo: -48.000 -68.000 102
+feat: p' p b t' t d tʃ' tʃ k' k ɡ q' q ɢ ʔ m n s ʃ x χ w j ɾ l e e: a a: o o:
+bib: Viegas, Pedro Barros. 2005. Voces en el viento: Raíces lingüísticas de la Patagonia. Buenos Aires: Mondragon Ediciones. 61.
+bib: Meroz, Yoram. p.c.

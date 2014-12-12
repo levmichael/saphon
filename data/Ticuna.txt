@@ -1,0 +1,11 @@
+name: Ticuna
+name.short: Ticuna
+name.comp: Ticuna
+iso: tca
+family: Isolate
+country: Peru
+country: Brazil
+country: Colombia
+geo: -3.916 -70.239 86
+feat: p b t d c ɟ k ɡ m n ɲ ŋ ɸ w ɾ i ĩ ḭ e ḛ ẽ a a̰ ã o o̰ õ u ṵ ũ ɯ ɯ̰ ɯ̃ tone
+bib: Montes Rodríguez, María Emilia. 2005. Fonología y dialectología del tikuna. Amerindia 29-30. 98-107.

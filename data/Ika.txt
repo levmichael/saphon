@@ -1,0 +1,12 @@
+name: Ika
+name.short: Ika
+name.alt: Arhuaco
+name.comp: Ika
+iso: arh
+family: Chibchan
+country: Colombia
+geo: 10.659 -73.752 54
+feat: p b t d tʃ dʒ k ɡ ʔ m n N s z ɾ i e a o u ə
+note: wrote /ʌ/ but put it in the /ə/ position
+note: have /ɾ/ as [ʐ] and say it is a dental vibrante
+bib: Landaburu, Jon. 2000. La lengua ika. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo.

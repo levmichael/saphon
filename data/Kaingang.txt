@@ -1,0 +1,9 @@
+name: Kaingang
+name.short: Kaingang
+name.comp: Kaingang
+iso: kgp
+family: Macro-Ge
+country: Brazil
+geo: -26.000 -52.000 769
+feat: p b t tʃ k m n ɲ ʃ j ɾ i e a o u
+bib: Neto, Ambrósio Pereira da Silva. 2007. Revisão da Classificação da Família Lingüística Purí. MA thesis, Universidade de Brasília.

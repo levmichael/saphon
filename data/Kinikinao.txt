@@ -1,0 +1,10 @@
+name: Kinikinao
+name.short: Kinikinao
+name.comp: Kinikinao
+iso: gqn
+family: Arawak
+country: Brazil
+geo: -19.989 -57.028 239
+feat: p t k ʔ m n s ʃ h w j ɾ l i ĩ e ẽ a ã o õ u ũ
+note: [public] de Souza observes that first person markers on verbs are realized as supersegmental nasalization.
+bib: de Souza, Ilda. 2008. Koenukunoe emo'u: A língua dos índios Kinikinau. PhD dissertation, Universidade Estadual de Campinas.

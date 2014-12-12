@@ -1,0 +1,15 @@
+name: Kwaza
+name.short: Kwaza
+name.comp: Kwaza
+iso: xwa
+family: Isolate
+country: Brazil
+geo: -12.350 -60.400 340
+feat: p ɓ t ts ɗ cç c k ʔ m n ɲ s ʃ h w j ɾ l i ĩ e ẽ ɛ ɛ̃ a ã o õ u ũ ɨ ɨ̃ ʉ ʉ̃
+note: [public]Van der Voort's close-mid central unrounded /y/ is represented here as /ɨ/.
+note: [public]Van der Voort states that “implosive [ɓ] and plosive [b] are in free variation” (52).
+note: [public]Van der Voort states that “plosive [d] is a rare but free variant of /d/” (52)
+note: [public]According to van der Voort, “/x/ is an apico-alveolar fricative [s̺] (henceforth symbolised as an extra retracted [s].” (54)
+note: [public]According to van der Voort, “/c/ is a voiceless post-alveolar apical plosive...the /c/ could be considered as the plosive counterpart of the fricative /s/” (56)
+bib: Voort, Hein van der. 2000. Kwaza or Koaiá, an Unclassified Language of Rondônia, Brazil. Indigenous Languages of Latin America 1. Leiden University, the Netherlands: CNWS Publications. 39-52.
+bib: Van der Voort, Hein. 2004. A Grammar of Kwaza. Berlin: Mouton de Gruyter. 45-68.

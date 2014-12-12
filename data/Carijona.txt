@@ -1,0 +1,9 @@
+name: Carijona
+name.short: Carijona
+name.comp: Carijona
+iso: cbd
+family: Carib
+country: Colombia
+geo: 0.148 -70.708 216
+feat: b t d tʃ dʒ k ɡ m n ɲ s h w ɾ i e a o u ɨ ə
+bib: Robayo Moreno, Camilo Alberto. 2001. Avance sobre morfología carijona. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Santafe de Bogotá: Instituto Caro y Cuervo. 171.

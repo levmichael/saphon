@@ -1,0 +1,9 @@
+name: Reyesano
+name.short: Reyesano
+name.comp: Reyesano
+iso: rey
+family: Tacanan
+country: Bolivia
+geo: -14.294 -67.387 nan
+feat: p mb t tɕ ʈʂ ɳɖʐ k kʷ m n ð s ɕ h w j ɾ l i e a ʊ
+bib: Guillaume, Antoine. 2012. Maropa (reyesano). In Mily Crevels and Pieter Muysken (eds.), Las lenguas de Bolivia, Tomo II Amazonia. La Paz: Plural Editores. pp. 191-229.

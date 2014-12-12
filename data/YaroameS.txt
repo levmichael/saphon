@@ -1,0 +1,9 @@
+name: Yãroamë of Serra do Pacu/Ajarani
+name.short: Yãroamë Serra
+name.comp: YaroameS
+iso: yrm_pac
+family: Yanomam
+country: Brazil
+geo: 1.720 -62.070 nan
+feat: p t tʃ k m n ɲ x h w ɾ i ĩ i: ĩ: e ẽ e: ẽ: a ã a: ã: o õ o: õ: u ũ u: ũ: ə ə̃ ə: ə̃:
+bib: Ferreira, Helder. personal communication.

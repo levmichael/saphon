@@ -1,0 +1,9 @@
+name: Avá-Canoeiro
+name.short: Avá-Canoeiro
+name.comp: AvaCanoeiro
+iso: avv
+family: Tupí
+country: Brazil
+geo: -11.213 -50.609 nan
+feat: p t tʃ k kʷ m n ŋ ʁ w j ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
+bib: Borges, Mônica Veloso. 2006. Aspectos fonológicos e morfossintáticos da língua avá-ganoeiro (tupí-guaraní). PhD dissertation, Universidade Estadual de Campinas.

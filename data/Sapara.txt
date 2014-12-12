@@ -1,0 +1,10 @@
+name: Sápara
+name.short: Sápara
+name.alt: Záparo
+name.comp: Sapara
+iso: zro
+family: Zaparoan
+country: Ecuador
+geo: -1.885 -76.476 227
+feat: p t ts tʃ kʲ k kʷ m mʲ n ɲ s ʃ h hʷ w j ɾ i a u ɨ
+bib: Michael, Lev, Vivian Wauters, and Christine Beier. in prep. A Reconstruction of Proto-Zaparoan phonology.

@@ -1,0 +1,10 @@
+name: Omagua
+name.short: Omagua
+name.comp: Omagua
+iso: omg
+family: Tupí
+country: Peru
+country: Brazil
+geo: -4.288 -73.430 nan
+feat: p t ts tʃ k kʷ m n s ʃ w j ɾ i ɪ a u ɨ
+bib: O'Hagan, Zachary and Clare Sandy. 2010. Omagua Phonology. Ms., University of California, Berkeley.

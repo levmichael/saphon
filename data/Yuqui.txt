@@ -1,0 +1,9 @@
+name: Yuqui
+name.short: Yuqui
+name.comp: Yuqui
+iso: yuq
+family: Tupí
+country: Bolivia
+geo: -16.750 -64.840 nan
+feat: p b t d tʃ kʲ k kʷ ɡ ɡʷ ʔ m n ɲ s ʝ x xʲ xʷ ɾ i ĩ i: ĩ: e ẽ e: ẽ: a ã a: ã: o õ o: õ: u ũ u: ũ:
+bib: Villafañe, Lucrecia. 2004. Gramática yukí: Lengua tupí-guaraní de Bolivia. Tucamán, Argentina: Ediciones del Rectorado Universidad Nacional de Tucamán. 13-22.

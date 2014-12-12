@@ -1,0 +1,9 @@
+name: Mundurukú
+name.short: Mundurukú
+name.comp: Munduruku
+iso: myu
+family: Tupí
+country: Brazil
+geo: -7.065 -58.004 169
+feat: p b t d tʃ dʒ k ʔ m n ŋ s ʃ h w j ɾ i ĩ ḭ̃ ḭ e ḛ̃ ḛ ẽ a ã̰ a̰ ã o õ̰ o̰ õ ə ə̰̃ ə̰ ə̃ tone
+bib: Picanço, Gessiane Lobato. 2005. Mundurukú: phonetics, phonology, synchrony, diachrony. PhD dissertation, University of British Columbia.

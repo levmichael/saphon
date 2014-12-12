@@ -1,0 +1,10 @@
+name: Secoya
+name.short: Secoya
+name.comp: Secoya
+iso: sey
+family: Tucanoan
+country: Ecuador
+country: Peru
+geo: -0.333 -75.232 258
+feat: p t d tʃ k kʷ ʔ m n s z h w j i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃ tone
+bib: Johnson, Orville E., Stephen H. Levinson, and Alva Wheeler. 1990. Gramática secoya. Cuadernos Etnolingüísticos 11. 13-19.

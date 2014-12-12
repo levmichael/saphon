@@ -1,0 +1,10 @@
+name: Shiwilu
+name.short: Shiwilu
+name.alt: Jebero
+name.comp: Shiwilu
+iso: jeb
+family: Cahuapanan
+country: Peru
+geo: -5.281 -76.283 155
+feat: p t tʃ k ʔ m n ɲ s ʃ w ð̞ j ɾ ʔɾ l ʎ i a u ə
+bib: Valenzuela, Pilar and Carlos Gussenhoven. to appear. Phonological sketch of Shiwilu. JIPA.

@@ -1,0 +1,9 @@
+name: Panará
+name.short: Panará
+name.comp: Panara
+iso: kre
+family: Macro-Ge
+country: Brazil
+geo: -11.643 -53.309 329
+feat: p t k ʔ m n s h w j ɾ i ĩ e ẽ ɛ a ã ɔ o õ u ũ ɨ ɨ̃ ə
+bib: Dourado, Luciana. 2001. Aspectos Morfossintáticos da Língua Panará (Jê). PhD dissertation, Universidade Estadual de Campinas. 233-240.

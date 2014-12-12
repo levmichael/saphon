@@ -1,0 +1,11 @@
+name: Shawi
+name.short: Shawi
+name.alt: Chayahuita
+name.comp: Shawi
+iso: cbt
+family: Cahuapanan
+country: Peru
+geo: -5.592 -76.324 208
+feat: p t tʃ k ʔ m n β s ʃ h w j ɾ i a u ɨ
+bib: Barraza, Yris. 2005. El sistema verbal en la lengua shawi. PhD dissertation, Universidade Federal do Pernambuco.
+bib: Hart, George, HelenHart and Esther Powlison. 1976. La fonología de Chayahuita. Datos Etno-Lingüísticos 28. Lima, Peru: Instituto Lingüístico de Verano.

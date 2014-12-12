@@ -1,0 +1,9 @@
+name: Cavineña
+name.short: Cavineña
+name.comp: Cavinenya
+iso: cav
+family: Tacanan
+country: Bolivia
+geo: -12.806 -66.937 nan
+feat: p b t ts d tɕ c ɟ k kʷ m n ɲ s ɕ h w j ɺ ʎ i e a ʊ
+bib: Guillaume, Antoine. 2008. A Grammar of Cavineña. Berlin: Walter de Grutyer.

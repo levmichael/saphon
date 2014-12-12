@@ -1,0 +1,11 @@
+name: Aché
+name.short: Aché
+name.comp: Ache
+iso: guq
+family: Tupí
+country: Paraguay
+geo: -25.446 -56.727 126
+geo: -24.931 -55.588 268
+geo: -25.244 -55.374 252
+feat: p b mb t d nd tʃ dʒ ndʒ k ɡ ŋɡ ʔ m n ɲ ɸ β v w j ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
+bib: Roessler, Eva-Maria. 2008. Aspectos da gramática achê: descrição e reflexão sobre uma hipótese de contato. MA thesis, Universidade Estadual de Campinas.

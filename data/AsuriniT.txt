@@ -1,0 +1,9 @@
+name: Asuriní do Tocantins
+name.short: Asuriní Toc
+name.comp: AsuriniT
+iso: asu
+family: Tupí
+country: Brazil
+geo: -3.300 -50.000 nan
+feat: p t k kʷ ʔ m n ŋ s h w i e a o ɨ
+bib: Nicholson, Velda. 2009 [1975]. Transformações morfofonêmicas em asuriní. Anápolis: Asociação Internacional de Linguística.

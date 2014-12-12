@@ -1,0 +1,11 @@
+name: Hup
+name.short: Hup
+name.comp: Hupde
+iso: jup
+family: Nadahup
+country: Colombia
+country: Brazil
+geo: 0.100 -69.150 135
+feat: p' p b b̰ t d d̰ c ɟ̰ k ɡ ɡ̰ ʔ ç h w w̰ j j̰ i ĩ e æ æ̃ a ã ɔ ɔ̃ o u ũ ɨ ɨ̃ ə tone
+note: [public]Epps observes that /pʼ/ is found in only one word.
+bib: Epps, Patience. 2008. A Grammar of Hup. Berlin: Walter de Gruyter. 41.

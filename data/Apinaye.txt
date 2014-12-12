@@ -1,0 +1,11 @@
+name: Apinayé
+name.short: Apinayé
+name.comp: Apinaye
+iso: apn
+family: Macro-Ge
+country: Brazil
+geo: -5.300 -48.000 110
+feat: p mb t nd tʃ ndʒ k ʔ m n ɲ ŋ f s w j ɾ i ĩ e ẽ ɛ a ɔ o õ u ũ ɨ ɨ̃ ə ə̃ ɘ ʌ
+note: see other sheet for other inventory
+bib: Albuquerque, Francisco Edviges. 2007. Contribuicao da fonologia ao processo de educação indigena apinaye. PhD dissertation, Universidade Federal Fluminense.
+bib: Oliveira, Christiane Kuña de. 2005. Language of the Apinajé people of Central Brazil. PhD dissertation, University of Oregon.

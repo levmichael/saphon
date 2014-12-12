@@ -1,0 +1,9 @@
+name: Miraña
+name.short: Miraña
+name.comp: Miranya
+iso: boa_mrn
+family: Boran
+country: Brazil
+geo: -1.322 -70.800 nan
+feat: p b t ts d dz tʃ dʒ k ɡ ɡʷ ʔ m n β h ɾ i i: ɛ ɛ: a a: aʲ aʲ: o o: ɨ ɨ: ɯ ɯ: tone
+bib: Seifart, Frank. 2005. The structure and use of shape-based noun classes in Miraña (North West Amazon). PhD dissertation, Radboud Universiteit.

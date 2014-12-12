@@ -1,0 +1,9 @@
+name: Kithaulhu
+name.short: Kithaulhu
+name.comp: Kithaulhu
+iso: nab_kth
+family: Nambiquaran
+country: Brazil
+geo: -12.600 -60.700 nan
+feat: p t ɗ k ʔ m n β s h w j l i ĩ ḭ̃ ḭ e ḛ̃ ḛ ẽ a ã̰ a̰ ã o o̰ u ṵ̃ ṵ ũ
+bib: Telles, Stella and Leo Wetzels. 2011. La famille nambikwara. In Emilio Bonvini, Joëlle Busuttil & Alain Peyraube (eds.), Dictionnaire des langues. Paris: Les Presses Universitaires de France.

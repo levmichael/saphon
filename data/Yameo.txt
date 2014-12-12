@@ -1,0 +1,9 @@
+name: Yameo
+name.short: Yameo
+name.comp: Yameo
+iso: yme
+family: Peba-Yaguan
+country: Peru
+geo: -3.614 -73.219 122
+feat: p t k m n s ʃ w j l i ĩ e ẽ a ã o õ
+bib: Liclan, Patsy Adams and Stephen A. Marlett. 1990. Madija noun morphology. International Journal of American Linguistics 56:102-120.

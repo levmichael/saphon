@@ -1,0 +1,12 @@
+name: Gavião do Jiparaná
+name.short: Gavião Jprn
+name.comp: GaviaoJ
+iso: gvo
+family: Tupí
+country: Brazil
+geo: -10.400 -62.000 187
+feat: p b t ts d dz cç ɟʝ k ɡ ʔ m n ɲ ŋ β j ɾ l i ĩ e ẽ a ã o õ ɨ ɨ̃ tone
+bib: Moore, Denny. 1984. Syntax of the language of the Gavião indians of Rondônia, Brazil. PhD dissertation, City University of New York.
+bib: Moore, Denny. 1999. Tonal System of the Gavião Language of Rondônia, Brazil, in Tupian
+Perspective. In Shigeki Kaji (ed.), Cross-Linguistic Studies of Tonal Phenomena:
+Tonogenesis, typology, and related topics, 297-310. Tokyo: ILCAA.

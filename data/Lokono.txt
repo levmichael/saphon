@@ -1,0 +1,16 @@
+name: Lokono
+name.short: Lokono
+name.alt: Arawak
+name.comp: Lokono
+iso: arw
+family: Arawak
+country: Guyana
+country: Suriname
+country: French Guiana
+country: Venezuela
+geo: 6.083 -57.599 13
+geo: 5.166 -57.473 62
+geo: 5.526 -55.151 13
+feat: b tʰ t d kʰ k m n ɸ s h w j ɾ l ɽ i e a o ɨ
+note: [public]Pet observes that /p/ occurs only in loans, and that phonetic realization of /o/ varies between [o] and [u].
+bib: Pet, Willem J. A. 1988. Lokono dian: the Arawak language of Surinam: a sketch of its grammatical structure and lexicon. PhD dissertation, Cornell University.

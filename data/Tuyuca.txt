@@ -1,0 +1,10 @@
+name: Tuyuca
+name.short: Tuyuca
+name.comp: Tuyuca
+iso: tue
+family: Tucanoan
+country: Brazil
+country: Colombia
+geo: 0.476 -69.968 191
+feat: p b t d k ɡ s h w j ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃ tone
+bib: Barnes, Janet and Sheryl Silzer. 1976. Fonología del tuyuca. In Viola Waterhouse (ed.), Sistemas fonológicos de idiomas colombianos 3. Bogotá: Ministerio de Gobierno. 123-37.

@@ -1,0 +1,9 @@
+name: Yagua
+name.short: Yagua
+name.comp: Yagua
+iso: yad
+family: Peba-Yaguan
+country: Peru
+geo: -3.300 -72.000 105
+feat: p t tʃ k m n s h w j ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃ tone
+bib: Peña, Jaime G. 2009. A historical reconstruction of the Peba-Yaguan linguistic family. MA thesis, University of Oregon.

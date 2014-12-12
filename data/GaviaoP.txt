@@ -1,0 +1,9 @@
+name: Gavião do Pará
+name.short: Gavião Pará
+name.comp: GaviaoP
+iso: gvp
+family: Macro-Ge
+country: Brazil
+geo: -4.745 -49.252 100
+feat: p t tʃ kʰ k m n h w j ɾ i e ẽ a o õ u ɨ ə ə̃
+bib: Amado, Rosane de Sá. 2004. Aspectos morfofonológicos do Gavião-Pykobjê. PhD dissertation, USP.

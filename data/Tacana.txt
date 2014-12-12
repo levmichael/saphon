@@ -1,0 +1,9 @@
+name: Tacana
+name.short: Tacana
+name.comp: Tacana
+iso: tna
+family: Tacanan
+country: Bolivia
+geo: -14.147 -67.852 nan
+feat: p b t d ʈʂ ɖ tʃ k kʷ m n ð ʂ ʃ h w j ɾ i e a u
+bib: Ottaviano, John and Ida Ottaviano. 1965. Tacana. In Esther Matteson (ed.), Gramáticas estructurales de lenguas bolivianas 3. Riberalta: Instituto Lingüístico de Verano. 309-417.

@@ -1,0 +1,11 @@
+name: Ashéninka (Ucayali-Yurúa dialect)
+name.short: Ashéninka Uc
+name.comp: AsheninkaUc
+iso: cpb
+family: Arawak
+country: Brazil
+geo: -10.162 -74.023 381
+geo: -9.594 -72.775 273
+geo: -9.313 -72.996 285
+feat: p pʲ tʰ t tsʰ ts tʃʰ tʃ kʲ k m mʲ n ɲ N β βʲ s ʃ h j ɰ ɾ ɾʲ i i: e e: a a: o o:
+bib: García Salazar, Gabriela Victoria. 1997. Generalidades de la morfología y fonología del ashéninca del Ucayali. Revista Latinoamericana de Estudios Etnolingüisticos IX.

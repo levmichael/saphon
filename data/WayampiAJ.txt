@@ -1,0 +1,10 @@
+name: Wayampi (Alto Jarí dialect)
+name.short: Wayampi Alt J
+name.comp: WayampiAJ
+iso: oym_jri
+family: Tupí
+country: French Guiana
+country: Brazil
+geo: 0.943 -53.157 426
+feat: p t k kʷ ʔ m n ŋ ŋʷ s h w j ɾ i ĩ e ẽ a ã o u ũ ɨ ɨ̃
+bib: Jensen, Cheryl Joyce. 1984. O desenvolvimento histórico da língua wayampi. MA thesis, Universidade Estadual de Campinas.

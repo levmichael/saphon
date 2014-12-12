@@ -1,0 +1,11 @@
+name: Katukína (Panoan)
+name.short: Katukína Pnn
+name.comp: KatukinaPan
+iso: knt
+family: Panoan
+country: Brazil
+geo: -7.893 -71.537 232
+feat: p t ts tʃ k m n β s ʂ ʃ h w j ɾ i a u ɨ
+note: [public]Barros includes a glottal stop /ʔ/ (29) and nasalized vowels /ĩ, ɨ̃, ũ, ã/ (57).
+bib: De Aguiar, Maria Suelí. 1994. Analise descritiva e teorica do katukina-pano. PhD dissertation, Universidade Estadual de Campinas.
+bib: Barros, Luizete Guimarães. 1987. A nasalização vocálica e fonologia introdutória á língua katukína (páno). M.A. Universidade Estadual de Campinas.

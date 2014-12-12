@@ -1,0 +1,10 @@
+name: Wayampi (Ampari dialect)
+name.short: Wayampi Ampr
+name.comp: WayampiAmp
+iso: oym_amp
+family: Tupí
+country: French Guiana
+country: Brazil
+geo: 1.445 -54.169 143
+feat: p t k kʷ ʔ m n ŋ ŋʷ β s w j ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
+bib: Jensen, Cheryl Joyce. 1984. O desenvolvimento histórico da língua wayampi. MA thesis, Universidade Estadual de Campinas.

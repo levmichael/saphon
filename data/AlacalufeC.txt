@@ -1,0 +1,9 @@
+name: Alacalufe (Central)
+name.short: Alacalufe C.
+name.comp: AlacalufeC
+iso: alc_cnt
+family: Alacalufan
+country: Chile
+geo: -53.528 -70.957 nan
+feat: p' p t' t tʃ' tʃ k' k q n f s ɬ h w j ɾ l i e æ a o u
+bib: Viegas, Pedro Barros. 2005. Voces en el viento: Raíces lingüísticas de la Patagonia. Buenos Aires: Mondragon Ediciones. 43.
