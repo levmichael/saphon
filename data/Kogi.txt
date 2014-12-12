@@ -6,5 +6,4 @@ family: Chibchan
 country: Colombia
 geo: 10.976 -73.836 2527
 feat: p b b: t t: d d: k k: ɡ ɡ: ʔ m n ŋ s z ʃ ʒ x h w j l i ĩ e ẽ a ã o u ũ ɨ ɨ̃ ə
-note: ɡeminate consonants?
 bib: Gawthorne, Linda and Grace Hensarling. 1984. Fonología del cogui. In Sistemas fonológicos de idiomas colombianos 5, 5-56. Lomalinda: Editorial Townsend

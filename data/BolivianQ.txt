@@ -8,5 +8,4 @@ country: Bolivia
 geo: -15.532 -68.879 3229
 geo: -20.146 -66.185 4493
 feat: p' pʰ p t' tʰ t tʃ' tʃʰ tʃ k' kʰ k q' qʰ q m n ɲ s h w j ɾ l ʎ i a u
-note: This inventory treats Northern and Southern Bolivian Quechua as having identical inventories, which is probably incorrect.
 bib: Bills, Garland, Bernardo Vallejo, and Rudolph Troike. 1969. An introduction to spoken Bolivian Quechua. University of Texas Press.
