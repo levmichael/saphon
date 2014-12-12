@@ -1,7 +1,7 @@
 name: Aymara (Chilean dialect)
 name.short: Aymara Chile
 name.comp: AymaraC
-iso: ayr_chl
+code: ayr_chl
 family: Aymaran
 country: Chile
 geo: -19.150 -69.400 nan

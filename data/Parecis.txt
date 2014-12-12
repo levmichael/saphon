@@ -2,7 +2,7 @@ name: Paresí
 name.short: Paresí
 name.alt: Parecís
 name.comp: Parecis
-iso: pab
+code: pab
 family: Arawak
 country: Brazil
 geo: -14.000 -57.000 491

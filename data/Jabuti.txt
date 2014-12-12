@@ -1,7 +1,7 @@
 name: Jabutí
 name.short: Jabutí
 name.comp: Jabuti
-iso: jbt
+code: jbt
 family: Macro-Ge
 country: Brazil
 geo: -12.150 -62.150 491

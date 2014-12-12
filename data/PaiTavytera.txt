@@ -1,7 +1,7 @@
 name: Pai Tavytera
 name.short: Pai Tavytera
 name.comp: PaiTavytera
-iso: pta
+code: pta
 family: Tupí
 country: Paraguay
 geo: -23.131 -56.131 274

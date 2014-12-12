@@ -2,7 +2,7 @@ name: Chulupí
 name.short: Chulupí
 name.alt: Nivaclé
 name.comp: Chulupi
-iso: cag
+code: cag
 family: Mataco
 country: Paraguay
 country: Argentina

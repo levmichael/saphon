@@ -1,7 +1,7 @@
 name: Piratapuyo
 name.short: Piratapuyo
 name.comp: Piratapuyo
-iso: pir
+code: pir
 family: Tucanoan
 country: Brazil
 country: Colombia

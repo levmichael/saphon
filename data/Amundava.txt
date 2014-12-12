@@ -1,7 +1,7 @@
 name: Amundava
 name.short: Amundava
 name.comp: Amundava
-iso: adw
+code: adw
 family: Tupí
 country: Brazil
 geo: -10.994 -63.064 208

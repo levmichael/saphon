@@ -1,7 +1,7 @@
 name: Araweté
 name.short: Araweté
 name.comp: Arawete
-iso: awt
+code: awt
 family: Tupí
 country: Brazil
 geo: -4.992 -52.589 nan

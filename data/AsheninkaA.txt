@@ -1,7 +1,7 @@
 name: Ashéninka (Apurucayali dialect)
 name.short: Ashéninka Ap
 name.comp: AsheninkaA
-iso: cpc
+code: cpc
 family: Arawak
 country: Peru
 geo: -10.018 -74.793 1306

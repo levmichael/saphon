@@ -1,7 +1,7 @@
 name: Krenak
 name.short: Krenak
 name.comp: Krenak
-iso: kqq
+code: kqq
 family: Macro-Ge
 country: Brazil
 geo: -19.115 -41.172 378

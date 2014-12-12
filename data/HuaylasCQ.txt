@@ -1,8 +1,8 @@
 name: Huaylas-Conchucos Quechua
 name.short: Huaylas C  Q
 name.comp: HuaylasCQ
-iso: qxn
-iso: qwh
+code: qxn
+code: qwh
 family: Quechua
 country: Peru
 geo: -8.674 -77.886 2263

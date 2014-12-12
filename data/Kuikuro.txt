@@ -1,7 +1,7 @@
 name: Kuikúro-Kalapálo
 name.short: Kuikúro-Klpl
 name.comp: Kuikuro
-iso: kui
+code: kui
 family: Carib
 country: Brazil
 geo: -12.437 -53.242 285

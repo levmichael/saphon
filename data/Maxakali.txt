@@ -1,7 +1,7 @@
 name: Maxakalí
 name.short: Maxakalí
 name.comp: Maxakali
-iso: mbl
+code: mbl
 family: Macro-Ge
 country: Brazil
 geo: -18.000 -40.000 37

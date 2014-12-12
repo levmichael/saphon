@@ -1,7 +1,7 @@
 name: Yurakaré
 name.short: Yurakaré
 name.comp: Yurakare
-iso: yuz
+code: yuz
 family: Isolate
 country: Bolivia
 geo: -16.593 -65.255 213

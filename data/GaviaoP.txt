@@ -1,7 +1,7 @@
 name: Gavião do Pará
 name.short: Gavião Pará
 name.comp: GaviaoP
-iso: gvp
+code: gvp
 family: Macro-Ge
 country: Brazil
 geo: -4.745 -49.252 100

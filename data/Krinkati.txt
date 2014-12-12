@@ -1,7 +1,7 @@
 name: Krinkati-Timbira
 name.short: Krinkati-Tmb
 name.comp: Krinkati
-iso: xri
+code: xri
 family: Macro-Ge
 country: Brazil
 geo: -6.037 -46.653 307

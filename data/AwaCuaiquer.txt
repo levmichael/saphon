@@ -2,7 +2,7 @@ name: Awa-Cuaiquer
 name.short: Awa-Cuaiquer
 name.alt: Awa Pit
 name.comp: AwaCuaiquer
-iso: kwi
+code: kwi
 family: Barbacoan
 country: Ecuador
 country: Colombia

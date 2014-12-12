@@ -2,7 +2,7 @@ name: Hoti
 name.short: Hoti
 name.alt: Yuwana
 name.comp: Hoti
-iso: yau
+code: yau
 family: Isolate
 country: Venezuela
 geo: 5.512 -65.496 219

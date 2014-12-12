@@ -2,7 +2,7 @@ name: Yaminawa
 name.short: Yaminawa
 name.alt: Yaminahua
 name.comp: Yaminahua
-iso: yaa
+code: yaa
 family: Panoan
 country: Brazil
 country: Bolivia

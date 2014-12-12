@@ -1,7 +1,7 @@
 name: Baré
 name.short: Baré
 name.comp: Bare
-iso: bae
+code: bae
 family: Arawak
 country: Venezuela
 geo: 1.000 -67.000 98

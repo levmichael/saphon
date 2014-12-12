@@ -1,7 +1,7 @@
 name: Lule
 name.short: Lule
 name.comp: Lule
-iso: lul
+code: lul
 family: Isolate
 country: Argentina
 geo: -24.800 -65.400 nan

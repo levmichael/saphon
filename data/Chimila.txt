@@ -1,7 +1,7 @@
 name: Chimila
 name.short: Chimila
 name.comp: Chimila
-iso: cbg
+code: cbg
 family: Chibchan
 country: Colombia
 geo: 10.000 -74.000 69

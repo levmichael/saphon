@@ -1,7 +1,7 @@
 name: Yora
 name.short: Yora
 name.comp: Yora
-iso: mts
+code: mts
 family: Panoan
 country: Peru
 geo: -11.500 -72.300 534

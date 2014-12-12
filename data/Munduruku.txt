@@ -1,7 +1,7 @@
 name: Mundurukú
 name.short: Mundurukú
 name.comp: Munduruku
-iso: myu
+code: myu
 family: Tupí
 country: Brazil
 geo: -7.065 -58.004 169

@@ -1,7 +1,7 @@
 name: Itonama
 name.short: Itonama
 name.comp: Itonama
-iso: ito
+code: ito
 family: Isolate
 country: Bolivia
 geo: -12.809 -64.327 144

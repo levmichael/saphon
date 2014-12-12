@@ -1,7 +1,7 @@
 name: Cholón
 name.short: Cholón
 name.comp: Cholon
-iso: cht
+code: cht
 family: Hibito-Cholon
 country: Peru
 geo: -8.414 -76.365 559

@@ -1,7 +1,7 @@
 name: Xiriâna
 name.short: Xiriâna
 name.comp: Xiriana
-iso: xir
+code: xir
 family: Arawak
 country: Brazil
 geo: -0.293 -62.706 45

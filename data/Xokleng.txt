@@ -1,7 +1,7 @@
 name: Xokleng
 name.short: Xokleng
 name.comp: Xokleng
-iso: xok
+code: xok
 family: Macro-Ge
 country: Brazil
 geo: -24.300 -50.000 865

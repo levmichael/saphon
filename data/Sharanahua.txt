@@ -2,7 +2,7 @@ name: Sharanawa
 name.short: Sharanawa
 name.alt: Sharanahua
 name.comp: Sharanahua
-iso: mcd
+code: mcd
 family: Panoan
 country: Brazil
 country: Peru

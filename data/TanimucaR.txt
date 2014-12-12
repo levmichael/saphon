@@ -1,7 +1,7 @@
 name: Tanimuca-Retuarã
 name.short: Tanimuca-Rtr
 name.comp: TanimucaR
-iso: tnc
+code: tnc
 family: Tucanoan
 country: Colombia
 geo: -0.330 -70.554 nan

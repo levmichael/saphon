@@ -1,7 +1,7 @@
 name: Saynawa
 name.short: Saynawa
 name.comp: Saynawa
-iso: sya
+code: sya
 family: Panoan
 country: Brazil
 geo: -8.342 -72.948 244

@@ -1,7 +1,7 @@
 name: Sirionó
 name.short: Sirionó
 name.comp: Siriono
-iso: srq
+code: srq
 family: Tupí
 country: Bolivia
 geo: -14.771 -64.227 nan

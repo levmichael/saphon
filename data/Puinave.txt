@@ -1,7 +1,7 @@
 name: Puinave
 name.short: Puinave
 name.comp: Puinave
-iso: pui
+code: pui
 family: Isolate
 country: Venezuela
 country: Colombia

@@ -2,7 +2,7 @@ name: Wayúu
 name.short: Wayúu
 name.alt: Guajiro
 name.comp: Wayuu
-iso: guc
+code: guc
 family: Arawak
 country: Venezuela
 country: Colombia

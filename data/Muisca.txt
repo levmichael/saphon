@@ -2,7 +2,7 @@ name: Muisca
 name.short: Muisca
 name.alt: Chibcha
 name.comp: Muisca
-iso: chb
+code: chb
 family: Chibchan
 country: Colombia
 geo: 5.028 -73.990 2543

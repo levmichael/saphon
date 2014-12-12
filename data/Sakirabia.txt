@@ -1,7 +1,7 @@
 name: Sakirabiá
 name.short: Sakirabiá
 name.comp: Sakirabia
-iso: skf
+code: skf
 family: Tupí
 country: Brazil
 geo: -12.300 -61.300 339

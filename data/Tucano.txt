@@ -1,7 +1,7 @@
 name: Tucano
 name.short: Tucano
 name.comp: Tucano
-iso: tuo
+code: tuo
 family: Tucanoan
 country: Brazil
 country: Colombia

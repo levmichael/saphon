@@ -1,7 +1,7 @@
 name: Barasana-Eduria
 name.short: Barasana-E
 name.comp: BarasanaE
-iso: bsn
+code: bsn
 family: Tucanoan
 country: Colombia
 geo: -0.100 -70.400 133

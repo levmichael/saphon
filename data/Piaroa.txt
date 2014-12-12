@@ -1,7 +1,7 @@
 name: Piaroa
 name.short: Piaroa
 name.comp: Piaroa
-iso: pid
+code: pid
 family: Salivan
 country: Venezuela
 country: Colombia

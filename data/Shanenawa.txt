@@ -1,7 +1,7 @@
 name: Shanenawa
 name.short: Shanenawa
 name.comp: Shanenawa
-iso: sha_ywn
+code: sha_ywn
 family: Panoan
 country: Peru
 country: Brazil

@@ -1,7 +1,7 @@
 name: Trumai
 name.short: Trumai
 name.comp: Trumai
-iso: tpy
+code: tpy
 family: Isolate
 country: Brazil
 geo: -11.550 -53.350 309

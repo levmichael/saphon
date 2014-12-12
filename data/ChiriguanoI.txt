@@ -1,7 +1,7 @@
 name: Chiriguano (Izoceño dialect)
 name.short: Chiriguano I
 name.comp: ChiriguanoI
-iso: gui_izo
+code: gui_izo
 family: Tupí
 country: Bolivia
 geo: -20.000 -63.000 305

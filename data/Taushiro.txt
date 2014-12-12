@@ -1,7 +1,7 @@
 name: Taushiro
 name.short: Taushiro
 name.comp: Taushiro
-iso: trr
+code: trr
 family: Isolate
 country: Peru
 geo: -3.746 -74.564 194

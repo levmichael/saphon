@@ -2,7 +2,7 @@ name: Wanano
 name.short: Wanano
 name.alt: Guanano
 name.comp: Guanano
-iso: gvc
+code: gvc
 family: Tucanoan
 country: Colombia
 country: Brazil

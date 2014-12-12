@@ -1,7 +1,7 @@
 name: Macushi
 name.short: Macushi
 name.comp: Macushi
-iso: mbc
+code: mbc
 family: Carib
 country: Guyana
 country: Brazil

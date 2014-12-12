@@ -1,7 +1,7 @@
 name: Waimiri-Atroarí
 name.short: Waimiri-Atrí
 name.comp: WaimiriA
-iso: atr
+code: atr
 family: Carib
 country: Brazil
 geo: -0.653 -60.260 95

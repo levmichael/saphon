@@ -1,7 +1,7 @@
 name: Japreria
 name.short: Japreria
 name.comp: Japreria
-iso: jru
+code: jru
 family: Carib
 country: Venezuela
 geo: 10.692 -72.625 604

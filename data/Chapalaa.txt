@@ -3,7 +3,7 @@ name.short: Cha'palaa
 name.alt: Chachi
 name.alt: Cha'palaachi
 name.comp: Chapalaa
-iso: cbi
+code: cbi
 family: Barbacoan
 country: Ecuador
 geo: -0.106 -79.223 1147

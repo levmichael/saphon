@@ -1,7 +1,7 @@
 name: Inga (Jungle dialect)
 name.short: Inga Jungle
 name.comp: IngaJQ
-iso: inj
+code: inj
 family: Quechua
 country: Colombia
 geo: 0.921 -76.486 425

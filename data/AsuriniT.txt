@@ -1,7 +1,7 @@
 name: Asuriní do Tocantins
 name.short: Asuriní Toc
 name.comp: AsuriniT
-iso: asu
+code: asu
 family: Tupí
 country: Brazil
 geo: -3.300 -50.000 nan

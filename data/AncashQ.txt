@@ -1,8 +1,8 @@
 name: Ancash Quechua (Sihuas and Corongo dialects)
 name.short: Ancash Q
 name.comp: AncashQ
-iso: qwa
-iso: qws
+code: qwa
+code: qws
 family: Quechua
 country: Peru
 geo: -8.583 -77.759 3792

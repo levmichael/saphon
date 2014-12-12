@@ -1,7 +1,7 @@
 name: Mosetén de Covendo
 name.short: Mosetén Cvnd
 name.comp: MosetenC
-iso: cas_cov
+code: cas_cov
 family: Mosetenan
 country: Bolivia
 geo: -15.800 -67.080 nan

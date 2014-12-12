@@ -1,7 +1,7 @@
 name: Waiwai
 name.short: Waiwai
 name.comp: Waiwai
-iso: waw
+code: waw
 family: Carib
 country: Brazil
 country: Guyana

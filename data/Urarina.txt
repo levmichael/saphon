@@ -1,7 +1,7 @@
 name: Urarina
 name.short: Urarina
 name.comp: Urarina
-iso: ura
+code: ura
 family: Isolate
 country: Peru
 geo: -4.000 -75.000 128

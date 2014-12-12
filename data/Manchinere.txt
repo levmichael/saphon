@@ -2,7 +2,7 @@ name: Manchinere
 name.short: Manchinere
 name.alt: Machinere
 name.comp: Manchinere
-iso: mpd
+code: mpd
 family: Arawak
 country: Bolivia
 country: Brazil

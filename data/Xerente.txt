@@ -1,7 +1,7 @@
 name: Xerénte
 name.short: Xerénte
 name.comp: Xerente
-iso: xer
+code: xer
 family: Macro-Ge
 country: Brazil
 geo: -10.000 -48.100 483

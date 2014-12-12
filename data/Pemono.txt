@@ -1,7 +1,7 @@
 name: Pémono
 name.short: Pémono
 name.comp: Pemono
-iso: pev
+code: pev
 family: Carib
 country: Venezuela
 geo: 3.087 -66.293 117

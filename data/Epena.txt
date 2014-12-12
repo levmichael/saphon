@@ -1,7 +1,7 @@
 name: Epena
 name.short: Epena
 name.comp: Epena
-iso: sja
+code: sja
 family: Choco
 country: Colombia
 country: Ecuador

@@ -1,7 +1,7 @@
 name: Baniwa (Rio Negro)
 name.short: Baniwa (Rio Negro)
 name.comp: Baniva
-iso: bwi_rng
+code: bwi_rng
 family: Arawak
 country: Venezuela
 geo: 0.053 -67.430 108

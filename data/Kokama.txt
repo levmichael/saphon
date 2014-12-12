@@ -2,7 +2,7 @@ name: Kokama-Kokamilla
 name.short: Kokama-Kok
 name.alt: Cocama-Cocamilla
 name.comp: Kokama
-iso: cod
+code: cod
 family: Tupí
 country: Peru
 country: Brazil

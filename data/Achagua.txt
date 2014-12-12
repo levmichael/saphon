@@ -1,7 +1,7 @@
 name: Achagua
 name.short: Achagua
 name.comp: Achagua
-iso: aca
+code: aca
 family: Arawak
 country: Colombia
 geo: 4.002 -72.814 255

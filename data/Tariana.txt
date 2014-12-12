@@ -1,7 +1,7 @@
 name: Tariana
 name.short: Tariana
 name.comp: Tariana
-iso: tae
+code: tae
 family: Arawak
 country: Colombia
 country: Brazil

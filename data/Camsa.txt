@@ -1,7 +1,7 @@
 name: Camsá
 name.short: Camsá
 name.comp: Camsa
-iso: kbh
+code: kbh
 family: Isolate
 country: Colombia
 geo: 0.783 -76.809 426

@@ -1,7 +1,7 @@
 name: Yavitero
 name.short: Yavitero
 name.comp: Yavitero
-iso: yvt
+code: yvt
 family: Arawak
 country: Venezuela
 geo: 2.767 -67.998 117

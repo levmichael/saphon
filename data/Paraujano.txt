@@ -1,7 +1,7 @@
 name: Paraujano
 name.short: Paraujano
 name.comp: Paraujano
-iso: pbg
+code: pbg
 family: Arawak
 country: Venezuela
 geo: 10.489 -72.064 156

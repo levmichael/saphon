@@ -2,7 +2,7 @@ name: Mỹky
 name.short: Mỹky
 name.alt: Irántxe
 name.comp: Irantxe
-iso: irn
+code: irn
 family: Isolate
 country: Brazil
 geo: -13.000 -58.000 417

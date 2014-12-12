@@ -1,7 +1,7 @@
 name: Nadëb
 name.short: Nadëb
 name.comp: Nadeb
-iso: mbj
+code: mbj
 family: Nadahup
 country: Brazil
 geo: -1.000 -66.300 81

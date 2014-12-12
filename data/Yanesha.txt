@@ -2,7 +2,7 @@ name: Yánesha
 name.short: Yánesha
 name.alt: Amuesha
 name.comp: Yanesha
-iso: ame
+code: ame
 family: Arawak
 country: Peru
 geo: -10.630 -75.198 1590

@@ -1,8 +1,8 @@
 name: Chorote (Iyo'wujwa and Iyowa'ja dialects)
 name.short: Chorote Iyo
 name.comp: Chorote
-iso: crq
-iso: crt
+code: crq
+code: crt
 family: Mataco
 country: Argentina
 country: Bolivia

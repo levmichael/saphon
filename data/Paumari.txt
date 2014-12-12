@@ -1,7 +1,7 @@
 name: Paumarí
 name.short: Paumarí
 name.comp: Paumari
-iso: pad
+code: pad
 family: Arawan
 country: Brazil
 geo: -6.000 -64.000 75

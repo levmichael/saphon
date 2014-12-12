@@ -1,7 +1,7 @@
 name: Omagua
 name.short: Omagua
 name.comp: Omagua
-iso: omg
+code: omg
 family: Tupí
 country: Peru
 country: Brazil

@@ -1,7 +1,7 @@
 name: Xavánte
 name.short: Xavánte
 name.comp: Xavante
-iso: xav
+code: xav
 family: Macro-Ge
 country: Brazil
 geo: -15.000 -52.300 297

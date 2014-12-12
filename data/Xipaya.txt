@@ -1,7 +1,7 @@
 name: Xipaya
 name.short: Xipaya
 name.comp: Xipaya
-iso: xiy
+code: xiy
 family: Tupí
 country: Brazil
 geo: -3.220 -52.209 89

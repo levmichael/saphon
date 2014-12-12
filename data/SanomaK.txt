@@ -1,7 +1,7 @@
 name: Sanömá of Kolulu
 name.short: Sanömá Kolu
 name.comp: SanomaK
-iso: xsu_kol
+code: xsu_kol
 family: Yanomam
 country: Brazil
 geo: 3.943 -64.475 nan

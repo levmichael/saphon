@@ -1,7 +1,7 @@
 name: Tenharim
 name.short: Tenharim
 name.comp: Tenharim
-iso: pah
+code: pah
 family: Tupí
 country: Brazil
 geo: -8.332 -61.945 nan

@@ -1,7 +1,7 @@
 name: Dení
 name.short: Dení
 name.comp: Deni
-iso: dny
+code: dny
 family: Arawan
 country: Brazil
 geo: -6.000 -67.000 111

@@ -1,7 +1,7 @@
 name: Kaiwá
 name.short: Kaiwá
 name.comp: Kaiwa
-iso: kgk
+code: kgk
 family: Tupí
 country: Argentina
 country: Brazil

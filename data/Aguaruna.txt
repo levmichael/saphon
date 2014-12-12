@@ -1,7 +1,7 @@
 name: Aguaruna
 name.short: Aguaruna
 name.comp: Aguaruna
-iso: agr
+code: agr
 family: Jivaroan
 country: Peru
 geo: -4.765 -77.960 1097

@@ -1,7 +1,7 @@
 name: Abipon
 name.short: Abipon
 name.comp: Abipon
-iso: axb
+code: axb
 family: Guaicuru
 country: Argentina
 geo: -29.000 -61.000 63

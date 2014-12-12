@@ -1,7 +1,7 @@
 name: Reyesano
 name.short: Reyesano
 name.comp: Reyesano
-iso: rey
+code: rey
 family: Tacanan
 country: Bolivia
 geo: -14.294 -67.387 nan

@@ -1,7 +1,7 @@
 name: Pacahuara
 name.short: Pacahuara
 name.comp: Pacahuara
-iso: pcp
+code: pcp
 family: Panoan
 country: Bolivia
 geo: -11.891 -65.279 nan

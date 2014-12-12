@@ -1,7 +1,7 @@
 name: Pilagá
 name.short: Pilagá
 name.comp: Pilaga
-iso: plg
+code: plg
 family: Guaicuru
 country: Argentina
 geo: -25.000 -60.000 115

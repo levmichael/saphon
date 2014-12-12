@@ -2,7 +2,7 @@ name: Nheengatú
 name.short: Nheengatú
 name.alt: Língua Geral Amazônica
 name.comp: Nheengatu
-iso: yrl
+code: yrl
 family: Tupí
 country: Colombia
 country: Brazil

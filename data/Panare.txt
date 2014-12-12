@@ -1,7 +1,7 @@
 name: Panare
 name.short: Panare
 name.comp: Panare
-iso: pbh
+code: pbh
 family: Carib
 country: Venezuela
 geo: 6.733 -66.049 203

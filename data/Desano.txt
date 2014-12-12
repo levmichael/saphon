@@ -1,7 +1,7 @@
 name: Desano
 name.short: Desano
 name.comp: Desano
-iso: des
+code: des
 family: Tucanoan
 country: Brazil
 country: Colombia

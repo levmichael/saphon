@@ -1,7 +1,7 @@
 name: Mamaindé
 name.short: Mamaindé
 name.comp: Mamainde
-iso: wmd
+code: wmd
 family: Nambiquaran
 country: Brazil
 geo: -13.630 -60.750 nan

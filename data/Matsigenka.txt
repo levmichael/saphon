@@ -2,7 +2,7 @@ name: Matsigenka
 name.short: Matsigenka
 name.alt: Machiguenga
 name.comp: Matsigenka
-iso: mcb
+code: mcb
 family: Arawak
 country: Peru
 geo: -12.408 -72.908 376

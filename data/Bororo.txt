@@ -1,7 +1,7 @@
 name: Borôro
 name.short: Borôro
 name.comp: Bororo
-iso: bor
+code: bor
 family: Macro-Ge
 country: Brazil
 geo: -16.000 -57.000 169

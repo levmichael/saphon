@@ -1,7 +1,7 @@
 name: Ese Ejja (Bolivia)
 name.short: Ese Ejja B
 name.comp: EseEjja
-iso: ese_bol
+code: ese_bol
 family: Tacanan
 country: Bolivia
 geo: -11.203 -66.261 nan

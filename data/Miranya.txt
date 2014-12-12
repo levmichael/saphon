@@ -1,7 +1,7 @@
 name: Miraña
 name.short: Miraña
 name.comp: Miranya
-iso: boa_mrn
+code: boa_mrn
 family: Boran
 country: Brazil
 geo: -1.322 -70.800 nan

@@ -1,7 +1,7 @@
 name: Tupinambá
 name.short: Tupinambá
 name.comp: Tupinamba
-iso: tpn
+code: tpn
 family: Tupí
 country: Brazil
 geo: -22.808 -42.106 7

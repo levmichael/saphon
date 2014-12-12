@@ -2,7 +2,7 @@ name: Ona
 name.short: Ona
 name.alt: Selknam
 name.comp: Ona
-iso: ona
+code: ona
 family: Chon
 country: Argentina
 geo: -54.483 -67.083 nan

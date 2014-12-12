@@ -1,7 +1,7 @@
 name: San Martin Quechua
 name.short: San Martin Q
 name.comp: SanMartinQ
-iso: qvs
+code: qvs
 family: Quechua
 country: Peru
 geo: -7.025 -76.749 887

@@ -1,7 +1,7 @@
 name: Akuntsú
 name.short: Akuntsú
 name.comp: Akuntsu
-iso: aqz
+code: aqz
 family: Tupí
 country: Brazil
 geo: -12.736 -60.805 289

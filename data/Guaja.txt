@@ -1,7 +1,7 @@
 name: Guajá
 name.short: Guajá
 name.comp: Guaja
-iso: gvj
+code: gvj
 family: Tupí
 country: Brazil
 geo: -2.767 -46.487 nan

@@ -1,7 +1,7 @@
 name: Ferreñafe Quechua
 name.short: Ferreñafe Q
 name.comp: FerrenafeQ
-iso: quf
+code: quf
 family: Quechua
 country: Peru
 geo: -6.638 -79.790 39

@@ -2,7 +2,7 @@ name: Kaxuiâna
 name.short: Kaxuiâna
 name.alt: Kaxuyana
 name.comp: Kaxuiana
-iso: kbb
+code: kbb
 family: Carib
 country: Brazil
 geo: 2.221 -55.960 nan

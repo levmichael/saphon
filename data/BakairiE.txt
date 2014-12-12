@@ -1,7 +1,7 @@
 name: Bakairí (Eastern dialect)
 name.short: Bakairí East
 name.comp: BakairiE
-iso: bkq_est
+code: bkq_est
 family: Carib
 country: Brazil
 geo: -14.436 -54.029 497

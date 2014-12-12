@@ -1,7 +1,7 @@
 name: Kaingáng, São Paulo
 name.short: Kaingang, Sao Paulo
 name.comp: KaingangSP
-iso: zkp
+code: zkp
 family: Macro-Ge
 country: Brazil
 geo: -23.550 -46.630 774

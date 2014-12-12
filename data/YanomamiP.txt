@@ -1,7 +1,7 @@
 name: Yanomamɨ of Parawau
 name.short: Yanomamɨ Par
 name.comp: YanomamiP
-iso: guu_par
+code: guu_par
 family: Yanomam
 country: Brazil
 geo: 1.806 -63.786 nan

@@ -1,7 +1,7 @@
 name: Karitiâna
 name.short: Karitiâna
 name.comp: Karitiana
-iso: ktn
+code: ktn
 family: Tupí
 country: Brazil
 geo: -9.300 -64.000 115

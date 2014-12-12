@@ -1,7 +1,7 @@
 name: Callawaya
 name.short: Callawaya
 name.comp: Callawalla
-iso: caw
+code: caw
 family: Mixed
 country: Bolivia
 geo: -16.005 -68.377 4309

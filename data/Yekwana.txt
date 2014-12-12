@@ -2,7 +2,7 @@ name: Yekwana
 name.short: Yekwana
 name.alt: Maquiritari
 name.comp: Yekwana
-iso: mch
+code: mch
 family: Carib
 country: Brazil
 country: Venezuela

@@ -1,7 +1,7 @@
 name: Kubeo
 name.short: Kubeo
 name.comp: Kubeo
-iso: cub
+code: cub
 family: Tucanoan
 country: Brazil
 country: Colombia

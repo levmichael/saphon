@@ -1,7 +1,7 @@
 name: Secoya
 name.short: Secoya
 name.comp: Secoya
-iso: sey
+code: sey
 family: Tucanoan
 country: Ecuador
 country: Peru

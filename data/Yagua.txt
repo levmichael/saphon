@@ -1,7 +1,7 @@
 name: Yagua
 name.short: Yagua
 name.comp: Yagua
-iso: yad
+code: yad
 family: Peba-Yaguan
 country: Peru
 geo: -3.300 -72.000 105

@@ -1,7 +1,7 @@
 name: Mbyá
 name.short: Mbyá
 name.comp: Mbya
-iso: gun
+code: gun
 family: Tupí
 country: Argentina
 country: Paraguay

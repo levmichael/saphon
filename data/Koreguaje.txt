@@ -1,7 +1,7 @@
 name: Koreguaje
 name.short: Koreguaje
 name.comp: Koreguaje
-iso: coe
+code: coe
 family: Tucanoan
 country: Colombia
 geo: 1.373 -75.186 235

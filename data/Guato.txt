@@ -1,7 +1,7 @@
 name: Guató
 name.short: Guató
 name.comp: Guato
-iso: gta
+code: gta
 family: Macro-Ge
 country: Brazil
 geo: -17.000 -58.000 103

@@ -1,7 +1,7 @@
 name: Uru-Eu-Wau-Wau
 name.short: UruEuWauWau
 name.comp: UruEuWauWau
-iso: urz
+code: urz
 family: Tupí
 country: Brazil
 geo: -9.993 -63.182 nan

@@ -1,7 +1,7 @@
 name: Chácobo
 name.short: Chácobo
 name.comp: Chacobo
-iso: cao
+code: cao
 family: Panoan
 country: Bolivia
 geo: -12.149 -66.763 175

@@ -1,7 +1,7 @@
 name: Dâw
 name.short: Dâw
 name.comp: Daw
-iso: kwa
+code: kwa
 family: Nadahup
 country: Brazil
 geo: -0.150 -67.050 54

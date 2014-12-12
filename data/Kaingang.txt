@@ -1,7 +1,7 @@
 name: Kaingang
 name.short: Kaingang
 name.comp: Kaingang
-iso: kgp
+code: kgp
 family: Macro-Ge
 country: Brazil
 geo: -26.000 -52.000 769

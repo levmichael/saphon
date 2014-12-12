@@ -1,7 +1,7 @@
 name: Candoshi-Shapra
 name.short: Candoshi-Shp
 name.comp: Candoshi
-iso: cbu
+code: cbu
 family: Isolate
 country: Peru
 geo: -4.207 -77.062 170

@@ -1,7 +1,7 @@
 name: Kuruáya
 name.short: Kuruáya
 name.comp: Kuruaya
-iso: kyr
+code: kyr
 family: Tupí
 country: Brazil
 geo: -7.560 -55.694 277

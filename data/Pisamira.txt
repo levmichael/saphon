@@ -1,7 +1,7 @@
 name: Pisamira
 name.short: Pisamira
 name.comp: Pisamira
-iso: psx
+code: psx
 family: Tucanoan
 country: Colombia
 geo: 1.100 -70.440 nan

@@ -1,7 +1,7 @@
 name: Ese Eja (Peru)
 name.short: Ese Eja P
 name.comp: EseEja
-iso: ese_per
+code: ese_per
 family: Tacanan
 country: Peru
 geo: -12.680 -68.730 nan

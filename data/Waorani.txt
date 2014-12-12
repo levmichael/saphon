@@ -1,7 +1,7 @@
 name: Waorani
 name.short: Waorani
 name.comp: Waorani
-iso: auc
+code: auc
 family: Isolate
 country: Ecuador
 geo: -1.000 -76.500 270

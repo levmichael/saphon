@@ -1,7 +1,7 @@
 name: Kadiwéu
 name.short: Kadiwéu
 name.comp: Kadiweu
-iso: kbc
+code: kbc
 family: Guaicuru
 country: Brazil
 geo: -20.002 -57.002 97

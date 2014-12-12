@@ -1,7 +1,7 @@
 name: Wayoró
 name.short: Wayoró
 name.comp: Wayoro
-iso: wyr
+code: wyr
 family: Tupí
 country: Brazil
 geo: -12.326 -62.618 nan

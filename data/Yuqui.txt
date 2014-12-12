@@ -1,7 +1,7 @@
 name: Yuqui
 name.short: Yuqui
 name.comp: Yuqui
-iso: yuq
+code: yuq
 family: Tupí
 country: Bolivia
 geo: -16.750 -64.840 nan

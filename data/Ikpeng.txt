@@ -1,7 +1,7 @@
 name: Ikpeng
 name.short: Ikpeng
 name.comp: Ikpeng
-iso: txi
+code: txi
 family: Carib
 country: Brazil
 geo: -11.370 -53.423 330

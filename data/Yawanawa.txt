@@ -1,7 +1,7 @@
 name: Yawanawa
 name.short: Yawanawa
 name.comp: Yawanawa
-iso: ywn
+code: ywn
 family: Panoan
 country: Brazil
 geo: -9.064 -71.949 298

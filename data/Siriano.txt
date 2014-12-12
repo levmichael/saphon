@@ -1,7 +1,7 @@
 name: Siriano
 name.short: Siriano
 name.comp: Siriano
-iso: sri
+code: sri
 family: Tucanoan
 country: Brazil
 country: Colombia

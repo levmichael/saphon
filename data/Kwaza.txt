@@ -1,7 +1,7 @@
 name: Kwaza
 name.short: Kwaza
 name.comp: Kwaza
-iso: xwa
+code: xwa
 family: Isolate
 country: Brazil
 geo: -12.350 -60.400 340

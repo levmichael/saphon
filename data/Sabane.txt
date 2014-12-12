@@ -1,7 +1,7 @@
 name: Sabanê
 name.short: Sabanê
 name.comp: Sabane
-iso: sae
+code: sae
 family: Nambiquaran
 country: Brazil
 geo: -12.964 -60.261 341

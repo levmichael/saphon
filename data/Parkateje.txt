@@ -1,7 +1,7 @@
 name: Parkateje
 name.short: Parkateje
 name.comp: Parkateje
-iso: qpt
+code: qpt
 family: Macro-Ge
 country: Brazil
 geo: -5.250 -48.917 105

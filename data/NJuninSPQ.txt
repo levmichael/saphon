@@ -1,7 +1,7 @@
 name: North Junín Quechua (San Pedro de Cajas dialect)
 name.short: N Junín Q SP
 name.comp: NJuninSPQ
-iso: qvn_caj
+code: qvn_caj
 family: Quechua
 country: Peru
 geo: -11.256 -75.856 3444

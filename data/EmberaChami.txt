@@ -1,7 +1,7 @@
 name: Emberá-Chamí
 name.short: Emberá-Chamí
 name.comp: EmberaChami
-iso: cmi
+code: cmi
 family: Choco
 country: Colombia
 geo: 5.027 -76.039 957

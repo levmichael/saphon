@@ -2,7 +2,7 @@ name: Kulina
 name.short: Kulina
 name.alt: Culina
 name.comp: Kulina
-iso: cul
+code: cul
 family: Arawan
 country: Brazil
 country: Peru

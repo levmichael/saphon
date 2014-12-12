@@ -1,7 +1,7 @@
 name: Andoke
 name.short: Andoke
 name.comp: Andoke
-iso: ano
+code: ano
 family: Isolate
 country: Colombia
 geo: -0.400 -72.000 177

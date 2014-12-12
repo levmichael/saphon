@@ -1,7 +1,7 @@
 name: Kogi
 name.short: Kogi
 name.comp: Kogi
-iso: kog
+code: kog
 family: Chibchan
 country: Colombia
 geo: 10.976 -73.836 2527

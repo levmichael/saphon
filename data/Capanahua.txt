@@ -1,7 +1,7 @@
 name: Capanahua
 name.short: Capanahua
 name.comp: Capanahua
-iso: kaq
+code: kaq
 family: Panoan
 country: Peru
 geo: -6.414 -74.391 150

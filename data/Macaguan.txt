@@ -1,7 +1,7 @@
 name: Macaguán
 name.short: Macaguán
 name.comp: Macaguan
-iso: mbn
+code: mbn
 family: Guahiban
 country: Colombia
 geo: 6.459 -71.286 156

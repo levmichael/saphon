@@ -1,7 +1,7 @@
 name: Jurúna
 name.short: Jurúna
 name.comp: Juruna
-iso: jur
+code: jur
 family: Tupí
 country: Brazil
 geo: -5.000 -54.300 267

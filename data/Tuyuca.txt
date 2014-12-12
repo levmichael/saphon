@@ -1,7 +1,7 @@
 name: Tuyuca
 name.short: Tuyuca
 name.comp: Tuyuca
-iso: tue
+code: tue
 family: Tucanoan
 country: Brazil
 country: Colombia

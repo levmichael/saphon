@@ -1,7 +1,7 @@
 name: Mosetén de Santa Ana
 name.short: Mosetén St A
 name.comp: MosetenSA
-iso: cas_msa
+code: cas_msa
 family: Mosetenan
 country: Bolivia
 geo: -13.744 -65.430 nan

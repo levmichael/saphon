@@ -1,7 +1,7 @@
 name: Awetí
 name.short: Awetí
 name.comp: Aweti
-iso: awe
+code: awe
 family: Tupí
 country: Brazil
 geo: -12.955 -53.690 353

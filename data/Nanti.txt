@@ -1,7 +1,7 @@
 name: Nanti
 name.short: Nanti
 name.comp: Nanti
-iso: cox
+code: cox
 family: Arawak
 country: Peru
 geo: -12.045 -72.339 823

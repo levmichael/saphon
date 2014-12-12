@@ -2,7 +2,7 @@ name: Kunza
 name.short: Kunza
 name.alt: Atacameño
 name.comp: Kunza
-iso: kuz
+code: kuz
 family: Isolate
 country: Chile
 geo: -23.102 -69.012 2215

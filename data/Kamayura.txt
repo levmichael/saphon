@@ -1,7 +1,7 @@
 name: Kamayurá
 name.short: Kamayurá
 name.comp: Kamayura
-iso: kay
+code: kay
 family: Tupí
 country: Brazil
 geo: -12.474 -54.637 nan

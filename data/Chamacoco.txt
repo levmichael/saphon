@@ -1,7 +1,7 @@
 name: Chamacoco
 name.short: Chamacoco
 name.comp: Chamacoco
-iso: ceg
+code: ceg
 family: Zamucoan
 country: Paraguay
 geo: -22.358 -59.720 129

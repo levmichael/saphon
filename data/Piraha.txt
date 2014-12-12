@@ -1,7 +1,7 @@
 name: Pirahã
 name.short: Pirahã
 name.comp: Piraha
-iso: myp
+code: myp
 family: Mura
 country: Brazil
 geo: -7.000 -62.000 60

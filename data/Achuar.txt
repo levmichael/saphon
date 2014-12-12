@@ -1,7 +1,7 @@
 name: Achuar-Shiwiar
 name.short: Achuar-Shwr
 name.comp: Achuar
-iso: acu
+code: acu
 family: Jivaroan
 country: Peru
 country: Ecuador

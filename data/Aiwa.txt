@@ -3,7 +3,7 @@ name.short: Aʔɨwa
 name.alt: Vacacocha
 name.alt: Auishiri
 name.comp: Aiwa
-iso: ash
+code: ash
 family: Isolate
 country: Peru
 geo: -2.000 -74.500 0

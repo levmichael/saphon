@@ -2,7 +2,7 @@ name: Sápara
 name.short: Sápara
 name.alt: Záparo
 name.comp: Sapara
-iso: zro
+code: zro
 family: Zaparoan
 country: Ecuador
 geo: -1.885 -76.476 227

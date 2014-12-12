@@ -1,7 +1,7 @@
 name: Jamamadí
 name.short: Jamamadí
 name.comp: Jamamadi
-iso: jaa_jmm
+code: jaa_jmm
 family: Arawan
 country: Brazil
 geo: -7.300 -67.000 138

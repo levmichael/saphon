@@ -1,7 +1,7 @@
 name: Canela
 name.short: Canela
 name.comp: Canela
-iso: ram
+code: ram
 family: Macro-Ge
 country: Brazil
 geo: -7.000 -45.000 262

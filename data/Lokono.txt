@@ -2,7 +2,7 @@ name: Lokono
 name.short: Lokono
 name.alt: Arawak
 name.comp: Lokono
-iso: arw
+code: arw
 family: Arawak
 country: Guyana
 country: Suriname

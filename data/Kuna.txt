@@ -1,7 +1,7 @@
 name: Border Kuna
 name.short: Border Kuna
 name.comp: Kuna
-iso: kvn
+code: kvn
 family: Chibchan
 country: Colombia
 geo: 7.857 -76.836 21

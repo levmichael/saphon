@@ -1,7 +1,7 @@
 name: Puri
 name.short: Puri
 name.comp: Puri
-iso: prr
+code: prr
 family: Macro-Ge
 country: Brazil
 geo: -20.584 -42.242 1331

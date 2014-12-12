@@ -1,7 +1,7 @@
 name: Tinigua
 name.short: Tinigua
 name.comp: Tinigua
-iso: tit
+code: tit
 family: Isolate
 country: Colombia
 geo: 2.345 -73.304 211

@@ -1,7 +1,7 @@
 name: Guambiano
 name.short: Guambiano
 name.comp: Guambiano
-iso: gum
+code: gum
 family: Barbacoan
 country: Colombia
 geo: 2.480 -76.672 1717

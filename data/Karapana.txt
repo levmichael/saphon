@@ -1,7 +1,7 @@
 name: Karapanã
 name.short: Karapanã
 name.comp: Karapana
-iso: cbc
+code: cbc
 family: Tucanoan
 country: Brazil
 geo: 0.802 -70.746 279

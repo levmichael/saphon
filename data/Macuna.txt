@@ -1,7 +1,7 @@
 name: Macuna
 name.short: Macuna
 name.comp: Macuna
-iso: myy
+code: myy
 family: Tucanoan
 country: Colombia
 country: Brazil

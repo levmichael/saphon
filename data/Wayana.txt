@@ -1,7 +1,7 @@
 name: Wayana
 name.short: Wayana
 name.comp: Wayana
-iso: way
+code: way
 family: Carib
 country: Brazil
 country: French Guiana

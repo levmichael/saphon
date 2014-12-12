@@ -1,7 +1,7 @@
 name: Bora
 name.short: Bora
 name.comp: Bora
-iso: boa
+code: boa
 family: Boran
 country: Peru
 country: Colombia

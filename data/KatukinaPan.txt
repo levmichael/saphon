@@ -1,7 +1,7 @@
 name: Katukína (Panoan)
 name.short: Katukína Pnn
 name.comp: KatukinaPan
-iso: knt
+code: knt
 family: Panoan
 country: Brazil
 geo: -7.893 -71.537 232

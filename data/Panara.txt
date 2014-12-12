@@ -1,7 +1,7 @@
 name: Panará
 name.short: Panará
 name.comp: Panara
-iso: kre
+code: kre
 family: Macro-Ge
 country: Brazil
 geo: -11.643 -53.309 329

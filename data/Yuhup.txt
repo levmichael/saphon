@@ -1,7 +1,7 @@
 name: Yuhup
 name.short: Yuhup
 name.comp: Yuhup
-iso: yab
+code: yab
 family: Nadahup
 country: Brazil
 geo: 0.250 -69.500 140

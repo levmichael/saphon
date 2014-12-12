@@ -1,7 +1,7 @@
 name: Woun Meu
 name.short: Woun Meu
 name.comp: WounMeu
-iso: noa
+code: noa
 family: Choco
 country: Colombia
 geo: 7.672 -77.954 602

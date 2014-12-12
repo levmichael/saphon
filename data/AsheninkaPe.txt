@@ -1,7 +1,7 @@
 name: Ashéninka (Perené dialect)
 name.short: Ashéninka Pe
 name.comp: AsheninkaPe
-iso: prq
+code: prq
 family: Arawak
 country: Peru
 geo: -10.873 -75.245 1368

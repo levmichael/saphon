@@ -1,7 +1,7 @@
 name: Shipibo
 name.short: Shipibo
 name.comp: Shipibo
-iso: shp
+code: shp
 family: Panoan
 country: Peru
 geo: -7.884 -74.742 161

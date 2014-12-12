@@ -1,7 +1,7 @@
 name: Imbabura Quichua
 name.short: Imbabura Q
 name.comp: ImbaburaQ
-iso: qvi
+code: qvi
 family: Quechua
 country: Ecuador
 geo: 0.312 -78.169 3541

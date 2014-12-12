@@ -1,7 +1,7 @@
 name: Poyanáwa
 name.short: Poyanáwa
 name.comp: Poyanawa
-iso: pyn
+code: pyn
 family: Panoan
 country: Brazil
 geo: -7.441 -73.465 213

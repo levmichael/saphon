@@ -1,7 +1,7 @@
 name: Mochica
 name.short: Mochica
 name.comp: Mochica
-iso: omc
+code: omc
 family: Isolate
 country: Peru
 geo: -7.000 -79.500 nan

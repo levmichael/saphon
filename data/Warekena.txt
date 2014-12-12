@@ -1,7 +1,7 @@
 name: Warekena
 name.short: Warekena
 name.comp: Warekena
-iso: gae
+code: gae
 family: Arawak
 country: Venezuela
 country: Brazil

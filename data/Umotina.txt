@@ -1,7 +1,7 @@
 name: Umotína
 name.short: Umotína
 name.comp: Umotina
-iso: umo
+code: umo
 family: Macro-Ge
 country: Brazil
 geo: -15.251 -57.309 183

@@ -1,7 +1,7 @@
 name: Toba (Lañagashik dialect)
 name.short: Toba Lñgshk
 name.comp: TobaLany
-iso: tob_lng
+code: tob_lng
 family: Guaicuru
 country: Paraguay
 country: Bolivia

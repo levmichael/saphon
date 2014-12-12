@@ -1,7 +1,7 @@
 name: Ayoreo
 name.short: Ayoreo
 name.comp: Ayoreo
-iso: ayo
+code: ayo
 family: Zamucoan
 country: Bolivia
 country: Paraguay

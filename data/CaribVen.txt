@@ -1,7 +1,7 @@
 name: Carib (Venezuela dialect)
 name.short: Carib Vnzla
 name.comp: CaribVen
-iso: car_ven
+code: car_ven
 family: Carib
 country: Brazil
 country: Venezuela

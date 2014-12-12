@@ -1,7 +1,7 @@
 name: Pemon (Arekuna dialect)
 name.short: Pemon Arekna
 name.comp: PemonA
-iso: aoc_are
+code: aoc_are
 family: Carib
 country: Brazil
 country: Guyana

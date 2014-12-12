@@ -1,7 +1,7 @@
 name: Tapirapé
 name.short: Tapirapé
 name.comp: Tapirape
-iso: taf
+code: taf
 family: Tupí
 country: Brazil
 geo: -10.708 -50.619 nan

@@ -1,7 +1,7 @@
 name: Cuiba
 name.short: Cuiba
 name.comp: Cuiba
-iso: cui
+code: cui
 family: Guahiban
 country: Venezuela
 country: Colombia

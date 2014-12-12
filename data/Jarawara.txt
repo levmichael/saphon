@@ -1,7 +1,7 @@
 name: Jarawara
 name.short: Jarawara
 name.comp: Jarawara
-iso: jaa_jrw
+code: jaa_jrw
 family: Arawan
 country: Brazil
 geo: -7.233 -65.525 103

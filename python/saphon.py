@@ -104,7 +104,7 @@ def writeSaphonFiles(dir, lang_, feat_):
       fo.write('name.alt: ' + nameAlt + '\n')
     fo.write('name.comp: ' + lang.nameComp + '\n')
     for iso in lang.iso_:
-      fo.write('iso: ' + iso + '\n')
+      fo.write('code: ' + iso + '\n')
     fo.write('family: ' + lang.familyStr + '\n')
     for country in lang.country_:
       fo.write('country: ' + country + '\n')

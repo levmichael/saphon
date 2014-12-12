@@ -1,7 +1,7 @@
 name: Cavineña
 name.short: Cavineña
 name.comp: Cavinenya
-iso: cav
+code: cav
 family: Tacanan
 country: Bolivia
 geo: -12.806 -66.937 nan

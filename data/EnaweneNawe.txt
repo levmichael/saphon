@@ -1,7 +1,7 @@
 name: Enawené-Nawé
 name.short: Enawené-Nawé
 name.comp: EnaweneNawe
-iso: unk
+code: unk
 family: Arawak
 country: Brazil
 geo: -13.229 -58.885 468

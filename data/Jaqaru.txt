@@ -1,7 +1,7 @@
 name: Jaqaru
 name.short: Jaqaru
 name.comp: Jaqaru
-iso: jqr
+code: jqr
 family: Aymaran
 country: Peru
 geo: -12.750 -75.859 3060

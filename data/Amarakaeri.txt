@@ -1,7 +1,7 @@
 name: Amarakaeri
 name.short: Amarakaeri
 name.comp: Amarakaeri
-iso: amr
+code: amr
 family: Harakmbet
 country: Peru
 geo: -12.694 -70.323 288

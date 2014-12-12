@@ -1,7 +1,7 @@
 name: Waurá
 name.short: Waurá
 name.comp: Waura
-iso: wau
+code: wau
 family: Arawak
 country: Brazil
 geo: -13.000 -53.000 330

@@ -1,7 +1,7 @@
 name: Arára do Mato Grosso
 name.short: Arára Mato G
 name.comp: AraraMG
-iso: axg
+code: axg
 family: Isolate
 country: Brazil
 geo: -9.500 -60.000 nan

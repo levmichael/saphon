@@ -1,7 +1,7 @@
 name: Karajá
 name.short: Karajá
 name.comp: Karaja
-iso: kpj
+code: kpj
 family: Macro-Ge
 country: Brazil
 geo: -10.000 -50.200 173

@@ -1,7 +1,7 @@
 name: Asháninka
 name.short: Asháninka
 name.comp: Ashaninka
-iso: cni
+code: cni
 family: Arawak
 country: Peru
 geo: -11.331 -74.118 230

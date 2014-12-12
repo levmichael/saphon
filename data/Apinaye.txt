@@ -1,7 +1,7 @@
 name: Apinayé
 name.short: Apinayé
 name.comp: Apinaye
-iso: apn
+code: apn
 family: Macro-Ge
 country: Brazil
 geo: -5.300 -48.000 110

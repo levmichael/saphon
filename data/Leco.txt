@@ -1,7 +1,7 @@
 name: Leco
 name.short: Leco
 name.comp: Leco
-iso: lec
+code: lec
 family: Isolate
 country: Bolivia
 geo: -15.015 -67.834 988

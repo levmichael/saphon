@@ -1,7 +1,7 @@
 name: Ocaina
 name.short: Ocaina
 name.comp: Ocaina
-iso: oca
+code: oca
 family: Witotoan
 country: Peru
 country: Colombia

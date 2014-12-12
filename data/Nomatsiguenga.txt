@@ -2,7 +2,7 @@ name: Nomatsigenga
 name.short: Nomatsigenga
 name.alt: Nomatsiguenga
 name.comp: Nomatsiguenga
-iso: not
+code: not
 family: Arawak
 country: Peru
 geo: -11.746 -74.163 816

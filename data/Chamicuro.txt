@@ -1,7 +1,7 @@
 name: Chamicuro
 name.short: Chamicuro
 name.comp: Chamicuro
-iso: ccc
+code: ccc
 family: Arawak
 country: Peru
 geo: -5.114 -75.736 169

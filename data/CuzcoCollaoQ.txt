@@ -1,7 +1,7 @@
 name: Cuzco-Collao Quechua
 name.short: Cuzco-Collao
 name.comp: CuzcoCollaoQ
-iso: quz
+code: quz
 family: Quechua
 country: Peru
 geo: -13.564 -72.134 3772

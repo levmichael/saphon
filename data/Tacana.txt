@@ -1,7 +1,7 @@
 name: Tacana
 name.short: Tacana
 name.comp: Tacana
-iso: tna
+code: tna
 family: Tacanan
 country: Bolivia
 geo: -14.147 -67.852 nan

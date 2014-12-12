@@ -1,7 +1,7 @@
 name: Kanoé
 name.short: Kanoé
 name.comp: Kanoe
-iso: kxo
+code: kxo
 family: Isolate
 country: Brazil
 geo: -11.897 -64.752 157

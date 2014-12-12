@@ -1,7 +1,7 @@
 name: Arikapú
 name.short: Arikapú
 name.comp: Arikapu
-iso: ark
+code: ark
 family: Macro-Ge
 country: Brazil
 geo: -12.389 -62.511 193

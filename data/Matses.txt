@@ -1,7 +1,7 @@
 name: Matsés
 name.short: Matsés
 name.comp: Matses
-iso: mcf
+code: mcf
 family: Panoan
 country: Brazil
 country: Peru

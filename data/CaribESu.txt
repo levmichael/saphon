@@ -1,7 +1,7 @@
 name: Carib (Suriname dialect)
 name.short: Carib Srnm
 name.comp: CaribESu
-iso: car_esr
+code: car_esr
 family: Carib
 country: Suriname
 geo: 5.640 -55.933 17

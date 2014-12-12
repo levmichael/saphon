@@ -1,7 +1,7 @@
 name: Tena Quechua
 name.short: Tena Q
 name.comp: TenaQ
-iso: quw
+code: quw
 family: Quechua
 country: Ecuador
 geo: -0.812 -77.664 1657

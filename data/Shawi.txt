@@ -2,7 +2,7 @@ name: Shawi
 name.short: Shawi
 name.alt: Chayahuita
 name.comp: Shawi
-iso: cbt
+code: cbt
 family: Cahuapanan
 country: Peru
 geo: -5.592 -76.324 208

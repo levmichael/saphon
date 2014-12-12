@@ -1,7 +1,7 @@
 name: Napo Quichua
 name.short: Napo Quichua
 name.comp: NapoQ
-iso: qvo
+code: qvo
 family: Quechua
 country: Ecuador
 country: Peru

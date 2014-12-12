@@ -1,7 +1,7 @@
 name: Bakairí (Western dialect)
 name.short: Bakairí West
 name.comp: BakairiW
-iso: bkq_wst
+code: bkq_wst
 family: Carib
 country: Brazil
 geo: -14.730 -56.248 215

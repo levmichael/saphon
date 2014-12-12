@@ -1,7 +1,7 @@
 name: Mehináku
 name.short: Mehináku
 name.comp: Mehinaku
-iso: mmh
+code: mmh
 family: Arawak
 country: Brazil
 geo: -12.834 -53.427 325

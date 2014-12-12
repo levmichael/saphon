@@ -1,7 +1,7 @@
 name: Tuparí
 name.short: Tuparí
 name.comp: Tupari
-iso: tpr
+code: tpr
 family: Tupí
 country: Brazil
 geo: -11.599 -61.915 187

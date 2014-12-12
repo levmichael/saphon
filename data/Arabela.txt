@@ -1,7 +1,7 @@
 name: Arabela
 name.short: Arabela
 name.comp: Arabela
-iso: arl
+code: arl
 family: Zaparoan
 country: Peru
 geo: -2.000 -75.000 169

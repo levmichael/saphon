@@ -1,7 +1,7 @@
 name: Panobo
 name.short: Panobo
 name.comp: Panobo
-iso: pno
+code: pno
 family: Panoan
 country: Peru
 geo: -7.359 -74.985 132

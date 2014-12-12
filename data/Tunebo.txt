@@ -1,7 +1,7 @@
 name: Tunebo (Central dialect)
 name.short: Tunebo Cntrl
 name.comp: Tunebo
-iso: tuf
+code: tuf
 family: Chibchan
 country: Colombia
 country: Venezuela

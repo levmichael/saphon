@@ -2,7 +2,7 @@ name: Damana
 name.short: Damana
 name.alt: Malayo
 name.comp: Damana
-iso: mbp
+code: mbp
 family: Chibchan
 country: Colombia
 geo: 10.859 -73.353 212

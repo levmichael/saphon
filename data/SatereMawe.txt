@@ -1,7 +1,7 @@
 name: Sateré-Mawé
 name.short: Sateré-Mawé
 name.comp: SatereMawe
-iso: mav
+code: mav
 family: Tupí
 country: Brazil
 geo: -3.450 -56.995 57

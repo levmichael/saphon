@@ -1,7 +1,7 @@
 name: Teushen
 name.short: Teushen
 name.comp: Teushen
-iso: teh_tsh
+code: teh_tsh
 family: Chon
 country: Argentina
 geo: -49.004 -67.947 nan

@@ -1,7 +1,7 @@
 name: Caquinte
 name.short: Caquinte
 name.comp: Caquinte
-iso: cot
+code: cot
 family: Arawak
 country: Peru
 geo: -11.709 -73.925 422

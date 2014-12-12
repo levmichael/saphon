@@ -1,7 +1,7 @@
 name: Cabiyarí
 name.short: Cabiyarí
 name.comp: Cabiyari
-iso: cbb
+code: cbb
 family: Arawak
 country: Colombia
 geo: -0.130 -70.693 157

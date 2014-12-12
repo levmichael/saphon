@@ -1,7 +1,7 @@
 name: Iquito
 name.short: Iquito
 name.comp: Iquito
-iso: iqu
+code: iqu
 family: Zaparoan
 country: Peru
 geo: -3.703 -73.777 144

@@ -1,7 +1,7 @@
 name: Emberá-Baudó
 name.short: Emberá-Baudó
 name.comp: EmberaBaudo
-iso: bdc
+code: bdc
 family: Choco
 country: Colombia
 geo: 5.351 -77.367 100

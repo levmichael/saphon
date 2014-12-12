@@ -2,7 +2,7 @@ name: Yurutí
 name.short: Yurutí
 name.alt: Wajiara
 name.comp: Yuruti
-iso: yui
+code: yui
 family: Tucanoan
 country: Colombia
 country: Brazil

@@ -1,7 +1,7 @@
 name: Alacalufe (Southern)
 name.short: Alacalufe S.
 name.comp: AlacalufeS
-iso: alc_sth
+code: alc_sth
 family: Alacalufan
 country: Chile
 geo: -55.200 -69.400 nan

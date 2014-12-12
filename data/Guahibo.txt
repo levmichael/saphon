@@ -1,7 +1,7 @@
 name: Guahibo
 name.short: Guahibo
 name.comp: Guahibo
-iso: guh
+code: guh
 family: Guahiban
 country: Colombia
 country: Venezuela

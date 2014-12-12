@@ -1,7 +1,7 @@
 name: Carib (French Guiana dialect)
 name.short: Carib Fr Gna
 name.comp: CaribFrG
-iso: car_frg
+code: car_frg
 family: Carib
 country: French Guiana
 geo: 5.714 -53.937 7

@@ -1,7 +1,7 @@
 name: Tsimané
 name.short: Tsimané
 name.comp: Tsimane
-iso: cas_tsi
+code: cas_tsi
 family: Mosetenan
 country: Bolivia
 geo: -14.667 -66.830 nan

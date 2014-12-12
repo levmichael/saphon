@@ -2,7 +2,7 @@ name: Ika
 name.short: Ika
 name.alt: Arhuaco
 name.comp: Ika
-iso: arh
+code: arh
 family: Chibchan
 country: Colombia
 geo: 10.659 -73.752 54

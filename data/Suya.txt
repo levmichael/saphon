@@ -1,7 +1,7 @@
 name: Suyá
 name.short: Suyá
 name.comp: Suya
-iso: suy
+code: suy
 family: Macro-Ge
 country: Brazil
 geo: -11.432 -53.185 304

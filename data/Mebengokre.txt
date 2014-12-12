@@ -2,7 +2,7 @@ name: Mebengokre
 name.short: Mebengokre
 name.alt: Kayapó
 name.comp: Mebengokre
-iso: txu
+code: txu
 family: Macro-Ge
 country: Brazil
 geo: -9.000 -52.000 295

@@ -1,7 +1,7 @@
 name: Emerillon
 name.short: Emerillon
 name.comp: Emerillon
-iso: eme
+code: eme
 family: Tupí
 country: French Guiana
 geo: 3.285 -53.803 nan

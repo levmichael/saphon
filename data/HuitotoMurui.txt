@@ -1,7 +1,7 @@
 name: Huitoto, Murui
 name.short: Huitoto Mur
 name.comp: HuitotoMurui
-iso: huu
+code: huu
 family: Witotoan
 country: Colombia
 country: Peru

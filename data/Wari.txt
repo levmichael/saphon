@@ -2,7 +2,7 @@ name: Wari'
 name.short: Wari'
 name.alt: Pakaásnovos
 name.comp: Wari
-iso: pav
+code: pav
 family: Chapakuran
 country: Brazil
 geo: -11.333 -65.040 165

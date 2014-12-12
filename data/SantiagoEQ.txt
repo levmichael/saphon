@@ -1,7 +1,7 @@
 name: Santiago del Estero Quechua
 name.short: Santiago E Q
 name.comp: SantiagoEQ
-iso: qus
+code: qus
 family: Quechua
 country: Argentina
 geo: -27.671 -64.367 215

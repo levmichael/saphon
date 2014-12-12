@@ -1,7 +1,7 @@
 name: Ofayé
 name.short: Ofayé
 name.comp: Ofaye
-iso: opy
+code: opy
 family: Macro-Ge
 country: Brazil
 geo: -15.169 -53.171 461

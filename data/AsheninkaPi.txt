@@ -1,7 +1,7 @@
 name: Ashéninka (Pichis dialect)
 name.short: Ashéninka Pi
 name.comp: AsheninkaPi
-iso: cpu
+code: cpu
 family: Arawak
 country: Peru
 geo: -9.983 -74.983 263

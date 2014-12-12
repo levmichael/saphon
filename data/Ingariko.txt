@@ -2,7 +2,7 @@ name: Ingarikó
 name.short: Ingarikó
 name.alt: Akawaio
 name.comp: Ingariko
-iso: ake
+code: ake
 family: Carib
 country: Brazil
 country: Guiana

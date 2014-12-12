@@ -1,7 +1,7 @@
 name: Kithaulhu
 name.short: Kithaulhu
 name.comp: Kithaulhu
-iso: nab_kth
+code: nab_kth
 family: Nambiquaran
 country: Brazil
 geo: -12.600 -60.700 nan

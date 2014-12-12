@@ -1,7 +1,7 @@
 name: Jauja-Huanca Quechua
 name.short: Jauja-Huanca
 name.comp: JaujaHuancaQ
-iso: qxw
+code: qxw
 family: Quechua
 country: Peru
 geo: -12.073 -75.219 3449

@@ -1,7 +1,7 @@
 name: Northern Emberá
 name.short: North Emberá
 name.comp: EmberaN
-iso: emp
+code: emp
 family: Choco
 country: Colombia
 geo: 6.673 -77.365 188

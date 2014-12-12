@@ -1,7 +1,7 @@
 name: Apurinã
 name.short: Apurinã
 name.comp: Apurina
-iso: apu
+code: apu
 family: Arawak
 country: Brazil
 geo: -9.000 -67.000 170

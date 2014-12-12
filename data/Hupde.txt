@@ -1,7 +1,7 @@
 name: Hup
 name.short: Hup
 name.comp: Hupde
-iso: jup
+code: jup
 family: Nadahup
 country: Colombia
 country: Brazil

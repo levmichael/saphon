@@ -1,7 +1,7 @@
 name: Sáliba
 name.short: Sáliba
 name.comp: Saliba
-iso: slc
+code: slc
 family: Salivan
 country: Colombia
 country: Venezuela

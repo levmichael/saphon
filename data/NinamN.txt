@@ -4,7 +4,7 @@ name.alt: Yanam
 name.alt: Northern Ninam
 name.alt: Xiriana
 name.comp: NinamN
-iso: shb
+code: shb
 family: Yanomam
 country: Venezuela
 geo: 3.300 -62.500 313

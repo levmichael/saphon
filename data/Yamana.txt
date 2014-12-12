@@ -2,7 +2,7 @@ name: Yahgan
 name.short: Yahgan
 name.alt: Yámana
 name.comp: Yamana
-iso: yag
+code: yag
 family: Isolate
 country: Chile
 geo: -54.935 -67.626 38

@@ -1,7 +1,7 @@
 name: Júma
 name.short: Júma
 name.comp: Juma
-iso: jua
+code: jua
 family: Tupí
 country: Brazil
 geo: -7.300 -64.000 79

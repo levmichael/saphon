@@ -1,7 +1,7 @@
 name: Warao
 name.short: Warao
 name.comp: Warao
-iso: wba
+code: wba
 family: Isolate
 country: Venezuela
 country: Suriname

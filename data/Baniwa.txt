@@ -2,7 +2,7 @@ name: Baniwa (Central)
 name.short: Baniwa (Central)
 name.alt: Baniwa do Içana
 name.comp: Baniwa
-iso: bwi_cen
+code: bwi_cen
 family: Arawak
 country: Venezuela
 country: Brazil

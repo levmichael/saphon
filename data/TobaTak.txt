@@ -1,7 +1,7 @@
 name: Toba (Takshek dialect)
 name.short: Toba Takshek
 name.comp: TobaTak
-iso: tob_tks
+code: tob_tks
 family: Guaicuru
 country: Argentina
 country: Bolivia

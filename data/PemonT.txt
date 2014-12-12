@@ -1,7 +1,7 @@
 name: Pemon (Tarepang dialect)
 name.short: Pemon Trpng
 name.comp: PemonT
-iso: aoc_tar
+code: aoc_tar
 family: Carib
 country: Brazil
 country: Guyana

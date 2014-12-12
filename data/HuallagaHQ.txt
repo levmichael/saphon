@@ -1,7 +1,7 @@
 name: Huallaga Huánuco Quechua
 name.short: Huallaga H Q
 name.comp: HuallagaHQ
-iso: qub
+code: qub
 family: Quechua
 country: Peru
 geo: -9.390 -76.543 2497

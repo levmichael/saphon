@@ -1,7 +1,7 @@
 name: Cajamarca Quechua
 name.short: Cajamarca Q
 name.comp: CajamarcaQ
-iso: qvc
+code: qvc
 family: Quechua
 country: Peru
 geo: -7.111 -78.557 3262

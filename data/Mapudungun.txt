@@ -1,7 +1,7 @@
 name: Mapudungun
 name.short: Mapudungun
 name.comp: Mapudungun
-iso: arn
+code: arn
 family: Araucanian
 country: Argentina
 country: Chile

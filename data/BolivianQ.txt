@@ -1,8 +1,8 @@
 name: Bolivian Quechua (Northern and Southern dialects)
 name.short: Bolivian Q
 name.comp: BolivianQ
-iso: qul
-iso: quh
+code: qul
+code: quh
 family: Quechua
 country: Bolivia
 geo: -15.532 -68.879 3229

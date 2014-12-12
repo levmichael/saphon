@@ -1,7 +1,7 @@
 name: Chipaya
 name.short: Chipaya
 name.comp: Chipaya
-iso: cap
+code: cap
 family: Uru-Chipaya
 country: Bolivia
 geo: -18.296 -68.151 3677

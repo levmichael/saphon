@@ -1,7 +1,7 @@
 name: Carijona
 name.short: Carijona
 name.comp: Carijona
-iso: cbd
+code: cbd
 family: Carib
 country: Colombia
 geo: 0.148 -70.708 216

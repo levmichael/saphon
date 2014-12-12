@@ -1,7 +1,7 @@
 name: Inga (Highland dialect)
 name.short: Inga Highlnd
 name.comp: IngaHQ
-iso: inb
+code: inb
 family: Quechua
 country: Colombia
 geo: 1.223 -76.658 1189

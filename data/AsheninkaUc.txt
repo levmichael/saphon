@@ -1,7 +1,7 @@
 name: Ashéninka (Ucayali-Yurúa dialect)
 name.short: Ashéninka Uc
 name.comp: AsheninkaUc
-iso: cpb
+code: cpb
 family: Arawak
 country: Brazil
 geo: -10.162 -74.023 381

@@ -1,7 +1,7 @@
 name: Cofán
 name.short: Cofán
 name.comp: Cofan
-iso: con
+code: con
 family: Isolate
 country: Ecuador
 country: Colombia

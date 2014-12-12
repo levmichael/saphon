@@ -1,7 +1,7 @@
 name: Siona
 name.short: Siona
 name.comp: Siona
-iso: snn
+code: snn
 family: Tucanoan
 country: Ecuador
 country: Colombia

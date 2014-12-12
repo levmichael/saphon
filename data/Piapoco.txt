@@ -1,7 +1,7 @@
 name: Piapoco
 name.short: Piapoco
 name.comp: Piapoco
-iso: pio
+code: pio
 family: Arawak
 country: Colombia
 country: Venezuela

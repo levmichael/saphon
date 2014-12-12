@@ -1,7 +1,7 @@
 name: Ayacucho Quechua
 name.short: Ayacucho Q
 name.comp: AyacuchoQ
-iso: quy
+code: quy
 family: Quechua
 country: Peru
 geo: -13.580 -74.474 3319

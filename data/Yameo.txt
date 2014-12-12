@@ -1,7 +1,7 @@
 name: Yameo
 name.short: Yameo
 name.comp: Yameo
-iso: yme
+code: yme
 family: Peba-Yaguan
 country: Peru
 geo: -3.614 -73.219 122

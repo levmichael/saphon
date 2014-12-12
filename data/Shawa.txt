@@ -2,7 +2,7 @@ name: Arara do Acre
 name.short: Shawã
 name.alt: Arara do Acre
 name.comp: Shawa
-iso: adc
+code: adc
 family: Panoan
 country: Brazil
 geo: -8.841 -72.315 279

@@ -1,7 +1,7 @@
 name: Maka
 name.short: Maka
 name.comp: Maka
-iso: mca
+code: mca
 family: Mataco
 country: Paraguay
 geo: -24.970 -57.323 79

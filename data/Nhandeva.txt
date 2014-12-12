@@ -1,7 +1,7 @@
 name: Nhandeva
 name.short: Nhandeva
 name.comp: Nhandeva
-iso: nhd
+code: nhd
 family: Tupí
 country: Bolivia
 country: Paraguay

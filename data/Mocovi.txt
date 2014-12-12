@@ -1,7 +1,7 @@
 name: Mocoví
 name.short: Mocoví
 name.comp: Mocovi
-iso: moc
+code: moc
 family: Guaicuru
 country: Argentina
 geo: -28.406 -59.412 154

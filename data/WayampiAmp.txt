@@ -1,7 +1,7 @@
 name: Wayampi (Ampari dialect)
 name.short: Wayampi Ampr
 name.comp: WayampiAmp
-iso: oym_amp
+code: oym_amp
 family: Tupí
 country: French Guiana
 country: Brazil

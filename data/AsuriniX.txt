@@ -1,7 +1,7 @@
 name: Asurini do Xingú
 name.short: Asurini Xng
 name.comp: AsuriniX
-iso: asn
+code: asn
 family: Tupí
 country: Brazil
 geo: -3.300 -49.300 76

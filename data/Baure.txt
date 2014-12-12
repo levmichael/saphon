@@ -1,7 +1,7 @@
 name: Baure
 name.short: Baure
 name.comp: Baure
-iso: brg
+code: brg
 family: Arawak
 country: Bolivia
 geo: -13.500 -64.100 141

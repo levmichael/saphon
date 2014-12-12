@@ -1,7 +1,7 @@
 name: Guayabero
 name.short: Guayabero
 name.comp: Guayabero
-iso: guo
+code: guo
 family: Guahiban
 country: Colombia
 geo: 2.709 -71.980 242

@@ -1,7 +1,7 @@
 name: Curripaco
 name.short: Curripaco
 name.comp: Curripaco
-iso: kpc
+code: kpc
 family: Arawak
 country: Venezuela
 country: Brazil

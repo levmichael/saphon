@@ -1,7 +1,7 @@
 name: Kayabí
 name.short: Kayabí
 name.comp: Kayabi
-iso: kyz
+code: kyz
 family: Tupí
 country: Brazil
 geo: -11.104 -56.528 nan

@@ -1,7 +1,7 @@
 name: Günün Yajich
 name.short: Günün Yajich
 name.comp: GununYajich
-iso: gny
+code: gny
 family: Chon
 country: Argentina
 geo: -41.102 -66.992 505

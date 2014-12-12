@@ -1,7 +1,7 @@
 name: Andoa
 name.short: Andoa
 name.comp: Andoa
-iso: anb
+code: anb
 family: Zaparoan
 country: Peru
 geo: -2.900 -76.405 229

@@ -1,7 +1,7 @@
 name: Haush
 name.short: Haush
 name.comp: Haush
-iso: ona_mtr
+code: ona_mtr
 family: Chon
 country: Argentina
 geo: -54.783 -64.285 nan

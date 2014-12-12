@@ -1,7 +1,7 @@
 name: Terêna
 name.short: Terêna
 name.comp: Terena
-iso: ter
+code: ter
 family: Arawak
 country: Brazil
 geo: -20.000 -56.000 126

@@ -1,7 +1,7 @@
 name: Yawalapití
 name.short: Yawalapití
 name.comp: Yawalapiti
-iso: yaw
+code: yaw
 family: Arawak
 country: Brazil
 geo: -12.672 -53.561 335

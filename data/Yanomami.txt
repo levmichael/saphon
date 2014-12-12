@@ -1,7 +1,7 @@
 name: Yanomámi
 name.short: Yanomámi
 name.comp: Yanomami
-iso: wca
+code: wca
 family: Yanomam
 country: Brazil
 geo: 2.200 -63.000 296

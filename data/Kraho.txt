@@ -1,7 +1,7 @@
 name: Krahô
 name.short: Krahô
 name.comp: Kraho
-iso: xra
+code: xra
 family: Macro-Ge
 country: Brazil
 geo: -8.000 -48.000 168

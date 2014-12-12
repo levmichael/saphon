@@ -1,7 +1,7 @@
 name: Paraguayan Guaraní
 name.short: Guaraní Prgy
 name.comp: GuaraniP
-iso: gug
+code: gug
 family: Tupí
 country: Paraguay
 geo: -24.911 -57.501 143

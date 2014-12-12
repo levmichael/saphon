@@ -1,7 +1,7 @@
 name: Yanomamö
 name.short: Yanomamö
 name.comp: Yanomamo
-iso: guu
+code: guu
 family: Yanomam
 country: Venezuela
 country: Brazil

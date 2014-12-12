@@ -2,7 +2,7 @@ name: Yaathe
 name.short: Yaathe
 name.alt: Iatê
 name.comp: Yaathe
-iso: fun
+code: fun
 family: Macro-Ge
 country: Brazil
 geo: -8.000 -37.300 664

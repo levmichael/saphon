@@ -1,7 +1,7 @@
 name: Shuar
 name.short: Shuar
 name.comp: Shuar
-iso: jiv
+code: jiv
 family: Jivaroan
 country: Ecuador
 geo: -2.535 -77.956 1365

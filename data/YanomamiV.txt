@@ -1,7 +1,7 @@
 name: Yanomamɨ of Venezuela
 name.short: Yanomamɨ Ven
 name.comp: YanomamiV
-iso: guu_ven
+code: guu_ven
 family: Yanomam
 country: Venezuela
 geo: 2.270 -64.590 nan

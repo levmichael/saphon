@@ -1,7 +1,7 @@
 name: Iñapari
 name.short: Iñapari
 name.comp: Inyapari
-iso: inp
+code: inp
 family: Arawak
 country: Peru
 geo: -12.088 -69.544 276

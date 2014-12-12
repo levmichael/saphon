@@ -1,7 +1,7 @@
 name: Gavião do Jiparaná
 name.short: Gavião Jprn
 name.comp: GaviaoJ
-iso: gvo
+code: gvo
 family: Tupí
 country: Brazil
 geo: -10.400 -62.000 187

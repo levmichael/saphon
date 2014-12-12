@@ -1,7 +1,7 @@
 name: Emberá-Catío
 name.short: Emberá-Catío
 name.comp: EmberaCatio
-iso: cto
+code: cto
 family: Choco
 country: Colombia
 geo: 7.442 -76.511 480

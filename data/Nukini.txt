@@ -1,7 +1,7 @@
 name: Nukini
 name.short: Nukini
 name.comp: Nukini
-iso: nuc
+code: nuc
 family: Panoan
 country: Brazil
 geo: -7.419 -72.416 186

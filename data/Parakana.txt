@@ -1,7 +1,7 @@
 name: Parakanã
 name.short: Parakanã
 name.comp: Parakana
-iso: pak
+code: pak
 family: Tupí
 country: Brazil
 geo: -5.822 -52.511 nan

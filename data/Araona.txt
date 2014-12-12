@@ -1,7 +1,7 @@
 name: Araona
 name.short: Araona
 name.comp: Araona
-iso: aro
+code: aro
 family: Tacanan
 country: Bolivia
 geo: -12.353 -67.751 199

@@ -1,7 +1,7 @@
 name: Cayubaba
 name.short: Cayubaba
 name.comp: Cayubaba
-iso: cyb
+code: cyb
 family: Isolate
 country: Bolivia
 geo: -13.421 -65.464 2108

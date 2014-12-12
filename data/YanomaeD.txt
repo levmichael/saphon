@@ -1,7 +1,7 @@
 name: Yanomae of Demini/Tototopi
 name.short: Yanomae Demi
 name.comp: YanomaeD
-iso: wca_yae
+code: wca_yae
 family: Yanomam
 country: Brazil
 geo: 1.516 -62.820 nan

@@ -1,7 +1,7 @@
 name: Wichí (Mision la Paz dialect)
 name.short: Wichí Msn Pz
 name.comp: WichiMP
-iso: mtp
+code: mtp
 family: Mataco
 country: Argentina
 geo: -22.350 -62.518 nan

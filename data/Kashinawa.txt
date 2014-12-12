@@ -1,7 +1,7 @@
 name: Kashinawa
 name.short: Kashinawa
 name.comp: Kashinawa
-iso: cbs
+code: cbs
 family: Panoan
 country: Peru
 geo: -10.125 -71.226 316

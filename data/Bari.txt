@@ -1,7 +1,7 @@
 name: Barí
 name.short: Barí
 name.comp: Bari
-iso: mot
+code: mot
 family: Chibchan
 country: Venezuela
 country: Colombia

@@ -1,7 +1,7 @@
 name: Waimaha
 name.short: Waimaha
 name.comp: Waimaha
-iso: bao
+code: bao
 family: Tucanoan
 country: Brazil
 country: Colombia

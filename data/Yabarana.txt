@@ -1,7 +1,7 @@
 name: Yabarana
 name.short: Yabarana
 name.comp: Yabarana
-iso: yar
+code: yar
 family: Carib
 country: Venezuela
 geo: 5.394 -66.219 158

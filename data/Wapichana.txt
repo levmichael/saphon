@@ -2,7 +2,7 @@ name: Wapichana
 name.short: Wapichana
 name.alt: Wapishana
 name.comp: Wapichana
-iso: wap
+code: wap
 family: Arawak
 country: Brazil
 country: Guyana

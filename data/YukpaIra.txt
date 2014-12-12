@@ -1,7 +1,7 @@
 name: Yukpa (de Irapa)
 name.short: Yukpa Irapa
 name.comp: YukpaIra
-iso: yup_irp
+code: yup_irp
 family: Carib
 country: Venezuela
 country: Colombia

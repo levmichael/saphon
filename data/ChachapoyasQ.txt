@@ -1,7 +1,7 @@
 name: Chachapoyas Quechua
 name.short: Chachapoyas Q
 name.comp: ChachapoyasQ
-iso: quk
+code: quk
 family: Quechua
 country: Peru
 geo: -6.263 -77.852 2820

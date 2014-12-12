@@ -1,7 +1,7 @@
 name: Muniche
 name.short: Muniche
 name.comp: Muniche
-iso: myr
+code: myr
 family: Isolate
 country: Peru
 geo: -5.700 -76.100 188

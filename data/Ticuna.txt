@@ -1,7 +1,7 @@
 name: Ticuna
 name.short: Ticuna
 name.comp: Ticuna
-iso: tca
+code: tca
 family: Isolate
 country: Peru
 country: Brazil

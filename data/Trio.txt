@@ -2,7 +2,7 @@ name: Trió
 name.short: Trió
 name.alt: Tiriyó
 name.comp: Trio
-iso: tri
+code: tri
 family: Carib
 country: Suriname
 country: Brazil

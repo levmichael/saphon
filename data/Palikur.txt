@@ -1,7 +1,7 @@
 name: Palikúr
 name.short: Palikúr
 name.comp: Palikur
-iso: plu
+code: plu
 family: Arawak
 country: Brazil
 country: French Guiana

@@ -1,7 +1,7 @@
 name: Korubo
 name.short: Korubo
 name.comp: Korubo
-iso: xor
+code: xor
 family: Panoan
 country: Brazil
 geo: -5.132 -70.606 115

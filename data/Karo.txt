@@ -1,7 +1,7 @@
 name: Karo
 name.short: Karo
 name.comp: Karo
-iso: arr
+code: arr
 family: Tupí
 country: Brazil
 geo: -10.200 -62.000 209

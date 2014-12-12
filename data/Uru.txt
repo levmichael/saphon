@@ -1,7 +1,7 @@
 name: Uru
 name.short: Uru
 name.comp: Uru
-iso: ure
+code: ure
 family: Uru-Chipaya
 country: Bolivia
 geo: -16.620 -68.970 3712

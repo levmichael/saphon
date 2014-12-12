@@ -1,7 +1,7 @@
 name: Avá-Canoeiro
 name.short: Avá-Canoeiro
 name.comp: AvaCanoeiro
-iso: avv
+code: avv
 family: Tupí
 country: Brazil
 geo: -11.213 -50.609 nan

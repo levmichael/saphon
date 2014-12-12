@@ -2,7 +2,7 @@ name: Shiwilu
 name.short: Shiwilu
 name.alt: Jebero
 name.comp: Shiwilu
-iso: jeb
+code: jeb
 family: Cahuapanan
 country: Peru
 geo: -5.281 -76.283 155

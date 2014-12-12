@@ -1,7 +1,7 @@
 name: Aikanã
 name.short: Aikanã
 name.comp: Aikana
-iso: tba
+code: tba
 family: Isolate
 country: Brazil
 geo: -12.661 -60.668 341

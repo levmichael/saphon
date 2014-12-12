@@ -1,7 +1,7 @@
 name: Tehuelche
 name.short: Tehuelche
 name.comp: Tehuelche
-iso: teh
+code: teh
 family: Chon
 country: Argentina
 geo: -48.000 -68.000 102

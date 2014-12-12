@@ -2,7 +2,7 @@ name: Bésɨro
 name.short: Bésɨro
 name.alt: Chiquitano
 name.comp: Besiro
-iso: cax
+code: cax
 family: Macro-Ge
 country: Bolivia
 geo: -16.637 -61.927 nan

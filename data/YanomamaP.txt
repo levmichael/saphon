@@ -1,7 +1,7 @@
 name: Yanomama of Papiu
 name.short: Yanomama Pap.
 name.comp: YanomamaP
-iso: wca_yma
+code: wca_yma
 family: Yanomam
 country: Brazil
 geo: 2.660 -63.156 nan

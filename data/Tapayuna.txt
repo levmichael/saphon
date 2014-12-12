@@ -1,7 +1,7 @@
 name: Tapayuna
 name.short: Tapayuna
 name.comp: Tapayuna
-iso: suy_tap
+code: suy_tap
 family: Macro-Ge
 country: Brazil
 geo: -10.060 -52.997 315

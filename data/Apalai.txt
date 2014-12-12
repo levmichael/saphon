@@ -1,7 +1,7 @@
 name: Apalaí
 name.short: Apalaí
 name.comp: Apalai
-iso: apy
+code: apy
 family: Carib
 country: Brazil
 geo: 1.217 -54.657 261

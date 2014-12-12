@@ -1,7 +1,7 @@
 name: Pumé
 name.short: Pumé
 name.comp: Pume
-iso: yae
+code: yae
 family: Isolate
 country: Venezuela
 geo: 7.769 -67.598 53

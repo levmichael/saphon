@@ -1,7 +1,7 @@
 name: Aymara (Central dialect)
 name.short: Aymara Cntrl
 name.comp: Aymara
-iso: ayr
+code: ayr
 family: Aymaran
 country: Bolivia
 country: Argentina

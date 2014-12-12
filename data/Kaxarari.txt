@@ -1,7 +1,7 @@
 name: Kaxararí
 name.short: Kaxararí
 name.comp: Kaxarari
-iso: ktx
+code: ktx
 family: Panoan
 country: Brazil
 geo: -9.327 -66.678 158

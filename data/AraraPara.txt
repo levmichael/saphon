@@ -1,7 +1,7 @@
 name: Arára, Pará
 name.short: Arára Pará
 name.comp: AraraPara
-iso: aap
+code: aap
 family: Carib
 country: Brazil
 geo: -4.242 -53.374 173

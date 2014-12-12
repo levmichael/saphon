@@ -1,7 +1,7 @@
 name: Xetá
 name.short: Xetá
 name.comp: Xeta
-iso: xet
+code: xet
 family: Tupí
 country: Brazil
 geo: -23.196 -50.453 579

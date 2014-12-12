@@ -1,7 +1,7 @@
 name: Tapieté
 name.short: Tapieté
 name.comp: Tapiete
-iso: tpj
+code: tpj
 family: Tupí
 country: Argentina
 country: Bolivia

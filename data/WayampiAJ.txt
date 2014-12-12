@@ -1,7 +1,7 @@
 name: Wayampi (Alto Jarí dialect)
 name.short: Wayampi Alt J
 name.comp: WayampiAJ
-iso: oym_jri
+code: oym_jri
 family: Tupí
 country: French Guiana
 country: Brazil

@@ -1,7 +1,7 @@
 name: Huambisa
 name.short: Huambisa
 name.comp: Huambisa
-iso: hub
+code: hub
 family: Jivaroan
 country: Peru
 geo: -4.279 -77.852 798

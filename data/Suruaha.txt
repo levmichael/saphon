@@ -2,7 +2,7 @@ name: Suruahá
 name.short: Suruahá
 name.alt: Suruwahá
 name.comp: Suruaha
-iso: swx
+code: swx
 family: Arawan
 country: Brazil
 geo: -7.576 -64.938 66

@@ -1,7 +1,7 @@
 name: Trinitario
 name.short: Trinitario
 name.comp: Trinitario
-iso: trn
+code: trn
 family: Arawak
 country: Bolivia
 geo: -14.801 -64.904 nan

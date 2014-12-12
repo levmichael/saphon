@@ -1,7 +1,7 @@
 name: Tatuyo
 name.short: Tatuyo
 name.comp: Tatuyo
-iso: tav
+code: tav
 family: Tucanoan
 country: Colombia
 geo: 0.250 -70.300 184

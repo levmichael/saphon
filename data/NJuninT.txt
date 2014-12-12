@@ -1,7 +1,7 @@
 name: North Junín Quechua (Tarma dialect)
 name.short: N Junín Q T
 name.comp: NJuninT
-iso: qvn_tar
+code: qvn_tar
 family: Quechua
 country: Peru
 geo: -11.419 -75.691 4101

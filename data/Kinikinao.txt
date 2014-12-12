@@ -1,7 +1,7 @@
 name: Kinikinao
 name.short: Kinikinao
 name.comp: Kinikinao
-iso: gqn
+code: gqn
 family: Arawak
 country: Brazil
 geo: -19.989 -57.028 239

@@ -1,7 +1,7 @@
 name: Guarayu
 name.short: Guarayu
 name.comp: Guarayu
-iso: gyr
+code: gyr
 family: Tupí
 country: Bolivia
 geo: -15.752 -63.179 nan

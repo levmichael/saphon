@@ -1,7 +1,7 @@
 name: Resígaro
 name.short: Resígaro
 name.comp: Resigaro
-iso: rgr
+code: rgr
 family: Arawak
 country: Peru
 geo: -3.343 -71.994 139

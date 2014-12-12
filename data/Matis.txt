@@ -1,7 +1,7 @@
 name: Matís
 name.short: Matís
 name.comp: Matis
-iso: mpq
+code: mpq
 family: Panoan
 country: Brazil
 geo: -4.418 -70.306 83

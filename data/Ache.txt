@@ -1,7 +1,7 @@
 name: Aché
 name.short: Aché
 name.comp: Ache
-iso: guq
+code: guq
 family: Tupí
 country: Paraguay
 geo: -25.446 -56.727 126

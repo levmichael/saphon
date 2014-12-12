@@ -1,7 +1,7 @@
 name: Zo'é
 name.short: Zo'é
 name.comp: Zoe
-iso: pto
+code: pto
 family: Tupí
 country: Brazil
 geo: 0.169 -56.058 nan

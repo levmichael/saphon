@@ -1,7 +1,7 @@
 name: Tsáfiki
 name.short: Tsáfiki
 name.comp: Tsafiki
-iso: cof
+code: cof
 family: Barbacoan
 country: Ecuador
 geo: -0.260 -79.147 597

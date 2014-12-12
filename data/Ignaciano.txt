@@ -1,7 +1,7 @@
 name: Ignaciano
 name.short: Ignaciano
 name.comp: Ignaciano
-iso: ign
+code: ign
 family: Arawak
 country: Bolivia
 geo: -15.100 -65.250 155

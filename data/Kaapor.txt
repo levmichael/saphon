@@ -3,7 +3,7 @@ name.short: Kaapor
 name.alt: Urubo-Kaapor
 name.alt: Ka'apor
 name.comp: Kaapor
-iso: urb
+code: urb
 family: Tupí
 country: Brazil
 geo: -2.346 -46.312 41

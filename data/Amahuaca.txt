@@ -1,7 +1,7 @@
 name: Amahuaca
 name.short: Amahuaca
 name.comp: Amahuaca
-iso: amc
+code: amc
 family: Panoan
 country: Peru
 country: Brazil

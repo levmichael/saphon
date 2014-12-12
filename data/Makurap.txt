@@ -1,7 +1,7 @@
 name: Makuráp
 name.short: Makuráp
 name.comp: Makurap
-iso: mpu
+code: mpu
 family: Tupí
 country: Brazil
 geo: -11.996 -62.630 208

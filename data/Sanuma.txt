@@ -1,7 +1,7 @@
 name: Sanumá
 name.short: Sanumá
 name.comp: Sanuma
-iso: xsu
+code: xsu
 family: Yanomam
 country: Venezuela
 country: Brazil

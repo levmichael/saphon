@@ -1,7 +1,7 @@
 name: Yucuna
 name.short: Yucuna
 name.comp: Yucuna
-iso: ycn
+code: ycn
 family: Arawak
 country: Colombia
 geo: -0.760 -71.103 165

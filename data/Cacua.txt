@@ -2,7 +2,7 @@ name: Kakua
 name.short: Kakua
 name.alt: Cacua
 name.comp: Cacua
-iso: cbv
+code: cbv
 family: Kakua-Nukak
 country: Colombia
 geo: 1.500 -70.000 227

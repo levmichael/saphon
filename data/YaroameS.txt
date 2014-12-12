@@ -1,7 +1,7 @@
 name: Yãroamë of Serra do Pacu/Ajarani
 name.short: Yãroamë Serra
 name.comp: YaroameS
-iso: yrm_pac
+code: yrm_pac
 family: Yanomam
 country: Brazil
 geo: 1.720 -62.070 nan

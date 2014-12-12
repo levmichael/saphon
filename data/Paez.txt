@@ -1,7 +1,7 @@
 name: Páez
 name.short: Páez
 name.comp: Paez
-iso: pbb
+code: pbb
 family: Isolate
 country: Colombia
 geo: 2.405 -76.608 nan

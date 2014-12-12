@@ -1,7 +1,7 @@
 name: Latunde
 name.short: Latunde
 name.comp: Latunde
-iso: ltn
+code: ltn
 family: Nambiquaran
 country: Brazil
 geo: -13.700 -57.500 nan

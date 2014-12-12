@@ -2,7 +2,7 @@ name: Yine
 name.short: Yine
 name.alt: Piro
 name.comp: Yine
-iso: pib
+code: pib
 family: Arawak
 country: Peru
 geo: -11.137 -73.087 366
