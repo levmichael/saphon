@@ -6,7 +6,5 @@ family: Quechua
 country: Peru
 geo: -7.025 -76.749 887
 feat: p t tʃ dʒ k m n ɲ s ʃ x w j ɾ l i a u
-note: -parentheses mean that they were included in the phoneme chart, but it was mentioned that those sounds were mostly found in loans.
-note: -the 1976 resource is a little different. It has ʎ and no l, dʒ or f (only in loans), but I went with what the 2007 source said since it is more recent (it mentions that ʎ has ɡone to dʒ).
 bib: Doherty, Jaime V. 2007. Diccionario del Quechua San Martín. Tarapoto: Santa Rosa.
 bib: David Coombs, Heidi Coombs, Robert Weber. 1976. Gramática quechua, San Martín. Lima: Ministerio de Educación.

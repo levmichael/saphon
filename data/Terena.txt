@@ -7,6 +7,5 @@ country: Brazil
 geo: -20.000 -56.000 126
 feat: p t k ʔ m n s ʃ h w j ɾ l i i: ɛ ɛ: a a: o o: u u: tone
 note: [public]Martins posits /v/ where Silva posits /w/.
-note: Martins has /e/ instead of /ɛ/ and no phonemic long vowels
 bib: Silva, Denise. 2008. Descrição fonológica da língua Terena (Aruak). MA thesis, Universidade Federal de Mato Grosso do Sul.
 bib: Martins, Cosme Romero. 2009. Fonologia da língua Terena. MA thesis, Universidade de Sao Paulo.

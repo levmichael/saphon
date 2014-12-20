@@ -7,6 +7,5 @@ country: Argentina
 country: Chile
 geo: -38.000 -72.000 332
 feat: p t̪ t ʈʂ tʃ k m n̪ n ɲ ŋ f θ s ʐ ɣ w j l l̪ ʎ i e a o u ɨ
-note: consonante oral fricativa prepalatal retrofleja= ʐ
 bib: Viegas Barros, Pedro J. 2005. Voces en el Viento. Buenos Aires: Mondragon. 74.
 bib: Meroz, Yoram. p.c.

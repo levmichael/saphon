@@ -6,5 +6,4 @@ family: Isolate
 country: Colombia
 geo: 2.405 -76.608 nan
 feat: pʰ p pʲ mbʲ mb tʰ t tʲʰ tsʰ ts tsʲʰ tsʲ nd ndʲ ndz ndzʲ kʲ kʰ k ŋɡ m n ɲ ɸʲ βʲ s sʲ x xʲ w j l lʲ i ĩ ḭ iʰ e ḛ ẽ eʰ a a̰ ã aʰ u ṵ ũ uʰ
-note: Aspirated vowels = breathy voice?
 bib: Rojas, Tulio. 1998. La lengua páez: una visión de su gramática. Colombia: Ministerio de Cultura.

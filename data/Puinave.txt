@@ -8,5 +8,4 @@ country: Colombia
 geo: 4.000 -68.000 102
 feat: p t k ʔ m n s h i ĩ e a ã o õ u ɤ ɤ̃ ɯ tone
 note: [public]Tone is contrastive (Giron 104).
-note: no liquid?
 bib: Girón, Jesús. 2007. Una Gramática Del Wá̃nsöjöt (Puinave). PhD dissertation, University of Amsterdam.

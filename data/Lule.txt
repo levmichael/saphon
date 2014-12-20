@@ -6,5 +6,4 @@ family: Isolate
 country: Argentina
 geo: -24.800 -65.400 nan
 feat: p' p t' t ts k' k ʔ m n s ɬ x w j l i e a o u
-note: Note: non-standard language code.
 bib: Viegas Barros, J. Pedro. 2001. Proto-Lule-Vilela: Una reconstrucción fonológica preliminar. Ms., available online: http://www.adilq.com.ar/Viegas-Barros.htm.
