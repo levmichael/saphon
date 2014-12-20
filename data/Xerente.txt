@@ -6,8 +6,8 @@ family: Macro-Ge
 country: Brazil
 geo: -10.000 -48.100 483
 feat: p b t d k m n s z h w j ɾ i ĩ e ẽ ɛ a ɔ o õ u ũ ɨ ə ə̃
-note: [public] de Sousa Filho does not include segments /j/ and /ə/ in his inventory (73-74).
-note: [public]Mattos does not include /j/, /m/, and /n/ (3). He also includes nasalized vowels /ĩ, ũ, ɛ̃, ã, ɔ̃/ (5).
+note: de Sousa Filho does not include segments /j/ and /ə/ in his inventory (73-74).
+note: Mattos does not include /j/, /m/, and /n/ (3). He also includes nasalized vowels /ĩ, ũ, ɛ̃, ã, ɔ̃/ (5).
 bib: de Souza, Shelton Lima. 2008. Descriçao fonético-fonológico da língua akwen-xerente. PhD dissertation, Universidade de Brasília.
 bib: de Sousa, Sinval Martins. 2007. Aspectos morfossintáticos da língua akwẽ-xerente (jê). PhD dissertation, Universidade Federal de Goiás.
 bib: de Mattos, Rinaldo. 1973. Fonêmica xerente. Série lingüística 1. Brasília: SIL.

@@ -6,5 +6,5 @@ family: Arawak
 country: Bolivia
 geo: -13.500 -64.100 141
 feat: p t tʃ k ʔ m n v s ʃ h w j ɾ i e a o
-note: [public]Danielsen remarks that the phonemic status of the glottal stop is not entirely clear.
+note: Danielsen remarks that the phonemic status of the glottal stop is not entirely clear.
 bib: Danielsen, Swintha. 2007. Baure an Arawak languge of Bolivia. Leiden: CNWS Publications. 32.

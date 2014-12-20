@@ -6,5 +6,5 @@ family: Macro-Ge
 country: Brazil
 geo: -24.300 -50.000 865
 feat: p mb t nd tʃ ndʒ k kʷ ŋɡ ŋɡʷ ʔ m n ɲ ð h ʋ j l i ĩ e ẽ ɛ ɛ̃ a ã ɔ ɔ̃ o õ u ũ ɨ ɨ̃ ə ə̃
-note: [public]Gakran indicates that the language may exhibit long vowels.
+note: Gakran indicates that the language may exhibit long vowels.
 bib: Gakran, Nanblá. 2005. Aspectos morfossintáticos da língua laklãnõ (xokleng) jê. MA thesis, Universidade Estadual de Campinas.

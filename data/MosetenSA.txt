@@ -6,5 +6,5 @@ family: Mosetenan
 country: Bolivia
 geo: -13.744 -65.430 nan
 feat: pʰ p b t tʲ ts d dʲ tʃʰ tʃ kʰ k ʔ m n ɲ f s ʃ h ʋ j ɾ i ĩ i: ĩ: e ẽ e: ẽ: a ã o õ ɨ ɨ̃ ə ə̃ ə: ə̃:
-note: [public]The code for this language is a SAPhon language code (non-ISO 639). Moseten is considered a dialect of Tsimane by Ethnologue
+note: The code for this language is a SAPhon language code (non-ISO 639). Moseten is considered a dialect of Tsimane by Ethnologue
 bib: Sakel, Jeanette. 2011. Mosetén and Chimane Argument Coding: A Layered System. International Journal of American Linguistics 77 (4): 537-557.

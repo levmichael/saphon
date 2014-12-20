@@ -6,5 +6,5 @@ family: Panoan
 country: Brazil
 geo: -9.327 -66.678 158
 feat: p t ts tʃ k m n β s ʂ ʃ h w ɾ l i a o u ɨ
-note: [public]Sousa encounterd a palatal nasal /ɲ/ only twice in the data, rendering hom unsure of its phonemic status (58-59).
+note: Sousa encounterd a palatal nasal /ɲ/ only twice in the data, rendering hom unsure of its phonemic status (58-59).
 bib: Sousa, Gladys Cavalcante. 2004. Aspectos da fonologia da língua kaxarari. MA thesis, Universidade Estadual de Campinas.

@@ -6,5 +6,5 @@ family: Tupí
 country: Brazil
 geo: -12.300 -61.300 339
 feat: p t ts k kʷ ɡ m n ɲ ŋ ŋʷ β s h j ɾ i ĩ e ẽ a ã u ũ ɨ ɨ̃
-note: [public]Moore states that /b/, /d/, and /gw/ are of uncertain phonemic status.
+note: Moore states that /b/, /d/, and /gw/ are of uncertain phonemic status.
 bib: Moore, Denny, and Vilacy Galucio. 1993. Reconstruction of Proto-Tupari consonants and vowels. Columbus, OH: Paper presented at the SSILA summer meeting, 1–4 July.

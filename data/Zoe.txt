@@ -6,5 +6,5 @@ family: Tupí
 country: Brazil
 geo: 0.169 -56.058 nan
 feat: p b t d tʃ k kʷ ɡ ʔ s h w j ɾ i ĩ e ẽ a ã ɔ ɔ̃ u ũ ɨ ɨ̃
-note: [public]Surface nasals are allophones of voiced oral stops due to suprasegmental nasalization on the morpheme level.
+note: Surface nasals are allophones of voiced oral stops due to suprasegmental nasalization on the morpheme level.
 bib: Cabral, Ana Suelly. 2009. Caracterização do sistema de alinhamento do zo'é e os fatores condicionadores de suas múltiplas cisões. Anais do VI Congresso Internacional da Abralin, vol. 2, p. 3145-3153.

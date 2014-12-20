@@ -6,5 +6,5 @@ family: Isolate
 country: Bolivia
 geo: -15.015 -67.834 988
 feat: p' pʰ p b t' tʰ t ts d tʃ' tʃ k' kʰ k m n ŋ s z h w j ɾ l i e a o u ɨ
-note: [public]We have interpreted the <é> in the original source as /ɨ/. The author indicates that the segment is further back than [i] (p.c.).
+note: We have interpreted the <é> in the original source as /ɨ/. The author indicates that the segment is further back than [i] (p.c.).
 bib: Van de Kerke, Simon. 2009. El Leko. Mily Crevels and Pieter Muysken (eds.), Lenguas de Bolivia, vol. 1: Ámbito andino. La Paz: Plural Editores.

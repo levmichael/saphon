@@ -6,5 +6,5 @@ family: Macro-Ge
 country: Brazil
 geo: -10.060 -52.997 315
 feat: t tʷ ʈ tʃ k kʷ m n ɲ ŋ h hʷ w j ɾ i ĩ e ẽ ɛ a ã ɔ o õ u ũ ɨ ɨ̃ ə ʌ
-note: [public]The code for this language is a SAPhon language code (non-ISO 639).
+note: The code for this language is a SAPhon language code (non-ISO 639).
 bib: Camargo, Nayara da Silva. 2010. Língua tapyúna: aspectos sociolingüísticos e uma análise fonológica preliminar. MA thesis, Universidade Estadual de Campinas.

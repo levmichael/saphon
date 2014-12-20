@@ -6,5 +6,5 @@ family: Choco
 country: Colombia
 geo: 7.672 -77.954 602
 feat: pʰ p b tʰ t d kʰ k ɡ ʔ m n s ç h w j ɾ r i ĩ e ẽ a ã o õ u ũ ɤ ɤ̃ ɯ ɯ̃
-note: [public]Fonegra (2000: 87) observes that /l/ occurs (only) in Spanish loanwordss.
+note: Fonegra (2000: 87) observes that /l/ occurs (only) in Spanish loanwordss.
 bib: Fonneɡra, Gustavo Mejía. 2000. Presentación y Descripción Fonológica y Morfosintáctica del Waunana. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Santafe de Bogota: Instituto Caro y Cuervo. 86-88.

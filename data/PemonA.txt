@@ -7,7 +7,7 @@ country: Brazil
 country: Guyana
 geo: 5.100 -62.000 nan
 feat: p t k ʔ m n s w j ɾ i e a o u ɤ ɯ
-note: [public]Edwards omits glottal stop /ʔ/, arguing that [ʔ] is an allophone of /k/ (225). He also includes mid-high back unrounded vowel /ɤ/ rather than high central rounded vowel /ʉ/ (224).
+note: Edwards omits glottal stop /ʔ/, arguing that [ʔ] is an allophone of /k/ (225). He also includes mid-high back unrounded vowel /ɤ/ rather than high central rounded vowel /ʉ/ (224).
 bib: Tuggy, Edward. 1989. Pemong verb morphology (Arekuna dialect). Presented at two special colloqiua, University of Oregon.
 bib: Edwards, Walter F. 1978. A preliminary sketch of Arekuna (Carib) phonology. International Journal of American Linguistics 44.3. 223-227.
 bib: Pessoa, Katia Nepomuceno. 2006. Fonologia Taurepang e comparação preliminar da fonologia de línguas do grupo Pemóng (Família Caribe). PhD dissertation, Universidade Federal de Pernambuco.

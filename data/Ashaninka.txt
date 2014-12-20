@@ -6,6 +6,6 @@ family: Arawak
 country: Peru
 geo: -11.331 -74.118 230
 feat: p t ts tʃ k m n N β s ʃ h j ɾ i i: e e: a a: o o:
-note: [public]Dirks (1953) includes palatalized counterparts of the oral and nasal alveolar stop.
+note: Dirks (1953) includes palatalized counterparts of the oral and nasal alveolar stop.
 bib: Dirks, Sylvester. 1953. Campa (Arawak) phonemes. International Journal of American Linguistics 19 (4). 302-304.
 bib: Kindberg, Lee. 1980. Diccionario Asháninca. Yarinacocha: Instituto Lingüístico de Verano.

@@ -6,5 +6,5 @@ family: Carib
 country: Suriname
 geo: 3.013 -55.643 303
 feat: p t tʃ k ʔ m n w j ɾ i i: e e: a a: o o: u u: ɨ ɨ: ə ə:
-note: [public]Meira transcribes Akurio's single alveo-palatal segment as palatal stop /c/ (16) but describes the segment as “usually an [alveo-palatal] affricate” (17).
+note: Meira transcribes Akurio's single alveo-palatal segment as palatal stop /c/ (16) but describes the segment as “usually an [alveo-palatal] affricate” (17).
 bib: Meira, Sérgio. 1998. A Reconstruction of Proto-Taranoan: Phonology and Morphology. MA thesis, Rice University.

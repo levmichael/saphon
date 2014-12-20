@@ -6,5 +6,5 @@ family: Mataco
 country: Paraguay
 geo: -24.970 -57.323 79
 feat: p' p t' t ts' ts k' k q' q ʔ m n f s ɬ x χ h w j l i i: e e: a a: o o: u u:
-note: [public]Gerzenstein does not explicitly state that vowel length is contrastive. However, she lists numerous forms with double vowels.
+note: Gerzenstein does not explicitly state that vowel length is contrastive. However, she lists numerous forms with double vowels.
 bib: Gerzenstein, Ana. 1994. Lengua Maka. Estudio descriptivo. Buenos Aires: Instituto de Linguística. 41-61.

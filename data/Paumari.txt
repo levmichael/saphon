@@ -6,7 +6,7 @@ family: Arawan
 country: Brazil
 geo: -6.000 -64.000 75
 feat: p b ɓ tʰ t d ɗ tʃ dʒ kʰ k ɡ ʔ m n ɸ β s ʃ h ɾ ɽ i i: a a: o o:
-note: [public]Labiodental fricative /v/ and labial fricative /β/ are in free variation (Chapman 347 & Dixon 10).
-note: [public]Dixon ignores Chapman's contrast between “[ř], a flap vibrant, and [ṛ̂], a retroflexed grooved reverse flap vibrant” (Chapman 347) on the grounds that the two vibrants “are not distinguished in the materials on P[aumari] by Chapman and Derbyshire (2004) and by Chapman and Salzer (2008), both vibrants being written as r” (Dixon 13).
+note: Labiodental fricative /v/ and labial fricative /β/ are in free variation (Chapman 347 & Dixon 10).
+note: Dixon ignores Chapman's contrast between “[ř], a flap vibrant, and [ṛ̂], a retroflexed grooved reverse flap vibrant” (Chapman 347) on the grounds that the two vibrants “are not distinguished in the materials on P[aumari] by Chapman and Derbyshire (2004) and by Chapman and Salzer (2008), both vibrants being written as r” (Dixon 13).
 bib: Chapman, Shirley and Desmond C. Derbyshire. 1991. Paumarí. Handbook of Amazonian Languages 3. Ed. Desmond C. Derbyshire and Geoffrey K. Pullum. Berlin: Mouton de Gruyter. 346-349
 bib: Dixon, R.M.W. 2004. Proto-Arawá Phonology. Anthropological Linguistics 46.1. 1-83.

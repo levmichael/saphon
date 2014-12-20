@@ -7,6 +7,6 @@ country: Ecuador
 country: Colombia
 geo: 0.404 -76.217 234
 feat: p b t d tʃ k kʷ ɡ ɡʷ ʔ m n s z h hʷ w j i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
-note: [public]Siona voiceless stops surface as aspirated stops; voiced stops surface as creaky voiceless stops word-initially and as plain voiced stops intervocalically.
+note: Siona voiceless stops surface as aspirated stops; voiced stops surface as creaky voiceless stops word-initially and as plain voiced stops intervocalically.
 bib: Wheeler, Alva. 2000. La lengua siona. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. Bogotá: Instituto Caro y Cuervo.
 bib: Thiago Chacon, p.c.

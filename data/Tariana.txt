@@ -7,5 +7,5 @@ country: Colombia
 country: Brazil
 geo: 0.380 -68.740 135
 feat: pʰ p b tʰ t d dʰ tʃ kʰ k m mʰ n nʰ ɲ ɲʰ s h w wʰ j ɾ l i ĩ i: e ẽ e: a ã a: o õ u ũ u: ɨ
-note: [public]Aikhenvald observes that /ɡ/ occurs (only) in loans from Portuguese.
+note: Aikhenvald observes that /ɡ/ occurs (only) in loans from Portuguese.
 bib: Aikhenvald, Alexandra.Y. 2003. A Grammar of Tariana, from Northwest Amazonia. Cambridge: Cambridge University Press. 25

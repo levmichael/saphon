@@ -6,6 +6,6 @@ family: Carib
 country: Brazil
 geo: -1.000 -59.000 206
 feat: p b t d dʲ tʃ k m n ɲ ɸ s ʃ h w j ɾ ɺ e a o u ɨ
-note: [public]According to Derbyshire (1985:177), phonemic status of /b, d, dʲ/ is marginal.
+note: According to Derbyshire (1985:177), phonemic status of /b, d, dʲ/ is marginal.
 bib: Derbyshire, Desmond C. 1985. Hixkaryana and Linguistic Typology. Summer Institute of Linguistics Publications in Linguistics 76. Dallas: Summer Institute of Linguistics and the University of Texas at Arlington. 177-182.
 bib: Derbyshire, Desmond C. 1999. Carib. The Amazonian Languages. Ed. R.M.W. Dixon and Alexandra Y. Aikhenvald. Cambridge: Cambridge University Press. 23-61.

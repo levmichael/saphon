@@ -7,5 +7,5 @@ family: Arawan
 country: Brazil
 geo: -7.576 -64.938 66
 feat: b t tʲ d dʲ dʒ k ɡ m n nʲ s z ʃ h w ɾ ɾʲ i ɛ a o ɨ
-note: [public]Suzuki (2000) omits palatal stop /ɟ/ and labio-velar glide /w/ but adds voiced alveolar fricative /z/ and voiceless alveopalatal fricative /ʃ/ (182).
+note: Suzuki (2000) omits palatal stop /ɟ/ and labio-velar glide /w/ but adds voiced alveolar fricative /z/ and voiceless alveopalatal fricative /ʃ/ (182).
 bib: Suzuki, Edson Massamiti. 1997. Fonética E Fonologia Do Suruwahá. PhD dissertation, Universidade Estadual de Campinas.

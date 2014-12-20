@@ -6,6 +6,6 @@ family: Arawan
 country: Brazil
 geo: -7.233 -65.525 103
 feat: b t ɟ k m n ɸ s h w ɾ i i: e e: a a: ɯ ɯ:
-note: [public]According to Dixon (2004: 11) neither /w/ nor /o/ involves any lip rounding.
+note: According to Dixon (2004: 11) neither /w/ nor /o/ involves any lip rounding.
 bib: Dixon, R.M.W. 2004. The Jarawara Language of Southern Amazonia. Oxford: Oxford University Press.
 bib: Vogel, Alan. 1993. Jarawara Verb Classes. PhD dissertation, University of Pittsburg.

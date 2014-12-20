@@ -7,5 +7,5 @@ country: Ecuador
 country: Colombia
 geo: -0.168 -77.168 362
 feat: pʰ p b tʰ t tsʰ ts d dz tʃʰ tʃ dʒ kʰ k ɡ ʔ m n ɲ f s ʃ x w ʋ j ɾ i ĩ ɛ ɛ̃ a ã o õ ɨ ɨ̃
-note: [public]voiced stops and affricates are pre-nasalized: mb, nd, ŋɡ, etc.
+note: voiced stops and affricates are pre-nasalized: mb, nd, ŋɡ, etc.
 bib: Fischer, Rafael. In prep. A grammatical description of A’ingae (Cof´an). PhD dissertation, University of Amsterdam.

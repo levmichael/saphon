@@ -6,6 +6,6 @@ family: Quechua
 country: Peru
 geo: -13.580 -74.474 3319
 feat: p t tʃ k m n ɲ s χ h w ɾ l ʎ i a u
-note: [public]Phonemes /b, d, g/ and /f/ are only found in loan words
+note: Phonemes /b, d, g/ and /f/ are only found in loan words
 bib: Soto Ruiz, Clodoaldo. 1976. Gramatica quechua, Ayacucho-Chanca. Ministerio de Educación del Perú.
 bib: Adelaar, Willem. 2013. personal communication.

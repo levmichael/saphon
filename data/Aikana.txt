@@ -6,5 +6,5 @@ family: Isolate
 country: Brazil
 geo: -12.661 -60.668 341
 feat: p b tˣ t ts d k ʔ m n ɲ w ð̞ j ɾ i ĩ e ẽ a ã o u ũ y
-note: [public]ð̞ is an approximant that sometimes surfaces as a laminal [z].
+note: ð̞ is an approximant that sometimes surfaces as a laminal [z].
 bib: Van de Voort, Hein. 2010. personal communication.

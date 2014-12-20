@@ -6,5 +6,5 @@ family: Tacanan
 country: Peru
 geo: -12.680 -68.730 nan
 feat: p ɓ t ts ɗ tʃ k kʷ ʔ m n ɲ s ʃ x h w j i e a o
-note: [public]Ese Eja (Perú) has two major varieties: Ese Eja Beniano and Ese Eja Baawaja. In the latter variety /k/ is attested in only a single morpheme, while in the Beniano dialect, /ts/ is rarely if ever attested.
+note: Ese Eja (Perú) has two major varieties: Ese Eja Beniano and Ese Eja Baawaja. In the latter variety /k/ is attested in only a single morpheme, while in the Beniano dialect, /ts/ is rarely if ever attested.
 bib: Chavarria, Maria. 2012. Etewémeeji ese ejaha sowiho: Guía para el uso del alfabeto ese eja. Ms.

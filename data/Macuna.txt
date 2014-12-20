@@ -7,5 +7,5 @@ country: Colombia
 country: Brazil
 geo: 0.003 -70.450 168
 feat: b t d k ɡ s h w j ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃ tone
-note: [public]/p/ only occurs in loans.
+note: /p/ only occurs in loans.
 bib: Smothermon, Jeffrey R., Josephine H. Smothermon and Paul S. Frank. 1995. Bosquejo del macuna: Aspectos de la cultura material de los macunas, fonología, gramática. Bogotá: Associación [sic] Instituto Lingüístico de Verano.

@@ -6,6 +6,6 @@ family: Isolate
 country: Peru
 geo: -7.000 -79.500 nan
 feat: p t tʲ tʃ tʃʲ kʲ k m n nʲ ŋ ɸ θ θʲ s sʲ j ɾ l ɭ lʲ ɭʲ i i: e e: a a: o o: u u: ɨ ɨ: eu
-note: [public]Note non-ISO 539 language code (extinct language). Phonological inventory based on interpretation of colonial sources.
+note: Note non-ISO 539 language code (extinct language). Phonological inventory based on interpretation of colonial sources.
 bib: Torero, Alfredo. 1997. La fonologá del idioma Mochica en los siglos XVI-XVII. Revista Andina: 29 (1).
 bib: Stark, Louisa. 1972. Maya-Yunga-Chipayan: A New Linguistic Alignment. International Journal of American Linguistics 38 (2): 119-135.
