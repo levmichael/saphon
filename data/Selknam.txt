@@ -1,0 +1,12 @@
+name: Selk'nam
+name.short: Selk'nam
+name.alt: Ona
+name.comp: Selknam
+code: ona
+family: Chon
+country: Argentina
+geo: -54.483 -67.083 nan
+feat: p' p t' t tʃ' tʃ k' k q' q ʔ m n s s̪ ʂ ʃ x h w j ɾ l ɪ ʊ a tone
+bib: Rojas-Berscia, Luis Miguel. 2014. A Heritage Reference Grammar of Selk'nam. MA Thesis, Radboud Universiteit Nijmegen.
+bib: Viegas, Pedro Barros. 2005. Voces en el viento: Raíces lingüísticas de la Patagonia. Buenos Aires: Mondragon Ediciones. 56.
+bib: Meroz, Yoram. p.c.
