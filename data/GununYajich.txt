@@ -2,7 +2,7 @@ name: Günün Yajich
 name.short: Günün Yajich
 name.comp: GununYajich
 code: gny
-family: Chon
+family: Isolate
 country: Argentina
 geo: -41.102 -66.992 505
 feat: p' p b t' t ts' ts d ʈʂ' ʈʂ k' k ɡ q ʔ m n s ɬ ʂ x w j ɾ l ʎ i e a o u ɨ
