@@ -1,0 +1,9 @@
+name: Mawayana
+name.short: Mawayana
+name.comp: Mawayana
+code: mzx
+family: Arawak
+country: Suriname
+geo:
+feat: t tʃ k ɓ ɗ ʄ m n ɸ s ʃ ʂ ɾ w j i ĩ ɨ ɨ̃ e ẽ a ã o õ u ũ
+bib:
