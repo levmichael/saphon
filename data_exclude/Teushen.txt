@@ -1,0 +1,9 @@
+name: Teushen
+name.short: Teushen
+name.comp: Teushen
+code: teh_tsh
+family: Chon
+country: Argentina
+geo: -49.004 -67.947 nan
+feat: p' p b t' t d tʃ k' k ɡ ʔ m n s ʃ x w j ɾ l e e: a a: o o:
+bib: Viegas, Pedro Barros. 2005. Voces en el viento: Raíces lingüísticas de la Patagonia. Buenos Aires: Mondragon Ediciones. 65.
