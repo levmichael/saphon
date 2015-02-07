@@ -9,4 +9,4 @@ geo: 2.943 -51.223 49
 feat: p b t d k ɡ m n s ʃ h w j i ĩ e ẽ a ã o õ u ũ
 note: Launey remarks that /f/, /v/, /l/, /ʒ/, and /z/ are found in loanwords.
 bib: Launey, Michel 2003. Awna Parikwaki: Introduction à la langue palikur de Guayane et de l'Amapá. Paris: Centre d'etudes des langues indigenes d'Amerique.
-bib: Barros, Elissandra. 2014. Fonética and fonológia da língua Palikura. MA thesis, Universidade Federal do Río de Janeiro. 
+bib: Barros, Elissandra. 2014. Fonética e fonologia da língua Palikura. Rio de Janeiro: Universidade Federal do Rio de Janeiro MA thesis. 
