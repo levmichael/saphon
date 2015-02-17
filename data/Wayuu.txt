@@ -7,7 +7,8 @@ family: Arawak
 country: Venezuela
 country: Colombia
 geo: 12.000 -72.000 41
-feat: p t tʃ k ʔ m n s ʃ h w j r ɭ i e a o u ɨ
+feat: p t tʃ k ʔ m n s ʃ h w j r ɭ i i: e e: a a: o o: u u: ɨ ɨ:
 bib: Mansen, Richard and David Captain. 2000. El idioma wayuu (o guajiro). In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo.
 bib: Mansen, Richard. 1972. Fonemas del guajiro. In Viola G. Waterhouse (ed.), Sistemas fonológicos de idiomas colombianos 1. Bogotá: Ministerio de Gobierno. 53-63.
 bib: Adelaar, Willem, and Pieter Muysken. 2004. The Languages of the Andes. Cambridge: Cambridge University Press. 117.
+bib: Álvarez, José. Manual de la lengua wayuu.
