@@ -2,8 +2,8 @@ name: Chaná
 name.short: Chaná
 name.comp: Chana
 code: qsi
-family:
-country:
-geo:
+family: Charruan
+country: Uruguay
+geo: -34.000 -55.000
 feat: p b t d tʃ k ɡ ʔ s ʃ ʒ h ɾ r l m n ɲ j w i e a o u 
 bib: Jaime, Blas W. Omar and J. Pedro Viegas Barros. 2013. La lengua Chaná: Patrimonio cultura de Entre Ríos. Editorial de Entre Ríos, Paraná.
