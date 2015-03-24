@@ -1,9 +1,9 @@
 General formatting - each item in a field separated by spaces (no spaces within the item), reference for each data point enclosed in curly braces of the format {autorlastnameYEAR:pg}, private notes from data collection and decision making kept in a separate file with the title ComputerName-Phonotactic-Notes.txt
 #Note: We still need to think about representing frequency information.
 
-syllable (0-1): This is a list of all of the possible syllable types listed by the author. All syllables consist of a string of C’s and V’s. Long vowels are represented with the long vowel diacritic “ː”. “VV” indicates a sequence of two distinct vowels rather than a long vowel. Syllables enclosed in parentheses “()” indicate syllable types found only in loanwords. 
+`syllable (0-1):` This is a list of all of the possible syllable types listed by the author. All syllables consist of a string of C’s and V’s. Long vowels are represented with the long vowel diacritic “ː”. “VV” indicates a sequence of two distinct vowels rather than a long vowel. Syllables enclosed in parentheses “()” indicate syllable types found only in loanwords. 
 
-syllable.inf (0-1): This is a list of possible syllable types inferred from the data in the source. All content of this field follows the same conventions as the “syllable” field. 
+`syllable.inf (0-1):` This is a list of possible syllable types inferred from the data in the source. All content of this field follows the same conventions as the “syllable” field. 
 
 onset.initial (0-1): This is a list of all possible onset segments in word initial position as stated by the author. Each possible segment or cluster is separated by spaces. The possibility of onsetless syllables is represented by the string “null”. 
 
