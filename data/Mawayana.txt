@@ -5,6 +5,6 @@ code: mzx
 family: Arawak
 country: Suriname
 country: Guyana
-geo: 2.359 -56.794
+geo: 2.359 -56.794 235
 feat: t tʃ k ɓ ɗ ʄ m n ɸ s ʃ ʂ ɾ w j i ĩ ɨ ɨ̃ e ẽ a ã o õ u ũ
 bib: Coretta, Stefano. 2013. The phonology of Mawayana (Arawakan). Pavia: Università degli Studi di Pavia MA thesis.
