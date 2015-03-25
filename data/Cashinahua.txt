@@ -1,0 +1,9 @@
+name: Cashinahua
+name.short: Cashinahua
+name.comp: Cashinahua
+code: cbs
+family: Panoan
+country: 
+geo: -9.720 -71.170 256
+feat: m p b w n t d s ts ʂ c ɟ k h i ɨ a u
+bib: Camargo, Eliane E. 1993. Esboço fonológico do caxinauá (pano). Boletim do Museu Paraense Emílio Goeldi, série Antropologia 9(2). 209-228. Belém: Museu Goeldi.
