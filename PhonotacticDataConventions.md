@@ -13,7 +13,7 @@ General formatting - each item in a field separated by spaces (no spaces within 
 
 `onset.medial` (0-1): This is a list of all possible onset segments in word medial position as stated by the author. Each possible segment or cluster is separated by spaces. The possibility of word-medial onsetless syllables is represented by the string `null`. 
 
-`onset.medial` (0-1): This field contains a list of word-medial onset segments as inferred from the data in the source. The data is formatted as in the `onset.medial` field.
+`onset.medial.inf` (0-1): This field contains a list of word-medial onset segments as inferred from the data in the source. The data is formatted as in the `onset.medial` field.
 
 `onset.general` (0-1): This field contains a general inventory of all possible onset segments as given by the author. This field is only filled if there is no discussion of word-initial versus word-medial onsets. The data follows the same conventions as in the `onset.initial` and `onset.medial` fields.
 **Note:** I’m not sure if this is actually how we would like to represent this type of data. I can see there being situations where an author states the possible onsets in the language but makes no distinctions based on where they can appear in the word. In this case, I think we may want to have a place to put that sort of data. I don’t want to automatically populate both the `onset.initial` and `onset.medial` fields if we don’t have explicit information to tell us that the given onsets can occur in both positions. At the same time, I’d rather not discard the information and have to rely solely on the exhaustiveness of our search of the data to infer where possible onsets occur and potentially not find some of the listed segments altogether. 
