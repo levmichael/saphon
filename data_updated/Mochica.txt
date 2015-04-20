@@ -1,0 +1,13 @@
+name: Mochica
+name.short: Mochica
+name.comp: Mochica
+code: omc
+family: Isolate
+country: Peru
+geo: -7.000 -79.500 nan
+feat: p t d c k ts tʃ m n ɲ ŋ f s ʃ ʂ r l ɬ ʎ j i{Cerron-Palomino1995:84;Torero1997:122} i:{Cerron-Palomino1995:84;Torero1997:122} ɨ{Torero1997:122} u{Cerron-Palomino1995:84;Torero1997:122} u:{Cerron-Palomino1995:84;Torero1997:122} e{Cerron-Palomino1995:84;Torero1997:122} o{Cerron-Palomino1995:84;Torero1997:122} o:{Cerron-Palomino1995:84;Torero1997:122} a{Cerron-Palomino1995:84;Torero1997:122} a:{Cerron-Palomino1995:84;Torero1997:122} 
+note: 
+bib: Cerron-Palomino, Rodolfo. 1995. La lengua de Naimlap: Reconstrucción y obsolescencia del mochica. Lima: Pontificia Universidad Católica del Perú.
+bib: Hovdhaugen, Even. 
+bib: Stark, Louisa. 1972. Maya-Yunga-Chipayan: A New Linguistic Alignment. International Journal of American Linguistics 38 (2): 119-135.
+bib: Torero, Alfredo. 1997. La fonología del idioma Mochica en los siglos XVI-XVII. Revista Andina: 29 (1). 101-129.
