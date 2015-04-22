@@ -5,11 +5,13 @@ When adding phonotactic information for languages, we should also update the pho
 
 ##Phoneme Inventories##
 
-**Citations**: Each feature in the inventory should be accompanied by a citation of the format {AuthorYear:pg} with no space between the inventory segment and the accompanying citation. 
+**Citations**: Each feature in the inventory should be accompanied by a citation of the format `{AuthorlastnameYear:pg}` with no space between the inventory segment and the accompanying citation. 
 
-**Loanword Phonemes**: To the extent that we can determine if any phonemes are specific to loanwords, this should be indicated by placing the segment in parentheses. The citation accompanying the segment should indicate where we found evidence that this is only a loan phoneme.
+**Loanword Phonemes**: To the extent that we can determine if any phonemes are specific to loanwords, this should be indicated by placing the segment in parentheses `( )`. The citation accompanying the segment should indicate where we found evidence that this is only a loan phoneme.
 
-**Surface-phonological segments**: If any segment is determined to be lacking "underlyingly" but relevant for the purposes of phonotactics, this surface-phonological segment should be included in the phoneme inventory and enclosed in square brackets. 
+**Surface-phonological segments**: If any segment is determined to be lacking "underlyingly" but relevant for the purposes of phonotactics, this surface-phonological segment should be included in the phoneme inventory and enclosed in square brackets `[ ]`. 
+
+**Original inventories**: For each source listed in the `bib:` section of the language file, please scan and/or create a PDF of the page(s) containing the full consonant and vowel inventory. Files should be titled `computername-inventory-authorlastname-year.pdf`. For now, please email the files to contribute.saphon@gmail.com to be uploaded later to the department server. 
 
 
 ##Notes##
