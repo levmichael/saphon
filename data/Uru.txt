@@ -1,9 +1,12 @@
 name: Uru
+name.alt: Uchumataqu
 name.short: Uru
 name.comp: Uru
 code: ure
 family: Uru-Chipaya
 country: Bolivia
 geo: -16.620 -68.970 3712
-feat: p' p b t' t tʃ' tʃ c k' k kʷ q' q m n ɲ s ʃ x w j ɾ ʎ i i: e e: a a: o o: u u:
+feat: p pʰ p' t tʰ t' tʷ ts tʃ k kʰ k' kʷ k̪ q qʰ q' m n s x h l ʎ w j i i: e e: a a: o o: u u:
+note: This inventory reflects that found in Hannß (2008) since that source relies on a range of previous sources. The symbol /k̪/ represents a dentalized velar stop. 
 bib: Muysken, Pieter. 2000. Drawn into the Aymara mold? Notes on Uru grammar. In Hein van der Voort & Simon van de Kerke (eds.), Essays on the Indigenous Languages of Lowland South America, 99-109. Leiden: CNWS publications.
+bib: Hannß, Katja. 2008. Uchumataqu, the lost language of the Urus of Bolivia: A grammatical description of the language as documented between 1894 and 1952 (Indigenous Languages of Latin America 7). Leiden: CNWS publications. 
