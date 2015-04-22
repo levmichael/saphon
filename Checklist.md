@@ -21,4 +21,4 @@ For any cases where the phoneme inventories we list are not identical to those l
 
 ##Phonotactics##
 
-Phonotactic information should be added according to the conventions establish in [PhonotacticDataConventions.md](https://github.com/whdc/saphon/blob/master/PhonotacticDataConventions.md)
+Phonotactic information should be added according to the conventions established in [PhonotacticDataConventions.md](https://github.com/whdc/saphon/blob/master/PhonotacticDataConventions.md)
