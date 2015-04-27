@@ -7,5 +7,4 @@ family: Isolate
 country: Brazil
 geo: -13.000 -58.000 417
 feat: p pʷ b bʷ t tʷ d kʲ k ʔ m mʷ n s ʃ h hʷ w j ɾ l i ĩ i: e ẽ e: a ã a: aʲ ãʲ o õ o: oʲ õʲ u ũ u: ɨ ɨ̃ ɨ:
-bib: Meader, R.E. 1967. Iranxe: notas gramaticais e lista vocabular. Rio de JaneiroL Museu Nacional and Universidade
-Federal do Rio de Janeiro.
+bib: Meader, R.E. 1967. Iranxe: notas gramaticais e lista vocabular. Rio de JaneiroL Museu Nacional and Universidade Federal do Rio de Janeiro.
