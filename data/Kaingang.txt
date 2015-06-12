@@ -5,5 +5,6 @@ code: kgp
 family: Macro-Ge
 country: Brazil
 geo: -26.000 -52.000 769
-feat: p b t tʃ k m n ɲ ʃ j ɾ i e a o u
+feat: p t k ʔ m n ɲ ŋ ɸ ʃ h ɾ i ĩ e ɛ æ̃ a ã ɔ o õ u ə ə̃ ɨ 
 bib: Neto, Ambrósio Pereira da Silva. 2007. Revisão da Classificação da Família Lingüística Purí. MA thesis, Universidade de Brasília.
+bib: Wetzels, W. Leo. 2010. Word prosody and the distribution of oral/nasal contour consonants in Kaingang. In Carlin, Eithne B. and van de Kerke, Simon (eds.), Linguistics and Archeology in the Americas: The Historization of Language and Society, 235-252. Leiden: Brill. 

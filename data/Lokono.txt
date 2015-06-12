@@ -14,3 +14,4 @@ geo: 5.526 -55.151 13
 feat: b tʰ t d kʰ k m n ɸ s h w j ɾ l ɽ i e a o ɨ
 note: Pet observes that /p/ occurs only in loans, and that phonetic realization of /o/ varies between [o] and [u].
 bib: Pet, Willem J. A. 1988. Lokono dian: the Arawak language of Surinam: a sketch of its grammatical structure and lexicon. PhD dissertation, Cornell University.
+bib: Pet, Willem J. A. 2011. A Grammar Sketch and Lexicon of Arawak (Lokono Dian). Dallas: SIL International. 

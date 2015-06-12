@@ -1,0 +1,9 @@
+name: Secoya del Aguarico
+name.short: Secoya Agua
+name.comp: SecoyaA
+code: sey_agu
+family: Tucanoan
+country: Ecuador
+geo: -0.109 -76.229 
+feat: p t d k kʷ ʔ m s z h w j i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
+bib: Johnson, Orville E., Stephen H. Levinson, and Alva Wheeler. 1990. Gramática secoya. Cuadernos Etnolingüísticos 11. 13-19.

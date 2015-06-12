@@ -5,5 +5,6 @@ code: cbb
 family: Arawak
 country: Colombia
 geo: -0.130 -70.693 157
-feat: p t̪ t tʃ k ʔ m n h w j ɾ i e a o u
+feat: p pʰ t tʰ d ts tsʰ dʒ k kʰ ʔ m ʰm n ʰn ɲ ɸ β s ʂ h ɽ ɽʰ i e a u i: e: a: u: ĩ ã ũ tone
 bib: Ramirez, Henry. 2001. Línguas Arawak da Amazônia Setentrional: Comparação e Descrição. Manaus: Editora de Universidade do Amazonas. 384.
+bib: Galindo, Andrés Eduardo Reinoso. 2009. Aproximación a la fonología de la lengua Kawiyari. MS. 
