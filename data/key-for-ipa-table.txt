@@ -1,0 +1,60 @@
+1st letter:
+c = consonant
+v = vowel
+s = suprasegmental
+
+
+2nd letter (manner of articulation or vowel height):
+
+for vowels: 1 = lowest, 7 = highest (with all the other degrees of height in between)
+
+for consonants:
+a = aspirated stop/affricate
+e = ejective
+f = fricative
+i = implosive
+l = lateral
+n = nasal
+p = prenasalized
+r = trill
+s = plain stop/affricate
+t = tap
+x = approximant
+
+
+3rd letter (place of articulation or vowel fronting):
+
+for vowels:
+b = back
+c = central
+f = front
+
+for consonants:
+a = alveolar
+A = alveolar affricate
+b = bilabial
+d = dental
+f = pharyngeal
+g = glottal
+l = labiodental 
+o = post-alveolar
+p = palatal
+P = palatal affricate
+q = labiovelar
+r = retroflex
+R = retroflex affricate
+u = uvular
+v = velar
+x = uvular nasal (we can probably change this to "u")
+
+
+4th letter (voicing or rounding):
+
+for vowels:
+r = round
+u = unround
+
+for consonants: 
+u = voiceless
+v = voiced
+

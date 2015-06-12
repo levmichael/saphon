@@ -2,7 +2,7 @@ csbu: p p: pʲ pʷ ps
 csbv: ʰb b b: bʲ bʷ bz bβ
 csdu: t̪ t̪ʙ
 csdv: d̪ 
-csau: t tˣ ʰt t: tʲ tʷ 
+csau: t tx ʰt t: tʲ tʷ 
 csav: ʰd d d: dʲ
 csru: ʈ 
 csrv: ɖ 
@@ -27,6 +27,7 @@ cibu: ɓ̥
 cibv: ɓ
 ciau: ɗ̥ 
 ciav: ɗ
+cipv: ʄ
 civv: ɠ
 
 cabu: pʰ pʲʰ
@@ -57,9 +58,9 @@ ceAu: ts'
 ceou: tʃ'
 ceRu: ʈʂ'
 
-cpbu: mp 
+cpbu: mp mpʲ
 cpbv: mb mbʲ 
-cpau: nt 
+cpau: nt ntʲ
 cpav: nd ndʲ 
 cpvu: ŋk 
 cpvv: ŋɡ ŋɡʷ
@@ -114,7 +115,7 @@ cxfv: ʕ
 
 cldv: l̪ 
 clau: l̥ ɬ ɺ̥ 
-clav: l lʲ l' l: ɺ
+clav: l lʲ l' l: ɺ ɮ
 clrv: ɭ ɭʲ
 clpv: ʎ 
 clvv: kl
@@ -145,7 +146,7 @@ v5bu: ɤ ɤ̃ ɤ:
 v5br: o õ̰ o̰ õ o: õ: oʰ oʲ õʲ o̝
 v4cu: ə ə̃ ə̰ ə̰̃ ə: ə̃: 
 v3fu: ɛ ɛ̃ ɛ: ɛ̃:
-v3fr: œ 
+v3fr: œ œ̃
 v3cu: ɜ 
 v3bu: ʌ ʌ̃ ʌ: ʌ̃: 
 v3br: ɔ ɔ̃ ɔ: ɔ̃: 
