@@ -1,5 +1,11 @@
 import csv, math, re, sys, os
 
+class SaphonData:
+  def __init__(self, familyOrdered_, feat_, lang_):
+    self.familyOrdered_ = familyOrdered_
+    self.feat_ = feat_
+    self.lang_ = lang_
+
 class Geo:
   def __init__(self, lat, lon, elv):
     self.lat = lat
@@ -85,7 +91,7 @@ def readSaphonTable(filename):
         [r[i].replace('\n', ' ') for i in iBib_ if r[i] != ''],
       ))
 
-  return familyOrdered_, feat_, lang_
+  return SaphonData(familyOrdered_, feat_, lang_)
 
 def writeSaphonFiles(dir, lang_, feat_):
   if not os.path.exists(dir):
@@ -172,7 +178,7 @@ def readSaphonFiles(dir_name):
             feat_.append(item)
     feat_ = sorted(set( feat_))
     
-    return familyOrdered_, feat_, lang_
+    return SaphonData(familyOrdered_, feat_, lang_)
 
 if __name__ == '__main__':
   family_, feat_, lang_ = readSaphonTable(sys.argv[1])
