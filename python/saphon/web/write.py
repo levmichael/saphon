@@ -13,7 +13,7 @@ module_names = (
   #'write_inventories',
   #'write_lists',
   #'write_phonemes',
-  #'write_saphon_php',
+  'write_saphon_php',
   'write_lang_xml',)
 
 for mn in module_names:
