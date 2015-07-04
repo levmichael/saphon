@@ -1,3 +1,4 @@
+metalang_code = 'es'
 metalang = 'Español'
  
 consonants = 'consonantes'
@@ -8,12 +9,12 @@ labiodental = 'labiodental'
 labio__dental = 'labio=dental'
 dental = 'dental'
 alveolar = 'alveolar'
-post-alveolar = 'post-alveolar'
+post_alveolar = 'post-alveolar'
 post__alveolar = 'post=alveolar'
 retroflex = 'retrofleja'
 palatal = 'palatal'
 velar = 'velar'
-post-velar = 'post-velar'
+post_velar = 'post-velar'
 pvus = 'post-velar/<br/>no especificada'
 labiovelar = 'labiovelar'
 labio=velar = 'labio=dental'
@@ -60,8 +61,8 @@ rounded = 'redondeada'
  
 suprasegmental = 'suprasegmental'
 tone = 'tono'
-laryngeal harmony = 'armonía laringeal'
-nasal harmony = 'armonía nasal'
+laryngeal_harmony = 'armonía laringeal'
+nasal_harmony = 'armonía nasal'
  
 other_names = 'otros nombres'
 geographical_location = 'localización geográfica'
@@ -110,7 +111,7 @@ language_lists_columns = (
   "Familia",
   "País")
 
-language_lists_show_alternatives = (
+language_lists_show_alternates = (
   "Mostrar opciones",
   "Esconder opciones")
 

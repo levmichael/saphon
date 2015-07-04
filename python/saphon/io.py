@@ -165,7 +165,7 @@ def readSaphonFiles(dir_name):
                     bib = line[5:-1]
                     Bib.append(bib)
                 else:
-                    print "Error in %s" % file_name
+                    print('Error in %s' % file_name)
                 f.close()
             lang_.append(Lang(Name, NameShort, NameAlt, NameComp, Code, familyName(Family, Name), Family, Country, Geography, Feat, Note, Bib))
     
@@ -183,9 +183,9 @@ def readSaphonFiles(dir_name):
 if __name__ == '__main__':
   family_, feat_, lang_ = readSaphonTable(sys.argv[1])
 
-  print "%d languages" % len(lang_)
-  print "%d families" % len(family_)
-  print "%d features" % len(feat_)
+  print('%d languages' % len(lang_))
+  print('%d families' % len(family_))
+  print('%d features' % len(feat_))
 
   writeSaphonFiles(sys.argv[2], lang_, feat_)
 

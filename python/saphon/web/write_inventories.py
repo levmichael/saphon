@@ -63,14 +63,6 @@ def cap(s): s[0].upper() + s[1:]
 
 def uncap(s): "" if s == "" else s[0].lower() +: s[1:]
 
-def normalize(s):
-  # TODO
-  # Normalizer.normalize( s, Normalizer.Form.NFKD)
-  #   .replaceAll( "\\p{InCombiningDiacriticalMarks}+", "")
-  #   .replaceAll( "ɨ", "i")
-  #   .replaceAll( "ʔ", "")
-  #   .toLowerCase
-  s
 
   # translator
   val tr = {

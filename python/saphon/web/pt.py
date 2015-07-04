@@ -1,3 +1,4 @@
+metalang_code = 'pt'
 metalang = 'Português'
 
 consonants = 'consoantes'
@@ -8,8 +9,8 @@ labiodental = 'labiodental'
 labio__dental = 'labio=dental'
 dental = 'dental'
 alveolar = 'alveolar'
-post-alveolar = 'pós-alveolar'
-post=alveolar = 'pós=alveolar'
+post_alveolar = 'pós-alveolar'
+post__alveolar = 'pós=alveolar'
 retroflex = 'retroflexa'
 palatal = 'palatal'
 velar = 'velar'
@@ -110,7 +111,7 @@ language_lists_columns = (
   "Família",
   "País")
 
-language_lists_show_alternatives = (
+language_lists_show_alternates = (
   "Mostrar opções",
   "Esconder opções")
 

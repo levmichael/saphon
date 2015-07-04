@@ -1,83 +1,113 @@
+from copy import copy
+from util import *
 
-  # index pages
-  def writeIndices( 
-    metalang: String,
-    indexHead: String,
-    fname_ : List[ String],
-    th_ : List[ String],
-    altText_ : List[ String])
-  {
-    val keyFn_ = List[Lang => Seq[(String,Lang)]](
-      l => for( name <- l.name +: l.nameAlt_) 
-        yield { (normalize( name), l.copy( name=name))},
-      l => for( iso <- l.iso_) yield { (normalize( iso), 
-        l.copy( iso_ = iso +: l.iso_.filterNot( _ == iso))
-      )},
-      l => Seq( (normalize( strip( l.familyStr)) ++ " " ++ normalize( strip( l.name)), l)),
-      l => {
-        (for( country <- l.country_) yield { (normalize( country) ++ " " ++ normalize( strip( l.name)),
-          l.copy( country_ = country +: l.country_.filterNot( _ == country))
-      )})})
+# This is the representation of a table row.
+class TableRow:
+  def __init__(self, key, nameComp, name, iso_, familyStr, country_):
+    assert key != None
+    self.key = key              # for sorting purposes
+    self.nameComp = nameComp
+    self.name = name
+    self.iso_ = iso_
+    self.familyStr = familyStr
+    self.country_ = country_
 
-    for( alt <- List( false, true);
-         i <- 0 until th_.length)
-    {
-      val altS = if( alt) "-alt" else ""
-      val altSO = if( alt) "" else "-alt"
+# The 4 functions below each take a language and yields one 
+# or more rows in the table.
+def rowsKeyedByName(lang):
+  for name in [lang.name] + lang.nameAlt_:
+    yield TableRow(
+      normalize(name),
+      lang.nameComp,
+      name,
+      lang.iso_,
+      lang.familyStr,
+      lang.country_)
 
-      val fo = new FileWriter( args( 1) ++ "/" ++ metalang ++ "/" ++ fname_(i) ++ altS ++ ".php")
-      fo.write( indexHead)
-      fo.write( "<table class=index><tr>\n")
-      for( j <- 0 until th_.length) {
-        fo.write( "<th>")
-        if( i == j) {
-          fo.write( th_( j) ++ "<br/>" ++ "<span><a href=\"" ++ 
-            fname_( i) ++ altSO 
-            ++ ".php\">" ++ 
-            altText_( if( alt) 1 else 0) ++ "</a></span>")
-        } else {
-          fo.write( "<a href=\"" ++ fname_( j) ++ altS ++ ".php\">" ++ 
-            th_( j) ++ "</a>")
-        }
-        fo.write( "</th>")
-      }
-      fo.write( "<th></th>")
+def rowsKeyedByISO(lang):
+  for iso in lang.iso_:
+    yield TableRow(
+      normalize(iso),
+      lang.nameComp,
+      lang.name,
+      [iso] + [x for x in lang.iso_ if x != iso],
+      lang.familyStr,
+      lang.country_)
+ 
+def rowsKeyedByFamily(lang):
+  for family in [lang.familyStr]:
+    yield TableRow(
+      normalize(family) + ' ' + normalize(lang.name),
+      lang.nameComp,
+      lang.name,
+      lang.iso_,
+      family,
+      lang.country_)
 
-      val kv_ = lang_.map( keyFn_( i)( _).take( if( alt) 100 else 1)).flatten
-      for( (k,lang) <- kv_.sortBy( _._1)) {
-        fo.write( "</tr><tr>\n")
-        fo.write( "<td><a href=\"inv/" ++ lang.nameComp ++ ".html\">" ++ lang.name ++ "</a></td>")
-        fo.write( "<td>" ++ lang.iso_.mkString( ", ") ++ "</td>")
-        fo.write( "<td>" ++ lang.familyStr ++ "</td>")
-        fo.write( "<td>" ++ lang.country_.mkString( ", ") ++ "</td>")
-        fo.write( "<td><a href=\"./?c=%s\">%s</a></td>".format( lang.iso_( 0), 
-          cap( tr( metalang, "map"))))
-      }
+def rowsKeyedByCountry(lang):
+  for country in lang.country_:
+    yield TableRow(
+      normalize(country) + ' ' + normalize(lang.name),
+      lang.nameComp,
+      lang.name,
+      lang.iso_,
+      lang.familyStr,
+      [country] + [x for x in lang.country_ if x != country])
 
-      fo.write( "</tr></table>\n")
-      fo.write( "</body>\n")
+rowGenerator_ = [
+  rowsKeyedByName,
+  rowsKeyedByISO,
+  rowsKeyedByFamily,
+  rowsKeyedByCountry]
+
+def writeLocal(saphonData, htmlDir, loc):
+  metalang = loc.metalang_code
+  column_ = loc.language_lists_columns
+  altStr_ = ['', '-alt']
+  altText_ = loc.language_lists_show_alternates
+  sortStr_ = loc.language_lists_sort_method
+
+  # Write a file for each permutation of sort method and hide/show alternates.
+  for iSort in range(len(sortStr_)):
+    sortStr = loc.language_lists_sort_method[iSort]
+    rowGen = rowGenerator_[iSort]
+
+    for iAlt in range(2): # 0 = hide alternates
+      fo = open(htmlDir+'/'+metalang+'/'+sortStr_[iSort]+altStr_[iAlt]+'.php', 'w')
+      fo.write(loc.language_lists_text)
+      fo.write('<table class=index><tr>\n')
+
+      # Write table headers
+      for j in range(len(column_)):
+        fo.write('<th>')
+        if iSort == j:
+          fo.write(column_[j] + '<br/>' + '<span><a href="' + 
+            sortStr_[iSort] + altStr_[1-iAlt] + '.php">' + 
+            altText_[iAlt] + '</a></span>')
+        else:
+          fo.write('<a href="' + sortStr_[j] + altStr_[iAlt] + '.php">' + 
+            column_[j] + '</a>')
+        fo.write('</th>')
+      fo.write('<th></th>')
+
+      # Gather rows
+      if iAlt == 1:
+        row_ = [row for lang in saphonData.lang_ for row in rowGen(lang)]
+      else:
+        row_ = [next(rowGen(lang)) for lang in saphonData.lang_]
+
+      # Sort rows
+      row_.sort(key=lambda row: row.key)
+
+      # Write table rows
+      for row in row_:
+        fo.write('</tr><tr>\n')
+        fo.write('<td><a href="inv/' + row.nameComp + '.html">' + row.name + '</a></td>')
+        fo.write('<td>' + ', '.join(row.iso_) + '</td>')
+        fo.write('<td>' + row.familyStr + '</td>')
+        fo.write('<td>' + ', '.join(row.country_) + '</td>')
+        fo.write('<td><a href="./?c=%s">%s</a></td>' % (row.iso_[0], loc.map.capitalize()))
+
+      fo.write('</tr></table>\n')
+      fo.write('</body>\n')
       fo.close()
-    }
-  }
-
-  writeIndices( 
-    "en",
-    en.language_lists_text,
-    en.language_lists_sort_method,
-    en.language_lists_columns,
-    en.language_lists_show_alternatives)
-
-  writeIndices( 
-    "es",
-    es.language_lists_text,
-    es.language_lists_sort_method,
-    es.language_lists_columns,
-    es.language_lists_show_alternatives)
-
-  writeIndices( 
-    "pt",
-    pt.language_lists_text,
-    pt.language_lists_sort_method,
-    pt.language_lists_columns,
-    pt.language_lists_show_alternatives)
-

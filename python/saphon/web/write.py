@@ -1,21 +1,33 @@
+import sys, os
 import saphon.io
-import sys
 
 if len(sys.argv) < 3:
    print('write.py SAPHON_DIR HTML_DIR')
    sys.exit(1)
 
-saphon_dir, html_dir = sys.argv[1:3]
+saphonDir, htmlDir = sys.argv[1:3]
 
-saphon_data = saphon.io.readSaphonFiles(saphon_dir)
+saphonData = saphon.io.readSaphonFiles(saphonDir)
 
-module_names = (
+generationModules = [__import__(m) for m in (
   #'write_inventories',
-  #'write_lists',
   #'write_phonemes',
+  'write_lists',
   'write_saphon_php',
-  'write_lang_xml',)
+  'write_lang_xml')]
 
-for mn in module_names:
-  m = __import__(mn)
-  m.write(saphon_data, html_dir)
+localizationModules = [__import__(m) for m in
+  ('en', 'es', 'pt')]
+
+# Create directories
+os.makedirs(htmlDir, exist_ok=True)
+for locMod in localizationModules:
+  os.makedirs(htmlDir + '/' + locMod.metalang_code, exist_ok=True)
+
+# Create HTML files 
+for genMod in generationModules:
+  if hasattr(genMod, 'write'):
+    genMod.write(saphonData, htmlDir)
+  if hasattr(genMod, 'writeLocal'):
+    for locMod in localizationModules:
+      genMod.writeLocal(saphonData, htmlDir, locMod)

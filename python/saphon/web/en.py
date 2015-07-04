@@ -1,3 +1,4 @@
+metalang_code = 'en'
 metalang = 'English'
 
 consonants = 'consonants'
@@ -110,7 +111,7 @@ language_lists_columns = (
   "Family",
   "Country")
 
-language_lists_show_alternatives = (
+language_lists_show_alternates = (
   "Show alternates",
   "Hide alternates")
 
