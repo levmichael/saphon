@@ -58,11 +58,6 @@ roundednessC, roundednessS0 = zip(
   ('u', "unrounded"),
   ('r', "rounded"))
 
-# text and unicode routines
-def cap(s): s[0].upper() + s[1:]
-
-def uncap(s): "" if s == "" else s[0].lower() +: s[1:]
-
 
   # translator
   val tr = {

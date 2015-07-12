@@ -53,6 +53,10 @@ def layoutVowels(vowels, lump):
     for j in backnesses:
       move(v['7',j], v['6',j])
 
+  ########
+  # Lump #
+  ########
+
   if lump:
     for j in backnesses:
       move(v['7',j], v['6',j])
@@ -74,6 +78,6 @@ def layoutVowels(vowels, lump):
   # symbol and the label for each non-empty column.
 
   backnessLabels = [(j, defaultBacknessLabels[j]) for
-    j in backnesses if any(v[i,j] for i in heights)]
+    j in backnesses if any(v[i,j] for i in backnesses)]
 
   return (v, heightLabels, backnessLabels)
