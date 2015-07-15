@@ -1,4 +1,22 @@
-import collections
+from collections import *
+
+heights = orderedDict([
+  ('7', "high"),
+  ('6', "near high"),
+  ('5', "mid-high"),
+  ('4', "mid"),
+  ('3', "mid-low"),
+  ('2', "near low"),
+  ('1', "low")])
+
+backnesses = orderedDict([
+  ('f', "front"),
+  ('c', "central"),
+  ('b', "back")])
+
+roundednesses = orderedDict([
+  ('u', "unrounded"),
+  ('r', "rounded")])
 
 # Takes a list of vowels and returns a layout (v), row labels
 # (heightLabels), and column labels (backnessLabels).
@@ -9,7 +27,7 @@ def layoutVowels(vowels, lump):
   # denoting height and backness, and whose values are lists of IPA
   # symbols.
 
-  v = collections.defaultdict(list) 
+  v = defaultdict(list) 
 
   # Populate v with the initial layout.
 
