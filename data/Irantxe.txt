@@ -6,5 +6,7 @@ code: irn
 family: Isolate
 country: Brazil
 geo: -13.000 -58.000 417
-feat: p pʷ b bʷ t tʷ d kʲ k ʔ m mʷ n s ʃ h hʷ w j ɾ l i ĩ i: e ẽ e: a ã a: aʲ ãʲ o õ o: oʲ õʲ u ũ u: ɨ ɨ̃ ɨ:
-bib: Meader, R.E. 1967. Iranxe: notas gramaticais e lista vocabular. Rio de JaneiroL Museu Nacional and Universidade Federal do Rio de Janeiro.
+feat: p pʲ t tʲ k kʲ ʔ m mʲ n nʲ s ʃ h w j r i ĩ i: e ẽ e: a ã a: o õ o: u ũ u: ɨ ɨ̃ ɨ: ə ə̃ ə:
+note: The inventory of Irántxe differs from that of Mỹky in having an additional phoneme /l/ (Monserrat 2000: 180-181). 
+bib: Meader, R.E. 1967. Iranxe: notas gramaticais e lista vocabular. Rio de Janeiro: Museu Nacional and Universidade Federal do Rio de Janeiro.
+bib: Monserrat, Ruth Maria Fonini. 2000. A língua do povo Mỹky. Rio de Janeiro: Universidade Federal do Rio de Janeiro dissertation. 

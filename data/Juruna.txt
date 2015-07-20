@@ -5,5 +5,7 @@ code: jur
 family: Tupí
 country: Brazil
 geo: -5.000 -54.300 267
-feat: p b t d tʃ dʒ k ʔ m n s z ɬ ʃ h w j ɾ i ĩ e ẽ a ã u ũ ɨ ɨ̃
+feat: p b t d tʃ dʒ k ʔ m n s z ɮ ʃ h w j ɾ i i: ĩ e e: ẽ a a: ã u u: ũ ɨ ɨ: ɨ̃ tone
+note: Fargetti (2007: 74) offers one minimal pair showing a length contrast for the nasal vowel /ɨ̃/. However, she does not claim that a phonemic length contrast exists for all nasal vowels. 
 bib: Fargetti, Cristina Martins. 1992. Análise fonológica da língua juruna. MA thesis, Universidade Estadual de Campinas.
+bib: Fargetti, Cristina Martins. 2007. Estudo fonológico e morfossintático da língua juruna. München: LINCOM Europe.

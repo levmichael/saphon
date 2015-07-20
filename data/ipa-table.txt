@@ -1,0 +1,162 @@
+csbu: p p: pʲ pʷ ps 
+csbv: ʰb b b: bʲ bʷ bz bβ
+csdu: t̪ t̪ʙ
+csdv: d̪ 
+csau: t tx ʰt t: tʲ tʷ 
+csav: ʰd d d: dʲ
+csru: ʈ 
+csrv: ɖ 
+cspu: c ʰc
+cspv: ʰɟ ɟ
+csvu: k kʲ kˣ ʰk k: ʰkʷ kʷ kʷ:
+csqu: kp 
+csvv: ɡ ɡ: ɡʷ
+csuu: q qʷ 
+csuv: ɢ 
+csgu: ʔ ʔʲ
+csAu: ts tsʲ
+csAv: dz
+csou: tʃ tʃʲ
+csov: dʒ
+csRu: ʈʂ
+csRv: ɖʐ
+csPu: tɕ cç
+csPv: ɟʝ
+
+cibu: ɓ̥ 
+cibv: ɓ
+ciau: ɗ̥ 
+ciav: ɗ
+cipv: ʄ
+civv: ɠ
+
+cabu: pʰ pʲʰ
+cadu: t̪ʰ 
+cadv: d̪ʰ
+caau: tʰ tʲʰ 
+caav: dʰ
+caru: ʈʰ
+capu: cʰ
+cavu: kʰ kʲʰ
+cauu: qʰ
+caAu: tsʰ tsʲʰ
+caou: tʃʰ
+caRu: ʈʂʰ
+
+cebu: p'
+cebv: b̰
+cedu: t̪'
+ceau: t' tʲ' t̰ t◌̰
+ceav: d̰ 
+ceru: ʈ'
+cepu: c' c̰
+cepv: ɟ̰  
+cevu: k' kʲ' kʷ' k̰ kʷ̰ kʷ◌̰ kʷʲ
+cevv: ɡ̰ 
+ceuu: q'
+ceAu: ts'
+ceou: tʃ'
+ceRu: ʈʂ'
+
+cpbu: mp mpʲ
+cpbv: mb mbʲ 
+cpau: nt ntʲ
+cpav: nd ndʲ 
+cpvu: ŋk 
+cpvv: ŋɡ ŋɡʷ
+cpou: ntʃ 
+cpov: ndʒ 
+cpRu: ɳʈʂ 
+cpRv: ɳɖʐ 
+cpAu: nts 
+cpAv: ndz ndzʲ 
+
+cnbu: ʰm mʰ m̥ 
+cnbv: m m' m̰ mʲ mʷ m:
+cnlv: ɱ
+cndv: n̪ 
+cnau: ʰn nʰ n̥ 
+cnav: n nʲ n: n̰
+cnpu: ɲʰ
+cnpv: ɲ ɲ̰ ɲ: ɲ̥ 
+cnvv: ŋ ŋʷ ŋ̥ 
+cnxv: N 
+
+cfbu: ɸ ɸʲ
+cfbv: β βʲ 
+cflu: fʷ f
+cflv: v 
+cfdu: θ s̪ θʲ
+cfdv: ð 
+cfau: s sʲ s' sʰ
+cfav: z 
+cfru: ʂ
+cfrv: ʐ 
+cfou: ʃ
+cfov: ʒ ʒ̺
+cfpu: ɕ ç
+cfpv: ʝ 
+cfvu: x xʲ xl xʷ
+cfvv: ɣ ɣʷ
+cfuu: χ χʷ
+cfuv: ʁ 
+cfgu: h h̃ hʲ hʷ 
+
+cxbu: ʰw wʰ
+cxbv: β̞ w w̃ w' w̰ wʲ w: 
+cxlv: ʋ 
+cxdv: ð̞ 
+cxav: ɹ 
+cxrv: ɻ 
+cxpu: ʰj
+cxpv: j j̃ j̥ j' j̰ j: 
+cxvv: ɰ 
+cxfv: ʕ 
+
+cldv: l̪ 
+clau: l̥ ɬ ɺ̥ 
+clav: l lʲ l' l: ɺ ɮ
+clrv: ɭ ɭʲ
+clpv: ʎ 
+clvv: kl
+
+ctau: ʰɾ
+ctav: ɾ ɾ̃ ɾʲ ʔɾ 
+ctrv: ɽ 
+
+crau: r̥ 
+crav: r
+cruv: ʀ 
+crbv: ʙ 
+
+v7fu: i ĩ ḭ ḭ̃ i: ĩ: iʰ 
+v7fr: y ỹ 
+v7cu: ɨ ɨ̃ ɨ̰ ɨ: ɨ̃: ɨ̘ ɨi 
+v7cr: ʉ ʉ̃ ʉ: 
+v7bu: ɯ ɯ̃ ɯ̰ ɯ: ɯ̃: ɯi
+v7br: u ũ ṵ ṵ̃ u: ũ: uʰ 
+v6fu: ɪ ɪ̃ ɪ:
+v6fr: ʏ 
+v6br: ʊ ʊ̃ ʊ:
+v5fu: e ẽ ḛ ḛ̃ e: ẽ: eʰ eu
+v5fr: ø ø: ø̃ 
+v5cu: ɘ 
+v5cr: ɵ ɵ: 
+v5bu: ɤ ɤ̃ ɤ: 
+v5br: o õ̰ o̰ õ o: õ: oʰ oʲ õʲ o̝
+v4cu: ə ə̃ ə̰ ə̰̃ ə: ə̃: 
+v3fu: ɛ ɛ̃ ɛ: ɛ̃:
+v3fr: œ œ̃
+v3cu: ɜ 
+v3bu: ʌ ʌ̃ ʌ: ʌ̃: 
+v3br: ɔ ɔ̃ ɔ: ɔ̃: 
+v2fu: æ æ̃ æ: æ̃: 
+v2cu: ɐ̃ 
+v1cu: a ã a̰ ã̰ a: ã: aʲ ãʲ aʲ: aʰ 
+v1bu: ɑ ɑ̃ ɑ̰ ɑ: 
+v1br: ɒ ɒ̃ ɒ: ɒ̃:
+
+s: tone
+s: nasal harmony
+s: laryngeal harmony
+s: creak spread

@@ -1,0 +1,3 @@
+#How to Resolve Discrepancies in Inventories and Track Decisions
+
+When two or more sources on a language conflict in their representation of the language's phoneme inventory, we must choose which segments to include in our published inventory. For the purpose of transparency and consistency, such decisions should be handled in a uniform manner, and notes describing the decisions should be made available to the public. 

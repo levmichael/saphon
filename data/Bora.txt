@@ -6,7 +6,9 @@ family: Boran
 country: Peru
 country: Colombia
 geo: -2.250 -71.750 103
-feat: pʰ p pʲ pʲʰ tʰ t tʲ tʲʰ tsʰ ts tʃʰ tʃ kʲ kʲʰ kʰ k kʷ ʔʲ ʔ m mʲ n ɲ β βʲ h hʲ j ɾ i i: e e: a a: o o: ɨ ɨ: ɯ ɯ:
+feat: p pʰ pʲ pʲʰ t tʰ tʲ tʲʰ ts tsʰ tʃ tʃʰ k kʰ kʲ kʲʰ kp ʔ ʔʲ m mʲ n ɲ β βʲ h hʲ ɾ j i i: ɛ ɛ: a a: o o: ɨ ɨ: ɯ ɯ: tone 
 bib: Weber, David and Wesley Thiesen. 2001. A synopsis of Bora tone. Work Papers of the Summer Institute of Linguistics, North Dakota Session 45. 2.
 bib: Parker, Steve. 2000. Central vs. Back Vowels. Work Papers of the Summer Institute of Linguistics, University of North Dakota Session 44. 1–19.
 bib: Parker, Steve. 2001. On the Acoustic Qualities of Bora Vowels. Phonetica 58. 179–195.
+bib: Roe, Amy. 2014. The phonetics and phonology of Bora tone. Grand Forks: University of North Dakota, MA thesis. 
+bib: Thiesen, Wesley and David Weber. 2012. A Grammar of Bora with Special Attention to Tone. Dallas: SIL International. 
