@@ -2,21 +2,21 @@ from collections import *
 
 places = orderedDict([
   ('b', "bilabial"),
-  ('l', "labio=dental"),
+  ('l', "labio__dental"),
   ('d', "dental"),
   ('a', "alveolar"),
   ('A', "alveolar"),
-  ('o', "post=alveolar"),
+  ('o', "post__alveolar"),
   ('r', "retroflex"),
   ('R', "retroflex"),
   ('p', "palatal"),
   ('P', "palatal"),
   ('v', "velar"),
-  ('q', "labio=velar"),
+  ('q', "labio__velar"),
   ('u', "uvular"),
   ('f', "pharyngeal"),
   ('g', "glottal"),
-  ('x', "unspe=cified")])
+  ('x', "unspe__cified")])
 
 manners = orderedDict([
   ('a', "aspirated@stop"),

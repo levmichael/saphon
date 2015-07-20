@@ -27,5 +27,4 @@ def xlt(loc, s):
   else:
     out = ' '.join(phrase)
 
-  return out.replace('=', '-<br/>')
-
+  return out
