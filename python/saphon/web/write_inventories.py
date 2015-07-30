@@ -1,3 +1,4 @@
+from collections import *
 
 val invHead = """
 <head>
@@ -7,423 +8,136 @@ val invHead = """
 <body>
 """
 
-  # read in IPA chart info
-  var soundOrder_ = Seq.empty[ String]
-  val soundMap = Map.empty[ String, String]
-  for( l <- io.Source.fromFile( "data/ipa-table.txt").getLines()
-       if l contains ':')
-  {
-    val (position, sounds) = l.splitAt( l.indexWhere( _ == ':'))
-    if( position == "s") {
-      val sound = sounds
-        .replaceAll( """^:\s*""", "")
-        .replaceAll( """\s*$""", "")
-      soundMap( sound) = position
-      soundOrder_ = soundOrder_ :+ sound
+# Read in IPA sounds and properties.
+# TODO: Error checking on sound info.
+soundInfo = OrderedDict()
+for line in open('data/ipa_table.txt'):
+  if ':' not in line: continue
+  position, sounds = re.split(': *', line, 1)
+  for sound in re.split(' +', sounds):
+    soundInfo[sound] = position
+
+# Predicates on phonemes.
+def isVoiced(sound): return soundInfo[sound][3] == 'v'
+def isLabialized(sound): return 'ʷ' in sound
+def isPalatalized(sound): return 'ʲ' in sound
+def isAffricate(sound):
+  return soundMap[sound][1] in "aesvp" \
+     and soundMap[sound][2] in "AoRP"
+def isEjective(sound): return '\'' in sound
+
+# Quantifiers.
+def indic(x): return not not x
+def count(seq, pred): return sum(pred(x) for x in seq)
+
+def NONE(seq, pred=indic): return count(seq, pred) == 0
+def ANY (seq, pred=indic): return count(seq, pred) >= 1
+def MANY(seq, pred=indic): return count(seq, pred) >= 2
+def ALL (seq, pred=indic): return count(seq, pred) == len(seq)
+
+def writeInventory(
+  tr1: (String => String),
+  sounds,
+  write: String => Unit,
+  lump: Boolean = false,
+  assemble: (Seq[String] => String) = _.mkString("&nbsp;"),
+  assembleTrans: (Seq[String] => String) = _.mkString("&nbsp;"),
+  table: Boolean = false)
+{
+  # Partition sounds into the below 3 data structures.
+  c = defaultdict(list) # consonant layout
+  v = defaultdict(list) # vowel layout
+  nonsounds = [] # non-sound features
+
+  for sound in sounds:
+    info = soundInfo[sound]
+    if info[0] == 'c':
+      c[info[1], info[2]].append(sound)
+    elif info[0] == 'v':
+      v[info[1], info[2]].append(sound)
+    elif info[0] == 's':
+      nonsounds.append(sound)
+
+  # Improve layouts.
+  mannerLabels, placeLabels    = layoutConsonants(c, lump)
+  heightLabels, backnessLabels = layoutVowels    (v, lump)
+
+  # consonant table
+  write( "<div class=field><table class=inv>\n")
+
+  for( i <- '?' +: mannerC if i == '?' || mannerS( i) != null) {
+    write( "<tr>")
+    if( i != '?') { # manner headers
+      write( "<td class=header>")
+      write( cap(tr1(mannerS( i))))
+      write( "</td>")
     } else {
-      val sound_ = sounds
-        .replaceAll( """^:\s*""", "")
-        .replaceAll( """\s*$""", "")
-        .split( """\s+""")
-        .map( Saphon.decompose( _))
-      for( sound <- sound_) soundMap( sound) = position
-      soundOrder_ = soundOrder_ ++ sound_
-    }
-  }
-  val soundOrderMap = Map( soundOrder_.zipWithIndex:_*)
-
-  # define IPA routines
-  def insert[T]( t_ : Seq[T], i: Int, t: T) = {
-      (t_.slice( 0, i) :+ t) ++ t_.slice( i, t_.length)
-  }
-  def voice( sound: String) = soundMap( sound)( 3) == 'v'
-  def labialized( sound: String) = sound contains 'ʷ'
-  def palatalized( sound: String) = sound contains 'ʲ'
-  def affricate( sound: String) = {
-    ("aesvp" contains soundMap( sound)( 1)) &&
-    ("AoRP" contains soundMap( sound)( 2))
-  }
-  def ejective( sound: String) = sound contains '\''
-
-  def not[T]( f: T => Boolean) = (x:T) => !f(x)
-  def opposition[T]( f: T => Boolean, sound_ : Seq[T]): Boolean = {
-    val b_ = sound_.map( f( _))
-    (b_ contains true) && (b_ contains false)
-  }
-  def any[T]( f: T => Boolean, sound_ : Seq[T]): Boolean = {
-    !sound_.forall( !f( _))
-  }
-  def none[T]( f: T => Boolean, sound_ : Seq[T]): Boolean = {
-    sound_.forall( !f( _))
-  }
-  def I( x: Boolean) = if( x) 1 else 0
-
-  case class SeqRef[T]( var seq: Seq[T]) {
-    def klone() = copy()
-  }
-  implicit def convert_SeqRef_Seq[T]( sr: SeqRef[ T]) = sr.seq
-  implicit def convert_Seq_SeqRef[T]( s: Seq[ T]) = new SeqRef( s)
-
-  def move( t_ : MutSet[ String], s_ : MutSet[ String],
-    f: String => Boolean = (s => true)) 
-  {
-    val u_ = s_.filter( f)
-    t_.seq ++= u_
-    s_.seq --= u_
-  }
-
-  class IPAMap extends HashMap[ (Char,Char), MutSet[ String]] { 
-    override def default( key:(Char, Char)) = {
-      val v = MutSet.empty[String]
-      this.update( key, v)
-      v
-    }
-    def klone() = {
-      val m = new IPAMap()
-      for( (k,v) <- this.toSeq) {
-        m( k) = v.clone()
-      }
-      m
-    }
-    def dump() = {
-      for( (k,v) <- this.toSeq if !v.isEmpty) {
-        println( k, v.toSeq.mkString( " "))
-      }
-    }
-  }
-
-  def writeInventory(
-    tr1: (String => String),
-    hasFeat_ : IndexedSeq[Int], write: String => Unit,
-    lump: Boolean = false,
-    assemble: (Seq[String] => String) = _.mkString("&nbsp;"),
-    assembleTrans: (Seq[String] => String) = _.mkString("&nbsp;"),
-    table: Boolean = false)
-  {
-    var mannerS = HashMap( (mannerC zip mannerS0):_*)
-    var placeS = HashMap( (placeC zip placeS0):_*)
-
-    var heightS = HashMap( (heightC zip heightS0):_*)
-    var backnessS = HashMap( (backnessC zip backnessS0):_*)
-
-    var c = new IPAMap()
-    var v = new IPAMap() 
-    var ss_ = Seq.empty[String]
-    for( k <- 0 until K if hasFeat_( k) == 1) {
-      val sound = feat_( k)
-      val pos = soundMap( sound)
-      if( pos( 0) == 'c') {
-        val i = mannerC.indexWhere( _ == pos( 1))
-        val j = placeC.indexWhere( _ == pos( 2))
-        assert( i >= 0 && j >= 0, println( "Bad location '%s' for sound [%s].".format( pos, sound)))
-        c( (pos(1), pos(2))) += sound
-      } else if( pos( 0) == 'v') {
-        val i = heightC.indexWhere( _ == pos( 1))
-        val j = backnessC.indexWhere( _ == pos( 2))
-        assert( i >= 0 && j >= 0, println( "Bad location '%s' for sound [%s].".format( pos, sound)))
-        v( (pos(1), pos(2))) += sound
-      } else if( pos( 0) == 's') {
-        ss_ = ss_ :+ sound
-      } else {
-        assert( false, println( "Bad location '%s' for sound [%s].".format( pos, sound)))
-      }
+      write( "<td class=key>")
+      write( cap(tr1("consonants")))
+      write( "</td>")
     }
 
-    # split stops if it's the only row with voice opposition
-    {
-      val save_c = c.klone()
-
-      if( placeC.map( j => opposition( voice, c(('s',j)).toSeq)).reduce(_||_))
-        for( j <- placeC)
-          move( c(('v',j)), c(('s',j)), voice)
-
-      if( !c.forall( x => !opposition( voice, x._2.toSeq))) c = save_c
-    }
-
-    # move palatovelars to palatal column if possible
-    {
-      val save_c = c.klone()
-
-      var revert = false
-
-      # move palatalized segments over
-      for( j <- placeC if j != 'p') {
-        for( i <- mannerC) {
-          if( !c((i, 'p')).isEmpty && 
-              !c((i, j)).filter( palatalized( _)).isEmpty)
-          {
-            revert = true
-          }
-          move( c((i, 'p')), c((i, j)), palatalized)
-        }
-      }
-
-      if( revert) c = save_c
-    }
-
-    # create labiovelar column
-    {
-      val save_c = c.klone()
-
-      # move labialized velars over
-      for( i <- mannerC)
-        move( c((i,'q')), c((i,'v')), labialized)
-
-      # move h^w over if possible
-      if( c(('f','q')).isEmpty)
-        move( c(('f','q')), c(('f','g')), labialized)
-
-      # move w over if labiovelar column is not empty
-      if( !mannerC.map( i => c((i,'q'))).flatten.isEmpty) {
-        move( c(('x','q')), c(('x','b')))
-      }
-
-      # check that no labial opposition remains, else revert
-      if( !c.forall( x => !opposition( labialized, x._2.toSeq))) c = save_c
-    }
-
-    # create affricate row
-    {
-      val m = collection.immutable.Map(('A','a'),('R','r'),('P','p'))
-      val ii = MutSet.empty[Char]
-      var narrower = 0
-      for( i <- mannerC; j <- placeC; s <- c((i,j))) {
-        if( affricate( s)) {
-          ii += i
-          if( m contains j) {
-            if( !c((i,m( j))).isEmpty) narrower += 1
-          }
-        }
-      }
-      if( ii.size == 1 && narrower > 0) {
-        val i = ii.head
-        for( j <- placeC)
-          move( c(('A',j)), c((i,j)), affricate)
-      }
-    }
-
-    # collapse retroflex and palatal columns if possible
-    for( (j1,j2) <- List(('a','A'),('r','R'),('p','P'))) {
-      if( lump || !mannerC.map( i => !c((i,j1)).isEmpty && 
-            !c((i,j2)).isEmpty).reduce( _ || _))
-      {
-        for( i <- mannerC) {
-          move( c((i,j1)), c((i,j2)))
-        }
-      }
-    }
-
-    if( lump) {
-      for( i <- mannerC) {
-        move( c((i,'b')), c((i,'l')))
-        move( c((i,'v')), c((i,'q')))
-        move( c((i,'u')), c((i,'f')))
-        move( c((i,'u')), c((i,'g')))
-        move( c((i,'u')), c((i,'x')))
-      }
-      for( j <- placeC) {
-        move( c(('x',j)), c(('r',j)))
-        move( c(('x',j)), c(('t',j)))
-        move( c(('e',j)), c(('i',j)))
-      }
-      placeS( 'u') = "pvus"
-      placeS( 'b') = "labial"
-      mannerS( 'x') = "attf"
-    }
-
-    # rename rows
-    {
-      var nonPlainStops = false
-      for( i <- "aesvp") {
-        val sSound_ = placeC.map( j => c((i,j))).flatten
-        if( i != 's' && sSound_.length > 0) {
-          nonPlainStops = true
-        }
-        if( any( affricate, sSound_)) {
-          mannerS( i) ++= "/affricate"
-        }
-      }
-      if( nonPlainStops) {
-        val sSound_ = placeC.map( j => c(('s',j))).flatten
-        if( any( voice, sSound_)) {
-          mannerS( 's') = "plain/voiced@" ++ mannerS( 's')
-        } else {
-          mannerS( 's') = "plain@" ++ mannerS( 's')
-        }
-      }
-
-      val eSound_ = placeC.map( j => c(('e',j))).flatten
-      if( !eSound_.isEmpty) {
-        val e1 = any( ejective, eSound_)
-        val e0 = any( not( ejective), eSound_)
-        if( lump) {
-          mannerS( 'e') = "glottalized@" ++ mannerS( 'e')
-        } else if( e1 && e0) {
-          mannerS( 'e') = "ejective/creaky@" ++ mannerS( 'e')
-        } else if( e1) {
-          mannerS( 'e') = "ejective@" ++ mannerS( 'e')
-        } else {
-          mannerS( 'e') = "creaky@" ++ mannerS( 'e')
-        }
-      }
-    }
-
-    # delete empty rows/columns
-    for( i <- mannerC) {
-      if( placeC.map( j => c((i,j))).flatten.isEmpty) mannerS( i) = null
-    }
-    for( j <- placeC) {
-      if( mannerC.map( i => c((i,j))).flatten.isEmpty) placeS( j) = null
-    }
-
-    # collapse mid-high, mid, mid-low
-    {
-      var nogo = false
-      for( j <- backnessC) {
-        val filled = I( !v(('5',j)).isEmpty) +
-          I( !v(('4',j)).isEmpty) +
-          I( !v(('3',j)).isEmpty)
-        if( filled > 1) nogo = true
-      }
-      if( !nogo) {
-        for( j <- backnessC) {
-          move( v(('4',j)), v(('3',j)))
-          move( v(('4',j)), v(('5',j)))
-        }
-      }
-    }
-
-    # juggle ash and type-a
-    {
-      if( v(('1','f')).isEmpty && !v(('2','f')).isEmpty)
-        move( v(('1','f')), v(('2','f')))
-      if( v(('1','f')).isEmpty && !v(('1','c')).isEmpty && !v(('1','b')).isEmpty)
-        move( v(('1','f')), v(('1','c')))
-    }
-
-    # move near-low to low if possible
-    {
-      var nogo = false
-      for( j <- backnessC) {
-        if( !v(('2',j)).isEmpty && !v(('1',j)).isEmpty) nogo = true
-      }
-      if( !nogo) {
-        for( j <- backnessC) {
-          if( !v(('2',j)).isEmpty) {
-            move( v(('1',j)), v(('2',j)))
-          }
-        }
-      }
-    }
-
-    # move near-high to high if possible
-    {
-      var nogo = false
-      for( j <- backnessC) {
-        if( !v(('6',j)).isEmpty && !v(('7',j)).isEmpty) nogo = true
-      }
-      if( !nogo) {
-        for( j <- backnessC) {
-          if( !v(('6',j)).isEmpty) {
-            move( v(('7',j)), v(('6',j)))
-          }
-        }
-      }
-    }
-
-    if( lump) {
-      for( j <- backnessC) {
-        move( v(('7',j)), v(('6',j)))
-        move( v(('1',j)), v(('2',j)))
-        move( v(('4',j)), v(('5',j)))
-        move( v(('4',j)), v(('3',j)))
-      }
-    }
-
-    # delete empty rows/columns
-    for( i <- heightC) {
-      if( backnessC.map( j => v((i,j))).flatten.isEmpty) heightS( i) = null
-    }
-    for( j <- backnessC) {
-      if( heightC.map( i => v((i,j))).flatten.isEmpty) backnessS( j) = null
-    }
-
-    # consonant table
-    write( "<div class=field><table class=inv>\n")
-
-    for( i <- '?' +: mannerC if i == '?' || mannerS( i) != null) {
-      write( "<tr>")
-      if( i != '?') { # manner headers
+    for( j <- placeC if placeS( j) != null) {
+      if( i == '?') { # place headers
         write( "<td class=header>")
-        write( cap(tr1(mannerS( i))))
+        write( cap(tr1(placeS( j))))
         write( "</td>")
-      } else {
-        write( "<td class=key>")
-        write( cap(tr1("consonants")))
+      } else { # body cells
+        write( "<td>")
+        write( assemble( c((i,j)).toSeq.sortBy( soundOrderMap( _))))
         write( "</td>")
       }
-
-      for( j <- placeC if placeS( j) != null) {
-        if( i == '?') { # place headers
-          write( "<td class=header>")
-          write( cap(tr1(placeS( j))))
-          write( "</td>")
-        } else { # body cells
-          write( "<td>")
-          write( assemble( c((i,j)).toSeq.sortBy( soundOrderMap( _))))
-          write( "</td>")
-        }
-      }
-      write( "</tr>\n")
     }
-    write( "</table></div>\n")
-
-    # vowel table
-    write( "<div class=field><table class=inv>\n")
-
-    for( i <- '?' +: heightC if i == '?' || heightS( i) != null) {
-      write( "<tr>")
-      if( i != '?') { # height headers
-        write( "<td class=header>")
-        write( cap(tr1(heightS( i))))
-        write( "</td>")
-      } else {
-        write( "<td class=key>")
-        write( cap(tr1("vowels")))
-        write( "</td>")
-      }
-
-      for( j <- backnessC if backnessS( j) != null) {
-        if( i == '?') { # backness headers
-          write( "<td class=header>")
-          write( cap(tr1(backnessS( j))))
-          write( "</td>")
-        } else { # body cells
-          write( "<td>")
-          write( assemble( v((i,j)).toSeq.sortBy( soundOrderMap( _))))
-          write( "</td>")
-        }
-      }
-      write( "</tr>\n")
-    }
-    write( "</table></div>\n")
-
-    if( table) {
-      write( "<div class=field>\n")
-      write( "<div class=key>" 
-        ++ cap(tr1("suprasegmental")) 
-        ++ ":</div>\n")
-      write( "<div class=value>")
-      write( assembleTrans( ss_))
-      write( "</div></div>\n")
-    } else if( !ss_.isEmpty) {
-      write( "<div class=field><div class=key>" 
-        ++ cap(tr1("suprasegmental")) 
-        ++ "</div><div class=value>")
-      write( cap( ss_.map( tr1(_)).mkString( ", ")))
-      write( "</div></div>\n")
-    }
+    write( "</tr>\n")
   }
+  write( "</table></div>\n")
+
+  # vowel table
+  write( "<div class=field><table class=inv>\n")
+
+  for( i <- '?' +: heightC if i == '?' || heightS( i) != null) {
+    write( "<tr>")
+    if( i != '?') { # height headers
+      write( "<td class=header>")
+      write( cap(tr1(heightS( i))))
+      write( "</td>")
+    } else {
+      write( "<td class=key>")
+      write( cap(tr1("vowels")))
+      write( "</td>")
+    }
+
+    for( j <- backnessC if backnessS( j) != null) {
+      if( i == '?') { # backness headers
+        write( "<td class=header>")
+        write( cap(tr1(backnessS( j))))
+        write( "</td>")
+      } else { # body cells
+        write( "<td>")
+        write( assemble( v((i,j)).toSeq.sortBy( soundOrderMap( _))))
+        write( "</td>")
+      }
+    }
+    write( "</tr>\n")
+  }
+  write( "</table></div>\n")
+
+  if( table) {
+    write( "<div class=field>\n")
+    write( "<div class=key>" 
+      ++ cap(tr1("suprasegmental")) 
+      ++ ":</div>\n")
+    write( "<div class=value>")
+    write( assembleTrans( ss_))
+    write( "</div></div>\n")
+  } else if( !ss_.isEmpty) {
+    write( "<div class=field><div class=key>" 
+      ++ cap(tr1("suprasegmental")) 
+      ++ "</div><div class=value>")
+    write( cap( ss_.map( tr1(_)).mkString( ", ")))
+    write( "</div></div>\n")
+  }
+}
 
   # generate inventories
   for( metalang <- List( "en", "es", "pt")) {

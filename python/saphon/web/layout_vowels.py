@@ -18,22 +18,15 @@ roundednesses = orderedDict([
   ('u', "unrounded"),
   ('r', "rounded")])
 
-# Takes a list of vowels and returns a layout (v), row labels
+# Takes a vowel layout (vowels) and modifies it; also returns row labels
 # (heightLabels), and column labels (backnessLabels).
+
+# The vowel layout is a dict whose keys are pairs of chars, denoting
+# height and backness, and whose values are lists of IPA symbols.
 
 def layoutVowels(vowels, lump):
 
-  # v, the vowel layout, is a dict whose keys are pairs of chars, 
-  # denoting height and backness, and whose values are lists of IPA
-  # symbols.
-
-  v = defaultdict(list) 
-
-  # Populate v with the initial layout.
-
-  for vowel in vowels:
-    assert isVowel(vowel)
-    v[height(vowel) + backness(vowel)].append(v)
+  v = vowels # for convenience
 
   #####################################
   # Attempt adjustments to the layout #
