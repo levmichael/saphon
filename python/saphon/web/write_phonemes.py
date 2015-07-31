@@ -1,3 +1,4 @@
+from collections import *
 
 def writeLocal(saphonData, htmlDir, loc):
 
