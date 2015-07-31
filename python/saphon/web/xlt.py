@@ -28,3 +28,6 @@ def xlt(loc, s):
     out = ' '.join(phrase)
 
   return out
+
+def Xlt(loc, s):
+  return xlt(loc, s).capitalize()

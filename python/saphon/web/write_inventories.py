@@ -1,13 +1,5 @@
 from collections import *
 
-val invHead = """
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<link rel="stylesheet" type="text/css" href="../../inv.css" />
-</head>
-<body>
-"""
-
 # Read in IPA sounds and properties.
 # TODO: Error checking on sound info.
 soundInfo = OrderedDict()
@@ -36,7 +28,7 @@ def MANY(seq, pred=indic): return count(seq, pred) >= 2
 def ALL (seq, pred=indic): return count(seq, pred) == len(seq)
 
 def writeInventory(
-  tr1: (String => String),
+  loc,
   sounds,
   write: String => Unit,
   lump: Boolean = false,
@@ -69,18 +61,18 @@ def writeInventory(
     write( "<tr>")
     if( i != '?') { # manner headers
       write( "<td class=header>")
-      write( cap(tr1(mannerS( i))))
+      write( Xlt(loc, mannerS( i))))
       write( "</td>")
     } else {
       write( "<td class=key>")
-      write( cap(tr1("consonants")))
+      write( Xlt(loc, "consonants")))
       write( "</td>")
     }
 
     for( j <- placeC if placeS( j) != null) {
       if( i == '?') { # place headers
         write( "<td class=header>")
-        write( cap(tr1(placeS( j))))
+        write( Xlt(loc, placeS( j))))
         write( "</td>")
       } else { # body cells
         write( "<td>")
@@ -99,18 +91,18 @@ def writeInventory(
     write( "<tr>")
     if( i != '?') { # height headers
       write( "<td class=header>")
-      write( cap(tr1(heightS( i))))
+      write( Xlt(loc, heightS( i))))
       write( "</td>")
     } else {
       write( "<td class=key>")
-      write( cap(tr1("vowels")))
+      write( Xlt(loc, "vowels")))
       write( "</td>")
     }
 
     for( j <- backnessC if backnessS( j) != null) {
       if( i == '?') { # backness headers
         write( "<td class=header>")
-        write( cap(tr1(backnessS( j))))
+        write( Xlt(loc, backnessS( j))))
         write( "</td>")
       } else { # body cells
         write( "<td>")
@@ -125,100 +117,78 @@ def writeInventory(
   if( table) {
     write( "<div class=field>\n")
     write( "<div class=key>" 
-      ++ cap(tr1("suprasegmental")) 
+      ++ Xlt(loc, "suprasegmental")) 
       ++ ":</div>\n")
     write( "<div class=value>")
     write( assembleTrans( ss_))
     write( "</div></div>\n")
   } else if( !ss_.isEmpty) {
     write( "<div class=field><div class=key>" 
-      ++ cap(tr1("suprasegmental")) 
+      ++ Xlt(loc, "suprasegmental")) 
       ++ "</div><div class=value>")
-    write( cap( ss_.map( tr1(_)).mkString( ", ")))
+    write( cap( ss_.map( xlt(loc, _)).mkString( ", ")))
     write( "</div></div>\n")
   }
 }
 
-  # generate inventories
-  for( metalang <- List( "en", "es", "pt")) {
-    def tr1( s: String) = tr( metalang, s)
+inventoryHead = """
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="../../inv.css" />
+</head>
+<body>
+"""
 
-    val foAll = new FileWriter( args( 1) ++ "/" ++ metalang ++ "/inv/master.html")
-    foAll.write( html.invHead)
+def writeLocal(saphonData, htmlDir, loc):
+  metalang = loc.metalang_code
 
-    for( lang <- lang_) {
-      val fo = new FileWriter( args( 1) ++ "/" ++ metalang ++ "/inv/" ++ lang.nameComp ++ ".html")
-      fo.write( html.invHead)
+  # Create a file for our own use that contains all inventories.
+  foMaster = open(htmlDir+'/'+metalang+'/inv/master.html', 'w')
+  foMaster.write(inventoryHead)
 
-      def write2( s: String) {
-        foAll.write( s)
-        fo.write( s)
-      }
+  for lang in saphonData.lang_:
+    fo = open(htmlDir+'/'+metalang+'/inv/'+lang.nameComp+'.html', 'w')
+    fo.write(inventoryHead)
 
-      write2( "<div class=entry>\n")
-      write2( "<h1>%s</h1>\n".format( lang.name))
+    # For writing to master and individual inventories simultaneously.
+    def write(s):
+      foMaster.write(s)
+      fo.write(s)
 
-      if( !lang.nameAlt_.isEmpty) {
-        write2( "<div class=field><div class=key>" 
-          ++ cap(tr1("other names")) 
-          ++ "</div><div class=value>")
-        write2( lang.nameAlt_.mkString( "; "))
-        write2( "</div></div>\n")
-      }
+    def writeField(fieldName, fieldValue):
+      write('<div class=field><div class=key>')
+      write(Xlt(loc, fieldName))
+      write('</div><div class=value>')
+      write(fieldValue)
+      write('</div></div>\n')
 
-      if( !lang.iso_.isEmpty) {
-        write2( "<div class=field><div class=key>"
-          ++ cap(tr1("language code"))
-          ++ "</div><div class=value>")
-        write2( lang.iso_.mkString( ", "))
-        write2( "</div></div>\n")
-      }
+    write('<div class=entry>\n')
+    write('<h1>%s</h1>\n' % lang.name)
 
-      write2( "<div class=field><div class=key>"
-        ++ cap(tr1("location"))
-        ++ "</div><div class=value>")
-      write2( lang.geo_.map( _.toLatLonString).mkString( "; "))
-      write2( "</div></div>\n")
+    if lang.nameAlt_:
+      writeField('other names', '; '.join(lang.nameAlt_))
 
-      write2( "<div class=field><div class=key>"
-        ++ cap(tr1("family"))
-        ++ "</div><div class=value>")
-      write2( lang.familyStr)
-      write2( "</div></div>\n")
+    if lang.iso_:
+      writeField('language code', ', '.join(lang.iso_))
 
-      writeInventory( tr1, lang.feat_, write2(_))
+    writeField('location', '; '.join(geo.toLatLonString for geo in lang.geo_))
 
-      if( !lang.bib_.isEmpty) {
-        write2( "<div class=field><div class=key>"
-          ++ cap(tr1("bibliography"))
-          ++ "</div><div class=value>")
-        write2( lang.bib_.mkString( "<p>\n", "</p><p>\n", "</p>\n"))
-        write2( "</div></div>\n")
-      }
+    writeField('family', lang.familyStr)
 
-      if( !lang.note_.isEmpty) {
-        write2( "<div class=field><div class=key>"
-          ++ cap(tr1("notes"))
-          ++ "</div><div class=value>")
-        for( note <- lang.note_) {
-          if( note.toLowerCase.matches( """^\[\w*\].*""")) {
-            write2( "<p>\n")
-            write2( strip( note.replaceFirst( """^\[\w*\]""", "")))
-            write2( "</p>\n")
-          } else {
-            foAll.write( "<p class=private>\n")
-            foAll.write( note)
-            foAll.write( "</p>\n")
-          }
-        }
-        write2( "</div></div>\n")
-      }
-      write2( "</div>\n") # class=entry
+    writeInventory(loc, lang.feat_, write)
 
-      fo.write( "</body>\n")
-      fo.close()
-    }
-    foAll.write( "</body>\n")
-    foAll.close()
-  }
+    if lang.bib_:
+      bibStr = ''.join('<p>'+bib+'</p>\n' for bib in lang.bib_)
+      writeField('bibliography', bibStr)
 
+    if lang.note_:
+      noteStr = ''.join('<p>'+note+'</p>\n' for note in lang.note_)
+      writeField('notes', noteStr)
+        
+    write('</div>\n') # Close class=entry.
+
+    fo.write('</body>\n')
+    fo.close()
+
+  foMaster.write('</body>\n')
+  foMaster.close()
