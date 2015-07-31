@@ -77,22 +77,6 @@ def writeTable(name, sounds, optimizeLayout, formatLabel, formatSounds, write):
 def writeNonsounds(name, nonsounds, formatLabel, formatNonsounds, writeField):
   writeField(formatLabel(name), formatNonsounds(nonsounds))
 
-#  if( table) {
-#    write( "<div class=field>\n")
-#    write( "<div class=key>" 
-#      ++ Xlt(loc, "suprasegmental")) 
-#      ++ ":</div>\n")
-#    write( "<div class=value>")
-#    write( assembleTrans( ss_))
-#    write( "</div></div>\n")
-#  } else if( !ss_.isEmpty) {
-#    write( "<div class=field><div class=key>" 
-#      ++ Xlt(loc, "suprasegmental")) 
-#      ++ "</div><div class=value>")
-#    write( cap( ss_.map( xlt(loc, _)).mkString( ", ")))
-#    write( "</div></div>\n")
-#  }
-
 def writeLocal(saphonData, htmlDir, loc):
   metalang = loc.metalang_code
 
@@ -139,23 +123,23 @@ def writeLocal(saphonData, htmlDir, loc):
 
     writeTable(
       'consonants',
-      [s for s in sounds if soundInfo[s][0] == 'c'],
-      lambda layout: optimizeConsonantLayout(layout, lump),
+      filter(isConsonant, soundInfo.keys()),
+      lambda layout: optimizeConsonantLayout(layout, lump=False),
       lambda label: Xlt(loc, label),
       lambda sounds: '&nbsp'.join(sounds),
       write)
 
     writeTable(
       'vowels',
-      [s for s in sounds if soundInfo[s][0] == 'v'],
-      lambda layout: optimizeVowelLayout(layout, lump),
+      filter(isVowel, soundInfo.keys()),
+      lambda layout: optimizeVowelLayout(layout, lump=False),
       lambda label: Xlt(loc, label),
       lambda sounds: '&nbsp'.join(sounds),
       write)
 
     writeNonsounds(
       'suprasegmentals',
-      [s for s in sounds if soundInfo[s][0] == 's'],
+      filter(isSuprasegmental, soundInfo.keys()),
       lambda label: Xlt(loc, label),
       lambda sounds: ', '.join(xlt(loc, sounds)).capitalize(),
       writeField)
