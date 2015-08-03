@@ -2,6 +2,17 @@ from collections import *
 
 def writeLocal(saphonData, htmlDir, loc):
 
+  # Create unique ID for each feature.
+  feats = saphonData.featInfo.keys()
+  featId = dict(zip(feats, range(len(feats))))
+
+  # Get counts for each feature.
+  featCount = defaultdict(int)
+  for lang in saphonData.lang_:
+    for feat in lang.feat_:
+      featCount(feat) += 1
+
+  # Generate HTML.
   metalang = loc.metalang_code
   filename = loc.find_by_phonemes_phonemes
 
@@ -21,15 +32,9 @@ def writeLocal(saphonData, htmlDir, loc):
   fo.write('</div><br/>\n')
   fo.write('<div id=chooser>\n')
 
-  # Get counts for each feature.
-  featCount = defaultdict(int)
-  for lang in saphonData.lang_:
-    for feat in lang.feat_:
-      featCount(feat) += 1
-
   def markup(feat):
     return '<span f=%d%s>%s</span>' % (
-      saphonData.featOrder(feat),
+      saphonData.featInfo[feat].id(),
       ' class=rare' if featCount(feat) < 4 else '',
       feat)
 
@@ -72,7 +77,7 @@ def writeLocal(saphonData, htmlDir, loc):
   fo.write('<table>\n')
 
   for lang in lang_:
-    attr = ''.join(' f%d=1' % saphonData.featOrder(feat) for feat in lang.feat_)
+    attr = ''.join(' f%d=1' % saphonData.featInfo[feat].id() for feat in lang.feat_)
     fo.write('<tr%s><td><a href="http:inv/%s.html">%s</a></td></tr>\n' %
       (attr, lang.nameComp, lang.name))
 

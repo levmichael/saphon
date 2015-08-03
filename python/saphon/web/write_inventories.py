@@ -1,23 +1,5 @@
 from collections import *
 
-# Read in IPA sounds and properties.
-# TODO: Error checking on sound info.
-soundInfo = OrderedDict()
-for line in open('data/ipa_table.txt'):
-  if ':' not in line: continue
-  position, sounds = re.split(': *', line, 1)
-  for sound in re.split(' +', sounds):
-    soundInfo[sound] = position
-
-# Predicates on phonemes.
-def isVoiced(sound): return soundInfo[sound][3] == 'v'
-def isLabialized(sound): return 'ʷ' in sound
-def isPalatalized(sound): return 'ʲ' in sound
-def isAffricate(sound):
-  return soundMap[sound][1] in "aesvp" \
-     and soundMap[sound][2] in "AoRP"
-def isEjective(sound): return '\'' in sound
-
 # Quantifiers.
 def indic(x): return not not x
 def count(seq, pred): return sum(pred(x) for x in seq)

@@ -1,9 +1,9 @@
 import csv, math, re, sys, os
 
 class SaphonData:
-  def __init__(self, familyOrdered_, feat_, lang_):
+  def __init__(self, familyOrdered_, featInfo, lang_):
     self.familyOrdered_ = familyOrdered_
-    self.feat_ = feat_
+    self.featInfo = featInfo
     self.lang_ = lang_
 
 class Geo:
@@ -93,6 +93,29 @@ def readSaphonTable(filename):
 
   return SaphonData(familyOrdered_, feat_, lang_)
 
+# Read in features (including phonemes) and properties.
+# TODO: Error checking on feat info.
+def readFeatTable(filename):
+  featInfo = OrderedDict()
+  for line in open('data/ipa_table.txt'):
+    if ':' not in line: continue
+    position, sounds = re.split(': *', line, 1)
+    for sound in re.split(' +', sounds):
+      featInfo[sound] = position
+  return featInfo
+
+# Predicates on phonemes.
+def isConsonant(sound):   return soundInfo[sound][0] == 'c'
+def isVowel(sound):       return soundInfo[sound][0] == 'v'
+def isVoiced(sound):      return soundInfo[sound][3] == 'v'
+def isLabialized(sound):  return 'ʷ' in sound
+def isPalatalized(sound): return 'ʲ' in sound
+def isEjective(sound):    return '\'' in sound
+def isAffricate(sound):
+  return soundMap[sound][1] in "aesvp" \
+     and soundMap[sound][2] in "AoRP"
+
+# TODO: generate file for feat info
 def writeSaphonFiles(dir, lang_, feat_):
   if not os.path.exists(dir):
     os.makedirs(dir)
@@ -119,6 +142,8 @@ def writeSaphonFiles(dir, lang_, feat_):
       fo.write('bib: ' + bib + '\n')
 
 def readSaphonFiles(dir_name):
+    featInfo = readFeatList(dir_name+'/ipa-table.txt')
+
     lang_ = []
     for file in os.listdir(dir_name):
         file_name = os.path.join(dir_name, file)
@@ -172,13 +197,15 @@ def readSaphonFiles(dir_name):
     family_ = [lang.family for lang in lang_]
     familyOrdered_ = sorted(set( family_),
         key = lambda x: (family_.count(x), x))
-    feat_ = []
-    for lang in lang_:
-        for item in lang.feat_:
-            feat_.append(item)
-    feat_ = sorted(set( feat_))
+
+    # Check features against featInfo
+    # feat_ = []
+    # for lang in lang_:
+    #     for item in lang.feat_:
+    #         feat_.append(item)
+    # feat_ = sorted(set( feat_))
     
-    return SaphonData(familyOrdered_, feat_, lang_)
+    return SaphonData(familyOrdered_, featInfo, lang_)
 
 if __name__ == '__main__':
   family_, feat_, lang_ = readSaphonTable(sys.argv[1])
