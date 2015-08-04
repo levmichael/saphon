@@ -1,4 +1,5 @@
 import csv, math, re, sys, os
+from collections import *
 
 class SaphonData:
   def __init__(self, familyOrdered_, featInfo, lang_):
@@ -95,9 +96,9 @@ def readSaphonTable(filename):
 
 # Read in features (including phonemes) and properties.
 # TODO: Error checking on feat info.
-def readFeatTable(filename):
+def readFeatList(filename):
   featInfo = OrderedDict()
-  for line in open('data/ipa_table.txt'):
+  for line in open(filename):
     if ':' not in line: continue
     position, sounds = re.split(': *', line, 1)
     for sound in re.split(' +', sounds):
@@ -146,6 +147,7 @@ def readSaphonFiles(dir_name):
 
     lang_ = []
     for file in os.listdir(dir_name):
+        if file == 'ipa-table.txt': continue
         file_name = os.path.join(dir_name, file)
         with open(file_name, "r") as f:
             f_lines = f.readlines()
@@ -155,43 +157,29 @@ def readSaphonFiles(dir_name):
             Geography = []
             Note = []
             Bib = []
-            for line in f_lines:
-                if "name:" in line:
-                    Name = line[6:-1]
-                elif "name.short:" in line:
-                    NameShort = line[12:-1]
-                elif "name.alt:" in line:
-                    name_alt = line[10:-1]
-                    NameAlt.append(name_alt)
-                elif "name.comp:" in line:
-                    NameComp = line[11:-1]
-                elif "code:" in line:
-                    code = line[6:-1]
-                    Code.append(code)
-                elif "family:" in line:
-                    Family = line[8:-1] 
-                elif "country:" in line:
-                    country = line[9:-1]
-                    Country.append(country)
-                elif "geo:" in line:
-                    geo = line[5:-1]
-                    geo = [readFloat(x) for x in geo.split()]
+            for line_raw in f_lines:
+                line = line_raw.strip()
+                if line == '': continue
+                key, value = re.split(r':\s*', line.strip(), 1)
+
+                if key == "name": Name = value
+                elif key == "name.short": NameShort = value
+                elif key == "name.alt": NameAlt.append(value)
+                elif key == "name.comp": NameComp = value
+                elif key == "code": Code.append(value)
+                elif key == "family": Family = value
+                elif key == "country": Country.append(value)
+                elif key == "geo":
+                    geo = [readFloat(x) for x in value.split()]
                     if len(geo) == 2:
                       Geography.append(Geo(geo[0], geo[1], nan))
                     else:
                       Geography.append(Geo(geo[0], geo[1], geo[2]))
-                elif "feat:" in line:
-                    Feat = line[6:-1]
-                    Feat = Feat.split()
-                elif "note:" in line:
-                    note = line[6:-1]
-                    Note.append(note)
-                elif "bib:" in line:
-                    bib = line[5:-1]
-                    Bib.append(bib)
+                elif key == "feat": Feat = value.split()
+                elif key == "note": Note.append(value)
+                elif key == "bib": Bib.append(value)
                 else:
-                    print('Error in %s' % file_name)
-                f.close()
+                    print('Bad line %s in %s' % (line, file_name))
             lang_.append(Lang(Name, NameShort, NameAlt, NameComp, Code, familyName(Family, Name), Family, Country, Geography, Feat, Note, Bib))
     
     family_ = [lang.family for lang in lang_]

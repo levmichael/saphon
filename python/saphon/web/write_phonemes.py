@@ -1,5 +1,8 @@
 from collections import *
 
+from saphon.io import *
+from saphon.web.write_inventories import writeTable
+
 def writeLocal(saphonData, htmlDir, loc):
 
   # Create unique ID for each feature.
@@ -10,13 +13,13 @@ def writeLocal(saphonData, htmlDir, loc):
   featCount = defaultdict(int)
   for lang in saphonData.lang_:
     for feat in lang.feat_:
-      featCount(feat) += 1
+      featCount[feat] += 1
 
   # Generate HTML.
   metalang = loc.metalang_code
   filename = loc.find_by_phonemes_phonemes
 
-  fo = open(htmlDir_'/'+metalang+'/'+filename+'.html')
+  fo = open(htmlDir+'/'+metalang+'/'+filename+'.html', 'w')
   fo.write('''
     <?php include("header.php"); ?>
     <link rel="stylesheet" media="screen" type="text/css" href="../inv.css"/>
@@ -47,7 +50,7 @@ def writeLocal(saphonData, htmlDir, loc):
 
   writeTable(
     'consonants',
-    filter(isConsonant, soundInfo.keys()),
+    filter(isConsonant, saphonData.featInfo.keys()),
     lambda layout: optimizeConsonantLayout(layout, lump=True),
     lambda label: Xlt(loc, label),
     lambda feats: ''.join(markup(f) for f in feats),
@@ -55,7 +58,7 @@ def writeLocal(saphonData, htmlDir, loc):
 
   writeTable(
     'vowels',
-    filter(isVowel, soundInfo.keys()),
+    filter(isVowel, saphonData.featInfo.keys()),
     lambda layout: optimizeVowelLayout(layout, lump=True),
     lambda label: Xlt(loc, label),
     lambda feats: ''.join(markup(f) for f in feats),
@@ -63,7 +66,7 @@ def writeLocal(saphonData, htmlDir, loc):
 
   writeNonsounds(
     'suprasegmentals',
-    filter(isSuprasegmental, soundInfo.keys()),
+    filter(isSuprasegmental, saphonData.featInfo.keys()),
     lambda label: Xlt(loc, label),
     lambda feats: ''.join(markup(f) for f in feats),
     writeField)

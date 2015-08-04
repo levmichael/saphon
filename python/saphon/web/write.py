@@ -11,7 +11,7 @@ saphonData = saphon.io.readSaphonFiles(saphonDir)
 
 generationModules = [__import__(m) for m in (
   #'write_inventories',
-  #'write_phonemes',
+  'write_phonemes',
   'write_lists',
   'write_saphon_php',
   'write_lang_xml')]
