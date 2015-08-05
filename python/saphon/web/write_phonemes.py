@@ -4,6 +4,7 @@ from saphon.io import *
 from saphon.web.write_inventories import writeTable
 
 def writeLocal(saphonData, htmlDir, loc):
+  featInfo = saphonData.featInfo
 
   # Create unique ID for each feature.
   feats = saphonData.featInfo.keys()
@@ -37,7 +38,7 @@ def writeLocal(saphonData, htmlDir, loc):
 
   def markup(feat):
     return '<span f=%d%s>%s</span>' % (
-      saphonData.featInfo[feat].id(),
+      featId[feat],
       ' class=rare' if featCount(feat) < 4 else '',
       feat)
 
@@ -49,17 +50,19 @@ def writeLocal(saphonData, htmlDir, loc):
     write('</div></div>\n')
 
   writeTable(
+    featInfo,
     'consonants',
-    filter(isConsonant, saphonData.featInfo.keys()),
-    lambda layout: optimizeConsonantLayout(layout, lump=True),
+    filter(featInfo.isConsonant, featInfo.feats()),
+    lambda layout: optimizeConsonantLayout(featInfo, layout, lump=True),
     lambda label: Xlt(loc, label),
     lambda feats: ''.join(markup(f) for f in feats),
     lambda s: fo.write(s))
 
   writeTable(
+    featInfo,
     'vowels',
-    filter(isVowel, saphonData.featInfo.keys()),
-    lambda layout: optimizeVowelLayout(layout, lump=True),
+    filter(featInfo.isVowel, featInfo.feats()),
+    lambda layout: optimizeVowelLayout(featInfo, layout, lump=True),
     lambda label: Xlt(loc, label),
     lambda feats: ''.join(markup(f) for f in feats),
     lambda s: fo.write(s))
@@ -80,7 +83,7 @@ def writeLocal(saphonData, htmlDir, loc):
   fo.write('<table>\n')
 
   for lang in lang_:
-    attr = ''.join(' f%d=1' % saphonData.featInfo[feat].id() for feat in lang.feat_)
+    attr = ''.join(' f%d=1' % featId[feat] for feat in lang.feat_)
     fo.write('<tr%s><td><a href="http:inv/%s.html">%s</a></td></tr>\n' %
       (attr, lang.nameComp, lang.name))
 

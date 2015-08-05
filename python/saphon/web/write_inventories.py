@@ -14,16 +14,18 @@ def ALL (seq, pred=indic): return count(seq, pred) == len(seq)
 # `formatLabel` to format labels and `formatSounds` to format lists
 # of sounds, and using `write` to write.
 
-def writeTable(name, sounds, optimizeLayout, formatLabel, formatSounds, write):
+def writeTable(featInfo, name, sounds, optimizeLayout, formatLabel, formatSounds, write):
 
-  # Create initial layout
+  # Define for convenience.
+  fa = featInfo.featAttr
+
+  # Create initial layout.
   layout = defaultdict(list)
   for sound in sounds:
-    info = soundInfo[sound]
-    layout[info[1], info[2]].append(sound)
+    layout[fa[sound][1], fa[sound][2]].append(sound)
 
   # Improve layouts, get relevant table rows/columns.
-  rowLabels, colLabels = layoutOptimizer(layout)
+  rowLabels, colLabels = optimizeLayout(layout)
 
   # Write out layout
   write('<div class=field><table class=inv>\n')
@@ -60,6 +62,9 @@ def writeNonsounds(name, nonsounds, formatLabel, formatNonsounds, writeField):
   writeField(formatLabel(name), formatNonsounds(nonsounds))
 
 def writeLocal(saphonData, htmlDir, loc):
+
+  # Define for convenience.
+  featInfo = saphonData.featInfo
   metalang = loc.metalang_code
 
   inventoryHead = """
@@ -104,17 +109,19 @@ def writeLocal(saphonData, htmlDir, loc):
     writeField('family', lang.familyStr)
 
     writeTable(
+      featInfo,
       'consonants',
       filter(isConsonant, soundInfo.keys()),
-      lambda layout: optimizeConsonantLayout(layout, lump=False),
+      lambda layout: optimizeConsonantLayout(featInfo, layout, lump=False),
       lambda label: Xlt(loc, label),
       lambda sounds: '&nbsp'.join(sounds),
       write)
 
     writeTable(
+      featInfo,
       'vowels',
       filter(isVowel, soundInfo.keys()),
-      lambda layout: optimizeVowelLayout(layout, lump=False),
+      lambda layout: optimizeVowelLayout(featInfo, layout, lump=False),
       lambda label: Xlt(loc, label),
       lambda sounds: '&nbsp'.join(sounds),
       write)

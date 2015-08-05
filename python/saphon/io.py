@@ -7,6 +7,22 @@ class SaphonData:
     self.featInfo = featInfo
     self.lang_ = lang_
 
+class FeatInfo:
+  def __init__(self, featAttr):
+    self.featAttr = featAttr
+
+  def feats(self): return self.featAttr.keys()
+
+  def isConsonant  (self, sound): return self.featAttr[sound][0] == 'c'
+  def isVowel      (self, sound): return self.featAttr[sound][0] == 'v'
+  def isVoiced     (self, sound): return self.featAttr[sound][3] == 'v'
+  def isLabialized (self, sound): return 'ʷ' in sound
+  def isPalatalized(self, sound): return 'ʲ' in sound
+  def isEjective   (self, sound): return '\'' in sound
+  def isAffricate  (self, sound):
+    return self.featAttr[sound][1] in "aesvp" \
+       and self.featAttr[sound][2] in "AoRP"
+
 class Geo:
   def __init__(self, lat, lon, elv):
     self.lat = lat
@@ -105,17 +121,6 @@ def readFeatList(filename):
       featInfo[sound] = position
   return featInfo
 
-# Predicates on phonemes.
-def isConsonant(sound):   return soundInfo[sound][0] == 'c'
-def isVowel(sound):       return soundInfo[sound][0] == 'v'
-def isVoiced(sound):      return soundInfo[sound][3] == 'v'
-def isLabialized(sound):  return 'ʷ' in sound
-def isPalatalized(sound): return 'ʲ' in sound
-def isEjective(sound):    return '\'' in sound
-def isAffricate(sound):
-  return soundMap[sound][1] in "aesvp" \
-     and soundMap[sound][2] in "AoRP"
-
 # TODO: generate file for feat info
 def writeSaphonFiles(dir, lang_, feat_):
   if not os.path.exists(dir):
@@ -193,7 +198,7 @@ def readSaphonFiles(dir_name):
     #         feat_.append(item)
     # feat_ = sorted(set( feat_))
     
-    return SaphonData(familyOrdered_, featInfo, lang_)
+    return SaphonData(familyOrdered_, FeatInfo(featInfo), lang_)
 
 if __name__ == '__main__':
   family_, feat_, lang_ = readSaphonTable(sys.argv[1])
