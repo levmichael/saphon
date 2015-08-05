@@ -7,7 +7,7 @@ def writeLocal(saphonData, htmlDir, loc):
   featInfo = saphonData.featInfo
 
   # Create unique ID for each feature.
-  feats = saphonData.featInfo.keys()
+  feats = saphonData.featInfo.feats()
   featId = dict(zip(feats, range(len(feats))))
 
   # Get counts for each feature.
