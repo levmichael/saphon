@@ -10,7 +10,6 @@ def writeLocal(saphonData, htmlDir, loc):
 
   # Create unique ID for each feature.
   feats = saphonData.featInfo.feats()
-  print(feats)
   featId = dict(zip(feats, range(len(feats))))
 
   # Get counts for each feature.
@@ -85,6 +84,10 @@ def writeLocal(saphonData, htmlDir, loc):
   fo.write('<table>\n')
 
   for lang in saphonData.lang_:
+    for feat in lang.feat_:
+      if feat not in featId:
+        print(lang.name)
+        print(' '.join(str(ord(x)) for x in feat))
     attr = ''.join(' f%d=1' % featId[feat] for feat in lang.feat_)
     fo.write('<tr%s><td><a href="http:inv/%s.html">%s</a></td></tr>\n' %
       (attr, lang.nameComp, lang.name))

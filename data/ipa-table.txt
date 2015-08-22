@@ -2,13 +2,13 @@ csbu: p p: pʲ pʷ ps
 csbv: ʰb b b: bʲ bʷ bz bβ
 csdu: t̪ t̪ʙ
 csdv: d̪ 
-csau: t tx ʰt t: tʲ tʷ 
+csau: t tx ʰt t: tʲ tʷ t̺
 csav: ʰd d d: dʲ
 csru: ʈ 
 csrv: ɖ 
 cspu: c ʰc
 cspv: ʰɟ ɟ
-csvu: k kʲ kˣ ʰk k: ʰkʷ kʷ kʷ:
+csvu: k kʲ kˣ ʰk k: ʰkʷ kʷ kʷ: k̪
 csqu: kp 
 csvv: ɡ ɡ: ɡʷ
 csuu: q qʷ 
@@ -58,9 +58,9 @@ ceAu: ts'
 ceou: tʃ'
 ceRu: ʈʂ'
 
-cpbu: mp mpʲ
+cpbu: mp mpʲ mɸj
 cpbv: mb mbʲ 
-cpau: nt ntʲ
+cpau: nt ntʲ ns nsj
 cpav: nd ndʲ 
 cpvu: ŋk 
 cpvv: ŋɡ ŋɡʷ
@@ -88,7 +88,7 @@ cflu: fʷ f
 cflv: v 
 cfdu: θ s̪ θʲ
 cfdv: ð 
-cfau: s sʲ s' sʰ
+cfau: s sʲ s' sʰ s̺
 cfav: z 
 cfru: ʂ
 cfrv: ʐ 

@@ -1,4 +1,4 @@
-import csv, math, re, sys, os
+import csv, math, re, sys, os, unicodedata
 from collections import *
 
 class SaphonData:
@@ -63,6 +63,10 @@ def parseGeoFields(geo_):
 def familyName(family, lang):
   return lang if family == 'Isolate' else family
 
+# TODO: This needs to be more comprehensive.
+def normalizeIPA(s):
+  return unicodedata.normalize('NFKD', s)
+
 def readSaphonTable(filename):
   row_ = [row for row in csv.reader(open(filename, 'rb'))]
 
@@ -119,7 +123,7 @@ def readFeatList(filename):
     if ':' not in line: continue
     position, sounds = re.split(': *', line.strip(), 1)
     for sound in re.split(' +', sounds):
-      featInfo[sound] = position
+      featInfo[normalizeIPA(sound)] = position
   return featInfo
 
 # TODO: generate file for feat info
@@ -162,6 +166,7 @@ def readSaphonFiles(dir_name):
             Code = []
             Country = []
             Geography = []
+            Feat = []
             Note = []
             Bib = []
             for line_raw in f_lines:
@@ -182,7 +187,7 @@ def readSaphonFiles(dir_name):
                       Geography.append(Geo(geo[0], geo[1], nan))
                     else:
                       Geography.append(Geo(geo[0], geo[1], geo[2]))
-                elif key == "feat": Feat = value.split()
+                elif key == "feat": Feat += [normalizeIPA(s) for s in value.split()]
                 elif key == "note": Note.append(value)
                 elif key == "bib": Bib.append(value)
                 else:
