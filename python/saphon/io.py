@@ -11,15 +11,16 @@ class FeatInfo:
   def __init__(self, featAttr):
     self.featAttr = featAttr
 
-  def feats(self): return self.featAttr.keys()
+  def feats(self): return list(self.featAttr.keys())
 
-  def isConsonant  (self, sound): return self.featAttr[sound][0] == 'c'
-  def isVowel      (self, sound): return self.featAttr[sound][0] == 'v'
-  def isVoiced     (self, sound): return self.featAttr[sound][3] == 'v'
-  def isLabialized (self, sound): return 'ʷ' in sound
-  def isPalatalized(self, sound): return 'ʲ' in sound
-  def isEjective   (self, sound): return '\'' in sound
-  def isAffricate  (self, sound):
+  def isSuprasegmental(self, sound): return self.featAttr[sound][0] == 's'
+  def isConsonant     (self, sound): return self.featAttr[sound][0] == 'c'
+  def isVowel         (self, sound): return self.featAttr[sound][0] == 'v'
+  def isVoiced        (self, sound): return self.featAttr[sound][3] == 'v'
+  def isLabialized    (self, sound): return 'ʷ' in sound
+  def isPalatalized   (self, sound): return 'ʲ' in sound
+  def isEjective      (self, sound): return '\'' in sound
+  def isAffricate     (self, sound):
     return self.featAttr[sound][1] in "aesvp" \
        and self.featAttr[sound][2] in "AoRP"
 
@@ -116,7 +117,7 @@ def readFeatList(filename):
   featInfo = OrderedDict()
   for line in open(filename):
     if ':' not in line: continue
-    position, sounds = re.split(': *', line, 1)
+    position, sounds = re.split(': *', line.strip(), 1)
     for sound in re.split(' +', sounds):
       featInfo[sound] = position
   return featInfo
@@ -152,6 +153,7 @@ def readSaphonFiles(dir_name):
 
     lang_ = []
     for file in os.listdir(dir_name):
+        if file[-4:] != '.txt': continue
         if file == 'ipa-table.txt': continue
         file_name = os.path.join(dir_name, file)
         with open(file_name, "r") as f:

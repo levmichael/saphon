@@ -11,18 +11,18 @@
 def xlt(loc, s):
 
   # Translate a term by looking it up in loc.
-  def xltWord(s):
-    loc.__dict__[s]
+  def xltWord(term):
+    return loc.__dict__[term]
 
   # Translate terms separated by slashes.
-  def xltSlash(s):
-    '/'.join(xltWord(term) for term in terms.split('/'))
+  def xltSlash(terms):
+    return '/'.join(xltWord(term) for term in terms.split('/'))
 
   # Translate sets of terms separated by at-sign.
   phrase = [xltSlash(terms) for terms in s.split('@')]
 
   # Reorder if applicable
-  if len(phrase) == 2 and loc.head_first = True:
+  if len(phrase) == 2 and loc.head_first:
     out = phrase[1] + ' ' + phrase[0]
   else:
     out = ' '.join(phrase)

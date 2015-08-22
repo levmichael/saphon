@@ -122,7 +122,7 @@ clvv: kl
 
 ctau: ʰɾ
 ctav: ɾ ɾ̃ ɾʲ ʔɾ 
-ctrv: ɽ 
+ctrv: ɽ ɽʰ
 
 crau: r̥ 
 crav: r

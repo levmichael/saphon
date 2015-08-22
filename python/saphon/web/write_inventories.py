@@ -1,14 +1,5 @@
 from collections import *
 
-# Quantifiers.
-def indic(x): return not not x
-def count(seq, pred): return sum(pred(x) for x in seq)
-
-def NONE(seq, pred=indic): return count(seq, pred) == 0
-def ANY (seq, pred=indic): return count(seq, pred) >= 1
-def MANY(seq, pred=indic): return count(seq, pred) >= 2
-def ALL (seq, pred=indic): return count(seq, pred) == len(seq)
-
 # Write a table labeled `name` with `sounds`, using `optimizeLayout`
 # to improve the initial layout derived from soundInfo, using
 # `formatLabel` to format labels and `formatSounds` to format lists
@@ -24,13 +15,13 @@ def writeTable(featInfo, name, sounds, optimizeLayout, formatLabel, formatSounds
   for sound in sounds:
     layout[fa[sound][1], fa[sound][2]].append(sound)
 
-  # Improve layouts, get relevant table rows/columns.
+  # Improve layout, get relevant table rows/columns.
   rowLabels, colLabels = optimizeLayout(layout)
 
   # Write out layout
   write('<div class=field><table class=inv>\n')
 
-  for i in ['?'] + rowLabels.keys():
+  for i in ['?'] + list(rowLabels.keys()):
     write('<tr>')
     if i == '?': # top-left cell
       write('<td class=key>')
@@ -38,13 +29,13 @@ def writeTable(featInfo, name, sounds, optimizeLayout, formatLabel, formatSounds
       write('</td>')
     else: # row header
       write('<td class=header>')
-      write(formatLabel(rowLabels(i)))
+      write(formatLabel(rowLabels[i]))
       write('</td>')
 
-    for j in colLabels.keys():
+    for j in list(colLabels.keys()):
       if i == '?': # column header
         write('<td class=header>')
-        write(formatLabel(colLabels(j)))
+        write(formatLabel(colLabels[j]))
         write('</td>')
       else: # body cells
         write('<td>')
@@ -54,12 +45,11 @@ def writeTable(featInfo, name, sounds, optimizeLayout, formatLabel, formatSounds
 
   write('</table></div>\n')
 
-# Write a field labeled `name` with `nonsounds`, using `formatLabel`
-# to format labels and `formatSounds` to format lists of sounds, and
-# using `writeField` to write.
+# Write a field labeled `name` with `nonsounds`, using `formatSounds`
+# to format lists of sounds and `writeField` to write.
 
-def writeNonsounds(name, nonsounds, formatLabel, formatNonsounds, writeField):
-  writeField(formatLabel(name), formatNonsounds(nonsounds))
+def writeNonsounds(name, nonsounds, formatNonsounds, writeField):
+  writeField(name, formatNonsounds(nonsounds))
 
 def writeLocal(saphonData, htmlDir, loc):
 
@@ -127,9 +117,8 @@ def writeLocal(saphonData, htmlDir, loc):
       write)
 
     writeNonsounds(
-      'suprasegmentals',
+      'suprasegmental',
       filter(isSuprasegmental, soundInfo.keys()),
-      lambda label: Xlt(loc, label),
       lambda sounds: ', '.join(xlt(loc, sounds)).capitalize(),
       writeField)
       

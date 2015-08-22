@@ -1,5 +1,6 @@
 metalang_code = 'es'
 metalang = 'Español'
+head_first = True
  
 consonants = 'consonantes'
  

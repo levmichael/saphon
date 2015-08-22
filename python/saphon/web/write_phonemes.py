@@ -1,13 +1,16 @@
 from collections import *
 
 from saphon.io import *
-from saphon.web.write_inventories import writeTable
+from saphon.web.write_inventories import writeTable, writeNonsounds
+from saphon.web.optimize_layout import *
+from saphon.web.xlt import *
 
 def writeLocal(saphonData, htmlDir, loc):
   featInfo = saphonData.featInfo
 
   # Create unique ID for each feature.
   feats = saphonData.featInfo.feats()
+  print(feats)
   featId = dict(zip(feats, range(len(feats))))
 
   # Get counts for each feature.
@@ -39,21 +42,21 @@ def writeLocal(saphonData, htmlDir, loc):
   def markup(feat):
     return '<span f=%d%s>%s</span>' % (
       featId[feat],
-      ' class=rare' if featCount(feat) < 4 else '',
+      ' class=rare' if featCount[feat] < 4 else '',
       feat)
 
   def writeField(fieldName, fieldValue):
-    write('<div class=field><div class=key>')
-    write(Xlt(loc, fieldName) + ':')
-    write('</div><div class=value>')
-    write(fieldValue)
-    write('</div></div>\n')
+    fo.write('<div class=field><div class=key>')
+    fo.write(Xlt(loc, fieldName) + ':')
+    fo.write('</div><div class=value>')
+    fo.write(fieldValue)
+    fo.write('</div></div>\n')
 
   writeTable(
     featInfo,
     'consonants',
     filter(featInfo.isConsonant, featInfo.feats()),
-    lambda layout: optimizeConsonantLayout(featInfo, layout, lump=True),
+    lambda layout: layoutConsonants(featInfo, layout, lump=True),
     lambda label: Xlt(loc, label),
     lambda feats: ''.join(markup(f) for f in feats),
     lambda s: fo.write(s))
@@ -62,15 +65,14 @@ def writeLocal(saphonData, htmlDir, loc):
     featInfo,
     'vowels',
     filter(featInfo.isVowel, featInfo.feats()),
-    lambda layout: optimizeVowelLayout(featInfo, layout, lump=True),
+    lambda layout: layoutVowels(featInfo, layout, lump=True),
     lambda label: Xlt(loc, label),
     lambda feats: ''.join(markup(f) for f in feats),
     lambda s: fo.write(s))
 
   writeNonsounds(
-    'suprasegmentals',
-    filter(isSuprasegmental, saphonData.featInfo.keys()),
-    lambda label: Xlt(loc, label),
+    'suprasegmental',
+    filter(featInfo.isSuprasegmental, saphonData.featInfo.feats()),
     lambda feats: ''.join(markup(f) for f in feats),
     writeField)
 
@@ -82,7 +84,7 @@ def writeLocal(saphonData, htmlDir, loc):
   fo.write('<span>'+loc.find_by_phonemes_matches+':</span> <span class=key>999</span>\n')
   fo.write('<table>\n')
 
-  for lang in lang_:
+  for lang in saphonData.lang_:
     attr = ''.join(' f%d=1' % featId[feat] for feat in lang.feat_)
     fo.write('<tr%s><td><a href="http:inv/%s.html">%s</a></td></tr>\n' %
       (attr, lang.nameComp, lang.name))
