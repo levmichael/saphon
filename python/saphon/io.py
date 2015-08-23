@@ -30,6 +30,15 @@ class Geo:
     self.lon = lon
     self.elv = elv
 
+  def toDMS(deg):
+    sec = int(3600.0 * deg + 0.5)
+    return '%d°%02d\'%02d"' % (sec / 3600, (sec / 60) % 60, sec % 60)
+    
+  def toLatLonString(self):
+    return Geo.toDMS(abs(self.lat)) + 'NS'[self.lat < 0] +\
+     ' ' + Geo.toDMS(abs(self.lon)) + 'EW'[self.lon < 0]
+
+
 class Lang:
   def __init__(self, name, nameShort, nameAlt_, nameComp, iso_,
       family, familyStr, country_, geo_, feat_, note_, bib_):

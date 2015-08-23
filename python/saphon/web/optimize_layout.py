@@ -34,7 +34,7 @@ mannerDict = OrderedDict([
   ('n', "nasal"),
   ('x', "approximant"),
   ('r', "trill"),
-  ('t', "tap, flap"),
+  ('t', "tap_flap"),
   ('l', "lateral")])
 
 heightDict = OrderedDict([

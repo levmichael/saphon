@@ -1,7 +1,10 @@
 from collections import *
+from saphon.io import *
+from saphon.web.optimize_layout import *
+from saphon.web.xlt import *
 
 # Write a table labeled `name` with `sounds`, using `optimizeLayout`
-# to improve the initial layout derived from soundInfo, using
+# to improve the initial layout derived from featInfo, using
 # `formatLabel` to format labels and `formatSounds` to format lists
 # of sounds, and using `write` to write.
 
@@ -89,20 +92,20 @@ def writeLocal(saphonData, htmlDir, loc):
     write('<h1>%s</h1>\n' % lang.name)
 
     if lang.nameAlt_:
-      writeField('other names', '; '.join(lang.nameAlt_))
+      writeField('other_names', '; '.join(lang.nameAlt_))
 
     if lang.iso_:
-      writeField('language code', ', '.join(lang.iso_))
+      writeField('language_code', ', '.join(lang.iso_))
 
-    writeField('location', '; '.join(geo.toLatLonString for geo in lang.geo_))
+    writeField('location', '; '.join(geo.toLatLonString() for geo in lang.geo_))
 
     writeField('family', lang.familyStr)
 
     writeTable(
       featInfo,
       'consonants',
-      filter(isConsonant, soundInfo.keys()),
-      lambda layout: optimizeConsonantLayout(featInfo, layout, lump=False),
+      filter(featInfo.isConsonant, featInfo.feats()),
+      lambda layout: layoutConsonants(featInfo, layout, lump=False),
       lambda label: Xlt(loc, label),
       lambda sounds: '&nbsp'.join(sounds),
       write)
@@ -110,15 +113,15 @@ def writeLocal(saphonData, htmlDir, loc):
     writeTable(
       featInfo,
       'vowels',
-      filter(isVowel, soundInfo.keys()),
-      lambda layout: optimizeVowelLayout(featInfo, layout, lump=False),
+      filter(featInfo.isVowel, featInfo.feats()),
+      lambda layout: layoutVowels(featInfo, layout, lump=False),
       lambda label: Xlt(loc, label),
       lambda sounds: '&nbsp'.join(sounds),
       write)
 
     writeNonsounds(
       'suprasegmental',
-      filter(isSuprasegmental, soundInfo.keys()),
+      filter(featInfo.isSuprasegmental, featInfo.feats()),
       lambda sounds: ', '.join(xlt(loc, sounds)).capitalize(),
       writeField)
       

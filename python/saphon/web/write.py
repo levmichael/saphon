@@ -10,7 +10,7 @@ saphonDir, htmlDir = sys.argv[1:3]
 saphonData = saphon.io.readSaphonFiles(saphonDir)
 
 generationModules = [__import__(m) for m in (
-  #'write_inventories',
+  'write_inventories',
   'write_phonemes',
   'write_lists',
   'write_saphon_php',
@@ -23,6 +23,7 @@ localizationModules = [__import__(m) for m in
 os.makedirs(htmlDir, exist_ok=True)
 for locMod in localizationModules:
   os.makedirs(htmlDir + '/' + locMod.metalang_code, exist_ok=True)
+  os.makedirs(htmlDir + '/' + locMod.metalang_code + '/inv', exist_ok=True)
 
 # Create HTML files 
 for genMod in generationModules:
