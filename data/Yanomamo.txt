@@ -7,5 +7,5 @@ country: Venezuela
 country: Brazil
 geo: 1.859 -64.905 520
 geo: 0.938 -64.098 111
-feat: p tʰ t k m n s ʃ h w j ɾ i e a o u ɨ ə nasal harmony
+feat: p tʰ t k m n s ʃ h w j ɾ i e a o u ɨ ə nasal_harmony
 bib: Aikhenvald, Alexandra Y. and R.M.W. Dixon. 1999. Other small families and isolates. In, The Amazonian Languages. Aikhenvald, Alexandra Y. and R.M.W. Dixon (Eds.), Cambridge: Cambridge University Press. 345-346.

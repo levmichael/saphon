@@ -122,7 +122,7 @@ def writeLocal(saphonData, htmlDir, loc):
     writeNonsounds(
       'suprasegmental',
       filter(featInfo.isSuprasegmental, featInfo.feats()),
-      lambda sounds: ', '.join(xlt(loc, sounds)).capitalize(),
+      lambda sounds: ', '.join(xlt(loc, sound) for sound in sounds).capitalize(),
       writeField)
       
     if lang.bib_:

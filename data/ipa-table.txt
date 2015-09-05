@@ -157,6 +157,5 @@ v1bu: ɑ ɑ̃ ɑ̰ ɑ:
 v1br: ɒ ɒ̃ ɒ: ɒ̃:
 
 s: tone
-s: nasal harmony
-s: laryngeal harmony
-s: creak spread
+s: nasal_harmony
+s: laryngeal_harmony

@@ -5,5 +5,5 @@ code: wca
 family: Yanomam
 country: Brazil
 geo: 2.200 -63.000 296
-feat: p tʰ t k m n f s ʃ h w j ɾ i e a o u ɨ ə nasal harmony
+feat: p tʰ t k m n f s ʃ h w j ɾ i e a o u ɨ ə nasal_harmony
 bib: Migliazza, Ernest Cesar. 1972. Yanomama Grammar and Intelligibility. PhD dissertation, Indiana University. 145-152.
