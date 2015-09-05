@@ -20,9 +20,7 @@ class FeatInfo:
   def isLabialized    (self, sound): return 'ʷ' in sound
   def isPalatalized   (self, sound): return 'ʲ' in sound
   def isEjective      (self, sound): return '\'' in sound
-  def isAffricate     (self, sound):
-    return self.featAttr[sound][1] in "aesvp" \
-       and self.featAttr[sound][2] in "AoRP"
+  def isAffricate     (self, sound): return self.featAttr[sound][4:5] == 'a'
 
 class Geo:
   def __init__(self, lat, lon, elv):

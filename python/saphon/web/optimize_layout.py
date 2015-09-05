@@ -11,12 +11,9 @@ placeDict = OrderedDict([
   ('l', "labio__dental"),
   ('d', "dental"),
   ('a', "alveolar"),
-  ('A', "alveolar"),
   ('o', "post__alveolar"),
   ('r', "retroflex"),
-  ('R', "retroflex"),
   ('p', "palatal"),
-  ('P', "palatal"),
   ('v', "velar"),
   ('q', "labio__velar"),
   ('u', "uvular"),
@@ -84,6 +81,9 @@ def move(list1, list2, pred=indic):
 
 def layoutConsonants(featInfo, consonants, lump):
 
+  if dbg.lang == 'Achagua':
+    print('---')
+
   c = consonants # for convenience
 
   #####################################
@@ -97,13 +97,18 @@ def layoutConsonants(featInfo, consonants, lump):
     for j in placeDict:
       move(c['v',j], c['s',j], featInfo.isVoiced)
 
-  # Initially, stops and affricates both have 'stop' place of
-  # articulation.  Here I create a new row for affricates if the
-  # stop row is the only one with stop/affricate opposition.
+  # Initially, plain stops and affricates both have 'stop' place
+  # of articulation.  Here I create a new row for affricates if
+  # the stop row is the only one with stop/affricate opposition.
 
+  if dbg.lang == 'Achagua':
+    print(set(s for (i,j), ss in c.items() for s in ss if featInfo.isAffricate(s)))
   if set(i for (i,j), ss in c.items() if SOME(ss, featInfo.isAffricate)) == {'s'}:
     for j in placeDict:
       move(c['A',j], c['s',j], featInfo.isAffricate)
+
+  if dbg.lang == 'Achagua':
+    print(' '.join(i+'-'+j+':'+','.join(sounds) for (i,j), sounds in c.items() if len(sounds) > 0))
 
   # Move palatalized sounds to palatal column if no collisions result.
   # Each element in pal is a location (i,j) that contains palatal sounds.
@@ -159,10 +164,11 @@ def layoutConsonants(featInfo, consonants, lump):
 
   # Use a more specific label for ejective/creaky if possible.
   eSounds = [s for j in placeDict for s in c['e',j]]
-  if NONE(eSounds, featInfo.isEjective):
-    mannerLabels['e'] = 'creaky@stop'
-  if ALL(eSounds, featInfo.isEjective):
-    mannerLabels['e'] = 'ejective@stop'
+  if len(eSounds) > 0:
+    if NONE(eSounds, featInfo.isEjective):
+      mannerLabels['e'] = 'creaky@stop'
+    if ALL(eSounds, featInfo.isEjective):
+      mannerLabels['e'] = 'ejective@stop'
 
   # Are there non-plain stops?
   if ANY(c[i,j] for j in placeDict for i in 'aevp'):
@@ -192,6 +198,9 @@ def layoutConsonants(featInfo, consonants, lump):
     placeLabels['u'] = 'pvus'
     placeLabels['b'] = 'labial'
 
+  if dbg.lang == 'Achagua':
+    print(' '.join(','.join(key)+':'+','.join(sounds) for key, sounds in c.items() if len(sounds) > 0))
+
   return mannerLabels, placeLabels
 
 
@@ -205,9 +214,6 @@ def layoutConsonants(featInfo, consonants, lump):
 def layoutVowels(featInfo, vowels, lump):
 
   v = vowels # for convenience
-
-  if dbg.lang == 'Arabela':
-    print(' '.join(' '.join(sounds) for sounds in v.values()))
 
   #####################################
   # Attempt adjustments to the layout #
@@ -256,9 +262,6 @@ def layoutVowels(featInfo, vowels, lump):
       move(v['4',j], v['5',j])
       move(v['4',j], v['3',j])
 
-  if dbg.lang == 'Arabela':
-    print(' '.join(','.join(key)+':'+','.join(sounds) for key, sounds in v.items()))
-
   ################################################
   # Create labels for non-empty rows and columns #
   ################################################
@@ -274,9 +277,5 @@ def layoutVowels(featInfo, vowels, lump):
 
   backnessLabels = OrderedDict([(j, backDict[j]) for
     j in backDict if any(v[i,j] for i in heightDict)])
-
-  if dbg.lang == 'Arabela':
-    print(heightLabels)
-    print(backnessLabels)
 
   return heightLabels, backnessLabels
