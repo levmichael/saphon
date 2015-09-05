@@ -2,6 +2,7 @@ from collections import *
 from saphon.io import *
 from saphon.web.optimize_layout import *
 from saphon.web.xlt import *
+import saphon.web.dbg as dbg
 
 # Write a table labeled `name` with `sounds`, using `optimizeLayout`
 # to improve the initial layout derived from featInfo, using
@@ -73,6 +74,7 @@ def writeLocal(saphonData, htmlDir, loc):
   foMaster.write(inventoryHead)
 
   for lang in saphonData.lang_:
+    dbg.lang = lang.nameComp
     fo = open(htmlDir+'/'+metalang+'/inv/'+lang.nameComp+'.html', 'w')
     fo.write(inventoryHead)
 
@@ -104,7 +106,7 @@ def writeLocal(saphonData, htmlDir, loc):
     writeTable(
       featInfo,
       'consonants',
-      filter(featInfo.isConsonant, featInfo.feats()),
+      filter(featInfo.isConsonant, lang.feat_),
       lambda layout: layoutConsonants(featInfo, layout, lump=False),
       lambda label: Xlt(loc, label),
       lambda sounds: '&nbsp'.join(sounds),
@@ -113,7 +115,7 @@ def writeLocal(saphonData, htmlDir, loc):
     writeTable(
       featInfo,
       'vowels',
-      filter(featInfo.isVowel, featInfo.feats()),
+      filter(featInfo.isVowel, lang.feat_),
       lambda layout: layoutVowels(featInfo, layout, lump=False),
       lambda label: Xlt(loc, label),
       lambda sounds: '&nbsp'.join(sounds),

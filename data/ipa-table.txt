@@ -8,7 +8,7 @@ csru: ʈ
 csrv: ɖ 
 cspu: c ʰc
 cspv: ʰɟ ɟ
-csvu: k kʲ kˣ ʰk k: ʰkʷ kʷ kʷ: k̪
+csvu: k kʲ kˣ ʰk k: ʰkʷ kʷ kʷ: k̪ kʷʲ
 csqu: kp 
 csvv: ɡ ɡ: ɡʷ
 csuu: q qʷ 
@@ -51,7 +51,7 @@ ceav: d̰
 ceru: ʈ'
 cepu: c' c̰
 cepv: ɟ̰  
-cevu: k' kʲ' kʷ' k̰ kʷ̰ kʷ◌̰ kʷʲ
+cevu: k' kʲ' kʷ' k̰ kʷ̰ kʷ◌̰
 cevv: ɡ̰ 
 ceuu: q'
 ceAu: ts'

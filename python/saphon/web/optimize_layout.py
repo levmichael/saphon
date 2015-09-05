@@ -1,4 +1,6 @@
 from collections import *
+import saphon.web.dbg as dbg
+import traceback
 
 # These keys in these 5 dicts are the allowed values for place,
 # manner, height, backness, and roundness in ipa-table.txt.  The
@@ -204,6 +206,9 @@ def layoutVowels(featInfo, vowels, lump):
 
   v = vowels # for convenience
 
+  if dbg.lang == 'Arabela':
+    print(' '.join(' '.join(sounds) for sounds in v.values()))
+
   #####################################
   # Attempt adjustments to the layout #
   #####################################
@@ -251,6 +256,9 @@ def layoutVowels(featInfo, vowels, lump):
       move(v['4',j], v['5',j])
       move(v['4',j], v['3',j])
 
+  if dbg.lang == 'Arabela':
+    print(' '.join(','.join(key)+':'+','.join(sounds) for key, sounds in v.items()))
+
   ################################################
   # Create labels for non-empty rows and columns #
   ################################################
@@ -265,6 +273,10 @@ def layoutVowels(featInfo, vowels, lump):
   # symbol and the label for each non-empty column.
 
   backnessLabels = OrderedDict([(j, backDict[j]) for
-    j in backDict if any(v[i,j] for i in backDict)])
+    j in backDict if any(v[i,j] for i in heightDict)])
+
+  if dbg.lang == 'Arabela':
+    print(heightLabels)
+    print(backnessLabels)
 
   return heightLabels, backnessLabels
