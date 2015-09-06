@@ -58,9 +58,9 @@ ceaua: ts'
 ceoua: tʃ'
 cerua: ʈʂ'
 
-cpbu: mp mpʲ mɸj
+cpbu: mp mpʲ mɸʲ
 cpbv: mb mbʲ 
-cpau: nt ntʲ ns nsj
+cpau: nt ntʲ ns nsʲ
 cpav: nd ndʲ 
 cpvu: ŋk 
 cpvv: ŋɡ ŋɡʷ

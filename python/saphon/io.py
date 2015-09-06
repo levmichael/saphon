@@ -72,7 +72,7 @@ def familyName(family, lang):
 
 # TODO: This needs to be more comprehensive.
 def normalizeIPA(s):
-  return unicodedata.normalize('NFKD', s)
+  return unicodedata.normalize('NFD', s)
 
 def readSaphonTable(filename):
   row_ = [row for row in csv.reader(open(filename, 'rb'))]

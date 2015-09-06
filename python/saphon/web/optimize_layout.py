@@ -68,8 +68,9 @@ def ALL (seq, pred=indic): l = list(seq); return count(l, pred) == len(l)
 
 # Move items that satisfy pred(icate) from list2 to list1.
 def move(list1, list2, pred=indic):
-  list1 += filter(pred, list2)
-  list2[:] = filter(lambda x: not pred(x), list2)
+  if list1 is not list2:
+    list1 += filter(pred, list2)
+    list2[:] = filter(lambda x: not pred(x), list2)
 
 
 
@@ -81,7 +82,7 @@ def move(list1, list2, pred=indic):
 
 def layoutConsonants(featInfo, consonants, lump):
 
-  if dbg.lang == 'Achagua':
+  if dbg.lang == 'Aiwa':
     print('---')
 
   c = consonants # for convenience
@@ -101,38 +102,46 @@ def layoutConsonants(featInfo, consonants, lump):
   # of articulation.  Here I create a new row for affricates if
   # the stop row is the only one with stop/affricate opposition.
 
-  if dbg.lang == 'Achagua':
-    print(set(s for (i,j), ss in c.items() for s in ss if featInfo.isAffricate(s)))
   if set(i for (i,j), ss in c.items() if SOME(ss, featInfo.isAffricate)) == {'s'}:
     for j in placeDict:
       move(c['A',j], c['s',j], featInfo.isAffricate)
 
-  if dbg.lang == 'Achagua':
+  if dbg.lang == 'Aiwa':
     print(' '.join(i+'-'+j+':'+','.join(sounds) for (i,j), sounds in c.items() if len(sounds) > 0))
 
-  # Move palatalized sounds to palatal column if no collisions result.
-  # Each element in pal is a location (i,j) that contains palatal sounds.
-  pal = set((i,j) for i,j in c if j=='p' or SOME(c[i,j], featInfo.isPalatalized))
+  # Define a predicate that's true for both palatal and palatalized sounds.
 
-  # Not sure why I need to repackage c.items() with list(...), but I do.
-  if ALL(j=='p' or not c[i,'p'] or not ANY(ss, featInfo.isPalatalized) for (i,j), ss in list(c.items())):
+  def isPalatalish(sound):
+    return featInfo.featAttr[sound][2] == 'p' or featInfo.isPalatalized(sound)
+
+  # Move palatal sounds to palatal column if among palatal
+  # sounds, there is no more than one place of articulation for each
+  # manner of articulation.
+
+  if ALL(not MANY(ANY(c[i,j], isPalatalish) for j in placeDict) for i in mannerDict):
     for j in placeDict:
       for i in mannerDict:
-        move(c[i,'p'], c[i,j], featInfo.isPalatalized)
+        move(c[i,'p'], c[i,j], isPalatalish)
 
   # Move labialized sounds to labiovelar column if among labialized
   # sounds, there is no more than one place of articulation for each
   # manner of articulation.
 
-  if ALL(not MANY(filter(featInfo.isLabialized, c[i,j]) for j in mannerDict) for i in placeDict):
-    for i in placeDict:
-      for j in mannerDict:
+  if ALL(not MANY(ANY(c[i,j], featInfo.isLabialized) for j in placeDict) for i in mannerDict):
+    for j in placeDict:
+      for i in mannerDict:
         move(c[i,'q'], c[i,j], featInfo.isLabialized)
 
-  # Move w to velar if labiovelar column otherwise empty.
+  if dbg.lang == 'Aiwa':
+    print(' '.join(i+'-'+j+':'+','.join(sounds) for (i,j), sounds in c.items() if len(sounds) > 0))
 
-  if ALL(i=='x' or not c[i,'q'] for i in mannerDict):
-    move(c['x','v'], c['x','q'])
+  # Move w to labiovelar column if it isn't empty.
+
+  if SOME(c[i,'q'] for i in mannerDict):
+    move(c['x','q'], c['x','b'], lambda s: 'w' in s)
+
+  if dbg.lang == 'Aiwa':
+    print(' '.join(i+'-'+j+':'+','.join(sounds) for (i,j), sounds in c.items() if len(sounds) > 0))
 
   ########
   # Lump #
@@ -197,9 +206,6 @@ def layoutConsonants(featInfo, consonants, lump):
   if lump:
     placeLabels['u'] = 'pvus'
     placeLabels['b'] = 'labial'
-
-  if dbg.lang == 'Achagua':
-    print(' '.join(','.join(key)+':'+','.join(sounds) for key, sounds in c.items() if len(sounds) > 0))
 
   return mannerLabels, placeLabels
 
