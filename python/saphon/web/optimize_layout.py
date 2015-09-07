@@ -82,13 +82,7 @@ def move(list1, list2, pred=indic):
 
 def layoutConsonants(featInfo, consonants, lump):
 
-  if dbg.lang == 'Aikana':
-    print('---')
-
   c = consonants # for convenience
-
-  if dbg.lang == 'Aikana':
-    print(' '.join(i+'-'+j+':'+','.join(sounds) for (i,j), sounds in c.items() if len(sounds) > 0))
 
   #####################################
   # Attempt adjustments to the layout #
@@ -127,13 +121,16 @@ def layoutConsonants(featInfo, consonants, lump):
       for i in mannerDict:
         move(c[i,'q'], c[i,j], featInfo.isLabialized)
 
-  # Move w to labiovelar column if it isn't empty.
+  # Move labiovelar approximants (w, etc) to velar column if they're
+  # the only things in the labiovelar column and if there are no
+  # velar approximants.  If there are velar approximants already,
+  # but there are no bilabial approximants, move to bilabial column.
 
-  if SOME(c[i,'q'] for i in mannerDict):
-    move(c['x','q'], c['x','b'], lambda s: 'w' in s)
-
-  if dbg.lang == 'Aikana':
-    print(' '.join(i+'-'+j+':'+','.join(sounds) for (i,j), sounds in c.items() if len(sounds) > 0))
+  if set(i for (i,j), sounds in c.items() if j in 'q' and sounds) == {'x'}:
+    if not c['x','v']:
+      move(c['x','v'], c['x','q'])
+    elif not c['x','b']:
+      move(c['x','b'], c['x','q'])
 
   ########
   # Lump #

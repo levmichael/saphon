@@ -102,16 +102,17 @@ cfuu: χ χʷ
 cfuv: ʁ 
 cfgu: h h̃ hʲ hʷ 
 
-cxbu: ʰw wʰ
-cxbv: β̞ w w̃ w' w̰ wʲ w: 
-cxlv: ʋ 
-cxdv: ð̞ 
-cxav: ɹ 
-cxrv: ɻ 
+cxbv: β̞
+cxlv: ʋ
+cxdv: ð̞
+cxav: ɹ
+cxrv: ɻ
 cxpu: ʰj
-cxpv: j j̃ j̥ j' j̰ j: 
-cxvv: ɰ 
-cxfv: ʕ 
+cxpv: j j̃ j̥ j' j̰ j:
+cxvv: ɰ
+cxqu: ʰw wʰ
+cxqv: w w̃ w' w̰ wʲ w:
+cxfv: ʕ
 
 cldv: l̪ 
 clau: l̥ ɬ ɺ̥ 
@@ -122,7 +123,8 @@ clvv: kl
 
 ctau: ʰɾ
 ctav: ɾ ɾ̃ ɾʲ ʔɾ 
-ctrv: ɽ ɽʰ
+ctru: ɽʰ
+ctrv: ɽ
 
 crau: r̥ 
 crav: r

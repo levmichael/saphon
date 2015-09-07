@@ -7,7 +7,6 @@ from saphon.web.xlt import *
 import dbg
 
 def writeLocal(saphonData, htmlDir, loc):
-  dbg = 'all'
   featInfo = saphonData.featInfo
 
   # Create unique ID for each feature.
