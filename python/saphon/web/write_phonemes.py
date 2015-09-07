@@ -4,8 +4,10 @@ from saphon.io import *
 from saphon.web.write_inventories import writeTable, writeNonsounds
 from saphon.web.optimize_layout import *
 from saphon.web.xlt import *
+import dbg
 
 def writeLocal(saphonData, htmlDir, loc):
+  dbg = 'all'
   featInfo = saphonData.featInfo
 
   # Create unique ID for each feature.
@@ -22,7 +24,7 @@ def writeLocal(saphonData, htmlDir, loc):
   metalang = loc.metalang_code
   filename = loc.find_by_phonemes_phonemes
 
-  fo = open(htmlDir+'/'+metalang+'/'+filename+'.html', 'w')
+  fo = open(htmlDir+'/'+metalang+'/'+filename+'.php', 'w')
   fo.write('''
     <?php include("header.php"); ?>
     <link rel="stylesheet" media="screen" type="text/css" href="../inv.css"/>

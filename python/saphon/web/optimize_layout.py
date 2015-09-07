@@ -82,10 +82,13 @@ def move(list1, list2, pred=indic):
 
 def layoutConsonants(featInfo, consonants, lump):
 
-  if dbg.lang == 'Aiwa':
+  if dbg.lang == 'Aikana':
     print('---')
 
   c = consonants # for convenience
+
+  if dbg.lang == 'Aikana':
+    print(' '.join(i+'-'+j+':'+','.join(sounds) for (i,j), sounds in c.items() if len(sounds) > 0))
 
   #####################################
   # Attempt adjustments to the layout #
@@ -106,22 +109,14 @@ def layoutConsonants(featInfo, consonants, lump):
     for j in placeDict:
       move(c['A',j], c['s',j], featInfo.isAffricate)
 
-  if dbg.lang == 'Aiwa':
-    print(' '.join(i+'-'+j+':'+','.join(sounds) for (i,j), sounds in c.items() if len(sounds) > 0))
-
-  # Define a predicate that's true for both palatal and palatalized sounds.
-
-  def isPalatalish(sound):
-    return featInfo.featAttr[sound][2] == 'p' or featInfo.isPalatalized(sound)
-
   # Move palatal sounds to palatal column if among palatal
   # sounds, there is no more than one place of articulation for each
   # manner of articulation.
 
-  if ALL(not MANY(ANY(c[i,j], isPalatalish) for j in placeDict) for i in mannerDict):
+  if ALL(not MANY(ANY(c[i,j], featInfo.isPalataloid) for j in placeDict) for i in mannerDict):
     for j in placeDict:
       for i in mannerDict:
-        move(c[i,'p'], c[i,j], isPalatalish)
+        move(c[i,'p'], c[i,j], featInfo.isPalataloid)
 
   # Move labialized sounds to labiovelar column if among labialized
   # sounds, there is no more than one place of articulation for each
@@ -132,15 +127,12 @@ def layoutConsonants(featInfo, consonants, lump):
       for i in mannerDict:
         move(c[i,'q'], c[i,j], featInfo.isLabialized)
 
-  if dbg.lang == 'Aiwa':
-    print(' '.join(i+'-'+j+':'+','.join(sounds) for (i,j), sounds in c.items() if len(sounds) > 0))
-
   # Move w to labiovelar column if it isn't empty.
 
   if SOME(c[i,'q'] for i in mannerDict):
     move(c['x','q'], c['x','b'], lambda s: 'w' in s)
 
-  if dbg.lang == 'Aiwa':
+  if dbg.lang == 'Aikana':
     print(' '.join(i+'-'+j+':'+','.join(sounds) for (i,j), sounds in c.items() if len(sounds) > 0))
 
   ########

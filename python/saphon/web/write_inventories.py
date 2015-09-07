@@ -19,6 +19,9 @@ def writeTable(featInfo, name, sounds, optimizeLayout, formatLabel, formatSounds
   for sound in sounds:
     layout[fa[sound][1], fa[sound][2]].append(sound)
 
+  if dbg.lang == 'Aikana':
+    print(layout)
+
   # Improve layout, get relevant table rows/columns.
   rowLabels, colLabels = optimizeLayout(layout)
 

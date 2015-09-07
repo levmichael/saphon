@@ -11,7 +11,11 @@ class FeatInfo:
   def __init__(self, featAttr):
     self.featAttr = featAttr
 
-  def feats(self): return list(self.featAttr.keys())
+  def feats(self):
+    return list(self.featAttr.keys())
+
+  def order(self):
+    return {sound: i for i, sound in enumerate(self.featAttr.keys())}
 
   def isSuprasegmental(self, sound): return self.featAttr[sound][0] == 's'
   def isConsonant     (self, sound): return self.featAttr[sound][0] == 'c'
@@ -19,6 +23,8 @@ class FeatInfo:
   def isVoiced        (self, sound): return self.featAttr[sound][3] == 'v'
   def isLabialized    (self, sound): return 'ʷ' in sound
   def isPalatalized   (self, sound): return 'ʲ' in sound
+  def isPalatal       (self, sound): return self.featAttr[sound][2] == 'p'
+  def isPalataloid    (self, sound): return self.isPalatalized(sound) or self.isPalatal(sound)
   def isEjective      (self, sound): return '\'' in sound
   def isAffricate     (self, sound): return self.featAttr[sound][4:5] == 'a'
 
@@ -125,13 +131,13 @@ def readSaphonTable(filename):
 # Read in features (including phonemes) and properties.
 # TODO: Error checking on feat info.
 def readFeatList(filename):
-  featInfo = OrderedDict()
+  featAttr = OrderedDict()
   for line in open(filename):
     if ':' not in line: continue
     position, sounds = re.split(': *', line.strip(), 1)
     for sound in re.split(' +', sounds):
-      featInfo[normalizeIPA(sound)] = position
-  return featInfo
+      featAttr[normalizeIPA(sound)] = position
+  return FeatInfo(featAttr)
 
 # TODO: generate file for feat info
 def writeSaphonFiles(dir, lang_, feat_):
@@ -161,6 +167,7 @@ def writeSaphonFiles(dir, lang_, feat_):
 
 def readSaphonFiles(dir_name):
     featInfo = readFeatList(dir_name+'/ipa-table.txt')
+    featOrder = featInfo.order()
 
     lang_ = []
     for file in os.listdir(dir_name):
@@ -199,6 +206,10 @@ def readSaphonFiles(dir_name):
                 elif key == "bib": Bib.append(value)
                 else:
                     print('Bad line %s in %s' % (line, file_name))
+
+            # Reorder features by the order given in ipa-table.txt.
+            Feat.sort(key = lambda sound: featOrder[sound])
+
             lang_.append(Lang(Name, NameShort, NameAlt, NameComp, Code, familyName(Family, Name), Family, Country, Geography, Feat, Note, Bib))
     
     family_ = [lang.family for lang in lang_]
@@ -212,7 +223,7 @@ def readSaphonFiles(dir_name):
     #         feat_.append(item)
     # feat_ = sorted(set( feat_))
     
-    return SaphonData(familyOrdered_, FeatInfo(featInfo), lang_)
+    return SaphonData(familyOrdered_, featInfo, lang_)
 
 if __name__ == '__main__':
   family_, feat_, lang_ = readSaphonTable(sys.argv[1])
