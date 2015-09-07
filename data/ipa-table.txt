@@ -2,7 +2,7 @@ csbu: p p: pʲ pʷ ps
 csbv: ʰb b b: bʲ bʷ bz bβ
 csdu: t̪ t̪ʙ
 csdv: d̪ 
-csau: t tx ʰt t: tʲ tʷ t̺
+csau: t tˣ ʰt t: tʲ tʷ t̺
 csav: ʰd d d: dʲ
 csru: ʈ 
 csrv: ɖ 
