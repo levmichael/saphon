@@ -1,10 +1,47 @@
-import csv, math, re, sys, os
+import csv, math, re, sys, os, unicodedata
+from collections import *
+
+class SaphonData:
+  def __init__(self, familyOrdered_, featInfo, lang_):
+    self.familyOrdered_ = familyOrdered_
+    self.featInfo = featInfo
+    self.lang_ = lang_
+
+class FeatInfo:
+  def __init__(self, featAttr):
+    self.featAttr = featAttr
+
+  def feats(self):
+    return list(self.featAttr.keys())
+
+  def order(self):
+    return {sound: i for i, sound in enumerate(self.featAttr.keys())}
+
+  def isSuprasegmental(self, sound): return self.featAttr[sound][0] == 's'
+  def isConsonant     (self, sound): return self.featAttr[sound][0] == 'c'
+  def isVowel         (self, sound): return self.featAttr[sound][0] == 'v'
+  def isVoiced        (self, sound): return self.featAttr[sound][3] == 'v'
+  def isLabialized    (self, sound): return 'ʷ' in sound
+  def isPalatalized   (self, sound): return 'ʲ' in sound
+  def isPalatal       (self, sound): return self.featAttr[sound][2] == 'p'
+  def isPalataloid    (self, sound): return self.isPalatalized(sound) or self.isPalatal(sound)
+  def isEjective      (self, sound): return '\'' in sound
+  def isAffricate     (self, sound): return self.featAttr[sound][4:5] == 'a'
 
 class Geo:
   def __init__(self, lat, lon, elv):
     self.lat = lat
     self.lon = lon
     self.elv = elv
+
+  def toDMS(deg):
+    sec = int(3600.0 * deg + 0.5)
+    return '%d°%02d\'%02d"' % (sec / 3600, (sec / 60) % 60, sec % 60)
+    
+  def toLatLonString(self):
+    return Geo.toDMS(abs(self.lat)) + 'NS'[self.lat < 0] +\
+     ' ' + Geo.toDMS(abs(self.lon)) + 'EW'[self.lon < 0]
+
 
 class Lang:
   def __init__(self, name, nameShort, nameAlt_, nameComp, iso_,
@@ -38,6 +75,10 @@ def parseGeoFields(geo_):
 
 def familyName(family, lang):
   return lang if family == 'Isolate' else family
+
+# TODO: This needs to be more comprehensive.
+def normalizeIPA(s):
+  return unicodedata.normalize('NFD', s)
 
 def readSaphonTable(filename):
   row_ = [row for row in csv.reader(open(filename, 'rb'))]
@@ -85,8 +126,20 @@ def readSaphonTable(filename):
         [r[i].replace('\n', ' ') for i in iBib_ if r[i] != ''],
       ))
 
-  return familyOrdered_, feat_, lang_
+  return SaphonData(familyOrdered_, feat_, lang_)
 
+# Read in features (including phonemes) and properties.
+# TODO: Error checking on feat info.
+def readFeatList(filename):
+  featAttr = OrderedDict()
+  for line in open(filename):
+    if ':' not in line: continue
+    position, sounds = re.split(': *', line.strip(), 1)
+    for sound in re.split(' +', sounds):
+      featAttr[normalizeIPA(sound)] = position
+  return FeatInfo(featAttr)
+
+# TODO: generate file for feat info
 def writeSaphonFiles(dir, lang_, feat_):
   if not os.path.exists(dir):
     os.makedirs(dir)
@@ -113,8 +166,13 @@ def writeSaphonFiles(dir, lang_, feat_):
       fo.write('bib: ' + bib + '\n')
 
 def readSaphonFiles(dir_name):
+    featInfo = readFeatList(dir_name+'/ipa-table.txt')
+    featOrder = featInfo.order()
+
     lang_ = []
     for file in os.listdir(dir_name):
+        if file[-4:] != '.txt': continue
+        if file == 'ipa-table.txt': continue
         file_name = os.path.join(dir_name, file)
         with open(file_name, "r") as f:
             f_lines = f.readlines()
@@ -122,64 +180,57 @@ def readSaphonFiles(dir_name):
             Code = []
             Country = []
             Geography = []
+            Feat = []
             Note = []
             Bib = []
-            for line in f_lines:
-                if "name:" in line:
-                    Name = line[6:-1]
-                elif "name.short:" in line:
-                    NameShort = line[12:-1]
-                elif "name.alt:" in line:
-                    name_alt = line[10:-1]
-                    NameAlt.append(name_alt)
-                elif "name.comp:" in line:
-                    NameComp = line[11:-1]
-                elif "code:" in line:
-                    code = line[6:-1]
-                    Code.append(code)
-                elif "family:" in line:
-                    Family = line[8:-1] 
-                elif "country:" in line:
-                    country = line[9:-1]
-                    Country.append(country)
-                elif "geo:" in line:
-                    geo = line[5:-1]
-                    geo = [readFloat(x) for x in geo.split()]
+            for line_raw in f_lines:
+                line = line_raw.strip()
+                if line == '': continue
+                key, value = re.split(r':\s*', line.strip(), 1)
+
+                if key == "name": Name = value
+                elif key == "name.short": NameShort = value
+                elif key == "name.alt": NameAlt.append(value)
+                elif key == "name.comp": NameComp = value
+                elif key == "code": Code.append(value)
+                elif key == "family": Family = value
+                elif key == "country": Country.append(value)
+                elif key == "geo":
+                    geo = [readFloat(x) for x in value.split()]
                     if len(geo) == 2:
                       Geography.append(Geo(geo[0], geo[1], nan))
                     else:
                       Geography.append(Geo(geo[0], geo[1], geo[2]))
-                elif "feat:" in line:
-                    Feat = line[6:-1]
-                    Feat = Feat.split()
-                elif "note:" in line:
-                    note = line[6:-1]
-                    Note.append(note)
-                elif "bib:" in line:
-                    bib = line[5:-1]
-                    Bib.append(bib)
+                elif key == "feat": Feat += [normalizeIPA(s) for s in value.split()]
+                elif key == "note": Note.append(value)
+                elif key == "bib": Bib.append(value)
                 else:
-                    print "Error in %s" % file_name
-                f.close()
+                    print('Bad line %s in %s' % (line, file_name))
+
+            # Reorder features by the order given in ipa-table.txt.
+            Feat.sort(key = lambda sound: featOrder[sound])
+
             lang_.append(Lang(Name, NameShort, NameAlt, NameComp, Code, familyName(Family, Name), Family, Country, Geography, Feat, Note, Bib))
     
     family_ = [lang.family for lang in lang_]
     familyOrdered_ = sorted(set( family_),
         key = lambda x: (family_.count(x), x))
-    feat_ = []
-    for lang in lang_:
-        for item in lang.feat_:
-            feat_.append(item)
-    feat_ = sorted(set( feat_))
+
+    # Check features against featInfo
+    # feat_ = []
+    # for lang in lang_:
+    #     for item in lang.feat_:
+    #         feat_.append(item)
+    # feat_ = sorted(set( feat_))
     
-    return familyOrdered_, feat_, lang_
+    return SaphonData(familyOrdered_, featInfo, lang_)
 
 if __name__ == '__main__':
   family_, feat_, lang_ = readSaphonTable(sys.argv[1])
 
-  print "%d languages" % len(lang_)
-  print "%d families" % len(family_)
-  print "%d features" % len(feat_)
+  print('%d languages' % len(lang_))
+  print('%d families' % len(family_))
+  print('%d features' % len(feat_))
 
   writeSaphonFiles(sys.argv[2], lang_, feat_)
 

@@ -6,6 +6,6 @@ family: Tucanoan
 country: Brazil
 country: Colombia
 geo: 0.300 -69.100 152
-feat: p b t d k ɡ ʔ s h w j i e a o u ɨ tone nasal harmony
+feat: p b t d k ɡ ʔ s h w j i e a o u ɨ tone nasal_harmony
 bib: Welch, Betty and Birdie West. 2000. El tucano. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. Bogotá: Instituto Caro y Cuervo.
 bib: Ramirez, Henri. 1997. A fala tukano dos ye'pâ-masa. Manaus: CEDEM.

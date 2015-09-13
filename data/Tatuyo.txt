@@ -5,6 +5,6 @@ code: tav
 family: Tucanoan
 country: Colombia
 geo: 0.250 -70.300 184
-feat: p b t d c k ɡ h w j ɾ i e a o u ɨ tone nasal harmony
+feat: p b t d c k ɡ h w j ɾ i e a o u ɨ tone nasal_harmony
 bib: Gómez-Imbert, Elsa. 1980. La nasalité en Tatuyo: phonologie ou morphologie? Amerindia 5: 65-81.
 bib: Whisler, David and Janice Whisler. 1976. Fonología del tatuyo. In Viola Waterhouse (ed.), Sistemas fonológicos de idiomas colombianos 3. Bogotá: Ministerio de Gobierno. 113-22.

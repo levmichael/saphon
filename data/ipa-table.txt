@@ -2,26 +2,26 @@ csbu: p p: pʲ pʷ ps
 csbv: ʰb b b: bʲ bʷ bz bβ
 csdu: t̪ t̪ʙ
 csdv: d̪ 
-csau: t tx ʰt t: tʲ tʷ 
+csau: t tˣ ʰt t: tʲ tʷ t̺
 csav: ʰd d d: dʲ
 csru: ʈ 
 csrv: ɖ 
 cspu: c ʰc
 cspv: ʰɟ ɟ
-csvu: k kʲ kˣ ʰk k: ʰkʷ kʷ kʷ:
+csvu: k kʲ kˣ ʰk k: ʰkʷ kʷ kʷ: k̪ kʷʲ
 csqu: kp 
 csvv: ɡ ɡ: ɡʷ
 csuu: q qʷ 
 csuv: ɢ 
 csgu: ʔ ʔʲ
-csAu: ts tsʲ
-csAv: dz
-csou: tʃ tʃʲ
-csov: dʒ
-csRu: ʈʂ
-csRv: ɖʐ
-csPu: tɕ cç
-csPv: ɟʝ
+csaua: ts tsʲ
+csava: dz
+csoua: tʃ tʃʲ
+csova: dʒ
+csrua: ʈʂ
+csrva: ɖʐ
+cspua: tɕ cç
+cspva: ɟʝ
 
 cibu: ɓ̥ 
 cibv: ɓ
@@ -39,9 +39,9 @@ caru: ʈʰ
 capu: cʰ
 cavu: kʰ kʲʰ
 cauu: qʰ
-caAu: tsʰ tsʲʰ
-caou: tʃʰ
-caRu: ʈʂʰ
+caaua: tsʰ tsʲʰ
+caoua: tʃʰ
+carua: ʈʂʰ
 
 cebu: p'
 cebv: b̰
@@ -51,25 +51,25 @@ ceav: d̰
 ceru: ʈ'
 cepu: c' c̰
 cepv: ɟ̰  
-cevu: k' kʲ' kʷ' k̰ kʷ̰ kʷ◌̰ kʷʲ
+cevu: k' kʲ' kʷ' k̰ kʷ̰ kʷ◌̰
 cevv: ɡ̰ 
 ceuu: q'
-ceAu: ts'
-ceou: tʃ'
-ceRu: ʈʂ'
+ceaua: ts'
+ceoua: tʃ'
+cerua: ʈʂ'
 
-cpbu: mp mpʲ
+cpbu: mp mpʲ mɸʲ
 cpbv: mb mbʲ 
-cpau: nt ntʲ
+cpau: nt ntʲ ns nsʲ
 cpav: nd ndʲ 
 cpvu: ŋk 
 cpvv: ŋɡ ŋɡʷ
-cpou: ntʃ 
-cpov: ndʒ 
-cpRu: ɳʈʂ 
-cpRv: ɳɖʐ 
-cpAu: nts 
-cpAv: ndz ndzʲ 
+cpoua: ntʃ 
+cpova: ndʒ 
+cprua: ɳʈʂ 
+cprva: ɳɖʐ 
+cpaua: nts 
+cpava: ndz ndzʲ 
 
 cnbu: ʰm mʰ m̥ 
 cnbv: m m' m̰ mʲ mʷ m:
@@ -88,7 +88,7 @@ cflu: fʷ f
 cflv: v 
 cfdu: θ s̪ θʲ
 cfdv: ð 
-cfau: s sʲ s' sʰ
+cfau: s sʲ s' sʰ s̺
 cfav: z 
 cfru: ʂ
 cfrv: ʐ 
@@ -102,16 +102,17 @@ cfuu: χ χʷ
 cfuv: ʁ 
 cfgu: h h̃ hʲ hʷ 
 
-cxbu: ʰw wʰ
-cxbv: β̞ w w̃ w' w̰ wʲ w: 
-cxlv: ʋ 
-cxdv: ð̞ 
-cxav: ɹ 
-cxrv: ɻ 
+cxbv: β̞
+cxlv: ʋ
+cxdv: ð̞
+cxav: ɹ
+cxrv: ɻ
 cxpu: ʰj
-cxpv: j j̃ j̥ j' j̰ j: 
-cxvv: ɰ 
-cxfv: ʕ 
+cxpv: j j̃ j̥ j' j̰ j:
+cxvv: ɰ
+cxqu: ʰw wʰ
+cxqv: w w̃ w' w̰ wʲ w:
+cxfv: ʕ
 
 cldv: l̪ 
 clau: l̥ ɬ ɺ̥ 
@@ -122,7 +123,8 @@ clvv: kl
 
 ctau: ʰɾ
 ctav: ɾ ɾ̃ ɾʲ ʔɾ 
-ctrv: ɽ 
+ctru: ɽʰ
+ctrv: ɽ
 
 crau: r̥ 
 crav: r
@@ -157,6 +159,5 @@ v1bu: ɑ ɑ̃ ɑ̰ ɑ:
 v1br: ɒ ɒ̃ ɒ: ɒ̃:
 
 s: tone
-s: nasal harmony
-s: laryngeal harmony
-s: creak spread
+s: nasal_harmony
+s: laryngeal_harmony

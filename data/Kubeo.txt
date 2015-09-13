@@ -6,7 +6,7 @@ family: Tucanoan
 country: Brazil
 country: Colombia
 geo: 1.345 -70.464 209
-feat: p b t d tʃ k h w ð̞ j ɾ i e a o u ɨ tone nasal harmony
+feat: p b t d tʃ k h w ð̞ j ɾ i e a o u ɨ tone nasal_harmony
 note: There is modest evidence for a contrastive voiced interdental fricative phoneme, which Morse and Maxwell (1999: 5) prefer to treat as an allophone of /j/.
 note: Ferguson (et al.) appear to posit a glottal fricative where Morse and Maxwell (1999) posit a velar fricative, but this is not entirely clear.
 bib: Chacon, Thiago Costa. 2012. The phonology and morphology of Kubeo: the documentation, theory, and description of an Amazonian language. PhD diss, University of Hawai'i at Manoa.

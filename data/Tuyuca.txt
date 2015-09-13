@@ -6,6 +6,6 @@ family: Tucanoan
 country: Brazil
 country: Colombia
 geo: 0.476 -69.968 191
-feat: p b t d k ɡ s h w j ɾ i e a o u ɨ tone nasal harmony
+feat: p b t d k ɡ s h w j ɾ i e a o u ɨ tone nasal_harmony
 bib: Barnes, Janet and Sheryl Silzer. 1976. Fonología del tuyuca. In Viola Waterhouse (ed.), Sistemas fonológicos de idiomas colombianos 3. Bogotá: Ministerio de Gobierno. 123-37.
 bib: Barnes, Janet and Terrell Malone. 2000. El tuyuca. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. Bogotá: Instituto Caro y Cuervo. 437-452
