@@ -1,0 +1,121 @@
+
+div#chooser {
+  display: inline-block;
+  border: 3px solid #ad9;
+  border-radius: 10px;
+  width: auto;
+  padding: 3pt;
+  text-align: left;
+}
+
+#chooser div.field {
+  width: auto;
+  padding: 3pt;
+}
+
+#chooser div.field div.key {
+  width: auto;
+  padding: 0pt;
+}
+
+#chooser div.field div.value {
+  width: auto;
+}
+
+#chooser div.field:nth-child(3) {
+  display: inline-block;
+  float: left;
+  width: auto;
+  vertical-align: bottom;
+}
+
+#chooser div.field:last-child {
+  display: inline-block;
+  float: right;
+  width: auto;
+  white-space: nowrap;
+  vertical-align: bottom;
+}
+
+#chooser td {
+  vertical-align: top;
+  text-align: left;
+  font-size: 13pt;
+  margin: 0px;
+  padding: 0pt 2pt 2pt 2pt;
+}
+
+#chooser td.header {
+  vertical-align: middle;
+  font-size: 10pt;
+}
+
+#chooser td.key {
+  vertical-align: middle;
+  font-size: 11pt;
+}
+
+#chooser span, span.demo {
+  cursor: hand;
+  cursor: pointer;
+  color: black;
+  border-radius: 5px;
+  padding: 0px 3px 2px 3px;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#chooser div.value span {
+  margin-right: 3pt;
+}
+
+#chooser span:hover {
+  color: #000;
+  background-color: #ddd;
+}
+
+span.yes {
+  color: #fff;
+  background-color: #04b;
+}
+
+#chooser span.yes, span.demo.yes {
+  color: #fff;
+  background-color: #04b;
+}
+
+#chooser span.yes:hover {
+  color: #fff;
+  background-color: #24d;
+}
+
+#chooser span.no, span.demo.no {
+  color: #fff;
+  background-color: #c01;
+}
+
+#chooser span.no:hover {
+  color: #fff;
+  background-color: #e03;
+}
+
+#languages span{
+  font-weight: bold;
+}
+
+#languages td a{
+  font-weight: normal;
+}
+
+div#languages {
+  width: 40em;
+  padding: 12pt;
+  min-height: 600pt;
+  text-align: left;
+  display: inline-block;
+}

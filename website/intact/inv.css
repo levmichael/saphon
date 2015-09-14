@@ -1,0 +1,88 @@
+
+td { 
+  margin: 0px;
+  padding: 0px 1px;
+}
+
+table { border-collapse: collapse }
+/* td { white-space: nowrap; } */
+
+h1 { 
+  font-size: 24pt;
+  padding: 0pt;
+  margin: 0pt;
+}
+
+div.entry {
+  padding: 12pt 0pt 12pt 24pt;
+  font-family:Helvetica, Arial, Verdana, sans-serif;
+  color: #000;
+  font-size: 11pt;
+}
+
+div.field {
+  padding: 12pt 0pt 0pt 0pt;
+  overflow: auto;
+  width: 100%;
+}
+
+table.inv tr td {
+  /* Gentium, Doulos SIL, and Charis SIL are SIL fonts with IPA support.
+     Use Gentium for best results.
+     Lucida Grande is a Unicode complete font that comes on Macs.
+     Lucida Sans Unicode and Arial Unicode MS are Unicode complete fonts
+     that come on PCs. */
+
+  font-family: 
+    Gentium Plus, Gentium, Charis SIL, Doulos SIL,
+    Lucida Grande, 
+    Lucida Sans Unicode, Arial Unicode MS, serif;
+  font-size: 18pt;
+  margin: 0px;
+  padding: 2pt 4pt 4pt 4pt;
+  border: 1px solid #aaa;
+}
+
+table.inv tr td.header {
+  font-family: Helvetica, Verdana, sans-serif;
+  font-size: 10pt;
+}
+
+table.inv tr td.key {
+  font-family: Helvetica, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 11pt;
+  border-width: 0px;
+  width: 120pt;
+}
+
+div.key {
+  font-weight: bold;
+  font-size: 11pt;
+  width: 120pt;
+  padding: 0pt 4pt 0pt 4pt;
+  float: left;
+}
+
+div.value {
+  font-size: 11pt;
+  width: 360pt;
+  padding: 0pt 4pt 0pt 4pt;
+  float: left;
+}
+
+div.value p {
+  padding: 0pt 0pt 0pt 0pt;
+  margin: 12pt 0pt 0pt 0pt;
+}
+
+div.value p:first-child {
+  margin: 0pt 0pt 0pt 0pt;
+}
+
+div.value p.private {
+  color: #884400;
+}
+
+/* tr:nth-child(even) {background: #eee} */
+div.fam { font: 15pt Verdana; margin: 6pt 0pt 0pt 0pt }
