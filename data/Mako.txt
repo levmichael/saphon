@@ -1,0 +1,11 @@
+name: Mako
+name.short: Mako
+name.comp: Mako
+code: wpc
+family: Salivan
+country: Venezuela
+geo: 4.215 -65.742 nan
+feat: p pʰ b ʔb t tʰ d ʔd ts tʃ dʒ ʔdʒ k kʷ ʔ m n h hʷ l w ʔw i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃ 
+note: Rosés Labrada (2015) notes the presence of an acoustically distinct central vowel /ə/ that appears only in the past tense suffix. Symbols preceded by glottal stop (ʔ) represent the series of pre-glottalized resonants in Rosés Labrada (2015).
+bib: Rosés Labrada, Jorge E. 2015. The Mako language: Vitality, grammar, and classification. London, Ontario & Lyon: University of Western Ontario and Université Lumière-Lyon 2 dissertation. 
+
