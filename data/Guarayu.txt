@@ -5,5 +5,6 @@ code: gyr
 family: Tupí
 country: Bolivia
 geo: -15.752 -63.179 nan
-feat: p t tʃ k kʷ ɡʷ ʔ m n ɲ β s j ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
+feat: p t ts tʃ k kʷ ɡʷ ʔ m mb n nd ɲ ŋɡ β j ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
+bib: Armoye Urarepia, Celso. 2009. Análisis de la lengua guarayo (tesina). Ms.
 bib: Ureyu, Daniel Aeguazu. 2003. Guía del alfabeto guarayo. Ministerio de Educación Viceministerio de Educación Escolarizada y Alternativa.
