@@ -8,7 +8,7 @@ family: Tucanoan
 country: Colombia
 country: Brazil
 geo: 0.500 -69.300 144
-feat: p pʰ b t tʰ d tʃ k kʰ ɡ ʔ s h w j i e a o u ɨ tone nasal_harmony
+feat: p pʰ b t tʰ d tʃ k kʰ ɡ s h w j i e a o u ɨ tone nasal_harmony laryngeal_harmony
 bib: Waltz, Nathan and Carolyn Waltz. 1972. Fonología del guanano. In Viola Waterhouse (ed.), Sistemas fonológicos de idiomas colombianos 1.  Bogotá: Ministerio de Gobierno and Instituto Lingüístico de Verano. 31-37.
 bib: Waltz, Nathan and Carolyn Waltz. 1997. Introduction. El agua, la roca, y el humo: Estudios sobre la cultura wanana del Vaupés. Santafé de Bogotá, D.C., Colombia: Instituto Lingüístico de Verano.
 bib: Waltz, Nathan and Carolyn Waltz. 2000. El wanano. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. Bogotá: Instituto Caro y Cuervo. 453-454.
