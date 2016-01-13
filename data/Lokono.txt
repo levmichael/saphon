@@ -16,4 +16,4 @@ note: Pet (1988) observes that /p/ occurs only in loans, and that phonetic reali
 bib: Pet, Willem J. A. 1988. Lokono dian: the Arawak language of Surinam: a sketch of its grammatical structure and lexicon. PhD dissertation, Cornell University.
 bib: Pet, Willem J. A. 2011. A Grammar Sketch and Lexicon of Arawak (Lokono Dian). Dallas: SIL International. 
 bib: Patte, Marie-France. 2009. Parlons Arawak: Une langue amérindienne d'Amazonie. Paris: Harmattan.
-big: Patte, Marie-France, 2011. La langue arawak de Guyane: Présentation historique et dictionnaires arawak-français et français-arawak. Marseille: Institut de recherche pour le développement.
+big: Patte, Marie-France. 2011. La langue arawak de Guyane: Présentation historique et dictionnaires arawak-français et français-arawak. Marseille: Institut de recherche pour le développement.
