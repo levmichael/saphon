@@ -186,7 +186,12 @@ def readSaphonFiles(dir_name):
             for line_raw in f_lines:
                 line = line_raw.strip()
                 if line == '': continue
-                key, value = re.split(r':\s*', line.strip(), 1)
+                try:
+                  key, value = re.split(r':\s*', line.strip(), 1)
+                except BaseException as e:
+                  print('*** Error parsing %s on line:' % file_name)
+                  print(line)
+                  raise e
 
                 if key == "name": Name = value
                 elif key == "name.short": NameShort = value
@@ -208,7 +213,12 @@ def readSaphonFiles(dir_name):
                     print('Bad line %s in %s' % (line, file_name))
 
             # Reorder features by the order given in ipa-table.txt.
-            Feat.sort(key = lambda sound: featOrder[sound])
+            try:
+              Feat.sort(key = lambda sound: featOrder[sound])
+            except BaseException as e:
+              print('*** Error parsing %s, raising exception:' % file_name)
+              print(e)
+              raise e
 
             lang_.append(Lang(Name, NameShort, NameAlt, NameComp, Code, familyName(Family, Name), Family, Country, Geography, Feat, Note, Bib))
     

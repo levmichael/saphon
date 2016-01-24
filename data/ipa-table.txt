@@ -44,10 +44,10 @@ caoua: tʃʰ
 carua: ʈʂʰ
 
 cebu: p'
-cebv: b̰
+cebv: b̰ ʔb
 cedu: t̪'
 ceau: t' tʲ' t̰ t◌̰
-ceav: d̰ 
+ceav: d̰ ʔd
 ceru: ʈ'
 cepu: c' c̰
 cepv: ɟ̰  
@@ -55,6 +55,7 @@ cevu: k' kʲ' kʷ' k̰ kʷ̰ kʷ◌̰
 cevv: ɡ̰ 
 ceuu: q'
 ceaua: ts'
+ceava: ʔdʒ
 ceoua: tʃ'
 cerua: ʈʂ'
 
@@ -111,7 +112,7 @@ cxpu: ʰj
 cxpv: j j̃ j̥ j' j̰ j:
 cxvv: ɰ
 cxqu: ʰw wʰ
-cxqv: w w̃ w' w̰ wʲ w:
+cxqv: w w̃ w' w̰ wʲ w: ʔw
 cxfv: ʕ
 
 cldv: l̪ 
