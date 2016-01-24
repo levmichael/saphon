@@ -9,8 +9,8 @@ Esta página detalla actualizaciones al sitio web y a la base de datos de SAPhon
 </p>
 
 <p>
-Nuevo en v1.1.4 (12 de enero, 2016):
-<?php include 'updates/diff-20130605-20160112.es.sum.html'; ?>
+Nuevo en v1.1.4 (24 de enero, 2016):
+<?php include 'updates/diff-20130605-20160124.es.sum.html'; ?>
 </p>
 
 <p>
