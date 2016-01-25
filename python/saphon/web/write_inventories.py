@@ -1,3 +1,4 @@
+import html
 from collections import *
 from saphon.io import *
 from saphon.web.optimize_layout import *
@@ -127,11 +128,11 @@ def writeLocal(saphonData, htmlDir, loc):
       writeField)
       
     if lang.bib_:
-      bibStr = ''.join('<p>'+bib+'</p>\n' for bib in lang.bib_)
+      bibStr = ''.join('<p>'+html.escape(bib)+'</p>\n' for bib in lang.bib_)
       writeField('bibliography', bibStr)
 
     if lang.note_:
-      noteStr = ''.join('<p>'+note+'</p>\n' for note in lang.note_)
+      noteStr = ''.join('<p>'+html.escape(note)+'</p>\n' for note in lang.note_)
       writeField('notes', noteStr)
         
     write('</div>\n') # Close class=entry.
