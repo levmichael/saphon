@@ -54,6 +54,8 @@ def writeTable(featInfo, name, sounds, optimizeLayout, formatLabel, formatSounds
 # to format lists of sounds and `writeField` to write.
 
 def writeNonsounds(name, nonsounds, formatNonsounds, writeField):
+  nonsounds = list(nonsounds)  # convert to list
+  if not nonsounds: nonsounds = ['none']
   writeField(name, formatNonsounds(nonsounds))
 
 def writeLocal(saphonData, htmlDir, loc):
@@ -123,7 +125,7 @@ def writeLocal(saphonData, htmlDir, loc):
 
     writeNonsounds(
       'suprasegmental',
-      filter(featInfo.isSuprasegmental, featInfo.feats()),
+      filter(featInfo.isSuprasegmental, lang.feat_),
       lambda sounds: ', '.join(xlt(loc, sound) for sound in sounds).capitalize(),
       writeField)
       

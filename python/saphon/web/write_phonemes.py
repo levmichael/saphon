@@ -10,7 +10,7 @@ def writeLocal(saphonData, htmlDir, loc):
   featInfo = saphonData.featInfo
 
   # Create unique ID for each feature.
-  feats = saphonData.featInfo.feats()
+  feats = featInfo.feats()
   featId = dict(zip(feats, range(len(feats))))
 
   # Get counts for each feature.
@@ -72,7 +72,7 @@ def writeLocal(saphonData, htmlDir, loc):
 
   writeNonsounds(
     'suprasegmental',
-    filter(featInfo.isSuprasegmental, saphonData.featInfo.feats()),
+    filter(featInfo.isSuprasegmental, featInfo.feats()),
     lambda feats: ''.join(markup(f) for f in feats),
     writeField)
 

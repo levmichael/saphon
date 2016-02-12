@@ -136,3 +136,5 @@ find_by_phonemes_fewer_phonemes = "MOSTRAR MENOS FONEMAS"
 find_by_phonemes_reset = "RESET"
 
 find_by_phonemes_matches = "Correspondentes"
+
+none = "nenhum"

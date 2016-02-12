@@ -161,3 +161,5 @@ find_by_phonemes_fewer_phonemes = "MOSTRAR MENOS FONEMAS"
 find_by_phonemes_reset = "REINICIAR"
 
 find_by_phonemes_matches = "Coincidencias"
+
+none = "ninguno"

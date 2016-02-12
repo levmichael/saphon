@@ -138,3 +138,5 @@ find_by_phonemes_fewer_phonemes = "SHOW FEWER PHONEMES"
 find_by_phonemes_reset = "RESET"
 
 find_by_phonemes_matches = "Matches"
+
+none = "none"
