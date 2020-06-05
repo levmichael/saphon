@@ -5,6 +5,6 @@ code: ura
 family: Isolate
 country: Peru
 geo: -4.000 -75.000 128
-feat: b t d tɕ k kʷ m n ɲ fʷ s ʃ h hʲ l ɽ i i: ĩ ĩ: e e: ẽ ẽ: a a: ã ã: u u: ũ ũ: ɨ ɨ: ɨ̃ ɨ̃: tone
+feat: b t d tɕ k kʷ m n ɲ fʷ s ʃ h hʲ l ɽ i iː ĩ ĩː e eː ẽ ẽː a aː ã ãː u uː ũ ũː ɨ ɨː ɨ̃ ɨ̃ː tone
 note: The /ʉ/ of Olawsky is represented as /ɨ/ here based on the description of it as a "high central, (slightly) rounded vowel" (2006: 52) and the observation that it can be also be realized as [ə] or [ɨ]. 
 bib: Olawsky, Knut. 2006. A Grammar of Urarina. Berlin: Mouton de Gruyter. 30-54.

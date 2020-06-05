@@ -5,7 +5,7 @@ code: qvn_tar
 family: Quechua
 country: Peru
 geo: -11.419 -75.691 4101
-feat: p b t ʈʂ tʃ k ɡ m n ɲ ŋ s ʃ x w j ɾ l ʎ i i: a a: u u:
+feat: p b t ʈʂ tʃ k ɡ m n ɲ ŋ s ʃ x w j ɾ l ʎ i iː a aː u uː
 note: Phonemes /d/ and /e/ are found only in Spanish loan words.
 note: Phonemes /β, o, o:, e:/ are found only in Spanish loan words or words of obscure origin.
 note: The phoneme /ʐ / is found only in Spanish loan words, words of obscure origin, or onomatopoetic expressions.

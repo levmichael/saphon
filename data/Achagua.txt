@@ -5,6 +5,6 @@ code: aca
 family: Arawak
 country: Colombia
 geo: 4.002 -72.814 255
-feat: p b t ts d tʃ k kʷ ʔ m n s ʃ ʒ h w j ɾ l i i: e e: a a: o o: u u:
+feat: p b t ts d tʃ k kʷ ʔ m n s ʃ ʒ h w j ɾ l i iː e eː a aː o oː u uː
 bib: Melendez, Miguel Ángel Lozano. 2000. Esbozo grammatical de la lengua achagua. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo.
 bib: Wilson, Peter J. and Stephen H. Levinsohn. 1992. Una descripción preliminar de la gramática del achagua (Arawak). Bogotá: Instituto Lingüístico de Verano.

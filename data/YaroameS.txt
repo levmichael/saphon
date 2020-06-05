@@ -5,5 +5,5 @@ code: yrm_pac
 family: Yanomam
 country: Brazil
 geo: 1.720 -62.070 nan
-feat: p t tʃ k m n ɲ x h w ɾ i ĩ i: ĩ: e ẽ e: ẽ: a ã a: ã: o õ o: õ: u ũ u: ũ: ə ə̃ ə: ə̃:
+feat: p t tʃ k m n ɲ x h w ɾ i ĩ iː ĩː e ẽ eː ẽː a ã aː ãː o õ oː õː u ũ uː ũː ə ə̃ əː ə̃ː
 bib: Ferreira, Helder. personal communication.

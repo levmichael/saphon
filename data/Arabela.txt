@@ -5,5 +5,5 @@ code: arl
 family: Zaparoan
 country: Peru
 geo: -2.000 -75.000 169
-feat: p t tʲ kʲ k kʷʲ kʷ m mʲ n ɲ s ʃ h hʲ hʷ w j ɾ ɾʲ i i: ɪ ɪ: a a: o o: u u:
+feat: p t tʲ kʲ k kʷʲ kʷ m mʲ n ɲ s ʃ h hʲ hʷ w j ɾ ɾʲ i iː ɪ ɪː a aː o oː u uː
 bib: Michael, Lev, Vivian Wauters, and Christine Beier. in prep. A Reconstruction of Proto-Zaparoan phonology.

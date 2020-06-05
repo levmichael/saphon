@@ -7,7 +7,7 @@ country: Peru
 country: Colombia
 geo: -2.610 -72.820 nan
 geo: -3.343 -71.994 nan
-feat: p b t tʲ ts dʲ dz tʃ dʒ k ɡ ʔ m m: n n: ɲ ɲ: ɸ β s ʃ ʒ x h ɾ i ĩ e a ã o õ ɨ ɨ̃ tone
+feat: p b t tʲ ts dʲ dz tʃ dʒ k ɡ ʔ m mː n nː ɲ ɲː ɸ β s ʃ ʒ x h ɾ i ĩ e a ã o õ ɨ ɨ̃ tone
 note: Both sources indicate that [e] does not contrast with [ẽ]
 bib: Agnew, Arlene and Evelyn Pike. 1957. Phonemes of Ocaina (Huitoto). International Journal of American Linguistics 23: 24-27.
 bib: Hockett, Charles F. 1959. On the format of phonemic reports, with restatement of Ocaina. International Journal of American Linguistics 25: 59-62

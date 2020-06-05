@@ -5,5 +5,5 @@ code: atr
 family: Carib
 country: Brazil
 geo: -0.653 -60.260 95
-feat: p b t d tʃ dʒ ʔ m n ɲ s ʃ h w j ɾ i e e: ɛ a a: o o: u ɨ ɨ:
+feat: p b t d tʃ dʒ ʔ m n ɲ s ʃ h w j ɾ i e eː ɛ a aː o oː u ɨ ɨː
 bib: Bruno, Ana Carla. 2003. Reduplicação em Waimiri Atroari. Amerindia 28. 83-94.

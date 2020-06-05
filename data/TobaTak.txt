@@ -7,5 +7,5 @@ country: Argentina
 country: Bolivia
 country: Paraguay
 geo: -25.293 -58.514 99
-feat: p t tʃ k ɡ q ʔ m n ɲ s ʃ ʒ ʁ h w j ɾ l ʎ i i: e e: a a: o o:
+feat: p t tʃ k ɡ q ʔ m n ɲ s ʃ ʒ ʁ h w j ɾ l ʎ i iː e eː a aː o oː
 bib: Messineo, Christina María. 1988. Fonología del toba-takšek. Etnolingüística II. 32-37.

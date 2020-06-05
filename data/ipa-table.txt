@@ -1,16 +1,16 @@
-csbu: p p: pʲ pʷ ps 
-csbv: ʰb b b: bʲ bʷ bz bβ
+csbu: p pː pʲ pʷ ps 
+csbv: ʰb b bː bʲ bʷ bz bβ
 csdu: t̪ t̪ʙ
 csdv: d̪ 
-csau: t tˣ ʰt t: tʲ tʷ t̺
-csav: ʰd d d: dʲ
+csau: t tˣ ʰt tː tʲ tʷ t̺
+csav: ʰd d dː dʲ
 csru: ʈ 
 csrv: ɖ 
 cspu: c ʰc
 cspv: ʰɟ ɟ
-csvu: k kʲ kˣ ʰk k: ʰkʷ kʷ kʷ: k̪ kʷʲ
+csvu: k kʲ kˣ ʰk kː ʰkʷ kʷ kʷː k̪ kʷʲ
 csqu: kp 
-csvv: ɡ ɡ: ɡʷ
+csvv: ɡ ɡː ɡʷ
 csuu: q qʷ 
 csuv: ɢ 
 csgu: ʔ ʔʲ
@@ -73,13 +73,13 @@ cpaua: nts
 cpava: ndz ndzʲ 
 
 cnbu: ʰm mʰ m̥ 
-cnbv: m m' m̰ mʲ mʷ m:
+cnbv: m m' m̰ mʲ mʷ mː
 cnlv: ɱ
 cndv: n̪ 
 cnau: ʰn nʰ n̥ 
-cnav: n nʲ n: n̰
+cnav: n nʲ nː n̰
 cnpu: ɲʰ
-cnpv: ɲ ɲ̰ ɲ: ɲ̥ 
+cnpv: ɲ ɲ̰ ɲː ɲ̥ 
 cnvv: ŋ ŋʷ ŋ̥ 
 cnxv: N 
 
@@ -109,15 +109,15 @@ cxdv: ð̞
 cxav: ɹ
 cxrv: ɻ
 cxpu: ʰj
-cxpv: j j̃ j̥ j' j̰ j:
+cxpv: j j̃ j̥ j' j̰ jː
 cxvv: ɰ
 cxqu: ʰw wʰ
-cxqv: w w̃ w' w̰ wʲ w: ʔw
+cxqv: w w̃ w' w̰ wʲ wː ʔw
 cxfv: ʕ
 
 cldv: l̪ 
 clau: l̥ ɬ ɺ̥ 
-clav: l lʲ l' l: ɺ ɮ
+clav: l lʲ l' lː ɺ ɮ
 clrv: ɭ ɭʲ
 clpv: ʎ 
 clvv: kl
@@ -132,32 +132,32 @@ crav: r
 cruv: ʀ 
 crbv: ʙ 
 
-v7fu: i ĩ ḭ ḭ̃ i: ĩ: iʰ 
+v7fu: i ĩ ḭ ḭ̃ iː ĩː iʰ 
 v7fr: y ỹ 
-v7cu: ɨ ɨ̃ ɨ̰ ɨ: ɨ̃: ɨ̘ ɨi 
-v7cr: ʉ ʉ̃ ʉ: 
-v7bu: ɯ ɯ̃ ɯ̰ ɯ: ɯ̃: ɯi
-v7br: u ũ ṵ ṵ̃ u: ũ: uʰ 
-v6fu: ɪ ɪ̃ ɪ:
+v7cu: ɨ ɨ̃ ɨ̰ ɨː ɨ̃ː ɨ̘ ɨi 
+v7cr: ʉ ʉ̃ ʉː 
+v7bu: ɯ ɯ̃ ɯ̰ ɯː ɯ̃ː ɯi
+v7br: u ũ ṵ ṵ̃ uː ũː uʰ 
+v6fu: ɪ ɪ̃ ɪː
 v6fr: ʏ 
-v6br: ʊ ʊ̃ ʊ:
-v5fu: e ẽ ḛ ḛ̃ e: ẽ: eʰ eu
-v5fr: ø ø: ø̃ 
+v6br: ʊ ʊ̃ ʊː
+v5fu: e ẽ ḛ ḛ̃ eː ẽː eʰ eu
+v5fr: ø øː ø̃ 
 v5cu: ɘ 
-v5cr: ɵ ɵ: 
-v5bu: ɤ ɤ̃ ɤ: 
-v5br: o õ̰ o̰ õ o: õ: oʰ oʲ õʲ o̝
-v4cu: ə ə̃ ə̰ ə̰̃ ə: ə̃: 
-v3fu: ɛ ɛ̃ ɛ: ɛ̃:
+v5cr: ɵ ɵː 
+v5bu: ɤ ɤ̃ ɤː 
+v5br: o õ̰ o̰ õ oː õː oʰ oʲ õʲ o̝
+v4cu: ə ə̃ ə̰ ə̰̃ əː ə̃ː 
+v3fu: ɛ ɛ̃ ɛː ɛ̃ː
 v3fr: œ œ̃
 v3cu: ɜ 
-v3bu: ʌ ʌ̃ ʌ: ʌ̃: 
-v3br: ɔ ɔ̃ ɔ: ɔ̃: 
-v2fu: æ æ̃ æ: æ̃: 
+v3bu: ʌ ʌ̃ ʌː ʌ̃ː 
+v3br: ɔ ɔ̃ ɔː ɔ̃ː 
+v2fu: æ æ̃ æː æ̃ː 
 v2cu: ɐ̃ 
-v1cu: a ã a̰ ã̰ a: ã: aʲ ãʲ aʲ: aʰ 
-v1bu: ɑ ɑ̃ ɑ̰ ɑ: 
-v1br: ɒ ɒ̃ ɒ: ɒ̃:
+v1cu: a ã a̰ ã̰ aː ãː aʲ ãʲ aʲː aʰ 
+v1bu: ɑ ɑ̃ ɑ̰ ɑː 
+v1br: ɒ ɒ̃ ɒː ɒ̃ː
 
 s: tone
 s: nasal_harmony

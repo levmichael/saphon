@@ -5,6 +5,6 @@ code: wca_yae
 family: Yanomam
 country: Brazil
 geo: 1.516 -62.820 nan
-feat: p tʰ t k m n s ʃ h hʷ w j ɾ i ĩ i: ĩ: e ẽ e: ẽ: a ã a: ã: o õ o: õ: u ũ u: ũ: ɨ ɨ̃ ɨ: ɨ̃: ə ə̃ ə: ə̃:
+feat: p tʰ t k m n s ʃ h hʷ w j ɾ i ĩ iː ĩː e ẽ eː ẽː a ã aː ãː o õ oː õː u ũ uː ũː ɨ ɨ̃ ɨː ɨ̃ː ə ə̃ əː ə̃ː
 bib: Ferreira, Helder. personal communication.
 bib: Ramirez, Henri. 1999. A prática do Yanomami. Boa Vista: Comissão Pró-Yanomami (CCPY). Manual práctico.

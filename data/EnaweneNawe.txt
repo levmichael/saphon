@@ -5,5 +5,5 @@ code: unk
 family: Arawak
 country: Brazil
 geo: -13.229 -58.885 468
-feat: t d k m n ɲ s ʃ h w j ɾ l i ĩ i: e ẽ e: a ã a: o õ o:
+feat: t d k m n ɲ s ʃ h w j ɾ l i ĩ iː e ẽ eː a ã aː o õ oː
 bib: Rezende, Ubiray Maria Nogueira. 2003. Fonetica fonologia da lingua Enawene-Nawe (Aruak): Uma primera abordagem. Universidade do Rio de Janeiro.

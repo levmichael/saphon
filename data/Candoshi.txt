@@ -5,7 +5,7 @@ code: cbu
 family: Isolate
 country: Peru
 geo: -4.207 -77.062 170
-feat: p mp t nt ts nts ʈʂ ɳʈʂ tʃ ntʃ k ŋk m n s ʂ ʃ h w j ɾ i i: a a: o o:
+feat: p mp t nt ts nts ʈʂ ɳʈʂ tʃ ntʃ k ŋk m n s ʂ ʃ h w j ɾ i iː a aː o oː
 note: Tuggy and Payne both posit a voiceless high back rounded vowel, /u̥/. This segment seems rare, however, and apparently only occurs between voiceless consonants, leading us to exclude it from the inventory.
 note: Resources vary on whether Candoshi-Shapra's back rounded vowel is mid back rounded /o/ or high back rounded /u/.
 bib: Tuggy, John. 1981. Un Estudio Fonologico Del Discurso Candoshi. Cohesión y enfoque en textos y discursos. Ed. Mary Ruth Wise and Anne Stewart. Lima: Instituto Lingüístico de Verano. 223.

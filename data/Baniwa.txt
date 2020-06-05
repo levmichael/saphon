@@ -7,5 +7,5 @@ family: Arawak
 country: Venezuela
 country: Brazil
 geo: 1.409 -68.136 127
-feat: p b t̪ t ts d dz tʃ k m n ɲ h w ɺ ɻ i i: e e: a a: u u:
+feat: p b t̪ t ts d dz tʃ k m n ɲ h w ɺ ɻ i iː e eː a aː u uː
 bib: Ramirez, Henry. 2001. Línguas Arawak da Amazônia Setentrional: Comparação e Descrição. Manaus: Editora de Universidade do Amazonas. 43.

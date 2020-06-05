@@ -6,5 +6,5 @@ code: kuz
 family: Isolate
 country: Chile
 geo: -23.102 -69.012 2215
-feat: p' p b t' t ts tʃ' tʃ k' k q' q ʔ m n s x ɣ χ h j ɾ l i i: e e: a a: o o: u u:
+feat: p' p b t' t ts tʃ' tʃ k' k q' q ʔ m n s x ɣ χ h j ɾ l i iː e eː a aː o oː u uː
 bib: Adelaar, Willem and Pieter Muysken. 2004. The Languages of the Andes. New York: Cambridge University Press. 380.

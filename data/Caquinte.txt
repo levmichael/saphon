@@ -5,6 +5,6 @@ code: cot
 family: Arawak
 country: Peru
 geo: -11.709 -73.925 422
-feat: p t tʲ ts tʃ k ɡ m n ɲ N β s ʃ h j ɾ ɾʲ i i: e e: a a: o o:
+feat: p t tʲ ts tʃ k ɡ m n ɲ N β s ʃ h j ɾ ɾʲ i iː e eː a aː o oː
 bib: O'Hagan, Zachary. 2015. Unpublished fieldnotes.
 bib: Swift, Ken. 1988. Morfología del caquinte (Arawak Preandino). Lima: Ministerio de Educación and Instituto Lingüístico de Verano.

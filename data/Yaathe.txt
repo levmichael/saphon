@@ -6,5 +6,5 @@ code: fun
 family: Macro-Ge
 country: Brazil
 geo: -8.000 -37.300 664
-feat: pʰ p tʰ t ts d tʃʰ tʃ dʒ kʰ k m n ɸ s ʃ h w j l ʎ i i: e e: ɛ a a: ɔ o o: u u: tone
+feat: pʰ p tʰ t ts d tʃʰ tʃ dʒ kʰ k m n ɸ s ʃ h w j l ʎ i iː e eː ɛ a aː ɔ o oː u uː tone
 bib: da Silva, Fábia Pereira. 2011. A sílaba em yaathe. MA thesis, Universidade Federal de Alagoas.

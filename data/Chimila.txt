@@ -5,5 +5,5 @@ code: cbg
 family: Chibchan
 country: Colombia
 geo: 10.000 -74.000 69
-feat: p mb t nd k ŋɡ ʔ m n ŋ s h w j ɾ l i ĩ i: ĩ: e ẽ e: ẽ: a ã a: ã: o õ o: õ: u ũ u: ũ: tone
+feat: p mb t nd k ŋɡ ʔ m n ŋ s h w j ɾ l i ĩ iː ĩː e ẽ eː ẽː a ã aː ãː o õ oː õː u ũ uː ũː tone
 bib: Malone, Terry. 2006. Tone and Syllable Structure in Chimila. International Journal of American Linguistics 72(1): 1-58.

@@ -5,7 +5,7 @@ code: qvn_caj
 family: Quechua
 country: Peru
 geo: -11.256 -75.856 3444
-feat: p t ʈʂ tʃ k ɡ m n ɲ ŋ s ʃ x χ w j ɾ l ʎ i i: a a: u u:
+feat: p t ʈʂ tʃ k ɡ m n ɲ ŋ s ʃ x χ w j ɾ l ʎ i iː a aː u uː
 note: Phonemes /d/ and /e/ are found only in Spanish loan words.
 note: Phonemes /β, o, o:, e:/ are found only in Spanish loan words or words of obscure origin.
 note: The phoneme /ʐ / is found only in Spanish loan words, words of obscure origin, or onomatopoetic expressions.

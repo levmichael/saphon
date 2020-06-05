@@ -5,7 +5,7 @@ code: pbb
 family: Isolate
 country: Colombia
 geo: 2.405 -76.608 nan
-feat: p pʰ pʲ mp mpʲ t tʰ tʲ tʲʰ nt ntʲ ts tsʰ tsʲ tsʲʰ k kʰ kʲ ŋk m n nʰ nʲ ɸʲ mɸʲ s sʲ ns nsʲ x xʲ w j l lʲ i i: ḭ ĩ ĩ: ḭ̃ e e: ḛ ẽ ẽ: ḛ̃ a a: a̰ ã ã: ã̰ u u: ṵ ũ ũ: ṵ̃
+feat: p pʰ pʲ mp mpʲ t tʰ tʲ tʲʰ nt ntʲ ts tsʰ tsʲ tsʲʰ k kʰ kʲ ŋk m n nʰ nʲ ɸʲ mɸʲ s sʲ ns nsʲ x xʲ w j l lʲ i iː ḭ ĩ ĩː ḭ̃ e eː ḛ ẽ ẽː ḛ̃ a aː a̰ ã ãː ã̰ u uː ṵ ũ ũː ṵ̃
 note: Jung (2008: 37) analyzes vowel length as phonemic, commenting that it may not be phonemic in all dialects. Rojas Curieux (1998: 78-79) notes a few instances of long vowels but does not analyze vowel length as phonemic. The aspirated vowels of Rojas Curieux (1998) correspond in at least a few words to a vowel followed by the fricative /x/ in Jung (2008). Aspirated vowels are therefore not included in the phoneme inventory here.
 bib: Rojas Curieux, Tulio Enrique. 1998. La lengua páez: una visión de su gramática. Colombia: Ministerio de Cultura.
 bib: Jung, Ingrid. 2008. Gramática del páez o nasa yuwe: Descripción de una  lengua indígena de Colombia. München: LINCOM Europe.

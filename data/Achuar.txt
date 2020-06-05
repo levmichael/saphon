@@ -6,5 +6,5 @@ family: Jivaroan
 country: Peru
 country: Ecuador
 geo: -2.818 -77.326 212
-feat: p t ts tʃ k ʔ m n ŋ s ʃ x w j ɾ i ĩ i: a ã a: u ũ u: ɨ ɨ̃ ɨ:
+feat: p t ts tʃ k ʔ m n ŋ s ʃ x w j ɾ i ĩ iː a ã aː u ũ uː ɨ ɨ̃ ɨː
 bib: Fast, Gerhard. 1975. Sistema fonológico del idioma achual. Datos Etno-Lingüísticos 20. Lima: Instituto Lingüístico de Verano.

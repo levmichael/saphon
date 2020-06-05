@@ -7,7 +7,7 @@ country: Guyana
 country: Brazil
 country: Venezuela
 geo: 4.000 -60.000 348
-feat: p t k ʔ m n s w j ɾ i i: e e: a a: o o: u u: ɨ ɨ:
+feat: p t k ʔ m n s w j ɾ i iː e eː a aː o oː u uː ɨ ɨː
 note: Carson (1981) posits /ŋ/, which is absent in Abbot (1991).
 bib: Abbott, Miriam. 1991. Macushi. In Desmond Derbyshire and Geoffrey Pullum (eds.), Handbook of Amazonian Languages Vol. 3, pp. 23-160. Berlin: Mouton de Gruyter.
 bib: Carson, Neusa. 1981. Phonology and Morphosyntax of Macuxi (Carib). PhD dissertation, University of Kansas.

@@ -5,5 +5,5 @@ code: kav
 family: Katukinan
 country: Brazil
 geo: -3.585 -66.525 94
-feat: p b t d tʃ dʒ k m n ɲ h l i i: a a: u u: ɯ ɯ:
+feat: p b t d tʃ dʒ k m n ɲ h l i iː a aː u uː ɯ ɯː
 bib: dos Anjos, Zoraide. 2011. Fonologia e Gramática Katukina-Kanamari. PhD dissertation, Vrije Universiteit Amsterdam.

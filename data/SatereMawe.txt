@@ -5,5 +5,5 @@ code: mav
 family: Tupí
 country: Brazil
 geo: -3.450 -56.995 57
-feat: p t k ʔ m n ŋ s h w j ɾ i ĩ i: e ẽ e: a ã a: o u ũ u: ɨ ɨ:
+feat: p t k ʔ m n ŋ s h w j ɾ i ĩ iː e ẽ eː a ã aː o u ũ uː ɨ ɨː
 bib: da Silva, Raynice Geraldine Pereira. 2005. Estudo fonológico da língua sateré-mawé. MA thesis, Universidade Estadual de Campinas.

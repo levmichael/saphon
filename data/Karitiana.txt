@@ -5,7 +5,7 @@ code: ktn
 family: Tupí
 country: Brazil
 geo: -9.300 -64.000 115
-feat: p t k m n ɲ ŋ s h w ɾ i ĩ i: ĩ: e ẽ e: ẽ: a ã a: ã: o õ o: õ: ɨ ɨ̃ ɨ: ɨ̃:
+feat: p t k m n ɲ ŋ s h w ɾ i ĩ iː ĩː e ẽ eː ẽː a ã aː ãː o õ oː õː ɨ ɨ̃ ɨː ɨ̃ː
 note: Everett says that /b/ and /d/ appear to be gaining phonemic status (14-15).
 bib: Everett, Caleb. 2007. Patterns in Karitiana: Articulation, perception, and grammar. PhD dissertation, Rice University.
 bib: Storto, Luciana. 1999. Aspects of a Karitiana grammar. PhD dissertation, Massachussetts Institute of Technology.

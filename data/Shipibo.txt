@@ -5,6 +5,6 @@ code: shp
 family: Panoan
 country: Peru
 geo: -7.884 -74.742 161
-feat: p bβ t ts ɖʐ tʃ k m n β s ʂ ʃ h w j i i: a a: ʊ ʊ: ɨ ɨ:
+feat: p bβ t ts ɖʐ tʃ k m n β s ʂ ʃ h w j i iː a aː ʊ ʊː ɨ ɨː
 note: The phoneme /o/ is realized at a height between [o] and [u]
 bib: Elias-Ulloa, Jose. 2010. An acoustic phonetics of Shipibo-Conibo (Pano), an endangered Amazonian language: A new approach to documenting linguistic data. Edwin Mellen Press.

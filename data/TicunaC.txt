@@ -5,6 +5,6 @@ code: tca_cus
 family: Isolate
 country: Peru
 geo: -3.930 -70.442
-feat: p b t d tʃ ɟ k ɡ kʷ ʔ w ɾ i i: ḭ e e: ḛ a a: a̰ o o: o̰ u u: ṵ ɨ ɨ: ɨ̰ tone nasal_harmony
+feat: p b t d tʃ ɟ k ɡ kʷ ʔ w ɾ i iː ḭ e eː ḛ a aː a̰ o oː o̰ u uː ṵ ɨ ɨː ɨ̰ tone nasal_harmony
 bib: Skilton, Amalia. 2015. Unpublished fieldnotes.
 bib: Anderson, Lambert. 1959. Ticuna vowels with special regard to the system of five tonemes. Rio de Janeiro: Publicações do Museu Nacional.

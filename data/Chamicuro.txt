@@ -5,5 +5,5 @@ code: ccc
 family: Arawak
 country: Peru
 geo: -5.114 -75.736 169
-feat: p t ts ʈʂ tʃ k ʔ m n ɲ s ʂ ʃ h w j ɾ l ʎ i i: e e: a a: o o: u u:
+feat: p t ts ʈʂ tʃ k ʔ m n ɲ s ʂ ʃ h w j ɾ l ʎ i iː e eː a aː o oː u uː
 bib: Parker, Stephen G. 1991. Estudios sobre la fonología del Chamicuro. Yarinacocha: Instituto Lingüístico de Verano. 18.
