@@ -5,7 +5,7 @@ code: alc_nth
 family: Alacalufan
 country: Chile
 geo: -49.130 -74.450 nan
-feat: p' p t' t tʃ' tʃ k' k q m n f s h w j ɾ r l i e æ a o u
+feat: pʼ p tʼ t tʃʼ tʃ kʼ k q m n f s h w j ɾ r l i e æ a o u
 bib: Aguilera, Oscar E. 2001. Gramática de la lengua Kawésqar. Temuco, Chile: Corporación Nacional de Desarollo Indígena. 23-25.
 bib: Viegas, Pedro Barros. 2005. Voces en el viento: Raíces lingüísticas de la Patagonia. Buenos Aires: Mondragon Ediciones. 43.
 bib: Meroz, Yoram. p.c.

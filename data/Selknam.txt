@@ -5,7 +5,7 @@ code: ona
 family: Chon
 country: Argentina
 geo: -54.483 -67.083 nan
-feat: p' p t' t tʃ' tʃ k' k q' q ʔ m n s s̪ ʂ ʃ x h w j ɾ l ɪ ʊ a tone
+feat: pʼ p tʼ t tʃʼ tʃ kʼ k qʼ q ʔ m n s s̪ ʂ ʃ x h w j ɾ l ɪ ʊ a tone
 bib: Rojas-Berscia, Luis Miguel. 2014. A heritage reference grammar of Selk'nam. Nijmegen: Radboud University MA thesis.
 bib: Viegas, Pedro Barros. 2005. Voces en el viento: Raíces lingüísticas de la Patagonia. Buenos Aires: Mondragon Ediciones. 56.
 bib: Meroz, Yoram. p.c.

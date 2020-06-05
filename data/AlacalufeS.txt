@@ -5,6 +5,6 @@ code: alc_sth
 family: Alacalufan
 country: Chile
 geo: -55.200 -69.400 nan
-feat: p' p t' t tʃ' tʃ k' k q m n f s ɬ h w j ɾ l i e æ a o u
+feat: pʼ p tʼ t tʃʼ tʃ kʼ k q m n f s ɬ h w j ɾ l i e æ a o u
 bib: Viegas, Pedro Barros. 2005. Voces en el viento: Raíces lingüísticas de la Patagonia. Buenos Aires: Mondragon Ediciones. 41.
 bib: Meroz, Yoram. p.c.

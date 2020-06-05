@@ -5,6 +5,6 @@ code: mca
 family: Mataco
 country: Paraguay
 geo: -24.970 -57.323 79
-feat: p' p t' t ts' ts k' k q' q ʔ m n f s ɬ x χ h w j l i iː e eː a aː o oː u uː
+feat: pʼ p tʼ t tsʼ ts kʼ k qʼ q ʔ m n f s ɬ x χ h w j l i iː e eː a aː o oː u uː
 note: Gerzenstein does not explicitly state that vowel length is contrastive. However, she lists numerous forms with double vowels.
 bib: Gerzenstein, Ana. 1994. Lengua Maka. Estudio descriptivo. Buenos Aires: Instituto de Linguística. 41-61.

@@ -6,6 +6,6 @@ family: Salivan
 country: Venezuela
 country: Colombia
 geo: 5.000 -67.000 1177
-feat: p' pʰ p b t' tʰ t ts' d k' kʰ k kʷ' kʷ ʔ m n s h hʷ w j ɾ i e æ ɑ u ɨ ɤ
+feat: pʼ pʰ p b tʼ tʰ t tsʼ d kʼ kʰ k kʷʼ kʷ ʔ m n s h hʷ w j ɾ i e æ ɑ u ɨ ɤ
 note: It is uncertain whether the segments described as 'glottalized' are ejective stops or plain stops with associated creakiness realized on the following vowel.
 bib: Mosonyi, Estéban Emilio. 2000. Elementos gramaticales del idioma piaroa. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. Bogotá: Instituto Caro y Cuervo.

@@ -8,5 +8,5 @@ country: Argentina
 country: Peru
 country: Chile
 geo: -18.344 -68.668 3837
-feat: p' pʰ p t' tʰ t tʃ' tʃʰ tʃ k' kʰ k q' qʰ q m n ɲ s x χ w j ɾ l ʎ i iː a aː u uː
+feat: pʼ pʰ p tʼ tʰ t tʃʼ tʃʰ tʃ kʼ kʰ k qʼ qʰ q m n ɲ s x χ w j ɾ l ʎ i iː a aː u uː
 bib: Apaza, Ignacio. 2007. Estudios de lingüística y sociolingüística andina: teoría, discusión y análisis. La Paz: Instituto de Estudios Bolivianos. 35-40.
