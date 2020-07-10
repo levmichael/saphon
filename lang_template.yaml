@@ -1,0 +1,49 @@
+doctype: synthesis
+
+name:
+
+short_name:
+
+alternate_names:
+
+iso_codes:
+
+family:
+
+countries:
+
+coordinates:
+- latitude:
+  longitude:
+  elevation_meters:
+
+phonemes: []
+
+allophones:
+- allophone:
+  phoneme:
+
+nasal_harmony:
+
+tone:
+
+laryngeal_harmony:
+
+notes:
+
+
+---
+
+doctype: ref
+
+citation: ""
+
+graphemes2phonemes:
+- grapheme:
+  phoneme:
+
+ref_allophones:
+- grapheme_allophone:
+  grapheme_phoneme:
+
+notes:
