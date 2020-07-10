@@ -1,9 +1,0 @@
-name: Macaguán
-name.short: Macaguán
-name.comp: Macaguan
-code: mbn
-family: Guahiban
-country: Colombia
-geo: 6.459 -71.286 156
-feat: pʰ p b tʰ t ts kʰ k m n s h w j ɾ ɭ i e a o u ɯ
-bib: Lobo-Guerrero, Miguel and Xochitl Herrera. 2000. El jitnu /'hitnɯ/ del medio rio Ele.In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo.

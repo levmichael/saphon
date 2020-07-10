@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Waimaha
+
+short_name: Waimaha
+
+alternate_names: 
+-
+
+iso_codes: 
+- bao
+
+family: Tucanoan
+
+countries: 
+- Brazil
+- Colombia
+
+coordinates: 
+- latitude: 0.327
+  longitude: -70.277
+  elevation_meters: 186
+
+phonemes: [p, b, t, d, k, ɡ, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+- Voiceless alveolar fricative /s/ occurs only in onomatopoeic expressions and loan words (87).
+
+
+
+---
+
+doctype: ref
+
+citation: "Stolte, Joel and Nancy Stolte. 1976. Fonología del barasano del norte. In Viola Waterhouse (ed.), Sistemas fonológicos de idiomas Colombianos 3. Bogotá: Ministerio de Goberno and Instituto Lingüístico de Verano. 83-93."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

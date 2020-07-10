@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Nadëb
+
+short_name: Nadëb
+
+alternate_names: 
+-
+
+iso_codes: 
+- mbj
+
+family: Nadahup
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -1.000
+  longitude: -66.300
+  elevation_meters: 81
+
+phonemes: [p, b, t, d, ɟ, k, ɡ, ʔ, m, n, ɲ, ŋ, ʃ, h, j, w, ɾ, i, ĩ, ɯ, ɯ̃, u, ũ, e, ɤ, o, ɛ, ɛ̃, ʌ, ʌ̃, ɔ, ɔ̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Barbosa, Jefferson Fernando. 2005. Descrição fonológica da língua Nadêb. MA thesis, Universidade de Brasilia."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Martins, Valtier. 2005. Reconstrucao fonologica do protomaku oriental. Utrecht: LOT."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

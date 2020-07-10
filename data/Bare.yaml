@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Baré
+
+short_name: Baré
+
+alternate_names: 
+-
+
+iso_codes: 
+- bae
+
+family: Arawak
+
+countries: 
+- Venezuela
+
+coordinates: 
+- latitude: 1.000
+  longitude: -67.000
+  elevation_meters: 98
+
+phonemes: [p, b, t, d, k, tʃ, pʰ, tʰ, kʰ, ʰm, m, ʰn, n, s, h, ɻ, j, ʰw, w, i, u, e, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Aikhenvald, Alexandra 1995. Bare. Languages of the World/Materials 100. Munich: Lincom Europa."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

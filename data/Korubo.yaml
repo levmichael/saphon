@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Korubo
+
+short_name: Korubo
+
+alternate_names: 
+-
+
+iso_codes: 
+- xor
+
+family: Panoan
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -5.132
+  longitude: -70.606
+  elevation_meters: 115
+
+phonemes: [p, t, k, kʷ, ts, tʃ, m, n, β, s, ʃ, j, w, ɬ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "de Oliveira, Sanderson Castro Soares. 2009. Preliminares sobre a fonética e a fonologia da língua falada pelo primeiro grupo de indios korúbo recémcontatados. MA thesis, Universidade de Brasília."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

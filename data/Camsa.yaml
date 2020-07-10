@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Camsá
+
+short_name: Camsá
+
+alternate_names: 
+-
+
+iso_codes: 
+- kbh
+
+family: Isolate
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 0.783
+  longitude: -76.809
+  elevation_meters: 426
+
+phonemes: [p, b, t, d, k, ɡ, ts, tʃ, ʈʂ, m, n, ɲ, s, ʂ, ʃ, x, j, w, l, ʎ, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Adelaar, Willem and Pieter Muysken. 2004. The Languages of the Andes. Cambridge: Cambridge University Press. 152."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Howard, Linda. 1972. Fonología del camsá. In Viola Waterhouse (ed.), Sistemas fonológicos de idiomas colombianos 1. Bogota: Ministerio de Gobierno. 77-92."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

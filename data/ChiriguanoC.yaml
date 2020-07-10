@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Chiriguano (Chané dialect)
+
+short_name: Chiriguano C
+
+alternate_names: 
+-
+
+iso_codes: 
+- gui_chn
+
+family: Tupí
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -17.793
+  longitude: -63.180
+  elevation_meters: 470
+
+phonemes: [p, t, k, kʷ, tʃ, m, n, ŋ, β, s, ʝ, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Dietrich, Wolf. 1986. El Idioma chiriguano: Gramática, textos, vocabulario. Madrid: Instituto de Cooperación Iberoamericana. 45-50."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Bakairí (Western dialect)
+
+short_name: Bakairí West
+
+alternate_names: 
+-
+
+iso_codes: 
+- bkq_wst
+
+family: Carib
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -14.730
+  longitude: -56.248
+  elevation_meters: 215
+
+phonemes: [p, b, t, d, k, ɡ, ʔ, m, n, s, ʃ, h, j, w, l, ɾ, i, ĩ, u, ũ, e, ẽ, o, õ, ə, ə̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Meira, Sérgio. 2005. Reconstructing Pre-Bakairi Segmental Phonology. Anthropological Linguistics 47.3. 261-291."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "`"
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

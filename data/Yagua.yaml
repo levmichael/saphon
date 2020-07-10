@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Yagua
+
+short_name: Yagua
+
+alternate_names: 
+-
+
+iso_codes: 
+- yad
+
+family: Peba-Yaguan
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -3.300
+  longitude: -72.000
+  elevation_meters: 105
+
+phonemes: [p, t, k, tʃ, m, n, s, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Peña, Jaime G. 2009. A historical reconstruction of the Peba-Yaguan linguistic family. MA thesis, University of Oregon."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

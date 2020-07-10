@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Iñapari
+
+short_name: Iñapari
+
+alternate_names: 
+-
+
+iso_codes: 
+- inp
+
+family: Arawak
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -12.088
+  longitude: -69.544
+  elevation_meters: 276
+
+phonemes: [p, t, ʔ, tʃ, m, n, ɲ, s, h, j, w, l, ɾ, i, ĩ, iː, ɯ, ɯ̃, ɯː, u, ũ, uː, e, ẽ, eː, o, õ, oː, a, ã, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Faust, Norma and Eugene Loos. 2002. Gramática del idioma yaminahua. Serie lingüística peruana, 51. Lima: Instituto Lingüístico de Verano. 17-18."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Parker, Steve. 1999. A sketch of Iñapari phonology. IJAL 65.1-39."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Napo Quichua
+
+short_name: Napo Quichua
+
+alternate_names: 
+-
+
+iso_codes: 
+- qvo
+
+family: Quechua
+
+countries: 
+- Ecuador
+- Peru
+
+coordinates: 
+- latitude: -1.448
+  longitude: -74.727
+  elevation_meters: 176
+
+phonemes: [p, b, t, d, k, ɡ, ts, tʃ, m, n, ɲ, ɸ, s, ʃ, h, j, w, l, ʎ, ɾ, i, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Zariquiey, Roberto. 2004. Contactos entre quichua y castellano en la cuenca peruana del río Napo: aspectos históricos, gramaticales y sociolingüísticos."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

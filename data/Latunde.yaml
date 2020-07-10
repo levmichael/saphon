@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Latunde
+
+short_name: Latunde
+
+alternate_names: 
+-
+
+iso_codes: 
+- ltn
+
+family: Nambiquaran
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -13.700
+  longitude: -57.500
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, ʔ, m, n, β, s, h, j, w, l, i, ĩ, ḭ, ḭ̃, u, ũ, ṵ, ṵ̃, e, ḛ, o, o̰, a, ã, a̰, ã̰]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Telles, Stella and Leo Wetzels. 2011. La famille nambikwara. In Emilio Bonvini, Joëlle Busuttil & Alain Peyraube (eds.), Dictionnaire des langues. Paris: Les Presses Universitaires de France."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

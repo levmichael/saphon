@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Caquinte
+
+short_name: Caquinte
+
+alternate_names: 
+-
+
+iso_codes: 
+- cot
+
+family: Arawak
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -11.709
+  longitude: -73.925
+  elevation_meters: 422
+
+phonemes: [p, t, tʲ, k, ɡ, ts, tʃ, m, n, ɲ, N, β, s, ʃ, h, j, ɾ, ɾʲ, i, iː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "O'Hagan, Zachary. 2015. Unpublished fieldnotes."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Swift, Ken. 1988. Morfología del caquinte (Arawak Preandino). Lima: Ministerio de Educación and Instituto Lingüístico de Verano."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

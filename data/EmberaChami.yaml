@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Emberá-Chamí
+
+short_name: Emberá-Chamí
+
+alternate_names: 
+-
+
+iso_codes: 
+- cmi
+
+family: Choco
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 5.027
+  longitude: -76.039
+  elevation_meters: 957
+
+phonemes: [p, b, t, d, k, tʃ, ɓ, ɗ, m, n, s, x, j, w, ɾ, r, i, ĩ, ɯ, ɯ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Aguirre-Licht, Daniel. 1998. Embera. Munich: Lincom Europa."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

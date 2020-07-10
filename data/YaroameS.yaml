@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Yãroamë of Serra do Pacu/Ajarani
+
+short_name: Yãroamë Serra
+
+alternate_names: 
+-
+
+iso_codes: 
+- yrm_pac
+
+family: Yanomam
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: 1.720
+  longitude: -62.070
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, tʃ, m, n, ɲ, x, h, w, ɾ, i, ĩ, iː, ĩː, u, ũ, uː, ũː, e, ẽ, eː, ẽː, o, õ, oː, õː, ə, ə̃, əː, ə̃ː, a, ã, aː, ãː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Ferreira, Helder. personal communication."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

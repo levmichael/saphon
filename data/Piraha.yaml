@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Pirahã
+
+short_name: Pirahã
+
+alternate_names: 
+-
+
+iso_codes: 
+- myp
+
+family: Mura
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -7.000
+  longitude: -62.000
+  elevation_meters: 60
+
+phonemes: [p, b, t, k, ɡ, ʔ, s, h, i, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Everett, Daniel Leonard. 1979. Aspectos da fonologia do pirahã. MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Everett, Daniel Leonard. 1983. A lingua piraha e a teoria da sintaxe. PhD dissertation, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

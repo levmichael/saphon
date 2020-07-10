@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Yora
+
+short_name: Yora
+
+alternate_names: 
+-
+
+iso_codes: 
+- mts
+
+family: Panoan
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -11.500
+  longitude: -72.300
+  elevation_meters: 534
+
+phonemes: [p, t, k, ts, tʃ, m, n, ɸ, s, ʂ, ʃ, h, j, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Anonymous. 2001. Vamos a leer: Aprestamiento para la lectura y escritura No. 2; yora; con traducción al castellano. 1st ed. Peru: Ministerio de Educación. 29 double p.4"
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

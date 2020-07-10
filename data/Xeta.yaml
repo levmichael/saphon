@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Xetá
+
+short_name: Xetá
+
+alternate_names: 
+-
+
+iso_codes: 
+- xet
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -23.196
+  longitude: -50.453
+  elevation_meters: 579
+
+phonemes: [p, t, k, ʔ, tʃ, dʒ, m, n, ŋ, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Vasconcelos, Eduardo Alves. 2008. Aspectos fonológicos da língua xetá. MA thesis, Universidade de Brasília."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

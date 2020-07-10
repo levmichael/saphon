@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Máíhɨki
+
+short_name: Máíhɨki
+
+alternate_names: 
+- Orejón
+
+iso_codes: 
+- ore
+
+family: Tucanoan
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -2.992
+  longitude: -72.916
+  elevation_meters: 111
+
+phonemes: [p, b, t, d, k, kʷ, ɡ, ɡʷ, tʃ, dʒ, s, h, j, w, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: True
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Michael, Lev, Stephanie Farmer, and John Sylak. A phonological sketch of Máíhɨki. Ms."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

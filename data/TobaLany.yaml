@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Toba (Lañagashik dialect)
+
+short_name: Toba Lñgshk
+
+alternate_names: 
+-
+
+iso_codes: 
+- tob_lng
+
+family: Guaicuru
+
+countries: 
+- Paraguay
+- Bolivia
+
+coordinates: 
+- latitude: -26.483
+  longitude: -59.407
+  elevation_meters: 81
+
+phonemes: [p, t, k, ɡ, ʔ, tʃ, dʒ, m, n, ɲ, s, ʃ, h, j, w, l, ʎ, ɾ, i, iː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Klein, Harriet E. Manelis. 1978. Una grámatica de la lengua toba: morfologia verbal y nominal. Montevideo: Universidad de la República, División Publicaciones y Ediciones. 20-34."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

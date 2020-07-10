@@ -1,9 +1,0 @@
-name: Andoa
-name.short: Andoa
-name.comp: Andoa
-code: anb
-family: Zaparoan
-country: Peru
-geo: -2.900 -76.405 229
-feat: p pʲ t tʲ ts tʃ kʲ k kʷ m n ɲ s ʃ h hʷ w j ɾ ɾʲ i a o̝ u ɨ
-bib: Michael, Lev, Vivian Wauters, and Christine Beier. in prep. A Reconstruction of Proto-Zaparoan phonology.

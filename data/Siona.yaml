@@ -1,0 +1,69 @@
+doctype: synthesis
+
+name: Siona
+
+short_name: Siona
+
+alternate_names: 
+-
+
+iso_codes: 
+- snn
+
+family: Tucanoan
+
+countries: 
+- Ecuador
+- Colombia
+
+coordinates: 
+- latitude: 0.404
+  longitude: -76.217
+  elevation_meters: 234
+
+phonemes: [p, b, t, d, k, kʷ, ɡ, ɡʷ, ʔ, tʃ, m, n, s, z, h, hʷ, j, w, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Siona voiceless stops surface as aspirated stops; voiced stops surface as creaky voiceless stops word-initially and as plain voiced stops intervocalically.
+
+
+
+---
+
+doctype: ref
+
+citation: "Wheeler, Alva. 2000. La lengua siona. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Thiago Chacon, p.c."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

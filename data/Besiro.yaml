@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Bésɨro
+
+short_name: Bésɨro
+
+alternate_names: 
+- Chiquitano
+
+iso_codes: 
+- cax
+
+family: Macro-Ge
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -16.637
+  longitude: -61.927
+  elevation_meters: .NAN
+
+phonemes: [p, t, c, k, ʔ, tʃ, m, n, ɲ, β, s, ʂ, ʃ, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Sans, Pierric. 2010. Éléments de sociolinguistique et de phonologie du bésɨro (chiquitano). MA thesis, Université Lumiére Lyon 2."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

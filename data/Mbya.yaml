@@ -1,0 +1,86 @@
+doctype: synthesis
+
+name: Mbyá
+
+short_name: Mbyá
+
+alternate_names: 
+-
+
+iso_codes: 
+- gun
+
+family: Tupí
+
+countries: 
+- Argentina
+- Paraguay
+- Brazil
+
+coordinates: 
+- latitude: -25.000
+  longitude: -53.000
+  elevation_meters: 535
+
+phonemes: [p, t, k, kʷ, ʔ, tʃ, m, n, ɲ, ŋ, ŋʷ, h, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Dooley, R. A. 2006. Léxico Guaraní, dialeto Mbyá com informaçoes úteis para o ensino médio, a aprendizagem e a pesquisa lingüística. Cuiabá: Summer Institute of Linguistics (SIL). Note: Mbyá do Brasil."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Martins, M. F. 2003. Descriçao e análise de aspectos da gramática do guaraní mbyá. PhD dissertation, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Dooley, Robert A. 2008. Pronouns and topicalization in Guaraní texts. Cuiabá: Associação Internacional de Lingüística."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

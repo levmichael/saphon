@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Aguaruna
+
+short_name: Aguaruna
+
+alternate_names: 
+-
+
+iso_codes: 
+- agr
+
+family: Jivaroan
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -4.765
+  longitude: -77.960
+  elevation_meters: 1097
+
+phonemes: [p, t, k, ʔ, ts, tʃ, m, n, s, ʃ, h, β̞, j, ɰ, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- There is also an unspecified nasal archiphoneme /N/ that forms homorganic NC clusters when followed by stops or affricates.
+
+
+
+---
+
+doctype: ref
+
+citation: "Overall, Simon E. 2007. A grammar of Aguaruna. PhD dissertation, La Trobe University."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Overall, Simon. 2013. Phoneme inventory of Aguaruna. Ms."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

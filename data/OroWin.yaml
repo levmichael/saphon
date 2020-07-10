@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Oro Win
+
+short_name: Oro Win
+
+alternate_names: 
+-
+
+iso_codes: 
+- orw
+
+family: Chapakuran
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -11.088
+  longitude: -64.078
+  elevation_meters: .NAN
+
+phonemes: [p, t̪ʙ, t, k, ʔ, m, n, ɸ, s, j, w, ɾ, i, ʏ, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Popky lists /f/ and /h/ as phonemes and does not list the phoneme /ɸ/. Birchall has clarifed that these three sounds are allophones of a single phoneme /ɸ/. Birchall also notes that there is not evidence that the mid front round vowel /ø/ found in Popky is contrastive.
+
+
+
+---
+
+doctype: ref
+
+citation: "Popky, Donna H. 1999. Oro Win: a descriptive and comparative look at an endangered language. MA thesis, University of Pittsburgh."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Joshua Birchall, personal communication."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Nonuya
+
+short_name: Nonuya
+
+alternate_names: 
+-
+
+iso_codes: 
+- noj
+
+family: Witotoan
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: -0.500
+  longitude: -72.500
+  elevation_meters: .NAN
+
+phonemes: [p, b, t, tʲ, d, k, ɡ, ʔ, ts, dz, tʃ, dʒ, m, n, ɲ, ɸ, β, ʃ, h, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Echeverri, Juan Alvaro. 2012. Nonuya Phonemes. Ms."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

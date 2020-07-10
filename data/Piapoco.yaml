@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Piapoco
+
+short_name: Piapoco
+
+alternate_names: 
+-
+
+iso_codes: 
+- pio
+
+family: Arawak
+
+countries: 
+- Colombia
+- Venezuela
+
+coordinates: 
+- latitude: 4.000
+  longitude: -69.300
+  elevation_meters: 160
+
+phonemes: [p, b, t, d, k, ʔ, ts, m, n, β, s, h, j, ɺ, ɾ, i, u, e, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Mosonyi, Esteban Emilio. 2000. Caracterización del curripaco y del piapoco. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

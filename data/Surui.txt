@@ -1,9 +1,0 @@
-name: Suruí
-name.short: Suruí
-name.comp: Surui
-code: sru
-family: Tupí
-country: Brazil
-geo: -5.950 -48.985 nan
-feat: p b t d tʃ dʒ k ɡ ʔ m n ɲ ŋ s ʃ w j ɾ l i ĩ e ẽ a ã o õ ɨ ɨ̃ tone
-bib: Meer, Tine van der. 1982. Fonologia da língua suruí. MA thesis, Universidade Estadual de Campinas.

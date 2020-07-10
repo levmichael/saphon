@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Barasana-Eduria
+
+short_name: Barasana-E
+
+alternate_names: 
+-
+
+iso_codes: 
+- bsn
+
+family: Tucanoan
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: -0.100
+  longitude: -70.400
+  elevation_meters: 133
+
+phonemes: [p, b, t, d, c, ɟ, k, ɡ, h, w, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: True
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+- /p/ occurs in loans from Spanish and other indigenous languages.
+
+
+
+---
+
+doctype: ref
+
+citation: "Gomez-Imbert, Elsa. 1997. Morphologie et phonologie Barasana: Approche non-linéaire. PhD dissertation, Université Paris 8."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Gomez, Elsa & Michael Kenstowicz. 2000. Barasana tone and accent. IJAL 66.419-463."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,9 +1,0 @@
-name: Waorani
-name.short: Waorani
-name.comp: Waorani
-code: auc
-family: Isolate
-country: Ecuador
-geo: -1.000 -76.500 270
-feat: p b t d k ɡ m n ɲ ŋ w j i ĩ iː ĩː e ẽ eː ẽː æ æ̃ æː æ̃ː a ã aː ãː o õ oː õː
-bib: Saint, Rachel and Kenneth Pike. 1962. Auca Phonemics. In Benjamin Elson (ed.), Studies in Ecuadorian Indian languages: I, pp. 5-18. Norman: Summer Institute of Linguistics of the University of Oklahoma.

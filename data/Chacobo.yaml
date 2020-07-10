@@ -1,0 +1,55 @@
+doctype: synthesis
+
+name: Chácobo
+
+short_name: Chácobo
+
+alternate_names: 
+-
+
+iso_codes: 
+- cao
+
+family: Panoan
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -12.149
+  longitude: -66.763
+  elevation_meters: 175
+- latitude: -12.210
+  longitude: -66.484
+  elevation_meters: 177
+
+phonemes: [p, t, k, ʔ, ts, tʃ, m, n, β, s, ʂ, ʐ, ʃ, h, j, w, i, ɯ, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Prost, Gilbert R. 1967. Chácobo. In Esther Matteson (ed.), Bolivian Indian grammars 1. Summer Institute of Linguistics Publications in Linguistics and Related Fields, 16. Norman: Summer Institute of Linguistics of the University of Oklahoma. 285-359."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

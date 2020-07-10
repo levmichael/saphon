@@ -1,0 +1,117 @@
+doctype: synthesis
+
+name: Bora
+
+short_name: Bora
+
+alternate_names: 
+-
+
+iso_codes: 
+- boa
+
+family: Boran
+
+countries: 
+- Peru
+- Colombia
+
+coordinates: 
+- latitude: -2.250
+  longitude: -71.750
+  elevation_meters: 103
+
+phonemes: [p, pʲ, t, tʲ, k, kʲ, kp, ʔ, ʔʲ, ts, tʃ, pʰ, pʲʰ, tʰ, tʲʰ, kʰ, kʲʰ, tsʰ, tʃʰ, m, mʲ, n, ɲ, β, βʲ, h, hʲ, j, ɾ, i, iː, ɨ, ɨː, ɯ, ɯː, o, oː, ɛ, ɛː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Weber, David and Wesley Thiesen. 2001. A synopsis of Bora tone. Work Papers of the Summer Institute of Linguistics, North Dakota Session 45. 2."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Parker, Steve. 2000. Central vs. Back Vowels. Work Papers of the Summer Institute of Linguistics, University of North Dakota Session 44. 1–19."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Parker, Steve. 2001. On the Acoustic Qualities of Bora Vowels. Phonetica 58. 179–195."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Roe, Amy. 2014. The phonetics and phonology of Bora tone. Grand Forks: University of North Dakota, MA thesis."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Thiesen, Wesley and David Weber. 2012. A Grammar of Bora with Special Attention to Tone. Dallas: SIL International."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

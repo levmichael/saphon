@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Ferreñafe Quechua
+
+short_name: Ferreñafe Q
+
+alternate_names: 
+-
+
+iso_codes: 
+- quf
+
+family: Quechua
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -6.638
+  longitude: -79.790
+  elevation_meters: 39
+
+phonemes: [p, t, k, q, tʃ, ʈʂ, m, n, ɲ, s, ʃ, ʒ, j, w, l, ɾ, i, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Taylor, Gérald. 1982. Aspectos de la dialectología quechua. Paris: Association d'Ethnolinguistique Amerindienne. 3."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Escribens Trisano, Augusto. 1977. Fonoloɡía del quechua de Ferreñafe. Lima : Universidad Nacional Mayor de San Marcos, Centro de Investigación de Lingüística Aplicada."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Mosetén de Santa Ana
+
+short_name: Mosetén St A
+
+alternate_names: 
+-
+
+iso_codes: 
+- cas_msa
+
+family: Mosetenan
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -13.744
+  longitude: -65.430
+  elevation_meters: .NAN
+
+phonemes: [p, b, t, tʲ, d, dʲ, k, ʔ, ts, tʃ, pʰ, kʰ, tʃʰ, m, n, ɲ, f, s, ʃ, h, ʋ, j, ɾ, i, ĩ, iː, ĩː, ɨ, ɨ̃, e, ẽ, eː, ẽː, o, õ, ə, ə̃, əː, ə̃ː, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- The code for this language is a SAPhon language code (non-ISO 639). Moseten is considered a dialect of Tsimane by Ethnologue
+
+
+
+---
+
+doctype: ref
+
+citation: "Sakel, Jeanette. 2011. Mosetén and Chimane Argument Coding: A Layered System. International Journal of American Linguistics 77 (4): 537-557."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

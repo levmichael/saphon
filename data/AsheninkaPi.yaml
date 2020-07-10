@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Ashéninka (Pichis dialect)
+
+short_name: Ashéninka Pi
+
+alternate_names: 
+-
+
+iso_codes: 
+- cpu
+
+family: Arawak
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -9.983
+  longitude: -74.983
+  elevation_meters: 263
+
+phonemes: [p, pʲ, t, k, kʲ, tʃ, tʰ, tʃʰ, m, mʲ, n, ɲ, N, s, ʃ, h, j, ɰ, w, wʲ, ɾ, ɾʲ, i, iː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Payne, David. 1982. Notas fonológicas y morfofonémicas sobre el Ashéninca del Pichis. In David Payne and Marlene Ballena Davila (eds.), Estudios lingüísticos de textos Ashéninca (Campa – Arawak Preandino). 101-111."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

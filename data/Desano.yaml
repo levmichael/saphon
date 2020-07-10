@@ -1,0 +1,69 @@
+doctype: synthesis
+
+name: Desano
+
+short_name: Desano
+
+alternate_names: 
+-
+
+iso_codes: 
+- des
+
+family: Tucanoan
+
+countries: 
+- Brazil
+- Colombia
+
+coordinates: 
+- latitude: 0.500
+  longitude: -69.500
+  elevation_meters: 151
+
+phonemes: [p, b, t, d, k, ɡ, s, j, w, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: True
+
+tone: True
+
+laryngeal_harmony: True
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Silva, Wilson. 2012. A descriptive grammar of Desano. PhD dissertation, University of Utah."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Silva, Wilson. 2007. Voiceless segments and nasal harmony in Desano. MA thesis, University of Utah."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

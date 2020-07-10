@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Guarayu
+
+short_name: Guarayu
+
+alternate_names: 
+-
+
+iso_codes: 
+- gyr
+
+family: Tupí
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -15.752
+  longitude: -63.179
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, kʷ, ɡʷ, ʔ, ts, tʃ, mb, nd, ŋɡ, m, n, ɲ, β, j, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Armoye Urarepia, Celso. 2009. Análisis de la lengua guarayo (tesina). Ms."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Ureyu, Daniel Aeguazu. 2003. Guía del alfabeto guarayo. Ministerio de Educación Viceministerio de Educación Escolarizada y Alternativa."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Miraña
+
+short_name: Miraña
+
+alternate_names: 
+-
+
+iso_codes: 
+- boa_mrn
+
+family: Boran
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -1.322
+  longitude: -70.800
+  elevation_meters: .NAN
+
+phonemes: [p, b, t, d, k, ɡ, ɡʷ, ʔ, ts, dz, tʃ, dʒ, m, n, β, h, ɾ, i, iː, ɨ, ɨː, ɯ, ɯː, o, oː, ɛ, ɛː, a, aː, aʲ, aʲː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Seifart, Frank. 2005. The structure and use of shape-based noun classes in Miraña (North West Amazon). PhD dissertation, Radboud Universiteit."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

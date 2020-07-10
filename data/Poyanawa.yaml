@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Poyanáwa
+
+short_name: Poyanáwa
+
+alternate_names: 
+-
+
+iso_codes: 
+- pyn
+
+family: Panoan
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -7.441
+  longitude: -73.465
+  elevation_meters: 213
+
+phonemes: [p, b, t, d, k, ts, tʃ, β, s, ʃ, h, j, w, ɾ, i, ĩ, ɨ, u, ũ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "De Paula, Aldir Santos. 1992. Poyanáwa, a língua dos indios da aldeia barão: aspectos fonológicos e morfológicos. MA thesis, Universidade Federal de Pernambuco."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

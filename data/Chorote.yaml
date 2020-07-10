@@ -1,0 +1,71 @@
+doctype: synthesis
+
+name: Chorote (Iyo'wujwa and Iyowa'ja dialects)
+
+short_name: Chorote Iyo
+
+alternate_names: 
+-
+
+iso_codes: 
+- crq
+- crt
+
+family: Mataco
+
+countries: 
+- Argentina
+- Bolivia
+- Paraguay
+
+coordinates: 
+- latitude: -22.300
+  longitude: -62.300
+  elevation_meters: 243
+
+phonemes: [p, t, k, ʔ, ts, tʼ, kʼ, m, n, fʷ, s, x, j, w, ɬ, l, i, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Gerzenstein, Ana. 1983. Lengua chorote, variedad no. 2 : estudio descriptivo-comparativo y vocabulario. Buenos Aires: Instituto de Linguística.  20-38."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Gerzenstein, Ana. 1978. Lengua chorote. Universidad de Buenos Aires, Facultad de Filosofía y Letras, Instituto de Lingüística."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

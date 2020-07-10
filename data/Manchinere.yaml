@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Manchinere
+
+short_name: Manchinere
+
+alternate_names: 
+- Machinere
+
+iso_codes: 
+- mpd
+
+family: Arawak
+
+countries: 
+- Bolivia
+- Brazil
+
+coordinates: 
+- latitude: -10.737
+  longitude: -70.291
+  elevation_meters: 349
+
+phonemes: [p, t, k, ts, tʃ, m, n, s, ʃ, h, j, w, ɾ, i, ɨ, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "dos Santos Silva, Edineide. 2008. Fonética e Análise Fonológica Preliminar Da Lingua Manxinéri. PhD dissertation, Universidade De Brasilia. 5."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

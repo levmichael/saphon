@@ -1,9 +1,0 @@
-name: Mamaindé
-name.short: Mamaindé
-name.comp: Mamainde
-code: wmd
-family: Nambiquaran
-country: Brazil
-geo: -13.630 -60.750 nan
-feat: pʰ p tʰ t kʰ k ʔ m n s h w j l i ĩ ḭ̃ ḭ e ḛ̃ ḛ ẽ a ã̰ a̰ ã o õ̰ o̰ õ u ṵ̃ ṵ ũ tone
-bib: Eberhard, David. 2009. Mamaindê grammar. A northern Nambikwara language and its cultural context. PhD dissertation, Vrije Universiteit Amsterdam.

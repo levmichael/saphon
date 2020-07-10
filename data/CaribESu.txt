@@ -1,9 +1,0 @@
-name: Carib (Suriname dialect)
-name.short: Carib Srnm
-name.comp: CaribESu
-code: car_esr
-family: Carib
-country: Suriname
-geo: 5.640 -55.933 17
-feat: p t k m n s w j ɾ i e a o u ɨ
-bib: Courtz, Hendrik. 2008. A Carib Grammar and Dictionary. Toronto: Magoria Books. 14-22.

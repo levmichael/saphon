@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Arikapú
+
+short_name: Arikapú
+
+alternate_names: 
+-
+
+iso_codes: 
+- ark
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -12.389
+  longitude: -62.511
+  elevation_meters: 193
+
+phonemes: [p, t, k, ʔ, tʃ, m, n, h, j, w, ɾ, i, ĩ, ɨ, u, ũ, ɪ, e, ẽ, o, õ, ə, ə̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- The authors describe /ɾ/as a 'trill/tap'.
+
+
+
+---
+
+doctype: ref
+
+citation: "Arikapú, Mamoa; Nazaré Arikapú; Hein van der Voort & Ana Carolina Ferreira Alves. 2010. Vocabulário Arikapú-Português. Cadernos de Etnolingüística (Série Monografias, 1)."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

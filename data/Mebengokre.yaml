@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Mebengokre
+
+short_name: Mebengokre
+
+alternate_names: 
+- Kayapó
+
+iso_codes: 
+- txu
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -9.000
+  longitude: -52.000
+  elevation_meters: 295
+
+phonemes: [p, b, t, d, k, ɡ, ʔ, tʃ, dʒ, m, n, ɲ, ŋ, j, w, ɾ, i, ĩ, ɯ, ɯ̃, u, ũ, e, ẽ, ɤ, o, õ, ɛ, ʌ, ʌ̃, ɔ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Salanova, Andrés and  Maria Amélia Reis Silva. 2011. Mebengore (Kayapó). In Bonvini, E., J. Busuttil and A. Peyraube (eds.), Dictionnaire des langues. Paris: Presses Universitaires de France."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

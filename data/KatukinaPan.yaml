@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Katukína (Panoan)
+
+short_name: Katukína Pnn
+
+alternate_names: 
+-
+
+iso_codes: 
+- knt
+
+family: Panoan
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -7.893
+  longitude: -71.537
+  elevation_meters: 232
+
+phonemes: [p, t, k, ts, tʃ, m, n, β, s, ʂ, ʃ, h, j, w, ɾ, i, ɨ, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Barros includes a glottal stop /ʔ/ (29) and nasalized vowels /ĩ, ɨ̃, ũ, ã/ (57).
+
+
+
+---
+
+doctype: ref
+
+citation: "De Aguiar, Maria Suelí. 1994. Analise descritiva e teorica do katukina-pano. PhD dissertation, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Barros, Luizete Guimarães. 1987. A nasalização vocálica e fonologia introdutória á língua katukína (páno). M.A. Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

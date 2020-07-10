@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Chaná
+
+short_name: Chaná
+
+alternate_names: 
+-
+
+iso_codes: 
+- qsi
+
+family: Charruan
+
+countries: 
+- Uruguay
+
+coordinates: 
+- latitude: -34.000
+  longitude: -55.000
+  elevation_meters: 250
+
+phonemes: [p, b, t, d, k, ɡ, ʔ, tʃ, m, n, ɲ, s, ʃ, ʒ, h, j, w, l, ɾ, r, i, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Jaime, Blas W. Omar and J. Pedro Viegas Barros. 2013. La lengua Chaná: Patrimonio cultura de Entre Ríos. Editorial de Entre Ríos, Paraná."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

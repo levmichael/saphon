@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Suruahá
+
+short_name: Suruahá
+
+alternate_names: 
+- Suruwahá
+
+iso_codes: 
+- swx
+
+family: Arawan
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -7.576
+  longitude: -64.938
+  elevation_meters: 66
+
+phonemes: [b, t, tʲ, d, dʲ, k, ɡ, dʒ, m, n, nʲ, s, z, ʃ, h, w, ɾ, ɾʲ, i, ɨ, o, ɛ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Suzuki (2000) omits palatal stop /ɟ/ and labio-velar glide /w/ but adds voiced alveolar fricative /z/ and voiceless alveopalatal fricative /ʃ/ (182).
+
+
+
+---
+
+doctype: ref
+
+citation: "Suzuki, Edson Massamiti. 1997. Fonética E Fonologia Do Suruwahá. PhD dissertation, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

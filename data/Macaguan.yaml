@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Macaguán
+
+short_name: Macaguán
+
+alternate_names: 
+-
+
+iso_codes: 
+- mbn
+
+family: Guahiban
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 6.459
+  longitude: -71.286
+  elevation_meters: 156
+
+phonemes: [p, b, t, k, ts, pʰ, tʰ, kʰ, m, n, s, h, j, w, ɭ, ɾ, i, ɯ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Lobo-Guerrero, Miguel and Xochitl Herrera. 2000. El jitnu /'hitnɯ/ del medio rio Ele.In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

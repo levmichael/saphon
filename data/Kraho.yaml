@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Krahô
+
+short_name: Krahô
+
+alternate_names: 
+-
+
+iso_codes: 
+- xra
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -8.000
+  longitude: -48.000
+  elevation_meters: 168
+
+phonemes: [p, t, k, ts, kʰ, m, n, ŋ, h, j, w, l, i, ĩ, iː, ĩː, ɯ, ɯ̃, ɯː, ɯ̃ː, u, ũ, uː, ũː, e, eː, ɤ, ɤː, o, oː, ɛ, ɛ̃, ɛː, ɛ̃ː, ʌ, ʌ̃, ʌː, ʌ̃ː, ɔ, ɔ̃, ɔː, ɔ̃ː, a, ã, aː, ãː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Popjes, Jack and Jo Popjes. 1990. Canela-Krahô. In Desmond Derbyshire and Geoffrey Pullum (eds.), Handbook of Amazonian Languages, Vol. 1. Berlin: Mouton de Gruyter."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Popjes, Jack and Josephine Popjes. 2009. Phonemic Statement of Canela. Anápolis: Associação Internacional de Linguística."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

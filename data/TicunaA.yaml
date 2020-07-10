@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Ticuna of San Martín de Amacayacu
+
+short_name: Ticuna Ama
+
+alternate_names: 
+-
+
+iso_codes: 
+- tca_ama
+
+family: Isolate
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: -3.787
+  longitude: -70.297
+  elevation_meters: 85
+
+phonemes: [p, b, t, d, ɟ, k, ɡ, tʃ, w, ɾ, i, ĩ, ɯ, ɯ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+- Montes Rodríguez (1995) noes that /ɸ/ appears in some other dialects of Ticuna and that /h/ appears in an onomatopoeic word.
+
+
+
+---
+
+doctype: ref
+
+citation: "Montes Rodríguez, María Emilia. 1995. Tonología de la lengua Ticuna (Amacayacu). Colciencias: Univ. de los Andes."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Montes Rodríguez, María Emilia. 2005. Fonología y dialectología del tikuna. Amerindia 29-30. 98-107."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

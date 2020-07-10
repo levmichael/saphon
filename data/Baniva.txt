@@ -1,9 +1,0 @@
-name: Baniwa (Rio Negro)
-name.short: Baniwa (Rio Negro)
-name.comp: Baniva
-code: bwi_rng
-family: Arawak
-country: Venezuela
-geo: 0.053 -67.430 108
-feat: p b t ts d dz k ɡ m n ʂ ʐ h w j ɾ ɺ r i iː e eː a aː u uː tone
-bib: Mosonyi, Esteban Emilio. Introducción al análisis del idioma baniva. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.). Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Cara y Cuervo (2000).

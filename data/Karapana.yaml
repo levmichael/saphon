@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Karapanã
+
+short_name: Karapanã
+
+alternate_names: 
+-
+
+iso_codes: 
+- cbc
+
+family: Tucanoan
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: 0.802
+  longitude: -70.746
+  elevation_meters: 279
+
+phonemes: [p, b, t, d, k, ɡ, s, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+- "[s] and [ts] are in free variation."
+
+
+
+---
+
+doctype: ref
+
+citation: "Metzger, Ronald and Lois Metzger. 1973. Fonología del carapana. In Sistemas fonológicos de idiomas colombianos 2. Bogotá: Ministerio de Gobierno. 121-132"
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

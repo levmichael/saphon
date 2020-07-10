@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Movima
+
+short_name: Movima
+
+alternate_names: 
+-
+
+iso_codes: 
+- mzp
+
+family: Isolate
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -13.825
+  longitude: -65.667
+  elevation_meters: 140
+
+phonemes: [p, t, k, kʷ, ʔ, tʃ, ɓ, ɗ, m, n, β, s, h, j, j̰, w, ɬ, l, ɾ, i, iː, u, uː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Katharina Haude. 2006. A grammar of Movima. PhD dissertation, Radboud Universiteit."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

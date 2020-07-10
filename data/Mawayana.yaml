@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Mawayana
+
+short_name: Mawayana
+
+alternate_names: 
+-
+
+iso_codes: 
+- mzx
+
+family: Arawak
+
+countries: 
+- Suriname
+- Guyana
+
+coordinates: 
+- latitude: 2.359
+  longitude: -56.794
+  elevation_meters: 235
+
+phonemes: [t, k, tʃ, ɓ, ɗ, ʄ, m, n, ɸ, s, ʂ, ʃ, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Coretta, Stefano. 2013. The phonology of Mawayana (Arawakan). Pavia: Università degli Studi di Pavia MA thesis."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

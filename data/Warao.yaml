@@ -1,0 +1,54 @@
+doctype: synthesis
+
+name: Warao
+
+short_name: Warao
+
+alternate_names: 
+-
+
+iso_codes: 
+- wba
+
+family: Isolate
+
+countries: 
+- Venezuela
+- Suriname
+- Guyana
+
+coordinates: 
+- latitude: 9.307
+  longitude: -61.355
+  elevation_meters: 11
+
+phonemes: [p, t, k, kʷ, m, n, s, h, j, w, ɾ, i, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Romero-Figueroa, Andrés. 1997. A Reference Grammar of Warao. Munich: Lincom."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

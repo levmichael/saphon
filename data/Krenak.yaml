@@ -1,0 +1,100 @@
+doctype: synthesis
+
+name: Krenak
+
+short_name: Krenak
+
+alternate_names: 
+-
+
+iso_codes: 
+- kqq
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -19.115
+  longitude: -41.172
+  elevation_meters: 378
+
+phonemes: [p, b, t, d, k, ɡ, ʔ, tʃ, dʒ, m̥, m, n̥, n, ɲ, ɲ̥, ŋ, ŋ̥, ʒ, h, j, w, ɾ, i, ĩ, ɨ, u, ũ, o, ə, ɛ, ɛ̃, ɔ, ɔ̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Pessoa, Katia Nepomuceno. 2012. Análise fonética e fonológica da língua krenak e abordagem preliminar de contos botocudo. PhD dissertation, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Seki, Lucy. 2000. Os Krenak  (Botocudo Borum) e sua língua. In Luis Miranda (ed.), Actas I Congreso De Lenguas Indigenas de Sudamerica 1, pp. 351-374. Lima: Universidad Ricardo Palma."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Seki, Lucy. 2004. Aspectos do morfosintaxe Krenak: oraçõs independentes. Línguas Indígenas Americanas 4: 131-148."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Silva, Thaís Cristofaro Alves da. 1985. Descrição fonética e análise de alguns processos fonológicos da língua Krenak. MA thesis, Universidade Federal de Minas Gerais, Belo Horizonte."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

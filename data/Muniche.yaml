@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Muniche
+
+short_name: Muniche
+
+alternate_names: 
+-
+
+iso_codes: 
+- myr
+
+family: Isolate
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -5.700
+  longitude: -76.100
+  elevation_meters: 188
+
+phonemes: [p, t, d, c, k, ɡ, ʔ, ts, tʃ, ʈʂ, m, n, ɲ, s, ʂ, ʃ, ç, h, j, w, l, ɾ, i, ɨ, u, e, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Michael, Lev, Stephanie Farmer, Gregory Finley, Christine Beier, and Karina Sullón Acosta. 2013. A sketch of Muniche segmental and prosodic phonology. International Journal of American Linguistics 79(3):307-347."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

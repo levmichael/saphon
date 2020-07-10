@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Sanumá
+
+short_name: Sanumá
+
+alternate_names: 
+-
+
+iso_codes: 
+- xsu
+
+family: Yanomam
+
+countries: 
+- Venezuela
+- Brazil
+
+coordinates: 
+- latitude: 5.928
+  longitude: -64.972
+  elevation_meters: 937
+
+phonemes: [p, t, k, ts, tʰ, m, n, s, h, w, l, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, ə, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Borgman, Donald M. 1990. Sanuma. In, Handbook of Amazonian Languages, Volume 2. (Ed.), Desmond C. Derbyshire and Geoffrey K. Pullum. Berlin: Mouton de Gruyter. 220-227."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

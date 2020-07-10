@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Mehináku
+
+short_name: Mehináku
+
+alternate_names: 
+-
+
+iso_codes: 
+- mmh
+
+family: Arawak
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -12.834
+  longitude: -53.427
+  elevation_meters: 325
+
+phonemes: [p, t, k, ts, tʃ, m, n, ʂ, h, j, w, l, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Corbera, Ángel. 2012. Palatalización y asibilación en Mehinaku (Arawak). Talk given at Amazónicas 4, Lima, Peru."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Corbera Mori, Ángel 2008. Aspectos da fonologia segmental Mehináku (Aruák). Estudos Lingüísticos, 37(1). 63-72."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

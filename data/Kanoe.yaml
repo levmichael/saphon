@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Kanoé
+
+short_name: Kanoé
+
+alternate_names: 
+-
+
+iso_codes: 
+- kxo
+
+family: Isolate
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -11.897
+  longitude: -64.752
+  elevation_meters: 157
+
+phonemes: [p, t, k, ts, m, n, ɲ, β, x, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, æ, æ̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Bacelar, Laércio Nora. 2004. Gramática Da Língua Kanoê: descrição gramatical de uma língua isolada e ameaçada de extinção, falada ao sul do estado de Rondônia, Brasil. PhD dissertation, Katholieke Universiteit Nijmegen. 46-97."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,69 @@
+doctype: synthesis
+
+name: Omagua
+
+short_name: Omagua
+
+alternate_names: 
+-
+
+iso_codes: 
+- omg
+
+family: Tupí
+
+countries: 
+- Peru
+- Brazil
+
+coordinates: 
+- latitude: -4.288
+  longitude: -73.430
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, kʷ, ts, tʃ, m, n, s, ʃ, j, w, ɾ, i, ɨ, u, ɪ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Sandy, Clare and Zachary O'Hagan. 2014. Phonological Sketch of Omagua. Ms., University of California, Berkeley."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "O'Hagan, Zachary and Clare Sandy. 2010. Omagua Phonology. Ms., University of California, Berkeley."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

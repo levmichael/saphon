@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Nukini
+
+short_name: Nukini
+
+alternate_names: 
+-
+
+iso_codes: 
+- nuc
+
+family: Panoan
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -7.419
+  longitude: -72.416
+  elevation_meters: 186
+
+phonemes: [p, b, t, k, m, n, ŋ, f, v, s, x, j, w, ɾ, i, ĩ, u, ũ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Gomes, Graziela de Jesus. 2009. Uma introduçao descritiva da estrutura silábica da língua nukini-pano. Anais Do Seta 3: 416-426."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Okidoi, A. 2004. Descrição fonológica preliminar da língua indígena nukini-pano. BA thesis, Universidade Federal de Goiás."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

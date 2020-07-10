@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Yurutí
+
+short_name: Yurutí
+
+alternate_names: 
+- Wajiara
+
+iso_codes: 
+- yui
+
+family: Tucanoan
+
+countries: 
+- Colombia
+- Brazil
+
+coordinates: 
+- latitude: 0.782
+  longitude: -70.169
+  elevation_meters: 198
+
+phonemes: [p, b, t, d, k, ɡ, s, h, j, w, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: True
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Kinch, Rodney and Pamela Kinch. 2000. El yurutí. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. Bogotá: Instituto Caro y Cuervo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

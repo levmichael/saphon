@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Jurúna
+
+short_name: Jurúna
+
+alternate_names: 
+-
+
+iso_codes: 
+- jur
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -5.000
+  longitude: -54.300
+  elevation_meters: 267
+
+phonemes: [p, b, t, d, k, ʔ, tʃ, dʒ, m, n, s, z, ʃ, h, j, w, ɮ, ɾ, i, ĩ, iː, ɨ, ɨ̃, ɨː, u, ũ, uː, e, ẽ, eː, a, ã, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+- "Fargetti (2007: 74) offers one minimal pair showing a length contrast for the nasal vowel /ɨ̃/. However, she does not claim that a phonemic length contrast exists for all nasal vowels."
+
+
+
+---
+
+doctype: ref
+
+citation: "Fargetti, Cristina Martins. 1992. Análise fonológica da língua juruna. MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Fargetti, Cristina Martins. 2007. Estudo fonológico e morfossintático da língua juruna. München: LINCOM Europe."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

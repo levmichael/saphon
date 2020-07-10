@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Aikanã
+
+short_name: Aikanã
+
+alternate_names: 
+-
+
+iso_codes: 
+- tba
+
+family: Isolate
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -12.661
+  longitude: -60.668
+  elevation_meters: 341
+
+phonemes: [p, b, t, tˣ, d, k, ʔ, ts, m, n, ɲ, ð̞, j, w, ɾ, i, ĩ, y, u, ũ, e, ẽ, o, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- ð̞ is an approximant that sometimes surfaces as a laminal [z].
+
+
+
+---
+
+doctype: ref
+
+citation: "Van de Voort, Hein. 2010. personal communication."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

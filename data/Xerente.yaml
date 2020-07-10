@@ -1,0 +1,85 @@
+doctype: synthesis
+
+name: Xerénte
+
+short_name: Xerénte
+
+alternate_names: 
+-
+
+iso_codes: 
+- xer
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -10.000
+  longitude: -48.100
+  elevation_meters: 483
+
+phonemes: [p, b, t, d, k, m, n, s, z, h, j, w, ɾ, i, ĩ, ɨ, u, ũ, e, ẽ, o, õ, ə, ə̃, ɛ, ɔ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- de Sousa Filho does not include segments /j/ and /ə/ in his inventory (73-74).
+- Mattos does not include /j/, /m/, and /n/ (3). He also includes nasalized vowels /ĩ, ũ, ɛ̃, ã, ɔ̃/ (5).
+
+
+
+---
+
+doctype: ref
+
+citation: "de Souza, Shelton Lima. 2008. Descriçao fonético-fonológico da língua akwen-xerente. PhD dissertation, Universidade de Brasília."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "de Sousa, Sinval Martins. 2007. Aspectos morfossintáticos da língua akwẽ-xerente (jê). PhD dissertation, Universidade Federal de Goiás."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "de Mattos, Rinaldo. 1973. Fonêmica xerente. Série lingüística 1. Brasília: SIL."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

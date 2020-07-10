@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Yukpa (Macoíta)
+
+short_name: Yukpa Mac
+
+alternate_names: 
+-
+
+iso_codes: 
+- yup_mac
+
+family: Carib
+
+countries: 
+- Venezuela
+
+coordinates: 
+- latitude: 10.140
+  longitude: -72.640
+  elevation_meters: .NAN
+
+phonemes: [p, t, d, k, tʃ, m, n, ɲ, β, ʃ, ɣ, h, j, w, ɾ, i, ɨ, u, ɛ, ɔ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Hildebrandt, Martha. 1958. Sistema fonémico del macoíta. Carácas: Comisión Indigenista, Ministerio de Justicia."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

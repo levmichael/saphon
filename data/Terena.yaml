@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Terêna
+
+short_name: Terêna
+
+alternate_names: 
+-
+
+iso_codes: 
+- ter
+
+family: Arawak
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -20.000
+  longitude: -56.000
+  elevation_meters: 126
+
+phonemes: [p, t, k, ʔ, m, n, s, ʃ, h, j, w, l, ɾ, i, iː, u, uː, o, oː, ɛ, ɛː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+- Martins posits /v/ where Silva posits /w/.
+
+
+
+---
+
+doctype: ref
+
+citation: "Silva, Denise. 2008. Descrição fonológica da língua Terena (Aruak). MA thesis, Universidade Federal de Mato Grosso do Sul."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Martins, Cosme Romero. 2009. Fonologia da língua Terena. MA thesis, Universidade de Sao Paulo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

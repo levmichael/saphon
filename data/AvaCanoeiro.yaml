@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Avá-Canoeiro
+
+short_name: Avá-Canoeiro
+
+alternate_names: 
+-
+
+iso_codes: 
+- avv
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -11.213
+  longitude: -50.609
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, kʷ, tʃ, m, n, ŋ, ʁ, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Borges, Mônica Veloso. 2006. Aspectos fonológicos e morfossintáticos da língua avá-ganoeiro (tupí-guaraní). PhD dissertation, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

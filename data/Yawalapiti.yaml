@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Yawalapití
+
+short_name: Yawalapití
+
+alternate_names: 
+-
+
+iso_codes: 
+- yaw
+
+family: Arawak
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -12.672
+  longitude: -53.561
+  elevation_meters: 335
+
+phonemes: [p, t, k, ts, tʃ, m, n, ɲ, ʂ, ʃ, h, j, w, l, ʎ, ɾ, r̥, i, ɨ, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Mujica describes the segment /r̥/ as a 'vibrante alveolar ensurdecido com fricção'.
+
+
+
+---
+
+doctype: ref
+
+citation: "Mujica, Mitzila Isabel Ortega. 1992. Aspectos fonológicos e gramaticais da língua Yawalapití (Aruak). MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Yuqui
+
+short_name: Yuqui
+
+alternate_names: 
+-
+
+iso_codes: 
+- yuq
+
+family: Tupí
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -16.750
+  longitude: -64.840
+  elevation_meters: .NAN
+
+phonemes: [p, b, t, d, k, kʲ, kʷ, ɡ, ɡʷ, ʔ, tʃ, m, n, ɲ, s, ʝ, x, xʲ, xʷ, ɾ, i, ĩ, iː, ĩː, u, ũ, uː, ũː, e, ẽ, eː, ẽː, o, õ, oː, õː, a, ã, aː, ãː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Villafañe, Lucrecia. 2004. Gramática yukí: Lengua tupí-guaraní de Bolivia. Tucamán, Argentina: Ediciones del Rectorado Universidad Nacional de Tucamán. 13-22."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

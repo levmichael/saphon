@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Jauja-Huanca Quechua
+
+short_name: Jauja-Huanca
+
+alternate_names: 
+-
+
+iso_codes: 
+- qxw
+
+family: Quechua
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -12.073
+  longitude: -75.219
+  elevation_meters: 3449
+
+phonemes: [p, t, k, tʃ, ʈʂ, m, n, ɲ, s, ʃ, h, j, w, l, ʎ, ɾ, i, iː, u, uː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Wroughton, John R. 1996. Gramática y textos del quechua Shausha Huanca. Documento de Trabajo 30. Yarinacocha: Ministerio de Educación and Instituto Lingüístico de Verano. 15-16."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

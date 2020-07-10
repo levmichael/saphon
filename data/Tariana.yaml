@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Tariana
+
+short_name: Tariana
+
+alternate_names: 
+-
+
+iso_codes: 
+- tae
+
+family: Arawak
+
+countries: 
+- Colombia
+- Brazil
+
+coordinates: 
+- latitude: 0.380
+  longitude: -68.740
+  elevation_meters: 135
+
+phonemes: [p, b, t, d, k, tʃ, pʰ, tʰ, dʰ, kʰ, mʰ, m, nʰ, n, ɲʰ, ɲ, s, h, j, wʰ, w, l, ɾ, i, ĩ, iː, ɨ, u, ũ, uː, e, ẽ, eː, o, õ, a, ã, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Aikhenvald observes that /ɡ/ occurs (only) in loans from Portuguese.
+
+
+
+---
+
+doctype: ref
+
+citation: "Aikhenvald, Alexandra.Y. 2003. A Grammar of Tariana, from Northwest Amazonia. Cambridge: Cambridge University Press. 25"
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

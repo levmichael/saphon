@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Siriano
+
+short_name: Siriano
+
+alternate_names: 
+-
+
+iso_codes: 
+- sri
+
+family: Tucanoan
+
+countries: 
+- Brazil
+- Colombia
+
+coordinates: 
+- latitude: 0.789
+  longitude: -69.244
+  elevation_meters: 162
+
+phonemes: [p, b, t, d, k, ɡ, s, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Criswell, Linda and Beverly Brandrup. 2000. Un bosequjo fonológico del siriano. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. Bogotá: Instituto Caro y Cuervo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,85 @@
+doctype: synthesis
+
+name: Sáliba
+
+short_name: Sáliba
+
+alternate_names: 
+-
+
+iso_codes: 
+- slc
+
+family: Salivan
+
+countries: 
+- Colombia
+- Venezuela
+
+coordinates: 
+- latitude: 6.000
+  longitude: -70.000
+  elevation_meters: 104
+
+phonemes: [p, b, t, d, c, ɟ, k, kʷ, ɡ, ɡʷ, m, n, ɲ, ɸ, s, x, h, hʷ, l, ɾ, i, ĩ, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- González Rátiva & Estrada (2008) provide phonetic evidence for glottalized versions of all five vowel qualities rather than a glottal stop between or after vowels. They also mention the presence of long vowels. Their discussion centers on the phonetic rather than phonemic status of these segments, so we have not included these segments as phonemes here. They also mention that in Orocué there is the segment [ɸʷ], but they do not provide evidence that this segment is a contrastive phoneme.
+
+
+
+---
+
+doctype: ref
+
+citation: "Estrada Ramírez, Hortensia. 2000. La lengua sáliba. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. 683-684."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Estrada Ramirez, Hortensia. 1996. La lenga sáliba: Clases nominales y sistema de concordancia. Bogotá: Colcultura. 4-16."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "González Rátiva, María Claudia and Hortensia Estrada. 2008. Aproximación fonético-espectrográfica de algunos aspectos de la fonología sáliba. Lingüística y Literatura 54. 15-53."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

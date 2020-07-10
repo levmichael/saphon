@@ -1,0 +1,69 @@
+doctype: synthesis
+
+name: Nhandeva
+
+short_name: Nhandeva
+
+alternate_names: 
+-
+
+iso_codes: 
+- nhd
+
+family: Tupí
+
+countries: 
+- Bolivia
+- Paraguay
+
+coordinates: 
+- latitude: -19.660
+  longitude: -61.730
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, kʷ, ɡ, ɡʷ, ʔ, ts, tʃ, dʒ, mb, nd, ŋɡ, j, ɰ, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, ɛ, ɛ̃, ɔ, ɔ̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Costa, Consuelo. 2003. Nhandewa Aywu. MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Costa, Consuelo de Paiva Godinho. 2007. Apyngwa rupigwa: nasalização em Nhandewa-Guarani. PhD dissertation, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

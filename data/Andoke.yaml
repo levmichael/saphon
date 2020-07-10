@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Andoke
+
+short_name: Andoke
+
+alternate_names: 
+-
+
+iso_codes: 
+- ano
+
+family: Isolate
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: -0.400
+  longitude: -72.000
+  elevation_meters: 177
+
+phonemes: [p, b, t, d, ɟ, k, ɲ, ɸ, s, h, ɾ, i, ĩ, iː, ɯ, ɯː, u, uː, e, ẽ, eː, ɤ, ɤ̃, ɤː, o, õ, oː, a, ã, aː, ɑ, ɑː, ɒ, ɒ̃, ɒː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Lanaburu, Jon. 2000. La lengua andoque.In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

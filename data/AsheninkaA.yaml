@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Ashéninka (Apurucayali dialect)
+
+short_name: Ashéninka Ap
+
+alternate_names: 
+-
+
+iso_codes: 
+- cpc
+
+family: Arawak
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -10.018
+  longitude: -74.793
+  elevation_meters: 1306
+
+phonemes: [p, t, k, ts, tʃ, tʰ, tsʰ, tʃʰ, m, n, ɲ, N, s, ç, h, ʋ, j, ɰ, ɾ, ɾʲ, i, iː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Payne, David, Judith Payne, and Jorge Sanchez Santos. 1982. Morfología, fonología, y fonética del Ashéninca del Apurucayali. Lima: Ministerio de Educación and Instituto Lingüístico de Verano."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,69 @@
+doctype: synthesis
+
+name: Kwaza
+
+short_name: Kwaza
+
+alternate_names: 
+-
+
+iso_codes: 
+- xwa
+
+family: Isolate
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -12.350
+  longitude: -60.400
+  elevation_meters: 340
+
+phonemes: [p, t, t̺, k, ʔ, ts, tʃ, ɓ, ɗ, m, n, ɲ, s, s̺, h, j, w, l, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, ɛ, ɛ̃, œ, œ̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- "Van der Voort (2004: 52) states that [b] and [d] are possible variants of the implosives /ɓ/ and /ɗ/."
+- "The \"apico-(post-)alveolar fricative\" (/x/) of van der Voort (2004: 54) and the \"voiceless post-alveolar apical plosive\" (/c/) (56), are represented here as /s̺/ and /t̺/ respectively."
+
+
+
+---
+
+doctype: ref
+
+citation: "Van der Voort, Hein. 2000. Kwaza or Koaiá, an Unclassified Language of Rondônia, Brazil. Indigenous Languages of Latin America 1. Leiden University, the Netherlands: CNWS Publications. 39-52."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Van der Voort, Hein. 2004. A Grammar of Kwaza. Berlin: Mouton de Gruyter. 45-68."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

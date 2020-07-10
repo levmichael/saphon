@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Puri
+
+short_name: Puri
+
+alternate_names: 
+-
+
+iso_codes: 
+- prr
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -20.584
+  longitude: -42.242
+  elevation_meters: 1331
+
+phonemes: [p, b, t, k, tʃ, mp, m, n, ɲ, ʃ, j, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Neto constructs a hypothetical inventory of Puri based on phonological data from various scholars (22).
+
+
+
+---
+
+doctype: ref
+
+citation: "Neto, Ambrósio Pereira da Silva. 2007. Revisão da Classificaçao Da Família Lingüística Purí. PhD dissertation, Universidade de Brasília."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

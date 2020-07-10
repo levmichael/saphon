@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Wayoró
+
+short_name: Wayoró
+
+alternate_names: 
+-
+
+iso_codes: 
+- wyr
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -12.326
+  longitude: -62.618
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, kʷ, ɡ, ɡʷ, tʃ, m, n, ɲ, ŋ, ŋʷ, β, ɾ, i, ĩ, iː, ĩː, ɨ, ɨ̃, ɨː, ɨ̃ː, o, õ, oː, õː, ɛ, ɛ̃, ɛː, ɛ̃ː, a, ã, aː, ãː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "de Souza Nogueira, Antonia Fernanda. 2011. Wayoro ẽmẽto: fonologia segmental e morfossintaxe verbal. PhD dissertation, University of São Paulo"
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Pacahuara
+
+short_name: Pacahuara
+
+alternate_names: 
+-
+
+iso_codes: 
+- pcp
+
+family: Panoan
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -11.891
+  longitude: -65.279
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, ʔ, ts, tʃ, m, n, β, s, ʂ, ʃ, h, j, w, ɾ, i, ɨ, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Tallman, Adam J. 2012. personal communication."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

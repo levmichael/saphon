@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Huallaga Huánuco Quechua
+
+short_name: Huallaga H Q
+
+alternate_names: 
+-
+
+iso_codes: 
+- qub
+
+family: Quechua
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -9.390
+  longitude: -76.543
+  elevation_meters: 2497
+
+phonemes: [p, t, k, q, tʃ, m, n, ɲ, s, ʃ, h, j, w, l, ʎ, ɾ, i, iː, u, uː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Phonemes /b/, /d/, /g/, /β/, /ʐ/, /e/, /o/ are found only in onomatopoetic expressions or Spanish loan words.
+
+
+
+---
+
+doctype: ref
+
+citation: "Weber, David John. 1989. A Grammar of Huallaga (Huánuco) Quechua. University of California Publications in Linguistics 112. Berkeley: University of California Press."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

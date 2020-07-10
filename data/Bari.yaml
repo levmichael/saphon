@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Barí
+
+short_name: Barí
+
+alternate_names: 
+-
+
+iso_codes: 
+- mot
+
+family: Chibchan
+
+countries: 
+- Venezuela
+- Colombia
+
+coordinates: 
+- latitude: 9.000
+  longitude: -73.000
+  elevation_meters: 130
+
+phonemes: [b, t, d, k, m, n, ɲ, s, h, r, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Mogollón, María. 2000. Fonología del barí. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Cara y Cuervo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

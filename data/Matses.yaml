@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Matsés
+
+short_name: Matsés
+
+alternate_names: 
+-
+
+iso_codes: 
+- mcf
+
+family: Panoan
+
+countries: 
+- Brazil
+- Peru
+
+coordinates: 
+- latitude: -5.659
+  longitude: -73.035
+  elevation_meters: 107
+
+phonemes: [p, b, t, d, k, ts, tʃ, ʈʂ, m, n, s, ʂ, ʃ, j, w, i, ɨ, ɯ, e, ɤ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Fleck transcribes Matsés' two back vowels as /u/ and /o/, but he describes them as “unrounded, and therefore more accurately transcribed using the IPA [ɯ] and [ɤ]” (72). Therefore, we have chosen to represent them as /ɯ/ and /ɤ/.
+
+
+
+---
+
+doctype: ref
+
+citation: "Fleck, David William. 2003. A grammar of Matses. PhD dissertation, Rice University."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Yawanawa
+
+short_name: Yawanawa
+
+alternate_names: 
+-
+
+iso_codes: 
+- ywn
+
+family: Panoan
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -9.064
+  longitude: -71.949
+  elevation_meters: 298
+
+phonemes: [p, t, k, ts, tʃ, m, n, β, s, ʂ, ʃ, h, j, w, ɾ, i, ɨ, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Cruvinel, Agmar. 2009. Propostas de protoformas fonológicas e lexiais para as linguas yaminawa, yawanawa e yoranawa. BA thesis, Universidade de Estadual de Goiás."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

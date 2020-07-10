@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Yurakaré
+
+short_name: Yurakaré
+
+alternate_names: 
+-
+
+iso_codes: 
+- yuz
+
+family: Isolate
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -16.593
+  longitude: -65.255
+  elevation_meters: 213
+
+phonemes: [p, b, t, d, ɟ, k, ʔ, tʃ, m, n, ɲ, s, ʃ, ʒ̺, h, j, w, l, i, ɨ, u, e, o, æ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Van Gijn, Rik. 2006. A grammar of Yurakaré. PhD dissertation, Radboud Universiteit."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

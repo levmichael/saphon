@@ -1,0 +1,69 @@
+doctype: synthesis
+
+name: Amahuaca
+
+short_name: Amahuaca
+
+alternate_names: 
+-
+
+iso_codes: 
+- amc
+
+family: Panoan
+
+countries: 
+- Peru
+- Brazil
+
+coordinates: 
+- latitude: -10.474
+  longitude: -72.641
+  elevation_meters: 317
+
+phonemes: [p, t, k, ʔ, ts, tʃ, m, n, s, ʃ, x, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Osborn, Henry. 1948. Amahuaca phonemes. International Journal of American Linguistics 14: 188-190."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Russell, Robert & Dolores. 1959. Syntactotonemics in Amahuaca (Pano). Série Lingüistica Especial, 128-167. Publicaçoes do Museu Nacional, Rio de Janeiro, Brasil."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

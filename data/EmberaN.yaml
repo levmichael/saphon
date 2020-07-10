@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Northern Emberá
+
+short_name: North Emberá
+
+alternate_names: 
+-
+
+iso_codes: 
+- emp
+
+family: Choco
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 6.673
+  longitude: -77.365
+  elevation_meters: 188
+
+phonemes: [p, b, t, d, k, ɡ, ts, tʃ, ɓ, ɗ, ɠ, kʰ, m, n, s, h, j, w, ɾ, r, i, ĩ, ɯ, ɯ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Hoyos Benítez, Mario Edgar. 2000. Informe sobre la lengua embera del Río Napipí. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Cara y Cuervo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

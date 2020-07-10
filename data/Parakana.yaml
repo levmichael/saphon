@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Parakanã
+
+short_name: Parakanã
+
+alternate_names: 
+-
+
+iso_codes: 
+- pak
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -5.822
+  longitude: -52.511
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, kʷ, ʔ, tʃ, m, n, ŋ, β, h, ɾ, i, ɨ, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "da Silva, Gino Ferreira. 2003. Construindo um dicionário parakanã-portugûes. MA thesis, Universidade Federal do Pará."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

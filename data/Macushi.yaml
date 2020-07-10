@@ -1,0 +1,70 @@
+doctype: synthesis
+
+name: Macushi
+
+short_name: Macushi
+
+alternate_names: 
+-
+
+iso_codes: 
+- mbc
+
+family: Carib
+
+countries: 
+- Guyana
+- Brazil
+- Venezuela
+
+coordinates: 
+- latitude: 4.000
+  longitude: -60.000
+  elevation_meters: 348
+
+phonemes: [p, t, k, ʔ, m, n, s, j, w, ɾ, i, iː, ɨ, ɨː, u, uː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Carson (1981) posits /ŋ/, which is absent in Abbot (1991).
+
+
+
+---
+
+doctype: ref
+
+citation: "Abbott, Miriam. 1991. Macushi. In Desmond Derbyshire and Geoffrey Pullum (eds.), Handbook of Amazonian Languages Vol. 3, pp. 23-160. Berlin: Mouton de Gruyter."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Carson, Neusa. 1981. Phonology and Morphosyntax of Macuxi (Carib). PhD dissertation, University of Kansas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

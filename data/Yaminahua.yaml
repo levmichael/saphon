@@ -1,0 +1,54 @@
+doctype: synthesis
+
+name: Yaminawa
+
+short_name: Yaminawa
+
+alternate_names: 
+- Yaminahua
+
+iso_codes: 
+- yaa
+
+family: Panoan
+
+countries: 
+- Brazil
+- Bolivia
+- Peru
+
+coordinates: 
+- latitude: -9.815
+  longitude: -72.813
+  elevation_meters: 231
+
+phonemes: [p, t, k, ts, tʃ, m, n, ɸ, s, ʂ, ʐ, ʃ, h, j, ɯ, ɯ̃, ɪ, ɪ̃, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Faust, Norma and Eugene E. Loos. 2002. Gramática del idioma yaminahua. Serie lingüística peruana, 51. Lima: Instituto Lingüístico de Verano."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

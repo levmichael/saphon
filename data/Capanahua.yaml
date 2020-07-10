@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Capanahua
+
+short_name: Capanahua
+
+alternate_names: 
+-
+
+iso_codes: 
+- kaq
+
+family: Panoan
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -6.414
+  longitude: -74.391
+  elevation_meters: 150
+
+phonemes: [p, t, k, ʔ, ts, tʃ, m, n, β, s, ʂ, ʃ, h, j, w, ɾ, i, iː, ɨ, ɨː, u, uː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Elías-Ulloa, José. 2009. The distribution of laryngeal segments in Capanahua. International Journal of American Linguistics 75 (2): 159-206."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Loos, Eugene E. 1969. The phonology of Capanahua and its grammatical basis. Norman: SIL and U. Oklahoma."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

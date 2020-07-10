@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Japreria
+
+short_name: Japreria
+
+alternate_names: 
+-
+
+iso_codes: 
+- jru
+
+family: Carib
+
+countries: 
+- Venezuela
+
+coordinates: 
+- latitude: 10.692
+  longitude: -72.625
+  elevation_meters: 604
+
+phonemes: [p, t, k, ʔ, tʃ, m, n, s, ʃ, h, ʋ, j, ɾ, ʀ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Oquendo, Luís. 2004. La vibrant uvular y la approximate labiodental en la lengua japreria como cultura fonológica. Opción 20(45): 60-74."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

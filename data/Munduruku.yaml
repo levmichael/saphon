@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Mundurukú
+
+short_name: Mundurukú
+
+alternate_names: 
+-
+
+iso_codes: 
+- myu
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -7.065
+  longitude: -58.004
+  elevation_meters: 169
+
+phonemes: [p, b, t, d, k, ʔ, tʃ, dʒ, m, n, ŋ, s, ʃ, h, j, w, ɾ, i, ĩ, ḭ, ḭ̃, e, ẽ, ḛ, ḛ̃, o, õ̰, o̰, õ, ə, ə̃, ə̰, ə̰̃, a, ã, a̰, ã̰]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Picanço, Gessiane Lobato. 2005. Mundurukú: phonetics, phonology, synchrony, diachrony. PhD dissertation, University of British Columbia."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

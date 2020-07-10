@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Yekwana
+
+short_name: Yekwana
+
+alternate_names: 
+- Maquiritari
+
+iso_codes: 
+- mch
+
+family: Carib
+
+countries: 
+- Brazil
+- Venezuela
+
+coordinates: 
+- latitude: 4.719
+  longitude: -64.688
+  elevation_meters: .NAN
+
+phonemes: [t, k, ʔ, tʃ, m, n, ɲ, s, h, j, w, ɾ, i, iː, ɨ, ɨː, u, uː, e, eː, o, oː, ə, əː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Cáceres, Natalia. 2007. Introduction a la langue des Ye'kwana: Profil sociolinguistique et esquisse phonologique. MA thesis, Université Lumière Lyon 2."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

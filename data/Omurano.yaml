@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Omurano
+
+short_name: Omurano
+
+alternate_names: 
+-
+
+iso_codes: 
+- omu
+
+family: Isolate
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -4.676
+  longitude: -75.669
+  elevation_meters: .NAN
+
+phonemes: [p, b, t, tʃ, m, n, ɲ, j, l, ɾ, i, ĩ, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "O'Hagan, Zachary. 2015. Bosquejo fonológico del omurano. Ms., University of California, Berkeley."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

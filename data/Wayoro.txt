@@ -1,9 +1,0 @@
-name: Wayoró
-name.short: Wayoró
-name.comp: Wayoro
-code: wyr
-family: Tupí
-country: Brazil
-geo: -12.326 -62.618 nan
-feat: p t tʃ k kʷ ɡ ɡʷ m n ɲ ŋ ŋʷ β ɾ i ĩ iː ĩː ɛ ɛ̃ ɛː ɛ̃ː a ã aː ãː o õ oː õː ɨ ɨ̃ ɨː ɨ̃ː
-bib: de Souza Nogueira, Antonia Fernanda. 2011. Wayoro ẽmẽto: fonologia segmental e morfossintaxe verbal. PhD dissertation, University of São Paulo

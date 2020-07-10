@@ -1,0 +1,58 @@
+doctype: synthesis
+
+name: Aché
+
+short_name: Aché
+
+alternate_names: 
+-
+
+iso_codes: 
+- guq
+
+family: Tupí
+
+countries: 
+- Paraguay
+
+coordinates: 
+- latitude: -25.446
+  longitude: -56.727
+  elevation_meters: 126
+- latitude: -24.931
+  longitude: -55.588
+  elevation_meters: 268
+- latitude: -25.244
+  longitude: -55.374
+  elevation_meters: 252
+
+phonemes: [p, b, t, d, k, ɡ, ʔ, tʃ, dʒ, mb, nd, ŋɡ, ndʒ, m, n, ɲ, ɸ, β, v, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Roessler, Eva-Maria. 2008. Aspectos da gramática achê: descrição e reflexão sobre uma hipótese de contato. MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

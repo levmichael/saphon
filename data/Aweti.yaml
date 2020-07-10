@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Awetí
+
+short_name: Awetí
+
+alternate_names: 
+-
+
+iso_codes: 
+- awe
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -12.955
+  longitude: -53.690
+  elevation_meters: 353
+
+phonemes: [p, t, k, ʔ, ts, m, n, ŋ, ʐ, ɣ, j, w, l, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, ɛ, ɛ̃, ɔ, ɔ̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Drude, Sebastian. 2011. personal communication."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

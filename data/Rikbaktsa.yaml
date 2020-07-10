@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Rikbaktsa
+
+short_name: Rikbaktsa
+
+alternate_names: 
+-
+
+iso_codes: 
+- rkb
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -11.500
+  longitude: -57.300
+  elevation_meters: 258
+
+phonemes: [p, b, t, d, k, tʃ, m, n, ʃ, h, j, w, ɾ, ɽ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, ə, ə̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Silva, Léia de Jesus. 2005. Aspectos da fonologia e da morfologia da língua Rikbáktsa. PhD dissertation, Universidade de Brasília."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

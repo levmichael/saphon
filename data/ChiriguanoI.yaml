@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Chiriguano (Izoceño dialect)
+
+short_name: Chiriguano I
+
+alternate_names: 
+-
+
+iso_codes: 
+- gui_izo
+
+family: Tupí
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -20.000
+  longitude: -63.000
+  elevation_meters: 305
+
+phonemes: [p, t, k, kʷ, ɡʷ, mb, nd, ŋɡ, β, s, ʝ, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Dietrich, Wolf. 1986. El Idioma chiriguano: Gramática, textos, vocabulario. Madrid: Instituto de Cooperación Iberoamericana. 45-50."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

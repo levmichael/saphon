@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Mocoví
+
+short_name: Mocoví
+
+alternate_names: 
+-
+
+iso_codes: 
+- moc
+
+family: Guaicuru
+
+countries: 
+- Argentina
+
+coordinates: 
+- latitude: -28.406
+  longitude: -59.412
+  elevation_meters: 154
+
+phonemes: [p, t, d, k, q, ʔ, tʃ, dʒ, m, n, ɲ, s, ʃ, ɣ, ʁ, h, j, w, l, ʎ, ɾ, i, iː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Coria, Teresa, et al. 2006. Lengua, cultura e historia mocoví in Santa Fe. Buenos Aires: Universidad de Buenos Aires, Facultad de Filosofía y Letras. 190-192."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Grondona, Veronica María. 1998. A Grammar of Mocovi. PhD dissertation, University of Pittsburgh."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

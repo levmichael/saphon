@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Karajá
+
+short_name: Karajá
+
+alternate_names: 
+-
+
+iso_codes: 
+- kpj
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -10.000
+  longitude: -50.200
+  elevation_meters: 173
+
+phonemes: [b, d, k, ɗ, θ, h, w, l, ɾ, i, ĩ, ɨ, ɨ̘, u, ɪ, ʊ, e, ɘ, o, õ, ə, ə̃, ɛ, ɔ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Ribeiro, Eduardo Rivail. 2001. Empréstimos Tupí-Guaraní em Karajá. Revista do Museu Antropológico, 5/6. Goiânia: Editora da Universidade Federal de Goiás. 75-100."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Ribeiro, Eduardo Rivail. 2012. A grammar of Karajá. Chicago: University of Chicago dissertation."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

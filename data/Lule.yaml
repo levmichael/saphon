@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Lule
+
+short_name: Lule
+
+alternate_names: 
+-
+
+iso_codes: 
+- lul
+
+family: Isolate
+
+countries: 
+- Argentina
+
+coordinates: 
+- latitude: -24.800
+  longitude: -65.400
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, ʔ, ts, pʼ, tʼ, kʼ, m, n, s, x, j, w, ɬ, l, i, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Viegas Barros, J. Pedro. 2001. Proto-Lule-Vilela: Una reconstrucción fonológica preliminar. Ms., available online: http://www.adilq.com.ar/Viegas-Barros.htm."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

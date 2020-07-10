@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Tinigua
+
+short_name: Tinigua
+
+alternate_names: 
+-
+
+iso_codes: 
+- tit
+
+family: Isolate
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 2.345
+  longitude: -73.304
+  elevation_meters: 211
+
+phonemes: [p, b, t, d, c, ɟ, k, kʷ, ɡ, ts, tʃ, pʰ, tʰ, kʰ, m, n, ɲ, ɸ, s, z, h, w, i, ḭ, iː, ɨ, ɨ̰, ɨː, u, ṵ, uː, e, ḛ, eː, o, o̰, oː, a, a̰, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Tobar, Nubia. 2000. La lengua tinigua. Anotaciones fonológicas y morfológicas. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

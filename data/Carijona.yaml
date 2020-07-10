@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Carijona
+
+short_name: Carijona
+
+alternate_names: 
+-
+
+iso_codes: 
+- cbd
+
+family: Carib
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 0.148
+  longitude: -70.708
+  elevation_meters: 216
+
+phonemes: [b, t, d, k, ɡ, tʃ, dʒ, m, n, ɲ, s, h, w, ɾ, i, ɨ, u, e, o, ə, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Robayo Moreno, Camilo Alberto. 2001. Avance sobre morfología carijona. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Santafe de Bogotá: Instituto Caro y Cuervo. 171."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

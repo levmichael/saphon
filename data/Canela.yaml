@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Canela
+
+short_name: Canela
+
+alternate_names: 
+-
+
+iso_codes: 
+- ram
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -7.000
+  longitude: -45.000
+  elevation_meters: 262
+
+phonemes: [p, t, k, ʔ, tʃ, m, n, ɲ, ŋ, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, o, ə, ɛ, ɛ̃, ɜ, ɔ, ɔ̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Amado, Rosane de Sá and Lilian de Carvalho de Souza. 2007. Notas sobre a Fonologia da Língua Timbira. ReVEL 4(7)."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

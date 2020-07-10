@@ -1,0 +1,84 @@
+doctype: synthesis
+
+name: Selk'nam
+
+short_name: Selk'nam
+
+alternate_names: 
+-
+
+iso_codes: 
+- ona
+
+family: Chon
+
+countries: 
+- Argentina
+
+coordinates: 
+- latitude: -54.483
+  longitude: -67.083
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, q, ʔ, tʃ, pʼ, tʼ, kʼ, qʼ, tʃʼ, m, n, s̪, s, ʂ, ʃ, x, h, j, w, l, ɾ, ɪ, ʊ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Rojas-Berscia, Luis Miguel. 2014. A heritage reference grammar of Selk'nam. Nijmegen: Radboud University MA thesis."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Viegas, Pedro Barros. 2005. Voces en el viento: Raíces lingüísticas de la Patagonia. Buenos Aires: Mondragon Ediciones. 56."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Meroz, Yoram. p.c."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

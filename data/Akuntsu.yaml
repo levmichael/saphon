@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Akuntsú
+
+short_name: Akuntsú
+
+alternate_names: 
+-
+
+iso_codes: 
+- aqz
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -12.736
+  longitude: -60.805
+  elevation_meters: 289
+
+phonemes: [p, t, k, kʷ, ʔ, m, n, ŋ, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, ɛ, ɛ̃, ɔ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Aragon, Carolina Coelho an Ana Suelly Arrunda Câmara Cabral. 2005. A posicão da língua akuntsú na família lingúistica tuparí. In Anais do IV Congreso Internacional de ABRALIN. 1533-1539."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

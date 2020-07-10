@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Panare
+
+short_name: Panare
+
+alternate_names: 
+-
+
+iso_codes: 
+- pbh
+
+family: Carib
+
+countries: 
+- Venezuela
+
+coordinates: 
+- latitude: 6.733
+  longitude: -66.049
+  elevation_meters: 203
+
+phonemes: [p, t, tʲ, k, ʔ, tʃ, m, n, ɲ, s, j, w, ɾ, i, ɨ, u, e, o, ə, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Hall, Katherine and Maria Eugenia Villalon. 1988. Una introducción a la fonología E'ñapa (Caribe). Antropologica 70. 3-16."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

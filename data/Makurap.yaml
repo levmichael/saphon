@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Makuráp
+
+short_name: Makuráp
+
+alternate_names: 
+-
+
+iso_codes: 
+- mpu
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -11.996
+  longitude: -62.630
+  elevation_meters: 208
+
+phonemes: [p, t, k, tʃ, m, n, ŋ, j, w, ɾ, i, ĩ, ɨ, ɨ̃, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Braga, Alzerinda de Oliveira. 1992. A fonologia segmental e aspectos morfofonológicos da língua makurap (tupí). MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

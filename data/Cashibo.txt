@@ -1,9 +1,0 @@
-name: Cashibo-Cacataibo
-name.short: Cashibo-Cctb
-name.comp: Cashibo
-code: cbr
-family: Panoan
-country: Peru
-geo: -8.755 -75.369 305
-feat: p t ts tʃ k kʷ ʔ m n ɲ s ʂ ʃ β̞ ɾ i e a o u ɨ tone
-bib: Zariquiey, Roberto. 2011. A grammar of Kashibo-Kakataibo. PhD dissertation, La Trobe University.

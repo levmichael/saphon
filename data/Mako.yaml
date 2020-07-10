@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Mako
+
+short_name: Mako
+
+alternate_names: 
+-
+
+iso_codes: 
+- wpc
+
+family: Salivan
+
+countries: 
+- Venezuela
+
+coordinates: 
+- latitude: 4.215
+  longitude: -65.742
+  elevation_meters: .NAN
+
+phonemes: [p, b, t, d, k, kʷ, ʔ, ts, tʃ, dʒ, pʰ, tʰ, ʔb, ʔd, ʔdʒ, m, n, h, hʷ, w, ʔw, l, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Rosés Labrada (2015) notes the presence of an acoustically distinct central vowel /ə/ that appears only in the past tense suffix. Symbols preceded by glottal stop (ʔ) represent the series of pre-glottalized resonants in Rosés Labrada (2015).
+
+
+
+---
+
+doctype: ref
+
+citation: "Rosés Labrada, Jorge E. 2015. The Mako language: Vitality, grammar, and classification. London, Ontario & Lyon: University of Western Ontario and Université Lumière-Lyon 2 dissertation."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

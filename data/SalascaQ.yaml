@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Salasca Quechua
+
+short_name: Salasca Q
+
+alternate_names: 
+-
+
+iso_codes: 
+- qxl
+
+family: Quechua
+
+countries: 
+- Ecuador
+
+coordinates: 
+- latitude: -1.545
+  longitude: -78.290
+  elevation_meters: 2118
+
+phonemes: [p, b, t, d, k, ɡ, ts, tʃ, pʰ, tʰ, kʰ, m, n, ɲ, s, z, ʃ, ʒ, x, j, w, l, ɾ, i, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Chango Masaquiza, Fanny and Stephen A. Marlett. 2008. Salasaca Quichua. Journal of the International Phonetic Association 38(2): 223-227."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

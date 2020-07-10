@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Tunebo (Central dialect)
+
+short_name: Tunebo Cntrl
+
+alternate_names: 
+-
+
+iso_codes: 
+- tuf
+
+family: Chibchan
+
+countries: 
+- Colombia
+- Venezuela
+
+coordinates: 
+- latitude: 6.726
+  longitude: -72.284
+  elevation_meters: 3544
+
+phonemes: [b, t, k, kʷ, ʔ, m, n, s, ʃ, h, j, w, w̃, ɾ, i, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Headland, Edna (compiler). 1997. Diccionario bilingüe: Uw cuwa (Tunebo) - Español, Español - Uw Cuwa (Tunebo) con una grámatica uw cuwa (tuneba). Bogotá: Instituto Lingüístico de Verano."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

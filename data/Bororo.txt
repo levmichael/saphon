@@ -1,9 +1,0 @@
-name: Borôro
-name.short: Borôro
-name.comp: Bororo
-code: bor
-family: Macro-Ge
-country: Brazil
-geo: -16.000 -57.000 169
-feat: p b t d tʃ dʒ k kʷ ɡ ɡʷ m n w j ɾ i e a o u ɤ ɯ
-bib: Nonato, Rafael Bezerra. 2008. Ainore Boe egore: um estudo descritivo da língua bororo e conseqüências para a teoria de caso e concordância. MA thesis, Universidade Estadual de Campinas.

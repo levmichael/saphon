@@ -1,0 +1,69 @@
+doctype: synthesis
+
+name: Tucano
+
+short_name: Tucano
+
+alternate_names: 
+-
+
+iso_codes: 
+- tuo
+
+family: Tucanoan
+
+countries: 
+- Brazil
+- Colombia
+
+coordinates: 
+- latitude: 0.300
+  longitude: -69.100
+  elevation_meters: 152
+
+phonemes: [p, b, t, d, k, ɡ, ʔ, s, h, j, w, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: True
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Welch, Betty and Birdie West. 2000. El tucano. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. Bogotá: Instituto Caro y Cuervo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Ramirez, Henri. 1997. A fala tukano dos ye'pâ-masa. Manaus: CEDEM."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

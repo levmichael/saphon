@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Vilela
+
+short_name: Vilela
+
+alternate_names: 
+-
+
+iso_codes: 
+- vil
+
+family: Isolate
+
+countries: 
+- Argentina
+
+coordinates: 
+- latitude: -27.299
+  longitude: -59.269
+  elevation_meters: 65
+
+phonemes: [p, b, t, d, k, ɡ, q, ɢ, ʔ, tʃ, pʼ, tʼ, kʼ, qʼ, tʃʼ, m, n, s, h, j, w, ɬ, l, ɾ, i, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Viegas Barros, Pedro. 2001. Proto-Lule-Vilela: Una reconstrucción fonológica preliminar. Ms., available online: http://www.adilq.com.ar/Viegas-Barros.htm."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

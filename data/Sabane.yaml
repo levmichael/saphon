@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Sabanê
+
+short_name: Sabanê
+
+alternate_names: 
+-
+
+iso_codes: 
+- sae
+
+family: Nambiquaran
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -12.964
+  longitude: -60.261
+  elevation_meters: 341
+
+phonemes: [p, t, k, ʔ, ɓ, ɗ, m, n, s, h, l, i, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Antunes de Araujo, Gabriel. 2004. A grammar of Sabanê, a Nambikwaran language. PhD dissertation, Free Univeristy of Amsterdam."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Cuzco-Collao Quechua
+
+short_name: Cuzco-Collao
+
+alternate_names: 
+-
+
+iso_codes: 
+- quz
+
+family: Quechua
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -13.564
+  longitude: -72.134
+  elevation_meters: 3772
+
+phonemes: [p, t, k, q, tʃ, pʰ, tʰ, kʰ, qʰ, tʃʰ, pʼ, tʼ, kʼ, qʼ, tʃʼ, m, n, ɲ, s, ʃ, x, χ, h, j, w, l, ʎ, ɾ, i, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Parker, Steve. 2007. Un análisis acústico del quechua del Cusco (An acoustic analysis of Cusco Quechua). GIALens: Electronic Notes Series 1(3)."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Adelaar, Willem. 2013. personal communication."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

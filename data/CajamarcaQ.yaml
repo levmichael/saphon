@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Cajamarca Quechua
+
+short_name: Cajamarca Q
+
+alternate_names: 
+-
+
+iso_codes: 
+- qvc
+
+family: Quechua
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -7.111
+  longitude: -78.557
+  elevation_meters: 3262
+
+phonemes: [p, t, k, q, tʃ, dʒ, ʈʂ, m, n, ɲ, s, ʂ, ʐ, ʃ, x, j, w, l, ɾ, i, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Bilingual speakers preserve /e/ and /o/ in Spanish loan words
+- /b, d, g, β/ are used only in Spanish loan words
+
+
+
+---
+
+doctype: ref
+
+citation: "Quesada, Félix Castillo. 2006. Quechua de Cajamarca: fonología, morfología, sintaxis. Lima: Editorial Mantaro. 26-28, 50-76."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

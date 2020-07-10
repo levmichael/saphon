@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Araweté
+
+short_name: Araweté
+
+alternate_names: 
+-
+
+iso_codes: 
+- awt
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -4.992
+  longitude: -52.589
+  elevation_meters: .NAN
+
+phonemes: [p, t, d, k, ʔ, tʃ, m, n, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, e, ẽ, o, õ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Alves states that /ã/ is in the process of phonologization since it is phonemic for some but not all speakers (pg 67).
+
+
+
+---
+
+doctype: ref
+
+citation: "Alves, Juliana Ferreira. 2008. Fonética e fonologia da língua araweté: uma nova contribuição. MA thesis, Universidade de Brasília."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

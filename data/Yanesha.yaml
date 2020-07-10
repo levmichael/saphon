@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Yánesha
+
+short_name: Yánesha
+
+alternate_names: 
+- Amuesha
+
+iso_codes: 
+- ame
+
+family: Arawak
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -10.630
+  longitude: -75.198
+  elevation_meters: 1590
+
+phonemes: [p, pʲ, b, bʲ, t, tʲ, k, kʲ, ɡ, ts, tʃ, ʈʂ, m, mʲ, n, ɲ, s, ʐ, ʃ, x, j, w, ʎ, ɾ, i, ḭ, iː, u, ṵ, uː, a, a̰, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Fast, Peter W. 1953. Amuesha (Arawak) Phonemes. International Journal of American Linguistics 19. 191–194."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Duff-Tripp, Martha. 1998. Diccionario yanesha' (amuesha)-castellano. Lima: Instituto Lingüístico de Verano. 11-12"
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

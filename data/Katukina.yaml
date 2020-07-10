@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Katukína
+
+short_name: Katukína
+
+alternate_names: 
+-
+
+iso_codes: 
+- kav
+
+family: Katukinan
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -3.585
+  longitude: -66.525
+  elevation_meters: 94
+
+phonemes: [p, b, t, d, k, tʃ, dʒ, m, n, ɲ, h, l, i, iː, ɯ, ɯː, u, uː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "dos Anjos, Zoraide. 2011. Fonologia e Gramática Katukina-Kanamari. PhD dissertation, Vrije Universiteit Amsterdam."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

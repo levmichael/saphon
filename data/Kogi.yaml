@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Kogi
+
+short_name: Kogi
+
+alternate_names: 
+-
+
+iso_codes: 
+- kog
+
+family: Chibchan
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 10.976
+  longitude: -73.836
+  elevation_meters: 2527
+
+phonemes: [p, b, bː, t, tː, d, dː, k, kː, ɡ, ɡː, ʔ, m, n, ŋ, s, z, ʃ, ʒ, x, h, j, w, l, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, ə, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Gawthorne, Linda and Grace Hensarling. 1984. Fonología del cogui. In Sistemas fonológicos de idiomas colombianos 5, 5-56. Lomalinda: Editorial Townsend"
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

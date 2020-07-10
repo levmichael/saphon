@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: San Martin Quechua
+
+short_name: San Martin Q
+
+alternate_names: 
+-
+
+iso_codes: 
+- qvs
+
+family: Quechua
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -7.025
+  longitude: -76.749
+  elevation_meters: 887
+
+phonemes: [p, t, k, tʃ, dʒ, m, n, ɲ, s, ʃ, x, j, w, l, ɾ, i, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Doherty, Jaime V. 2007. Diccionario del Quechua San Martín. Tarapoto: Santa Rosa."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "David Coombs, Heidi Coombs, Robert Weber. 1976. Gramática quechua, San Martín. Lima: Ministerio de Educación."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

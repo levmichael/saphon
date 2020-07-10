@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Tenharim
+
+short_name: Tenharim
+
+alternate_names: 
+-
+
+iso_codes: 
+- pah
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -8.332
+  longitude: -61.945
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, kʷ, ʔ, tʃ, m, n, ɲ, ŋ, ŋʷ, β, h, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Sampaio, Bernadette de Araújo. 1998. Estudo comparativo sincrônico entre o parintintin (tenharim) e o uru-eu-uauuau (amondawa): contribuições para uma revisão na classificação das língua tupi-kawahib. MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

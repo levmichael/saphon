@@ -1,9 +1,0 @@
-name: Kamayurá
-name.short: Kamayurá
-name.comp: Kamayura
-code: kay
-family: Tupí
-country: Brazil
-geo: -12.474 -54.637 nan
-feat: p t ts k kʷ ʔ m n ŋ h hʷ w j ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
-bib: Seki, Lucy. 2000. Gramática do kamaiurá. Editora da Universidade Estadual de Campinas.

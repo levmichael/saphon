@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Nukak
+
+short_name: Nukak
+
+alternate_names: 
+-
+
+iso_codes: 
+- mbr
+
+family: Kakua-Nukak
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 0.858
+  longitude: -72.029
+  elevation_meters: 193
+
+phonemes: [p, b, t, d, c, ɟ, k, ɡ, ʔ, h, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, ɛ, ɛ̃, ʌ, ʌ̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Mahecha, Dany Rubio, Gabriel Cabrera Becerra, and Carlos Eduardo Franky Calvo. 2000. Algunos aspectos fonético-fonológicos del idioma nukak. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas Indígenas de Colombia: Una visión descriptiva. Bogotá Instituto Caro y Cuervo. 551-553."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

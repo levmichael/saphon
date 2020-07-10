@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Yameo
+
+short_name: Yameo
+
+alternate_names: 
+-
+
+iso_codes: 
+- yme
+
+family: Peba-Yaguan
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -3.614
+  longitude: -73.219
+  elevation_meters: 122
+
+phonemes: [p, t, k, m, n, s, ʃ, j, w, l, i, ĩ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Liclan, Patsy Adams and Stephen A. Marlett. 1990. Madija noun morphology. International Journal of American Linguistics 56:102-120."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

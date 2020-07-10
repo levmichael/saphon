@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Ese Ejja (Bolivia)
+
+short_name: Ese Ejja B
+
+alternate_names: 
+-
+
+iso_codes: 
+- ese_bol
+
+family: Tacanan
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -11.203
+  longitude: -66.261
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, kʷ, ʔ, tʃ, ɓ̥, ɗ̥, m, n, ɲ, s, ʃ, x, h, j, w, i, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Vuillermet, Marine. 2006. L'ese ejja de Bolivie: Esquisse phonologique et phonétique. MA thesis, Université Lumière Lyon 2. 19."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

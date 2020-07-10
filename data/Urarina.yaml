@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Urarina
+
+short_name: Urarina
+
+alternate_names: 
+-
+
+iso_codes: 
+- ura
+
+family: Isolate
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -4.000
+  longitude: -75.000
+  elevation_meters: 128
+
+phonemes: [b, t, d, k, kʷ, tɕ, m, n, ɲ, fʷ, s, ʃ, h, hʲ, l, ɽ, i, ĩ, iː, ĩː, ɨ, ɨ̃, ɨː, ɨ̃ː, u, ũ, uː, ũː, e, ẽ, eː, ẽː, a, ã, aː, ãː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+- "The /ʉ/ of Olawsky is represented as /ɨ/ here based on the description of it as a \"high central, (slightly) rounded vowel\" (2006: 52) and the observation that it can be also be realized as [ə] or [ɨ]."
+
+
+
+---
+
+doctype: ref
+
+citation: "Olawsky, Knut. 2006. A Grammar of Urarina. Berlin: Mouton de Gruyter. 30-54."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

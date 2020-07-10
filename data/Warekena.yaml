@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Warekena
+
+short_name: Warekena
+
+alternate_names: 
+-
+
+iso_codes: 
+- gae
+
+family: Arawak
+
+countries: 
+- Venezuela
+- Brazil
+
+coordinates: 
+- latitude: 1.300
+  longitude: -67.300
+  elevation_meters: 111
+
+phonemes: [p, b, t, d, k, ɡ, ts, tʃ, dʒ, m, n, ɲ, ʃ, h, j, w, ɺ, i, iː, u, uː, e, eː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Aikhenvald, Alexandra. 1998. Warekena. In Desmond Derbyshire and Geoffrey Pullum (eds.), Handbook of Amazonian languages, pp. 225-439. Berlin: Mouton de Gruyter."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

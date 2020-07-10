@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Achuar-Shiwiar
+
+short_name: Achuar-Shwr
+
+alternate_names: 
+-
+
+iso_codes: 
+- acu
+
+family: Jivaroan
+
+countries: 
+- Peru
+- Ecuador
+
+coordinates: 
+- latitude: -2.818
+  longitude: -77.326
+  elevation_meters: 212
+
+phonemes: [p, t, k, ʔ, ts, tʃ, m, n, ŋ, s, ʃ, x, j, w, ɾ, i, ĩ, iː, ɨ, ɨ̃, ɨː, u, ũ, uː, a, ã, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Fast, Gerhard. 1975. Sistema fonológico del idioma achual. Datos Etno-Lingüísticos 20. Lima: Instituto Lingüístico de Verano."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

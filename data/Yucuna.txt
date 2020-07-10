@@ -1,9 +1,0 @@
-name: Yucuna
-name.short: Yucuna
-name.comp: Yucuna
-code: ycn
-family: Arawak
-country: Colombia
-geo: -0.760 -71.103 165
-feat: pʰ p tʰ t tʃ k ʔ m n ɲ s h w j ɾ l i e a o u
-bib: Schauer, Stanley and Junia Schauer. 2000. El Yucuna. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo.

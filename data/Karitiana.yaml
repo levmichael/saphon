@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Karitiâna
+
+short_name: Karitiâna
+
+alternate_names: 
+-
+
+iso_codes: 
+- ktn
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -9.300
+  longitude: -64.000
+  elevation_meters: 115
+
+phonemes: [p, t, k, m, n, ɲ, ŋ, s, h, w, ɾ, i, ĩ, iː, ĩː, ɨ, ɨ̃, ɨː, ɨ̃ː, e, ẽ, eː, ẽː, o, õ, oː, õː, a, ã, aː, ãː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Everett says that /b/ and /d/ appear to be gaining phonemic status (14-15).
+
+
+
+---
+
+doctype: ref
+
+citation: "Everett, Caleb. 2007. Patterns in Karitiana: Articulation, perception, and grammar. PhD dissertation, Rice University."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Storto, Luciana. 1999. Aspects of a Karitiana grammar. PhD dissertation, Massachussetts Institute of Technology."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

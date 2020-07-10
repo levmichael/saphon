@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Kuruáya
+
+short_name: Kuruáya
+
+alternate_names: 
+-
+
+iso_codes: 
+- kyr
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -7.560
+  longitude: -55.694
+  elevation_meters: 277
+
+phonemes: [p, b, t, d, k, ʔ, tʃ, dʒ, m, n, ŋ, ð, s, ʃ, h, j, w, ɾ, i, ĩ, ɨ, e, ẽ, o, õ, ɔ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Mendes Junior, Djalma Gomes. 2007. Comparação fonológica do kuruáya com o mundurukú. MA thesis, Universidade de Brasília."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

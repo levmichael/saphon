@@ -1,0 +1,85 @@
+doctype: synthesis
+
+name: Pemon (Arekuna dialect)
+
+short_name: Pemon Arekna
+
+alternate_names: 
+-
+
+iso_codes: 
+- aoc_are
+
+family: Carib
+
+countries: 
+- Brazil
+- Guyana
+
+coordinates: 
+- latitude: 5.100
+  longitude: -62.000
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, ʔ, m, n, s, j, w, ɾ, i, ɯ, u, e, ɤ, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Edwards omits glottal stop /ʔ/, arguing that [ʔ] is an allophone of /k/ (225). He also includes mid-high back unrounded vowel /ɤ/ rather than high central rounded vowel /ʉ/ (224).
+
+
+
+---
+
+doctype: ref
+
+citation: "Tuggy, Edward. 1989. Pemong verb morphology (Arekuna dialect). Presented at two special colloqiua, University of Oregon."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Edwards, Walter F. 1978. A preliminary sketch of Arekuna (Carib) phonology. International Journal of American Linguistics 44.3. 223-227."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Pessoa, Katia Nepomuceno. 2006. Fonologia Taurepang e comparação preliminar da fonologia de línguas do grupo Pemóng (Família Caribe). PhD dissertation, Universidade Federal de Pernambuco."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

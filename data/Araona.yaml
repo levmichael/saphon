@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Araona
+
+short_name: Araona
+
+alternate_names: 
+-
+
+iso_codes: 
+- aro
+
+family: Tacanan
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -12.353
+  longitude: -67.751
+  elevation_meters: 199
+
+phonemes: [p, b, t, d, k, kʷ, ts, tʃ, dʒ, m, n, ɲ, s, z, ʃ, h, j, w, l, i, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- /l/ is sometimes realized as a flap.
+
+
+
+---
+
+doctype: ref
+
+citation: "Pitman, Mary. 1981. Diccionario araona y castellano. Riberalta: Instituto Lingüístico de Verano and Ministerio de Educación y Cultura."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

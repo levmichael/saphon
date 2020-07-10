@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Uru-Eu-Wau-Wau
+
+short_name: UruEuWauWau
+
+alternate_names: 
+-
+
+iso_codes: 
+- urz
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -9.993
+  longitude: -63.182
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, kʷ, ʔ, tʃ, m, n, ɲ, ŋ, ŋʷ, β, h, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Sampaio, Wany Bernadette de Araújo. 1998. Estudo comparativo sincrônico entre o parintintin (tenharim) e o uru-eu-uau-uau (amondawa): contribuições para uma revisão na classificação das línguas Tupi-Kawahib. MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

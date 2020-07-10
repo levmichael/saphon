@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Cofán
+
+short_name: Cofán
+
+alternate_names: 
+-
+
+iso_codes: 
+- con
+
+family: Isolate
+
+countries: 
+- Ecuador
+- Colombia
+
+coordinates: 
+- latitude: -0.168
+  longitude: -77.168
+  elevation_meters: 362
+
+phonemes: [p, b, t, d, k, ɡ, ʔ, ts, dz, tʃ, dʒ, pʰ, tʰ, kʰ, tsʰ, tʃʰ, m, n, ɲ, f, s, ʃ, x, ʋ, j, w, ɾ, i, ĩ, ɨ, ɨ̃, o, õ, ɛ, ɛ̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- "voiced stops and affricates are pre-nasalized: mb, nd, ŋɡ, etc."
+
+
+
+---
+
+doctype: ref
+
+citation: "Fischer, Rafael. In prep. A grammatical description of A’ingae (Cof´an). PhD dissertation, University of Amsterdam."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,9 +1,0 @@
-name: Chiriguano (Izoceño dialect)
-name.short: Chiriguano I
-name.comp: ChiriguanoI
-code: gui_izo
-family: Tupí
-country: Bolivia
-geo: -20.000 -63.000 305
-feat: p mb t nd k kʷ ŋɡ ɡʷ β s ʝ ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
-bib: Dietrich, Wolf. 1986. El Idioma chiriguano: Gramática, textos, vocabulario. Madrid: Instituto de Cooperación Iberoamericana. 45-50.

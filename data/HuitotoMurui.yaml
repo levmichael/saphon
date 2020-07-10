@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Huitoto, Murui
+
+short_name: Huitoto Mur
+
+alternate_names: 
+-
+
+iso_codes: 
+- huu
+
+family: Witotoan
+
+countries: 
+- Colombia
+- Peru
+
+coordinates: 
+- latitude: -1.275
+  longitude: -73.653
+  elevation_meters: 181
+
+phonemes: [b, t, d, c, ɟ, k, ɡ, m, n, ɲ, ɸ, β, θ, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Petersen, Gabriele and Carlos Rosselli Patiño. 2000. El idioma uitoto. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. Bogotá: Instituto Caro y Cuervo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

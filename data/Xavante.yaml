@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Xavánte
+
+short_name: Xavánte
+
+alternate_names: 
+-
+
+iso_codes: 
+- xav
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -15.000
+  longitude: -52.300
+  elevation_meters: 297
+
+phonemes: [p, b, t, d, ʔ, s, z, ɣ, j, w, ɾ, i, ĩ, ɨ, u, e, ẽ, o, õ, ə, ɛ, ɔ, ɐ̃, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Oliveira posits /h/ where Quintino posits /ɣ/, and additionally lists a palatal nasal /ɲ/.
+
+
+
+---
+
+doctype: ref
+
+citation: "Quintino, Wellington Pedrosa. 2000. Aspectos da fonologia xavante. MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "de Oliveira, Rosana Costa. 2007. Morfologia e sintaxe da língua xavante. PhD dissertation, Universidade Federal de Rio de Janeiro."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

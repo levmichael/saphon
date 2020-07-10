@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Pisamira
+
+short_name: Pisamira
+
+alternate_names: 
+-
+
+iso_codes: 
+- psx
+
+family: Tucanoan
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 1.100
+  longitude: -70.440
+  elevation_meters: .NAN
+
+phonemes: [p, b, t, d, k, ɡ, tʃ, β, ʝ, h, ɰ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: True
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "González de Pérez, María Stella. 2000. El estudio de la lengua pisamira. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. Bogotá: Instituto Caro y Cuervo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

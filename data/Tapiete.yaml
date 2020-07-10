@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Tapieté
+
+short_name: Tapieté
+
+alternate_names: 
+-
+
+iso_codes: 
+- tpj
+
+family: Tupí
+
+countries: 
+- Argentina
+- Bolivia
+
+coordinates: 
+- latitude: -21.964
+  longitude: -62.790
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, kʷ, ʔ, tʃ, dʒ, mb, nd, ŋɡ, s, ʃ, h, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "González, Hebe Alicia. 2005. A grammar of Tapieté. PhD dissertation, University of Pittsburgh. 43-54."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

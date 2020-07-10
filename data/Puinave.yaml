@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Puinave
+
+short_name: Puinave
+
+alternate_names: 
+-
+
+iso_codes: 
+- pui
+
+family: Isolate
+
+countries: 
+- Venezuela
+- Colombia
+
+coordinates: 
+- latitude: 4.000
+  longitude: -68.000
+  elevation_meters: 102
+
+phonemes: [p, t, k, ʔ, m, n, s, h, i, ĩ, ɯ, u, e, ɤ, ɤ̃, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+- Tone is contrastive (Giron 104).
+
+
+
+---
+
+doctype: ref
+
+citation: "Girón, Jesús. 2007. Una Gramática Del Wá̃nsöjöt (Puinave). PhD dissertation, University of Amsterdam."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Chamacoco
+
+short_name: Chamacoco
+
+alternate_names: 
+-
+
+iso_codes: 
+- ceg
+
+family: Zamucoan
+
+countries: 
+- Paraguay
+
+coordinates: 
+- latitude: -22.358
+  longitude: -59.720
+  elevation_meters: 129
+
+phonemes: [p, b, t, d, k, ɡ, ʔ, tʃ, dʒ, m, n, s, z, ʃ, ʒ, ɣ, h, ɹ, w, l, r, i, ĩ, ɨ, ɨ̃, u, ũ, ɪ, ɪ̃, e, ẽ, ə, ɔ, ɔ̃, a, ã, ɑ]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Huntington, Charlie. 2012. About the Chamacoco Dictionary. Chamacoco Talking Dictionary. Online: http://chamacoco.swarthmore.edu/about.php date accessed: Apr. 5, 2012"
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Tuparí
+
+short_name: Tuparí
+
+alternate_names: 
+-
+
+iso_codes: 
+- tpr
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -11.599
+  longitude: -61.915
+  elevation_meters: 187
+
+phonemes: [p, b, t, k, ʔ, tʃ, m, n, ŋ, s, h, j, w, ɾ, i, ĩ, iː, ɨ, ɨ̃, ɨː, e, ẽ, eː, o, õ, oː, a, ã, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Alves, Poliana Maria. 2004. O léxico do Tuparí: proposta de um dicionário bilingüe. PhD dissertation, Universidade Estadual de Araraquara."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

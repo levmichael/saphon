@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Sakirabiá
+
+short_name: Sakirabiá
+
+alternate_names: 
+-
+
+iso_codes: 
+- skf
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -12.300
+  longitude: -61.300
+  elevation_meters: 339
+
+phonemes: [p, t, k, kʷ, ɡ, ts, m, n, ɲ, ŋ, ŋʷ, β, s, h, j, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Moore states that /b/, /d/, and /gw/ are of uncertain phonemic status.
+
+
+
+---
+
+doctype: ref
+
+citation: "Moore, Denny, and Vilacy Galucio. 1993. Reconstruction of Proto-Tupari consonants and vowels. Columbus, OH: Paper presented at the SSILA summer meeting, 1–4 July."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

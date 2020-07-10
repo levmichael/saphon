@@ -1,0 +1,55 @@
+doctype: synthesis
+
+name: Aymara (Central dialect)
+
+short_name: Aymara Cntrl
+
+alternate_names: 
+-
+
+iso_codes: 
+- ayr
+
+family: Aymaran
+
+countries: 
+- Bolivia
+- Argentina
+- Peru
+- Chile
+
+coordinates: 
+- latitude: -18.344
+  longitude: -68.668
+  elevation_meters: 3837
+
+phonemes: [p, t, k, q, tʃ, pʰ, tʰ, kʰ, qʰ, tʃʰ, pʼ, tʼ, kʼ, qʼ, tʃʼ, m, n, ɲ, s, x, χ, j, w, l, ʎ, ɾ, i, iː, u, uː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Apaza, Ignacio. 2007. Estudios de lingüística y sociolingüística andina: teoría, discusión y análisis. La Paz: Instituto de Estudios Bolivianos. 35-40."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

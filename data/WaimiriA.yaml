@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Waimiri-Atroarí
+
+short_name: Waimiri-Atrí
+
+alternate_names: 
+-
+
+iso_codes: 
+- atr
+
+family: Carib
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -0.653
+  longitude: -60.260
+  elevation_meters: 95
+
+phonemes: [p, b, t, d, ʔ, tʃ, dʒ, m, n, ɲ, s, ʃ, h, j, w, ɾ, i, ɨ, ɨː, u, e, eː, o, oː, ɛ, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Bruno, Ana Carla. 2003. Reduplicação em Waimiri Atroari. Amerindia 28. 83-94."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Apinayé
+
+short_name: Apinayé
+
+alternate_names: 
+-
+
+iso_codes: 
+- apn
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -5.300
+  longitude: -48.000
+  elevation_meters: 110
+
+phonemes: [p, t, k, ʔ, tʃ, mb, nd, ndʒ, m, n, ɲ, ŋ, f, s, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, ɘ, o, õ, ə, ə̃, ɛ, ʌ, ɔ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Albuquerque, Francisco Edviges. 2007. Contribuicao da fonologia ao processo de educação indigena apinaye. PhD dissertation, Universidade Federal Fluminense."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Oliveira, Christiane Kuña de. 2005. Language of the Apinajé people of Central Brazil. PhD dissertation, University of Oregon."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

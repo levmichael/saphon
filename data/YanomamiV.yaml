@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Yanomamɨ of Venezuela
+
+short_name: Yanomamɨ Ven
+
+alternate_names: 
+-
+
+iso_codes: 
+- guu_ven
+
+family: Yanomam
+
+countries: 
+- Venezuela
+
+coordinates: 
+- latitude: 2.270
+  longitude: -64.590
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, tʰ, m, n, s, ʃ, h, j, w, ɾ, i, ĩ, iː, ĩː, ɨ, ɨ̃, ɨː, ɨ̃ː, u, ũ, uː, ũː, e, ẽ, eː, ẽː, o, õ, oː, õː, ə, ə̃, əː, ə̃ː, a, ã, aː, ãː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Ferreira, Helder. personal communication."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Lizot, Jacques. 1996. Morfología del Yanomami. Puerto Ayacucho: Vicariato Apostólico de Puerto Ayacucho. Manual Práctico."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

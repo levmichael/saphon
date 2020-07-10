@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Guayabero
+
+short_name: Guayabero
+
+alternate_names: 
+-
+
+iso_codes: 
+- guo
+
+family: Guahiban
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 2.709
+  longitude: -71.980
+  elevation_meters: 242
+
+phonemes: [p, b, t, d, k, tʃ, m, n, ɸ, s, x, h, j, w, l, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- "Note that Keels (1985: 58) includes /ʔ/, while Tobar (2000: 600) omits this segment."
+
+
+
+---
+
+doctype: ref
+
+citation: "Keels, Jack. 1985. Guayabero: Phonology and Morphophonemics. In Ruth Brend (ed.), From Phonology to Discourse: Studies in Six Colombian Languages, pp. 57-75. Dallas: Summer Institute of Linguistics."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Tobar, Nubia. 2000. Aspectos generales de la lengua guayabero. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. 600-601."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

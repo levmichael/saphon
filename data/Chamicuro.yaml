@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Chamicuro
+
+short_name: Chamicuro
+
+alternate_names: 
+-
+
+iso_codes: 
+- ccc
+
+family: Arawak
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -5.114
+  longitude: -75.736
+  elevation_meters: 169
+
+phonemes: [p, t, k, ʔ, ts, tʃ, ʈʂ, m, n, ɲ, s, ʂ, ʃ, h, j, w, l, ʎ, ɾ, i, iː, u, uː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Parker, Stephen G. 1991. Estudios sobre la fonología del Chamicuro. Yarinacocha: Instituto Lingüístico de Verano. 18."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Kunza
+
+short_name: Kunza
+
+alternate_names: 
+- Atacameño
+
+iso_codes: 
+- kuz
+
+family: Isolate
+
+countries: 
+- Chile
+
+coordinates: 
+- latitude: -23.102
+  longitude: -69.012
+  elevation_meters: 2215
+
+phonemes: [p, b, t, k, q, ʔ, ts, tʃ, pʼ, tʼ, kʼ, qʼ, tʃʼ, m, n, s, x, ɣ, χ, h, j, l, ɾ, i, iː, u, uː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Adelaar, Willem and Pieter Muysken. 2004. The Languages of the Andes. New York: Cambridge University Press. 380."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

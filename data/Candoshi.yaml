@@ -1,0 +1,101 @@
+doctype: synthesis
+
+name: Candoshi-Shapra
+
+short_name: Candoshi-Shp
+
+alternate_names: 
+-
+
+iso_codes: 
+- cbu
+
+family: Isolate
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -4.207
+  longitude: -77.062
+  elevation_meters: 170
+
+phonemes: [p, t, k, ts, tʃ, ʈʂ, mp, nt, ŋk, ntʃ, ɳʈʂ, nts, m, n, s, ʂ, ʃ, h, j, w, ɾ, i, iː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Tuggy and Payne both posit a voiceless high back rounded vowel, /u̥/. This segment seems rare, however, and apparently only occurs between voiceless consonants, leading us to exclude it from the inventory.
+- Resources vary on whether Candoshi-Shapra's back rounded vowel is mid back rounded /o/ or high back rounded /u/.
+
+
+
+---
+
+doctype: ref
+
+citation: "Tuggy, John. 1981. Un Estudio Fonologico Del Discurso Candoshi. Cohesión y enfoque en textos y discursos. Ed. Mary Ruth Wise and Anne Stewart. Lima: Instituto Lingüístico de Verano. 223."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Tuggy, John. 1992. Algunos Aspectos De La Morfofonemica Del Candoshi. Estudios Etno-Lingüisticos II. Ed. Stephen Parker. Documento de Trabajo 23. Yarinacocha: Ministerio de Educación and Instituto Lingüístico de Verano. 323."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Tuggy, John. 1966. Vocabulario Candoshi de Loreto. Serie Lingüística Peruana 2. Yarinacocha: Instituto Lingüístico de Verano."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Payne, David L. 1981. Bosquejo Fonológico Del Proto-Shuar-Candoshi: Evidencia Para Una Relación Genética. Revista del Museo Nacional 16. 323-377."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

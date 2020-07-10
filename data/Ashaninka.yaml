@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Asháninka
+
+short_name: Asháninka
+
+alternate_names: 
+-
+
+iso_codes: 
+- cni
+
+family: Arawak
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -11.331
+  longitude: -74.118
+  elevation_meters: 230
+
+phonemes: [p, t, k, ts, tʃ, m, n, N, β, s, ʃ, h, j, ɾ, i, iː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Dirks (1953) includes palatalized counterparts of the oral and nasal alveolar stop.
+
+
+
+---
+
+doctype: ref
+
+citation: "Dirks, Sylvester. 1953. Campa (Arawak) phonemes. International Journal of American Linguistics 19 (4). 302-304."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Kindberg, Lee. 1980. Diccionario Asháninca. Yarinacocha: Instituto Lingüístico de Verano."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

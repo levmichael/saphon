@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Panobo
+
+short_name: Panobo
+
+alternate_names: 
+-
+
+iso_codes: 
+- pno
+
+family: Panoan
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -7.359
+  longitude: -74.985
+  elevation_meters: 132
+
+phonemes: [p, b, t, k, ts, m, n, s, ʂ, ʃ, x, j, w, ɾ, i, ɨ, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Gomes, Graziela de Jesus. 2010. Aspectos morfossintáticos da língua huariapano (pano). MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

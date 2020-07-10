@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Arabela
+
+short_name: Arabela
+
+alternate_names: 
+-
+
+iso_codes: 
+- arl
+
+family: Zaparoan
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -2.000
+  longitude: -75.000
+  elevation_meters: 169
+
+phonemes: [p, t, tʲ, k, kʲ, kʷ, kʷʲ, m, mʲ, n, ɲ, s, ʃ, h, hʲ, hʷ, j, w, ɾ, ɾʲ, i, iː, u, uː, ɪ, ɪː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Michael, Lev, Vivian Wauters, and Christine Beier. in prep. A Reconstruction of Proto-Zaparoan phonology."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

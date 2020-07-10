@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Yabarana
+
+short_name: Yabarana
+
+alternate_names: 
+-
+
+iso_codes: 
+- yar
+
+family: Carib
+
+countries: 
+- Venezuela
+
+coordinates: 
+- latitude: 5.394
+  longitude: -66.219
+  elevation_meters: 158
+
+phonemes: [p, t, k, m, n, ɲ, s, h, j, w, ɾ, i, ɨ, u, e, o, ə, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Mattei Muller, Marie-Claude. 2003. Pémono: eslabón perdido entre mapoyo y yawarana. Amerindia 28. 33-54."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

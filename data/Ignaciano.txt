@@ -1,9 +1,0 @@
-name: Ignaciano
-name.short: Ignaciano
-name.comp: Ignaciano
-code: ign
-family: Arawak
-country: Bolivia
-geo: -15.100 -65.250 155
-feat: p t ts tʃ k ʔ m n ɲ v s ʃ h j ɾ i e a u
-bib: Ott, Rebecca and Willis Ott. 1967. Ignaciano. In Esther Matteson (ed.), Bolivian Indian grammars 1. Norman: Summer Institute of Linguistics of the University of Oklahoma.

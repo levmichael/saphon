@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Hup
+
+short_name: Hup
+
+alternate_names: 
+-
+
+iso_codes: 
+- jup
+
+family: Nadahup
+
+countries: 
+- Colombia
+- Brazil
+
+coordinates: 
+- latitude: 0.100
+  longitude: -69.150
+  elevation_meters: 135
+
+phonemes: [p, b, t, d, c, k, ɡ, ʔ, pʼ, b̰, d̰, ɟ̰, ɡ̰, ç, h, j, j̰, w, w̰, i, ĩ, ɨ, ɨ̃, u, ũ, e, o, ə, ɔ, ɔ̃, æ, æ̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+- Epps observes that /pʼ/ is found in only one word.
+
+
+
+---
+
+doctype: ref
+
+citation: "Epps, Patience. 2008. A Grammar of Hup. Berlin: Walter de Gruyter. 41."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

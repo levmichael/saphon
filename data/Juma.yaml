@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Júma
+
+short_name: Júma
+
+alternate_names: 
+-
+
+iso_codes: 
+- jua
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -7.300
+  longitude: -64.000
+  elevation_meters: 79
+
+phonemes: [p, t, k, ɡ, ʔ, m, n, ŋ, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Abrahamson, Arne and Joyce Abrahamson. 1984. Os fonemas da língua júma. In Robert A. Dooley (ed.), Estudos sobre línguas tupí do Brasil. Série Lingüística, 11. Brasília: Summer Institute of Linguistics. 157-74."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Tembé
+
+short_name: Tembé
+
+alternate_names: 
+-
+
+iso_codes: 
+- tqb
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -2.096
+  longitude: -46.548
+  elevation_meters: .NAN
+
+phonemes: [p, t, d, k, kʷ, ʔ, m, n, ŋ, ŋʷ, s, h, w, ɾ, i, ɨ, u, e, o, ə, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Duarte, Fábio Bonfim. 2003. Ordem de constituintes e movimento em tembé: minimalismo e anti-simetria. PhD thesis, Universidade Federal de Minas Gerais."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

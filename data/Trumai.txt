@@ -1,9 +1,0 @@
-name: Trumai
-name.short: Trumai
-name.comp: Trumai
-code: tpy
-family: Isolate
-country: Brazil
-geo: -11.550 -53.350 309
-feat: p t̪ʼ t̪ tʼ t tsʼ ts d kʼ k ʔ m n ɸ s ɬ ʃ x h w j ɾ l i e a o u ɨ
-bib: Guiardello, Raquel. 1999. A Reference Grammar of Trumai. PhD dissertation, Rice University. 1-6.

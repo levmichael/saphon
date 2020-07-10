@@ -1,9 +1,0 @@
-name: Wichí (Mision la Paz dialect)
-name.short: Wichí Msn Pz
-name.comp: WichiMP
-code: mtp
-family: Mataco
-country: Argentina
-geo: -22.350 -62.518 nan
-feat: pʼ p tʼ t tsʼ ts kʲʼ kʲ kʼ k kʷ q qʷ m n s ɬ x xʷ h w j l i e a o u
-bib: Avram, Megan Leigh Zdroikowski. 2008. A phonological description of Wichí: The dialect of Misión La Paz, Salta, Argentina. MA thesis, Eastern Michigan University.

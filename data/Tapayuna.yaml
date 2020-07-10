@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Tapayuna
+
+short_name: Tapayuna
+
+alternate_names: 
+-
+
+iso_codes: 
+- suy_tap
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -10.060
+  longitude: -52.997
+  elevation_meters: 315
+
+phonemes: [t, tʷ, ʈ, k, kʷ, tʃ, m, n, ɲ, ŋ, h, hʷ, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, ə, ɛ, ʌ, ɔ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- The code for this language is a SAPhon language code (non-ISO 639).
+
+
+
+---
+
+doctype: ref
+
+citation: "Camargo, Nayara da Silva. 2010. Língua tapyúna: aspectos sociolingüísticos e uma análise fonológica preliminar. MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

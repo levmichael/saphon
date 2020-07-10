@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Shawi
+
+short_name: Shawi
+
+alternate_names: 
+- Chayahuita
+
+iso_codes: 
+- cbt
+
+family: Cahuapanan
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -5.592
+  longitude: -76.324
+  elevation_meters: 208
+
+phonemes: [p, t, k, ʔ, tʃ, m, n, β, s, ʃ, h, j, w, ɾ, i, ɨ, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Barraza, Yris. 2005. El sistema verbal en la lengua shawi. PhD dissertation, Universidade Federal do Pernambuco."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Hart, George, HelenHart and Esther Powlison. 1976. La fonología de Chayahuita. Datos Etno-Lingüísticos 28. Lima, Peru: Instituto Lingüístico de Verano."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

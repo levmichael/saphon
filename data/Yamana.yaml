@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Yahgan
+
+short_name: Yahgan
+
+alternate_names: 
+- Yámana
+
+iso_codes: 
+- yag
+
+family: Isolate
+
+countries: 
+- Chile
+
+coordinates: 
+- latitude: -54.935
+  longitude: -67.626
+  elevation_meters: 38
+
+phonemes: [p, t, k, tʃ, ʈʂ, m, n, f, s, ʐ, ʃ, h, j, w, l, i, u, e, o, ə, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Viegas, Pedro Barros. 2005. Voces en el viento: Raíces lingüísticas de la Patagonia. Buenos Aires: Mondragon Ediciones. 34."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Meroz, Yoram. p.c."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

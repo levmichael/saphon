@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Ticuna of Cushillococha
+
+short_name: Ticuna Cush
+
+alternate_names: 
+-
+
+iso_codes: 
+- tca_cus
+
+family: Isolate
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -3.930
+  longitude: -70.442
+  elevation_meters: .NAN
+
+phonemes: [p, b, t, d, ɟ, k, kʷ, ɡ, ʔ, tʃ, w, ɾ, i, ḭ, iː, ɨ, ɨ̰, ɨː, u, ṵ, uː, e, ḛ, eː, o, o̰, oː, a, a̰, aː]
+
+allophones: 
+-
+
+nasal_harmony: True
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Skilton, Amalia. 2015. Unpublished fieldnotes."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Anderson, Lambert. 1959. Ticuna vowels with special regard to the system of five tonemes. Rio de Janeiro: Publicações do Museu Nacional."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

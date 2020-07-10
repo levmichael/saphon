@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Mamaindé
+
+short_name: Mamaindé
+
+alternate_names: 
+-
+
+iso_codes: 
+- wmd
+
+family: Nambiquaran
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -13.630
+  longitude: -60.750
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, ʔ, pʰ, tʰ, kʰ, m, n, s, h, j, w, l, i, ĩ, ḭ, ḭ̃, u, ũ, ṵ, ṵ̃, e, ẽ, ḛ, ḛ̃, o, õ̰, o̰, õ, a, ã, a̰, ã̰]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Eberhard, David. 2009. Mamaindê grammar. A northern Nambikwara language and its cultural context. PhD dissertation, Vrije Universiteit Amsterdam."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,9 +1,0 @@
-name: Movima
-name.short: Movima
-name.comp: Movima
-code: mzp
-family: Isolate
-country: Bolivia
-geo: -13.825 -65.667 140
-feat: p ɓ t ɗ tʃ k kʷ ʔ m n β s ɬ h w j j̰ ɾ l i iː e eː a aː o oː u uː
-bib: Katharina Haude. 2006. A grammar of Movima. PhD dissertation, Radboud Universiteit.

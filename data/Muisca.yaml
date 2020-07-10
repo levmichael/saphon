@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Muisca
+
+short_name: Muisca
+
+alternate_names: 
+- Chibcha
+
+iso_codes: 
+- chb
+
+family: Chibchan
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 5.028
+  longitude: -73.990
+  elevation_meters: 2543
+
+phonemes: [p, t, tʲ, k, kp, ts, m, n, β, s, ʃ, ɣ, h, j, w, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Adelaar, Willem and Pieter Muysken. 2004. The Languages of the Andes. New York: Cambridge University Press."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

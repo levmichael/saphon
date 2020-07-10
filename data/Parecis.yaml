@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Paresí
+
+short_name: Paresí
+
+alternate_names: 
+- Parecís
+
+iso_codes: 
+- pab
+
+family: Arawak
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -14.000
+  longitude: -57.000
+  elevation_meters: 491
+
+phonemes: [b, t, tʲ, k, kʷ, ts, m, n, θ, h, j, w, l, ɾ, i, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- da Silva remarks that /kʷ/ occurs only in the classifier that denotes 'surface'.
+
+
+
+---
+
+doctype: ref
+
+citation: "Silva, Glauber Romling da. 2013. Morfossintaxe da língua Paresi-Haliti (Arawak). PhD dissertation, Universidade Federal do Rio de Janeiro."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

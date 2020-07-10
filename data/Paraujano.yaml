@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Paraujano
+
+short_name: Paraujano
+
+alternate_names: 
+-
+
+iso_codes: 
+- pbg
+
+family: Arawak
+
+countries: 
+- Venezuela
+
+coordinates: 
+- latitude: 10.489
+  longitude: -72.064
+  elevation_meters: 156
+
+phonemes: [p, t, k, tʃ, m, n, ɲ, ʃ, h, j, w, l, ɾ, i, iː, ɨ, ɨː, u, uː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Patte, Marie-France. 1989. Estudio descriptivo de la lengua Añun (o \"Paraujano\"). San Cristóbal: Universidad Católica del Táchira."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

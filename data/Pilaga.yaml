@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Pilagá
+
+short_name: Pilagá
+
+alternate_names: 
+-
+
+iso_codes: 
+- plg
+
+family: Guaicuru
+
+countries: 
+- Argentina
+
+coordinates: 
+- latitude: -25.000
+  longitude: -60.000
+  elevation_meters: 115
+
+phonemes: [p, t, d, k, ɡ, q, ʔ, tʃ, m, n, ɲ, s, h, j, w, ʕ, l, ʎ, i, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- "Vidal (2001: 41) described /a/ as a mid back unrounded vowel."
+
+
+
+---
+
+doctype: ref
+
+citation: "Vidal, Alejandra. 2001. Pilagá Grammar (Guaykuruan Family, Argentina). PhD dissertation, University of Oregon. 29-41."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

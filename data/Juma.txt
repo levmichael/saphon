@@ -1,9 +1,0 @@
-name: Júma
-name.short: Júma
-name.comp: Juma
-code: jua
-family: Tupí
-country: Brazil
-geo: -7.300 -64.000 79
-feat: p t k ɡ ʔ m n ŋ h w j ɾ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
-bib: Abrahamson, Arne and Joyce Abrahamson. 1984. Os fonemas da língua júma. In Robert A. Dooley (ed.), Estudos sobre línguas tupí do Brasil. Série Lingüística, 11. Brasília: Summer Institute of Linguistics. 157-74.

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Gavião do Pará
+
+short_name: Gavião Pará
+
+alternate_names: 
+-
+
+iso_codes: 
+- gvp
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -4.745
+  longitude: -49.252
+  elevation_meters: 100
+
+phonemes: [p, t, k, tʃ, kʰ, m, n, h, j, w, ɾ, i, ɨ, u, e, ẽ, o, õ, ə, ə̃, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Amado, Rosane de Sá. 2004. Aspectos morfofonológicos do Gavião-Pykobjê. PhD dissertation, USP."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

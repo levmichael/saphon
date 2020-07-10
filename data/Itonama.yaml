@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Itonama
+
+short_name: Itonama
+
+alternate_names: 
+-
+
+iso_codes: 
+- ito
+
+family: Isolate
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -12.809
+  longitude: -64.327
+  elevation_meters: 144
+
+phonemes: [p, b, t, tʲ, d, k, ʔ, tʃ, tʼ, kʼ, tʃʼ, m, n, s, h, j, w, l, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Crevels, Mily. 2002. Itonama o Sihnipadara, Lengua no clasificada de la Amazonía Boliviana. Estudios de Lingüística 16."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

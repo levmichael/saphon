@@ -1,0 +1,56 @@
+doctype: synthesis
+
+name: Chulupí
+
+short_name: Chulupí
+
+alternate_names: 
+- Nivaclé
+
+iso_codes: 
+- cag
+
+family: Mataco
+
+countries: 
+- Paraguay
+- Argentina
+
+coordinates: 
+- latitude: -23.535
+  longitude: -60.527
+  elevation_meters: 162
+- latitude: -24.070
+  longitude: -61.031
+  elevation_meters: 170
+
+phonemes: [p, t, k, ʔ, ts, tʃ, pʼ, tʼ, kʼ, tsʼ, tʃʼ, m, n, ɲ, ɸ, s, ʃ, x, j, w, ɬ, kl, i, u, e, o, a, ɑ]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Campbell, Lyle and Verónica Grondona. 2007. Internal reconstruction in Chulupí (Nivaclé). Diachronica 24:1."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

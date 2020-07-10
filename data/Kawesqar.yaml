@@ -1,0 +1,84 @@
+doctype: synthesis
+
+name: Kawesqar
+
+short_name: Kawesqar
+
+alternate_names: 
+-
+
+iso_codes: 
+- alc_nth
+
+family: Alacalufan
+
+countries: 
+- Chile
+
+coordinates: 
+- latitude: -49.130
+  longitude: -74.450
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, q, tʃ, pʼ, tʼ, kʼ, tʃʼ, m, n, f, s, h, j, w, l, ɾ, r, i, u, e, o, æ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Aguilera, Oscar E. 2001. Gramática de la lengua Kawésqar. Temuco, Chile: Corporación Nacional de Desarollo Indígena. 23-25."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Viegas, Pedro Barros. 2005. Voces en el viento: Raíces lingüísticas de la Patagonia. Buenos Aires: Mondragon Ediciones. 43."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Meroz, Yoram. p.c."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

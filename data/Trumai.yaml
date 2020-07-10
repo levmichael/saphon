@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Trumai
+
+short_name: Trumai
+
+alternate_names: 
+-
+
+iso_codes: 
+- tpy
+
+family: Isolate
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -11.550
+  longitude: -53.350
+  elevation_meters: 309
+
+phonemes: [p, t̪, t, d, k, ʔ, ts, t̪ʼ, tʼ, kʼ, tsʼ, m, n, ɸ, s, ʃ, x, h, j, w, ɬ, l, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Guiardello, Raquel. 1999. A Reference Grammar of Trumai. PhD dissertation, Rice University. 1-6."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Sirionó
+
+short_name: Sirionó
+
+alternate_names: 
+-
+
+iso_codes: 
+- srq
+
+family: Tupí
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -14.771
+  longitude: -64.227
+  elevation_meters: .NAN
+
+phonemes: [t, k, kʲ, tʃ, m, n, ɲ, β, s, h, j, w, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: True
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Gasparini, Noé. 2012. Observations sociolinguistiques et esquisse de la phonologie du siriono, langue tupí-guaraní de Bolivie. MA thesis, Lumière Lyon 2."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

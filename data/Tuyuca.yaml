@@ -1,0 +1,69 @@
+doctype: synthesis
+
+name: Tuyuca
+
+short_name: Tuyuca
+
+alternate_names: 
+-
+
+iso_codes: 
+- tue
+
+family: Tucanoan
+
+countries: 
+- Brazil
+- Colombia
+
+coordinates: 
+- latitude: 0.476
+  longitude: -69.968
+  elevation_meters: 191
+
+phonemes: [p, b, t, d, k, ɡ, s, h, j, w, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: True
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Barnes, Janet and Sheryl Silzer. 1976. Fonología del tuyuca. In Viola Waterhouse (ed.), Sistemas fonológicos de idiomas colombianos 3. Bogotá: Ministerio de Gobierno. 123-37."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Barnes, Janet and Terrell Malone. 2000. El tuyuca. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. Bogotá: Instituto Caro y Cuervo. 437-452"
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Parkateje
+
+short_name: Parkateje
+
+alternate_names: 
+-
+
+iso_codes: 
+- qpt
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -5.250
+  longitude: -48.917
+  elevation_meters: 105
+
+phonemes: [p, t, k, ʔ, m, n, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, ə, ə̃, ɛ, ɜ, ɔ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Macro-Ge, not a standard ISO code.
+
+
+
+---
+
+doctype: ref
+
+citation: "Ferreira, Marília de Nazaré de Oliveira. 2003. Estudo morfossintático da língua Parkatêjê. PhD dissertation, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

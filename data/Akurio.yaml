@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Akurio
+
+short_name: Akurio
+
+alternate_names: 
+-
+
+iso_codes: 
+- ako
+
+family: Carib
+
+countries: 
+- Suriname
+
+coordinates: 
+- latitude: 3.013
+  longitude: -55.643
+  elevation_meters: 303
+
+phonemes: [p, t, k, ʔ, tʃ, m, n, j, w, ɾ, i, iː, ɨ, ɨː, u, uː, e, eː, o, oː, ə, əː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Meira transcribes Akurio's single alveo-palatal segment as palatal stop /c/ (16) but describes the segment as “usually an [alveo-palatal] affricate” (17).
+
+
+
+---
+
+doctype: ref
+
+citation: "Meira, Sérgio. 1998. A Reconstruction of Proto-Taranoan: Phonology and Morphology. MA thesis, Rice University."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

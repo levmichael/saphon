@@ -1,9 +1,0 @@
-name: Arára do Mato Grosso
-name.short: Arára Mato G
-name.comp: AraraMG
-code: axg
-family: Isolate
-country: Brazil
-geo: -9.500 -60.000 nan
-feat: p b t d tʃ dʒ k ɡ m n ɲ ŋ f s ʃ x w j ɾ i ĩ e ẽ ɛ a ã ɔ o õ u ũ ɨ ɨ̃
-bib: da Rocha D’Angelis, Wilmar. 2010. Pistas culturais para identificação lingüística dos arara do Rio Branco. Ms, Universidade Estadual de Campinas.

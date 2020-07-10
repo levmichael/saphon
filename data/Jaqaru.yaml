@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Jaqaru
+
+short_name: Jaqaru
+
+alternate_names: 
+-
+
+iso_codes: 
+- jqr
+
+family: Aymaran
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -12.750
+  longitude: -75.859
+  elevation_meters: 3060
+
+phonemes: [p, t, tʲ, ʈ, c, k, q, ts, pʰ, tʰ, tʲʰ, ʈʰ, cʰ, kʰ, qʰ, tsʰ, pʼ, tʼ, tʲʼ, ʈʼ, cʼ, kʼ, qʼ, tsʼ, m, n, ɲ, ŋ, s, ç, x, j, w, l, ʎ, ɾ, i, iː, u, uː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Hardman, Martha James. 1966. Jaqaru: Outline of Phonological and Morphological Structure. Janua linguarum, 22."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

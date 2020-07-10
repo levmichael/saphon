@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Yanomae of Demini/Tototopi
+
+short_name: Yanomae Demi
+
+alternate_names: 
+-
+
+iso_codes: 
+- wca_yae
+
+family: Yanomam
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: 1.516
+  longitude: -62.820
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, tʰ, m, n, s, ʃ, h, hʷ, j, w, ɾ, i, ĩ, iː, ĩː, ɨ, ɨ̃, ɨː, ɨ̃ː, u, ũ, uː, ũː, e, ẽ, eː, ẽː, o, õ, oː, õː, ə, ə̃, əː, ə̃ː, a, ã, aː, ãː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Ferreira, Helder. personal communication."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Ramirez, Henri. 1999. A prática do Yanomami. Boa Vista: Comissão Pró-Yanomami (CCPY). Manual práctico."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

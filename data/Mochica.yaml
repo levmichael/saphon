@@ -1,0 +1,101 @@
+doctype: synthesis
+
+name: Mochica
+
+short_name: Mochica
+
+alternate_names: 
+-
+
+iso_codes: 
+- omc
+
+family: Isolate
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -7.000
+  longitude: -79.500
+  elevation_meters: .NAN
+
+phonemes: [p, t, d, c, k, ts, tʃ, m, n, ɲ, ŋ, f, s, ʂ, ʃ, j, ɬ, l, ʎ, r, i, iː, ɨ, u, uː, e, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Note non-ISO 539 language code (extinct language). Phonological inventory based on interpretation of colonial sources.
+- This inventory reflects synthesis of information primarily from Cerron-Palomino (1995) and Torero (1997) due to the extent of philological care and precision exhibited by those sources and the degree of agreement between them. The <ü> (high central unrounded vowel) of Torero and the <ö> of Cerron-Palomino (mid front rounded vowel) are interpreted as /ɨ/, in line with the description of the vowel quality in Torero, due to the frequency of occurrence of this phoneme in languages of this area and insufficient evidence for the lip-rounding discussed in Cerron-Palomino. The long /ɨ/ of Torero is excluded because of the lack of justification in that source for the length contrast and the absence of minimal pairs in Cerron-Palomino. The <kj> (voiceless mid-palatal stop) of Torero and <ty> (pre-palatal affricate) of Cerron-Palomino are interpreted as /c/ rather than /tʲ/ based on descriptions of the articulation of the sound and the lack of other palatalized segments in the inventory but presence of other segments with a palatal place of articulation. The <ç> (voiceless apico-alveolar affricate) of Torero and <ts> (dento-alveolar affricate) of Cerron-Palomino are interpreted as /ts/. The <çj> (voiceless pre-palatal affricate) and the <č> (palatal affricate) of Cerron-Palomino are interpreted as /tʃ/. Within the fricative series, Torero's <z> (voiceless dental fricative) and Cerron-Palomino's <s> (dento-alveolar fricative) correspond to /s/, and Torero's <sj> (voiceless pre-palatal fricative) and Cerron-Palomino's <š> (palatal fricative) correspond to /ʃ/. The identity of Torero's <s> (voiceless apico-alveolar fricative) and Cerron-Palomino's <ŝ> (retroflex sibilant) is taken to be /ʂ/ on the basis of the lack of dental versus alveolar contrast elsewhere and the description of this sound involving greater turbulence than the Spanish sibilant. The <!j> (post-palatal voiceless lateral) of Torero and <çˡ̃> (pre-palatal lateralized fricative) of Cerron-Palamino are taken to be /ɬ/ due to the descriptions of the authors and the orthographic representation of the sound as <xll> in colonial sources, combining a fricative and a lateral. The <lj> (voiced pre-palatal lateral) of Torero and the <l̃> (palatal lateral) of Cerron-Palomino are taken to be /ʎ/. The <!> (voiceless cacuminal lateral) of Torero is excluded based on the lack of justification for this contrast that was not made in the orthography used by colonial authors. Likewise, the <tj> (voiceless palatalized dental stop) and <zj> (voiceless palatalized dental fricative) of Torero which were represented only by sequences of i+consonant or consonant+i in colonial orthography are not included due to the lack of justification for positing these as separate phonemes. Finally, the distinction between <r> (alveolar tap) and <r̃> (alveolar trill) found in Cerron-Palomino is not made here due to the scarce evidence for this contrast.
+
+
+
+---
+
+doctype: ref
+
+citation: "Cerron-Palomino, Rodolfo. 1995. La lengua de Naimlap: Reconstrucción y obsolescencia del mochica. Lima: Pontificia Universidad Católica del Perú."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Hovdhaugen, Even. 2004. Mochica. München: LINCOM Europe."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Stark, Louisa. 1972. Maya-Yunga-Chipayan: A New Linguistic Alignment. International Journal of American Linguistics 38 (2): 119-135."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Torero, Alfredo. 1997. La fonología del idioma Mochica en los siglos XVI-XVII. Revista Andina: 29 (1). 101-129."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

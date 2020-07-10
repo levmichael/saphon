@@ -1,0 +1,72 @@
+doctype: synthesis
+
+name: Ocaina
+
+short_name: Ocaina
+
+alternate_names: 
+-
+
+iso_codes: 
+- oca
+
+family: Witotoan
+
+countries: 
+- Peru
+- Colombia
+
+coordinates: 
+- latitude: -2.610
+  longitude: -72.820
+  elevation_meters: .NAN
+- latitude: -3.343
+  longitude: -71.994
+  elevation_meters: .NAN
+
+phonemes: [p, b, t, tʲ, dʲ, k, ɡ, ʔ, ts, dz, tʃ, dʒ, m, mː, n, nː, ɲ, ɲː, ɸ, β, s, ʃ, ʒ, x, h, ɾ, i, ĩ, ɨ, ɨ̃, e, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+- Both sources indicate that [e] does not contrast with [ẽ]
+
+
+
+---
+
+doctype: ref
+
+citation: "Agnew, Arlene and Evelyn Pike. 1957. Phonemes of Ocaina (Huitoto). International Journal of American Linguistics 23: 24-27."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Hockett, Charles F. 1959. On the format of phonemic reports, with restatement of Ocaina. International Journal of American Linguistics 25: 59-62"
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

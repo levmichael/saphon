@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Karo
+
+short_name: Karo
+
+alternate_names: 
+-
+
+iso_codes: 
+- arr
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -10.200
+  longitude: -62.000
+  elevation_meters: 209
+
+phonemes: [p, b, t, c, k, ɡ, ʔ, m, n, ŋ, h, j, w, ɾ, i, ĩ, ɨ, u, e, ẽ, o, õ, ə, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Gabas, Nilson. 1998. Phonological study of the Karo language (Brazil). Munich: LINCOM."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

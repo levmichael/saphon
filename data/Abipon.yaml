@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Abipon
+
+short_name: Abipon
+
+alternate_names: 
+-
+
+iso_codes: 
+- axb
+
+family: Guaicuru
+
+countries: 
+- Argentina
+
+coordinates: 
+- latitude: -29.000
+  longitude: -61.000
+  elevation_meters: 63
+
+phonemes: [p, t, c, k, q, m, n, ɲ, ɣ, ʁ, h, l, ɾ, i, iː, e, eː, o, oː, ə, əː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- It is uncertain whether the phoneme designated here as a palatal stop /c/ is better represented by a palatal stop /c/ or a post-alveolar affricate /tʃ/.
+
+
+
+---
+
+doctype: ref
+
+citation: "Najilis, Elena L. 1966. Lengua Abipona. Buenos Aires: Centro de Estudios Linguísticos. 13-20."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Achagua
+
+short_name: Achagua
+
+alternate_names: 
+-
+
+iso_codes: 
+- aca
+
+family: Arawak
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 4.002
+  longitude: -72.814
+  elevation_meters: 255
+
+phonemes: [p, b, t, d, k, kʷ, ʔ, ts, tʃ, m, n, s, ʃ, ʒ, h, j, w, l, ɾ, i, iː, u, uː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Melendez, Miguel Ángel Lozano. 2000. Esbozo grammatical de la lengua achagua. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Wilson, Peter J. and Stephen H. Levinsohn. 1992. Una descripción preliminar de la gramática del achagua (Arawak). Bogotá: Instituto Lingüístico de Verano."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

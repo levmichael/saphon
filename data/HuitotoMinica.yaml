@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Huitoto, Minica
+
+short_name: Huitoto Min
+
+alternate_names: 
+-
+
+iso_codes: 
+- hto
+
+family: Witotoan
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: -0.236
+  longitude: -73.769
+  elevation_meters: 126
+
+phonemes: [p, b, t, d, k, ɡ, ʔ, tʃ, dʒ, m, n, ɲ, ŋ, ɸ, β, s, x, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Minor, Eugene E. and Dorothy A. Minor. 1976. Fonología del huitoto. In Viola Waterhouse (ed.), Sistemas fonológicos de idiomas Colombianos 3. Bogotá: Ministerio de Gobierno. 59-67."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

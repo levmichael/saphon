@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Arara do Acre
+
+short_name: Shawã
+
+alternate_names: 
+- Arara do Acre
+
+iso_codes: 
+- adc
+
+family: Panoan
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -8.841
+  longitude: -72.315
+  elevation_meters: 279
+
+phonemes: [p, b, t, d, k, ts, tʃ, m, n, f, s, ʂ, ʃ, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "de Souza, Emerson Carvalho. 2012. Aspectos de uma gramática shawã (pano).  PhD dissertation, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

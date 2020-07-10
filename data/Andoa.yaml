@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Andoa
+
+short_name: Andoa
+
+alternate_names: 
+-
+
+iso_codes: 
+- anb
+
+family: Zaparoan
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -2.900
+  longitude: -76.405
+  elevation_meters: 229
+
+phonemes: [p, pʲ, t, tʲ, k, kʲ, kʷ, ts, tʃ, m, n, ɲ, s, ʃ, h, hʷ, j, w, ɾ, ɾʲ, i, ɨ, u, o̝, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Michael, Lev, Vivian Wauters, and Christine Beier. in prep. A Reconstruction of Proto-Zaparoan phonology."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

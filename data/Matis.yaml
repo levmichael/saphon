@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Matís
+
+short_name: Matís
+
+alternate_names: 
+-
+
+iso_codes: 
+- mpq
+
+family: Panoan
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -4.418
+  longitude: -70.306
+  elevation_meters: 83
+
+phonemes: [p, b, t, d, k, ts, tʃ, ʈʂ, m, n, s, ʂ, ʃ, j, w, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Ferreira, Rogério Vicente. 2005. Língua matis (pano): uma descrição gramatical. PhD dissertation, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

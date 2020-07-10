@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Tena Quechua
+
+short_name: Tena Q
+
+alternate_names: 
+-
+
+iso_codes: 
+- quw
+
+family: Quechua
+
+countries: 
+- Ecuador
+
+coordinates: 
+- latitude: -0.812
+  longitude: -77.664
+  elevation_meters: 1657
+
+phonemes: [p, b, t, d, k, ɡ, ts, tʃ, m, n, ɲ, s, z, ʃ, x, j, w, l, ʎ, ɾ, i, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "O'Rourke, Erin, and Tod Swanson. 2013. Tena Quichua. Ms."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Orr, Carolyn and Betsy Wrisley. 1981. Vocabulario quichua del Oriente. Serie de vocabularios indígenas del Ecuador. Quito: Instituto Lingüístico de Verano."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

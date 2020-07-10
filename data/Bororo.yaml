@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Borôro
+
+short_name: Borôro
+
+alternate_names: 
+-
+
+iso_codes: 
+- bor
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -16.000
+  longitude: -57.000
+  elevation_meters: 169
+
+phonemes: [p, b, t, d, k, kʷ, ɡ, ɡʷ, tʃ, dʒ, m, n, j, w, ɾ, i, ɯ, u, e, ɤ, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Nonato, Rafael Bezerra. 2008. Ainore Boe egore: um estudo descritivo da língua bororo e conseqüências para a teoria de caso e concordância. MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

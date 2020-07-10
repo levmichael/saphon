@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Kaapor
+
+short_name: Kaapor
+
+alternate_names: 
+- Urubo-Kaapor
+- Ka'apor
+
+iso_codes: 
+- urb
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -2.346
+  longitude: -46.312
+  elevation_meters: 41
+
+phonemes: [p, t, k, kʷ, ʔ, m, n, ŋ, ŋʷ, s, ʃ, h, j, w, ɾ, i, ĩ, ɨ, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Garcia Lopes, Mário Alexandre. 2009. Aspectos gramaticais da língua ka’apor. PhD dissertation, Universidade Federal de Minai Gerais."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

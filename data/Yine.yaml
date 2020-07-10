@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Yine
+
+short_name: Yine
+
+alternate_names: 
+- Piro
+
+iso_codes: 
+- pib
+
+family: Arawak
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -11.137
+  longitude: -73.087
+  elevation_meters: 366
+
+phonemes: [p, t, k, ts, tʃ, cç, m, n, s, ʃ, ç, h̃, j, w, l, ɾ, i, iː, ɯ, ɯː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Sebastián, Rittma and Stephen Marlett. 2008. Yine. Journal of the International Phonetic Association, 38: 365-369."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

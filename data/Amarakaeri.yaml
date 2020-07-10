@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Amarakaeri
+
+short_name: Amarakaeri
+
+alternate_names: 
+-
+
+iso_codes: 
+- amr
+
+family: Harakmbet
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -12.694
+  longitude: -70.323
+  elevation_meters: 288
+
+phonemes: [p, t, k, ʔ, mb, nd, ŋɡ, m, n, ŋ, s, x, j, w, ɾ, i, ĩ, iː, ĩː, ɨ, ɨː, e, ẽ, eː, ẽː, o, õ, oː, õː, a, ã, aː, ãː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Tripp, Robert (compiler). 1995. Diccionario amarakaeri-castellano. Yarinacocha: Ministerio de Educación and Instituto Lingüístico de Verano."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

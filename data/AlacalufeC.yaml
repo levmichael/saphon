@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Alacalufe (Central)
+
+short_name: Alacalufe C.
+
+alternate_names: 
+-
+
+iso_codes: 
+- alc_cnt
+
+family: Alacalufan
+
+countries: 
+- Chile
+
+coordinates: 
+- latitude: -53.528
+  longitude: -70.957
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, q, tʃ, pʼ, tʼ, kʼ, tʃʼ, n, f, s, h, j, w, ɬ, l, ɾ, i, u, e, o, æ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Viegas, Pedro Barros. 2005. Voces en el viento: Raíces lingüísticas de la Patagonia. Buenos Aires: Mondragon Ediciones. 43."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

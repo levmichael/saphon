@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Shiwilu
+
+short_name: Shiwilu
+
+alternate_names: 
+- Jebero
+
+iso_codes: 
+- jeb
+
+family: Cahuapanan
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -5.281
+  longitude: -76.283
+  elevation_meters: 155
+
+phonemes: [p, t, k, ʔ, tʃ, m, n, ɲ, s, ʃ, ð̞, j, w, l, ʎ, ɾ, ʔɾ, i, u, ə, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Valenzuela, Pilar and Carlos Gussenhoven. to appear. Phonological sketch of Shiwilu. JIPA."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

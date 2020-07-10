@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Amundava
+
+short_name: Amundava
+
+alternate_names: 
+-
+
+iso_codes: 
+- adw
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -10.994
+  longitude: -63.064
+  elevation_meters: 208
+
+phonemes: [p, t, k, kʷ, ʔ, tʃ, m, n, ɲ, ŋ, ŋʷ, β, h, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Sampaio, Wany Bernadette de Araújo. 1998. Estudo comparativo sincrônico entre o parintintin (tenharim) e o uru-eu-uau-uau (amondawa): contribuições para uma revisão na classificação das línguas tupi-kawahib. MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

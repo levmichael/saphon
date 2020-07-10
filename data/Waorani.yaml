@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Waorani
+
+short_name: Waorani
+
+alternate_names: 
+-
+
+iso_codes: 
+- auc
+
+family: Isolate
+
+countries: 
+- Ecuador
+
+coordinates: 
+- latitude: -1.000
+  longitude: -76.500
+  elevation_meters: 270
+
+phonemes: [p, b, t, d, k, ɡ, m, n, ɲ, ŋ, j, w, i, ĩ, iː, ĩː, e, ẽ, eː, ẽː, o, õ, oː, õː, æ, æ̃, æː, æ̃ː, a, ã, aː, ãː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Saint, Rachel and Kenneth Pike. 1962. Auca Phonemics. In Benjamin Elson (ed.), Studies in Ecuadorian Indian languages: I, pp. 5-18. Norman: Summer Institute of Linguistics of the University of Oklahoma."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

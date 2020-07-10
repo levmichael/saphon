@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Cashibo-Cacataibo
+
+short_name: Cashibo-Cctb
+
+alternate_names: 
+-
+
+iso_codes: 
+- cbr
+
+family: Panoan
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -8.755
+  longitude: -75.369
+  elevation_meters: 305
+
+phonemes: [p, t, k, kʷ, ʔ, ts, tʃ, m, n, ɲ, s, ʂ, ʃ, β̞, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Zariquiey, Roberto. 2011. A grammar of Kashibo-Kakataibo. PhD dissertation, La Trobe University."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

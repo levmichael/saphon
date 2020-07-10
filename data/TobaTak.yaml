@@ -1,0 +1,54 @@
+doctype: synthesis
+
+name: Toba (Takshek dialect)
+
+short_name: Toba Takshek
+
+alternate_names: 
+-
+
+iso_codes: 
+- tob_tks
+
+family: Guaicuru
+
+countries: 
+- Argentina
+- Bolivia
+- Paraguay
+
+coordinates: 
+- latitude: -25.293
+  longitude: -58.514
+  elevation_meters: 99
+
+phonemes: [p, t, k, ɡ, q, ʔ, tʃ, m, n, ɲ, s, ʃ, ʒ, ʁ, h, j, w, l, ʎ, ɾ, i, iː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Messineo, Christina María. 1988. Fonología del toba-takšek. Etnolingüística II. 32-37."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

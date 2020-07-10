@@ -1,9 +1,0 @@
-name: Salasca Quechua
-name.short: Salasca Q
-name.comp: SalascaQ
-code: qxl
-family: Quechua
-country: Ecuador
-geo: -1.545 -78.290 2118
-feat: pʰ p b tʰ t ts d tʃ kʰ k ɡ m n ɲ s z ʃ ʒ x w j ɾ l i a u
-bib: Chango Masaquiza, Fanny and Stephen A. Marlett. 2008. Salasaca Quichua. Journal of the International Phonetic Association 38(2): 223-227.

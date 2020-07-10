@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Macuna
+
+short_name: Macuna
+
+alternate_names: 
+-
+
+iso_codes: 
+- myy
+
+family: Tucanoan
+
+countries: 
+- Colombia
+- Brazil
+
+coordinates: 
+- latitude: 0.003
+  longitude: -70.450
+  elevation_meters: 168
+
+phonemes: [b, t, d, k, ɡ, s, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+- /p/ only occurs in loans.
+
+
+
+---
+
+doctype: ref
+
+citation: "Smothermon, Jeffrey R., Josephine H. Smothermon and Paul S. Frank. 1995. Bosquejo del macuna: Aspectos de la cultura material de los macunas, fonología, gramática. Bogotá: Associación [sic] Instituto Lingüístico de Verano."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

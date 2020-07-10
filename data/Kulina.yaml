@@ -1,0 +1,69 @@
+doctype: synthesis
+
+name: Kulina
+
+short_name: Kulina
+
+alternate_names: 
+- Culina
+
+iso_codes: 
+- cul
+
+family: Arawan
+
+countries: 
+- Brazil
+- Peru
+
+coordinates: 
+- latitude: -6.000
+  longitude: -70.300
+  elevation_meters: 215
+
+phonemes: [p, b, t, d, k, ʔ, ts, dz, pʰ, tʰ, kʰ, tsʰ, m, n, h, w, ɾ, i, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Adams, Patsy and Esther Gordon de Powlison. 1976. Los Fonemas Segmentales Del Culina Peruano (Arahuaca Araua). Datos Etno-Lingüísticos 28. Lima, Peru: Instituto Lingüístico de Verano. 1-16."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Dixon, R.M.W. 2004. Proto-Arawá Phonology. Anthropological Linguistics 46(1): 1-83."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

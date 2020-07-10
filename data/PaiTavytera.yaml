@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Pai Tavytera
+
+short_name: Pai Tavytera
+
+alternate_names: 
+-
+
+iso_codes: 
+- pta
+
+family: Tupí
+
+countries: 
+- Paraguay
+
+coordinates: 
+- latitude: -23.131
+  longitude: -56.131
+  elevation_meters: 274
+
+phonemes: [p, t, k, kʷ, ʔ, m, n, ɲ, ŋ, ŋʷ, s, ʃ, h, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Cardoso, Valéria Faria. 2008. Aspectos morfossintáticos da língua kaiowá (guaraní). PhD dissertation, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

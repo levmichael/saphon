@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Cayubaba
+
+short_name: Cayubaba
+
+alternate_names: 
+-
+
+iso_codes: 
+- cyb
+
+family: Isolate
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -13.421
+  longitude: -65.464
+  elevation_meters: 2108
+
+phonemes: [p, b, t, d, c, ɟ, k, m, n, ɲ, β, s, ʃ, ʒ, x, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, ɔ, ɔ̃, æ, æ̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Aikhenvald, Alexandra  and R.M.W. Dixon. 1999. Other small families and isolates. In R.M.W. Dixon and Alexandra Aikhenvald (eds.), The Amazonian Languages, pp. 341-384. Cambridge University Press."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

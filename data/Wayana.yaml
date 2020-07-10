@@ -1,0 +1,54 @@
+doctype: synthesis
+
+name: Wayana
+
+short_name: Wayana
+
+alternate_names: 
+-
+
+iso_codes: 
+- way
+
+family: Carib
+
+countries: 
+- Brazil
+- French Guiana
+- Suriname
+
+coordinates: 
+- latitude: 1.217
+  longitude: -54.657
+  elevation_meters: 114
+
+phonemes: [p, t, k, m, n, h, j, w, ɽ, i, ɨ, ɯ, e, ɤ, ə, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- "The choice of symbols for the back vowels in the inventory presented here is influenced by Tavares' (2006: 9) observation that “[t]he back vowels /u/ and /o/ are articulated with the lips unrounded. They are therefore different from the vowels found in English or French in which the lips are rounded and prominent.”"
+
+
+
+---
+
+doctype: ref
+
+citation: "Tavares, Petronila. 2006. A Grammar of Wayana. PhD dissertation, Rice University."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

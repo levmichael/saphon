@@ -1,0 +1,69 @@
+doctype: synthesis
+
+name: Mapudungun
+
+short_name: Mapudungun
+
+alternate_names: 
+-
+
+iso_codes: 
+- arn
+
+family: Araucanian
+
+countries: 
+- Argentina
+- Chile
+
+coordinates: 
+- latitude: -38.000
+  longitude: -72.000
+  elevation_meters: 332
+
+phonemes: [p, t̪, t, k, tʃ, ʈʂ, m, n̪, n, ɲ, ŋ, f, θ, s, ʐ, ɣ, j, w, l̪, l, ʎ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Viegas Barros, Pedro J. 2005. Voces en el Viento. Buenos Aires: Mondragon. 74."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Meroz, Yoram. p.c."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

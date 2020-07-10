@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Kinikinao
+
+short_name: Kinikinao
+
+alternate_names: 
+-
+
+iso_codes: 
+- gqn
+
+family: Arawak
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -19.989
+  longitude: -57.028
+  elevation_meters: 239
+
+phonemes: [p, t, k, ʔ, m, n, s, ʃ, h, j, w, l, ɾ, i, ĩ, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- de Souza observes that first person markers on verbs are realized as supersegmental nasalization.
+
+
+
+---
+
+doctype: ref
+
+citation: "de Souza, Ilda. 2008. Koenukunoe emo'u: A língua dos índios Kinikinau. PhD dissertation, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

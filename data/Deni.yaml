@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Dení
+
+short_name: Dení
+
+alternate_names: 
+-
+
+iso_codes: 
+- dny
+
+family: Arawan
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -6.000
+  longitude: -67.000
+  elevation_meters: 111
+
+phonemes: [p, b, t, d, k, ts, dz, pʰ, tʰ, kʰ, m, n, v, h, ɾ, i, u, ɛ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Carvalho, Mateus Cruz Maciel. 2013. Análise fonológica da língua dení (arawá). MA thesis, Universidade Estadual Paulista."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

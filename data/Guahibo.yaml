@@ -1,0 +1,85 @@
+doctype: synthesis
+
+name: Guahibo
+
+short_name: Guahibo
+
+alternate_names: 
+-
+
+iso_codes: 
+- guh
+
+family: Guahiban
+
+countries: 
+- Colombia
+- Venezuela
+
+coordinates: 
+- latitude: 4.904
+  longitude: -66.366
+  elevation_meters: 118
+
+phonemes: [p, b, t, d, k, ts, tʰ, m, n, ɸ, s, x, h, j, w, l, ɾ, i, ĩ, iː, ɨ, ɨ̃, ɨː, u, ũ, uː, e, ẽ, eː, o, õ, oː, a, ã, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Kondo, Victor F. and Riena W. Kondo. 1972. Fonemas del guahibo. Sistemas fonologicós de idiomas colombianos 1. Ed. Viola G. Waterhouse. Bogotá: Ministerio de Gobierno. 94-99."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Kondo, Riena W. 1984. Notas sobre la fonologia guahiba. Sistemas fonológicos de idiomas colombianos 5. Lomalinda: Editorial Townsend. 208."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Ardila, Olga. 2000. Fonología del Guahibo (o Sikuani).In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Santafe de Bogotá: Instituto Caro y Cuervo. 571-573"
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

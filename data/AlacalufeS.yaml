@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Alacalufe (Southern)
+
+short_name: Alacalufe S.
+
+alternate_names: 
+-
+
+iso_codes: 
+- alc_sth
+
+family: Alacalufan
+
+countries: 
+- Chile
+
+coordinates: 
+- latitude: -55.200
+  longitude: -69.400
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, q, tʃ, pʼ, tʼ, kʼ, tʃʼ, m, n, f, s, h, j, w, ɬ, l, ɾ, i, u, e, o, æ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Viegas, Pedro Barros. 2005. Voces en el viento: Raíces lingüísticas de la Patagonia. Buenos Aires: Mondragon Ediciones. 41."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Meroz, Yoram. p.c."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

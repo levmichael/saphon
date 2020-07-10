@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Apiaká
+
+short_name: Apiaká
+
+alternate_names: 
+-
+
+iso_codes: 
+- api
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -11.049
+  longitude: -56.651
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, ʔ, m, n, ŋ, s, h, j, w, ɾ, i, ĩ, ɨ, u, ũ, e, ẽ, o, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Padua, Alexandre Jorge. 2007. Contribuição para a fonologia da língua apiaká (tupí-guaraní). MA thesis, Universidade de Brasília."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

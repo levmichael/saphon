@@ -1,0 +1,56 @@
+doctype: synthesis
+
+name: Bolivian Quechua (Northern and Southern dialects)
+
+short_name: Bolivian Q
+
+alternate_names: 
+-
+
+iso_codes: 
+- qul
+- quh
+
+family: Quechua
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -15.532
+  longitude: -68.879
+  elevation_meters: 3229
+- latitude: -20.146
+  longitude: -66.185
+  elevation_meters: 4493
+
+phonemes: [p, t, k, q, tʃ, pʰ, tʰ, kʰ, qʰ, tʃʰ, pʼ, tʼ, kʼ, qʼ, tʃʼ, m, n, ɲ, s, h, j, w, l, ʎ, ɾ, i, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Bills, Garland, Bernardo Vallejo, and Rudolph Troike. 1969. An introduction to spoken Bolivian Quechua. University of Texas Press."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

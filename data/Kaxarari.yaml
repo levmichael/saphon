@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Kaxararí
+
+short_name: Kaxararí
+
+alternate_names: 
+-
+
+iso_codes: 
+- ktx
+
+family: Panoan
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -9.327
+  longitude: -66.678
+  elevation_meters: 158
+
+phonemes: [p, t, k, ts, tʃ, m, n, β, s, ʂ, ʃ, h, w, l, ɾ, i, ɨ, u, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Sousa encounterd a palatal nasal /ɲ/ only twice in the data, rendering hom unsure of its phonemic status (58-59).
+
+
+
+---
+
+doctype: ref
+
+citation: "Sousa, Gladys Cavalcante. 2004. Aspectos da fonologia da língua kaxarari. MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

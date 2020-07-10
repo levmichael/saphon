@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Secoya del Putumayo
+
+short_name: Secoya Put
+
+alternate_names: 
+-
+
+iso_codes: 
+- sey_put
+
+family: Tucanoan
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -0.333
+  longitude: -75.232
+  elevation_meters: 258
+
+phonemes: [p, t, d, k, kʷ, ʔ, ts, dʒ, m, h, w, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Vallejos, Rosa. 2013. El secoya del Putumayo: Aportes fonológicos para la reconstrucción del Proto-Tucano Occidental. LIAMES 13. 67-100."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Inga (Highland dialect)
+
+short_name: Inga Highlnd
+
+alternate_names: 
+-
+
+iso_codes: 
+- inb
+
+family: Quechua
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 1.223
+  longitude: -76.658
+  elevation_meters: 1189
+
+phonemes: [p, b, t, d, k, ɡ, ts, tʃ, m, n, ɲ, s, ʃ, x, j, w, l, ʎ, ɾ, i, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- According to Levinsohn and Jansasoy, “la vibrante es dental, retrofleja, sonora y (en el dialecto de Santiago) múltiple” (122).
+
+
+
+---
+
+doctype: ref
+
+citation: "Levinsohn, Stephen and Francisco Tandioy Jansasoy. 2000. Inga. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. 121-122."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

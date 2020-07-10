@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Aʔɨwa
+
+short_name: Aʔɨwa
+
+alternate_names: 
+- Vacacocha
+- Auishiri
+
+iso_codes: 
+- ash
+
+family: Isolate
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -2.000
+  longitude: -74.500
+  elevation_meters: 0
+
+phonemes: [p, t, k, kʲ, kʷ, ʔ, ts, tʃ, m, n, s, ʃ, h, j, w, l, ɾ, i, ĩ, ɨ, u, ũ, e, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Michael, Lev and Christine Beier. Phonological sketch and classification of Aʔɨwa [ISO 639: ash]. Talk given at the 2012 Winter meeting of the Society for the Study of the Indigenous Languages of the Americas, Portland, OR."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

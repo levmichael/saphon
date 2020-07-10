@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Emerillon
+
+short_name: Emerillon
+
+alternate_names: 
+-
+
+iso_codes: 
+- eme
+
+family: Tupí
+
+countries: 
+- French Guiana
+
+coordinates: 
+- latitude: 3.285
+  longitude: -53.803
+  elevation_meters: .NAN
+
+phonemes: [p, b, t, d, k, kʷ, ɡ, ʔ, tʃ, dʒ, s, z, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, ə, ə̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Rose, Françoise. 2003. Morphosyntaxe de l'émérillon, langue tupí-guaraní de Guyane française. PhD dissertation, Université Lumière Lyon 2."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

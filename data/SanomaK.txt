@@ -1,9 +1,0 @@
-name: Sanömá of Kolulu
-name.short: Sanömá Kolu
-name.comp: SanomaK
-code: xsu_kol
-family: Yanomam
-country: Brazil
-geo: 3.943 -64.475 nan
-feat: p tʰ t k m n s h w l i ĩ iː ĩː e ẽ eː ẽː a ã aː ãː o õ oː õː u ũ uː ũː ɨ ɨ̃ ɨː ɨ̃ː ə ə̃ əː ə̃ː
-bib: Ferreira, Helder. personal communication.

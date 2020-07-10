@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Apurinã
+
+short_name: Apurinã
+
+alternate_names: 
+-
+
+iso_codes: 
+- apu
+
+family: Arawak
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -9.000
+  longitude: -67.000
+  elevation_meters: 170
+
+phonemes: [p, t, k, ts, tʃ, m, n, ɲ, s, ʃ, h, j, ɰ, ɾ, i, ĩ, iː, ĩː, ɨ, ɨ̃, ɨː, ɨ̃ː, e, ẽ, eː, ẽː, o, õ, oː, õː, a, ã, aː, ãː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Facundes observes that “/ɲ/ and /h/ do not have phonemic status in some of the speech varieties, while in others they do.”
+
+
+
+---
+
+doctype: ref
+
+citation: "Facundes, Sidney. 2000. The Language of the Apurinã People of Brazil (Maipure/Arawak). PhD dissertation, SUNY Buffalo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

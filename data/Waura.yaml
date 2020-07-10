@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Waurá
+
+short_name: Waurá
+
+alternate_names: 
+-
+
+iso_codes: 
+- wau
+
+family: Arawak
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -13.000
+  longitude: -53.000
+  elevation_meters: 330
+
+phonemes: [p, t, tʲ, k, ts, n, ɲ, β, s, ʒ, ɣ, h, j, w, l, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Richards, Joan. 1977. A estrutura verbal Waurá. Serie Linguistica 7. 141-184."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Ashéninka (Perené dialect)
+
+short_name: Ashéninka Pe
+
+alternate_names: 
+-
+
+iso_codes: 
+- prq
+
+family: Arawak
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -10.873
+  longitude: -75.245
+  elevation_meters: 1368
+
+phonemes: [p, pʲ, t, tʲ, k, kʲ, ts, tʃ, tsʰ, m, n, ɲ, N, s, ʃ, h, j, w, ɾ, ɾʲ, i, iː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Mihas, Elena. 2010. Essentials of Ashéninka Perené Grammar. PhD dissertation, University of Wisconsin-Milwaukee."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

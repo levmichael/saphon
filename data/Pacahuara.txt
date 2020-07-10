@@ -1,9 +1,0 @@
-name: Pacahuara
-name.short: Pacahuara
-name.comp: Pacahuara
-code: pcp
-family: Panoan
-country: Bolivia
-geo: -11.891 -65.279 nan
-feat: p t ts tʃ k ʔ m n β s ʂ ʃ h w j ɾ i a o ɨ
-bib: Tallman, Adam J. 2012. personal communication.

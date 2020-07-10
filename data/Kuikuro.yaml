@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Kuikúro-Kalapálo
+
+short_name: Kuikúro-Klpl
+
+alternate_names: 
+-
+
+iso_codes: 
+- kui
+
+family: Carib
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -12.437
+  longitude: -53.242
+  elevation_meters: 285
+
+phonemes: [p, t, dʲ, k, ts, m, n, ɲ, ŋ, s, ɣ, h, w, l, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Meira, Sergio, and Bruna Franchetto. 2005. The Southern Cariban Languages and the Cariban Family. International Journal of American Linguistics 71. 127-92."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

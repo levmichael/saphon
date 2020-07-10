@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Muylaq' Aymara
+
+short_name: Aymara Muy
+
+alternate_names: 
+-
+
+iso_codes: 
+- ayr_muy
+
+family: Aymaran
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -16.675
+  longitude: -70.711
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, q, tʃ, pʰ, tʰ, kʰ, qʰ, tʃʰ, pʼ, tʼ, kʼ, qʼ, tʃʼ, m, n, ɲ, s, x, h, j, w, l, ʎ, ɾ, i, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Coler, Matt, and Edwin Banegas Flores. A grammatical description of Muylaq' Aymara. Under review."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

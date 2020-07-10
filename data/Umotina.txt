@@ -1,9 +1,0 @@
-name: Umotína
-name.short: Umotína
-name.comp: Umotina
-code: umo
-family: Macro-Ge
-country: Brazil
-geo: -15.251 -57.309 183
-feat: p t k m n z ʃ ʒ w j ɾ l i e ɛ a ɔ o u ɨ
-bib: Lima, Stella Telles Pereira. 1995. A língua Umutina: "um sopro de vida". PhD dissertation, Universidade Federal de Pernambuco.

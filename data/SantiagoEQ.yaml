@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Santiago del Estero Quechua
+
+short_name: Santiago E Q
+
+alternate_names: 
+-
+
+iso_codes: 
+- qus
+
+family: Quechua
+
+countries: 
+- Argentina
+
+coordinates: 
+- latitude: -27.671
+  longitude: -64.367
+  elevation_meters: 215
+
+phonemes: [p, t, k, ɡ, q, ɢ, tʃ, m, n, ɲ, ɸ, s, ʃ, ʒ, x, χ, j, w, l, ɾ, i, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Phonemes /b/ and /d/ are found in Spanish loans, while /ɢ/ is probably a loan from a neiɡhborinɡ indigenous lanɡuaɡe. It appears in apparent loans for local fauna and flora. Mid vowels in this variety also appear to be borrowed.
+- Alderetes does not distinguish /x/ and /χ/ as separate phonemes, but his description indicates that their distribution is not predicatable, suggesting that they are contrastive.
+
+
+
+---
+
+doctype: ref
+
+citation: "Alderetes, Jorge. 2001. El quechua de Santiago del Estero. Universidad Nacional de Tucumán."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

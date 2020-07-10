@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Ignaciano
+
+short_name: Ignaciano
+
+alternate_names: 
+-
+
+iso_codes: 
+- ign
+
+family: Arawak
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -15.100
+  longitude: -65.250
+  elevation_meters: 155
+
+phonemes: [p, t, k, ʔ, ts, tʃ, m, n, ɲ, v, s, ʃ, h, j, ɾ, i, u, e, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Ott, Rebecca and Willis Ott. 1967. Ignaciano. In Esther Matteson (ed.), Bolivian Indian grammars 1. Norman: Summer Institute of Linguistics of the University of Oklahoma."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

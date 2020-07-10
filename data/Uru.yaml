@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Uru
+
+short_name: Uru
+
+alternate_names: 
+- Uchumataqu
+
+iso_codes: 
+- ure
+
+family: Uru-Chipaya
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -16.620
+  longitude: -68.970
+  elevation_meters: 3712
+
+phonemes: [p, t, tʷ, k, kʷ, k̪, q, ts, tʃ, pʰ, tʰ, kʰ, qʰ, pʼ, tʼ, kʼ, qʼ, m, n, s, x, h, j, w, l, ʎ, i, iː, u, uː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- This inventory reflects that found in Hannß (2008) since that source relies on a range of previous sources. The symbol /k̪/ represents a dentalized velar stop.
+
+
+
+---
+
+doctype: ref
+
+citation: "Muysken, Pieter. 2000. Drawn into the Aymara mold? Notes on Uru grammar. In Hein van der Voort & Simon van de Kerke (eds.), Essays on the Indigenous Languages of Lowland South America, 99-109. Leiden: CNWS publications."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Hannß, Katja. 2008. Uchumataqu, the lost language of the Urus of Bolivia: A grammatical description of the language as documented between 1894 and 1952 (Indigenous Languages of Latin America 7). Leiden: CNWS publications."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

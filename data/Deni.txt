@@ -1,9 +1,0 @@
-name: Dení
-name.short: Dení
-name.comp: Deni
-code: dny
-family: Arawan
-country: Brazil
-geo: -6.000 -67.000 111
-feat: pʰ p b tʰ t ts d dz kʰ k m n v h ɾ i ɛ a u
-bib: Carvalho, Mateus Cruz Maciel. 2013. Análise fonológica da língua dení (arawá). MA thesis, Universidade Estadual Paulista.

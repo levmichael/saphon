@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Tapirapé
+
+short_name: Tapirapé
+
+alternate_names: 
+-
+
+iso_codes: 
+- taf
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -10.708
+  longitude: -50.619
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, kʷ, ʔ, tʃ, m, n, ŋ, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Praça, Walkíria Neiva. 2007. Morfossintaxe da língua Tapirapé. PhD dissertation, Universidade de Brasília."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

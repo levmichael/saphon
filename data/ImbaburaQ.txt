@@ -1,9 +1,0 @@
-name: Imbabura Quichua
-name.short: Imbabura Q
-name.comp: ImbaburaQ
-code: qvi
-family: Quechua
-country: Ecuador
-geo: 0.312 -78.169 3541
-feat: p t ts tʃ k m n ɲ ɸ s ʃ ʒ x w j ɾ l i a u
-bib: Chang, Will and John Sylak. 2010. personal communication.

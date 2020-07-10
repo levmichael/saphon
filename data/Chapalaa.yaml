@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Cha'palaa
+
+short_name: Cha'palaa
+
+alternate_names: 
+- Chachi
+- Cha'palaachi
+
+iso_codes: 
+- cbi
+
+family: Barbacoan
+
+countries: 
+- Ecuador
+
+coordinates: 
+- latitude: -0.106
+  longitude: -79.223
+  elevation_meters: 1147
+
+phonemes: [p, b, t, tʲ, d, dʲ, k, ɡ, ʔ, ts, tʃ, m, n, ɲ, ŋ, β, s, ʃ, χ, j, l, ʎ, ɾ, i, u, e, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Floyd, Simeon. 2010. Discourse Forms and Social Categorization in Cha’palaa. PhD dissertation, University of Texas at Austin."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

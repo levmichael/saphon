@@ -1,0 +1,54 @@
+doctype: synthesis
+
+name: Kokama-Kokamilla
+
+short_name: Kokama-Kok
+
+alternate_names: 
+- Cocama-Cocamilla
+
+iso_codes: 
+- cod
+
+family: Tupí
+
+countries: 
+- Peru
+- Brazil
+- Colombia
+
+coordinates: 
+- latitude: -5.056
+  longitude: -74.141
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, ts, tʃ, m, n, x, j, w, ɾ, i, ɨ, u, e, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Vallejos, Rosa. 2010. A Grammar of Kokama-Kokamilla. PhD dissertation, University of Oregon."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Yanomama of Papiu
+
+short_name: Yanomama Pap.
+
+alternate_names: 
+-
+
+iso_codes: 
+- wca_yma
+
+family: Yanomam
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: 2.660
+  longitude: -63.156
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, tʰ, m, n, s, ʃ, h, j, w, ɾ, i, ĩ, iː, ĩː, ɨ, ɨ̃, ɨː, ɨ̃ː, u, ũ, uː, ũː, e, ẽ, eː, ẽː, o, õ, oː, õː, ə, ə̃, əː, ə̃ː, a, ã, aː, ãː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Ferreira, Helder. personal communication."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

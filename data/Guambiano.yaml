@@ -1,0 +1,84 @@
+doctype: synthesis
+
+name: Guambiano
+
+short_name: Guambiano
+
+alternate_names: 
+-
+
+iso_codes: 
+- gum
+
+family: Barbacoan
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 2.480
+  longitude: -76.672
+  elevation_meters: 1717
+
+phonemes: [p, t, k, kʷ, ʔ, ts, tʃ, ʈʂ, m, n, ɲ, s, ʂ, ʃ, ʒ, j, w, l, ʎ, ɾ, i, ɨ, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Branch and Long posit /kʷ/ and /ʒ/, while Vásquez excludes these segments from the inventory. Vásquez also proposes /ə/ instead of /ɨ/, and /u/ instead of /o/. Long posits /ʔ/, which we include here due to its appearance in other Barbacoan languages.
+
+
+
+---
+
+doctype: ref
+
+citation: "Branks, Thomas and Judith Branks. 1973. Fonología del guambiano. Sistemas Fonológicos de Idiomas Colombianos: Tomo II. Bogota: Ministerio de Gobierno. 39-56."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Long, Violeta. 1985. Estudio de la lengua guambiano. University of St. Andrews Centre for Latin American Studies Working Paper 20. Larnaca, Cyprus."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Vásquez, Beatriz. 2000. Guambiano: algunos aspectos sobre morfología nominal. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. 155-156."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

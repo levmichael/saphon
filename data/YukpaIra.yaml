@@ -1,0 +1,69 @@
+doctype: synthesis
+
+name: Yukpa (de Irapa)
+
+short_name: Yukpa Irapa
+
+alternate_names: 
+-
+
+iso_codes: 
+- yup_irp
+
+family: Carib
+
+countries: 
+- Venezuela
+- Colombia
+
+coordinates: 
+- latitude: 10.450
+  longitude: -72.800
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, ʔ, tʃ, m, n, s, ʃ, ʋ, j, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Meira, Sérgio. 2003. Primeras observaciones sobre la lengua yukpa. Lingua Americana 12: 113-138."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Oquendo, Luís. 2004. La vibrant uvular y la approximate labiodental en la lengua japreria como cultura fonológica. Opción 20(45): 60-74."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

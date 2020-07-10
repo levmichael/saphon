@@ -1,0 +1,69 @@
+doctype: synthesis
+
+name: Epena
+
+short_name: Epena
+
+alternate_names: 
+-
+
+iso_codes: 
+- sja
+
+family: Choco
+
+countries: 
+- Colombia
+- Ecuador
+
+coordinates: 
+- latitude: 3.000
+  longitude: -77.000
+  elevation_meters: 788
+
+phonemes: [p, b, t, d, k, ɡ, ʔ, tʃ, pʰ, tʰ, kʰ, s, h, j, w, ɾ, r, i, ĩ, iː, ɨ, ɨ̃, ɨː, u, ũ, uː, e, ẽ, eː, o, õ, oː, ə, ə̃, əː, a, ã, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Harms, Phillip L. 1984. Fonología del epena pedee (saija). In Sistemas fonológicas de idiomas colombianos 5. Lomalinda: Editorial Townsend. 157-201."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Harms, Phillip L. 1994. Epena Pedee syntax: Studies in the languages of Colombia 4. Summer Institute of Linguistics and the University of Texas at Arlington Publications in Linguistics, 118. Dallas: Summer Institute of Linguistics and the University of Texas at Arlington. 4."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

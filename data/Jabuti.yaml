@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Jabutí
+
+short_name: Jabutí
+
+alternate_names: 
+-
+
+iso_codes: 
+- jbt
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -12.150
+  longitude: -62.150
+  elevation_meters: 491
+
+phonemes: [p, ps, bz, t, k, tʃ, dʒ, m, n, β, h, j, w, ɾ, i, ĩ, u, o, õ, ə, ɛ, ɛ̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Ribeiro, Eduardo and Hein van der Voort. 2010. Nimuendajú was right: The inclusion of the Jabutí family in the Macro-Jê stock, IJAL 76(4): 517-570."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

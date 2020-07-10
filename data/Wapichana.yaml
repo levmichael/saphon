@@ -1,0 +1,69 @@
+doctype: synthesis
+
+name: Wapichana
+
+short_name: Wapichana
+
+alternate_names: 
+- Wapishana
+
+iso_codes: 
+- wap
+
+family: Arawak
+
+countries: 
+- Brazil
+- Guyana
+
+coordinates: 
+- latitude: 2.400
+  longitude: -60.000
+  elevation_meters: 123
+
+phonemes: [p, b, t, d, ɖ, k, ɡ, ʔ, tʃ, m, n, ɲ, s, ʐ, ʃ, j, w, ɽ, i, ɨ, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Ferreira, Helder. personal communication"
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "dos Santos, Manuel Gomes. 2006. Uma gramática do Wapixana (Aruak): aspectos da fonologia, da morfologia e da sintaxe. PhD dissertation, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

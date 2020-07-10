@@ -1,0 +1,69 @@
+doctype: synthesis
+
+name: Piratapuyo
+
+short_name: Piratapuyo
+
+alternate_names: 
+- Wa'ikhana
+
+iso_codes: 
+- pir
+
+family: Tucanoan
+
+countries: 
+- Brazil
+- Colombia
+
+coordinates: 
+- latitude: 0.200
+  longitude: -69.300
+  elevation_meters: 106
+
+phonemes: [p, b, t, d, k, ɡ, s, h, j, w, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: True
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Stenzel, Kristine and Didier Demolin. 2012. Traços laringais em Kotiria e Wa'ikhana (Tukano Oriental). In Gisela Collischonn e Leda Bisol (eds.), Fonologia: Teorias e Perspectivas-Anais do IV Seminaria Internacional de Fonologia. Porto Alegre: PURS. 77-100."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Klumpp, James W. and Deloris A. Klumpp. 1973. Sistema fonológico del piratapuyo. In Viola Waterhouse (ed.), Sistemas fonológicos de idiomas Colombianos 2, 107-20. Bogotá: Ministerio de Gobierno."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

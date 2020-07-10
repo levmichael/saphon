@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Yavitero
+
+short_name: Yavitero
+
+alternate_names: 
+-
+
+iso_codes: 
+- yvt
+
+family: Arawak
+
+countries: 
+- Venezuela
+
+coordinates: 
+- latitude: 2.767
+  longitude: -67.998
+  elevation_meters: 117
+
+phonemes: [b, t, d, k, ɡ, ts, dz, m, n, ɲ, s, h, j, w, ɺ̥, ɺ, ɾ, i, u, e, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- The authors observe that /p/and /r/ appear (only?) in loans, and that /nʲ/ is rare; /ɺ/ is a voiced lateral tap and /ɺ̥ / its voiceless counterpart.
+
+
+
+---
+
+doctype: ref
+
+citation: "Mosonyi, Esteban, Jorge Mosonyi, and Águeda Largo. 2000. Yavitero. In Esteban Mosonyi and Jorge Mosonyi (eds.), Manual de lenguas indígenas de Venezuela, Tomo II. 594-661."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

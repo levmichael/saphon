@@ -1,0 +1,69 @@
+doctype: synthesis
+
+name: Trió
+
+short_name: Trió
+
+alternate_names: 
+- Tiriyó
+
+iso_codes: 
+- tri
+
+family: Carib
+
+countries: 
+- Suriname
+- Brazil
+
+coordinates: 
+- latitude: 2.221
+  longitude: -55.960
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, m, n, s, h, j, w, ɾ, i, iː, ɨ, ɨː, u, uː, e, eː, o, oː, ə, əː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Meira, Sérgio. 1999. A Grammar of Tiriyó. PhD dissertation, Rice University."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Meira, Sérgio. 1998. A Reconstruction of Proto-Taranoan: Phonology and Morphology. MA thesis, Rice University."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

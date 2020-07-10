@@ -1,0 +1,72 @@
+doctype: synthesis
+
+name: North Junín Quechua (San Pedro de Cajas dialect)
+
+short_name: N Junín Q SP
+
+alternate_names: 
+-
+
+iso_codes: 
+- qvn_caj
+
+family: Quechua
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -11.256
+  longitude: -75.856
+  elevation_meters: 3444
+
+phonemes: [p, t, k, ɡ, tʃ, ʈʂ, m, n, ɲ, ŋ, s, ʃ, x, χ, j, w, l, ʎ, ɾ, i, iː, u, uː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Phonemes /d/ and /e/ are found only in Spanish loan words.
+- "Phonemes /β, o, o:, e:/ are found only in Spanish loan words or words of obscure origin."
+- The phoneme /ʐ / is found only in Spanish loan words, words of obscure origin, or onomatopoetic expressions.
+- The phoneme /b/ is found only in Spanish loan words and onomatopoetics.
+- The contrast between alveolar and velar nasals in the North Junín dialects is limited to the position before an approximant ([j] or [w]). There are only a few contrastive pairs.
+
+
+
+---
+
+doctype: ref
+
+citation: "Adelaar, Willem. 1977. Tarma Quechua: grammar, texts, dictionary. Lisse: The Peter De Ridder Press. 31-41"
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Adelaar, Willem. 2013. personal communication."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

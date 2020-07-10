@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Kakua
+
+short_name: Kakua
+
+alternate_names: 
+- Cacua
+
+iso_codes: 
+- cbv
+
+family: Kakua-Nukak
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 1.500
+  longitude: -70.000
+  elevation_meters: 227
+
+phonemes: [p, b, t, d, k, ɡ, ʔ, tʃ, b̰, d̰, ɡ̰, m, n, ɲ, f, h, j, j̰, w, w̰, l, i, ɨ, u, e, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Bolaños, Katherine. 2010. Kakua phonology: first approach. MA thesis, University of Texas at Austin."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Cathcart, M. 1979. Fonología del cacua. Sistemas Fonológicos de Idiomas Colombianos 4.9-45. Lomalinda, Colombia: Editorial Townsend."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

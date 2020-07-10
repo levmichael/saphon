@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Trinitario
+
+short_name: Trinitario
+
+alternate_names: 
+-
+
+iso_codes: 
+- trn
+
+family: Arawak
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -14.801
+  longitude: -64.904
+  elevation_meters: .NAN
+
+phonemes: [p, t, tʲ, c, k, ʔ, ts, tʃ, m, n, ɲ, β, s, ç, x, j, w, ɾ, i, iː, u, uː, e, eː, o, oː, æ, æː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Rose, Françoise. To appear. \"Mojeño Trinitario\", in Lenguas de Bolivia, vol 3. Oriente, Mily Crevels and Peter Muysken (eds), La Paz: Plural Editores."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Baure
+
+short_name: Baure
+
+alternate_names: 
+-
+
+iso_codes: 
+- brg
+
+family: Arawak
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -13.500
+  longitude: -64.100
+  elevation_meters: 141
+
+phonemes: [p, t, k, ʔ, tʃ, m, n, v, s, ʃ, h, j, w, ɾ, i, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Danielsen remarks that the phonemic status of the glottal stop is not entirely clear.
+
+
+
+---
+
+doctype: ref
+
+citation: "Danielsen, Swintha. 2007. Baure an Arawak languge of Bolivia. Leiden: CNWS Publications. 32."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

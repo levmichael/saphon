@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Taushiro
+
+short_name: Taushiro
+
+alternate_names: 
+-
+
+iso_codes: 
+- trr
+
+family: Isolate
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -3.746
+  longitude: -74.564
+  elevation_meters: 194
+
+phonemes: [t, k, kʷ, ʔ, cç, n, ŋ, ç, x, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+- O'Hagan (2015) notes that the phonemes /ɾ/ and /ŋ/ are only attested in grammatical morphemes.
+
+
+
+---
+
+doctype: ref
+
+citation: "O'Hagan, Zachary. 2015. Unpublished fieldnotes."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Alicea, Neftalí. 1975. Análisis fonémico preliminar del idioma taushiro. Datos Etno-Lingüísticos 23. Lima: Instituto Lingüístico de Verano."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

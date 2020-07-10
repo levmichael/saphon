@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Xokleng
+
+short_name: Xokleng
+
+alternate_names: 
+-
+
+iso_codes: 
+- xok
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -24.300
+  longitude: -50.000
+  elevation_meters: 865
+
+phonemes: [p, t, k, kʷ, ʔ, tʃ, mb, nd, ŋɡ, ŋɡʷ, ndʒ, m, n, ɲ, ð, h, ʋ, j, l, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, ə, ə̃, ɛ, ɛ̃, ɔ, ɔ̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Gakran indicates that the language may exhibit long vowels.
+
+
+
+---
+
+doctype: ref
+
+citation: "Gakran, Nanblá. 2005. Aspectos morfossintáticos da língua laklãnõ (xokleng) jê. MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

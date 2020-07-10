@@ -1,0 +1,58 @@
+doctype: synthesis
+
+name: Tupinambá
+
+short_name: Tupinambá
+
+alternate_names: 
+-
+
+iso_codes: 
+- tpn
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -22.808
+  longitude: -42.106
+  elevation_meters: 7
+- latitude: -7.053
+  longitude: -34.881
+  elevation_meters: 10
+- latitude: -0.845
+  longitude: -47.812
+  elevation_meters: 1
+
+phonemes: [p, b, t, k, ʔ, m, n, ɲ, s, ʃ, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Moore, Denny, Sidney Facundes and Nádia Pires. 1993. Nheengatu (Língua Geral Amazônica), its History, and the Effects of Language Contact. Museu Paraense Emílio Goeldi, Brazil."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

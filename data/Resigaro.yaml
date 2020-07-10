@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Resígaro
+
+short_name: Resígaro
+
+alternate_names: 
+-
+
+iso_codes: 
+- rgr
+
+family: Arawak
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -3.343
+  longitude: -71.994
+  elevation_meters: 139
+
+phonemes: [p, b, t, tʲ, d, dʲ, k, ɡ, ʔ, ts, dz, tʃ, dʒ, pʰ, tʰ, kʰ, tsʰ, tʃʰ, m̥, m, n̥, n, ɲ, ɲ̥, ɸ, β, s, ʃ, ʒ, x, h, ɾ, i, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Allin, Trevor Reginald. 1976. A grammar of Resígaro. Horsleys Green, England: Summer Institute of Linguistics. 47-49"
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

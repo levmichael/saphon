@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Chachapoyas Quechua
+
+short_name: Chachapoyas Q
+
+alternate_names: 
+-
+
+iso_codes: 
+- quk
+
+family: Quechua
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -6.263
+  longitude: -77.852
+  elevation_meters: 2820
+
+phonemes: [p, t, k, tʃ, ʈʂ, m, n, ɲ, s, ʃ, j, w, l, ʎ, ɾ, i, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Chaparro, Carmelo. 1985. Fonología y lexicón del quechua de Chachapoyas. Lima: Instituto de Investigaciones Linguísticas, Universidad Nacional Mayor de San Marcos."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

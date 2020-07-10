@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Bakairí (Eastern dialect)
+
+short_name: Bakairí East
+
+alternate_names: 
+-
+
+iso_codes: 
+- bkq_est
+
+family: Carib
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -14.436
+  longitude: -54.029
+  elevation_meters: 497
+
+phonemes: [p, b, t, d, k, ɡ, m, n, s, z, ʃ, h, j, w, l, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, ə, ə̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Meira, Sérgio. 2005. Reconstructing Pre-Bakairi Segmental Phonology. Anthropological Linguistics 47.3. 261-291."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

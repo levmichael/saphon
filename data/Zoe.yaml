@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Zo'é
+
+short_name: Zo'é
+
+alternate_names: 
+-
+
+iso_codes: 
+- pto
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: 0.169
+  longitude: -56.058
+  elevation_meters: .NAN
+
+phonemes: [p, b, t, d, k, kʷ, ɡ, ʔ, tʃ, s, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, ɔ, ɔ̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Surface nasals are allophones of voiced oral stops due to suprasegmental nasalization on the morpheme level.
+
+
+
+---
+
+doctype: ref
+
+citation: "Cabral, Ana Suelly. 2009. Caracterização do sistema de alinhamento do zo'é e os fatores condicionadores de suas múltiplas cisões. Anais do VI Congresso Internacional da Abralin, vol. 2, p. 3145-3153."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

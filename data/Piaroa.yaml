@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Piaroa
+
+short_name: Piaroa
+
+alternate_names: 
+-
+
+iso_codes: 
+- pid
+
+family: Salivan
+
+countries: 
+- Venezuela
+- Colombia
+
+coordinates: 
+- latitude: 5.000
+  longitude: -67.000
+  elevation_meters: 1177
+
+phonemes: [p, b, t, d, k, kʷ, ʔ, pʰ, tʰ, kʰ, pʼ, tʼ, kʼ, kʷʼ, tsʼ, m, n, s, h, hʷ, j, w, ɾ, i, ɨ, u, e, ɤ, æ, ɑ]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- It is uncertain whether the segments described as 'glottalized' are ejective stops or plain stops with associated creakiness realized on the following vowel.
+
+
+
+---
+
+doctype: ref
+
+citation: "Mosonyi, Estéban Emilio. 2000. Elementos gramaticales del idioma piaroa. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. Bogotá: Instituto Caro y Cuervo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

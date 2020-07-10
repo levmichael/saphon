@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Aymara (Chilean dialect)
+
+short_name: Aymara Chile
+
+alternate_names: 
+-
+
+iso_codes: 
+- ayr_chl
+
+family: Aymaran
+
+countries: 
+- Chile
+
+coordinates: 
+- latitude: -19.150
+  longitude: -69.400
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, q, tʃ, pʰ, tʰ, kʰ, qʰ, tʃʰ, pʼ, tʼ, kʼ, qʼ, tʃʼ, m, n, ɲ, s, ç, χ, j, w, l, ʎ, ɾ, i, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Poblante M., María Teresa and Adalberto Salas. 1997. El Aymara de Chile (Fonología, textos, léxico). Revista de filología y lingüística de la Universidad de Costa Rica: 23 (1)."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Woun Meu
+
+short_name: Woun Meu
+
+alternate_names: 
+-
+
+iso_codes: 
+- noa
+
+family: Choco
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 7.672
+  longitude: -77.954
+  elevation_meters: 602
+
+phonemes: [p, b, t, d, k, ɡ, ʔ, pʰ, tʰ, kʰ, m, n, s, ç, h, j, w, ɾ, r, i, ĩ, ɯ, ɯ̃, u, ũ, e, ẽ, ɤ, ɤ̃, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- "Fonegra (2000: 87) observes that /l/ occurs (only) in Spanish loanwordss."
+
+
+
+---
+
+doctype: ref
+
+citation: "Fonneɡra, Gustavo Mejía. 2000. Presentación y Descripción Fonológica y Morfosintáctica del Waunana. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Santafe de Bogota: Instituto Caro y Cuervo. 86-88."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

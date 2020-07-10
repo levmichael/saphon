@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Ayacucho Quechua
+
+short_name: Ayacucho Q
+
+alternate_names: 
+-
+
+iso_codes: 
+- quy
+
+family: Quechua
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -13.580
+  longitude: -74.474
+  elevation_meters: 3319
+
+phonemes: [p, t, k, tʃ, m, n, ɲ, s, χ, h, w, l, ʎ, ɾ, i, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Phonemes /b, d, g/ and /f/ are only found in loan words
+
+
+
+---
+
+doctype: ref
+
+citation: "Soto Ruiz, Clodoaldo. 1976. Gramatica quechua, Ayacucho-Chanca. Ministerio de Educación del Perú."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Adelaar, Willem. 2013. personal communication."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

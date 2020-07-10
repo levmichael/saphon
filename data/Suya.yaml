@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Suyá
+
+short_name: Suyá
+
+alternate_names: 
+-
+
+iso_codes: 
+- suy
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -11.432
+  longitude: -53.185
+  elevation_meters: 304
+
+phonemes: [p, t, k, tʃ, dʒ, m, n, ɲ, ŋ, s, ɣ, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, ə, ɛ, ɔ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Guedes, Marymarcia. 1993. Sɨwǰa Mẽkapẽra. Suyá: a lingua da gente: um estudo fonológico e gramatical. PhD dissertation, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

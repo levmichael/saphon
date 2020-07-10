@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Arára do Mato Grosso
+
+short_name: Arára Mato G
+
+alternate_names: 
+-
+
+iso_codes: 
+- axg
+
+family: Isolate
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -9.500
+  longitude: -60.000
+  elevation_meters: .NAN
+
+phonemes: [p, b, t, d, k, ɡ, tʃ, dʒ, m, n, ɲ, ŋ, f, s, ʃ, x, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, ɛ, ɔ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "da Rocha D’Angelis, Wilmar. 2010. Pistas culturais para identificação lingüística dos arara do Rio Branco. Ms, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

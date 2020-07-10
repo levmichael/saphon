@@ -1,0 +1,118 @@
+doctype: synthesis
+
+name: Kotiria
+
+short_name: Kotiria
+
+alternate_names: 
+- Wanano
+- Guanano
+
+iso_codes: 
+- gvc
+
+family: Tucanoan
+
+countries: 
+- Colombia
+- Brazil
+
+coordinates: 
+- latitude: 0.500
+  longitude: -69.300
+  elevation_meters: 144
+
+phonemes: [p, b, t, d, k, ɡ, tʃ, pʰ, tʰ, kʰ, s, h, j, w, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: True
+
+tone: True
+
+laryngeal_harmony: True
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Waltz, Nathan and Carolyn Waltz. 1972. Fonología del guanano. In Viola Waterhouse (ed.), Sistemas fonológicos de idiomas colombianos 1.  Bogotá: Ministerio de Gobierno and Instituto Lingüístico de Verano. 31-37."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Waltz, Nathan and Carolyn Waltz. 1997. Introduction. El agua, la roca, y el humo: Estudios sobre la cultura wanana del Vaupés. Santafé de Bogotá, D.C., Colombia: Instituto Lingüístico de Verano."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Waltz, Nathan and Carolyn Waltz. 2000. El wanano. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. Bogotá: Instituto Caro y Cuervo. 453-454."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Stenzel, Kristine and Didier Demolin. 2012. Traços laringais em Kotiria e Wa'ikhana (Tukano Oriental). In Gisela Collischonn e Leda Bisol (eds.), Fonologia: Teorias e Perspectivas-Anais do IV Seminaria Internacional de Fonologia. Porto Alegre: PURS. 77-100."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Stenzel, Kristine. 2013. A Reference Grammar of Kotiria (Wanano). Lincoln: University of Nebraska Press."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

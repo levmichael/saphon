@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Sateré-Mawé
+
+short_name: Sateré-Mawé
+
+alternate_names: 
+-
+
+iso_codes: 
+- mav
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -3.450
+  longitude: -56.995
+  elevation_meters: 57
+
+phonemes: [p, t, k, ʔ, m, n, ŋ, s, h, j, w, ɾ, i, ĩ, iː, ɨ, ɨː, u, ũ, uː, e, ẽ, eː, o, a, ã, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "da Silva, Raynice Geraldine Pereira. 2005. Estudo fonológico da língua sateré-mawé. MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

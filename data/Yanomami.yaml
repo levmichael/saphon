@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Yanomámi
+
+short_name: Yanomámi
+
+alternate_names: 
+-
+
+iso_codes: 
+- wca
+
+family: Yanomam
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: 2.200
+  longitude: -63.000
+  elevation_meters: 296
+
+phonemes: [p, t, k, tʰ, m, n, f, s, ʃ, h, j, w, ɾ, i, ɨ, u, e, o, ə, a]
+
+allophones: 
+-
+
+nasal_harmony: True
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Migliazza, Ernest Cesar. 1972. Yanomama Grammar and Intelligibility. PhD dissertation, Indiana University. 145-152."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

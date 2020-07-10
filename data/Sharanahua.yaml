@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Sharanawa
+
+short_name: Sharanawa
+
+alternate_names: 
+- Sharanahua
+
+iso_codes: 
+- mcd
+
+family: Panoan
+
+countries: 
+- Brazil
+- Peru
+
+coordinates: 
+- latitude: -10.034
+  longitude: -70.940
+  elevation_meters: 296
+
+phonemes: [p, t, k, ts, tʃ, m, n, ɸ, s, ʂ, ʃ, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+- Pike and Scott indicate /h/ is velar (5).
+
+
+
+---
+
+doctype: ref
+
+citation: "Pike, Eunice V. and Eugene Scott. 1962. The phonological hierarchy of Marinahua. Phonetica 8: 1-8."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

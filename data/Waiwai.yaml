@@ -1,0 +1,69 @@
+doctype: synthesis
+
+name: Waiwai
+
+short_name: Waiwai
+
+alternate_names: 
+-
+
+iso_codes: 
+- waw
+
+family: Carib
+
+countries: 
+- Brazil
+- Guyana
+
+coordinates: 
+- latitude: -0.698
+  longitude: -57.974
+  elevation_meters: .NAN
+
+phonemes: [t, k, tʃ, m, n, ɲ, ɸ, s, ʃ, h, j, w, ɺ, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- "The segment given in the inventory as /ɺ/ is described by Hawkins (1998: 25) as an “/r/...formed with the blade of the tongue..an alveopalatal with popped lateral release”, and by Derbyshire (1999: 27) as “palatal ɹ with lateral release”."
+
+
+
+---
+
+doctype: ref
+
+citation: "Hawkins, Robert. 1998. Wai Wai. In Desmond Derbyshire and Geoffrey Pullum (eds.), Handbook of Handbook of Amazonian Languages, Vol. 4, pp. 25-224. Berlin: Mouton de Gruyter."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Derbyshire, Desmond. 1999. Carib. In R.M.W. Dixon and Alexandra Aikhenvald (eds.), The Amazonian Languages, pp. 23-61. Cambridge: Cambridge University Press."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Apalaí
+
+short_name: Apalaí
+
+alternate_names: 
+-
+
+iso_codes: 
+- apy
+
+family: Carib
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: 1.217
+  longitude: -54.657
+  elevation_meters: 261
+
+phonemes: [p, t, k, ʔ, m, n, s, z, ʃ, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Koehn, Edward and Sally Koehn. 1971. Fonologia da Língua Apalai. Estudos Sôbre Línguas E Culturas Indígenas. Brasília: Instituto Lingüístico de Verão. 17-28."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

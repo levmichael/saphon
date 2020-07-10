@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Shanenawa
+
+short_name: Shanenawa
+
+alternate_names: 
+-
+
+iso_codes: 
+- sha_ywn
+
+family: Panoan
+
+countries: 
+- Peru
+- Brazil
+
+coordinates: 
+- latitude: -8.937
+  longitude: -72.227
+  elevation_meters: 293
+
+phonemes: [p, t, k, ts, tʃ, m, n, f, s, ʂ, h, j, w, ɾ, i, ɨ, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- The code for this language is a SAPhon language code (non-ISO 639). This language is considered a variety of Yawanawa (ywn) by ISO 639.
+
+
+
+---
+
+doctype: ref
+
+citation: "Cândido, Gláucia Viera. 2004. Descrição morfossintática da língua shanenawa (pano). PhD dissertation, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

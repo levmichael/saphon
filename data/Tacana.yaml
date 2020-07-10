@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Tacana
+
+short_name: Tacana
+
+alternate_names: 
+-
+
+iso_codes: 
+- tna
+
+family: Tacanan
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -14.147
+  longitude: -67.852
+  elevation_meters: .NAN
+
+phonemes: [p, b, t, d, ɖ, k, kʷ, tʃ, ʈʂ, m, n, ð, ʂ, ʃ, h, j, w, ɾ, i, u, e, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Ottaviano, John and Ida Ottaviano. 1965. Tacana. In Esther Matteson (ed.), Gramáticas estructurales de lenguas bolivianas 3. Riberalta: Instituto Lingüístico de Verano. 309-417."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

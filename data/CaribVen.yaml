@@ -1,0 +1,57 @@
+doctype: synthesis
+
+name: Carib (Venezuela dialect)
+
+short_name: Carib Vnzla
+
+alternate_names: 
+-
+
+iso_codes: 
+- car_ven
+
+family: Carib
+
+countries: 
+- Brazil
+- Venezuela
+- Guyana
+
+coordinates: 
+- latitude: 7.952
+  longitude: -65.672
+  elevation_meters: 42
+- latitude: 7.025
+  longitude: -60.380
+  elevation_meters: 453
+
+phonemes: [p, t, k, m, n, s, j, w, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Álvarez, José. 2003. Syllable reduction and mora preservation in Kari'ña. Amerindia 28. 55-82."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

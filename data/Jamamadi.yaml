@@ -1,0 +1,69 @@
+doctype: synthesis
+
+name: Jamamadí
+
+short_name: Jamamadí
+
+alternate_names: 
+-
+
+iso_codes: 
+- jaa_jmm
+
+family: Arawan
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -7.300
+  longitude: -67.000
+  elevation_meters: 138
+
+phonemes: [b, t, d, ɟ, k, m, n, ɸ, s, h, w, ɾ, i, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- "Dixon adds long vowels /i:, e:, a:, o:/ (110)."
+- Ladefoged, Ladefoged, and Everett describe /w/ as dorso-velar.
+
+
+
+---
+
+doctype: ref
+
+citation: "Ladefoged, Jenny, Peter Ladefoged, and Daniel L. Everett. 1997. Phonetic structures of Banawá, an endangered language. Phonetica 54. 94-111."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Dixon, R.M.W. 2004. Proto-Arawá Phonology. Anthropological Linguistics 46.1. 1-83."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

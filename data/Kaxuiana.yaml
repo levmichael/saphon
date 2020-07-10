@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Kaxuiâna
+
+short_name: Kaxuiâna
+
+alternate_names: 
+- Kaxuyana
+
+iso_codes: 
+- kbb
+
+family: Carib
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: 2.221
+  longitude: -55.960
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, ʔ, tʃ, m, n, s, h, j, w, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Paula, Ruth Wallace de Garcia. 1977. Língua Kaxuyána: fonologia segmental e afixos nominais. MA thesis, Universidade Federal do Rio de Janeiro."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

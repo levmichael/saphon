@@ -1,0 +1,84 @@
+doctype: synthesis
+
+name: Asurini do Xingú
+
+short_name: Asurini Xng
+
+alternate_names: 
+-
+
+iso_codes: 
+- asn
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -3.300
+  longitude: -49.300
+  elevation_meters: 76
+
+phonemes: [p, t, k, kʷ, ʔ, tʃ, dʒ, m, n, ŋ, ɸ, β, h, j, w, ɾ, i, ĩ, ɨ, u, ũ, o, õ, ɛ, ɛ̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Nicholson, Velda C. 1982. Breve estudo da língua asurini do xingu. Ensaios Lingüísticos Nº 5: 1-85."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Nicholson, Velda. 1978. Aspectos da língua asurinini. Sociedade Internacional de Lingüística, Cuiabá, MT."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Pereira, A. A. 2009. Estudo Morfossintático do Asuriní do Xingú. Doctoral, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

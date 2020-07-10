@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Wayampi (Alto Jarí dialect)
+
+short_name: Wayampi Alt J
+
+alternate_names: 
+-
+
+iso_codes: 
+- oym_jri
+
+family: Tupí
+
+countries: 
+- French Guiana
+- Brazil
+
+coordinates: 
+- latitude: 0.943
+  longitude: -53.157
+  elevation_meters: 426
+
+phonemes: [p, t, k, kʷ, ʔ, m, n, ŋ, ŋʷ, s, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Jensen, Cheryl Joyce. 1984. O desenvolvimento histórico da língua wayampi. MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

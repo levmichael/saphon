@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Panará
+
+short_name: Panará
+
+alternate_names: 
+-
+
+iso_codes: 
+- kre
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -11.643
+  longitude: -53.309
+  elevation_meters: 329
+
+phonemes: [p, t, k, ʔ, m, n, s, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, ə, ɛ, ɔ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Dourado, Luciana. 2001. Aspectos Morfossintáticos da Língua Panará (Jê). PhD dissertation, Universidade Estadual de Campinas. 233-240."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

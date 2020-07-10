@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Huaylas-Conchucos Quechua
+
+short_name: Huaylas C  Q
+
+alternate_names: 
+-
+
+iso_codes: 
+- qxn
+- qwh
+
+family: Quechua
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -8.674
+  longitude: -77.886
+  elevation_meters: 2263
+
+phonemes: [p, t, k, q, ts, tʃ, m, n, ɲ, s, ʃ, h, j, w, l, ʎ, ɾ, i, iː, u, uː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Julca, Felix. 2009. personal communication."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

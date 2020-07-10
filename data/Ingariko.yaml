@@ -1,0 +1,59 @@
+doctype: synthesis
+
+name: Ingarikó
+
+short_name: Ingarikó
+
+alternate_names: 
+- Akawaio
+
+iso_codes: 
+- ake
+
+family: Carib
+
+countries: 
+- Brazil
+- Guiana
+
+coordinates: 
+- latitude: 5.880
+  longitude: -60.687
+  elevation_meters: 401
+- latitude: 6.315
+  longitude: -61.393
+  elevation_meters: 185
+- latitude: 5.070
+  longitude: 60.344
+  elevation_meters: 835
+
+phonemes: [p, t, k, ʔ, m, n, s, j, w, ɾ, i, iː, ɯ, u, e, eː, ɤ, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Souza Cruz, Odileiz. 2005. Fonología e gramática Ingarikó. PhD dissertation, Free University of Amsterdam."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

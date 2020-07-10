@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Umotína
+
+short_name: Umotína
+
+alternate_names: 
+-
+
+iso_codes: 
+- umo
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -15.251
+  longitude: -57.309
+  elevation_meters: 183
+
+phonemes: [p, t, k, m, n, z, ʃ, ʒ, j, w, l, ɾ, i, ɨ, u, e, o, ɛ, ɔ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Lima, Stella Telles Pereira. 1995. A língua Umutina: \"um sopro de vida\". PhD dissertation, Universidade Federal de Pernambuco."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

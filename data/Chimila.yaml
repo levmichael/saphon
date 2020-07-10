@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Chimila
+
+short_name: Chimila
+
+alternate_names: 
+-
+
+iso_codes: 
+- cbg
+
+family: Chibchan
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 10.000
+  longitude: -74.000
+  elevation_meters: 69
+
+phonemes: [p, t, k, ʔ, mb, nd, ŋɡ, m, n, ŋ, s, h, j, w, l, ɾ, i, ĩ, iː, ĩː, u, ũ, uː, ũː, e, ẽ, eː, ẽː, o, õ, oː, õː, a, ã, aː, ãː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Malone, Terry. 2006. Tone and Syllable Structure in Chimila. International Journal of American Linguistics 72(1): 1-58."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Maka
+
+short_name: Maka
+
+alternate_names: 
+-
+
+iso_codes: 
+- mca
+
+family: Mataco
+
+countries: 
+- Paraguay
+
+coordinates: 
+- latitude: -24.970
+  longitude: -57.323
+  elevation_meters: 79
+
+phonemes: [p, t, k, q, ʔ, ts, pʼ, tʼ, kʼ, qʼ, tsʼ, m, n, f, s, x, χ, h, j, w, ɬ, l, i, iː, u, uː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Gerzenstein does not explicitly state that vowel length is contrastive. However, she lists numerous forms with double vowels.
+
+
+
+---
+
+doctype: ref
+
+citation: "Gerzenstein, Ana. 1994. Lengua Maka. Estudio descriptivo. Buenos Aires: Instituto de Linguística. 41-61."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

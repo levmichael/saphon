@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Hixkaryána
+
+short_name: Hixkaryána
+
+alternate_names: 
+-
+
+iso_codes: 
+- hix
+
+family: Carib
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -1.000
+  longitude: -59.000
+  elevation_meters: 206
+
+phonemes: [p, b, t, d, dʲ, k, tʃ, m, n, ɲ, ɸ, s, ʃ, h, j, w, ɺ, ɾ, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- "According to Derbyshire (1985:177), phonemic status of /b, d, dʲ/ is marginal."
+
+
+
+---
+
+doctype: ref
+
+citation: "Derbyshire, Desmond C. 1985. Hixkaryana and Linguistic Typology. Summer Institute of Linguistics Publications in Linguistics 76. Dallas: Summer Institute of Linguistics and the University of Texas at Arlington. 177-182."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Derbyshire, Desmond C. 1999. Carib. The Amazonian Languages. Ed. R.M.W. Dixon and Alexandra Y. Aikhenvald. Cambridge: Cambridge University Press. 23-61."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

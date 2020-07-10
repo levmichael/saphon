@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Hoti
+
+short_name: Hoti
+
+alternate_names: 
+- Yuwana
+
+iso_codes: 
+- yau
+
+family: Isolate
+
+countries: 
+- Venezuela
+
+coordinates: 
+- latitude: 5.512
+  longitude: -65.496
+  elevation_meters: 219
+
+phonemes: [ʰb, b, t, ʰt, ʰd, d, c, ʰc, ʰɟ, ɟ, k, ʰk, ʰkʷ, kʷ, h, ʰj, j, ʰw, w, ʰɾ, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, ɘ, o, õ, ə̃ː, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Vilera Díaz, Diana C. 1985. Introducción morfológica de la lengua hoti. BA thesis, Universidad Central de Venezuela."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

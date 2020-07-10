@@ -1,0 +1,84 @@
+doctype: synthesis
+
+name: Koreguaje
+
+short_name: Koreguaje
+
+alternate_names: 
+-
+
+iso_codes: 
+- coe
+
+family: Tucanoan
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 1.373
+  longitude: -75.186
+  elevation_meters: 235
+
+phonemes: [p, t, k, ʔ, dʒ, pʰ, tʰ, kʰ, m̥, m, n, ɲ, ɲ̥, ɸ, β, s, h, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+- /b//, /d/, /g/, /l/, /j/ in loans from Spanish.
+
+
+
+---
+
+doctype: ref
+
+citation: "Cook, Dorothy M. and Frances L. Gralow. 2001. Diccionario bilingüe koreguaje-español, español koreguaje. Bogotá: Editorial Alberto Lleras Camargo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Cook, Dorothy and Linda L. Criswell. 1993. El idioma koreguaje (Tucano Occidental). Bogotá: Asociación Instituto Lingüístico de Verano."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Gralow, Frances L. 1985. Coreguaje: Tone, stress and intonation. In Ruth M. Brend (ed.), From phonology to discourse: studies in six Colombian languages, 3-11. Lang. Data, Amerindian Series No. 9. Dallas: SIL."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Emberá-Catío
+
+short_name: Emberá-Catío
+
+alternate_names: 
+-
+
+iso_codes: 
+- cto
+
+family: Choco
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 7.442
+  longitude: -76.511
+  elevation_meters: 480
+
+phonemes: [b, d, dʒ, pʰ, tʰ, kʰ, tʃʰ, pʼ, tʼ, kʼ, tʃʼ, m, n, sʼ, sʰ, h, w, ɾ, r, i, ĩ, ɯ, ɯ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Mortensen, Charles Arthur. 1994. Nasalization in a revision of Embera-Katio phonology. MA thesis, University of Texas at Arlington."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

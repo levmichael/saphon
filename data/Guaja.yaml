@@ -1,0 +1,84 @@
+doctype: synthesis
+
+name: Guajá
+
+short_name: Guajá
+
+alternate_names: 
+-
+
+iso_codes: 
+- gvj
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -2.767
+  longitude: -46.487
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, kʷ, ʔ, tʃ, m, n, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Nascimento, Ana Paula Lion Mamede. 2008. Estudo fonético e fonológico da língua Guajá. PhD dissertation, Universidade de Brasília."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Magalhães, Marina Maria Silva. 2002. Aspectos fonológicos e morfossintáticos da língua guajá. MA thesis, Universidade de Brasília."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Magalhães, Marina Maria. 2007. Sobre A Morfologia e A Sintaxe da Língua Guajá. PhD Disseration, Universidad de Brasilia."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

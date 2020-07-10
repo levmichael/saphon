@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Tehuelche
+
+short_name: Tehuelche
+
+alternate_names: 
+-
+
+iso_codes: 
+- teh
+
+family: Chon
+
+countries: 
+- Argentina
+
+coordinates: 
+- latitude: -48.000
+  longitude: -68.000
+  elevation_meters: 102
+
+phonemes: [p, b, t, d, k, ɡ, q, ɢ, ʔ, tʃ, pʼ, tʼ, kʼ, qʼ, tʃʼ, m, n, s, ʃ, x, χ, j, w, l, ɾ, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Viegas, Pedro Barros. 2005. Voces en el viento: Raíces lingüísticas de la Patagonia. Buenos Aires: Mondragon Ediciones. 61."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Meroz, Yoram. p.c."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Border Kuna
+
+short_name: Border Kuna
+
+alternate_names: 
+-
+
+iso_codes: 
+- kvn
+
+family: Chibchan
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 7.857
+  longitude: -76.836
+  elevation_meters: 21
+
+phonemes: [p, pː, t, tː, k, kː, kʷ, kʷː, tʃ, m, mː, n, nː, s, j, w, l, lː, ɾ, i, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Adelaar, Willem F. H. & Pieter C. Muysken. 2004. Languages of the Andes. New York: Cambridge University Press. 62."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

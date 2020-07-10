@@ -1,0 +1,54 @@
+doctype: synthesis
+
+name: Curripaco
+
+short_name: Curripaco
+
+alternate_names: 
+-
+
+iso_codes: 
+- kpc
+
+family: Arawak
+
+countries: 
+- Venezuela
+- Brazil
+- Colombia
+
+coordinates: 
+- latitude: 2.304
+  longitude: -68.499
+  elevation_meters: 139
+
+phonemes: [p, b, t, d, k, ʔ, ts, dz, pʰ, tʰ, kʰ, ʰm, m, ʰn, n, ɸ, β, ʂ, ʃ, h, j, w, ɺ, ʰɾ, ɾ, i, u, e, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Granadillo describes the sound represented as /ɺ/ as a retroflex trill.
+
+
+
+---
+
+doctype: ref
+
+citation: "Granadillo, Tania. 2006. An ethnographic account of language documentation among the Kurripako of Venezuela. PhD dissertation, University of Arizona."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

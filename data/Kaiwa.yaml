@@ -1,0 +1,72 @@
+doctype: synthesis
+
+name: Kaiwá
+
+short_name: Kaiwá
+
+alternate_names: 
+-
+
+iso_codes: 
+- kgk
+
+family: Tupí
+
+countries: 
+- Argentina
+- Brazil
+
+coordinates: 
+- latitude: -23.000
+  longitude: -55.000
+  elevation_meters: 377
+
+phonemes: [p, t, k, ʔ, dʒ, m, ŋ, ŋʷ, s, ʃ, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Bridgeman states that [dʒ] and [ɟ] are in free variation.
+- /b/ and /d/ have allophones [m] and [n]
+- /v/ has allophone [w]
+- “The phoneme of nasalization occurs with the grammatical word.”
+
+
+
+---
+
+doctype: ref
+
+citation: "Cardoso, V. F. 2008. Aspectos Morfossintáticos da Língua Kaiowá (Guaraní). PhD dissertation, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Bridgeman, Loraine I. 1961. Kaiwa (Guarani) phonology. International Journal of American Linguistics, 27(4): 329-334."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

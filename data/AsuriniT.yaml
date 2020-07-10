@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Asuriní do Tocantins
+
+short_name: Asuriní Toc
+
+alternate_names: 
+-
+
+iso_codes: 
+- asu
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -3.300
+  longitude: -50.000
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, kʷ, ʔ, m, n, ŋ, s, h, w, i, ɨ, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Nicholson, Velda. 2009 [1975]. Transformações morfofonêmicas em asuriní. Anápolis: Asociação Internacional de Linguística."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

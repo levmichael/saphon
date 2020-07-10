@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Yanomamɨ of Parawau
+
+short_name: Yanomamɨ Par
+
+alternate_names: 
+-
+
+iso_codes: 
+- guu_par
+
+family: Yanomam
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: 1.806
+  longitude: -63.786
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, m, n, s, ʃ, h, j, w, ɾ, i, ĩ, iː, ĩː, ɨ, ɨ̃, ɨː, ɨ̃ː, u, ũ, uː, ũː, e, ẽ, eː, ẽː, o, õ, oː, õː, ə, ə̃, əː, ə̃ː, a, ã, aː, ãː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Ferreira, Helder. personal communication."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Ramirez, Henri. 1994(a). Le Parler Yanomami de Xamatauteri. Paris: Universidad de Aix en Provence. Tesis de doctorado."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

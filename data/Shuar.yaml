@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Shuar
+
+short_name: Shuar
+
+alternate_names: 
+-
+
+iso_codes: 
+- jiv
+
+family: Jivaroan
+
+countries: 
+- Ecuador
+
+coordinates: 
+- latitude: -2.535
+  longitude: -77.956
+  elevation_meters: 1365
+
+phonemes: [p, t, k, ts, tʃ, m, n, s, ʃ, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Adelaar, William and Pieter Muysken. 2004. The Languages of the Andes. Cambridge: Cambridge University Press. 434."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Overall, Simon. 2009. personal communication."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

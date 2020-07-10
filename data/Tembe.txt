@@ -1,9 +1,0 @@
-name: Tembé
-name.short: Tembé
-name.comp: Tembe
-code: tqb
-family: Tupí
-country: Brazil
-geo: -2.096 -46.548 nan
-feat: p t d k kʷ ʔ m n ŋ ŋʷ s h w ɾ i e a o u ɨ ə
-bib: Duarte, Fábio Bonfim. 2003. Ordem de constituintes e movimento em tembé: minimalismo e anti-simetria. PhD thesis, Universidade Federal de Minas Gerais.

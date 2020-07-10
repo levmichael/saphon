@@ -1,0 +1,54 @@
+doctype: synthesis
+
+name: Nheengatú
+
+short_name: Nheengatú
+
+alternate_names: 
+- Língua Geral Amazônica
+
+iso_codes: 
+- yrl
+
+family: Tupí
+
+countries: 
+- Colombia
+- Brazil
+- Venezuela
+
+coordinates: 
+- latitude: 1.740
+  longitude: -67.012
+  elevation_meters: .NAN
+
+phonemes: [p, b, t, c, k, kʷ, ɡ, ʔ, mb, nd, ŋɡ, m, n, s, ʃ, j, j̃, w, ɾ, i, u, e, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Moore, Denny, Sidney Facundes and Nádia Pires. 1993. Nheengatu (Língua Geral Amazônica), its history, and the effects of language contact. Museu Paraense Emílio Goeldi, Brazil."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

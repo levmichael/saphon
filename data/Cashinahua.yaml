@@ -1,0 +1,69 @@
+doctype: synthesis
+
+name: Cashinahua
+
+short_name: Cashinahua
+
+alternate_names: 
+- Kashinawa
+
+iso_codes: 
+- cbs
+
+family: Panoan
+
+countries: 
+- Brazil
+- Peru
+
+coordinates: 
+- latitude: -9.720
+  longitude: -71.170
+  elevation_meters: 256
+
+phonemes: [p, b, t, d, c, ɟ, k, ts, m, n, s, ʂ, h, w, i, ɨ, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Kensinger, Kenneth. 1963. The phonological hierarchy of Cashinahua (Pano). In Studies in Peruvian Indian languages 1. Summer Institute of Linguistics Publications in Linguistics and Related Fields, 9. Norman: Summer Institute of Linguistics of the University of Oklahoma. 207-17."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Camargo, Eliane E. 1993. Esboço fonológico do caxinauá (pano). Boletim do Museu Paraense Emílio Goeldi, série Antropologia 9(2). 209-228. Belém: Museu Goeldi."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

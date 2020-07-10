@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Damana
+
+short_name: Damana
+
+alternate_names: 
+- Malayo
+
+iso_codes: 
+- mbp
+
+family: Chibchan
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 10.859
+  longitude: -73.353
+  elevation_meters: 212
+
+phonemes: [p, b, t, d, k, ɡ, tʃ, dʒ, m, n, s, z, ʃ, ʒ, h, j, w, l, ɾ, r, i, ɨ, u, ũ, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Amaya, María Trillos. 2000. Síntesis descriptive de los sistemas fonológico y morfosintáctico del Damana. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Frank, Paul S. 1993. Proto-Arhuacan phonology. Estudios de Lingüística Chibcha 12. 95-117."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,84 @@
+doctype: synthesis
+
+name: Tsáfiki
+
+short_name: Tsáfiki
+
+alternate_names: 
+-
+
+iso_codes: 
+- cof
+
+family: Barbacoan
+
+countries: 
+- Ecuador
+
+coordinates: 
+- latitude: -0.260
+  longitude: -79.147
+  elevation_meters: 597
+
+phonemes: [p, b, t, d, k, ʔ, ts, m, n, β, s, h, j, w, l, ɾ, i, ĩ, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Moore, Bruce. 1972. El Sistema Fonético del Idioma Colorado. Boletín de Informaciones Científicas Nacionales 13. 72-78."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Moore, Bruce R. 1962. Correspondences in South Barbacoan Chibcha. Ecuadorian Indian Languages: I. Ed. Benjamin Elson. Linguistic Series, 7. Norman: Summer Institute of Linguistics of the University of Oklahoma. 97-106."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Curnow, Timothy J. and Anthony J. Liddicoat. 1998. The Barbacoan Languages of Colombia and Ecuador. Anthropological Linguistics 40. 387."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

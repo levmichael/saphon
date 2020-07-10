@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Jarawara
+
+short_name: Jarawara
+
+alternate_names: 
+-
+
+iso_codes: 
+- jaa_jrw
+
+family: Arawan
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -7.233
+  longitude: -65.525
+  elevation_meters: 103
+
+phonemes: [b, t, ɟ, k, m, n, ɸ, s, h, w, ɾ, i, iː, ɯ, ɯː, e, eː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- "According to Dixon (2004: 11) neither /w/ nor /o/ involves any lip rounding."
+
+
+
+---
+
+doctype: ref
+
+citation: "Dixon, R.M.W. 2004. The Jarawara Language of Southern Amazonia. Oxford: Oxford University Press."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Vogel, Alan. 1993. Jarawara Verb Classes. PhD dissertation, University of Pittsburg."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

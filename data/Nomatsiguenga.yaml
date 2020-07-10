@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Nomatsigenga
+
+short_name: Nomatsigenga
+
+alternate_names: 
+- Nomatsiguenga
+
+iso_codes: 
+- not
+
+family: Arawak
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -11.746
+  longitude: -74.163
+  elevation_meters: 816
+
+phonemes: [p, b, t, k, ɡ, ts, tʃ, m, n, ŋ, N, s, ʃ, h, j, ɾ, i, iː, ɨi, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Shaver, Harold. 1996. Diccionario nomatsiguenga—castellano castellano—nomatsiguenga. Pucallpa: Ministerio de Educación and Instituto Lingüístico de Verano."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Payne, David. 1997. Nomatsiguena noun pitch patterns. Ms. SIL."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

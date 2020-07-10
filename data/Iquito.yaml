@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Iquito
+
+short_name: Iquito
+
+alternate_names: 
+-
+
+iso_codes: 
+- iqu
+
+family: Zaparoan
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -3.703
+  longitude: -73.777
+  elevation_meters: 144
+
+phonemes: [p, t, k, kʷ, m, n, s, h, j, w, ɾ, i, iː, ɨ, ɨː, u, uː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Michael, Lev. 2012. The interaction of tone and stress in the prosodic system of Iquito (Zaparoan, Peru). Amerindia 35: 53-74."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Michael, Lev. 2010. The interaction of stress and tone in the prosodic system of Iquito (Zaparoan). To appear in Frantome Pacheco and Leo Wetzels (eds.), The structure of Amazonian languages II. Brill."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

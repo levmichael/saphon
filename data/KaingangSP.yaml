@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Kaingáng, São Paulo
+
+short_name: Kaingang, Sao Paulo
+
+alternate_names: 
+-
+
+iso_codes: 
+- zkp
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -23.550
+  longitude: -46.630
+  elevation_meters: 774
+
+phonemes: [p, t, k, tʃ, m, n, ɲ, ŋ, ɸ, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, e, o, õ, ə, ə̃, ɛ, ɛ̃, ɔ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Cavalcante, Marita Pôrto. 1987. Fonologia e morfologia da língua kaingang: o dialeto de São Paulo comparado com o do Paraná. PhD dissertation, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Chipaya
+
+short_name: Chipaya
+
+alternate_names: 
+-
+
+iso_codes: 
+- cap
+
+family: Uru-Chipaya
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -18.296
+  longitude: -68.151
+  elevation_meters: 3677
+
+phonemes: [p, t, k, kʷ, q, qʷ, ts, tʃ, ʈʂ, pʰ, tʰ, kʰ, qʰ, tsʰ, tʃʰ, ʈʂʰ, pʼ, tʼ, kʼ, qʼ, tsʼ, tʃʼ, ʈʂʼ, m, n, ɲ, ŋ, s̪, s, ʂ, x, xʷ, χ, χʷ, j, w, ɬ, l, ʎ, ɾ, i, iː, u, uː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- "Cerrón-Palomino (2006: 55-56) also notes the marginal presence of /ʔ/ in one morpheme."
+
+
+
+---
+
+doctype: ref
+
+citation: "Olson, Ronald. 1967. The syllable in Chipaya. International Journal of American Linguistics, 33(4): 300-304."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Cerrón-Palomino, Rodolfo. 2006. El chipaya o la lengua de los hombres del agua. Lima: Pontificia Universidad Católica del Perú."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

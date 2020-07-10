@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Leco
+
+short_name: Leco
+
+alternate_names: 
+-
+
+iso_codes: 
+- lec
+
+family: Isolate
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -15.015
+  longitude: -67.834
+  elevation_meters: 988
+
+phonemes: [p, b, t, d, k, ts, tʃ, pʰ, tʰ, kʰ, pʼ, tʼ, kʼ, tʃʼ, m, n, ŋ, s, z, h, j, w, l, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- We have interpreted the <é> in the original source as /ɨ/. The author indicates that the segment is further back than [i] (p.c.).
+
+
+
+---
+
+doctype: ref
+
+citation: "Van de Kerke, Simon. 2009. El Leko. Mily Crevels and Pieter Muysken (eds.), Lenguas de Bolivia, vol. 1: Ámbito andino. La Paz: Plural Editores."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

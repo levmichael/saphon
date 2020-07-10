@@ -1,0 +1,86 @@
+doctype: synthesis
+
+name: Kubeo
+
+short_name: Kubeo
+
+alternate_names: 
+-
+
+iso_codes: 
+- cub
+
+family: Tucanoan
+
+countries: 
+- Brazil
+- Colombia
+
+coordinates: 
+- latitude: 1.345
+  longitude: -70.464
+  elevation_meters: 209
+
+phonemes: [p, b, t, d, k, tʃ, h, ð̞, j, w, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: True
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+- "There is modest evidence for a contrastive voiced interdental fricative phoneme, which Morse and Maxwell (1999: 5) prefer to treat as an allophone of /j/."
+- Ferguson (et al.) appear to posit a glottal fricative where Morse and Maxwell (1999) posit a velar fricative, but this is not entirely clear.
+
+
+
+---
+
+doctype: ref
+
+citation: "Chacon, Thiago Costa. 2012. The phonology and morphology of Kubeo: the documentation, theory, and description of an Amazonian language. PhD diss, University of Hawai'i at Manoa."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Morse, Nancy and Michael Maxwell. 1999. Gramática del cubeo. Bogotá: Editorial Alberto Lleras Camargo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Ferguson, Judith, Cari Hollinger, Linda Criswell, and Nancy Morse. 2000. El Cubeo. In Maria Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. 357-372."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

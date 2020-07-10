@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Shipibo
+
+short_name: Shipibo
+
+alternate_names: 
+-
+
+iso_codes: 
+- shp
+
+family: Panoan
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -7.884
+  longitude: -74.742
+  elevation_meters: 161
+
+phonemes: [p, bβ, t, k, ts, tʃ, ɖʐ, m, n, β, s, ʂ, ʃ, h, j, w, i, iː, ɨ, ɨː, ʊ, ʊː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- The phoneme /o/ is realized at a height between [o] and [u]
+
+
+
+---
+
+doctype: ref
+
+citation: "Elias-Ulloa, Jose. 2010. An acoustic phonetics of Shipibo-Conibo (Pano), an endangered Amazonian language: A new approach to documenting linguistic data. Edwin Mellen Press."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

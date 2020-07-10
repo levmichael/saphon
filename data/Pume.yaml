@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Pumé
+
+short_name: Pumé
+
+alternate_names: 
+-
+
+iso_codes: 
+- yae
+
+family: Isolate
+
+countries: 
+- Venezuela
+
+coordinates: 
+- latitude: 7.769
+  longitude: -67.598
+  elevation_meters: 53
+
+phonemes: [p, b, t, d, k, ɡ, ʔ, tʃ, dʒ, pʰ, tʰ, kʰ, tʃʰ, m, n, ɲ, ŋ, β, ɣ, h, j, ɾ, ɾ̃, i, ĩ, ɯ, ɯ̃, u, ũ, e, ɤ, o, ɛ, ɛ̃, ɔ, ɔ̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Mosonyi, E.E., J.C. Mosonyi and Jorge Ramón García. 2000. Yaruro (Pumé). Manual de Lenguas Indígenas de Venezuela. Caracas: Fundación BIGOTT."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

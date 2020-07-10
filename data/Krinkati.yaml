@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Krinkati-Timbira
+
+short_name: Krinkati-Tmb
+
+alternate_names: 
+-
+
+iso_codes: 
+- xri
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -6.037
+  longitude: -46.653
+  elevation_meters: 307
+
+phonemes: [p, t, k, tʃ, kʰ, m, n, h, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, o, ə, ɛ, ɛ̃, ɔ, ɔ̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Alves, Flávia de Castro. 2004. O Timbira falado pelos Canela Apãniekrá: Uma contribuição aos estudos da morfossintaxe de uma língua Jê. PhD dissertation, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

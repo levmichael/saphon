@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Ese Eja (Peru)
+
+short_name: Ese Eja P
+
+alternate_names: 
+-
+
+iso_codes: 
+- ese_per
+
+family: Tacanan
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -12.680
+  longitude: -68.730
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, kʷ, ʔ, ts, tʃ, ɓ, ɗ, m, n, ɲ, s, ʃ, x, h, j, w, i, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- "Ese Eja (Perú) has two major varieties: Ese Eja Beniano and Ese Eja Baawaja. In the latter variety /k/ is attested in only a single morpheme, while in the Beniano dialect, /ts/ is rarely if ever attested."
+
+
+
+---
+
+doctype: ref
+
+citation: "Chavarria, Maria. 2012. Etewémeeji ese ejaha sowiho: Guía para el uso del alfabeto ese eja. Ms."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

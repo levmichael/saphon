@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Matsigenka
+
+short_name: Matsigenka
+
+alternate_names: 
+- Machiguenga
+
+iso_codes: 
+- mcb
+
+family: Arawak
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -12.408
+  longitude: -72.908
+  elevation_meters: 376
+
+phonemes: [p, t, tʲ, k, kʲ, ɡ, ts, tʃ, m, n, ɲ, N, β, s, ʃ, j, ɾ, ɾʲ, i, iː, ɨi, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Note that /ɨi/ is a light (monomoraic) dipthong that constitutes a single segment.
+
+
+
+---
+
+doctype: ref
+
+citation: "Michael, Lev. 2011. Unpublished field notes."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

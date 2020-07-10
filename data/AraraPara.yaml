@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Arára, Pará
+
+short_name: Arára Pará
+
+alternate_names: 
+-
+
+iso_codes: 
+- aap
+
+family: Carib
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -4.242
+  longitude: -53.374
+  elevation_meters: 173
+
+phonemes: [p, t, k, tʃ, m, n, ŋ, j, w, l, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Ferreira Alvez, Ana Carolina. 2010. Phonological aspects of Arara (Carib, Brazil). MA thesis, Radboud Universiteit."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

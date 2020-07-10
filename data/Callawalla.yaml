@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Callawaya
+
+short_name: Callawaya
+
+alternate_names: 
+-
+
+iso_codes: 
+- caw
+
+family: Mixed
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -16.005
+  longitude: -68.377
+  elevation_meters: 4309
+
+phonemes: [p, t, k, q, tʃ, pʰ, tʰ, kʰ, qʰ, tʃʰ, pʼ, tʼ, kʼ, qʼ, tʃʼ, m, n, ɲ, s, ʃ, x, j, w, l, ʎ, ɾ, i, iː, u, uː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Adelaar, Willem and Pieter Muysken. 2004. Languages of the Andes. Cambridge University Press."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

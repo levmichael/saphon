@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Ayoreo
+
+short_name: Ayoreo
+
+alternate_names: 
+-
+
+iso_codes: 
+- ayo
+
+family: Zamucoan
+
+countries: 
+- Bolivia
+- Paraguay
+
+coordinates: 
+- latitude: -20.016
+  longitude: -60.624
+  elevation_meters: 196
+
+phonemes: [p, b, t, d, k, ɡ, ʔ, tʃ, m̥, m, n̥, n, ɲ, ɲ̥, ŋ, s, h, j, w, ɾ, i, ĩ, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Bertinetto, Pier Marco. 2009. Ayoreo (Zamuco). A grammatical sketch. Quaderni del Laboratorio Linguistica."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

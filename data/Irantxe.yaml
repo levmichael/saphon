@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Mỹky
+
+short_name: Mỹky
+
+alternate_names: 
+- Irántxe
+
+iso_codes: 
+- irn
+
+family: Isolate
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -13.000
+  longitude: -58.000
+  elevation_meters: 417
+
+phonemes: [p, pʲ, t, tʲ, k, kʲ, ʔ, m, mʲ, n, nʲ, s, ʃ, h, j, w, r, i, ĩ, iː, ɨ, ɨ̃, ɨː, u, ũ, uː, e, ẽ, eː, o, õ, oː, ə, ə̃, əː, a, ã, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- "The inventory of Irántxe differs from that of Mỹky in having an additional phoneme /l/ (Monserrat 2000: 180-181)."
+
+
+
+---
+
+doctype: ref
+
+citation: "Meader, R.E. 1967. Iranxe: notas gramaticais e lista vocabular. Rio de Janeiro: Museu Nacional and Universidade Federal do Rio de Janeiro."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Monserrat, Ruth Maria Fonini. 2000. A língua do povo Mỹky. Rio de Janeiro: Universidade Federal do Rio de Janeiro dissertation."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

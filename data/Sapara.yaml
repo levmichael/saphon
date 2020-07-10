@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Sápara
+
+short_name: Sápara
+
+alternate_names: 
+- Záparo
+
+iso_codes: 
+- zro
+
+family: Zaparoan
+
+countries: 
+- Ecuador
+
+coordinates: 
+- latitude: -1.885
+  longitude: -76.476
+  elevation_meters: 227
+
+phonemes: [p, t, k, kʲ, kʷ, ts, tʃ, m, mʲ, n, ɲ, s, ʃ, h, hʷ, j, w, ɾ, i, ɨ, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Michael, Lev, Vivian Wauters, and Christine Beier. in prep. A Reconstruction of Proto-Zaparoan phonology."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Cholón
+
+short_name: Cholón
+
+alternate_names: 
+-
+
+iso_codes: 
+- cht
+
+family: Hibito-Cholon
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -8.414
+  longitude: -76.365
+  elevation_meters: 559
+
+phonemes: [p, t, k, ts, tʃ, m, n, ɲ, ŋ, s, x, j, w, l, ʎ, i, u, ɪ, ʊ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- There is some question as to whether the language exhibited contrastive long vowels.
+
+
+
+---
+
+doctype: ref
+
+citation: "Alexander-Bakkerus, Astrid. 2005. Eighteenth-Century Cholón. PhD dissertation, Universiteit Leiden."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Alexander-Bakkerus, Astrid. to appear. Cholón. In Patience Epps and Lev Michael (eds.), The Amazonian languages: An international handbook. De Gruyter."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Ika
+
+short_name: Ika
+
+alternate_names: 
+- Arhuaco
+
+iso_codes: 
+- arh
+
+family: Chibchan
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 10.659
+  longitude: -73.752
+  elevation_meters: 54
+
+phonemes: [p, b, t, d, k, ɡ, ʔ, tʃ, dʒ, m, n, N, s, z, ɾ, i, u, e, o, ə, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Landaburu, Jon. 2000. La lengua ika. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

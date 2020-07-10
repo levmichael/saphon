@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Maxakalí
+
+short_name: Maxakalí
+
+alternate_names: 
+-
+
+iso_codes: 
+- mbl
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -18.000
+  longitude: -40.000
+  elevation_meters: 37
+
+phonemes: [p, t, k, ʔ, m, n, ɲ, ŋ, ç, h, i, ĩ, ɯ, ɯ̃, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Campos, Carlo Sandro de Oliveira. 2009. Morfofonêmica e morfossintaxe do Maxakali. PhD dissertation, Universidade Federal de Minas Gerais."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Pereira, Deuscreide Goncalves. 1992. Alguns Aspectos Gramaticais Da Lingua Maxakali. PhD dissertation, Universidade Federal de Minas Gerais."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

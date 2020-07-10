@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Xipaya
+
+short_name: Xipaya
+
+alternate_names: 
+-
+
+iso_codes: 
+- xiy
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -3.220
+  longitude: -52.209
+  elevation_meters: 89
+
+phonemes: [p, b, t, d, k, m, n, s, z, ʃ, h, j, w, l, i, ĩ, ɨ, ɨ̃, u, ũ, e, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Rodrigues, Carmen R. 1995. Etude morphosyntasique de la langue xipaya (Brésil). Université Paris VII."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

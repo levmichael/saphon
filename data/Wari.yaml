@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Wari'
+
+short_name: Wari'
+
+alternate_names: 
+- Pakaásnovos
+
+iso_codes: 
+- pav
+
+family: Chapakuran
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -11.333
+  longitude: -65.040
+  elevation_meters: 165
+
+phonemes: [p, t, k, kʷ, ʔ, tʃ, m, m̰, n, n̰, h, hʷ, j, w, ɾ, i, y, e, ø, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Northern varieties (Oro Mon, Oro Waram and Oro Waram Xijein lects) lack contrast between /h/ and /hʷ/.
+
+
+
+---
+
+doctype: ref
+
+citation: "Everett, Daniel Leonard and Barbara Kern. 1997. Wari: the Pacaas Novos Language of Western Brazil. Routledɡe."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

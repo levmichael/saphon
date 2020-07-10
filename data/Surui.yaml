@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Suruí
+
+short_name: Suruí
+
+alternate_names: 
+-
+
+iso_codes: 
+- sru
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -5.950
+  longitude: -48.985
+  elevation_meters: .NAN
+
+phonemes: [p, b, t, d, k, ɡ, ʔ, tʃ, dʒ, m, n, ɲ, ŋ, s, ʃ, j, w, l, ɾ, i, ĩ, ɨ, ɨ̃, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Meer, Tine van der. 1982. Fonologia da língua suruí. MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

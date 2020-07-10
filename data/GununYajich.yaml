@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Günün Yajich
+
+short_name: Günün Yajich
+
+alternate_names: 
+-
+
+iso_codes: 
+- gny
+
+family: Isolate
+
+countries: 
+- Argentina
+
+coordinates: 
+- latitude: -41.102
+  longitude: -66.992
+  elevation_meters: 505
+
+phonemes: [p, b, t, d, k, ɡ, q, ʔ, ts, ʈʂ, pʼ, tʼ, kʼ, tsʼ, ʈʂʼ, m, n, s, ʂ, x, j, w, ɬ, l, ʎ, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Viegas, Pedro Barros. 2005. Voces en el viento: Raíces lingüísticas de la Patagonia. Buenos Aires: Mondragon Ediciones. 69."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

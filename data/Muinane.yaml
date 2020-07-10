@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Muinane
+
+short_name: Muinane
+
+alternate_names: 
+-
+
+iso_codes: 
+- bmr
+
+family: Boran
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: -1.000
+  longitude: -72.300
+  elevation_meters: 182
+
+phonemes: [p, b, t, tʲ, d, dʲ, k, ɡ, ʔ, tʃ, dʒ, m, n, ɲ, ɸ, β, s, ʃ, x, j, ɾʲ, r, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Walton, James, Grace Hensarling, and Michael R. Maxwell. 2000. El muinane. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Santafe de Bogotá: Instituto Caro y Cuervo. 255-256."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Walton, James and Janice Walton. 1972. Fonemas del Muinane. Sistemas Fonológicos de Idiomas Colombianos 1. Ed. Viola G. Waterhouse. Bogotá: Ministerio de Gobierno and Instituto Lingüístico de Verano. 43-47."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

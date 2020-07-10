@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Kayabí
+
+short_name: Kayabí
+
+alternate_names: 
+-
+
+iso_codes: 
+- kyz
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -11.104
+  longitude: -56.528
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, kʷ, ɡ, ʔ, m, n, ŋ, ɸ, s, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Souza states that [f] and [ɸ] occur in free variation, with [f] being the more frequent (23).
+
+
+
+---
+
+doctype: ref
+
+citation: "Souza, Patrícia de Oliveira Borges. 2004. Estudos de aspectos da lígua kaiabi (tupí). MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Cuiba
+
+short_name: Cuiba
+
+alternate_names: 
+-
+
+iso_codes: 
+- cui
+
+family: Guahiban
+
+countries: 
+- Venezuela
+- Colombia
+
+coordinates: 
+- latitude: 5.391
+  longitude: -68.105
+  elevation_meters: 77
+
+phonemes: [p, b, t, d, k, ts, tʃ, pʰ, tʰ, kʰ, m, n, ɲ, s, h, j, w, i, ɨ, u, e, o, ʌ, æ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Merchán Galindo, Hermana. 2000. Breve presentación de la lengua cuiba (variante maibén). In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. 586-587."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

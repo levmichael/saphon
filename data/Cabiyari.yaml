@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Cabiyarí
+
+short_name: Cabiyarí
+
+alternate_names: 
+-
+
+iso_codes: 
+- cbb
+
+family: Arawak
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: -0.130
+  longitude: -70.693
+  elevation_meters: 157
+
+phonemes: [p, t, d, k, ʔ, ts, dʒ, pʰ, tʰ, kʰ, tsʰ, ʰm, m, ʰn, n, ɲ, ɸ, β, s, ʂ, h, ɽʰ, ɽ, i, ĩ, iː, u, ũ, uː, e, eː, a, ã, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Ramirez, Henry. 2001. Línguas Arawak da Amazônia Setentrional: Comparação e Descrição. Manaus: Editora de Universidade do Amazonas. 384."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Galindo, Andrés Eduardo Reinoso. 2009. Aproximación a la fonología de la lengua Kawiyari. MS."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

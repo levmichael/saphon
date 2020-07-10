@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Carib (Suriname dialect)
+
+short_name: Carib Srnm
+
+alternate_names: 
+-
+
+iso_codes: 
+- car_esr
+
+family: Carib
+
+countries: 
+- Suriname
+
+coordinates: 
+- latitude: 5.640
+  longitude: -55.933
+  elevation_meters: 17
+
+phonemes: [p, t, k, m, n, s, j, w, ɾ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Courtz, Hendrik. 2008. A Carib Grammar and Dictionary. Toronto: Magoria Books. 14-22."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

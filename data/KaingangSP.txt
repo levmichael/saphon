@@ -1,9 +1,0 @@
-name: Kaingáng, São Paulo
-name.short: Kaingang, Sao Paulo
-name.comp: KaingangSP
-code: zkp
-family: Macro-Ge
-country: Brazil
-geo: -23.550 -46.630 774
-feat: p t tʃ k m n ɲ ŋ ɸ h w j ɾ i ĩ e ɛ ɛ̃ a ɔ o õ u ɨ ɨ̃ ə ə̃
-bib: Cavalcante, Marita Pôrto. 1987. Fonologia e morfologia da língua kaingang: o dialeto de São Paulo comparado com o do Paraná. PhD dissertation, Universidade Estadual de Campinas.

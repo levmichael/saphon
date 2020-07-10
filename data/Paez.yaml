@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Páez
+
+short_name: Páez
+
+alternate_names: 
+-
+
+iso_codes: 
+- pbb
+
+family: Isolate
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: 2.405
+  longitude: -76.608
+  elevation_meters: .NAN
+
+phonemes: [p, pʲ, t, tʲ, k, kʲ, ts, tsʲ, pʰ, tʰ, tʲʰ, kʰ, tsʰ, tsʲʰ, mp, mpʲ, mɸʲ, nt, ntʲ, ns, nsʲ, ŋk, m, nʰ, n, nʲ, ɸʲ, s, sʲ, x, xʲ, j, w, l, lʲ, i, ĩ, ḭ, ḭ̃, iː, ĩː, u, ũ, ṵ, ṵ̃, uː, ũː, e, ẽ, ḛ, ḛ̃, eː, ẽː, a, ã, a̰, ã̰, aː, ãː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- "Jung (2008: 37) analyzes vowel length as phonemic, commenting that it may not be phonemic in all dialects. Rojas Curieux (1998: 78-79) notes a few instances of long vowels but does not analyze vowel length as phonemic. The aspirated vowels of Rojas Curieux (1998) correspond in at least a few words to a vowel followed by the fricative /x/ in Jung (2008). Aspirated vowels are therefore not included in the phoneme inventory here."
+
+
+
+---
+
+doctype: ref
+
+citation: "Rojas Curieux, Tulio Enrique. 1998. La lengua páez: una visión de su gramática. Colombia: Ministerio de Cultura."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Jung, Ingrid. 2008. Gramática del páez o nasa yuwe: Descripción de una  lengua indígena de Colombia. München: LINCOM Europe."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

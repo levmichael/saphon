@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Guató
+
+short_name: Guató
+
+alternate_names: 
+-
+
+iso_codes: 
+- gta
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -17.000
+  longitude: -58.000
+  elevation_meters: 103
+
+phonemes: [p, b, t, d, k, kʷ, ɡ, ɡʷ, tʃ, dʒ, m, n, f, v, h, j, ɾ, i, ɨ, u, e, o, ɛ, ɔ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Postigo, Adriana Viana. 2009. Fonologia da Língua Guató. MA thesis, Universidade Federal de Mato Grosso do Sul."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

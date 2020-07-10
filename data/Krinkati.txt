@@ -1,9 +1,0 @@
-name: Krinkati-Timbira
-name.short: Krinkati-Tmb
-name.comp: Krinkati
-code: xri
-family: Macro-Ge
-country: Brazil
-geo: -6.037 -46.653 307
-feat: p t tʃ kʰ k m n h w j ɾ i ĩ e ɛ ɛ̃ a ã ɔ ɔ̃ o u ũ ɨ ɨ̃ ə
-bib: Alves, Flávia de Castro. 2004. O Timbira falado pelos Canela Apãniekrá: Uma contribuição aos estudos da morfossintaxe de uma língua Jê. PhD dissertation, Universidade Estadual de Campinas.

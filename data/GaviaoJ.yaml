@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Gavião do Jiparaná
+
+short_name: Gavião Jprn
+
+alternate_names: 
+-
+
+iso_codes: 
+- gvo
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -10.400
+  longitude: -62.000
+  elevation_meters: 187
+
+phonemes: [p, b, t, d, k, ɡ, ʔ, ts, dz, cç, ɟʝ, m, n, ɲ, ŋ, β, j, l, ɾ, i, ĩ, ɨ, ɨ̃, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Moore, Denny. 1984. Syntax of the language of the Gavião indians of Rondônia, Brazil. PhD dissertation, City University of New York."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Moore, Denny. 1999. Tonal System of the Gavião Language of Rondônia, Brazil, in Tupian Perspective. In Shigeki Kaji (ed.), Cross-Linguistic Studies of Tonal Phenomena: Tonogenesis, typology, and related topics, 297-310. Tokyo: ILCAA."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

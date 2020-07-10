@@ -1,0 +1,101 @@
+doctype: synthesis
+
+name: Wayúu
+
+short_name: Wayúu
+
+alternate_names: 
+- Guajiro
+
+iso_codes: 
+- guc
+
+family: Arawak
+
+countries: 
+- Venezuela
+- Colombia
+
+coordinates: 
+- latitude: 12.000
+  longitude: -72.000
+  elevation_meters: 41
+
+phonemes: [p, t, k, ʔ, tʃ, m, n, ɲ, s, ʃ, h, j, w, ɺ, r, i, iː, ɨ, ɨː, u, uː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Álvarez notes that /ɲ/ may possibly be an allophone of /n/ rather than a separate phoneme.
+
+
+
+---
+
+doctype: ref
+
+citation: "Mansen, Richard and David Captain. 2000. El idioma wayuu (o guajiro). In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Mansen, Richard. 1972. Fonemas del guajiro. In Viola G. Waterhouse (ed.), Sistemas fonológicos de idiomas colombianos 1. Bogotá: Ministerio de Gobierno. 53-63."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Adelaar, Willem, and Pieter Muysken. 2004. The Languages of the Andes. Cambridge: Cambridge University Press. 117."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Álvarez, José. Manual de la lengua wayuu. Maracaibo: Universidad del Zulia, MS."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

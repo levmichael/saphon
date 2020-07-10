@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Nanti
+
+short_name: Nanti
+
+alternate_names: 
+-
+
+iso_codes: 
+- cox
+
+family: Arawak
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -12.045
+  longitude: -72.339
+  elevation_meters: 823
+
+phonemes: [p, b, t, tʲ, k, ɡ, ts, tʃ, m, n, ɲ, N, s, ʃ, h, j, ɾ, ɾʲ, i, iː, ɨi, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Michael observes that /ɨi/ is a light (monomoraic) dipthong that constitutes a single segment.
+
+
+
+---
+
+doctype: ref
+
+citation: "Michael, Lev. 2008. Nanti Evidential Practice: Language, Knowledge, and Social Action in an Amazonian Society. PhD dissertation, University of Texas at Austin."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,55 @@
+doctype: synthesis
+
+name: Carib (French Guiana dialect)
+
+short_name: Carib Fr Gna
+
+alternate_names: 
+-
+
+iso_codes: 
+- car_frg
+
+family: Carib
+
+countries: 
+- French Guiana
+
+coordinates: 
+- latitude: 5.714
+  longitude: -53.937
+  elevation_meters: 7
+- latitude: 4.295
+  longitude: -52.109
+  elevation_meters: 58
+
+phonemes: [p, t, k, ʔ, m, n, s, h, j, w, ɭ, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Renault-Lescure, Odile. 2009. La langue kali'na. Langues de Guyane. La Roque d'Anthéron: Vents d'ailleurs. 66-77."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

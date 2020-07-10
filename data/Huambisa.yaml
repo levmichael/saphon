@@ -1,0 +1,84 @@
+doctype: synthesis
+
+name: Huambisa
+
+short_name: Huambisa
+
+alternate_names: 
+-
+
+iso_codes: 
+- hub
+
+family: Jivaroan
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -4.279
+  longitude: -77.852
+  elevation_meters: 798
+
+phonemes: [p, t, k, ʔ, ts, tʃ, m, n, ŋ, s, ʃ, h, j, w, ɾ, i, ĩ, ɯ, ɯ̃, u, ũ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Beasley, David and Kenneth L. Pike. 1957. Notes on Huambisa Phonemics. Lingua Posnaniensis 6. 1-8."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Payne, David L. 1981. Bosquejo Fonologico Del Proto-Shuar-Candoshi: Evidencia Para Una Relación Genetica. Revista Del Museo Nacional 45. 338."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Jackway, Martha. 1987. Vocabulario Huambisa. Serie Lingüística Peruana 24. Yarinacocha: Instituto Lingüístico de Verano."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

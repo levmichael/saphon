@@ -1,0 +1,69 @@
+doctype: synthesis
+
+name: Paumarí
+
+short_name: Paumarí
+
+alternate_names: 
+-
+
+iso_codes: 
+- pad
+
+family: Arawan
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -6.000
+  longitude: -64.000
+  elevation_meters: 75
+
+phonemes: [p, b, t, d, k, ɡ, ʔ, tʃ, dʒ, ɓ, ɗ, tʰ, kʰ, m, n, ɸ, β, s, ʃ, h, ɾ, ɽ, i, iː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Labiodental fricative /v/ and labial fricative /β/ are in free variation (Chapman 347 & Dixon 10).
+- Dixon ignores Chapman's contrast between “[ř], a flap vibrant, and [ṛ̂], a retroflexed grooved reverse flap vibrant” (Chapman 347) on the grounds that the two vibrants “are not distinguished in the materials on P[aumari] by Chapman and Derbyshire (2004) and by Chapman and Salzer (2008), both vibrants being written as r” (Dixon 13).
+
+
+
+---
+
+doctype: ref
+
+citation: "Chapman, Shirley and Desmond C. Derbyshire. 1991. Paumarí. Handbook of Amazonian Languages 3. Ed. Desmond C. Derbyshire and Geoffrey K. Pullum. Berlin: Mouton de Gruyter. 346-349"
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Dixon, R.M.W. 2004. Proto-Arawá Phonology. Anthropological Linguistics 46.1. 1-83."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

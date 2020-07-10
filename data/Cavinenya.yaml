@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Cavineña
+
+short_name: Cavineña
+
+alternate_names: 
+-
+
+iso_codes: 
+- cav
+
+family: Tacanan
+
+countries: 
+- Bolivia
+
+coordinates: 
+- latitude: -12.806
+  longitude: -66.937
+  elevation_meters: .NAN
+
+phonemes: [p, b, t, d, c, ɟ, k, kʷ, ts, tɕ, m, n, ɲ, s, ɕ, h, j, w, ɺ, ʎ, i, ʊ, e, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Guillaume, Antoine. 2008. A Grammar of Cavineña. Berlin: Walter de Grutyer."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

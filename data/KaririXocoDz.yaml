@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Karirí-Xocó (Dzubukuá dialect)
+
+short_name: Karirí-Xoc D
+
+alternate_names: 
+-
+
+iso_codes: 
+- kzw_dzu
+
+family: Isolate
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -10.000
+  longitude: -37.000
+  elevation_meters: 96
+
+phonemes: [p, b, t, d, k, ɡ, ts, dz, m, n, ɲ, h, l, ɾ, i, ɨ, u, e, o, œ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "de Queiroz, José Márcio Correia. 2012. Um estudo gramatical da língua Dzubukuá, família Karirí. PhD dissertation, Universidade Federal de Pernambuco."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "de Queiroz, José Márcio Correia. 2008. Aspectos da fonologia dzubukuá. MA thesis, Universidade Federal de Pernambuco."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

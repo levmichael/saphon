@@ -1,0 +1,54 @@
+doctype: synthesis
+
+name: Ninam of Ericó
+
+short_name: Ninam of Ericó
+
+alternate_names: 
+- Yanam
+- Northern Ninam
+- Xiriana
+
+iso_codes: 
+- shb
+
+family: Yanomam
+
+countries: 
+- Venezuela
+
+coordinates: 
+- latitude: 3.300
+  longitude: -62.500
+  elevation_meters: 313
+
+phonemes: [p, t, k, tʃ, tʰ, m, n, s, ʃ, h, j, w, ɾ, i, ĩ, iː, ĩː, ɨ, u, ũ, uː, ũː, e, ẽ, eː, ẽː, o, õ, oː, õː, ə, ə̃, əː, ə̃ː, a, ã, aː, ãː]
+
+allophones: 
+-
+
+nasal_harmony: True
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Gomez, Gale Goodwin. 1990. The Shiriana dialect of Yaman (northern Brazil). PhD dissertation, Columbia University."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

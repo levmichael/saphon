@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Enawené-Nawé
+
+short_name: Enawené-Nawé
+
+alternate_names: 
+-
+
+iso_codes: 
+- unk
+
+family: Arawak
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -13.229
+  longitude: -58.885
+  elevation_meters: 468
+
+phonemes: [t, d, k, m, n, ɲ, s, ʃ, h, j, w, l, ɾ, i, ĩ, iː, e, ẽ, eː, o, õ, oː, a, ã, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Rezende, Ubiray Maria Nogueira. 2003. Fonetica fonologia da lingua Enawene-Nawe (Aruak): Uma primera abordagem. Universidade do Rio de Janeiro."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

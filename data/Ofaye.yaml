@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Ofayé
+
+short_name: Ofayé
+
+alternate_names: 
+-
+
+iso_codes: 
+- opy
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -15.169
+  longitude: -53.171
+  elevation_meters: 461
+
+phonemes: [t, d, k, kʷ, ɡ, ʔ, tʃ, dʒ, n, ʃ, h, j, w, ɾ, i, ĩ, e, ẽ, o, õ, ə, ɛ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Oliveira, Maria Das Dores de. 2006. Ofayé, A língua do povo do mel: fonologia e gramática. PhD dissertation, Universidade Federal de Alagoas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

@@ -1,0 +1,56 @@
+doctype: synthesis
+
+name: Yanomamö
+
+short_name: Yanomamö
+
+alternate_names: 
+-
+
+iso_codes: 
+- guu
+
+family: Yanomam
+
+countries: 
+- Venezuela
+- Brazil
+
+coordinates: 
+- latitude: 1.859
+  longitude: -64.905
+  elevation_meters: 520
+- latitude: 0.938
+  longitude: -64.098
+  elevation_meters: 111
+
+phonemes: [p, t, k, tʰ, m, n, s, ʃ, h, j, w, ɾ, i, ɨ, u, e, o, ə, a]
+
+allophones: 
+-
+
+nasal_harmony: True
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Aikhenvald, Alexandra Y. and R.M.W. Dixon. 1999. Other small families and isolates. In, The Amazonian Languages. Aikhenvald, Alexandra Y. and R.M.W. Dixon (Eds.), Cambridge: Cambridge University Press. 345-346."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

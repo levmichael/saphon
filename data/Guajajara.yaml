@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Guajajára
+
+short_name: Guajajára
+
+alternate_names: 
+-
+
+iso_codes: 
+- gub
+
+family: Tupí
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -4.437
+  longitude: -45.324
+  elevation_meters: .NAN
+
+phonemes: [p, t, k, kʷ, ʔ, ts, m, n, ŋ, ŋʷ, z, h, j, w, ɾ, i, ɨ, u, ə, ɛ, ɔ, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Bendor-Samuel, David. 1972. Hierarchical structures in Guajajara. Summer Institute of Linguistics Publications in Linguistics and Related Fields, 37. Norman: Summer Institute of Linguistics of the University of Oklahoma."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Nascimento, Ana Paula Lion Mamede. (2008). Estudo fonético e fonológico da língua Guajá. PhD dissertation, Universidade de Brasília."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

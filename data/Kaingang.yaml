@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Kaingang
+
+short_name: Kaingang
+
+alternate_names: 
+-
+
+iso_codes: 
+- kgp
+
+family: Macro-Ge
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -26.000
+  longitude: -52.000
+  elevation_meters: 769
+
+phonemes: [p, t, k, ʔ, m, n, ɲ, ŋ, ɸ, ʃ, h, ɾ, i, ĩ, ɨ, u, e, o, õ, ə, ə̃, ɛ, ɔ, æ̃, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Neto, Ambrósio Pereira da Silva. 2007. Revisão da Classificação da Família Lingüística Purí. MA thesis, Universidade de Brasília."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Wetzels, W. Leo. 2010. Word prosody and the distribution of oral/nasal contour consonants in Kaingang. In Carlin, Eithne B. and van de Kerke, Simon (eds.), Linguistics and Archeology in the Americas: The Historization of Language and Society, 235-252. Leiden: Brill."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

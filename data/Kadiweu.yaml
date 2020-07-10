@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Kadiwéu
+
+short_name: Kadiwéu
+
+alternate_names: 
+-
+
+iso_codes: 
+- kbc
+
+family: Guaicuru
+
+countries: 
+- Brazil
+
+coordinates: 
+- latitude: -20.002
+  longitude: -57.002
+  elevation_meters: 97
+
+phonemes: [p, b, bː, t, d, dː, k, ɡ, ɡː, q, ɢ, tʃ, dʒ, m, mː, n, nː, j, jː, w, wː, l, lː, i, iː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+- Sandalo notes that there are register-based phonological differences, and “noble and non-noble Kadiwéu differ in that Noble Kadiwéu lacks long semivowels.”
+
+
+
+---
+
+doctype: ref
+
+citation: "Sandalo, Filomena. 1997. A grammar of Kadiwéu: with special reference to the polysynthesis parameter. MIT Occasional Papers in Linguistics, 11. Cambridge, MA: MIT. 14-15."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

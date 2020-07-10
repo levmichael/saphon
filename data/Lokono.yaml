@@ -1,0 +1,109 @@
+doctype: synthesis
+
+name: Lokono
+
+short_name: Lokono
+
+alternate_names: 
+- Arawak
+
+iso_codes: 
+- arw
+
+family: Arawak
+
+countries: 
+- Guyana
+- Suriname
+- French Guiana
+- Venezuela
+
+coordinates: 
+- latitude: 6.083
+  longitude: -57.599
+  elevation_meters: 13
+- latitude: 5.166
+  longitude: -57.473
+  elevation_meters: 62
+- latitude: 5.526
+  longitude: -55.151
+  elevation_meters: 13
+
+phonemes: [b, t, d, k, tʰ, kʰ, m, n, ɸ, s, ʃ, h, j, w, l, ɾ, ɽ, i, iː, ɨ, ɨː, e, eː, o, oː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- Pet (1988) observes that /p/ occurs only in loans, and that phonetic realization of /o/ varies between [o] and [u].
+
+
+
+---
+
+doctype: ref
+
+citation: "Pet, Willem J. A. 1988. Lokono dian: the Arawak language of Surinam: a sketch of its grammatical structure and lexicon. PhD dissertation, Cornell University."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Pet, Willem J. A. 2011. A Grammar Sketch and Lexicon of Arawak (Lokono Dian). Dallas: SIL International."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Patte, Marie-France. 2009. Parlons Arawak: Une langue amérindienne d'Amazonie. Paris: Harmattan."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Patte, Marie-France. 2011. La langue arawak de Guyane: Présentation historique et dictionnaires arawak-français et français-arawak. Marseille: Institut de recherche pour le développement."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-

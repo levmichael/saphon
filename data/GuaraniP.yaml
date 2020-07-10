@@ -1,0 +1,68 @@
+doctype: synthesis
+
+name: Paraguayan Guaraní
+
+short_name: Guaraní Prgy
+
+alternate_names: 
+-
+
+iso_codes: 
+- gug
+
+family: Tupí
+
+countries: 
+- Paraguay
+
+coordinates: 
+- latitude: -24.911
+  longitude: -57.501
+  elevation_meters: 143
+
+phonemes: [p, t, k, kʷ, ʔ, dʒ, mb, nd, ŋɡ, ŋɡʷ, s, ʃ, x, ɣ, ɣʷ, ʋ, l, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, a, ã]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+- /r/ is only found in loans.
+
+
+
+---
+
+doctype: ref
+
+citation: "Walker, R. 1999. Guaraní voiceless stops in oral versus nasal contexts: An acoustical study. Journal of the International Phonetic Association. Vol. 29 (1), pp. 63-94."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Krivoshein de Canese, Natalia, & Feliciano Acosta Alcaraz. 2000. Diccionario guaraní-español, español-guaraní. Asunción: Instituto Superior de Lenguas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+notes:
+-
