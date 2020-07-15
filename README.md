@@ -65,7 +65,7 @@ The top-level scalar fields for `ref` documents are:
 
 * `citation`: A bibliographic citation for the reference.
 
-* `notes`: A list of notes relating to the reference.
+* `ref_notes`: A list of notes relating to the reference.
 
 * `graphemes2phonemes`: A list of mappings of graphemes that appear in the reference document and the phoneme it corresponds with in the `synthesis` phonemes list. Each entry in the list is a mapping of the fields:
   * `grapheme`: The grapheme in the reference document.
@@ -116,7 +116,7 @@ YAML is a flexible format that allows for multiple styles of representing identi
 1. `ref_allophones`
     1. `grapheme_allophone`
     1. `grapheme_phoneme`
-1. `notes`
+1. `ref_notes`
 
 * The `phonemes` list is created as a single line of comma-separated values enclosed by square brackets. This is the YAML ['flow sequence' style](https://yaml.org/spec/current.html#id2542413). For example:
 
