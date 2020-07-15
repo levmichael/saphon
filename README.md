@@ -4,7 +4,7 @@ This repository holds the data that underlies the [South American Phonological I
 
 ## Data file format
 
-The `data/` directory contains a file for each language in the database.  The files are [YAML](http://yaml.org) documents and are compatible with the [version 1.2 JSON schema](https://yaml.org/spec/1.2/spec.html). The character encoding of all files is UTF-8.
+The `langs/` directory contains a file for each language in the database.  The files are [YAML](http://yaml.org) documents and are compatible with the [version 1.2 JSON schema](https://yaml.org/spec/1.2/spec.html). The character encoding of all files is UTF-8.
 
 Each file comprises one or more documents. There are two types of documents that may be present: 1) a `synthesis` document that describes the phonological inventory of the language; 2) zero or more `ref` documents that contain information gathered from each of the reference materials. There must be exactly one `synthesis` document per yaml file and by convention should be the first document in the yaml file. Normally there should be at least one `ref` document per language and one per bibliographic reference.
 
@@ -32,7 +32,7 @@ Eight fields contain simple sequences (lists) of scalar values:
 
 * `alternate_names`: A list of alternative or outdated names for the language.
 
-* `iso_codes`: A sequence of ISO 639-3 codes for the language, or of our own devising when the ISO codes are inadequate. When we need to distinguish language varieties not distinguished by ISO 639-3, we add a three letter extension to the code with an underscore '\_' separator. Ordinarily the sequence contains only one code, but more values occur when multiple ISO codes refer to the same language (e.g. [Huaylas-Conchucos Quechua]('data/HuaylasCQ.txt' contains codes `qxn`, `qwh`).
+* `iso_codes`: A sequence of ISO 639-3 codes for the language, or of our own devising when the ISO codes are inadequate. When we need to distinguish language varieties not distinguished by ISO 639-3, we add a three letter extension to the code with an underscore '\_' separator. Ordinarily the sequence contains only one code, but more values occur when multiple ISO codes refer to the same language (e.g. [Huaylas-Conchucos Quechua]('langs/HuaylasCQ.txt' contains codes `qxn`, `qwh`).
 
 * `countries`: A list of country names where the language is indigenous.
 
