@@ -1,4 +1,6 @@
 import csv, math, re, sys, os, unicodedata
+import glob
+import yaml
 from collections import *
 
 class SaphonData:
@@ -59,6 +61,48 @@ class Lang:
     self.note_ = note_
     self.bib_ = bib_
 
+class YAMLLang(object):
+    '''A class for reading new-style YAML saphon lang files and interfacing
+with existing code based on .txt files.'''
+    def __init__(self, yamlfile):
+        '''Instantiate object from .yaml file.'''
+        self.synthesis = None
+        self.refs = []
+        with open(yamlfile, 'r') as fh:
+            docs = list(yaml.safe_load_all(fh))
+        for doc in docs:
+            try:
+                assert(doc['doctype'] in ('synthesis', 'ref'))
+            except AssertionError:
+                raise RuntimeError(f"Unrecognized doctype \'{doc['doctype']}\'")
+            except KeyError:
+                raise RuntimeError('Found a document with no `doctype`.')
+            if doc['doctype'] == 'synthesis':
+                try:
+                    assert(self.synthesis is None)
+                except AssertionError:
+                    raise AssertionError('Multiple synthesis documents found')
+                self.synthesis = doc
+            elif doc['doctype'] == 'ref':
+                self.refs.append(doc)
+
+        # Filter None values out of list values.
+        listflds = (
+            'alternate_names', 'iso_codes', 'countries', 'coordinates',
+            'phonemes', 'allophones', 'notes'
+        )
+        for fld in listflds:
+            self.synthesis[fld] = [v for v in self.synthesis[fld] if v is not None]
+        print(yamlfile)
+        for ref in self.refs:
+            for fld in ('graphemes2phonemes', 'ref_allophones', 'ref_notes'):
+                try:
+                    ref[fld] = [v for v in ref[fld] if v is not None]
+                except:
+                    print(ref)
+                    raise
+
+ 
 nan = float('nan')
 def readFloat(s):
   try:
@@ -164,6 +208,50 @@ def writeSaphonFiles(dir, lang_, feat_):
       fo.write('note: ' + note + '\n')
     for bib in lang.bib_:
       fo.write('bib: ' + bib + '\n')
+
+
+def readSaphonYAMLFiles(yamldir, ipatable):
+    '''Read all saphon .yaml datafiles.'''
+    featInfo = readFeatList(ipatable)
+    featOrder = featInfo.order()
+
+    lang_ = []
+    for fname in glob.glob(f'{yamldir}/*.yaml'):
+        ylang = YAMLLang(fname)
+        synth = ylang.synthesis
+        refs = ylang.refs
+        phonemes = [
+            normalizeIPA(p) for p in synth['phonemes']
+        ]
+        phonemes.sort(key = lambda p: featOrder[p])
+        for fld in ('nasal_harmony', 'tone', 'laryngeal_harmony'):
+            if synth[fld] is True:
+                phonemes.append(fld)
+        geography = [
+            Geo(c['latitude'], c['longitude'], c['elevation_meters']) \
+                for c in synth['coordinates']
+        ]
+        lang_.append(
+            Lang(
+                name=synth['name'],
+                nameShort=synth['short_name'],
+                nameAlt_=synth['alternate_names'],
+                nameComp=os.path.splitext(os.path.basename(fname))[0],
+                iso_=synth['iso_codes'],
+                family=familyName(synth['family'], synth['name']),
+                familyStr=synth['family'],
+                country_=synth['countries'],
+                geo_=geography,
+                feat_=phonemes,
+                note_=synth['notes'],
+                bib_=[ref['citation'] for ref in refs]
+            )
+        )
+    family_ = [lang.family for lang in lang_]
+    familyOrdered_ = sorted(set(family_), key = lambda x: (family_.count(x), x))
+
+    return SaphonData(familyOrdered_, featInfo, lang_)
+
 
 def readSaphonFiles(dir_name):
     featInfo = readFeatList(dir_name+'/ipa-table.txt')
