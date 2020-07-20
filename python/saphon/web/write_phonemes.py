@@ -4,7 +4,7 @@ from saphon.io import *
 from saphon.web.write_inventories import writeTable, writeNonsounds
 from saphon.web.optimize_layout import *
 from saphon.web.xlt import *
-import dbg
+#import dbg
 
 def writeLocal(saphonData, htmlDir, loc):
   featInfo = saphonData.featInfo
