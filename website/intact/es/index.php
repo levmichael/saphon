@@ -1,6 +1,6 @@
 <?php include("header.php"); ?>
 
-  <script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3.11&sensor=false&language=es"></script> 
+  <script type="text/javascript" src="https://maps.google.com/maps/api/js?v=3.11&sensor=false&language=es&key=AIzaSyCQT41mg8-Nsi0GnIqhEMuihr7Fq30bKt8"></script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script type="text/javascript" src="../StyledMarker.js"></script>
 
