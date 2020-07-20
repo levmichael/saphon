@@ -6,7 +6,7 @@ clean:
 
 html:
 	mkdir html
-	python3 ../python/saphon/web/write.py ../data html
+	python ../python/saphon/web/write.py ../langs html ../resources/ipa-table.txt
 	rsync -a intact/* html
 
 publish-hidden: html
