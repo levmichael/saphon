@@ -93,7 +93,6 @@ with existing code based on .txt files.'''
         )
         for fld in listflds:
             self.synthesis[fld] = [v for v in self.synthesis[fld] if v is not None]
-        print(yamlfile)
         for ref in self.refs:
             for fld in ('graphemes2phonemes', 'ref_allophones', 'ref_notes'):
                 try:
