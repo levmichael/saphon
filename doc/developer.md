@@ -30,8 +30,8 @@ Every pull\_request to the master branch or push to any branch triggers a
 GitHub Action that runs tests automatically. Check the 'Actions' tab on
 GitHub to view the results.
 
-See the file `.github/workflows/run-tests.yaml` for details on automated
-testing.
+See the file [`.github/workflows/run-tests.yaml`](../.github/workflows/run-tests.yaml)
+for details on automated testing.
 
 ## Release numbering
 
@@ -67,6 +67,7 @@ in your web browser.
 and remove the 'pre-release' qualifier. This will trigger the publish
 action for the public website.
 
-See the file `.github/workflows/publish_to_webserver.yaml` file for details
-on configuring the publishing action. Several GitHub secrets must be set
-in order to provide environment variables used by the publishing action.
+See the file [`.github/workflows/publish_to_webserver.yaml`](../.github/workflows/publish_to_webserver.yaml)
+file for details on configuring the publishing action. Several GitHub
+secrets must be set in order to provide environment variables used by the
+publishing action.
