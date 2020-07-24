@@ -1,9 +1,0 @@
-name: Chachapoyas Quechua
-name.short: Chachapoyas Q
-name.comp: ChachapoyasQ
-code: quk
-family: Quechua
-country: Peru
-geo: -6.263 -77.852 2820
-feat: p t ʈʂ tʃ k m n ɲ s ʃ w j ɾ l ʎ i a u
-bib: Chaparro, Carmelo. 1985. Fonología y lexicón del quechua de Chachapoyas. Lima: Instituto de Investigaciones Linguísticas, Universidad Nacional Mayor de San Marcos.

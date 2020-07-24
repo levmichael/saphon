@@ -1,9 +1,0 @@
-name: Tuparí
-name.short: Tuparí
-name.comp: Tupari
-code: tpr
-family: Tupí
-country: Brazil
-geo: -11.599 -61.915 187
-feat: p b t tʃ k ʔ m n ŋ s h w j ɾ i ĩ iː e ẽ eː a ã aː o õ oː ɨ ɨ̃ ɨː
-bib: Alves, Poliana Maria. 2004. O léxico do Tuparí: proposta de um dicionário bilingüe. PhD dissertation, Universidade Estadual de Araraquara.

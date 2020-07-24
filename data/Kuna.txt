@@ -1,9 +1,0 @@
-name: Border Kuna
-name.short: Border Kuna
-name.comp: Kuna
-code: kvn
-family: Chibchan
-country: Colombia
-geo: 7.857 -76.836 21
-feat: p pː t tː tʃ k kː kʷ kʷː m mː n nː s w j ɾ l lː i e a o u
-bib: Adelaar, Willem F. H. & Pieter C. Muysken. 2004. Languages of the Andes. New York: Cambridge University Press. 62.

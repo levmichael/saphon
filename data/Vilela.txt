@@ -1,9 +1,0 @@
-name: Vilela
-name.short: Vilela
-name.comp: Vilela
-code: vil
-family: Isolate
-country: Argentina
-geo: -27.299 -59.269 65
-feat: pʼ p b tʼ t d tʃʼ tʃ kʼ k ɡ qʼ q ɢ ʔ m n s ɬ h w j ɾ l i e a o u
-bib: Viegas Barros, Pedro. 2001. Proto-Lule-Vilela: Una reconstrucción fonológica preliminar. Ms., available online: http://www.adilq.com.ar/Viegas-Barros.htm.

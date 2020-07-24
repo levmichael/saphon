@@ -1,5 +1,7 @@
 project/target
+html
 target
 *.swp
 *.pyc
 .DS_Store
+.ipynb_checkpoints

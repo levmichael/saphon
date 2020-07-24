@@ -1,9 +1,0 @@
-name: Resígaro
-name.short: Resígaro
-name.comp: Resigaro
-code: rgr
-family: Arawak
-country: Peru
-geo: -3.343 -71.994 139
-feat: pʰ p b tʰ t tʲ tsʰ ts d dʲ dz tʃʰ tʃ dʒ kʰ k ɡ ʔ m m̥ n n̥ ɲ ɲ̥ ɸ β s ʃ ʒ x h ɾ i e a o u tone
-bib: Allin, Trevor Reginald. 1976. A grammar of Resígaro. Horsleys Green, England: Summer Institute of Linguistics. 47-49

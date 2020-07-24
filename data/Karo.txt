@@ -1,9 +1,0 @@
-name: Karo
-name.short: Karo
-name.comp: Karo
-code: arr
-family: Tupí
-country: Brazil
-geo: -10.200 -62.000 209
-feat: p b t c k ɡ ʔ m n ŋ h w j ɾ i ĩ e ẽ a ã o õ u ɨ ə tone
-bib: Gabas, Nilson. 1998. Phonological study of the Karo language (Brazil). Munich: LINCOM.

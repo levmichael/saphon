@@ -1,9 +1,0 @@
-name: Panare
-name.short: Panare
-name.comp: Panare
-code: pbh
-family: Carib
-country: Venezuela
-geo: 6.733 -66.049 203
-feat: p t tʲ tʃ k ʔ m n ɲ s w j ɾ i e a o u ɨ ə
-bib: Hall, Katherine and Maria Eugenia Villalon. 1988. Una introducción a la fonología E'ñapa (Caribe). Antropologica 70. 3-16.

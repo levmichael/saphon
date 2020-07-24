@@ -1,9 +1,0 @@
-name: Pisamira
-name.short: Pisamira
-name.comp: Pisamira
-code: psx
-family: Tucanoan
-country: Colombia
-geo: 1.100 -70.440 nan
-feat: p b t d tʃ k ɡ β ʝ h ɰ i e a o u ɨ tone nasal_harmony
-bib: González de Pérez, María Stella. 2000. El estudio de la lengua pisamira. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo. Bogotá: Instituto Caro y Cuervo.

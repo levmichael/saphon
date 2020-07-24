@@ -1,9 +1,0 @@
-name: Latunde
-name.short: Latunde
-name.comp: Latunde
-code: ltn
-family: Nambiquaran
-country: Brazil
-geo: -13.700 -57.500 nan
-feat: p t k ʔ m n β s h w j l i ĩ ḭ̃ ḭ e ḛ a ã̰ a̰ ã o o̰ u ṵ̃ ṵ ũ
-bib: Telles, Stella and Leo Wetzels. 2011. La famille nambikwara. In Emilio Bonvini, Joëlle Busuttil & Alain Peyraube (eds.), Dictionnaire des langues. Paris: Les Presses Universitaires de France.

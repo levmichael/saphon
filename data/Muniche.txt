@@ -1,9 +1,0 @@
-name: Muniche
-name.short: Muniche
-name.comp: Muniche
-code: myr
-family: Isolate
-country: Peru
-geo: -5.700 -76.100 188
-feat: p t ts d ʈʂ tʃ c k ɡ ʔ m n ɲ s ʂ ʃ ç h w j ɾ l i e a u ɨ
-bib: Michael, Lev, Stephanie Farmer, Gregory Finley, Christine Beier, and Karina Sullón Acosta. 2013. A sketch of Muniche segmental and prosodic phonology. International Journal of American Linguistics 79(3):307-347.

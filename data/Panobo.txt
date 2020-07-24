@@ -1,9 +1,0 @@
-name: Panobo
-name.short: Panobo
-name.comp: Panobo
-code: pno
-family: Panoan
-country: Peru
-geo: -7.359 -74.985 132
-feat: p b t ts k m n s ʂ ʃ x w j ɾ i a u ɨ
-bib: Gomes, Graziela de Jesus. 2010. Aspectos morfossintáticos da língua huariapano (pano). MA thesis, Universidade Estadual de Campinas.

@@ -1,9 +1,0 @@
-name: Haush
-name.short: Haush
-name.comp: Haush
-code: ona_mtr
-family: Chon
-country: Argentina
-geo: -54.783 -64.285 nan
-feat: p' p t' t tʃ k' k m n s ʃ x h w j ɾ l i i: e e: a a: o o: u u:
-bib: Viegas, Pedro Barros. 2005. Voces en el viento: Raíces lingüísticas de la Patagonia. Buenos Aires: Mondragon Ediciones. 53.

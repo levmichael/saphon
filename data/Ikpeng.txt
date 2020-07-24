@@ -1,9 +1,0 @@
-name: Ikpeng
-name.short: Ikpeng
-name.comp: Ikpeng
-code: txi
-family: Carib
-country: Brazil
-geo: -11.370 -53.423 330
-feat: p t tʃ k ɡ m n ŋ w j ɾ l i e a o u ɨ
-bib: Pacheco, Frantomé. 2007. Morfofonologia dos prefixos pessoais em Ikpeng (Karib). Estudos Lingüísticos XVVI. 268-277.

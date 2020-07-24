@@ -1,9 +1,0 @@
-name: Emberá-Baudó
-name.short: Emberá-Baudó
-name.comp: EmberaBaudo
-code: bdc
-family: Choco
-country: Colombia
-geo: 5.351 -77.367 100
-feat: pʰ p b ɓ tʰ t d ɗ tʃ kʰ k m n β s h w j ɾ r l i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
-bib: Adelaar, Willem and Pieter Muysken. 2004. Languages of the Andes. New York: Cambridge University Press. 58.

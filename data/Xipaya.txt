@@ -1,9 +1,0 @@
-name: Xipaya
-name.short: Xipaya
-name.comp: Xipaya
-code: xiy
-family: Tupí
-country: Brazil
-geo: -3.220 -52.209 89
-feat: p b t d k m n s z ʃ h w j l i ĩ e a ã u ũ ɨ ɨ̃
-bib: Rodrigues, Carmen R. 1995. Etude morphosyntasique de la langue xipaya (Brésil). Université Paris VII.

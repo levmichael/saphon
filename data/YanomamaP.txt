@@ -1,9 +1,0 @@
-name: Yanomama of Papiu
-name.short: Yanomama Pap.
-name.comp: YanomamaP
-code: wca_yma
-family: Yanomam
-country: Brazil
-geo: 2.660 -63.156 nan
-feat: p tʰ t k m n s ʃ h w j ɾ i ĩ iː ĩː e ẽ eː ẽː a ã aː ãː o õ oː õː u ũ uː ũː ɨ ɨ̃ ɨː ɨ̃ː ə ə̃ əː ə̃ː
-bib: Ferreira, Helder. personal communication.

@@ -1,9 +1,0 @@
-name: Saynawa
-name.short: Saynawa
-name.comp: Saynawa
-code: sya
-family: Panoan
-country: Brazil
-geo: -8.342 -72.948 244
-feat: p b t ts tʃ k m n s ʃ h j ɾ i a u ə
-bib: Couto, Cláudio André Cavalcanti. 2010. Análise fonológica do saynáwa (pano) – A Língua dos Índios da T.I Jamináwa do Igarapé Preto. PhD dissertation, Universidade Federal do Pernambuco.

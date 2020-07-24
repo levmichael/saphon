@@ -1,9 +1,0 @@
-name: Pémono
-name.short: Pémono
-name.comp: Pemono
-code: pev
-family: Carib
-country: Venezuela
-geo: 3.087 -66.293 117
-feat: p t k ʔ m n ɲ s h w j ɾ i e a o u ɨ ə
-bib: Mattei Muller, Marie-Claude. 2003. Pémono: eslabón perdido entre mapoyo y yawarana. Amerindia 28. 33-54.

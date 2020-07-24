@@ -1,9 +1,0 @@
-name: Jabutí
-name.short: Jabutí
-name.comp: Jabuti
-code: jbt
-family: Macro-Ge
-country: Brazil
-geo: -12.150 -62.150 491
-feat: p ps bz t tʃ dʒ k m n β h w j ɾ i ĩ ɛ ɛ̃ a ã o õ u ə
-bib: Ribeiro, Eduardo and Hein van der Voort. 2010. Nimuendajú was right: The inclusion of the Jabutí family in the Macro-Jê stock, IJAL 76(4): 517-570.

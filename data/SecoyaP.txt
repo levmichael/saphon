@@ -1,9 +1,0 @@
-name: Secoya del Putumayo
-name.short: Secoya Put
-name.comp: SecoyaP
-code: sey_put
-family: Tucanoan
-country: Peru
-geo: -0.333 -75.232 258
-feat: p t d ts dʒ k kʷ ʔ m h w i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃ 
-bib: Vallejos, Rosa. 2013. El secoya del Putumayo: Aportes fonológicos para la reconstrucción del Proto-Tucano Occidental. LIAMES 13. 67-100. 

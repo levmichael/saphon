@@ -1,9 +1,0 @@
-name: Andoke
-name.short: Andoke
-name.comp: Andoke
-code: ano
-family: Isolate
-country: Colombia
-geo: -0.400 -72.000 177
-feat: p b t d ɟ k ɲ ɸ s h ɾ i ĩ iː e ẽ eː a ã aː ɒ ɒː ɒ̃ ɑ ɑː o õ oː u uː ɤ ɤ̃ ɤː ɯ ɯː tone
-bib: Lanaburu, Jon. 2000. La lengua andoque.In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo.

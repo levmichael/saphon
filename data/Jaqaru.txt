@@ -1,9 +1,0 @@
-name: Jaqaru
-name.short: Jaqaru
-name.comp: Jaqaru
-code: jqr
-family: Aymaran
-country: Peru
-geo: -12.750 -75.859 3060
-feat: pʼ pʰ p tʼ tʰ t tʲʼ tʲ tʲʰ tsʼ tsʰ ts ʈʼ ʈʰ ʈ cʼ cʰ c kʼ kʰ k qʼ qʰ q m n ɲ ŋ s ç x w j ɾ l ʎ i iː a aː u uː
-bib: Hardman, Martha James. 1966. Jaqaru: Outline of Phonological and Morphological Structure. Janua linguarum, 22.

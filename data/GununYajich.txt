@@ -1,9 +1,0 @@
-name: Günün Yajich
-name.short: Günün Yajich
-name.comp: GununYajich
-code: gny
-family: Isolate
-country: Argentina
-geo: -41.102 -66.992 505
-feat: pʼ p b tʼ t tsʼ ts d ʈʂʼ ʈʂ kʼ k ɡ q ʔ m n s ɬ ʂ x w j ɾ l ʎ i e a o u ɨ
-bib: Viegas, Pedro Barros. 2005. Voces en el viento: Raíces lingüísticas de la Patagonia. Buenos Aires: Mondragon Ediciones. 69.

@@ -1,9 +1,0 @@
-name: Yabarana
-name.short: Yabarana
-name.comp: Yabarana
-code: yar
-family: Carib
-country: Venezuela
-geo: 5.394 -66.219 158
-feat: p t k m n ɲ s h w j ɾ i e a o u ɨ ə
-bib: Mattei Muller, Marie-Claude. 2003. Pémono: eslabón perdido entre mapoyo y yawarana. Amerindia 28. 33-54.

@@ -1,9 +1,0 @@
-name: Xetá
-name.short: Xetá
-name.comp: Xeta
-code: xet
-family: Tupí
-country: Brazil
-geo: -23.196 -50.453 579
-feat: p t tʃ dʒ k ʔ m n ŋ h w j ɾ i ĩ e ẽ a ã o õ u ɨ ɨ̃
-bib: Vasconcelos, Eduardo Alves. 2008. Aspectos fonológicos da língua xetá. MA thesis, Universidade de Brasília.

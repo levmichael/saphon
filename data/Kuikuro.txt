@@ -1,9 +1,0 @@
-name: Kuikúro-Kalapálo
-name.short: Kuikúro-Klpl
-name.comp: Kuikuro
-code: kui
-family: Carib
-country: Brazil
-geo: -12.437 -53.242 285
-feat: p t ts dʲ k m n ɲ ŋ s ɣ h w l i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃
-bib: Meira, Sergio, and Bruna Franchetto. 2005. The Southern Cariban Languages and the Cariban Family. International Journal of American Linguistics 71. 127-92.

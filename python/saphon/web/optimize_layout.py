@@ -1,5 +1,5 @@
 from collections import *
-import saphon.web.dbg as dbg
+#import saphon.web.dbg as dbg
 import traceback
 
 # These keys in these 5 dicts are the allowed values for place,

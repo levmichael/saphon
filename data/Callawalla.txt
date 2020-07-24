@@ -1,9 +1,0 @@
-name: Callawaya
-name.short: Callawaya
-name.comp: Callawalla
-code: caw
-family: Mixed
-country: Bolivia
-geo: -16.005 -68.377 4309
-feat: pʼ pʰ p tʼ tʰ t tʃʼ tʃʰ tʃ kʼ kʰ k qʼ qʰ q m n ɲ s ʃ x w j ɾ l ʎ i iː a aː u uː
-bib: Adelaar, Willem and Pieter Muysken. 2004. Languages of the Andes. Cambridge University Press.

@@ -1,9 +1,0 @@
-name: Inga (Jungle dialect)
-name.short: Inga Jungle
-name.comp: IngaJQ
-code: inj
-family: Quechua
-country: Colombia
-geo: 0.921 -76.486 425
-feat: p t tʃ k m n ɲ s ʃ x ɾ l ʎ i a u
-bib: Maffla Bilbao, Alonso. 1976. Estructura fonológica, y estructura del 'VBL' del inga (lengua del Putumayo). Estudios en inga. Ed. Stephen H. Levinsohn. Serie sintáctica 2. Bogotá: Ministerio de Gobierno. 24.

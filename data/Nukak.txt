@@ -1,9 +1,0 @@
-name: Nukak
-name.short: Nukak
-name.comp: Nukak
-code: mbr
-family: Kakua-Nukak
-country: Colombia
-geo: 0.858 -72.029 193
-feat: p b t d c ɟ k ɡ ʔ h w ɾ i ĩ ɛ ɛ̃ a ã u ũ ɨ ɨ̃ ʌ ʌ̃
-bib: Mahecha, Dany Rubio, Gabriel Cabrera Becerra, and Carlos Eduardo Franky Calvo. 2000. Algunos aspectos fonético-fonológicos del idioma nukak. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas Indígenas de Colombia: Una visión descriptiva. Bogotá Instituto Caro y Cuervo. 551-553.

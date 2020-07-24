@@ -1,9 +1,0 @@
-name: Arára, Pará
-name.short: Arára Pará
-name.comp: AraraPara
-code: aap
-family: Carib
-country: Brazil
-geo: -4.242 -53.374 173
-feat: p t tʃ k m n ŋ w j ɾ l i e a o u ɨ
-bib: Ferreira Alvez, Ana Carolina. 2010. Phonological aspects of Arara (Carib, Brazil). MA thesis, Radboud Universiteit.

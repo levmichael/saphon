@@ -1,9 +1,0 @@
-name: Yuhup
-name.short: Yuhup
-name.comp: Yuhup
-code: yab
-family: Nadahup
-country: Brazil
-geo: 0.250 -69.500 140
-feat: p b b̰ t d d̰ c c̰ ɟ ɟ̰ k̰ k ɡ ʔ ʃ h w w̰ j j̰ i ĩ e ɛ ɛ̃ a ã ɔ ɔ̃ o u ũ ɤ ɯ ɯ̃ tone
-bib: Martins, Valtier. 2005. Reconstrucao fonologica do protomaku oriental. Utrecht: LOT.

@@ -1,9 +1,0 @@
-name: Lule
-name.short: Lule
-name.comp: Lule
-code: lul
-family: Isolate
-country: Argentina
-geo: -24.800 -65.400 nan
-feat: pʼ p tʼ t ts kʼ k ʔ m n s ɬ x w j l i e a o u
-bib: Viegas Barros, J. Pedro. 2001. Proto-Lule-Vilela: Una reconstrucción fonológica preliminar. Ms., available online: http://www.adilq.com.ar/Viegas-Barros.htm.

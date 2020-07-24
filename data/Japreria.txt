@@ -1,9 +1,0 @@
-name: Japreria
-name.short: Japreria
-name.comp: Japreria
-code: jru
-family: Carib
-country: Venezuela
-geo: 10.692 -72.625 604
-feat: p t tʃ k ʔ m n s ʃ h ʋ j ɾ ʀ i e a o u ɨ
-bib: Oquendo, Luís. 2004. La vibrant uvular y la approximate labiodental en la lengua japreria como cultura fonológica. Opción 20(45): 60-74.

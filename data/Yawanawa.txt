@@ -1,9 +1,0 @@
-name: Yawanawa
-name.short: Yawanawa
-name.comp: Yawanawa
-code: ywn
-family: Panoan
-country: Brazil
-geo: -9.064 -71.949 298
-feat: p t ts tʃ k m n β s ʂ ʃ h w j ɾ i a u ɨ
-bib: Cruvinel, Agmar. 2009. Propostas de protoformas fonológicas e lexiais para as linguas yaminawa, yawanawa e yoranawa. BA thesis, Universidade de Estadual de Goiás.

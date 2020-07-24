@@ -1,9 +1,0 @@
-name: Poyanáwa
-name.short: Poyanáwa
-name.comp: Poyanawa
-code: pyn
-family: Panoan
-country: Brazil
-geo: -7.441 -73.465 213
-feat: p b t ts d tʃ k β s ʃ h w j ɾ i ĩ a ã u ũ ɨ
-bib: De Paula, Aldir Santos. 1992. Poyanáwa, a língua dos indios da aldeia barão: aspectos fonológicos e morfológicos. MA thesis, Universidade Federal de Pernambuco.

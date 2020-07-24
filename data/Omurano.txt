@@ -1,9 +1,0 @@
-name: Omurano
-name.short: Omurano
-name.comp: Omurano
-code: omu
-family: Isolate
-country: Peru
-geo: -4.676 -75.669
-feat: p b t tʃ m n ɲ l ɾ j i ĩ e ẽ a ã o õ u ũ 
-bib: O'Hagan, Zachary. 2015. Bosquejo fonológico del omurano. Ms., University of California, Berkeley.

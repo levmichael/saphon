@@ -1,9 +1,0 @@
-name: Rikbaktsa
-name.short: Rikbaktsa
-name.comp: Rikbaktsa
-code: rkb
-family: Macro-Ge
-country: Brazil
-geo: -11.500 -57.300 258
-feat: p b t d tʃ k m n ʃ h w j ɾ ɽ i ĩ e ẽ a ã o õ u ũ ɨ ɨ̃ ə ə̃
-bib: Silva, Léia de Jesus. 2005. Aspectos da fonologia e da morfologia da língua Rikbáktsa. PhD dissertation, Universidade de Brasília.

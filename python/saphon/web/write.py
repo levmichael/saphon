@@ -5,9 +5,10 @@ if len(sys.argv) < 3:
    print('write.py SAPHON_DIR HTML_DIR')
    sys.exit(1)
 
-saphonDir, htmlDir = sys.argv[1:3]
+saphonDir, htmlDir, ipatable = sys.argv[1:4]
 
-saphonData = saphon.io.readSaphonFiles(saphonDir)
+#saphonData = saphon.io.readSaphonFiles(saphonDir)
+saphonData = saphon.io.readSaphonYAMLFiles(saphonDir, ipatable)
 
 generationModules = [__import__(m) for m in (
   'write_inventories',

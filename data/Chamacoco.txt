@@ -1,9 +1,0 @@
-name: Chamacoco
-name.short: Chamacoco
-name.comp: Chamacoco
-code: ceg
-family: Zamucoan
-country: Paraguay
-geo: -22.358 -59.720 129
-feat: p b t d tʃ dʒ k ɡ ʔ m n s z ʃ ʒ ɣ h w ɹ r l i ĩ ɪ ɪ̃ e ẽ a ã ɑ ɔ ɔ̃ u ũ ɨ ɨ̃ ə
-bib: Huntington, Charlie. 2012. About the Chamacoco Dictionary. Chamacoco Talking Dictionary. Online: http://chamacoco.swarthmore.edu/about.php date accessed: Apr. 5, 2012

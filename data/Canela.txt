@@ -1,9 +1,0 @@
-name: Canela
-name.short: Canela
-name.comp: Canela
-code: ram
-family: Macro-Ge
-country: Brazil
-geo: -7.000 -45.000 262
-feat: p t tʃ k ʔ m n ɲ ŋ h w j ɾ i ĩ e ɛ ɛ̃ a ã ɔ ɔ̃ o u ũ ɨ ɨ̃ ə ɜ
-bib: Amado, Rosane de Sá and Lilian de Carvalho de Souza. 2007. Notas sobre a Fonologia da Língua Timbira. ReVEL 4(7).

@@ -1,9 +1,0 @@
-name: Suyá
-name.short: Suyá
-name.comp: Suya
-code: suy
-family: Macro-Ge
-country: Brazil
-geo: -11.432 -53.185 304
-feat: p t tʃ dʒ k m n ɲ ŋ s ɣ w ɾ i ĩ e ẽ ɛ a ã ɔ o õ u ũ ɨ ɨ̃ ə
-bib: Guedes, Marymarcia. 1993. Sɨwǰa Mẽkapẽra. Suyá: a lingua da gente: um estudo fonológico e gramatical. PhD dissertation, Universidade Estadual de Campinas.
