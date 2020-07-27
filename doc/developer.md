@@ -41,10 +41,6 @@ Releases are named according to the following scheme:
 
 TODO: more info on numbering
 
-## Changelog
-
-TODO: describe how to maintain the changelog
-
 ## Creating a release and publishing the website
 
 A GitHub Action that builds and publishes the public website is
