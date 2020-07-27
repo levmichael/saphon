@@ -45,17 +45,27 @@ TODO: more info on numbering
 
 TODO: describe how to maintain the changelog
 
-## Publishing
+## Creating a release and publishing the website
 
 A GitHub Action that builds and publishes the public website is
-triggered whenever a release is published. If the release is marked as a
-'pre-release' the website is created in the prerelease location. Creating a
-draft release does not trigger the publishing action.
+triggered whenever a release is published on GitHub. If the release is marked
+as a 'pre-release' the website is created in the prerelease location. Creating
+a draft release does not trigger the publishing action.
 
-These are the recommended steps for publishing the public website:
+These are the recommended steps for creating a release and publishing the
+public website:
 
 1. Verify that there are no test failures on the master branch. Check the
 'Actions' tab on GitHub to view the test results from the last push event.
+1. Determine the version number of the new release.
+1. Update the `$version` variable in
+[write\_saphon\_php.py](../python/saphon/web/write_saphon_php.py).
+1. Create files in `website/intact/en/updates`, `website/intact/es/updates`,
+and `website/intact/pt/updates` that list the changes for the new release.
+Use the existing files as guidelines for content and format.
+1. Edit the files `website/intact/en/updates.php`, `website/intact/es/actualizaciones.php`,
+and `website/intact/pt/atualizações.php` to include in the changelog the
+files created in the preceding step.
 1. Publish a prerelease version of the website for testing. On
 GitHub draft a new release and select the 'This is a pre-release' option
 before publishing.
