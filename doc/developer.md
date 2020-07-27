@@ -20,9 +20,12 @@ and it is interpolated into the page templates when the website is built.
 A test to verify yaml content is in the tests/ subdirectory. To invoke
 manually on the current branch:
 
-1. `cd <repodir>`    # where `<repodir>` is the repo base directory
-1. `python -m pytest`
-1. If the test fails, scan the output for errors to correct.
+```bash
+cd <repodir>    # where `<repodir>` is the repo base directory
+python -m pytest
+```
+
+If the test fails, scan the output for errors to correct.
 
 ## Automated testing
 
