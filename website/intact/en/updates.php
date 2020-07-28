@@ -9,6 +9,11 @@ This page lists updates to the SAPhon dataset and SAPhon site.
 </p>
 
 <p>
+New in v2.0.0 (July 28, 2020):
+<?php include 'updates/diff-20200630-20200728.en.sum.html'; ?>
+</p>
+  
+<p>
 New in v1.1.5 (June 30, 2020):
 <?php include 'updates/diff-20160124-20200630.en.sum.html'; ?>
 </p>
