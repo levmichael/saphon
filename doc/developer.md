@@ -52,7 +52,7 @@ as a 'pre-release' the website is created in the prerelease location. Creating
 a draft release does not trigger the publishing action.
 
 These are the recommended steps for creating a release and publishing the
-public website:
+public website, using branch `master`:
 
 1. Verify that there are no test failures on the master branch. Check the
 'Actions' tab on GitHub to view the test results from the last push event.
@@ -62,20 +62,23 @@ public website:
 1. Create files in `website/intact/en/updates`, `website/intact/es/updates`,
 and `website/intact/pt/updates` that list the changes for the new release.
 Use the existing files as guidelines for content and format.
-1. Edit the files `website/intact/en/updates.php`, `website/intact/es/actualizaciones.php`,
+1. Edit the files `website/intact/en/updates.php`,
+`website/intact/es/actualizaciones.php`,
+and `website/intact/pt/atualizações.php` to include the files created in the
+preceding step in the changelog.
 1. Commit the changes of the preceding three steps and push to github. If the changes were made directly on github they will be committed already.
-and `website/intact/pt/atualizações.php` to include in the changelog the
-files created in the preceding step.
 1. Publish a prerelease version of the website for testing. On
 GitHub draft a new release and select the 'This is a pre-release' option
 before publishing.
 1. Verify that the publishing action succeeded by reviewing the GitHub
 Actions build logs.
-1. Review the 'prerelease' website (saphon/prerelease) by visiting the site
-in your web browser.
-1. If the prerelease website is satisfactory, edit the release on GitHub
-and remove the 'pre-release' qualifier. This will trigger the publish
-action for the public website.
+1. Review the
+['prerelease' website](https://linguistics.berkeley.edu/saphon/prerelease)
+by visiting the site in your web browser. Be sure to check that the release
+number updated.
+1. If the prerelease website is satisfactory, edit the release on GitHub and
+remove the 'pre-release' qualifier. This will trigger the publish action for
+the [public website](https://linguistics.berkeley.edu/saphon).
 
 See the file [`.github/workflows/publish_to_webserver.yaml`](../.github/workflows/publish_to_webserver.yaml)
 file for details on configuring the publishing action. Several GitHub
