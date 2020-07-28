@@ -61,7 +61,9 @@ public website, using branch `master`:
 [write\_saphon\_php.py](../python/saphon/web/write_saphon_php.py).
 1. Create files in `website/intact/en/updates`, `website/intact/es/updates`,
 and `website/intact/pt/updates` that list the changes for the new release.
-Use the existing files as guidelines for content and format.
+Use the existing files as guidelines for content and format. Review the [commit
+history](https://github.com/levmichael/saphon/commits/master) since the last
+release was created.
 1. Edit the files `website/intact/en/updates.php`,
 `website/intact/es/actualizaciones.php`,
 and `website/intact/pt/atualizações.php` to include the files created in the
