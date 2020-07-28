@@ -58,6 +58,7 @@ public website:
 'Actions' tab on GitHub to view the test results from the last push event.
 1. Determine the version number of the new release.
 1. Update the `$version` variable in
+1. Commit the change of `write_saphon_php.py` and push to github (if not editing directly on github).
 [write\_saphon\_php.py](../python/saphon/web/write_saphon_php.py).
 1. Create files in `website/intact/en/updates`, `website/intact/es/updates`,
 and `website/intact/pt/updates` that list the changes for the new release.
