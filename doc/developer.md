@@ -78,14 +78,15 @@ Actions build logs.
 ['prerelease' website](https://linguistics.berkeley.edu/saphon/prerelease)
 by visiting the site in your web browser. Be sure to check that the release
 number updated.
-1. If the prerelease is not satisfactory and additional changes are required,
-make the changes and commit and push to github. Then reset the commit referenced
-by the release to the latest commit. One way to do that is to delete the
-release on github, then redo the preceding steps to create the new release,
+  ***If the prerelease is not satisfactory and additional changes are required,
+make the needed changes and commit and push to github. Then reset the commit
+referenced by the release to the latest commit so that the release includes
+your new changes. One way to do that is to delete the existing
+release on github, then redo the preceding steps to re-create the new release,
 including updating the file contents and version number if it makes sense.
 One way to delete the release is to visit the
 [releases page](https://github.com/levmichael/saphon/releases), click on the
-release name, then click on the 'Delete' button.
+release name, then click on the 'Delete' button.***
 1. If the prerelease website is satisfactory, edit the release on GitHub and
 remove the 'pre-release' qualifier. This will trigger the publish action for
 the [public website](https://linguistics.berkeley.edu/saphon).
