@@ -82,11 +82,11 @@ number updated.
 make the needed changes and commit and push to github. Then reset the commit
 referenced by the release to the latest commit so that the release includes
 your new changes. One way to do that is to delete the existing
-release on github, then redo the preceding steps to re-create the new release,
-including updating the file contents and version number if it makes sense.
-One way to delete the release is to visit the
+release and tag on github, then redo the preceding steps to re-create the new
+release, including updating the file contents and version number if it makes
+sense. One way to delete the release is to visit the
 [releases page](https://github.com/levmichael/saphon/releases), click on the
-release name, then click on the 'Delete' button.***
+release name, then click on the 'Delete' button. Next visit the [tags page](https://github.com/levmichael/saphon/tags), click on the corresponding tag name, then click on the 'Delete' button to delete the tag.***
 1. If the prerelease website is satisfactory, edit the release on GitHub and
 remove the 'pre-release' qualifier. This will trigger the publish action for
 the [public website](https://linguistics.berkeley.edu/saphon).
