@@ -90,7 +90,7 @@ def writeLocal(saphonData, htmlDir, loc):
         print(lang.name)
         print(' '.join(str(ord(x)) for x in feat))
     attr = ''.join(' f%d=1' % featId[feat] for feat in lang.feat_)
-    fo.write('<tr%s><td><a href="http:inv/%s.html">%s</a></td></tr>\n' %
+    fo.write('<tr%s><td><a href="inv/%s.html">%s</a></td></tr>\n' %
       (attr, lang.nameComp, lang.name))
 
   fo.write('</table></div></body>\n')
