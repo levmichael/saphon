@@ -28,7 +28,7 @@ def writeLocal(saphonData, htmlDir, loc):
     <?php include("header.php"); ?>
     <link rel="stylesheet" media="screen" type="text/css" href="../inv.css"/>
     <link rel="stylesheet" media="screen" type="text/css" href="../chooser.css"/>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
     <script type="text/javascript" src="../chooser.js"></script>
     </head>
     <body>
