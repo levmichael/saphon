@@ -9,7 +9,7 @@ def write(saphonData, htmlDir):
       'language="' + l.name + '" ' +
       'family="' + l.familyStr + '" ' +
       'labeltype="type1\" ' +
-      'link="http:inv/' + l.nameComp + '.html" ' +
+      'link="inv/' + l.nameComp + '.html" ' +
       'lat="' + str(l.geo_[0].lat) + '" ' +
       'lng="' + str(l.geo_[0].lon) + '"/>\n')
   fo.write( '</markers>\n')
