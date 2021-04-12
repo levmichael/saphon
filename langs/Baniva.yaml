@@ -1,14 +1,14 @@
 doctype: synthesis
 
-name: Baniwa (Rio Negro)
+name: Baniva
 
-short_name: Baniwa (Rio Negro)
+short_name: Baniva
 
 alternate_names: 
 -
 
 iso_codes: 
-- bwi_rng
+- gae
 
 family: Arawak
 
@@ -16,9 +16,9 @@ countries:
 - Venezuela
 
 coordinates: 
-- latitude: 0.053
-  longitude: -67.430
-  elevation_meters: 108
+- latitude: 1.81
+  longitude: -66.92
+  elevation_meters: 100
 
 phonemes: [p, b, t, d, k, ɡ, ts, dz, m, n, ʂ, ʐ, h, j, w, ɺ, ɾ, r, i, iː, u, uː, e, eː, a, aː]
 
