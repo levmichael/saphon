@@ -35,13 +35,55 @@ laryngeal_harmony: False
 notes: 
 -
 
+---
 
+doctype: ref
+
+citation: "Carlin, Eithne B. 2006. Feeling the Need: The Borrowing of Cariban Functional Categories into Mawayana. From Aikhenvald and Dixon's "Grammars in Contact.""
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
 
 ---
 
 doctype: ref
 
 citation: "Coretta, Stefano. 2013. The phonology of Mawayana (Arawakan). Pavia: Università degli Studi di Pavia MA thesis."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+
+---
+
+doctype: ref
+
+citation: "Howard, Catherine V. 2001. Wrought Identities: The Waiwai Expiditions In Search Of The 'Unseen Tribes' of Northern Amazonia. PhD dissertation, University of Chicago."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+---
+
+doctype: ref
+
+citation: "Michels, Marc. 2014. Verbal Morphology in Mawayana. Universiteit Leiden."
 
 graphemes2phonemes: 
 -
