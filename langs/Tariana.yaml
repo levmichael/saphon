@@ -21,7 +21,7 @@ coordinates:
   longitude: -68.740
   elevation_meters: 135
 
-phonemes: [p, b, t, d, k, tʃ, pʰ, tʰ, dʰ, kʰ, mʰ, m, nʰ, n, ɲʰ, ɲ, s, h, j, wʰ, w, l, ɾ, i, ĩ, iː, ɨ, u, ũ, uː, e, ẽ, eː, o, õ, a, ã, aː]
+phonemes: [p, pʰ, t, tʰ, k, kʰ, b, d, dʰ, g, s, h, tʃ, m, n, ɲ, mʰ, nʰ, ɲʰ, ɾ, l, w, wʰ, j, i, iː, ĩ, ɨ, u, uː, ũ, e, eː, ẽ, o, õ, a, aː, ã]
 
 allophones: 
 -
@@ -42,6 +42,21 @@ notes:
 doctype: ref
 
 citation: "Aikhenvald, Alexandra.Y. 2003. A Grammar of Tariana, from Northwest Amazonia. Cambridge: Cambridge University Press. 25"
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+
+---
+
+doctype: ref
+
+citation: "Aikhenvald, Alexandra Y., 2001. Dicionário Tariana-Português e Português-Tariana. Boletim do Museu Paraense Emílio Goeldi, Série Antropologia Vol. 17(1). Belém: Ministério da Ciência e Tecnologia Museu Paraense Emílio Goeldi."
 
 graphemes2phonemes: 
 -
