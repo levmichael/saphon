@@ -21,7 +21,7 @@ coordinates:
   longitude: -67.300
   elevation_meters: 111
 
-phonemes: [p, b, t, d, k, ɡ, ts, tʃ, dʒ, m, n, ɲ, ʃ, h, j, w, ɺ, i, iː, u, uː, e, eː, a, aː]
+phonemes: [p, pʰ, t, tʰ, k, kʰ, b, bʰ, d, dʰ, g, m, m̥, n, n̥, ɲ, h, x, t͡ʃ, s, ɾ, ɺ, ɺ̥, w, ʍ, j, i, u, a, e]
 
 allophones: 
 -
@@ -41,7 +41,22 @@ notes:
 
 doctype: ref
 
-citation: "Aikhenvald, Alexandra. 1998. Warekena. In Desmond Derbyshire and Geoffrey Pullum (eds.), Handbook of Amazonian languages, pp. 225-439. Berlin: Mouton de Gruyter."
+citation: "Ramirez, Henry. 2001. Línguas Arawak da Amazônia Setentrional: Comparação e Descrição. Manaus: Editora de Universidade do Amazonas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+
+---
+
+doctype: ref
+
+citation: "González Náñez, Omar. 2009. Gramática Warekena. Venezuela: Fondo Editorial de la Universidad Pedagógica Experimental Libertador."
 
 graphemes2phonemes: 
 -

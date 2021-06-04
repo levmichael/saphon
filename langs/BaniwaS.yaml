@@ -1,0 +1,83 @@
+doctype: synthesis
+
+name: Baniwa (Southern)
+
+short_name: Baniwa (Southern)
+
+alternate_names: 
+- Baniwa do Içana
+
+iso_codes: 
+- bwi_sth
+
+family: Arawak
+
+countries: 
+- Venezuela
+- Brazil
+
+coordinates: 
+- latitude: 1.07
+  longitude: -67.59
+  elevation_meters: .NAN
+
+phonemes: [p, b, t, t̪, d, k, pʰ, tʰ, kʰ, ts, dz, tsʰ, ʃ, h, m, n, j, w, ɻ, ɺ, m̥, n̥, w̥, ɻ̥, ɺ̥, i, iː, u, uː, e, eː, a, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Ramirez, Henry. 2001. Línguas Arawak da Amazônia Setentrional: Comparação e Descrição. Manaus: Editora de Universidade do Amazonas. 43."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+
+---
+
+doctype: ref
+
+citation: "Ramirez, Henry. 2001. Uma Gramática do Baniwa do Içana. Universidade Federal do Amazonas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+
+---
+
+doctype: ref
+
+citation: "Ramirez, Henry. 2001. Dicionário da Língua Baniwa. Manaus: Editora de Universidade do Amazonas. "
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-

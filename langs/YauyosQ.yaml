@@ -1,0 +1,53 @@
+doctype: synthesis
+
+name: Southern Yauyos Quechua
+
+short_name: Yauyos
+
+alternate_names: 
+-
+
+iso_codes: 
+- qux
+
+family: Quechua
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -13.11
+  longitude: -75.77
+  elevation_meters: .NAN
+
+phonemes: [p, t, ʈʂ, tʃ, k, q, b, s, ʃ, h, m, n, ɲ, ɾ, w, j, i, u, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Shimelman, Aviva. to appear. Quechua II: Yauyos. In Matthias Urban (ed.), The Oxford Guide to the Languages of the Central Andes. Oxford University Press.
+"
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
