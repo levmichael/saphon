@@ -27,7 +27,7 @@ allophones:
 
 nasal_harmony: False
 
-tone: True
+tone: False
 
 laryngeal_harmony: False
 
