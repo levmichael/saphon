@@ -1,11 +1,11 @@
 doctype: synthesis
 
-name: Chulupí
+name: Nivaclé
 
-short_name: Chulupí
+short_name: Nivaclé
 
 alternate_names: 
-- Nivaclé
+- Chulupí
 
 iso_codes: 
 - cag
@@ -24,7 +24,7 @@ coordinates:
   longitude: -61.031
   elevation_meters: 170
 
-phonemes: [p, t, k, ʔ, ts, tʃ, pʼ, tʼ, kʼ, tsʼ, tʃʼ, m, n, ɲ, ɸ, s, ʃ, x, j, w, ɬ, kl, i, u, e, o, a, ɑ]
+phonemes: [p, t, k, ʔ, ts, tʃ, pʼ, tʼ, kʼ, tsʼ, tʃʼ, m, n, ɲ, ɸ, s, ʃ, x, j, w, l̥, kl, i, u, e, o, a, ɑ]
 
 allophones: 
 -
@@ -45,6 +45,20 @@ notes:
 doctype: ref
 
 citation: "Campbell, Lyle and Verónica Grondona. 2007. Internal reconstruction in Chulupí (Nivaclé). Diachronica 24:1."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+---
+
+doctype: ref
+
+citation: "Campbell, Lyle, Luis Díaz, and Fernando Ángel. 2020. Nivaclé grammar, p. 31. University of Utah Press."
 
 graphemes2phonemes: 
 -
