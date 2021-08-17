@@ -75,7 +75,7 @@ before publishing.
 1. Verify that the publishing action succeeded by reviewing the GitHub
 Actions build logs.
 1. Review the
-['prerelease' website](https://linguistics.berkeley.edu/saphon/prerelease)
+['prerelease' website](https://linguistics.berkeley.edu/saphon-prerelease)
 by visiting the site in your web browser. Be sure to check that the release
 number updated.
   ***If the prerelease is not satisfactory and additional changes are required,
