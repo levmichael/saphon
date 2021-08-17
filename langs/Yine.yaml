@@ -20,7 +20,7 @@ coordinates:
   longitude: -73.087
   elevation_meters: 366
 
-phonemes: [p, t, k, ts, tʃ, cç, m, n, s, ʃ, ç, h̃, j, w, l, ɾ, i, iː, ɯ, ɯː, e, eː, o, oː, a, aː]
+phonemes: [p, t, k, ts, tʃ, cç, s, ʃ, ç, h̃, m, n, ɾ, j, w, l, i, iː, ɯ, ɯː, e, eː, o, oː, a, aː]
 
 allophones: 
 -
@@ -41,6 +41,21 @@ notes:
 doctype: ref
 
 citation: "Sebastián, Rittma and Stephen Marlett. 2008. Yine. Journal of the International Phonetic Association, 38: 365-369."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+
+---
+
+doctype: ref
+
+citation: "Nies, Joyce. 1986. Diccionario Piro (Yine): Tokanchi gikshijikowaka-steno. Serie Lingüística Peruana N° 22. Lima: Instituto Lingüístico de Verano."
 
 graphemes2phonemes: 
 -

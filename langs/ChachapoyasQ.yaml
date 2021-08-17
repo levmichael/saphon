@@ -20,7 +20,7 @@ coordinates:
   longitude: -77.852
   elevation_meters: 2820
 
-phonemes: [p, t, k, tʃ, ʈʂ, m, n, ɲ, s, ʃ, j, w, l, ʎ, ɾ, i, u, a]
+phonemes: [p, t, k, tʃ, ʈʂ, b, d, g, m, n, ɲ, f, s, ʃ, j, w, ʎ, ɾ, i, u, a]
 
 allophones: 
 -
@@ -41,6 +41,20 @@ notes:
 doctype: ref
 
 citation: "Chaparro, Carmelo. 1985. Fonología y lexicón del quechua de Chachapoyas. Lima: Instituto de Investigaciones Linguísticas, Universidad Nacional Mayor de San Marcos."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+---
+
+doctype: ref
+
+citation: "Valqui Culqui, Jairo & Shimelman, Aviva. to appear. Quechua II: Chachapoyas. In Matthias Urban (ed.), The Oxford Guide to the Languages of the Central Andes. Oxford University Press."
 
 graphemes2phonemes: 
 -

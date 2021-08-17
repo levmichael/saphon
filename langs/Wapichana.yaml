@@ -21,7 +21,7 @@ coordinates:
   longitude: -60.000
   elevation_meters: 123
 
-phonemes: [p, b, t, d, ɖ, k, ɡ, ʔ, tʃ, m, n, ɲ, s, ʐ, ʃ, j, w, ɽ, i, ɨ, u, a]
+phonemes: [p, b, m, w, t, s, n, ɖ , ʐ , ɽ , tʃ , ʃ, ɲ, j, k, g, ʔ, i, iː, ɨ, ɨː, a, aː, u, uː]
 
 allophones: 
 -
@@ -67,3 +67,19 @@ ref_allophones:
 
 ref_notes:
 -
+
+---
+
+doctype: ref
+
+citation: "Cadete, Casimiro Manoel. 2011. Dicionário Wapichana-Português/Português-Wapichana. Instituto Insikiran de Formação Superior Indígena, UFRR."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+

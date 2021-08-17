@@ -20,7 +20,7 @@ coordinates:
   longitude: -75.198
   elevation_meters: 1590
 
-phonemes: [p, pʲ, b, bʲ, t, tʲ, k, kʲ, ɡ, ts, tʃ, ʈʂ, m, mʲ, n, ɲ, s, ʐ, ʃ, x, j, w, ʎ, ɾ, i, ḭ, iː, u, ṵ, uː, a, a̰, aː]
+phonemes: [p, b, t, k, g, pʲ, bʲ, tʲ, kʲ, m, n, mʲ, ɲ, s, ʃ, ts, tʃ, ʈʂ, ʎ, ɾ, ɽ, w,  j, a, e, o, aː, eː, oː, aˀ, eˀ, oˀ, aʰ, eʰ, oʰ]
 
 allophones: 
 -

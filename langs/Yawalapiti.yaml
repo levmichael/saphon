@@ -20,7 +20,7 @@ coordinates:
   longitude: -53.561
   elevation_meters: 335
 
-phonemes: [p, t, k, ts, tʃ, m, n, ɲ, ʂ, ʃ, h, j, w, l, ʎ, ɾ, r̥, i, ɨ, u, a]
+phonemes: [p, t, k, ts, tʃ, ʂ, h, m, n, ɲ, j, w, r̥, ɾ, l, ʎ, i, ɨ, u, a]
 
 allophones: 
 -
@@ -41,6 +41,21 @@ notes:
 doctype: ref
 
 citation: "Mujica, Mitzila Isabel Ortega. 1992. Aspectos fonológicos e gramaticais da língua Yawalapití (Aruak). MA thesis, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+
+---
+
+doctype: ref
+
+citation: "Medieros de França, Jaqueline. 2011. Aspectos da morfolofia concatenativa e nao concatenative na língua yawalapíti (Aruak). Universidade Estadual de Campinas."
 
 graphemes2phonemes: 
 -

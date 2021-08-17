@@ -21,7 +21,7 @@ coordinates:
   longitude: -51.223
   elevation_meters: 49
 
-phonemes: [p, b, t, d, k, ɡ, m, n, s, ʃ, h, j, w, i, ĩ, u, ũ, e, ẽ, o, õ, a, ã]
+phonemes: [p, b, t, d, k, g, f, v, s, z, ʃ, ʒ, h, m, n, l, ʁ, w, j, i, ĩ, u, ũ, e, ẽ, o, õ, a, ã]
 
 allophones: 
 -
@@ -58,6 +58,37 @@ ref_notes:
 doctype: ref
 
 citation: "Barros, Elissandra. 2014. Fonética e fonologia da língua Palikura. Rio de Janeiro: Universidade Federal do Rio de Janeiro MA thesis."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+
+---
+
+doctype: ref
+
+citation: "Green, Harold. (2008). Dicionário palikur - português. Sociedade Internacional de Linguística 1."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+
+
+---
+
+doctype: ref
+
+citation: "Green, Harold et al. (2015). Kagta Yuwitkekne Parikwaki - Parantunka - Parikwaki: Dicionário Palikur - Português - Palikur. Belém: Associação Internacional de Linguística."
 
 graphemes2phonemes: 
 -

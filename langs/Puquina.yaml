@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Puquina
+
+short_name: Puquina
+
+alternate_names: 
+-
+
+iso_codes: 
+- puq
+
+family: Quechua
+
+countries: 
+- Peru
+
+coordinates: 
+- latitude: -15.90
+  longitude: -69.96
+  elevation_meters: .NAN
+
+phonemes: [p, t, tʃ, k, q, b, g, ɢ, s, h, x, m, n, ɲ, r, l, ʎ, w, j, i, u, e, o, a, iː, uː, eː, oː, aː]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: False
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Emlen, Nicholas Q., Willem F.H. Adelaar, Simon van de Kerke & Arjan Mossel. to appear. Puquina. In Matthias Urban (ed.), The Oxford Guide to the Languages of the Central Andes. Oxford University Press."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-

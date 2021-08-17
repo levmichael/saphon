@@ -20,7 +20,7 @@ coordinates:
   longitude: -53.185
   elevation_meters: 304
 
-phonemes: [p, t, k, tʃ, dʒ, m, n, ɲ, ŋ, s, ɣ, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, ə, ɛ, ɔ, a, ã]
+phonemes: [p, t, k, tʃ, m, n, ŋ, s, ɣ, j, w, ɾ, i, ĩ, ɨ, ɨ̃, u, ũ, e, ẽ, o, õ, ɜ, ə, ɛ, ɔ, a, ã]
 
 allophones: 
 -
@@ -41,6 +41,21 @@ notes:
 doctype: ref
 
 citation: "Guedes, Marymarcia. 1993. Sɨwǰa Mẽkapẽra. Suyá: a lingua da gente: um estudo fonológico e gramatical. PhD dissertation, Universidade Estadual de Campinas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+
+---
+
+doctype: ref
+
+citation: "dos Santos, Ludoviko Carnasciali. 1997. Descrição de aspectos morfossintáticos da língua Suyá/Kĩsêdjê, família Jê. PhD dissertation, Universidade Federal de Santa Catarina."
 
 graphemes2phonemes: 
 -

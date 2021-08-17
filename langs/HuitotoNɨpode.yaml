@@ -1,0 +1,52 @@
+doctype: synthesis
+
+name: Huitoto, Nɨpode
+
+short_name: Huitoto Nɨpode
+
+alternate_names: 
+-
+
+iso_codes: 
+- hux
+
+family: Witotoan
+
+countries: 
+- Colombia
+
+coordinates: 
+- latitude: -2.34
+  longitude: -70.96
+  elevation_meters: .NAN
+
+phonemes: [p, b, ɓ, t, d, ɗ, k, ɡ, ʔ, tʃ, v, ɟ, h, m, n, ɲ, ŋ, r, i, ɨ, u, e, o, a]
+
+allophones: 
+-
+
+nasal_harmony: False
+
+tone: True
+
+laryngeal_harmony: False
+
+notes: 
+-
+
+
+
+---
+
+doctype: ref
+
+citation: "Griffiths, Thomas, John Coleman, & Misael Morales. A Nɨpode Léxico Uitoto – Spanish – English Lexicon. Oxford: Phonetics Laboratory, University of Oxford"
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-

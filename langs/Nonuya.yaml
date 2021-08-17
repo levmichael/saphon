@@ -16,11 +16,11 @@ countries:
 - Colombia
 
 coordinates: 
-- latitude: -0.500
-  longitude: -72.500
+- latitude: -0.6667389
+  longitude: -72.07528333333333
   elevation_meters: .NAN
 
-phonemes: [p, b, t, tʲ, d, k, ɡ, ʔ, ts, dz, tʃ, dʒ, m, n, ɲ, ɸ, β, ʃ, h, ɾ, i, ɨ, u, e, o, a]
+phonemes: [p, b, t, d, k, g, ʔ, ɗ, ɸ, β, h, ts, dz, c, ɟ, r, m, n, ɲ, ŋ, i, ɨ, u, e, o, a]
 
 allophones: 
 -

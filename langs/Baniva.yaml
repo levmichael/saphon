@@ -5,7 +5,7 @@ name: Baniva
 short_name: Baniva
 
 alternate_names: 
--
+- Warekena do Xié
 
 iso_codes: 
 - gae
@@ -20,7 +20,7 @@ coordinates:
   longitude: -66.92
   elevation_meters: 100
 
-phonemes: [p, b, t, d, k, ɡ, ts, dz, m, n, ʂ, ʐ, h, j, w, ɺ, ɾ, r, i, iː, u, uː, e, eː, a, aː]
+phonemes: [p, t, k, b, d, g, m, n, h, ʂ, ʐ, ts, dz, ɾ, ɺ, w, j, i, iː, u, uː, a, aː, e, eː]
 
 allophones: 
 -
@@ -40,7 +40,22 @@ notes:
 
 doctype: ref
 
-citation: "Mosonyi, Esteban Emilio. Introducción al análisis del idioma baniva. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.). Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Cara y Cuervo (2000)."
+citation: "Mosonyi, Esteban Emilio. 2000. Introducción al análisis del idioma baniva. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.) Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Cara y Cuervo."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+
+---
+
+doctype: ref
+
+citation: "González Náñez, Omar. 1974-1975. El Piapoco, el Baniva y el Guarequena: Tres Lenguas Arahuacas del sur de Venezuela. Boletín bibliográfico de antropología americana 37. 137-165."
 
 graphemes2phonemes: 
 -

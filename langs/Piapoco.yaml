@@ -21,7 +21,7 @@ coordinates:
   longitude: -69.300
   elevation_meters: 160
 
-phonemes: [p, b, t, d, k, ʔ, ts, m, n, β, s, h, j, ɺ, ɾ, i, u, e, a]
+phonemes: [p, t, k, ʔ, b, d, ts, w, s, h, m, n, j, ɾ, ɺ, i, iː, u, uː, e, eː, a, aː, ɔ]
 
 allophones: 
 -
@@ -41,6 +41,21 @@ notes:
 
 doctype: ref
 
+citation: "Klumpp, Deloris Pharris. 1995. Vocabulario Piapoco-Español. Bogotá: Asociación Instituto Lingüístico de Verano."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+
+---
+
+doctype: ref
+
 citation: "Mosonyi, Esteban Emilio. 2000. Caracterización del curripaco y del piapoco. In María Stella González de Pérez and María Luisa Rodríguez de Montes (eds.), Lenguas indígenas de Colombia: Una visión descriptiva. Bogotá: Instituto Caro y Cuervo."
 
 graphemes2phonemes: 
@@ -51,3 +66,34 @@ ref_allophones:
 
 ref_notes:
 -
+
+---
+
+doctype: ref
+
+citation: "Ramirez, Henri. 2001. Linguas Arawak da Amazônia Setentrional: Comparação e Descrição. Menaus: Editora de Universidade do Amazonas."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+
+---
+
+doctype: ref
+
+citation: "Reinoso Galindo, Andrés Eduardo. 2002. Elementos para una Gramática de la Lengua Piapoco. Colombia: Premio Nacional de Lingüística."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+

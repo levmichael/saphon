@@ -20,7 +20,7 @@ coordinates:
   longitude: -67.998
   elevation_meters: 117
 
-phonemes: [b, t, d, k, ɡ, ts, dz, m, n, ɲ, s, h, j, w, ɺ̥, ɺ, ɾ, i, u, e, a]
+phonemes: [p, b, t, d, k, g, ts, dz, θ, h, ɺ̥, ɺ, ɾ, r, m, n, ɲ, j, w, i, u, e, a, o]
 
 allophones: 
 -
@@ -41,6 +41,21 @@ notes:
 doctype: ref
 
 citation: "Mosonyi, Esteban, Jorge Mosonyi, and Águeda Largo. 2000. Yavitero. In Esteban Mosonyi and Jorge Mosonyi (eds.), Manual de lenguas indígenas de Venezuela, Tomo II. 594-661."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+
+---
+
+doctype: ref
+
+citation: "Mosonyi, J. C. 1987. El idioma yavitero: Ensayo de gramática y diccionario. PhD. dissertation, Universidad Central de Venezuela, Caracas."
 
 graphemes2phonemes: 
 -

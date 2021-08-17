@@ -20,7 +20,7 @@ coordinates:
   longitude: -57.000
   elevation_meters: 491
 
-phonemes: [b, t, tʲ, k, kʷ, ts, m, n, θ, h, j, w, l, ɾ, i, e, o, a]
+phonemes: [b, t, tʲ, k, m, n, ɾ, l, lʲ, f, θ, ʃ, h, ts, tʃ, w, j, i, e, o, a, ĩː, ẽː]
 
 allophones: 
 -
@@ -50,3 +50,34 @@ ref_allophones:
 
 ref_notes:
 -
+
+---
+
+doctype: ref
+
+citation: "Brandão, Ana Paula Barros. 2014. A Reference Grammar Of Paresi-Haliti (Arawak). PhD dissertation: The University of Texas at Austin."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+
+---
+
+doctype: ref
+
+citation: "Rowan, Orlando. 2001. Iraiti Xawaiyekehalakatyakala (Dicionário Paresí – Português). Cuiabá: International Society of Linguistics."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+

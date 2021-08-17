@@ -20,7 +20,7 @@ coordinates:
   longitude: -68.151
   elevation_meters: 3677
 
-phonemes: [p, t, k, kʷ, q, qʷ, ts, tʃ, ʈʂ, pʰ, tʰ, kʰ, qʰ, tsʰ, tʃʰ, ʈʂʰ, pʼ, tʼ, kʼ, qʼ, tsʼ, tʃʼ, ʈʂʼ, m, n, ɲ, ŋ, s̪, s, ʂ, x, xʷ, χ, χʷ, j, w, ɬ, l, ʎ, ɾ, i, iː, u, uː, e, eː, o, oː, a, aː]
+phonemes: [p, t, k, q, ts, tʃ, ʈʂ, pʰ, tʰ, kʰ, qʰ, tsʰ, tʃʰ, ʈʂʰ, pʼ, tʼ, tʃʼ, kʼ, qʼ, tsʼ, ʈʂʼ, m, n, ɲ, s, ʃ, ʂ, x, χ, w, j, ɬ, l, ʎ, r, i, iː, u, uː, e, eː, o, oː, a, aː]
 
 allophones: 
 -
@@ -57,6 +57,21 @@ ref_notes:
 doctype: ref
 
 citation: "Cerrón-Palomino, Rodolfo. 2006. El chipaya o la lengua de los hombres del agua. Lima: Pontificia Universidad Católica del Perú."
+
+graphemes2phonemes: 
+-
+
+ref_allophones: 
+-
+
+ref_notes:
+-
+
+---
+
+doctype: ref
+
+citation: "Hannß, Katja. to appear. Uru and Chipaya. In Matthias Urban (ed.), The Oxford Guide to the Languages of the Central Andes. Oxford University Press."
 
 graphemes2phonemes: 
 -
