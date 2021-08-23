@@ -1,4 +1,4 @@
-# SAPhon v1.2.0
+# SAPhon
 
 This repository holds the data that underlies the [South American Phonological Inventory Database](http://linguistics.berkeley.edu/saphon/en/).  It also contains Python routines for reading, checking, and writing the data files.
 
