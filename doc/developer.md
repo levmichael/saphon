@@ -70,7 +70,8 @@ and `website/intact/pt/atualizações.php` to include the files created in the
 preceding step in the changelog.
 1. Commit the changes of the preceding three steps and push to github. If the changes were made directly on github they will be committed already.
 1. Publish a prerelease version of the website for testing.
-   * Go to the [GitHub releases page](https://github.com/levmichael/saphon/releases).
+   * Go to the [saphon repo's releases page](https://github.com/levmichael/saphon/releases).
+   * Click the 'Draft a new release' button.
    * Click the 'Choose a tag' button and enter the version, e.g. 'v2.1.0'. In the widget click on 'Create new tag: v2.1.0 on publish' option.
    * Enter the version as the title, e.g. 'v2.1.0'.
    * Enter a description.
