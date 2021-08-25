@@ -9,6 +9,11 @@ Esta página detalla actualizaciones al sitio web y a la base de datos de SAPhon
 </p>
 
 <p>
+Nuevo en v2.1.0 (25 de agosto, 2021):
+<?php include 'updates/diff-20200728-20210825.es.sum.html'; ?>
+</p>  
+  
+<p>
 Nuevo en v2.0.0 (28 de julio, 2020):
 <?php include 'updates/diff-20200630-20200728.en.sum.html'; ?>
 </p>  
