@@ -70,8 +70,8 @@ and `website/intact/pt/atualizações.php` to include the files created in the
 preceding step in the changelog.
 1. Commit the changes of the preceding three steps and push to github. If the changes were made directly on github they will be committed already.
 1. Publish a prerelease version of the website for testing. On
-GitHub draft a new release and select the 'This is a pre-release' option
-before publishing.
+GitHub [draft a new release](https://github.com/levmichael/saphon/releases)
+and select the 'This is a pre-release' option before publishing.
 1. Verify that the publishing action succeeded by reviewing the GitHub
 Actions build logs.
 1. Review the
