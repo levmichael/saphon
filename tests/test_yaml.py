@@ -3,7 +3,7 @@
 import glob
 import math
 import yaml
-from python.saphon.io import YAMLLang
+from python.saphon.io import YAMLLang, normalizeIPA, readFeatList
 
 
 def check_dictfld(fld, d):
@@ -130,6 +130,17 @@ def check_synthesis(doc):
     check_strlist('notes', doc)
 
 
+def check_phonemes(phonemes, allowed):
+    '''Check the `phonemes` list for bad values.'''
+    err = ''
+    for p in phonemes:
+        try:
+            allowed[normalizeIPA(p)]
+        except KeyError as e:
+            err += f'\nUnrecognized phoneme "{e.args[0]}".'
+    if err != '':
+        raise RuntimeError(err + '\n')
+
 def docs_by_doctype(docs):
     '''Return synthesis and ref docs separately.'''
     synth = None
@@ -152,27 +163,32 @@ def docs_by_doctype(docs):
     return (synth, refs)
 
 
-def check_yaml(fname):
+def check_yaml(fname, feat_info):
     '''Check docs read from a yaml file for correctness and completeness.'''
     lang = YAMLLang(fname)
     assert(lang.synthesis is not None)
     assert(lang.refs != [])
     check_synthesis(lang.synthesis)
+    # The keys of feat_info.order() are valid IPA phonemes.
+    check_phonemes(lang.synthesis['phonemes'], feat_info.order())
     for ref in lang.refs:
         check_ref(ref)
 
 
 def test_read_yaml():
     errors = ''
+    featInfo = readFeatList('resources/ipa-table.txt')
     yamlfiles = glob.glob('langs/*.yaml')
     min_expected = 300
     try:
         assert(len(yamlfiles) > min_expected)
     except AssertionError:
-        raise AssertionError(f'Expected to find at least {min_expected} yaml files and found {len(yamlfiles)}')
+        raise AssertionError(
+            f'Expected to find at least {min_expected} yaml files and found {len(yamlfiles)}'
+        )
     for fname in yamlfiles:
         try:
-            check_yaml(fname)
+            check_yaml(fname, featInfo)
         except Exception as e:
             errors += f'Error in {fname}: {e}\n'
     try:

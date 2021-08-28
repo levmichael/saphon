@@ -222,7 +222,12 @@ def readSaphonYAMLFiles(yamldir, ipatable):
         phonemes = [
             normalizeIPA(p) for p in synth['phonemes']
         ]
-        phonemes.sort(key = lambda p: featOrder[p])
+        try:
+            phonemes.sort(key = lambda p: featOrder[p])
+        except KeyError as e:
+            raise RuntimeError(
+                f'Unrecognized phoneme "{e.args[0]}" found in {fname}\n'
+            )
         for fld in ('nasal_harmony', 'tone', 'laryngeal_harmony'):
             if synth[fld] is True:
                 phonemes.append(fld)
