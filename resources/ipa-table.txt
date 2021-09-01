@@ -1,5 +1,5 @@
 csbu: p pː pʲ pʷ ps 
-csbv: ʰb b bː bʲ bʷ bz bβ
+csbv: ʰb b bː bʲ bʷ bz bβ bʰ
 csdu: t̪ t̪ʙ
 csdv: d̪ 
 csau: t tˣ ʰt tː tʲ tʷ t̺
@@ -10,6 +10,7 @@ cspu: c ʰc
 cspv: ʰɟ ɟ
 csvu: k kʲ kˣ ʰk kː ʰkʷ kʷ kʷː k̪ kʷʲ
 csqu: kp 
+csAu: tk
 csvv: ɡ ɡː ɡʷ
 csuu: q qʷ 
 csuv: ɢ 
@@ -20,7 +21,7 @@ csoua: tʃ tʃʲ
 csova: dʒ
 csrua: ʈʂ
 csrva: ɖʐ
-cspua: tɕ cç
+cspua: tɕ cç cçʰ
 cspva: ɟʝ
 
 cibu: ɓ̥ 
@@ -78,7 +79,7 @@ cnlv: ɱ
 cndv: n̪ 
 cnau: ʰn nʰ n̥ 
 cnav: n nʲ nː n̰
-cnpu: ɲʰ
+cnpu: ɲʰ ʰɲ
 cnpv: ɲ ɲ̰ ɲː ɲ̥ 
 cnvv: ŋ ŋʷ ŋ̥ 
 cnxv: N 
@@ -90,7 +91,7 @@ cflv: v
 cfdu: θ s̪ θʲ
 cfdv: ð 
 cfau: s sʲ sʼ sʰ s̺
-cfav: z 
+cfav: z ɼ
 cfru: ʂ
 cfrv: ʐ 
 cfou: ʃ
@@ -102,16 +103,19 @@ cfvv: ɣ ɣʷ
 cfuu: χ χʷ
 cfuv: ʁ 
 cfgu: h h̃ hʲ hʷ 
+cfgv: ɦ
+cfqu: ʍ
 
 cxbv: β̞
 cxlv: ʋ
 cxdv: ð̞
 cxav: ɹ
-cxrv: ɻ
+cxrv: ɻ 
+cxru: ɻ̥
 cxpu: ʰj
 cxpv: j j̃ j̥ jʼ j̰ jː
 cxvv: ɰ
-cxqu: ʰw wʰ
+cxqu: ʰw wʰ w̥
 cxqv: w w̃ wʼ w̰ wʲ wː ʔw
 cxfv: ʕ
 
@@ -132,21 +136,21 @@ crav: r
 cruv: ʀ 
 crbv: ʙ 
 
-v7fu: i ĩ ḭ ḭ̃ iː ĩː iʰ 
+v7fu: i ĩ ḭ ḭ̃ iː ĩː iʰ iˀ
 v7fr: y ỹ 
 v7cu: ɨ ɨ̃ ɨ̰ ɨː ɨ̃ː ɨ̘ ɨi 
 v7cr: ʉ ʉ̃ ʉː 
 v7bu: ɯ ɯ̃ ɯ̰ ɯː ɯ̃ː ɯi
-v7br: u ũ ṵ ṵ̃ uː ũː uʰ 
+v7br: u ũ ṵ ṵ̃ uː ũː uʰ uˀ
 v6fu: ɪ ɪ̃ ɪː
 v6fr: ʏ 
 v6br: ʊ ʊ̃ ʊː
-v5fu: e ẽ ḛ ḛ̃ eː ẽː eʰ eu
+v5fu: e ẽ ḛ ḛ̃ eː ẽː eʰ eu eˀ
 v5fr: ø øː ø̃ 
 v5cu: ɘ 
 v5cr: ɵ ɵː 
 v5bu: ɤ ɤ̃ ɤː 
-v5br: o õ̰ o̰ õ oː õː oʰ oʲ õʲ o̝
+v5br: o õ̰ o̰ õ oː õː oʰ oʲ õʲ o̝ oˀ
 v4cu: ə ə̃ ə̰ ə̰̃ əː ə̃ː 
 v3fu: ɛ ɛ̃ ɛː ɛ̃ː
 v3fr: œ œ̃
@@ -155,7 +159,7 @@ v3bu: ʌ ʌ̃ ʌː ʌ̃ː
 v3br: ɔ ɔ̃ ɔː ɔ̃ː 
 v2fu: æ æ̃ æː æ̃ː 
 v2cu: ɐ̃ 
-v1cu: a ã a̰ ã̰ aː ãː aʲ ãʲ aʲː aʰ 
+v1cu: a ã a̰ ã̰ aː ãː aʲ ãʲ aʲː aʰ aˀ
 v1bu: ɑ ɑ̃ ɑ̰ ɑː 
 v1br: ɒ ɒ̃ ɒː ɒ̃ː
 
