@@ -69,6 +69,6 @@ jobs:
       run:
         echo "DEPLOY_PATH=${{ secrets.DEPLOY_PATH_PRERELEASE }}" >> $GITHUB_ENV
     - name: Publish to public web server with rsync over ssh
-      run: rsync -a html/* ${env.DEPLOY_USER}@${env.DEPLOY_HOST}:${env.DEPLOY_PATH}
+      run: rsync -a html/* ${DEPLOY_USER}@${DEPLOY_HOST}:${DEPLOY_PATH}
       working-directory: website
 
