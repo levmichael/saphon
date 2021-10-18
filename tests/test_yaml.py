@@ -47,14 +47,20 @@ def check_strlist(fld, d):
             raise AssertionError(f'Values in `{fld}` field must be non-empty.')
 
 
-def check_graphemes2phonemes(doc):
+def check_graphemes2phonemes(doc, lang):
     '''Check graphemes2phonemes values.'''
     check_dictfld('graphemes2phonemes', doc)
     for mapping in doc['graphemes2phonemes']:
         if mapping is None:
             continue
-        for fld in ('grapheme', 'phoneme'):
-            assert_strfld(fld, mapping)
+        assert_strfld('grapheme', mapping)
+        assert_strfld('phoneme', mapping)
+        try:
+            assert mapping['phoneme'] in lang.synthesis['phonemes']
+        except AssertionError:
+            raise AssertionError(
+                f"Phoneme '{mapping['phoneme']}' for grapheme '{mapping['grapheme']}' does not match a value in the language 'phonemes' list."
+            )
 
 
 def check_ref_allophones(doc):
@@ -63,18 +69,24 @@ def check_ref_allophones(doc):
     for mapping in doc['ref_allophones']:
         if mapping is None:
             continue
-        for fld in ('grapheme_allophone', 'grapheme_phoneme'):
-            assert_strfld(fld, mapping)
+        assert_strfld('grapheme_allophone', mapping)
+        assert_strfld('grapheme_phoneme', mapping)
 
 
-def check_allophones(doc):
+def check_allophones(doc, lang):
     '''Check allophones values.'''
     check_dictfld('allophones', doc)
     for mapping in doc['allophones']:
         if mapping is None:
             continue
-        for fld in ('allophone', 'phoneme'):
-            assert_strfld(fld, mapping)
+        assert_strfld('allophone', mapping)
+        assert_strfld('phoneme', mapping)
+        try:
+            assert mapping['phoneme'] in lang.synthesis['phonemes']
+        except AssertionError:
+            raise AssertionError(
+                f"Phoneme '{mapping['phoneme']}' for allophone '{mapping['allophone']}' does not match a value in the language 'phonemes' list."
+            )
 
 
 def check_coordinates(doc):
@@ -105,15 +117,15 @@ def check_coordinates(doc):
             raise AssertionError('Field `elevation_meters` missing.')
 
 
-def check_ref(doc):
+def check_ref(doc, lang):
     '''Check a `ref` document for correctness.'''
     assert_strfld('citation', doc)
-    check_graphemes2phonemes(doc)
+    check_graphemes2phonemes(doc, lang)
     check_ref_allophones(doc)
     check_strlist('ref_notes', doc)
 
 
-def check_synthesis(doc):
+def check_synthesis(doc, lang):
     '''Check a `synthesis` document for correctness.'''
     assert_strfld('name', doc)
     assert_strfld('short_name', doc)
@@ -123,7 +135,7 @@ def check_synthesis(doc):
     check_strlist('countries', doc)
     check_coordinates(doc)
     check_strlist('phonemes', doc)
-    check_allophones(doc)
+    check_allophones(doc, lang)
     assert_boolean('nasal_harmony', doc)
     assert_boolean('tone', doc)
     assert_boolean('laryngeal_harmony', doc)
@@ -168,11 +180,11 @@ def check_yaml(fname, feat_info):
     lang = YAMLLang(fname)
     assert(lang.synthesis is not None)
     assert(lang.refs != [])
-    check_synthesis(lang.synthesis)
+    check_synthesis(lang.synthesis, lang)
     # The keys of feat_info.order() are valid IPA phonemes.
     check_phonemes(lang.synthesis['phonemes'], feat_info.order())
     for ref in lang.refs:
-        check_ref(ref)
+        check_ref(ref, lang)
 
 
 def test_read_yaml():
