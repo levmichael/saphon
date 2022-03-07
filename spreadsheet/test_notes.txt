@@ -1,0 +1,23 @@
+Tests that will be used while importing SAPhon spreadsheets:
+
+1) The Natural Classes, Morpheme IDs, and Allophones fields will be checked for bracketing errors.
+
+2) Brackets in the spreadhsheeets should not contain []. On import, there will be a global replacement of {} with [].
+
+3) The first value of each allophone pair will be compared to the list of segments in the Natural Classes or Segments field. The allophone symbol must be in the list of segments.
+
+4) Every Process Name value must be found as the fourth value of one the tuples in Allophones.
+4a) Also check that allophone process (4th value) corresponds to a Process Name or is in controlled vocab.
+
+3) Values in the Undergoers/Transparencies/Opacities fields must match one of the values in the Natural Classes list, or they must match one of the first values in the Morpheme ID tuples. TODO: check with Lev whether Triggers should also  be checked
+
+Format of Allophones values:
+  a) 2-ple (phone, allophone); OR
+  b) 4-ple (phone, (list of) allophone(s), (list of) conditioning environment(s), (list of) process name(s))
+
+Format of Morpheme IDs values:
+  5-ple (morph name, morph class, UR, surface form, gloss)
+
+
+
+6) Natural Classes and Segments values must be in saphon ipa-table.txt
