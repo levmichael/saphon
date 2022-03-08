@@ -175,7 +175,7 @@ def readSaphonTable(filename):
 # TODO: Error checking on feat info.
 def readFeatList(filename):
   featAttr = OrderedDict()
-  for line in open(filename):
+  for line in open(filename, 'r', encoding='utf-8'):
     if ':' not in line: continue
     position, sounds = re.split(': *', line.strip(), 1)
     for sound in re.split(' +', sounds):
