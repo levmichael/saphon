@@ -259,11 +259,6 @@ def parse_line_with_delims(line):
     return split_tpls
     
 
-def check_phon(lang):
-    '''Check each doc for whether allowed phon symbols are used.'''
-    for doc in [l['synthesis']] + l['ref']:
-        docid = 'synthesis' if 'synthesis' in doc else doc['source']
-
 def check_procs(l, natclass_map, morph_id_map):
     '''Check processes for each doc.'''
     for doc in [l['synthesis']] + l['ref']:
