@@ -87,10 +87,8 @@ def split_key_val(l):
     m = re.match(r'^(?P<key>\w+):?\s*\t(?P<val>\w*)$', l)
     if m is None:
         if l != '':
-            sys.stderr.write(f"MD error on line: '{l}'\n{e}")
-            sys.stderr.write('\n\n')
-    
-    
+            sys.stderr.write(f"MD error (no match) on line: '{l}'\n\n")
+
 def parse_md(lines, fmap):
     '''Parse metadata from a section of text lines and return as a dict.'''
     d = {}
