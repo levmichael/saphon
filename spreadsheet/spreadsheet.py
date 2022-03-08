@@ -60,7 +60,7 @@ fields = {
 def read_lang(infile):
     '''Read a language's input data from a .tsv file.'''
     text = ''
-    with open(infile, 'r') as fh:
+    with open(infile, 'r', encoding='utf-8') as fh:
         text = fh.read()
     docs = re.split('Doctype:\s*\t', text)[1:]  # Element 0 is an empty string
 
