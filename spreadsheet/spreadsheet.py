@@ -58,7 +58,16 @@ fields = {
 }
 
 def read_lang(infile):
-    '''Read a language's input data from a .tsv file.'''
+    '''
+    Read a language's input data from a .tsv file.
+
+    Returns
+    -------
+
+    lang: dict
+    Dictionary of docs for a language. The keys are doc identifiers (ref source or 'synthesis'), and
+    the values are dicts of doc metadata.
+    '''
     text = ''
     with open(infile, 'r', encoding='utf-8') as fh:
         text = fh.read()
@@ -74,28 +83,22 @@ def read_lang(infile):
             raise RuntimeError("Unrecognized document type. Must be 'Reference' or 'Synthesis'.")
     return lang
 
-def parse_natclass(s):
-    '''Parse a Natural Classes string into a list of lists.'''
-    assert('[' not in s)
-    assert(']' not in s)
-    s = s.replace('{', '[').replace('}', ']')
-    return yaml.load(s)
-
-def split_key_val(l):
-    '''Split a line into key: value pairs.'''
-    l = l.strip()
-    m = re.match(r'^(?P<key>\w+):?\s*\t(?P<val>\w*)$', l)
-    if m is None:
-        if l != '':
-            sys.stderr.write(f"MD error (no match) on line: '{l}'\n\n")
-
 def parse_md(lines, fmap):
-    '''Parse metadata from a section of text lines and return as a dict.'''
+    '''
+    Parse metadata from a section of text lines.
+
+    Returns
+    -------
+    d: dict
+    A dictionary in which the keys are the first tab-separated element from each
+    line, and the line remainders are the dict values.
+    '''
     d = {}
     for l in lines:
         try:
             k, v = l.split('\t', 1)
         except Exception as e:
+            sys.stderr.write(f"Could not split line '{l}': {e}\n\n")
             continue
         k = k.strip().strip(':').lower()
         try:
@@ -105,7 +108,16 @@ def parse_md(lines, fmap):
     return d
 
 def parse_proc(t, fmap, fmap_sub):
-    '''Parse metadata from a section of process text lines and return as a dict.'''
+    '''
+    Parse metadata from a section of process text lines.
+
+    Returns
+    -------
+
+    d: dict
+    A dictionary in which the keys are the process field names and the values are the
+    line remainders.
+    '''
     d = {}
     if t == '':
         return d
@@ -119,12 +131,7 @@ def parse_proc(t, fmap, fmap_sub):
             k, v = l.split('\t', 1)
         except Exception as e:
             if l.strip() != '':
-                sys.stderr.write(f"Proc error on line: '{l}': {e}")
-                if ':' not in l:
-                    sys.stderr.write("\nPossible missing ':'\n")
-                else:
-                    sys.stderr.write(f'\nProbably missing value. Context:\n{t}')
-                sys.stderr.write('\n\n')
+                sys.stderr.write(f"Could not split line '{l}': {e}\n\n")
             continue
         k = k.strip().strip(':').lower()
         try:
@@ -149,7 +156,15 @@ def parse_proc(t, fmap, fmap_sub):
     return d
         
 def parse_doc(d):
-    '''Parse a document.'''
+    '''
+    Parse a language document, either a ref source doc or synthesis doc.
+
+    Returns
+    -------
+    d: dict
+    A dictionary of doc metadata combining the general language metadata,
+    phon inventory metadata, and process metadata.
+    '''
     # 1. Remove all indentation at the beginning of a line.
     # 2. Reduce multiple consecutive tabs to a single tab.
     # 3. Remove line-final tabs.
@@ -219,7 +234,17 @@ def delim_iter(line, opendelim='{', closedelim='}'):
             )
 
 def split_outside_delims(line, splitter=',', opendelim='{', closedelim='}'):
-    '''Split string on `splitter` if not between delimiters.'''
+    '''
+    Split string on `splitter` if not between delimiters. This preserves delimited strings
+    containing `splitter` that are embedded in a line.
+
+    Returns
+    -------
+
+    splits: list
+    A list of strings found by splitting on `splitter`. Delimited strings that contain
+    `splitter` are preserved without splitting internally.
+    '''
     delims = []
     for openpos, closepos, _ in delim_iter(line):
         delims.append([openpos, closepos])
@@ -243,20 +268,26 @@ def split_outside_delims(line, splitter=',', opendelim='{', closedelim='}'):
     splits.append(line[last+1:].strip())
     return splits
 
-def parse_line_with_delims(line):
+def parse_with_delims(s):
     '''
-    Parse a line that may contain delimiters into its constituents.
+    Parse a string that may contain delimiters into its constituents.
+
+    Returns
+    -------
+
+    splits: list
+    A list of substrings split on ','. Substrings delimited by '{}' are preserved whole,
+    and no split occurs on a ',' internal to a delimited substring.
     '''
     # Ensure first/last delimiters of are at level 0.
-    line = re.sub(r'^{{+', '{', line)
-    line = re.sub(r'}}+$', '}', line)
-    split_tpls = []
-    for openpos, closepos, level in delim_iter(line):
+    s = re.sub(r'^{{+', '{', s)
+    s = re.sub(r'}}+$', '}', s)
+    splits = []
+    for openpos, closepos, level in delim_iter(s):
         if level == 0:
-            tpl = line[openpos:closepos]
-            splits = split_outside_delims(tpl)
-            split_tpls.append(splits)
-    return split_tpls
+            tpl = s[openpos:closepos]
+            splits.append(split_outside_delims(tpl))
+    return splits
     
 
 def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
@@ -311,7 +342,16 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
                         sys.stderr.write(msg)
 
 def check_morpheme_ids(l):
-    '''Check morph_id field for each doc and verify that it is a 5-ple.'''
+    '''
+    Check morph_id field for each doc and verify that it is a 5-ple.
+
+    Returns
+    -------
+
+    morph_ids: dict of lists
+    A dictionary in which the keys are a doc identifier, and the values are the list of morph ID
+    identifiers (the first element of a Morph ID set) found in the doc.
+    '''
     morph_ids = {}
     for doc in [l['synthesis']] + l['ref']:
         docid = 'synthesis' if 'synthesis' in doc else doc['source']
@@ -331,7 +371,12 @@ def check_morpheme_ids(l):
 
 def check_char(c):
     '''
-    Check validity of character and return normalized form.
+    Check the validity of a phon character.
+
+    Returns
+    -------
+    c: str
+    The character in its normalized form.
     '''
     c = normalizeIPA(c.strip())
     try:
@@ -342,7 +387,7 @@ def check_char(c):
 
 def check_natclass(nc):
     '''
-    Check a Natural Class set.
+    Check a single Natural Class set, e.g. "{T, p, t, k}".
 
     Returns
     -------
@@ -353,6 +398,9 @@ def check_natclass(nc):
 
     flat: list
     A flattened list of all normalized phone symbols.
+
+    catsymb: str
+    The category symbol of the natural class, e.g. 'T'.
     '''
     clean = []
     flat = []
@@ -384,7 +432,7 @@ def check_allophones(l, flatnatclasses):
         
         allophones = []
         procs = []
-        for a in parse_line_with_delims(doc['allophones']):
+        for a in parse_with_delims(doc['allophones']):
             try:
                 assert(normalizeIPA(a[0]) in natclass)
             except AssertionError:
@@ -425,7 +473,43 @@ def check_allophones(l, flatnatclasses):
 
 def check_natclasses(l):
     '''
-    Check the Natural Classes sets of each doc.
+    Check the Natural Classes sets of each doc, e.g. "{T, p, t, k}, {N, m, n}, {V, i, e, a, u, o}".
+
+    Returns
+    -------
+
+    A tuple of:
+
+    docnatclasses: dict of lists of lists
+    A dictionary in which the keys are doc identifiers and the values are the lists of natural
+    class sets in the doc. Each set is a list of category symbol and normalized phon symbol, e.g.
+    {
+      'synthesis': [
+        ['T', 'p', 't', 'k'],
+        ['N', 'm', 'n'],
+        ['V', 'i', 'e', 'a', 'u', 'o']
+      ],
+      'refsource...': [
+        ...
+      ]
+    }
+
+    docflatnatclasses: dict of lists
+    A dictionary in which the keys are doc identifiers and the values are the flattened lists
+    of normalized phon symbols in the doc, e.g.
+    {
+      'synthesis': ['p', 't', 'k','m', 'n', 'i', 'e', 'a', 'u', 'o'],
+      'refsource...': [...]
+    }
+
+    doccatsymb: dict of lists
+    A dictionary in which the keys are doc identifiers and the values are the flattened lists
+    of category symbols in the doc, e.g.
+    {
+      'synthesis': ['T', 'N', 'V'],
+      'refsource...': [...]
+
+    }
     '''
     docnatclasses = {}
     docflatnatclasses = {}
@@ -435,7 +519,7 @@ def check_natclasses(l):
         nclasses = []
         flats = []
         catsymb = []
-        for nclass in parse_line_with_delims(doc['natclass']):
+        for nclass in parse_with_delims(doc['natclass']):
             nc = check_natclass(nclass)
             nclasses.append(nc[0])
             flats.extend(nc[1])
