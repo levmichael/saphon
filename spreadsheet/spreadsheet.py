@@ -407,7 +407,7 @@ def check_allophones(l, flatnatclasses):
                         try:
                             assert(pn.strip() in proc_names)
                         except AssertionError:
-                            msg = f"proc_name '{pn.strip()}' does not match available names " \
+                            msg = f"Allophone proc_name '{pn.strip()}' does not match available Process names " \
                                   f"'{', '.join(proc_names)}' for {docid}\n\n"
                             sys.stderr.write(msg)
                 else:
@@ -415,7 +415,7 @@ def check_allophones(l, flatnatclasses):
                     try:
                         assert(aproc in proc_names)
                     except AssertionError:
-                        msg = f"proc_name '{aproc}' does not match available names " \
+                        msg = f"Allophone proc_name '{aproc}' does not match available Process names " \
                               f"'{', '.join(proc_names)}' for {docid}\n\n"
                         sys.stderr.write(msg)
             allophones.append(a)
