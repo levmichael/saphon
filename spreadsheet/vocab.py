@@ -12,16 +12,17 @@ natcat = [
     'T',
     'V',
     'Ṽ',
-    'Z'
+    'Z',
 ]
 
 # Non-nasalization process types.
 proc_vocab = [
-    'fronting',
+    'LDNH',
     'LN',
+    'LO',
     'MPP',
+    'fronting',
     'palatalization',
-    'spirantization'
-    
+    'spirantization',
 ]
 
