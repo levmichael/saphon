@@ -259,16 +259,33 @@ def parse_line_with_delims(line):
     return split_tpls
     
 
-def check_procs(l, natclass_map, morph_id_map):
+def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
     '''Check processes for each doc.'''
     for doc in [l['synthesis']] + l['ref']:
         docid = 'synthesis' if 'synthesis' in doc else doc['source']
-        ids = natclass_map[docid] + morph_id_map[docid]
+        ids = natclass_map[docid] + morph_id_map[docid] + catsymb[docid]
         for proc in doc['processes']:
-            # TODO:
-            # Assert that proc_type is in proc_vocab
-            # Assert that proc_type matches portion of proc_name prior to ':'
-            # Assert that proc_name appears as an element of the fourth element of at least one of the allophones (i.e. the fourth element of an allophone can be a list of process names)
+            try:
+                assert(proc['proc_type'] in proc_vocab)
+            except AssertionError:
+                msg = f'Process type {proc["proc_type"]} not in proc_vocab ' \
+                      f' for {docid}\n\n'
+                sys.stderr.write(msg)
+            try:
+                assert(
+                    proc['proc_name'].startswith(proc['proc_type'] + ':') or
+                    proc['proc_name'] == proc['proc_type']
+                )
+            except AssertionError:
+                msg = f'Process type {proc["proc_name"]} does not match type {proc["proc_type"]} ' \
+                      f' for {docid}\n\n'
+                sys.stderr.write(msg)
+            try:
+                assert(proc['proc_name'] in alloprocs[docid])
+            except AssertionError:
+                msg = f'Process name {proc["proc_name"]} not used by any allophones ' \
+                      f' for {docid}\n\n'
+                sys.stderr.write(msg)
             for fld in ['transparencies', 'opacities', 'undergoers']:
                 if fld == 'undergoers':
                     v = proc[fld][fld].strip()
@@ -326,14 +343,22 @@ def check_char(c):
 def check_natclass(nc):
     '''
     Check a Natural Class set.
+
+    Returns
+    -------
+
+    clean: list of lists
+    List of lists of normalized phone symbols. Each inner list has the natural class category
+    symbol as its first element, and the remaining elements are the phone symbols.
+
+    flat: list
+    A flattened list of all normalized phone symbols.
     '''
     clean = []
     flat = []
-#    print(f'    {nc}')
     try:
         assert(nc[0] in natcat)
         clean.append(nc[0])
-        flat.append(nc[0])
     except AssertionError:
         sys.stderr.write(f'Natural Class symbol "{nc[0]}" not recognized.\n\n')
     for el in nc[1:]:
@@ -343,8 +368,7 @@ def check_natclass(nc):
         else:
             clean.append(check_char(el))
             flat.append(check_char(el))
-#    print(f'    {clean}')
-    return (clean, flat)
+    return (clean, flat, nc[0])
 
 def check_allophones(l, flatnatclasses):
     '''
@@ -352,12 +376,14 @@ def check_allophones(l, flatnatclasses):
     in the doc's Natural Classes or Segments list.
     '''
     docallo = {}
+    docprocs = {}
     for doc in [l['synthesis']] + l['ref']:
         docid = 'synthesis' if 'synthesis' in doc else doc['source']
         proc_names = [p['proc_name'] for p in l['synthesis']['processes']] + proc_vocab
         natclass = flatnatclasses[docid]
         
         allophones = []
+        procs = []
         for a in parse_line_with_delims(doc['allophones']):
             try:
                 assert(normalizeIPA(a[0]) in natclass)
@@ -371,20 +397,31 @@ def check_allophones(l, flatnatclasses):
                 msg = f"Expected 2-ple or 4-ple for allophones. Got {len(a)}-ple '{a}' " \
                       f"for {docid}\n\n"
                 sys.stderr.write(msg)
-            try:
-                if len(a) == 4:
-                    # TODO: a[3] can be a list of process names, so process list if necessary and
-                    # check each value separately
-                    # Also, return process names found in allophones in order to check process
-                    # blocks that each named process there is used by an allophone
-                    assert(a[3] in proc_names)
-            except AssertionError:
-                msg = f"proc_name '{a[3]}' does not match available names " \
-                      f"'{', '.join(proc_names)}' for {docid}\n\n"
-                sys.stderr.write(msg)
+            if len(a) == 4:
+                aproc = a[3].strip()
+                # aproc can be a list of process names, so process list if necessary and
+                # check each value separately.
+                if aproc.startswith('{') and aproc.endswith('}'):
+                    for pn in aproc[1:-1].split(','):
+                        procs.append(pn.strip())
+                        try:
+                            assert(pn.strip() in proc_names)
+                        except AssertionError:
+                            msg = f"proc_name '{pn.strip()}' does not match available names " \
+                                  f"'{', '.join(proc_names)}' for {docid}\n\n"
+                            sys.stderr.write(msg)
+                else:
+                    procs.append(aproc)
+                    try:
+                        assert(aproc in proc_names)
+                    except AssertionError:
+                        msg = f"proc_name '{aproc}' does not match available names " \
+                              f"'{', '.join(proc_names)}' for {docid}\n\n"
+                        sys.stderr.write(msg)
             allophones.append(a)
         docallo[docid] = allophones
-    return docallo
+        docprocs[docid] = procs
+    return (docallo, docprocs)
 
 def check_natclasses(l):
     '''
@@ -392,14 +429,18 @@ def check_natclasses(l):
     '''
     docnatclasses = {}
     docflatnatclasses = {}
+    doccatsymb = {}
     for doc in [l['synthesis']] + l['ref']:
         docid = 'synthesis' if 'synthesis' in doc else doc['source']
         nclasses = []
         flats = []
+        catsymb = []
         for nclass in parse_line_with_delims(doc['natclass']):
             nc = check_natclass(nclass)
             nclasses.append(nc[0])
             flats.extend(nc[1])
+            catsymb.append(nc[2])
         docnatclasses[docid] = nclasses
         docflatnatclasses[docid] = flats
-    return (docnatclasses, docflatnatclasses)
+        doccatsymb[docid] = catsymb
+    return (docnatclasses, docflatnatclasses, doccatsymb)
