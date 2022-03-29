@@ -1,4 +1,4 @@
-csbu: p pː pʲ pʷ ps 
+csbu: p pː pʲ pʷ ps
 csbv: ʰb b bː bʲ bʷ bz bβ bʰ
 csdu: t̪ t̪ʙ
 csdv: d̪ 
@@ -158,7 +158,7 @@ v3cu: ɜ
 v3bu: ʌ ʌ̃ ʌː ʌ̃ː 
 v3br: ɔ ɔ̃ ɔː ɔ̃ː 
 v2fu: æ æ̃ æː æ̃ː 
-v2cu: ɐ̃ 
+v2cu: ɐ ɐ̃
 v1cu: a ã a̰ ã̰ aː ãː aʲ ãʲ aʲː aʰ aˀ
 v1bu: ɑ ɑ̃ ɑ̰ ɑː 
 v1br: ɒ ɒ̃ ɒː ɒ̃ː
