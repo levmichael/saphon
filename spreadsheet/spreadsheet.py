@@ -427,7 +427,7 @@ def check_allophones(l, flatnatclasses):
     docprocs = {}
     for doc in [l['synthesis']] + l['ref']:
         docid = 'synthesis' if 'synthesis' in doc else doc['source']
-        proc_names = [p['proc_name'] for p in l['synthesis']['processes']] + proc_vocab
+        proc_names = [p['proc_name'] for p in doc['processes']] + proc_vocab
         natclass = flatnatclasses[docid]
         
         allophones = []
