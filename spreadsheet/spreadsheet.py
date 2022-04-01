@@ -343,7 +343,7 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
 
 def check_morpheme_ids(l):
     '''
-    Check morph_id field for each doc and verify that it is a 5-ple.
+    Check morph_id field for each doc and verify that it is a 5-ple or 'None'.
 
     Returns
     -------
@@ -362,10 +362,12 @@ def check_morpheme_ids(l):
             try:
                 assert(len(tpl) == 5)
             except AssertionError:
-                msg = f"Expected 5-ple for morph_id. Got {len(tpl)}-ple '{tpl}' " \
-                      f"for {docid}\n\n"
-                sys.stderr.write(msg)
-            doc_morph_ids.append(normalizeIPA(tpl[0].strip()))
+                if s.strip() != 'None':
+                    msg = f"Expected 5-ple for morph_id. Got {len(tpl)}-ple '{tpl}' " \
+                          f"for {docid}\n\n"
+                    sys.stderr.write(msg)
+            if s.strip() != 'None':
+                doc_morph_ids.append(normalizeIPA(tpl[0].strip()))
         morph_ids[docid] = doc_morph_ids
     return morph_ids
 
