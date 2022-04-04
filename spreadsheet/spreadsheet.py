@@ -380,7 +380,10 @@ def check_char(c):
     c: str
     The character in its normalized form.
     '''
-    c = normalizeIPA(c.strip())
+    if c.strip().startswith('//') and c.strip().endswith('//'):
+        return c.strip()  # Ad-hoc reference-specific archiphoneme; do not check for validity.
+    else:
+        c = normalizeIPA(c.strip())
     try:
         assert(c in allowed_phon)
     except AssertionError:
@@ -407,8 +410,9 @@ def check_natclass(nc):
     clean = []
     flat = []
     try:
-        assert(nc[0] in natcat)
-        clean.append(nc[0])
+        symb = nc[0].strip().strip('/')  # Remove '//' from archiphonemes.
+        assert(symb in natcat)
+        clean.append(nc[0].strip())
     except AssertionError:
         sys.stderr.write(f'Natural Class symbol "{nc[0]}" not recognized.\n\n')
     for el in nc[1:]:
