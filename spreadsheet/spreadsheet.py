@@ -410,9 +410,9 @@ def check_natclass(nc):
     clean = []
     flat = []
     try:
-        symb = nc[0].strip().strip('/')  # Remove '//' from archiphonemes.
+        symb = normalizeIPA(nc[0].strip().strip('/'))  # Remove '//' from archiphonemes.
         assert(symb in natcat)
-        clean.append(nc[0].strip())
+        clean.append(normalizeIPA(nc[0].strip()))
     except AssertionError:
         sys.stderr.write(f'Natural Class symbol "{nc[0]}" not recognized.\n\n')
     for el in nc[1:]:
