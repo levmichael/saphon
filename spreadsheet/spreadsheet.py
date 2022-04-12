@@ -385,7 +385,8 @@ def check_char(c):
     else:
         c = normalizeIPA(c.strip())
     try:
-        assert(c in allowed_phon)
+        # c must be in ipa-table.txt (allowed_phon) or must be an integer (tone value)
+        assert(c in allowed_phon or c.isdigit())
     except AssertionError:
         sys.stderr.write(f'Character {c} ({c.encode("utf-8")}) is not in ipa-table.txt.\n\n')
     return c
