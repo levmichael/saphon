@@ -287,7 +287,10 @@ def parse_with_delims(s):
         if level == 0:
             tpl = s[openpos:closepos]
             splits.append(split_outside_delims(tpl))
-    return splits
+    if splits == []:
+        return [s]
+    else:
+        return splits
     
 
 def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
@@ -356,18 +359,23 @@ def check_morpheme_ids(l):
     for doc in [l['synthesis']] + l['ref']:
         docid = 'synthesis' if 'synthesis' in doc else doc['source']
         doc_morph_ids = []
-        for s in doc['morph_ids'].split('},'):
-            s = s.replace('{', '').replace('}', '')
-            tpl = s.split(',')
-            try:
-                assert(len(tpl) == 5)
-            except AssertionError:
-                if s.strip() != 'None':
-                    msg = f"Expected 5-ple for morph_id. Got {len(tpl)}-ple '{tpl}' " \
+        for m_id in parse_with_delims(doc['morph_ids']):
+            if isinstance(m_id, str):
+                try:
+                    assert(m_id.strip() == 'None')
+                except AssertionError:
+                    msg = f"Expected 5-ple or 'None' for morph_id. Got string '{m_id}' " \
                           f"for {docid}\n\n"
                     sys.stderr.write(msg)
-            if s.strip() != 'None':
-                doc_morph_ids.append(normalizeIPA(tpl[0].strip()))
+                continue
+            try:
+                assert(isinstance(m_id, list))
+                assert(len(m_id) == 5)
+            except AssertionError:
+                msg = f"Expected 5-ple for morph_id. Got {len(m_id)}-ple '{m_id}' " \
+                      f"for {docid}\n\n"
+                sys.stderr.write(msg)
+            doc_morph_ids.append(normalizeIPA(m_id[0].strip()))
         morph_ids[docid] = doc_morph_ids
     return morph_ids
 
