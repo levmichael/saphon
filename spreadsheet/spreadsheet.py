@@ -81,6 +81,10 @@ def read_lang(infile):
             lang['synthesis'] = parse_doc(d)
         else:
             raise RuntimeError("Unrecognized document type. Must be 'Reference' or 'Synthesis'.")
+    if lang['synthesis'] == {}:
+        sys.stderr.write(f'No synthesis found in lang file {infile}.\n')
+    if lang['ref'] == []:
+        sys.stderr.write(f'No ref docs found in lang file {infile}.\n')
     return lang
 
 def parse_md(lines, fmap):
@@ -296,6 +300,8 @@ def parse_with_delims(s):
 def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
     '''Check processes for each doc.'''
     for doc in [l['synthesis']] + l['ref']:
+        if doc == {}:
+            continue
         docid = 'synthesis' if 'synthesis' in doc else doc['source']
         ids = natclass_map[docid] + morph_id_map[docid] + catsymb[docid]
         for proc in doc['processes']:
@@ -357,6 +363,8 @@ def check_morpheme_ids(l):
     '''
     morph_ids = {}
     for doc in [l['synthesis']] + l['ref']:
+        if doc == {}:
+            continue
         docid = 'synthesis' if 'synthesis' in doc else doc['source']
         doc_morph_ids = []
         for m_id in parse_with_delims(doc['morph_ids']):
@@ -441,6 +449,8 @@ def check_allophones(l, flatnatclasses):
     docallo = {}
     docprocs = {}
     for doc in [l['synthesis']] + l['ref']:
+        if doc == {}:
+            continue
         docid = 'synthesis' if 'synthesis' in doc else doc['source']
         proc_names = [p['proc_name'] for p in doc['processes']] + proc_vocab
         natclass = flatnatclasses[docid]
@@ -455,32 +465,49 @@ def check_allophones(l, flatnatclasses):
                       f"'{', '.join(natclass)}' for {docid}\n\n"
                 sys.stderr.write(msg)
             try:
-                assert(len(a) in [2, 4])
+                assert(len(a) in [2, 4, 5])
             except AssertionError:
-                msg = f"Expected 2-ple or 4-ple for allophones. Got {len(a)}-ple '{a}' " \
+                msg = f"Expected 2-ple, 4-ple, or 5-ple for allophones. Got {len(a)}-ple '{a}' " \
                       f"for {docid}\n\n"
                 sys.stderr.write(msg)
-            if len(a) == 4:
-                aproc = a[3].strip()
+            if len(a) in (4, 5):
+                outputs = [c.strip() for c in a[1].strip('{').strip('}').split(',')]
+                if len(a) == 5:
+                    try:
+                        assert(a[2].startswith('/') and a[2].endswith('/'))
+                    except AssertionError:
+                        msg = f"Allophone string mapping input value '{a[2]}' must be enclosed by '/'" \
+                              f" for {docid}\n\n"
+                        sys.stderr.write(msg)
+                aproc = a[-1].strip()
                 # aproc can be a list of process names, so process list if necessary and
                 # check each value separately.
                 if aproc.startswith('{') and aproc.endswith('}'):
-                    for pn in aproc[1:-1].split(','):
-                        procs.append(pn.strip())
-                        try:
-                            assert(pn.strip() in proc_names)
-                        except AssertionError:
-                            msg = f"Allophone proc_name '{pn.strip()}' does not match available Process names " \
-                                  f"'{', '.join(proc_names)}' for {docid}\n\n"
-                            sys.stderr.write(msg)
+                    procs2check = aproc[1:-1].split(',')
                 else:
-                    procs.append(aproc)
+                    procs2check = [aproc]
+                for pn in procs2check:
+                    pn = pn.strip()
+                    procs.append(pn)
                     try:
-                        assert(aproc in proc_names)
+                        m = re.match(
+                            r'(?P<mpp>MPP=)?(?P<phone>[^-]+-)?(?P<proc>[^:]+)(?P<subtype>:.+)?',
+                            pn
+                        )
+                        assert(m is not None)
+                        assert(m.group('proc') in proc_names)
                     except AssertionError:
-                        msg = f"Allophone proc_name '{aproc}' does not match available Process names " \
+                        msg = f"Allophone proc_name '{pn.strip()}' does not match available Process names " \
                               f"'{', '.join(proc_names)}' for {docid}\n\n"
                         sys.stderr.write(msg)
+                    if m.group('phone') is not None:
+                        phone = m.group('phone').replace('-', '')
+                        try:
+                            assert(phone in outputs)
+                        except AssertionError:
+                            msg = f'Phone "{phone}" ({phone.encode("utf8")}) in allophone process {pn} does not match any allophone ouptuts in "{outputs}" ' \
+                                  f' for {docid}\n\n'
+                            sys.stderr.write(msg)
             allophones.append(a)
         docallo[docid] = allophones
         docprocs[docid] = procs
@@ -530,6 +557,8 @@ def check_natclasses(l):
     docflatnatclasses = {}
     doccatsymb = {}
     for doc in [l['synthesis']] + l['ref']:
+        if doc == {}:
+            continue
         docid = 'synthesis' if 'synthesis' in doc else doc['source']
         nclasses = []
         flats = []
