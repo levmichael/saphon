@@ -227,13 +227,13 @@ def delim_iter(line, opendelim='{', closedelim='}'):
                 yield (prevpos, pos, len(stack))
             else:
                 # error
-                sys.stderr.write(
+                raise RuntimeError(
                     f"encountered extraneous closing quote at pos {pos}: '{line[pos:]}'"
                 )
 
     if len(stack) > 0:
         for pos in stack:
-            sys.stderr.write(
+            raise RuntimeError(
                 f"expecting closing quote to match open quote starting at: '{line[pos-1:]}'"
             )
 
@@ -250,11 +250,11 @@ def split_outside_delims(line, splitter=',', opendelim='{', closedelim='}'):
     `splitter` are preserved without splitting internally.
     '''
     delims = []
-    for openpos, closepos, _ in delim_iter(line):
+    for openpos, closepos, _ in delim_iter(line, opendelim=opendelim, closedelim=closedelim):
         delims.append([openpos, closepos])
 
     splitpos = []
-    for m in re.finditer(r'[{}]'.format(splitter), line):
+    for m in re.finditer(r'[{}]+'.format(splitter), line):
         add_split = True
         pos = m.start()
         for d in delims:
@@ -269,7 +269,8 @@ def split_outside_delims(line, splitter=',', opendelim='{', closedelim='}'):
         first = 0 if i == 0 else splitpos[i-1]+1
         last = splitpos[i]
         splits.append(line[first:last].strip())
-    splits.append(line[last+1:].strip())
+    if last is not None:
+        splits.append(line[last+1:].strip())
     return splits
 
 def parse_with_delims(s):
@@ -328,8 +329,21 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
                 sys.stderr.write(msg)
             for fld in ['transparencies', 'opacities', 'undergoers']:
                 if fld == 'undergoers':
+                    try:
+                        vals = [
+                            k for k in split_outside_delims(
+                                proc[fld][fld].strip(), splitter='\s,', opendelim='(', closedelim=')'
+                            ) if (not k.startswith('(')) and (not k.endswith(')'))
+                        ]
+                    except Exception as e:
+                        msg = f"Error in Undergoers '{proc[fld][fld].strip()}'. " \
+                              f" for {docid}\n"
+                        sys.stderr.write(msg)
+                        print(e, file=sys.stderr)
+                        sys.stderr.write('\n')
                     v = proc[fld][fld].strip()
                 else:
+                    vals = [k.strip() for k in proc[fld].strip().split(',')]
                     v = proc[fld].strip()
                 if v in ['None', 'Uncertain', 'Unspecified']:
                     try:
@@ -341,7 +355,7 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
                               f"'{', '.join(ids)}' for {docid}\n\n"
                         sys.stderr.write(msg)
                     continue
-                for s in v.split(','):
+                for s in vals:
                     s = s.strip()
                     try:
                         assert(normalizeIPA(s) in ids)
@@ -367,7 +381,15 @@ def check_morpheme_ids(l):
             continue
         docid = 'synthesis' if 'synthesis' in doc else doc['source']
         doc_morph_ids = []
-        for m_id in parse_with_delims(doc['morph_ids']):
+        try:
+            mid2check = parse_with_delims(doc['morph_ids'])
+        except Exception as e:
+            msg = f"Error in Morpheme IDs list {doc['morph_ids']}. " \
+                  f" for {docid}\n"
+            sys.stderr.write(msg)
+            print(e, file=sys.stderr)
+            sys.stderr.write('\n')
+        for m_id in mid2check:
             if isinstance(m_id, str):
                 try:
                     assert(m_id.strip() == 'None')
@@ -457,7 +479,15 @@ def check_allophones(l, flatnatclasses):
         
         allophones = []
         procs = []
-        for a in parse_with_delims(doc['allophones']):
+        try:
+            allos2check = parse_with_delims(doc['allophones'])
+        except Exception as e:
+            msg = f"Error in allophone list {doc['allophones']}. " \
+                  f"'{', '.join(natclass)}' for {docid}\n"
+            sys.stderr.write(msg)
+            print(e, file=sys.stderr)
+            sys.stderr.write('\n')
+        for a in allos2check:
             try:
                 assert(normalizeIPA(a[0]) in natclass)
             except AssertionError:
@@ -563,7 +593,15 @@ def check_natclasses(l):
         nclasses = []
         flats = []
         catsymb = []
-        for nclass in parse_with_delims(doc['natclass']):
+        try:
+            nc2check = parse_with_delims(doc['natclass'])
+        except Exception as e:
+            msg = f"Error in Natural Class list {doc['natclass']}. " \
+                  f" for {docid}\n"
+            sys.stderr.write(msg)
+            print(e, file=sys.stderr)
+            sys.stderr.write('\n')
+        for nclass in nc2check:
             nc = check_natclass(nclass)
             nclasses.append(nc[0])
             flats.extend(nc[1])
