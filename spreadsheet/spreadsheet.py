@@ -3,6 +3,7 @@
 import sys
 import re
 import yaml
+import pandas as pd
 sys.path.append('..')
 from python.saphon.io import YAMLLang, normalizeIPA, readFeatList
 from vocab import natcat, proc_vocab
@@ -521,11 +522,15 @@ def check_allophones(l, flatnatclasses):
                     procs.append(pn)
                     try:
                         m = re.match(
-                            r'(?P<mpp>MPP=)?(?P<phone>[^-]+-)?(?P<proc>[^:]+)(?P<subtype>:.+)?',
+                            r'(?P<mpp>MPP=)?(?P<phone>[^-]+-)?(?P<procsubtype>(?P<proc>[^:]+)(?P<subtype>:.+)?)',
                             pn
                         )
                         assert(m is not None)
                         assert(m.group('proc') in proc_names)
+                        if m.group('phone') is not None and m.group('phone') != '':
+                            procs.append(m.group('proc'))
+                            if m.group('subtype') is not None and m.group('subtype') != '':
+                                procs.append(m.group('procsubtype'))
                     except AssertionError:
                         msg = f"Allophone proc_name '{pn.strip()}' does not match available Process names " \
                               f"'{', '.join(proc_names)}' for {docid}\n\n"
