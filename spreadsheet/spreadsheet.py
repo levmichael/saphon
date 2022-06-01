@@ -615,3 +615,16 @@ def check_natclasses(l):
         docflatnatclasses[docid] = flats
         doccatsymb[docid] = catsymb
     return (docnatclasses, docflatnatclasses, doccatsymb)
+
+def read_procmap(procfile='proc_defs.tsv'):
+    '''
+    Read the `proc_defs.tsv` file derived from Jasper's spreadsheet for
+    updating process names in allophone lists.
+    '''
+    return pd.read_csv(
+        procfile,
+        sep='\t',
+        encoding='utf-8',
+        header=None, names=('code', 'suggested'),
+        dtype={'code': str, 'suggested': str}
+    )
