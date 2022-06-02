@@ -628,3 +628,41 @@ def read_procmap(procfile='proc_defs.tsv'):
         header=None, names=('code', 'suggested'),
         dtype={'code': str, 'suggested': str}
     )
+
+def get_allophone_df(lang, doc):
+    '''
+    Return the allophones list from a language doc as a dataframe.
+
+    Parameters
+    -------
+
+    lang: a lang dict as returned by read_lang()
+    doc: 'synthesis' or integer index of source doc as found in
+         lang['ref']
+    Returns
+    -------
+
+    allodf: dataframe of phone, allophone, env, process columns
+    msg: string detailing which lang and doc were selected
+    '''
+    if doc == 'synthesis':
+        allostr = lang['synthesis']['allophones']
+        lname = lang['synthesis']['lang']
+        doctype = ''
+        src = 'synthesis'
+    else:
+        allostr = lang['ref'][int(doc)]['allophones']
+        lname = lang['ref'][int(doc)]['lang']
+        doctype = 'ref '
+        src = lang['ref'][int(doc)]['source']
+    return \
+        pd.DataFrame.from_records(
+            [a for a in parse_with_delims(allostr)],
+            columns=['phone', 'allophone', 'env', 'proc']
+        ).fillna(''), \
+        f"""
+You have selected allophones for:
+  language: {lname}
+  {doctype}document: {src}
+  allophones to be merged: {allostr}
+"""
