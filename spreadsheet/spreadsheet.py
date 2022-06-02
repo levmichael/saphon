@@ -666,3 +666,47 @@ You have selected allophones for:
   {doctype}document: {src}
   allophones to be merged: {allostr}
 """
+
+def parse_allo_proc(s):
+    '''
+    Parse the allophone list from Jasper's text file that contains
+    suggested new process names identified by id numbers.
+    '''
+    # Move proc numbers from outside of delimiter '{' to inside so that they
+    # don't get dropped by parse_with_delims().
+    s = re.sub(r'#?(?P<procnum>\d+){', '{' + '\g<procnum>', s)
+
+    newprocdf = pd.DataFrame.from_records(
+        [a for a in parse_with_delims(s.strip())],
+        columns=['numphone', 'allophone', 'env', 'proc']
+    ).fillna('')
+    newprocdf = pd.concat(
+        [
+            newprocdf,
+            newprocdf['numphone'].str.extract(r'(?P<procid>\d*)(?P<phone>.+)')
+        ],
+        axis='columns'
+    ).drop('numphone', axis='columns')[['phone', 'allophone', 'env', 'proc', 'procid']]
+    return newprocdf.merge(
+        read_procmap(),
+        how='left',
+        left_on='procid',
+        right_on='code'
+    ).drop('code', axis='columns').fillna('')
+
+def merge_allo_with_suggestions(allodf, allo_newproc):
+    '''
+    Merge allophone dataframe from a lang doc with new process names as
+    suggested in Jasper's text file. Return as a new dataframe.
+    '''
+    newprocdf = parse_allo_proc(allo_newproc)
+    mergedf = pd.merge(
+        allodf,
+        newprocdf,
+        how='outer',
+        on=('phone', 'allophone', 'env'),
+        suffixes=('_orig', '_newproc')
+    ).fillna('')
+    mergedf['determined'] = mergedf['suggested']
+    mergedf.loc[mergedf['determined'] == '', 'determined'] = mergedf.loc[mergedf['determined'] == '', 'proc_orig']
+    return mergedf
