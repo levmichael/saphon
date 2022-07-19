@@ -12,6 +12,11 @@ from vocab import natcat, proc_vocab
 featInfo = readFeatList('../resources/ipa-table.txt')
 allowed_phon = featInfo.order()
 
+# Process regex
+procre = re.compile(
+    r'(?P<tag>(MPP|XMP|XWP)=)?(?P<phone>[^-]+-)?(?P<procsubtype>(?P<proc>[^:]+)(?P<subtype>:.+)?)'
+)
+
 # Map spreadsheet field names to yaml field names.
 # TODO: yaml field names are not yet defined and need to match the yaml standard
 fields = {
@@ -307,20 +312,28 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
         docid = 'synthesis' if 'synthesis' in doc else doc['source']
         ids = natclass_map[docid] + morph_id_map[docid] + catsymb[docid]
         for proc in doc['processes']:
+            m = re.match(procre, proc['proc_type'])
             try:
-                assert(proc['proc_type'] in proc_vocab)
+                assert(m is not None)
             except AssertionError:
-                msg = f'Process type {proc["proc_type"]} not in proc_vocab ' \
-                      f' for {docid}\n\n'
+                msg = f'Could not parse proc_type {proc["proc_type"]}) ' \
+                      f'for {docid}\n\n'
                 sys.stderr.write(msg)
             try:
+                assert(m.group('proc') in proc_vocab)
+            except AssertionError:
+                msg = f'Process type {m.group("proc")} (from {proc["proc_type"]}) not in proc_vocab ' \
+                      f'for {docid}\n\n'
+                sys.stderr.write(msg)
+            try:
+                proc_name = f'{m.group("tag") or ""}{m.group("phone") or ""}{m.group("proc")}'
                 assert(
-                    proc['proc_name'].startswith(proc['proc_type'] + ':') or
-                    proc['proc_name'] == proc['proc_type']
+                    proc['proc_name'].startswith(proc_name + ':') or
+                    proc['proc_name'] == proc_name
                 )
             except AssertionError:
-                msg = f'Process type {proc["proc_name"]} does not match type {proc["proc_type"]} ' \
-                      f' for {docid}\n\n'
+                msg = f'Process type {proc["proc_name"]} does not match type {m.group("proc")} (from {proc["proc_type"]}) ' \
+                      f'for {docid}\n\n'
                 sys.stderr.write(msg)
             try:
                 assert(proc['proc_name'] in alloprocs[docid])
@@ -346,13 +359,25 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
                 else:
                     vals = [k.strip() for k in proc[fld].strip().split(',')]
                     v = proc[fld].strip()
-                if v in ['None', 'Uncertain', 'Unspecified']:
+                if v in ['NA', 'None', 'Uncertain', 'Unspecified']:
                     try:
                         assert(v != 'Uncertain' or docid == 'synthesis')
                         assert(v != 'Unspecified' or docid != 'synthesis')
                     except AssertionError:
                         allowed_type = 'ref' if docid == 'synthesis' else 'synthesis'
                         msg = f"{fld} value '{v}' allowed only in {allowed_type} " \
+                              f"'{', '.join(ids)}' for {docid}\n\n"
+                        sys.stderr.write(msg)
+                    try:
+                        assert(v != 'None' or m.group('proc') in ('LDNH', 'LDOH', 'LNsyll') )
+                    except AssertionError:
+                        msg = f"{fld} value '{v}' allowed only for procs 'LDNH', 'LDOH', 'LNsyll' " \
+                              f"'{', '.join(ids)}' for {docid}\n\n"
+                        sys.stderr.write(msg)
+                    try:
+                        assert(v != 'NA' or m.group('proc') in ('LN', 'LO', 'BN', 'BO', 'SN', 'SO', 'LNsyll') )
+                    except AssertionError:
+                        msg = f"{fld} value '{v}' allowed only for procs 'LN', 'LO', 'BN', 'BO', 'SN', 'SO', 'LNsyll' " \
                               f"'{', '.join(ids)}' for {docid}\n\n"
                         sys.stderr.write(msg)
                     continue
@@ -521,10 +546,7 @@ def check_allophones(l, flatnatclasses):
                     pn = pn.strip()
                     procs.append(pn)
                     try:
-                        m = re.match(
-                            r'(?P<mpp>MPP=)?(?P<phone>[^-]+-)?(?P<procsubtype>(?P<proc>[^:]+)(?P<subtype>:.+)?)',
-                            pn
-                        )
+                        m = re.match(procre, pn)
                         assert(m is not None)
                         assert(m.group('proc') in proc_names)
                         if m.group('phone') is not None and m.group('phone') != '':
@@ -655,11 +677,21 @@ def get_allophone_df(lang, doc):
         lname = lang['ref'][int(doc)]['lang']
         doctype = 'ref '
         src = lang['ref'][int(doc)]['source']
-    return \
-        pd.DataFrame.from_records(
+    try:
+        df = pd.DataFrame.from_records(
             [a for a in parse_with_delims(allostr)],
             columns=['phone', 'allophone', 'env', 'proc']
-        ).fillna(''), \
+        ).fillna('')
+    except ValueError:
+        # 'String mapping' 5-tuple. The third column should really be
+        # 'input' for these, but we call it 'env' for consistency with
+        # non-string mapping allophone sets.
+        df = pd.DataFrame.from_records(
+            [a for a in parse_with_delims(allostr)],
+            columns=['phone', 'allophone', 'env', 'output', 'proc']
+        ).fillna('')
+    return \
+        df, \
         f"""
 You have selected allophones for:
   language: {lname}
