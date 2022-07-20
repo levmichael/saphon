@@ -551,8 +551,12 @@ def check_allophones(l, flatnatclasses):
                         assert(m.group('proc') in proc_names)
                         if m.group('phone') is not None and m.group('phone') != '':
                             procs.append(m.group('proc'))
+                            if m.group('tag') is not None and m.group('tag') != '':
+                                procs.append(m.group('tag') + m.group('proc'))
                             if m.group('subtype') is not None and m.group('subtype') != '':
                                 procs.append(m.group('procsubtype'))
+                                if m.group('tag') is not None and m.group('tag') != '':
+                                    procs.append(m.group('tag') + m.group('procsubtype'))
                     except AssertionError:
                         msg = f"Allophone proc_name '{pn.strip()}' does not match available Process names " \
                               f"'{', '.join(proc_names)}' for {docid}\n\n"
