@@ -520,7 +520,7 @@ def check_allophones(l, flatnatclasses):
             sys.stderr.write('\n')
         for a in allos2check:
             try:
-                assert(normalizeIPA(a[0]) in natclass)
+                assert(normalizeIPA(a[0]) in natclass or a[0] == '∅')
             except AssertionError:
                 msg = f"Allophone '{a[0]}' ({a[0].encode('utf8')}) not in Natural Classes/Segments " \
                       f"'{', '.join(natclass)}' for {docid}\n\n"
