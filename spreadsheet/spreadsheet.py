@@ -375,9 +375,9 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
                               f"'{', '.join(ids)}' for {docid}\n\n"
                         sys.stderr.write(msg)
                     try:
-                        assert(v != 'NA' or m.group('proc') in ('LN', 'LO', 'BN', 'BO', 'SN', 'SO', 'LNsyll') )
+                        assert(v != 'NA' or m.group('proc') in ('LN', 'LO', 'BN', 'BO', 'SN', 'SO', 'LNsyll', 'hnasalization') )
                     except AssertionError:
-                        msg = f"{fld} value '{v}' allowed only for procs 'LN', 'LO', 'BN', 'BO', 'SN', 'SO', 'LNsyll' " \
+                        msg = f"{fld} value '{v}' allowed only for procs 'LN', 'LO', 'BN', 'BO', 'SN', 'SO', 'LNsyll', 'hnasalization' " \
                               f"'{', '.join(ids)}' for {docid}\n\n"
                         sys.stderr.write(msg)
                     continue
@@ -520,7 +520,7 @@ def check_allophones(l, flatnatclasses):
             sys.stderr.write('\n')
         for a in allos2check:
             try:
-                assert(normalizeIPA(a[0]) in natclass or a[0] == '∅')
+                assert(normalizeIPA(a[0]) in natclass)
             except AssertionError:
                 msg = f"Allophone '{a[0]}' ({a[0].encode('utf8')}) not in Natural Classes/Segments " \
                       f"'{', '.join(natclass)}' for {docid}\n\n"
