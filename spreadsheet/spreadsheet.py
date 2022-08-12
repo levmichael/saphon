@@ -500,7 +500,12 @@ def check_allophones(l, flatnatclasses):
         if doc == {}:
             continue
         docid = 'synthesis' if 'synthesis' in doc else doc['source']
-        proc_names = [p['proc_name'] for p in doc['processes']] + proc_vocab
+        proc_names = proc_vocab
+        for p in doc['processes']:
+            try:
+                proc_names.append(p['proc_name'])
+            except KeyError:
+                continue
         natclass = flatnatclasses[docid]
         
         allophones = []
