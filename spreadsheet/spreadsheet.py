@@ -3,6 +3,7 @@
 import sys
 import re
 import yaml
+import unicodedata
 import pandas as pd
 sys.path.append('..')
 from python.saphon.io import YAMLLang, normalizeIPA, readFeatList
@@ -58,7 +59,7 @@ fields = {
         'type': 'type',
         'morpheme class': 'morph_class',
         'morpheme ids': 'morph_ids', # also in phon_md
-        'positional restriction wrt constituent': 'wrt', # Undergoers only
+        'positional restriction': 'wrt', # Undergoers only
         'location of trigger wrt domain': 'wrt'  # Triggers only
     }
 }
@@ -382,9 +383,14 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
                         sys.stderr.write(msg)
                     continue
                 for s in vals:
-                    s = s.strip()
+                    # Strip whitespace and boundary symbols from edges.
+                    s = s.strip().strip('#').strip('_').strip('%').strip('$').strip('+')
+                    if s == '':
+                        continue   # If s is just a boundary symbol
                     try:
-                        assert(normalizeIPA(s) in ids)
+                        to_norm = unicodedata.normalize('NFC', s) \
+                                             .replace(b'\xcc\x81'.decode('utf8'), '') # Remove acute accent from s
+                        assert(normalizeIPA(to_norm) in ids)
                     except AssertionError:
                         msg = f"{fld} value '{s}' ({s.encode('utf8')}) not in Natural Classes/Segments/Morpheme IDs " \
                               f"'{', '.join(ids)}' for {docid}\n\n"
@@ -520,7 +526,11 @@ def check_allophones(l, flatnatclasses):
             sys.stderr.write('\n')
         for a in allos2check:
             try:
-                assert(normalizeIPA(a[0]) in natclass or a[0] == '∅')
+                assert(
+                    normalizeIPA(a[0]) in natclass or \
+                    a[0] == '∅' or \
+                    (a[0] in ['V', 'Ṽ'] and len(a) == 5)  # String mappings can have V or nasalized V as first element of an allophone tuple
+                )
             except AssertionError:
                 msg = f"Allophone '{a[0]}' ({a[0].encode('utf8')}) not in Natural Classes/Segments " \
                       f"'{', '.join(natclass)}' for {docid}\n\n"
