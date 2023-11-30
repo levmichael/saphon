@@ -9,6 +9,84 @@ sys.path.append('..')
 from python.saphon.io import YAMLLang, normalizeIPA, readFeatList
 from vocab import natcat, proc_vocab
 
+# Published Tupian input spreadsheet
+puburl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRtBRoC1INFhZIP0z5YCe7K-6e_cbJeoCNv5RbdCiugSrNQXLfwLLMHiL5VLo6MTvX1nJbawiBU5KF4'
+
+# Language sheet names
+langsheets = {
+    'Instructions': {'gid': '1060289300', 'short': '', 'include': False},
+    'Template_20210303': {'gid': '1623774075', 'short': '', 'include': False},
+    'Achê': {'gid': '896154831', 'short': 'Ache', 'include': True},
+    'Akuntsú': {'gid': '1490621297', 'short': 'Akuntsu', 'include': True},
+    'Anambé do Cairari': {'gid': '1053005052', 'short': 'anambe', 'include': True},
+    'Apiaká': {'gid': '566996941', 'short': 'Apiaka', 'include': True},
+    'Araweté': {'gid': '1610450172', 'short': 'Arawete', 'include': True},
+    'Asurini do Xingú': {'gid': '1267190081', 'short': 'AsuriniX', 'include': True},
+    'Asuriní do Tocantins': {'gid': '1540437186', 'short': 'AsuriniT', 'include': True},
+    'Avá-Canoeiro (Goiás)': {'gid': '948635180', 'short': 'avagoias', 'include': True},
+    'Avá-Canoeiro (Tocantins)': {'gid': '1515221896', 'short': 'avatocantins', 'include': True},
+    'Awetí': {'gid': '1182837033', 'short': 'Aweti', 'include': True},
+    'Chiriguano Ava': {'gid': '720210731', 'short': 'chiriguanoaa', 'include': True},
+    'Chiriguano Izoceño': {'gid': '1176144113', 'short': 'ChiriguanoI', 'include': True},
+    'Cinta Larga': {'gid': '162487908', 'short': 'cinta', 'include': True},
+    'Gavião do Jiparaná': {'gid': '1977617067', 'short': 'GaviaoJ', 'include': True},
+    'Guajajára': {'gid': '1625576629', 'short': 'Guajajara', 'include': True},
+    'Guajá (Guajá do Caru)': {'gid': '724954437', 'short': 'guajac', 'include': True},
+    'Guajá (Guajá do Alto Turiaçu)': {'gid': '1316252051', 'short': 'guajaat', 'include': True},
+    'Guarayu': {'gid': '1910862061', 'short': 'Guarayu', 'include': True},
+    'Içuã': {'gid': '222941122', 'short': 'icua', 'include': True},
+    'Jorá': {'gid': '1732395867', 'short': 'jora', 'include': True},
+    'Júma': {'gid': '1922139797', 'short': 'Juma', 'include': True},
+    'Juruna': {'gid': '523472617', 'short': 'Juruna', 'include': True},
+    'Kaiowá': {'gid': '529905792', 'short': 'kaiowa', 'include': True},
+    'Kamayurá': {'gid': '1149145593', 'short': 'Kamayura', 'include': True},
+    'Karipuna': {'gid': '1522139425', 'short': 'karipuna', 'include': True},
+    'Karitiana': {'gid': '679811897', 'short': 'Karitiana', 'include': True},
+    'Karo': {'gid': '766861749', 'short': 'Karo', 'include': True},
+    'Kayabí (Jawarum)': {'gid': '1565311689', 'short': 'kayabij', 'include': True},
+    'Kayabí (Xingú)': {'gid': '1161168599', 'short': 'kayabix', 'include': True},
+    'Kokama-Kokamilla': {'gid': '361432087', 'short': 'Kokama', 'include': True},
+    'Kuruayá': {'gid': '1041056554', 'short': 'Kuruaya', 'include': True},
+    'Makuráp': {'gid': '1353750550', 'short': 'Makurap', 'include': True},
+    'Mbyá (Mbyá de Argentina)': {'gid': '618017842', 'short': 'mbyaa', 'include': True},
+    'Mbyá (Mbyá do Brasil)': {'gid': '1335096239', 'short': 'mbyab', 'include': True},
+    'Mundurukú de Madeira': {'gid': '293811978', 'short': 'mundurukum', 'include': True},
+    'Mundurukú do Cururu': {'gid': '2084886171', 'short': 'mundurukuc', 'include': True},
+    'Mundurukú do Pará': {'gid': '181321551', 'short': 'mundurukup', 'include': True},
+    '(old) Nhandeva': {'gid': '455342836', 'short': '', 'include': False},
+    'Nhandeva (reharvested)': {'gid': '1609982356', 'short': 'Nhandeva', 'include': True},
+    'Nheengatú (medio Rio Amazonas)': {'gid': '1167307937', 'short': 'nheengatura', 'include': True},
+    'Nheengatú (upper Rio Negro)': {'gid': '1584077038', 'short': 'nheengaturn', 'include': True},
+    'Omagua (Kambeba)': {'gid': '1278716583', 'short': 'omaguakambeba', 'include': True},
+    'Omagua (San Joaquín de Omaguas)': {'gid': '1367669411', 'short': 'omaguasj', 'include': True},
+    'Pai Tavytera': {'gid': '2084041224', 'short': 'PaiTavytera', 'include': True},
+    'Paraguayan Guaraní': {'gid': '745552797', 'short': 'GuaraniP', 'include': True},
+    'Parakanã': {'gid': '1142785106', 'short': 'Parakana', 'include': True},
+    'ParintintinTenharim': {'gid': '18421589', 'short': 'parintintin', 'include': True},
+    'Puruborá': {'gid': '2105767358', 'short': 'purubora', 'include': True},
+    'Sakirabiá': {'gid': '1058602386', 'short': 'Sakirabia', 'include': True},
+    'Sateré-Mawé': {'gid': '1423554072', 'short': 'SatereMawe', 'include': True},
+    'Siriono': {'gid': '346125711', 'short': 'Siriono', 'include': True},
+    'Suruí de Rondônia': {'gid': '1355234514', 'short': 'suruirondonia', 'include': True},
+    'Suruí do Tocantins': {'gid': '2136236205', 'short': 'suruitocantins', 'include': True},
+    'Tapiete': {'gid': '1894226663', 'short': 'Tapiete', 'include': True},
+    'Tapirapé': {'gid': '1164878023', 'short': 'Tapirape', 'include': True},
+    '(old) TekoEmerillon': {'gid': '1669767264', 'short': '', 'include': False},
+    'TekoEmerillon (reharvested)': {'gid': '293795357', 'short': 'teko', 'include': True},
+    'Tembé': {'gid': '1818697759', 'short': 'Tembe', 'include': True},
+    'Tuparí': {'gid': '2097266026', 'short': 'Tupari', 'include': True},
+    'Tupinambá': {'gid': '426104073', 'short': 'Tupinamba', 'include': True},
+    'Uru-Eu-Wau-Wau': {'gid': '1947771049', 'short': 'UruEuWauWau', 'include': True},
+    'Urubu Kaapor': {'gid': '180375236', 'short': 'urubu', 'include': True},
+    'Warázu': {'gid': '785625776', 'short': 'warazu', 'include': True},
+    'Wayampi': {'gid': '1384961172', 'short': 'wayampi', 'include': True},
+    'Wayoró': {'gid': '1787095325', 'short': 'wayoro', 'include': True},
+    'Xetá': {'gid': '146427404', 'short': 'Xeta', 'include': True},
+    'Xipaya': {'gid': '887152938', 'short': 'Xipaya', 'include': True},
+    'Yuqui': {'gid': '143456252', 'short': 'Yuqui', 'include': True},
+    'Zoé': {'gid': '411357392', 'short': 'Zoe', 'include': True}
+}
+
 # Get allowed phoneme symbols.
 featInfo = readFeatList('../resources/ipa-table.txt')
 allowed_phon = featInfo.order()
@@ -78,6 +156,24 @@ def read_lang(infile):
     text = ''
     with open(infile, 'r', encoding='utf-8') as fh:
         text = fh.read()
+    lang = read_lang_text(text)
+    if lang['synthesis'] == {}:
+        sys.stderr.write(f'No synthesis found in lang file {infile}.\n')
+    if lang['ref'] == []:
+        sys.stderr.write(f'No ref docs found in lang file {infile}.\n')
+    return lang
+
+def read_lang_text(text):
+    '''
+    Read a language's input data from tab-delimited text string lines.
+
+    Returns
+    -------
+
+    lang: dict
+    Dictionary of docs for a language. The keys are doc identifiers (ref source or 'synthesis'), and
+    the values are dicts of doc metadata.
+    '''
     docs = re.split('Doctype:\s*\t', text)[1:]  # Element 0 is an empty string
 
     lang = {'synthesis': {}, 'ref': [] }
@@ -89,9 +185,9 @@ def read_lang(infile):
         else:
             raise RuntimeError("Unrecognized document type. Must be 'Reference' or 'Synthesis'.")
     if lang['synthesis'] == {}:
-        sys.stderr.write(f'No synthesis found in lang file {infile}.\n')
+        raise RuntimeError(f'No synthesis found.\n')
     if lang['ref'] == []:
-        sys.stderr.write(f'No ref docs found in lang file {infile}.\n')
+        raise RuntimeError(f'No ref docs found.\n')
     return lang
 
 def parse_md(lines, fmap):
@@ -313,7 +409,11 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
         docid = 'synthesis' if 'synthesis' in doc else doc['source']
         ids = natclass_map[docid] + morph_id_map[docid] + catsymb[docid]
         for proc in doc['processes']:
-            m = re.match(procre, proc['proc_type'])
+            try:
+                m = re.match(procre, proc['proc_type'])
+            except KeyError:
+                msg = f'Proc {proc} missing "proc_type" key\n\n'
+                sys.stderr.write(msg)
             try:
                 assert(m is not None)
             except AssertionError:
@@ -336,13 +436,25 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
                 msg = f'Process type {proc["proc_name"]} does not match type {m.group("proc")} (from {proc["proc_type"]}) ' \
                       f'for {docid}\n\n'
                 sys.stderr.write(msg)
+            except KeyError:
+                msg = f'Proc {proc} missing "proc_name" key\n\n'
+                sys.stderr.write(msg)
             try:
                 assert(proc['proc_name'] in alloprocs[docid])
             except AssertionError:
                 msg = f'Process name {proc["proc_name"]} not used by any allophones ' \
                       f' for {docid}\n\n'
                 sys.stderr.write(msg)
+            except KeyError:
+                msg = f'Proc {proc} missing "proc_name" key\n\n'
+                sys.stderr.write(msg)
             for fld in ['transparencies', 'opacities', 'undergoers']:
+                try:
+                    proc[fld]
+                except KeyError:
+                    msg = f'Proc {proc} missing "transparencies", "opacities", or "undergoers" key\n\n'
+                    sys.stderr.write(msg)
+                    continue
                 if fld == 'undergoers':
                     try:
                         vals = [
@@ -351,11 +463,12 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
                             ) if (not k.startswith('(')) and (not k.endswith(')'))
                         ]
                     except Exception as e:
-                        msg = f"Error in Undergoers '{proc[fld][fld].strip()}'. " \
+                        msg = f"Error in Undergoers '{proc[fld]}'. " \
                               f" for {docid}\n"
                         sys.stderr.write(msg)
                         print(e, file=sys.stderr)
                         sys.stderr.write('\n')
+                        continue
                     v = proc[fld][fld].strip()
                 else:
                     vals = [k.strip() for k in proc[fld].strip().split(',')]
