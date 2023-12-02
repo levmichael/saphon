@@ -1,0 +1,14 @@
+name: saphonspread
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - git
+  - jupyter
+  - pandas
+  - pip
+  - pyyaml
+  - requests
+  - pip:
+    - git+https://github.com/rsprouse/phonlab
