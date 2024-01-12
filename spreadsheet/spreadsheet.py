@@ -248,7 +248,8 @@ def parse_proc(t, fmap, fmap_sub):
             try:
                 fld = fmap_sub[k]
             except KeyError:
-                sys.stderr.write(f"No match for field '{k}'. Parse possibly incorrect.\n")
+                fld = 'foo'
+                sys.stderr.write(f"No match for field '{k}'. Parse possibly incorrect.\n\n")
             if fld == 'undergoers':
                 curdict = undergoers
             elif fld == 'triggers':
@@ -256,6 +257,8 @@ def parse_proc(t, fmap, fmap_sub):
                     triggers.append(trigger)
                     trigger = {}
                 curdict = trigger
+            else:
+                curdict = {}
         curdict[fld] = v
     d['undergoers'] = undergoers
     d['triggers'] = triggers
