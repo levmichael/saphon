@@ -205,7 +205,8 @@ def parse_md(lines, fmap):
         try:
             k, v = l.split('\t', 1)
         except Exception as e:
-            sys.stderr.write(f"Could not split line '{l}': {e}\n\n")
+            if not l.startswith('Date completed'):
+                sys.stderr.write(f"Could not split line '{l}': {e}\n\n")
             continue
         k = k.strip().strip(':').lower()
         try:
