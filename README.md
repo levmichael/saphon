@@ -22,13 +22,15 @@ The top-level scalar fields of the `synthesis` document are described first:
 
 * `name`: The preferred citation form of the name of the language, in an orthographic form suited to academic publications.  It may contain spaces, hyphens, diacritics, and non-Latin glyphs that would occur in the preferred orthographic representation, e.g. **Arára do Mato Grosso**, **Aʔɨwa**, **Ashéninka (Apurucayali dialect)**.
 
+* `glottolog_name`: The language name [as it appears in Glottolog](https://glottolog.org/).
+
 * `short_name`: The language name abbreviated to around 12 characters or less, to be used in tables and plots where space is tight.  Spaces, hyphens, diacritics, non-Latin glyphs are all permitted.
 
 * `family`: This is the linguistic family of the language, or `Isolate` for linguistic isolates.
 
-Eight fields contain simple sequences (lists) of scalar values:
+* `synthesis`: A prose description of the project's synthesis of the source materials, provided as a multiline string. (TODO: rename field?)
 
-* `phonemes`: A list of the phonemes of the language, using symbols from the International Phonetic Alphabet. This list is synthesized from the entries listed in the `ref` documents.
+Eight fields contain simple sequences (lists) of scalar values:
 
 * `alternate_names`: A list of alternative or outdated names for the language.
 
@@ -38,22 +40,53 @@ Eight fields contain simple sequences (lists) of scalar values:
 
 * `notes`: A list of notes relating to the language.
 
-* `nasal_harmony`: Boolean indicating presence of nasal harmony (true) or not (false).
+* TODO TO BE DELETED: `nasal_harmony`: Boolean indicating presence of nasal harmony (true) or not (false).
 
 * `laryngeal_harmony`: Boolean indicating presence of laryngeal harmony (true) or not (false).
 
 * `tone`: Boolean indicating presence of tone (true) or not (false).
 
-Two fields contain sequences (lists) of mappings (dicts):
+Three fields contain sequences (lists) of mappings (dicts):
+
+The first two of these fields contains a list of simple dicts in which all dict values are scalar.
 
 * `coordinates`: A list of the geographical coordinates for the language. Each entry in the list is a mapping of the fields:
   * `latitude`: The coordinate latitude, given to 3 decimal places.
   * `longitude`: The coordinate longitude, given to 3 decimal places.
   * `elevation_meters`: The elevation in meters, rounded to the nearest integer meter. May be omitted if unknown.
 
-* `allophones`: A list of mappings of allophonic variants to phonemes in the language. Each entry in the list is a mapping of the fields:
-  * `allophone`: The allophonic variant, as written in IPA.
-  * `phoneme`: The phoneme corresponding to the allophonic variant. The `phoneme` must exactly match an entry in the `phonemes` list.
+* `morpheme_ids`: A list of morphemes in this language that are of note for the processes that are referred to in the document.
+  * `morpheme_id`: An string identifier for the morpheme.
+  * `morpheme_class`: The kind of morphological element that undergoes the process, if the `type` is `morphological`. The value must be one of 'prefix', 'root', 'suffix', 'proclitic', 'enclitic', or if `type` is not `morphological`, this field must have the value `NA` to indicate an empty value. (TODO: review the list of allowable values)
+  * `phonological_form`: The phonological form of the morpheme, using symbols from the International Phonetic Alphabet. (TODO: elaborate on the meaning of this field, e.g. UR vs. surface)
+  * `allomorphs`: A list of surface allomorphs of this morpheme, using symbols from the International Phonetic Alphabet. (TODO: check whether this needs to be a list)
+  * `gloss`: English language gloss of the morpheme.
+
+The second and third of these fields contains a list of dicts, the values of which can be list or dict datatypes. The first of these is `phonemes`:
+
+* `phonemes`: A list of the phonemes of the language, the allophones of each phoneme, and the environments in which they occur and the processes that are conditioned by each environment. This list is synthesized from the entries listed in the `ref` documents.
+
+  * `phoneme`: A phoneme of the language, using symbols from the International Phonetic Alphabet.
+  * `environments`: A list of environments in which the phoneme may occur, and the allophones that are conditioned by that environment, and processes that yield each allophone. The values of this list are dicts.
+    * `environment`: A description of the environment, as a dict.
+      * `preceding`: A string representation of the part of the environment that precedes the phone.
+      * `following`: A string representation of the part of the environment that follows the phone.
+      * `processes`: A list of processes that each yield a single allophone in the environment. This value is a list of dicts. Multiple values in this list implies free variation among the processes in this list.
+        * `processnames`: A list of process names that yield this allophone. Each value is a string. Thist list of process names does not imply free variation. Instead, the list may describe multiple processes that apply simultaneously, e.g. the process by which `phone` `e` yields `allophone` `ɛː` is described as the simultaneous application of two processes named `lowering` and `lengthening`.
+        * `allophone`: The allophone yielded by the process(es) in this environment, as denoted in `processnames` and using symbols from the International Phonetic Alphabet.
+
+The `processdetails` field is a list of details pertaining to all of the (nasal) processes active in the language. Each process described in this list must also refer to a process in the `phoneme` list one or more times. Each value in this list is a dict. The dict values of this list must not have repeated values of the conjunction of their `processtype` and `processname` values (see below).
+  * `processname`: The name of the process described. The value must match a string in the `processnames` list in the `phonemes` list. This value is a string. (TODO: drop process type from the name)
+  * `processtype`: The type of process described. The value is a string that must match one of the values of ... (TODO: add pointer to controlled vocabulary for this field).
+  * `description`: A prose description of the process.
+  * `optionality`: One of three values that describe whether the process applies without exception, optionally, or is not known. The valid values of these are, respectively, 'categorical', 'optional', and 'unknown'.
+  * `directionality`: One of five values that describe whether in which direction the process applies. The valid values are 'leftward', 'rightward', 'bidirectional', 'circumdirectional', and 'unknown'. (TODO: full description of meanings of these values)
+  * `alternation_type`: One of three values that describe the type of alternation described by this process. The valid values are 'phonological', 'morphophonological', and 'morphological'. (TODO: full description of the meanings of these values)
+  * `undergoers`: A description of the elements that are subject to this process. The value is a dict that describes these elements.
+    * `type`: The kind of element that undergoes the process. Must be one of 'segmental' or 'morphological'.
+    * `morpheme_class`: TODO: double check this value against the `morpheme_class` associated with this morpheme in `morpheme_ids`, then drop this value under `undergoers`.
+    * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word'
+    * `morpheme_ids`:
 
 ### `ref` documents
 
