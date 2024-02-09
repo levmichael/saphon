@@ -28,9 +28,9 @@ The top-level scalar fields of the `synthesis` document are described first:
 
 * `family`: This is the linguistic family of the language, or `Isolate` for linguistic isolates.
 
-* `synthesis`: A prose description of the project's synthesis of the source materials, provided as a multiline string. (TODO: rename field?)
+* `synthesis`: A prose description of the project's synthesis of the source materials. (TODO: rename field?)
 
-Eight fields contain simple sequences (lists) of scalar values:
+Eight fields contain lists of scalar values:
 
 * `alternate_names`: A list of alternative or outdated names for the language.
 
@@ -46,18 +46,18 @@ Eight fields contain simple sequences (lists) of scalar values:
 
 * `tone`: Boolean indicating presence of tone (true) or not (false).
 
-Three fields contain sequences (lists) of mappings (dicts):
+Three fields contain lists of mappings (dicts):
 
 The first two of these fields contains a list of simple dicts in which all dict values are scalar.
 
 * `coordinates`: A list of the geographical coordinates for the language. Each entry in the list is a mapping of the fields:
-  * `latitude`: The coordinate latitude, given to 3 decimal places.
-  * `longitude`: The coordinate longitude, given to 3 decimal places.
+  * `latitude`: The coordinate latitude in decimal format, given to 3 decimal places.
+  * `longitude`: The coordinate longitude in decimal format, given to 3 decimal places.
   * `elevation_meters`: The elevation in meters, rounded to the nearest integer meter. May be omitted if unknown.
 
-* `morpheme_ids`: A list of morphemes in this language that are of note for the processes that are referred to in the document.
+* `morphemes`: A list of morphemes in this language that are of note for one or more processes that are referred to in the document.
   * `morpheme_id`: An string identifier for the morpheme.
-  * `morpheme_class`: The kind of morphological element that undergoes the process, if the `type` is `morphological`. The value must be one of 'prefix', 'root', 'suffix', 'proclitic', 'enclitic', or if `type` is not `morphological`, this field must have the value `NA` to indicate an empty value. (TODO: review the list of allowable values)
+  * `morpheme_class`: The kind of morphological element that undergoes the process, if the process's `type` is `morphological`. The value must be one of 'prefix', 'root', 'suffix', 'proclitic', 'enclitic', or if the process `type` is not `morphological`, this field must have the value `NA` to indicate an empty value. (TODO: review the list of allowable values)
   * `phonological_form`: The phonological form of the morpheme, using symbols from the International Phonetic Alphabet. (TODO: elaborate on the meaning of this field, e.g. UR vs. surface)
   * `allomorphs`: A list of surface allomorphs of this morpheme, using symbols from the International Phonetic Alphabet. (TODO: check whether this needs to be a list)
   * `gloss`: English language gloss of the morpheme.
@@ -68,25 +68,33 @@ The second and third of these fields contains a list of dicts, the values of whi
 
   * `phoneme`: A phoneme of the language, using symbols from the International Phonetic Alphabet.
   * `environments`: A list of environments in which the phoneme may occur, and the allophones that are conditioned by that environment, and processes that yield each allophone. The values of this list are dicts.
-    * `environment`: A description of the environment, as a dict.
-      * `preceding`: A string representation of the part of the environment that precedes the phone.
-      * `following`: A string representation of the part of the environment that follows the phone.
-      * `processes`: A list of processes that each yield a single allophone in the environment. This value is a list of dicts. Multiple values in this list implies free variation among the processes in this list.
-        * `processnames`: A list of process names that yield this allophone. Each value is a string. Thist list of process names does not imply free variation. Instead, the list may describe multiple processes that apply simultaneously, e.g. the process by which `phone` `e` yields `allophone` `ɛː` is described as the simultaneous application of two processes named `lowering` and `lengthening`.
-        * `allophone`: The allophone yielded by the process(es) in this environment, as denoted in `processnames` and using symbols from the International Phonetic Alphabet.
+    * `preceding`: A string representation of the part of the environment that precedes the phone.
+    * `following`: A string representation of the part of the environment that follows the phone.
+    * `processes`: A list of processes that each yield a single allophone in the environment. This value is a list of dicts. Multiple values in this list implies free variation among the processes in this list.
+      * `processnames`: A list of process names that yield this allophone. Each value is a string. Thist list of process names does not imply free variation. Instead, the list may describe multiple processes that apply simultaneously, e.g. the process by which `phone` `e` yields `allophone` `ɛː` is described as the simultaneous application of two processes named `lowering` and `lengthening`.
+      * `allophone`: The allophone yielded by the process(es) in this environment, as denoted in `processnames` and using symbols from the International Phonetic Alphabet.
 
-The `processdetails` field is a list of details pertaining to all of the (nasal) processes active in the language. Each process described in this list must also refer to a process in the `phoneme` list one or more times. Each value in this list is a dict. The dict values of this list must not have repeated values of the conjunction of their `processtype` and `processname` values (see below).
-  * `processname`: The name of the process described. The value must match a string in the `processnames` list in the `phonemes` list. This value is a string. (TODO: drop process type from the name)
-  * `processtype`: The type of process described. The value is a string that must match one of the values of ... (TODO: add pointer to controlled vocabulary for this field).
+* `processdetails`: A list of details pertaining to all of the (nasal) processes active in the language. Each process described in this list must also refer to a process in the `phoneme` list one or more times. Each value in this list is a dict. The dict values of this list must not have repeated values of the conjunction of their `processtype` and `processname` values (see below).
+  * `processname`: The name of the process described. The value must match a string in the `processnames` list in the `phonemes` list. This value is a string.
+  * `processtype`: The type of process described. The value is a string that must match one of the values of ... (TODO: add pointer to controlled vocabulary for this field). (TODO: check that this value matches the prefix of `processname`.
   * `description`: A prose description of the process.
   * `optionality`: One of three values that describe whether the process applies without exception, optionally, or is not known. The valid values of these are, respectively, 'categorical', 'optional', and 'unknown'.
   * `directionality`: One of five values that describe whether in which direction the process applies. The valid values are 'leftward', 'rightward', 'bidirectional', 'circumdirectional', and 'unknown'. (TODO: full description of meanings of these values)
   * `alternation_type`: One of three values that describe the type of alternation described by this process. The valid values are 'phonological', 'morphophonological', and 'morphological'. (TODO: full description of the meanings of these values)
-  * `undergoers`: A description of the elements that are subject to this process. The value is a dict that describes these elements.
+  * `undergoers`: A list of the elements that are subject to this process. The members of this list must be either 1) a valid natural class symbol for this language or one of the language's phoneme symbols (corresponding to `type` 'segmental'); or 2) valid `morpheme_id` values for this language (corresponding to `type` 'morphological').
     * `type`: The kind of element that undergoes the process. Must be one of 'segmental' or 'morphological'.
     * `morpheme_class`: TODO: double check this value against the `morpheme_class` associated with this morpheme in `morpheme_ids`, then drop this value under `undergoers`.
-    * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word'
-    * `morpheme_ids`:
+    * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
+  * `triggers`: A list of the elements that trigger this process. The members of this list must be either 1) a valid natural class symbol for this language or one of the language's phoneme symbols (corresponding to `type` 'segmental'); or 2) valid `morpheme_id` values for this language (corresponding to `type` 'morphological').
+    * `type`: The kind of element that undergoes the process. Must be one of 'segmental' or 'morphological'.
+    * `morpheme_class`: TODO: double check this value against the `morpheme_class` associated with this morpheme in `morpheme_ids`, then drop this value under `undergoers`.
+    * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
+  * `transparent`: A list of the elements that are transparent to this process. The members of this list must be either 1) a valid natural class symbol for this language or one of the language's phoneme symbols (corresponding to `type` 'segmental'); or 2) valid `morpheme_id` values for this language (corresponding to `type` 'morphological').
+    * `type`: The kind of element that undergoes the process. Must be one of 'segmental' or 'morphological'. (TODO: for spreadsheet project, automatically fill with 'segmental')
+    * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word'  (TODO: for spreadsheet project, automatically fill with 'None')
+  * `opaque`: A list of the elements that are opaque to this process. The members of this list must be either 1) a valid natural class symbol for this language or one of the language's phoneme symbols (corresponding to `type` 'segmental'); or 2) valid `morpheme_id` values for this language (corresponding to `type` 'morphological').
+    * `type`: The kind of element that undergoes the process. Must be one of 'segmental' or 'morphological'. (TODO: for spreadsheet project, automatically fill with 'segmental')
+    * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word'  (TODO: for spreadsheet project, automatically fill with 'None')
 
 ### `ref` documents
 
