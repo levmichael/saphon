@@ -81,20 +81,26 @@ The second and third of these fields contains a list of dicts, the values of whi
   * `optionality`: One of three values that describe whether the process applies without exception, optionally, or is not known. The valid values of these are, respectively, 'categorical', 'optional', and 'unknown'.
   * `directionality`: One of five values that describe whether in which direction the process applies. The valid values are 'leftward', 'rightward', 'bidirectional', 'circumdirectional', and 'unknown'. (TODO: full description of meanings of these values)
   * `alternation_type`: One of three values that describe the type of alternation described by this process. The valid values are 'phonological', 'morphophonological', and 'morphological'. (TODO: full description of the meanings of these values)
-  * `undergoers`: A list of the elements that are subject to this process. The members of this list must be either 1) a valid natural class symbol for this language or one of the language's phoneme symbols (corresponding to `type` 'segmental'); or 2) valid `morpheme_id` values for this language (corresponding to `type` 'morphological').
-    * `type`: The kind of element that undergoes the process. Must be one of 'segmental' or 'morphological'.
-    * `morpheme_class`: TODO: double check this value against the `morpheme_class` associated with this morpheme in `morpheme_ids`, then drop this value under `undergoers`.
-    * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
-  * `triggers`: A list of the elements that trigger this process. The members of this list must be either 1) a valid natural class symbol for this language or one of the language's phoneme symbols (corresponding to `type` 'segmental'); or 2) valid `morpheme_id` values for this language (corresponding to `type` 'morphological').
-    * `type`: The kind of element that undergoes the process. Must be one of 'segmental' or 'morphological'.
-    * `morpheme_class`: TODO: double check this value against the `morpheme_class` associated with this morpheme in `morpheme_ids`, then drop this value under `undergoers`.
-    * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
-  * `transparent`: A list of the elements that are transparent to this process. The members of this list must be either 1) a valid natural class symbol for this language or one of the language's phoneme symbols (corresponding to `type` 'segmental'); or 2) valid `morpheme_id` values for this language (corresponding to `type` 'morphological').
-    * `type`: The kind of element that undergoes the process. Must be one of 'segmental' or 'morphological'. (TODO: for spreadsheet project, automatically fill with 'segmental')
-    * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word'  (TODO: for spreadsheet project, automatically fill with 'None')
-  * `opaque`: A list of the elements that are opaque to this process. The members of this list must be either 1) a valid natural class symbol for this language or one of the language's phoneme symbols (corresponding to `type` 'segmental'); or 2) valid `morpheme_id` values for this language (corresponding to `type` 'morphological').
-    * `type`: The kind of element that undergoes the process. Must be one of 'segmental' or 'morphological'. (TODO: for spreadsheet project, automatically fill with 'segmental')
-    * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word'  (TODO: for spreadsheet project, automatically fill with 'None')
+  * `undergoers`: A list of the elements that are subject to this process. The elements are described by a dict:
+    * `segments` A list of valid natural class and phoneme symbols for this language.
+      * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
+    * `morphemes`: A list of valid `morpheme_id` values for this language.
+      * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
+  * `triggers`: A list of the elements that trigger this process. The elements are described by a dict:
+    * `segments` A list of valid natural class and phoneme symbols for this language.
+      * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
+    * `morphemes`: A list of valid `morpheme_id` values for this language.
+      * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
+  * `transparent`: A list of the elements that are transparent to this process. The elements are described by a dict:
+    * `segments` A list of valid natural class and phoneme symbols for this language.
+      * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
+    * `morphemes`: A list of valid `morpheme_id` values for this language.
+      * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
+  * `opaque`: A list of the elements that are opaque to this process. The elements are described by a dict:
+    * `segments` A list of valid natural class and phoneme symbols for this language.
+      * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
+    * `morphemes`: A list of valid `morpheme_id` values for this language.
+      * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
 
 ### `ref` documents
 
