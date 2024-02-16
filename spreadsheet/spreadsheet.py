@@ -205,9 +205,13 @@ def parse_md(lines, fmap):
         try:
             k, v = l.split('\t', 1)
         except Exception as e:
-            if not l.startswith('Date completed'):
+            if l.startswith('Notes'):
+                k, v = ('notes', 'None')
+            elif not l.startswith('Date completed'):
                 sys.stderr.write(f"Could not split line '{l}': {e}\n\n")
-            continue
+                continue
+            else:
+                continue
         k = k.strip().strip(':').lower()
         try:
             d[fmap[k]] = v
@@ -404,6 +408,52 @@ def parse_with_delims(s):
     else:
         return splits
     
+def parse_multienv(s):
+    '''
+    Parse a string that contains multiple environment strings into its constituents.
+
+    Returns
+    -------
+
+    splits: list
+    A list of substrings split on ','. Substrings delimited by '{}' are preserved whole,
+    and no split occurs on a ',' internal to a delimited substring.
+    '''
+    splits = []
+    for openpos, closepos, level in delim_iter(s):
+        if level == 0:
+            tpl = s[openpos:closepos]
+            splits.append(split_outside_delims(tpl))
+    if splits == []:
+        return s
+    else:
+        return splits[0]
+
+def parse_env(s):
+    '''
+    Parse an environment string.
+
+    Returns
+    -------
+
+    envs: list of dict
+    A list of dicts that represent the environments found in the string.
+    Each dict contains keys `preceding` and `following` which represent
+    the left and right side of the environment.
+    '''
+    envre = re.compile(r'(?P<preceding>[^_]*)_(?P<following>[^_]*)')
+    numenv = len(s) - len(s.replace('_',''))
+    try:
+        if numenv == 0:
+            # TODO: handle '@', 'US', '&'
+            parse = [{'preceding': f'TODO: {s}', 'following': f'TODO: {s}'}]
+        elif numenv == 1:
+            parse = [envre.search(s).groupdict()]
+        else:
+            parse = [envre.search(e).groupdict() for e in parse_multienv(s)]
+    except Exception as e:
+            parse = [f'ERROR parsing environment string {s}']
+    return parse
 
 def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
     '''Check processes for each doc.'''
