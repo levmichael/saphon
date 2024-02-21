@@ -1,9 +1,9 @@
 from collections import *
 
-from saphon.io import *
-from saphon.web.write_inventories import writeTable, writeNonsounds
-from saphon.web.optimize_layout import *
-from saphon.web.xlt import *
+from ..io import *
+from ..web.write_inventories import writeTable, writeNonsounds
+from ..web.optimize_layout import *
+from ..web.xlt import *
 #import dbg
 
 def writeLocal(saphonData, htmlDir, loc):
