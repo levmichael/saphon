@@ -4,6 +4,7 @@ import sys
 import re
 import yaml
 import unicodedata
+from copy import deepcopy
 import pandas as pd
 sys.path.append('..')
 from python.saphon.io import YAMLLang, normalizeIPA, readFeatList
@@ -219,7 +220,61 @@ def parse_md(lines, fmap):
             sys.stderr.write(f"No match for field '{k}'. Parse possibly incorrect.")
     return d
 
-def parse_proc(t, fmap, fmap_sub):
+def parse_proc(t):
+    '''
+    Parse metadata from a section of process text lines.
+
+    Returns
+    -------
+
+    d: dict
+    A dictionary in which the keys are the process field names and the values are the
+    line remainders.
+    '''
+    m = re.search(r'(?P<top>.+?)(?P<bottom>(?:undergoers|triggers|transparencies|opacities):.+)', t, re.MULTILINE|re.IGNORECASE|re.DOTALL)
+
+    utosre = r'(?P<fld>undergoers|triggers|transparencies|opacities):\s+(?:(?P<objs>.+)\nType:\s+(?P<type>.+)\n(?:Morpheme class:\s+(?P<mclass>.+)\n)?Morpheme IDs:\s+(?P<mids>.+)\nPositional restriction:\s+(?P<posres>.+)|(?P<tos>.+))'
+
+    try:
+        top = m.groupdict()['top']
+    except:
+        print(f'Could not parse proc section:\n{t}\n\n')
+        raise
+    proc = {n: '' for n in ('proc_name', 'proc_type', 'description', 'optionality', 'directionality', 'alternation_type')}
+    for fld, k in (('process name', 'proc_name'), ('process type', 'proc_type'), ['description'] * 2, ['optionality'] * 2, ['directionality'] * 2, ('alternation type', 'alternation_type')):
+        fldm = re.search(f'{fld}:\s+(?P<val>.+)', top, re.IGNORECASE|re.MULTILINE)
+        try:
+            proc[k] = fldm.groupdict()['val']
+        except AttributeError:
+            proc[k] = 'TODO: NOT PARSED'
+
+    proc['undergoers'] = {'segments': {'units': [], 'positional_restrictions': ''}, 'morphemes': {'units': [], 'positional_restrictions': ''}}
+    for fld in ('triggers', 'transparent', 'opaque'):
+        proc[fld] = {'segments': [], 'morphemes': []}
+    bottom = m.groupdict()['bottom']
+    for m in re.finditer(utosre, bottom, re.MULTILINE|re.IGNORECASE):
+        gd = m.groupdict()
+        if gd['tos'] is not None:
+            myfld = {'transparencies': 'transparent', 'opacities': 'opaque'}[gd['fld'].lower()]
+            proc[myfld]['segments'].append({'units': [c.strip().strip('{').strip('}').strip() for c in gd['tos'].split(',')], 'positional_restrictions': ''})
+        else:
+            # TODO: for triggers, collect in separate lists for segments/morphemes and add later
+            objs = [c.strip().strip('{').strip('}').strip() for c in gd['objs'].split(',')]
+            if gd['type'].lower() == 'segmental':
+                if gd['fld'].lower() == 'triggers':
+                    proc[gd['fld'].lower()]['segments'].append({'units': objs, 'positional_restrictions': gd['posres']})
+                else:
+                    proc[gd['fld'].lower()]['segments']['units'] = objs
+                    proc[gd['fld'].lower()]['segments']['positional_restrictions'] = gd['posres']
+            else:
+                if gd['fld'].lower() == 'triggers':
+                    proc[gd['fld'].lower()]['morphemes'].append({'units': objs, 'positional_restrictions': gd['posres']})
+                else:
+                    proc[gd['fld'].lower()]['morphemes']['units'] = objs
+                    proc[gd['fld'].lower()]['morphemes']['positional_restrictions'] = gd['posres']
+    return proc
+
+def parse_proc_old(t, fmap, fmap_sub):
     '''
     Parse metadata from a section of process text lines.
 
@@ -233,9 +288,10 @@ def parse_proc(t, fmap, fmap_sub):
     d = {}
     if t == '':
         return d
-    undergoers = {}  # single undergoer per process
+    empty_dict = {'segments': {'segments': [], 'positional_restrictions': ''}, 'morphemes': {'morphemes': [], 'positional_restrictions': ''}}
+    undergoers = deepcopy(empty_dict)  # single undergoer per process
     triggers = []    # multiple triggers per process
-    trigger = {}     # a single trigger
+    trigger = deepcopy(empty_dict)     # a single trigger
     subtype = ''
     for l in t.split('\n'):
         k = ''
@@ -248,6 +304,11 @@ def parse_proc(t, fmap, fmap_sub):
         k = k.strip().strip(':').lower()
         try:
             fld = fmap[k]
+            if k in ('transparencies', 'opacities'):
+                mydict = deepcopy(empty_dict)
+                mydict['segments']['segments'] = v
+                v = {k: mydict}
+#                v = {k: {'segments': {'segments': v, 'positional_restrictions': ''}, 'morphemes': {'morphemes': [], 'positional_restrictions': ''}}}
             curdict = d
         except KeyError:
             try:
@@ -268,6 +329,7 @@ def parse_proc(t, fmap, fmap_sub):
     d['undergoers'] = undergoers
     d['triggers'] = triggers
     triggers.append(trigger)
+#    print(f'PROC PARSED: {d}\n\n')
     return d
         
 def parse_doc(d):
@@ -292,9 +354,16 @@ def parse_doc(d):
     phon_md = parse_md(sections[1].split('\n'), fields['phon_md'])
     proc_md = []
     for s in sections[2:]:
-        d = parse_proc(s, fields['proc_md'], fields['proc_md_sub'])
-        if d != {}:
-            proc_md.append(d)
+#        print(f'PROC SECTION: {s}\n\n')
+#        d = parse_proc(s, fields['proc_md'], fields['proc_md_sub'])
+#        if d != {}:
+#            proc_md.append(d)
+        try:
+            if s != '':
+                proc_md.append(parse_proc(s))
+        except Exception as e:
+            print(f'SECTION s: {s}')
+            raise e
     return lang_md | phon_md | {'processes': proc_md}
 
 def delim_iter(line, opendelim='{', closedelim='}'):
@@ -502,6 +571,8 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
             except KeyError:
                 msg = f'Proc {proc} missing "proc_name" key\n\n'
                 sys.stderr.write(msg)
+            # TODO: do this checking against json outputs instead of below
+            continue
             for fld in ['transparencies', 'opacities', 'undergoers']:
                 try:
                     proc[fld]
@@ -525,7 +596,8 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
                         continue
                     v = proc[fld][fld].strip()
                 else:
-                    vals = [k.strip() for k in proc[fld].strip().split(',')]
+                    print(f'fld: "{fld}", proc: "{proc}"')
+                    vals = [k.strip() for k in proc[fld][fld]['segments']['segments'].strip().split(',')]
                     v = proc[fld].strip()
                 if v in ['NA', 'None', 'Uncertain', 'Unspecified']:
                     try:
