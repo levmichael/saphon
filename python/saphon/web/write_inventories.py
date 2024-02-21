@@ -1,8 +1,8 @@
 import html
 from collections import *
-from saphon.io import *
-from saphon.web.optimize_layout import *
-from saphon.web.xlt import *
+from ..io import *
+from ..web.optimize_layout import *
+from ..web.xlt import *
 #import saphon.web.dbg as dbg
 
 # Write a table labeled `name` with `sounds`, using `optimizeLayout`
