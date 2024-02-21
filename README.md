@@ -70,7 +70,7 @@ The second and third of these fields contains a list of dicts, the values of whi
   * `environments`: A list of environments in which the phoneme may occur, and the allophones that are conditioned by that environment, and processes that yield each allophone. The values of this list are dicts.
     * `preceding`: A string representation of the part of the environment that precedes the phone.
     * `following`: A string representation of the part of the environment that follows the phone.
-    * `processes`: A list of processes that each yield a single allophone in the environment. This value is a list of dicts. Multiple values in this list implies free variation among the processes in this list.
+    * `allophones`: A list of dicts that represent allophones yielded by the phoneme in this environment. Multiple values in this list implies free variation among the allophones in this list.
       * `processnames`: A list of process names that yield this allophone. Each value is a string. Thist list of process names does not imply free variation. Instead, the list may describe multiple processes that apply simultaneously, e.g. the process by which `phone` `e` yields `allophone` `ɛː` is described as the simultaneous application of two processes named `lowering` and `lengthening`.
       * `allophone`: The allophone yielded by the process(es) in this environment, as denoted in `processnames` and using symbols from the International Phonetic Alphabet.
 
@@ -81,25 +81,33 @@ The second and third of these fields contains a list of dicts, the values of whi
   * `optionality`: One of three values that describe whether the process applies without exception, optionally, or is not known. The valid values of these are, respectively, 'categorical', 'optional', and 'unknown'.
   * `directionality`: One of five values that describe whether in which direction the process applies. The valid values are 'leftward', 'rightward', 'bidirectional', 'circumdirectional', and 'unknown'. (TODO: full description of meanings of these values)
   * `alternation_type`: One of three values that describe the type of alternation described by this process. The valid values are 'phonological', 'morphophonological', and 'morphological'. (TODO: full description of the meanings of these values)
-  * `undergoers`: A list of the elements that are subject to this process. The elements are described by a dict:
-    * `segments` A list of valid natural class and phoneme symbols for this language.
+  * `undergoers`: A dict of the elements that are subject to this process, as listed under the keys `segments` and `morphemes:
+    * `segments` A dict of the segments that are subject to the process, as listed under the keys `units` and `positional_restriction`. Note that the value is a simple dict and not a list of dicts as for `triggers`, `transparent`, and `opaque` values.
+      * `units` A list of valid natural class and phoneme symbols for this language.
       * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
-    * `morphemes`: A list of valid `morpheme_id` values for this language.
+    * `morphemes`: A dict of morphemes that are subject to the process, as listed under the keys `units` and `positional_restriction`. Note that the value is a simple dict and not a list of dicts as for `triggers`, `transparent`, and `opaque` values.
+      * `units` A list of valid `morpheme_id`s for this language.
       * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
-  * `triggers`: A list of the elements that trigger this process. The elements are described by a dict:
-    * `segments` A list of valid natural class and phoneme symbols for this language.
+  * `triggers`: A dict of the elements that trigger this process, as listed under the keys `segments` and `morphemes:
+    * `segments` A list of dicts of the segments that trigger the process, as listed under the keys `units` and `positional_restriction`.
+      * `units` A list of valid natural class and phoneme symbols for this language.
       * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
-    * `morphemes`: A list of valid `morpheme_id` values for this language.
+    * `morphemes`: A list of dicts of morphemes that trigger the process, as listed under the keys `units` and `positional_restriction`.
+      * `units` A list of valid `morpheme_id`s for this language.
       * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
-  * `transparent`: A list of the elements that are transparent to this process. The elements are described by a dict:
-    * `segments` A list of valid natural class and phoneme symbols for this language.
+  * `transparent`: A dict of the elements that are transparent to this process, as listed under the keys `segments` and `morphemes:
+    * `segments` A list of dicts of the segments that are transparent to the process, as listed under the keys `units` and `positional_restriction`.
+      * `units` A list of valid natural class and phoneme symbols for this language.
       * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
-    * `morphemes`: A list of valid `morpheme_id` values for this language.
+    * `morphemes`: A list of dicts of morphemes that are transparent to the process, as listed under the keys `units` and `positional_restriction`.
+      * `units` A list of valid `morpheme_id`s for this language.
       * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
-  * `opaque`: A list of the elements that are opaque to this process. The elements are described by a dict:
-    * `segments` A list of valid natural class and phoneme symbols for this language.
+  * `opaque`: A dict of the elements that are opaque to this process. The elements are described by a dict:
+    * `segments` A list of dicts of the segments that are opaque to the process, as listed under the keys `units` and `positional_restriction`.
+      * `units` A list of valid natural class and phoneme symbols for this language.
       * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
-    * `morphemes`: A list of valid `morpheme_id` values for this language.
+    * `morphemes`: A list of dicts of morphemes that are opaque to the process, as listed under the keys `units` and `positional_restriction`.
+      * `units` A list of valid `morpheme_id`s for this language.
       * `positional_restriction`: possible values 'prefix+root'; 'word, initial'; 'word' (TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.)
 
 ### `ref` documents
