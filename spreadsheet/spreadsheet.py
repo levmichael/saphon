@@ -120,8 +120,8 @@ fields = {
     },
     'proc_md': {
         'page numbers': 'page_num',
-        'process name': 'proc_name',
-        'process type': 'proc_type',
+        'process name': 'processname',
+        'process type': 'processtype',
         'prose description': 'description',
         'optionality': 'optionality',
 #        'optioanlity': 'optionality',
@@ -240,8 +240,8 @@ def parse_proc(t):
     except:
         print(f'Could not parse proc section:\n{t}\n\n')
         raise
-    proc = {n: '' for n in ('proc_name', 'proc_type', 'description', 'optionality', 'directionality', 'alternation_type')}
-    for fld, k in (('process name', 'proc_name'), ('process type', 'proc_type'), ['description'] * 2, ['optionality'] * 2, ['directionality'] * 2, ('alternation type', 'alternation_type')):
+    proc = {n: '' for n in ('processname', 'processtype', 'description', 'optionality', 'directionality', 'alternation_type')}
+    for fld, k in (('process name', 'processname'), ('process type', 'processtype'), ['description'] * 2, ['optionality'] * 2, ['directionality'] * 2, ('alternation type', 'alternation_type')):
         fldm = re.search(f'{fld}:\s+(?P<val>.+)', top, re.IGNORECASE|re.MULTILINE)
         try:
             proc[k] = fldm.groupdict()['val']
@@ -533,43 +533,43 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
         ids = natclass_map[docid] + morph_id_map[docid] + catsymb[docid]
         for proc in doc['processes']:
             try:
-                m = re.match(procre, proc['proc_type'])
+                m = re.match(procre, proc['processtype'])
             except KeyError:
-                msg = f'Proc {proc} missing "proc_type" key\n\n'
+                msg = f'Proc {proc} missing "processtype" key\n\n'
                 sys.stderr.write(msg)
             try:
                 assert(m is not None)
             except AssertionError:
-                msg = f'Could not parse proc_type {proc["proc_type"]}) ' \
+                msg = f'Could not parse processtype {proc["processtype"]}) ' \
                       f'for {docid}\n\n'
                 sys.stderr.write(msg)
             try:
                 assert(m.group('proc') in proc_vocab)
             except AssertionError:
-                msg = f'Process type {m.group("proc")} (from {proc["proc_type"]}) not in proc_vocab ' \
+                msg = f'Process type {m.group("proc")} (from {proc["processtype"]}) not in proc_vocab ' \
                       f'for {docid}\n\n'
                 sys.stderr.write(msg)
             try:
                 proc_name = f'{m.group("tag") or ""}{m.group("phone") or ""}{m.group("proc")}'
                 assert(
-                    proc['proc_name'].startswith(proc_name + ':') or
-                    proc['proc_name'] == proc_name
+                    proc['processname'].startswith(proc_name + ':') or
+                    proc['processname'] == proc_name
                 )
             except AssertionError:
-                msg = f'Process type {proc["proc_name"]} does not match type {m.group("proc")} (from {proc["proc_type"]}) ' \
+                msg = f'Process type {proc["processname"]} does not match type {m.group("proc")} (from {proc["processtype"]}) ' \
                       f'for {docid}\n\n'
                 sys.stderr.write(msg)
             except KeyError:
-                msg = f'Proc {proc} missing "proc_name" key\n\n'
+                msg = f'Proc {proc} missing "processname" key\n\n'
                 sys.stderr.write(msg)
             try:
-                assert(proc['proc_name'] in alloprocs[docid])
+                assert(proc['processname'] in alloprocs[docid])
             except AssertionError:
-                msg = f'Process name {proc["proc_name"]} not used by any allophones ' \
+                msg = f'Process name {proc["processname"]} not used by any allophones ' \
                       f' for {docid}\n\n'
                 sys.stderr.write(msg)
             except KeyError:
-                msg = f'Proc {proc} missing "proc_name" key\n\n'
+                msg = f'Proc {proc} missing "processname" key\n\n'
                 sys.stderr.write(msg)
             # TODO: do this checking against json outputs instead of below
             continue
@@ -748,7 +748,7 @@ def check_allophones(l, flatnatclasses):
         proc_names = proc_vocab
         for p in doc['processes']:
             try:
-                proc_names.append(p['proc_name'])
+                proc_names.append(p['processname'])
             except KeyError:
                 continue
         natclass = flatnatclasses[docid]
@@ -812,7 +812,7 @@ def check_allophones(l, flatnatclasses):
                                 if m.group('tag') is not None and m.group('tag') != '':
                                     procs.append(m.group('tag') + m.group('procsubtype'))
                     except AssertionError:
-                        msg = f"Allophone proc_name '{pn.strip()}' does not match available Process names " \
+                        msg = f"Allophone processname '{pn.strip()}' does not match available Process names " \
                               f"'{', '.join(proc_names)}' for {docid}\n\n"
                         sys.stderr.write(msg)
                     if m.group('phone') is not None:
