@@ -1,0 +1,3061 @@
+[
+    {
+        "category": "csbu",
+        "symbols": [
+            {
+                "symbol": "p",
+                "key_prompts": [
+                    "p"
+                ]
+            },
+            {
+                "symbol": "pː",
+                "key_prompts": [
+                    "p"
+                ]
+            },
+            {
+                "symbol": "pʲ",
+                "key_prompts": [
+                    "p"
+                ]
+            },
+            {
+                "symbol": "pʷ",
+                "key_prompts": [
+                    "p"
+                ]
+            },
+            {
+                "symbol": "ps",
+                "key_prompts": [
+                    "p"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "csbv",
+        "symbols": [
+            {
+                "symbol": "ʰb",
+                "key_prompts": [
+                    "b"
+                ]
+            },
+            {
+                "symbol": "b",
+                "key_prompts": [
+                    "b"
+                ]
+            },
+            {
+                "symbol": "bː",
+                "key_prompts": [
+                    "b"
+                ]
+            },
+            {
+                "symbol": "bʲ",
+                "key_prompts": [
+                    "b"
+                ]
+            },
+            {
+                "symbol": "bʷ",
+                "key_prompts": [
+                    "b"
+                ]
+            },
+            {
+                "symbol": "bz",
+                "key_prompts": [
+                    "b"
+                ]
+            },
+            {
+                "symbol": "bβ",
+                "key_prompts": [
+                    "b"
+                ]
+            },
+            {
+                "symbol": "bʰ",
+                "key_prompts": [
+                    "b"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "csdu",
+        "symbols": [
+            {
+                "symbol": "t̪",
+                "key_prompts": [
+                    "t"
+                ]
+            },
+            {
+                "symbol": "t̪ʙ",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "csdv",
+        "symbols": [
+            {
+                "symbol": "d̪",
+                "key_prompts": [
+                    "d"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "csau",
+        "symbols": [
+            {
+                "symbol": "t",
+                "key_prompts": [
+                    "t"
+                ]
+            },
+            {
+                "symbol": "tˣ",
+                "key_prompts": [
+                    "t"
+                ]
+            },
+            {
+                "symbol": "ʰt",
+                "key_prompts": [
+                    "t"
+                ]
+            },
+            {
+                "symbol": "tː",
+                "key_prompts": [
+                    "t"
+                ]
+            },
+            {
+                "symbol": "tʲ",
+                "key_prompts": [
+                    "t"
+                ]
+            },
+            {
+                "symbol": "tʷ",
+                "key_prompts": [
+                    "t"
+                ]
+            },
+            {
+                "symbol": "t̺",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "csav",
+        "symbols": [
+            {
+                "symbol": "ʰd",
+                "key_prompts": [
+                    "d"
+                ]
+            },
+            {
+                "symbol": "d",
+                "key_prompts": [
+                    "d"
+                ]
+            },
+            {
+                "symbol": "dː",
+                "key_prompts": [
+                    "d"
+                ]
+            },
+            {
+                "symbol": "dʲ",
+                "key_prompts": [
+                    "d"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "csru",
+        "symbols": [
+            {
+                "symbol": "ʈ",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "csrv",
+        "symbols": [
+            {
+                "symbol": "ɖ",
+                "key_prompts": [
+                    "d"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cspu",
+        "symbols": [
+            {
+                "symbol": "c",
+                "key_prompts": [
+                    "c"
+                ]
+            },
+            {
+                "symbol": "ʰc",
+                "key_prompts": [
+                    "c"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cspv",
+        "symbols": [
+            {
+                "symbol": "ʰɟ",
+                "key_prompts": [
+                    "j"
+                ]
+            },
+            {
+                "symbol": "ɟ",
+                "key_prompts": [
+                    "j"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "csvu",
+        "symbols": [
+            {
+                "symbol": "k",
+                "key_prompts": [
+                    "k"
+                ]
+            },
+            {
+                "symbol": "kʲ",
+                "key_prompts": [
+                    "k"
+                ]
+            },
+            {
+                "symbol": "kˣ",
+                "key_prompts": [
+                    "k"
+                ]
+            },
+            {
+                "symbol": "ʰk",
+                "key_prompts": [
+                    "k"
+                ]
+            },
+            {
+                "symbol": "kː",
+                "key_prompts": [
+                    "k"
+                ]
+            },
+            {
+                "symbol": "ʰkʷ",
+                "key_prompts": [
+                    "k"
+                ]
+            },
+            {
+                "symbol": "kʷ",
+                "key_prompts": [
+                    "k"
+                ]
+            },
+            {
+                "symbol": "kʷː",
+                "key_prompts": [
+                    "k"
+                ]
+            },
+            {
+                "symbol": "k̪",
+                "key_prompts": [
+                    "k"
+                ]
+            },
+            {
+                "symbol": "kʷʲ",
+                "key_prompts": [
+                    "k"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "csqu",
+        "symbols": [
+            {
+                "symbol": "kp",
+                "key_prompts": [
+                    "k"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "csAu",
+        "symbols": [
+            {
+                "symbol": "tk",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "csvv",
+        "symbols": [
+            {
+                "symbol": "ɡ",
+                "key_prompts": [
+                    "g"
+                ]
+            },
+            {
+                "symbol": "ɡː",
+                "key_prompts": [
+                    "g"
+                ]
+            },
+            {
+                "symbol": "ɡʷ",
+                "key_prompts": [
+                    "g"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "csuu",
+        "symbols": [
+            {
+                "symbol": "q",
+                "key_prompts": [
+                    "q"
+                ]
+            },
+            {
+                "symbol": "qʷ",
+                "key_prompts": [
+                    "q"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "csuv",
+        "symbols": [
+            {
+                "symbol": "ɢ",
+                "key_prompts": [
+                    "g"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "csgu",
+        "symbols": [
+            {
+                "symbol": "ʔ",
+                "key_prompts": [
+                    "?"
+                ]
+            },
+            {
+                "symbol": "ʔʲ",
+                "key_prompts": [
+                    "?"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "csaua",
+        "symbols": [
+            {
+                "symbol": "ts",
+                "key_prompts": [
+                    "t"
+                ]
+            },
+            {
+                "symbol": "tsʲ",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "csava",
+        "symbols": [
+            {
+                "symbol": "dz",
+                "key_prompts": [
+                    "d"
+                ]
+            },
+            {
+                "symbol": "nð",
+                "key_prompts": []
+            }
+        ]
+    },
+    {
+        "category": "csoua",
+        "symbols": [
+            {
+                "symbol": "tʃ",
+                "key_prompts": [
+                    "t"
+                ]
+            },
+            {
+                "symbol": "tʃʲ",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "csova",
+        "symbols": [
+            {
+                "symbol": "dʒ",
+                "key_prompts": [
+                    "j",
+                    "d"
+                ]
+            },
+            {
+                "symbol": "dʃ",
+                "key_prompts": []
+            }
+        ]
+    },
+    {
+        "category": "csrua",
+        "symbols": [
+            {
+                "symbol": "ʈʂ",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "csrva",
+        "symbols": [
+            {
+                "symbol": "ɖʐ",
+                "key_prompts": [
+                    "d"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cspua",
+        "symbols": [
+            {
+                "symbol": "tɕ",
+                "key_prompts": [
+                    "c"
+                ]
+            },
+            {
+                "symbol": "cç",
+                "key_prompts": [
+                    "c"
+                ]
+            },
+            {
+                "symbol": "cçʰ",
+                "key_prompts": [
+                    "c"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cspva",
+        "symbols": [
+            {
+                "symbol": "ɟʝ",
+                "key_prompts": [
+                    "f"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cibu",
+        "symbols": [
+            {
+                "symbol": "ɓ̥",
+                "key_prompts": [
+                    "b"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cibv",
+        "symbols": [
+            {
+                "symbol": "ɓ",
+                "key_prompts": [
+                    "b"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "ciau",
+        "symbols": [
+            {
+                "symbol": "ɗ̥",
+                "key_prompts": [
+                    "d"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "ciav",
+        "symbols": [
+            {
+                "symbol": "ɗ",
+                "key_prompts": [
+                    "d"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cipv",
+        "symbols": [
+            {
+                "symbol": "ʄ",
+                "key_prompts": [
+                    "f"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "civv",
+        "symbols": [
+            {
+                "symbol": "ɠ",
+                "key_prompts": [
+                    "g"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cabu",
+        "symbols": [
+            {
+                "symbol": "pʰ",
+                "key_prompts": [
+                    "p"
+                ]
+            },
+            {
+                "symbol": "pʲʰ",
+                "key_prompts": [
+                    "p"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cadu",
+        "symbols": [
+            {
+                "symbol": "t̪ʰ",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cadv",
+        "symbols": [
+            {
+                "symbol": "d̪ʰ",
+                "key_prompts": [
+                    "d"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "caau",
+        "symbols": [
+            {
+                "symbol": "tʰ",
+                "key_prompts": [
+                    "t"
+                ]
+            },
+            {
+                "symbol": "tʲʰ",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "caav",
+        "symbols": [
+            {
+                "symbol": "dʰ",
+                "key_prompts": [
+                    "d"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "caru",
+        "symbols": [
+            {
+                "symbol": "ʈʰ",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "capu",
+        "symbols": [
+            {
+                "symbol": "cʰ",
+                "key_prompts": [
+                    "c"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cavu",
+        "symbols": [
+            {
+                "symbol": "kʰ",
+                "key_prompts": [
+                    "k"
+                ]
+            },
+            {
+                "symbol": "kʲʰ",
+                "key_prompts": [
+                    "k"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cauu",
+        "symbols": [
+            {
+                "symbol": "qʰ",
+                "key_prompts": [
+                    "q"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "caaua",
+        "symbols": [
+            {
+                "symbol": "tsʰ",
+                "key_prompts": [
+                    "t"
+                ]
+            },
+            {
+                "symbol": "tsʲʰ",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "caoua",
+        "symbols": [
+            {
+                "symbol": "tʃʰ",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "carua",
+        "symbols": [
+            {
+                "symbol": "ʈʂʰ",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cebu",
+        "symbols": [
+            {
+                "symbol": "pʼ",
+                "key_prompts": [
+                    "p"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cebv",
+        "symbols": [
+            {
+                "symbol": "b̰",
+                "key_prompts": [
+                    "b"
+                ]
+            },
+            {
+                "symbol": "ʔb",
+                "key_prompts": [
+                    "b"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cedu",
+        "symbols": [
+            {
+                "symbol": "t̪ʼ",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "ceau",
+        "symbols": [
+            {
+                "symbol": "tʼ",
+                "key_prompts": [
+                    "t"
+                ]
+            },
+            {
+                "symbol": "tʲʼ",
+                "key_prompts": [
+                    "t"
+                ]
+            },
+            {
+                "symbol": "t̰",
+                "key_prompts": [
+                    "t"
+                ]
+            },
+            {
+                "symbol": "t◌̰",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "ceav",
+        "symbols": [
+            {
+                "symbol": "d̰",
+                "key_prompts": [
+                    "d"
+                ]
+            },
+            {
+                "symbol": "ʔd",
+                "key_prompts": [
+                    "d"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "ceru",
+        "symbols": [
+            {
+                "symbol": "ʈʼ",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cepu",
+        "symbols": [
+            {
+                "symbol": "cʼ",
+                "key_prompts": [
+                    "c"
+                ]
+            },
+            {
+                "symbol": "c̰",
+                "key_prompts": [
+                    "c"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cepv",
+        "symbols": [
+            {
+                "symbol": "ɟ̰",
+                "key_prompts": [
+                    "f"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cevu",
+        "symbols": [
+            {
+                "symbol": "kʼ",
+                "key_prompts": [
+                    "k"
+                ]
+            },
+            {
+                "symbol": "kʲʼ",
+                "key_prompts": [
+                    "k"
+                ]
+            },
+            {
+                "symbol": "kʷʼ",
+                "key_prompts": [
+                    "k"
+                ]
+            },
+            {
+                "symbol": "k̰",
+                "key_prompts": [
+                    "k"
+                ]
+            },
+            {
+                "symbol": "kʷ̰",
+                "key_prompts": [
+                    "k"
+                ]
+            },
+            {
+                "symbol": "kʷ◌̰",
+                "key_prompts": [
+                    "k"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cevv",
+        "symbols": [
+            {
+                "symbol": "ɡ̰",
+                "key_prompts": [
+                    "g"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "ceuu",
+        "symbols": [
+            {
+                "symbol": "qʼ",
+                "key_prompts": [
+                    "q"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "ceaua",
+        "symbols": [
+            {
+                "symbol": "tsʼ",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "ceava",
+        "symbols": [
+            {
+                "symbol": "ʔdʒ",
+                "key_prompts": [
+                    "j",
+                    "d"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "ceoua",
+        "symbols": [
+            {
+                "symbol": "tʃʼ",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cerua",
+        "symbols": [
+            {
+                "symbol": "ʈʂʼ",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cpbu",
+        "symbols": [
+            {
+                "symbol": "mp",
+                "key_prompts": [
+                    "m"
+                ]
+            },
+            {
+                "symbol": "mpʲ",
+                "key_prompts": [
+                    "m"
+                ]
+            },
+            {
+                "symbol": "mɸʲ",
+                "key_prompts": [
+                    "m"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cpbv",
+        "symbols": [
+            {
+                "symbol": "mb",
+                "key_prompts": [
+                    "m"
+                ]
+            },
+            {
+                "symbol": "mbʲ",
+                "key_prompts": [
+                    "m"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cpau",
+        "symbols": [
+            {
+                "symbol": "nt",
+                "key_prompts": [
+                    "n"
+                ]
+            },
+            {
+                "symbol": "ntʲ",
+                "key_prompts": [
+                    "n"
+                ]
+            },
+            {
+                "symbol": "ns",
+                "key_prompts": [
+                    "n"
+                ]
+            },
+            {
+                "symbol": "nsʲ",
+                "key_prompts": [
+                    "n"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cpav",
+        "symbols": [
+            {
+                "symbol": "nd",
+                "key_prompts": [
+                    "n"
+                ]
+            },
+            {
+                "symbol": "ndʲ",
+                "key_prompts": [
+                    "n"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cpvu",
+        "symbols": [
+            {
+                "symbol": "ŋk",
+                "key_prompts": [
+                    "n"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cpvv",
+        "symbols": [
+            {
+                "symbol": "ŋɡ",
+                "key_prompts": [
+                    "n"
+                ]
+            },
+            {
+                "symbol": "ŋɡʷ",
+                "key_prompts": [
+                    "n"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cpoua",
+        "symbols": [
+            {
+                "symbol": "ntʃ",
+                "key_prompts": [
+                    "n"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cpova",
+        "symbols": [
+            {
+                "symbol": "ndʒ",
+                "key_prompts": [
+                    "n"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cprua",
+        "symbols": [
+            {
+                "symbol": "ɳʈʂ",
+                "key_prompts": [
+                    "n"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cprva",
+        "symbols": [
+            {
+                "symbol": "ɳɖʐ",
+                "key_prompts": [
+                    "n"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cpaua",
+        "symbols": [
+            {
+                "symbol": "nts",
+                "key_prompts": [
+                    "n"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cpava",
+        "symbols": [
+            {
+                "symbol": "ndz",
+                "key_prompts": [
+                    "n"
+                ]
+            },
+            {
+                "symbol": "ndzʲ",
+                "key_prompts": [
+                    "n"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cnbu",
+        "symbols": [
+            {
+                "symbol": "ʰm",
+                "key_prompts": [
+                    "m"
+                ]
+            },
+            {
+                "symbol": "mʰ",
+                "key_prompts": [
+                    "m"
+                ]
+            },
+            {
+                "symbol": "m̥",
+                "key_prompts": [
+                    "m"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cnbv",
+        "symbols": [
+            {
+                "symbol": "m",
+                "key_prompts": [
+                    "m"
+                ]
+            },
+            {
+                "symbol": "mʼ",
+                "key_prompts": [
+                    "m"
+                ]
+            },
+            {
+                "symbol": "m̰",
+                "key_prompts": [
+                    "m"
+                ]
+            },
+            {
+                "symbol": "mʲ",
+                "key_prompts": [
+                    "m"
+                ]
+            },
+            {
+                "symbol": "mʷ",
+                "key_prompts": [
+                    "m"
+                ]
+            },
+            {
+                "symbol": "mː",
+                "key_prompts": [
+                    "m"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cnlv",
+        "symbols": [
+            {
+                "symbol": "ɱ",
+                "key_prompts": [
+                    "m"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cndv",
+        "symbols": [
+            {
+                "symbol": "n̪",
+                "key_prompts": [
+                    "n"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cnau",
+        "symbols": [
+            {
+                "symbol": "ʰn",
+                "key_prompts": [
+                    "n"
+                ]
+            },
+            {
+                "symbol": "nʰ",
+                "key_prompts": [
+                    "n"
+                ]
+            },
+            {
+                "symbol": "n̥",
+                "key_prompts": [
+                    "n"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cnav",
+        "symbols": [
+            {
+                "symbol": "n",
+                "key_prompts": [
+                    "n"
+                ]
+            },
+            {
+                "symbol": "nʲ",
+                "key_prompts": [
+                    "n"
+                ]
+            },
+            {
+                "symbol": "nː",
+                "key_prompts": [
+                    "n"
+                ]
+            },
+            {
+                "symbol": "n̰",
+                "key_prompts": [
+                    "n"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cnpu",
+        "symbols": [
+            {
+                "symbol": "ɲʰ",
+                "key_prompts": [
+                    "n"
+                ]
+            },
+            {
+                "symbol": "ʰɲ",
+                "key_prompts": [
+                    "n"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cnpv",
+        "symbols": [
+            {
+                "symbol": "ɲ",
+                "key_prompts": [
+                    "n"
+                ]
+            },
+            {
+                "symbol": "ɲ̰",
+                "key_prompts": [
+                    "n"
+                ]
+            },
+            {
+                "symbol": "ɲː",
+                "key_prompts": [
+                    "n"
+                ]
+            },
+            {
+                "symbol": "ɲ̥",
+                "key_prompts": [
+                    "n"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cnvv",
+        "symbols": [
+            {
+                "symbol": "ŋ",
+                "key_prompts": [
+                    "n"
+                ]
+            },
+            {
+                "symbol": "ŋʷ",
+                "key_prompts": [
+                    "n"
+                ]
+            },
+            {
+                "symbol": "ŋ̥",
+                "key_prompts": [
+                    "n"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cnuv",
+        "symbols": [
+            {
+                "symbol": "ɴ",
+                "key_prompts": []
+            }
+        ]
+    },
+    {
+        "category": "cnxv",
+        "symbols": [
+            {
+                "symbol": "N",
+                "key_prompts": [
+                    "n"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cfbu",
+        "symbols": [
+            {
+                "symbol": "ɸ",
+                "key_prompts": [
+                    "p"
+                ]
+            },
+            {
+                "symbol": "ɸʲ",
+                "key_prompts": [
+                    "p"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cfbv",
+        "symbols": [
+            {
+                "symbol": "β",
+                "key_prompts": [
+                    "b"
+                ]
+            },
+            {
+                "symbol": "βʲ",
+                "key_prompts": [
+                    "b"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cflu",
+        "symbols": [
+            {
+                "symbol": "fʷ",
+                "key_prompts": [
+                    "f"
+                ]
+            },
+            {
+                "symbol": "f",
+                "key_prompts": [
+                    "f"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cflv",
+        "symbols": [
+            {
+                "symbol": "v",
+                "key_prompts": [
+                    "v"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cfdu",
+        "symbols": [
+            {
+                "symbol": "θ",
+                "key_prompts": [
+                    "t"
+                ]
+            },
+            {
+                "symbol": "s̪",
+                "key_prompts": [
+                    "t"
+                ]
+            },
+            {
+                "symbol": "θʲ",
+                "key_prompts": [
+                    "t"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cfdv",
+        "symbols": [
+            {
+                "symbol": "ð",
+                "key_prompts": [
+                    "d"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cfau",
+        "symbols": [
+            {
+                "symbol": "s",
+                "key_prompts": [
+                    "s"
+                ]
+            },
+            {
+                "symbol": "sʲ",
+                "key_prompts": [
+                    "s"
+                ]
+            },
+            {
+                "symbol": "sʼ",
+                "key_prompts": [
+                    "s"
+                ]
+            },
+            {
+                "symbol": "sʰ",
+                "key_prompts": [
+                    "s"
+                ]
+            },
+            {
+                "symbol": "s̺",
+                "key_prompts": [
+                    "s"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cfav",
+        "symbols": [
+            {
+                "symbol": "z",
+                "key_prompts": [
+                    "z"
+                ]
+            },
+            {
+                "symbol": "ɼ",
+                "key_prompts": [
+                    "z"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cfru",
+        "symbols": [
+            {
+                "symbol": "ʂ",
+                "key_prompts": [
+                    "s"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cfrv",
+        "symbols": [
+            {
+                "symbol": "ʐ",
+                "key_prompts": [
+                    "z"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cfou",
+        "symbols": [
+            {
+                "symbol": "ʃ",
+                "key_prompts": [
+                    "s"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cfov",
+        "symbols": [
+            {
+                "symbol": "ʒ",
+                "key_prompts": [
+                    "j",
+                    "z"
+                ]
+            },
+            {
+                "symbol": "ʒ̺",
+                "key_prompts": [
+                    "j",
+                    "z"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cfpu",
+        "symbols": [
+            {
+                "symbol": "ɕ",
+                "key_prompts": [
+                    "c"
+                ]
+            },
+            {
+                "symbol": "ç",
+                "key_prompts": [
+                    "c"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cfpv",
+        "symbols": [
+            {
+                "symbol": "ʝ",
+                "key_prompts": [
+                    "j"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cfvu",
+        "symbols": [
+            {
+                "symbol": "x",
+                "key_prompts": [
+                    "x"
+                ]
+            },
+            {
+                "symbol": "xʲ",
+                "key_prompts": [
+                    "x"
+                ]
+            },
+            {
+                "symbol": "xl",
+                "key_prompts": [
+                    "x"
+                ]
+            },
+            {
+                "symbol": "xʷ",
+                "key_prompts": [
+                    "x"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cfvv",
+        "symbols": [
+            {
+                "symbol": "ɣ",
+                "key_prompts": [
+                    "y"
+                ]
+            },
+            {
+                "symbol": "ɣʷ",
+                "key_prompts": [
+                    "y"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cfuu",
+        "symbols": [
+            {
+                "symbol": "χ",
+                "key_prompts": [
+                    "x"
+                ]
+            },
+            {
+                "symbol": "χʷ",
+                "key_prompts": [
+                    "x"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cfuv",
+        "symbols": [
+            {
+                "symbol": "ʁ",
+                "key_prompts": [
+                    "r"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cfgu",
+        "symbols": [
+            {
+                "symbol": "h",
+                "key_prompts": [
+                    "h"
+                ]
+            },
+            {
+                "symbol": "h̃",
+                "key_prompts": [
+                    "h"
+                ]
+            },
+            {
+                "symbol": "hʲ",
+                "key_prompts": [
+                    "h"
+                ]
+            },
+            {
+                "symbol": "hʷ",
+                "key_prompts": [
+                    "h"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cfgv",
+        "symbols": [
+            {
+                "symbol": "ɦ",
+                "key_prompts": [
+                    "h"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cfqu",
+        "symbols": [
+            {
+                "symbol": "ʍ",
+                "key_prompts": [
+                    "w"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cxbv",
+        "symbols": [
+            {
+                "symbol": "β̞",
+                "key_prompts": [
+                    "b"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cxlv",
+        "symbols": [
+            {
+                "symbol": "ʋ",
+                "key_prompts": [
+                    "v"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cxdv",
+        "symbols": [
+            {
+                "symbol": "ð̞",
+                "key_prompts": [
+                    "d"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cxav",
+        "symbols": [
+            {
+                "symbol": "ɹ",
+                "key_prompts": [
+                    "r"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cxrv",
+        "symbols": [
+            {
+                "symbol": "ɻ",
+                "key_prompts": [
+                    "r"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cxru",
+        "symbols": [
+            {
+                "symbol": "ɻ̥",
+                "key_prompts": [
+                    "r"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cxpu",
+        "symbols": [
+            {
+                "symbol": "ʰj",
+                "key_prompts": [
+                    "j"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cxpv",
+        "symbols": [
+            {
+                "symbol": "j",
+                "key_prompts": [
+                    "j"
+                ]
+            },
+            {
+                "symbol": "j̃",
+                "key_prompts": [
+                    "j"
+                ]
+            },
+            {
+                "symbol": "j̥",
+                "key_prompts": [
+                    "j"
+                ]
+            },
+            {
+                "symbol": "jʼ",
+                "key_prompts": [
+                    "j"
+                ]
+            },
+            {
+                "symbol": "j̰",
+                "key_prompts": [
+                    "j"
+                ]
+            },
+            {
+                "symbol": "jː",
+                "key_prompts": [
+                    "j"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cxvv",
+        "symbols": [
+            {
+                "symbol": "ɰ",
+                "key_prompts": [
+                    "w"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cxqu",
+        "symbols": [
+            {
+                "symbol": "ʰw",
+                "key_prompts": [
+                    "w"
+                ]
+            },
+            {
+                "symbol": "wʰ",
+                "key_prompts": [
+                    "w"
+                ]
+            },
+            {
+                "symbol": "w̥",
+                "key_prompts": [
+                    "w"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cxqv",
+        "symbols": [
+            {
+                "symbol": "w",
+                "key_prompts": [
+                    "w"
+                ]
+            },
+            {
+                "symbol": "w̃",
+                "key_prompts": [
+                    "w"
+                ]
+            },
+            {
+                "symbol": "wʼ",
+                "key_prompts": [
+                    "w"
+                ]
+            },
+            {
+                "symbol": "w̰",
+                "key_prompts": [
+                    "w"
+                ]
+            },
+            {
+                "symbol": "wʲ",
+                "key_prompts": [
+                    "w"
+                ]
+            },
+            {
+                "symbol": "wː",
+                "key_prompts": [
+                    "w"
+                ]
+            },
+            {
+                "symbol": "ʔw",
+                "key_prompts": [
+                    "w"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cxfv",
+        "symbols": [
+            {
+                "symbol": "ʕ",
+                "key_prompts": [
+                    "?"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cldv",
+        "symbols": [
+            {
+                "symbol": "l̪",
+                "key_prompts": [
+                    "l"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "clau",
+        "symbols": [
+            {
+                "symbol": "l̥",
+                "key_prompts": [
+                    "l"
+                ]
+            },
+            {
+                "symbol": "ɬ",
+                "key_prompts": [
+                    "l"
+                ]
+            },
+            {
+                "symbol": "ɺ̥",
+                "key_prompts": [
+                    "l"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "clav",
+        "symbols": [
+            {
+                "symbol": "l",
+                "key_prompts": [
+                    "l"
+                ]
+            },
+            {
+                "symbol": "lʲ",
+                "key_prompts": [
+                    "l"
+                ]
+            },
+            {
+                "symbol": "lʼ",
+                "key_prompts": [
+                    "l"
+                ]
+            },
+            {
+                "symbol": "lː",
+                "key_prompts": [
+                    "l"
+                ]
+            },
+            {
+                "symbol": "ɺ",
+                "key_prompts": [
+                    "l"
+                ]
+            },
+            {
+                "symbol": "ɮ",
+                "key_prompts": [
+                    "l"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "clrv",
+        "symbols": [
+            {
+                "symbol": "ɭ",
+                "key_prompts": [
+                    "l"
+                ]
+            },
+            {
+                "symbol": "ɭʲ",
+                "key_prompts": [
+                    "l"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "clpv",
+        "symbols": [
+            {
+                "symbol": "ʎ",
+                "key_prompts": [
+                    "l"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "clvv",
+        "symbols": [
+            {
+                "symbol": "kl",
+                "key_prompts": [
+                    "k"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "ctau",
+        "symbols": [
+            {
+                "symbol": "ʰɾ",
+                "key_prompts": [
+                    "r"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "ctav",
+        "symbols": [
+            {
+                "symbol": "ɾ",
+                "key_prompts": [
+                    "r"
+                ]
+            },
+            {
+                "symbol": "ɾ̃",
+                "key_prompts": [
+                    "r"
+                ]
+            },
+            {
+                "symbol": "ɾʲ",
+                "key_prompts": [
+                    "r"
+                ]
+            },
+            {
+                "symbol": "ʔɾ",
+                "key_prompts": [
+                    "r"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "ctru",
+        "symbols": [
+            {
+                "symbol": "ɽʰ",
+                "key_prompts": [
+                    "r"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "ctrv",
+        "symbols": [
+            {
+                "symbol": "ɽ",
+                "key_prompts": [
+                    "r"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "ctlv",
+        "symbols": [
+            {
+                "symbol": "ⱱ",
+                "key_prompts": []
+            }
+        ]
+    },
+    {
+        "category": "crau",
+        "symbols": [
+            {
+                "symbol": "r̥",
+                "key_prompts": [
+                    "r"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "crav",
+        "symbols": [
+            {
+                "symbol": "r",
+                "key_prompts": [
+                    "r"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "cruv",
+        "symbols": [
+            {
+                "symbol": "ʀ",
+                "key_prompts": [
+                    "r"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "crbv",
+        "symbols": [
+            {
+                "symbol": "ʙ",
+                "key_prompts": [
+                    "r"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v7fu",
+        "symbols": [
+            {
+                "symbol": "i",
+                "key_prompts": [
+                    "i"
+                ]
+            },
+            {
+                "symbol": "ĩ",
+                "key_prompts": [
+                    "i"
+                ]
+            },
+            {
+                "symbol": "ḭ",
+                "key_prompts": [
+                    "i"
+                ]
+            },
+            {
+                "symbol": "ḭ̃",
+                "key_prompts": [
+                    "i"
+                ]
+            },
+            {
+                "symbol": "iː",
+                "key_prompts": [
+                    "i"
+                ]
+            },
+            {
+                "symbol": "ĩː",
+                "key_prompts": [
+                    "i"
+                ]
+            },
+            {
+                "symbol": "iʰ",
+                "key_prompts": [
+                    "i"
+                ]
+            },
+            {
+                "symbol": "iˀ",
+                "key_prompts": [
+                    "i"
+                ]
+            },
+            {
+                "symbol": "ĭ",
+                "key_prompts": []
+            },
+            {
+                "symbol": "ĭ̃",
+                "key_prompts": []
+            }
+        ]
+    },
+    {
+        "category": "v7fr",
+        "symbols": [
+            {
+                "symbol": "y",
+                "key_prompts": [
+                    "y"
+                ]
+            },
+            {
+                "symbol": "ỹ",
+                "key_prompts": [
+                    "y"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v7cu",
+        "symbols": [
+            {
+                "symbol": "ɨ",
+                "key_prompts": [
+                    "y",
+                    "i"
+                ]
+            },
+            {
+                "symbol": "ɨ̃",
+                "key_prompts": [
+                    "y",
+                    "i"
+                ]
+            },
+            {
+                "symbol": "ɨ̰",
+                "key_prompts": [
+                    "y",
+                    "i"
+                ]
+            },
+            {
+                "symbol": "ɨː",
+                "key_prompts": [
+                    "y",
+                    "i"
+                ]
+            },
+            {
+                "symbol": "ɨ̃ː",
+                "key_prompts": [
+                    "y",
+                    "i"
+                ]
+            },
+            {
+                "symbol": "ɨ̘",
+                "key_prompts": [
+                    "y",
+                    "i"
+                ]
+            },
+            {
+                "symbol": "ɨi",
+                "key_prompts": [
+                    "y",
+                    "i"
+                ]
+            },
+            {
+                "symbol": "ɨ̆",
+                "key_prompts": []
+            },
+            {
+                "symbol": "ɨ̆̃",
+                "key_prompts": []
+            }
+        ]
+    },
+    {
+        "category": "v7cr",
+        "symbols": [
+            {
+                "symbol": "ʉ",
+                "key_prompts": [
+                    "y",
+                    "u"
+                ]
+            },
+            {
+                "symbol": "ʉ̃",
+                "key_prompts": [
+                    "y",
+                    "u"
+                ]
+            },
+            {
+                "symbol": "ʉː",
+                "key_prompts": [
+                    "y",
+                    "u"
+                ]
+            },
+            {
+                "symbol": "ʉ̃ː",
+                "key_prompts": []
+            }
+        ]
+    },
+    {
+        "category": "v7bu",
+        "symbols": [
+            {
+                "symbol": "ɯ",
+                "key_prompts": [
+                    "y",
+                    "w"
+                ]
+            },
+            {
+                "symbol": "ɯ̃",
+                "key_prompts": [
+                    "y",
+                    "w"
+                ]
+            },
+            {
+                "symbol": "ɯ̰",
+                "key_prompts": [
+                    "y",
+                    "w"
+                ]
+            },
+            {
+                "symbol": "ɯː",
+                "key_prompts": [
+                    "y",
+                    "w"
+                ]
+            },
+            {
+                "symbol": "ɯ̃ː",
+                "key_prompts": [
+                    "y",
+                    "w"
+                ]
+            },
+            {
+                "symbol": "ɯi",
+                "key_prompts": [
+                    "y",
+                    "w"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v7br",
+        "symbols": [
+            {
+                "symbol": "u",
+                "key_prompts": [
+                    "u"
+                ]
+            },
+            {
+                "symbol": "ũ",
+                "key_prompts": [
+                    "u"
+                ]
+            },
+            {
+                "symbol": "ṵ",
+                "key_prompts": [
+                    "u"
+                ]
+            },
+            {
+                "symbol": "ṵ̃",
+                "key_prompts": [
+                    "u"
+                ]
+            },
+            {
+                "symbol": "uː",
+                "key_prompts": [
+                    "u"
+                ]
+            },
+            {
+                "symbol": "ũː",
+                "key_prompts": [
+                    "u"
+                ]
+            },
+            {
+                "symbol": "uʰ",
+                "key_prompts": [
+                    "u"
+                ]
+            },
+            {
+                "symbol": "uˀ",
+                "key_prompts": [
+                    "u"
+                ]
+            },
+            {
+                "symbol": "ŭ",
+                "key_prompts": []
+            },
+            {
+                "symbol": "ŭ̃",
+                "key_prompts": []
+            }
+        ]
+    },
+    {
+        "category": "v6fu",
+        "symbols": [
+            {
+                "symbol": "ɪ",
+                "key_prompts": [
+                    "i"
+                ]
+            },
+            {
+                "symbol": "ɪ̃",
+                "key_prompts": [
+                    "i"
+                ]
+            },
+            {
+                "symbol": "ɪː",
+                "key_prompts": [
+                    "i"
+                ]
+            },
+            {
+                "symbol": "ɪ̆",
+                "key_prompts": []
+            }
+        ]
+    },
+    {
+        "category": "v6fr",
+        "symbols": [
+            {
+                "symbol": "ʏ",
+                "key_prompts": [
+                    "y"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v6br",
+        "symbols": [
+            {
+                "symbol": "ʊ",
+                "key_prompts": [
+                    "u"
+                ]
+            },
+            {
+                "symbol": "ʊ̃",
+                "key_prompts": [
+                    "u"
+                ]
+            },
+            {
+                "symbol": "ʊː",
+                "key_prompts": [
+                    "u"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v5fu",
+        "symbols": [
+            {
+                "symbol": "e",
+                "key_prompts": [
+                    "e"
+                ]
+            },
+            {
+                "symbol": "ẽ",
+                "key_prompts": [
+                    "e"
+                ]
+            },
+            {
+                "symbol": "ḛ",
+                "key_prompts": [
+                    "e"
+                ]
+            },
+            {
+                "symbol": "ḛ̃",
+                "key_prompts": [
+                    "e"
+                ]
+            },
+            {
+                "symbol": "eː",
+                "key_prompts": [
+                    "e"
+                ]
+            },
+            {
+                "symbol": "ẽː",
+                "key_prompts": [
+                    "e"
+                ]
+            },
+            {
+                "symbol": "eʰ",
+                "key_prompts": [
+                    "e"
+                ]
+            },
+            {
+                "symbol": "eu",
+                "key_prompts": [
+                    "e"
+                ]
+            },
+            {
+                "symbol": "eˀ",
+                "key_prompts": [
+                    "e"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v5fr",
+        "symbols": [
+            {
+                "symbol": "ø",
+                "key_prompts": [
+                    "0"
+                ]
+            },
+            {
+                "symbol": "øː",
+                "key_prompts": [
+                    "0"
+                ]
+            },
+            {
+                "symbol": "ø̃",
+                "key_prompts": [
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v5cu",
+        "symbols": [
+            {
+                "symbol": "ɘ",
+                "key_prompts": [
+                    "e"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v5cr",
+        "symbols": [
+            {
+                "symbol": "ɵ",
+                "key_prompts": [
+                    "e"
+                ]
+            },
+            {
+                "symbol": "ɵː",
+                "key_prompts": [
+                    "e"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v5bu",
+        "symbols": [
+            {
+                "symbol": "ɤ",
+                "key_prompts": [
+                    "y"
+                ]
+            },
+            {
+                "symbol": "ɤ̃",
+                "key_prompts": [
+                    "y"
+                ]
+            },
+            {
+                "symbol": "ɤː",
+                "key_prompts": [
+                    "y"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v5br",
+        "symbols": [
+            {
+                "symbol": "o",
+                "key_prompts": [
+                    "o"
+                ]
+            },
+            {
+                "symbol": "õ̰",
+                "key_prompts": [
+                    "o"
+                ]
+            },
+            {
+                "symbol": "o̰",
+                "key_prompts": [
+                    "o"
+                ]
+            },
+            {
+                "symbol": "õ",
+                "key_prompts": [
+                    "o"
+                ]
+            },
+            {
+                "symbol": "oː",
+                "key_prompts": [
+                    "o"
+                ]
+            },
+            {
+                "symbol": "õː",
+                "key_prompts": [
+                    "o"
+                ]
+            },
+            {
+                "symbol": "oʰ",
+                "key_prompts": [
+                    "o"
+                ]
+            },
+            {
+                "symbol": "oʲ",
+                "key_prompts": [
+                    "o"
+                ]
+            },
+            {
+                "symbol": "õʲ",
+                "key_prompts": [
+                    "o"
+                ]
+            },
+            {
+                "symbol": "o̝",
+                "key_prompts": [
+                    "o"
+                ]
+            },
+            {
+                "symbol": "oˀ",
+                "key_prompts": [
+                    "o"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v4cu",
+        "symbols": [
+            {
+                "symbol": "ə",
+                "key_prompts": [
+                    "e"
+                ]
+            },
+            {
+                "symbol": "ə̃",
+                "key_prompts": [
+                    "e"
+                ]
+            },
+            {
+                "symbol": "ə̰",
+                "key_prompts": [
+                    "e"
+                ]
+            },
+            {
+                "symbol": "ə̰̃",
+                "key_prompts": [
+                    "e"
+                ]
+            },
+            {
+                "symbol": "əː",
+                "key_prompts": [
+                    "e"
+                ]
+            },
+            {
+                "symbol": "ə̃ː",
+                "key_prompts": [
+                    "e"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v3fu",
+        "symbols": [
+            {
+                "symbol": "ɛ",
+                "key_prompts": [
+                    "e"
+                ]
+            },
+            {
+                "symbol": "ɛ̃",
+                "key_prompts": [
+                    "e"
+                ]
+            },
+            {
+                "symbol": "ɛː",
+                "key_prompts": [
+                    "e"
+                ]
+            },
+            {
+                "symbol": "ɛ̃ː",
+                "key_prompts": [
+                    "e"
+                ]
+            },
+            {
+                "symbol": "ɛ̰",
+                "key_prompts": []
+            }
+        ]
+    },
+    {
+        "category": "v3fr",
+        "symbols": [
+            {
+                "symbol": "œ",
+                "key_prompts": [
+                    "o"
+                ]
+            },
+            {
+                "symbol": "œ̃",
+                "key_prompts": [
+                    "o"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v3cu",
+        "symbols": [
+            {
+                "symbol": "ɜ",
+                "key_prompts": [
+                    "e"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v3bu",
+        "symbols": [
+            {
+                "symbol": "ʌ",
+                "key_prompts": [
+                    "v"
+                ]
+            },
+            {
+                "symbol": "ʌ̃",
+                "key_prompts": [
+                    "v"
+                ]
+            },
+            {
+                "symbol": "ʌː",
+                "key_prompts": [
+                    "v"
+                ]
+            },
+            {
+                "symbol": "ʌ̃ː",
+                "key_prompts": [
+                    "v"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v3br",
+        "symbols": [
+            {
+                "symbol": "ɔ",
+                "key_prompts": [
+                    "o"
+                ]
+            },
+            {
+                "symbol": "ɔ̃",
+                "key_prompts": [
+                    "o"
+                ]
+            },
+            {
+                "symbol": "ɔː",
+                "key_prompts": [
+                    "o"
+                ]
+            },
+            {
+                "symbol": "ɔ̃ː",
+                "key_prompts": [
+                    "o"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v2fu",
+        "symbols": [
+            {
+                "symbol": "æ",
+                "key_prompts": [
+                    "a"
+                ]
+            },
+            {
+                "symbol": "æ̃",
+                "key_prompts": [
+                    "a"
+                ]
+            },
+            {
+                "symbol": "æː",
+                "key_prompts": [
+                    "a"
+                ]
+            },
+            {
+                "symbol": "æ̃ː",
+                "key_prompts": [
+                    "a"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v2cu",
+        "symbols": [
+            {
+                "symbol": "ɐ",
+                "key_prompts": []
+            },
+            {
+                "symbol": "ɐ̃",
+                "key_prompts": [
+                    "a"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v1cu",
+        "symbols": [
+            {
+                "symbol": "a",
+                "key_prompts": [
+                    "a"
+                ]
+            },
+            {
+                "symbol": "ã",
+                "key_prompts": [
+                    "a"
+                ]
+            },
+            {
+                "symbol": "a̰",
+                "key_prompts": [
+                    "a"
+                ]
+            },
+            {
+                "symbol": "ã̰",
+                "key_prompts": [
+                    "a"
+                ]
+            },
+            {
+                "symbol": "aː",
+                "key_prompts": [
+                    "a"
+                ]
+            },
+            {
+                "symbol": "ãː",
+                "key_prompts": [
+                    "a"
+                ]
+            },
+            {
+                "symbol": "aʲ",
+                "key_prompts": [
+                    "a"
+                ]
+            },
+            {
+                "symbol": "ãʲ",
+                "key_prompts": [
+                    "a"
+                ]
+            },
+            {
+                "symbol": "aʲː",
+                "key_prompts": [
+                    "a"
+                ]
+            },
+            {
+                "symbol": "aʰ",
+                "key_prompts": [
+                    "a"
+                ]
+            },
+            {
+                "symbol": "aˀ",
+                "key_prompts": [
+                    "a"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v1bu",
+        "symbols": [
+            {
+                "symbol": "ɑ",
+                "key_prompts": [
+                    "a"
+                ]
+            },
+            {
+                "symbol": "ɑ̃",
+                "key_prompts": [
+                    "a"
+                ]
+            },
+            {
+                "symbol": "ɑ̰",
+                "key_prompts": [
+                    "a"
+                ]
+            },
+            {
+                "symbol": "ɑː",
+                "key_prompts": [
+                    "a"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "v1br",
+        "symbols": [
+            {
+                "symbol": "ɒ",
+                "key_prompts": [
+                    "a"
+                ]
+            },
+            {
+                "symbol": "ɒ̃",
+                "key_prompts": [
+                    "a"
+                ]
+            },
+            {
+                "symbol": "ɒː",
+                "key_prompts": [
+                    "a"
+                ]
+            },
+            {
+                "symbol": "ɒ̃ː",
+                "key_prompts": [
+                    "a"
+                ]
+            }
+        ]
+    }
+]
