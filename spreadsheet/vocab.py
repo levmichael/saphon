@@ -102,3 +102,9 @@ proc_vocab = [
     'vowel shortening',
 ]
 
+# Process alternation types
+proc_alternation_vocab = [
+    'morphological',
+    'morphophonological',
+    'phonological',
+]
