@@ -5,6 +5,7 @@
 # Natural Class category symbols.
 natcat = [
     'D',
+    'G',
     'N',
     'NN',
     'ND',
