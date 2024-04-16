@@ -1,6 +1,5 @@
 <?php include("header.php"); ?>
 
-  <script type="text/javascript" src="https://maps.google.com/maps/api/js?v=quarterly&language=en&key={GOOGLE_MAPS_API_KEY}&loading=async"></script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script type="text/javascript" src="../saphon-map.js"></script>
 
@@ -13,7 +12,7 @@
   </script>
 
 </head>
-<body onload="initialize(translation)">
+<body onload="initMap(translation)">
 
 <?php include("title.php"); ?>
 <?php include("nav-languages.php"); ?>

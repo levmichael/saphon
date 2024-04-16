@@ -1,3 +1,11 @@
+// Asynchronous load of google maps api: https://developers.google.com/maps/documentation/javascript/overview#Loading_the_Maps_API
+(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
+  key: "{GOOGLE_MAPS_API_KEY}",
+  v: "quarterly",
+});
+
+let map;
+
 // Hack for accessing the state of meta and ctrl key from
 // inside map event handler.
 var metadown = false;
@@ -10,42 +18,6 @@ $(window).bind('focusout mouseleave', function(evtobj) {
   metadown = false;
 });
 
-function getIcon( color, text) {
-  const pinGlyph = new google.maps.PinElement({
-    background: color,
-    title: text
-  });
-  return pinGlyph;
-}
-
-var icons = {
-  'Tupi' : getIcon( '#2f0', 'T'),
-  'Tupí' : getIcon( '#2f0', 'T'),
-  'Arawak' : getIcon( '#f00', 'A'),
-  'Carib' : getIcon( '#f80', 'C'),
-  'Macro-Ge' : getIcon( '#ff0', 'M'),
-  'Quechua' : getIcon( '#cf4', 'Q'),
-  'Panoan' : getIcon( '#08f', 'P'),
-  'Tucanoan' : getIcon( '#00f', 'Tu'),
-  'Arawan' : getIcon( '#f08', 'An'),
-  'Chibchan' : getIcon( '#faa', 'Cb'),
-  'Guaicuru' : getIcon( '#a42', 'G'),
-  'Mataco' : getIcon( '#26c', 'Mt'),
-  'Jivaroan' : getIcon( '#2aa', 'J'),
-  'Witotoan' : getIcon( '#999', 'W'),
-  'Barbacoan' : getIcon( '#c48', 'B'),
-  'Chapakuran' : getIcon( '#088', 'Cp'),
-  'Choco' : getIcon( '#a80', 'Cc'),
-  'Guahiban' : getIcon( '#4cf', 'Gh'),
-  'Nadahup' : getIcon( '#4fc', 'N'),
-  'Nambiquaran' : getIcon( '#4a2', 'Nm'),
-  'Tacanan' : getIcon( '#c4f', 'Tn'),
-  'Yanomam' : getIcon( '#80c', 'Y'),
-  'Zaparoan' : getIcon( '#fc4', 'Z'),
-  'Chon' : getIcon( '#fef', 'Ch'),
-  'Other' : getIcon( '#ccd', '')
-};
- 
 function get_pos(el) {
   for (var lx=0, ly=0;
 	 el != null;
@@ -54,7 +26,44 @@ function get_pos(el) {
 }
 
 
-function initialize(pglang) { 
+async function initMap(pglang) {
+  const { Map, InfoWindow } = await google.maps.importLibrary("maps");
+  const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
+  function getIcon( color, text) {
+    const pinGlyph = new PinElement({
+      background: color,
+      title: text
+    });
+    return pinGlyph;
+  }
+
+  var icons = {
+    'Tupi' : getIcon( '#2f0', 'T'),
+    'Tupí' : getIcon( '#2f0', 'T'),
+    'Arawak' : getIcon( '#f00', 'A'),
+    'Carib' : getIcon( '#f80', 'C'),
+    'Macro-Ge' : getIcon( '#ff0', 'M'),
+    'Quechua' : getIcon( '#cf4', 'Q'),
+    'Panoan' : getIcon( '#08f', 'P'),
+    'Tucanoan' : getIcon( '#00f', 'Tu'),
+    'Arawan' : getIcon( '#f08', 'An'),
+    'Chibchan' : getIcon( '#faa', 'Cb'),
+    'Guaicuru' : getIcon( '#a42', 'G'),
+    'Mataco' : getIcon( '#26c', 'Mt'),
+    'Jivaroan' : getIcon( '#2aa', 'J'),
+    'Witotoan' : getIcon( '#999', 'W'),
+    'Barbacoan' : getIcon( '#c48', 'B'),
+    'Chapakuran' : getIcon( '#088', 'Cp'),
+    'Choco' : getIcon( '#a80', 'Cc'),
+    'Guahiban' : getIcon( '#4cf', 'Gh'),
+    'Nadahup' : getIcon( '#4fc', 'N'),
+    'Nambiquaran' : getIcon( '#4a2', 'Nm'),
+    'Tacanan' : getIcon( '#c4f', 'Tn'),
+    'Yanomam' : getIcon( '#80c', 'Y'),
+    'Zaparoan' : getIcon( '#fc4', 'Z'),
+    'Chon' : getIcon( '#fef', 'Ch'),
+    'Other' : getIcon( '#ccd', '')
+  };
   var myLatlng = new google.maps.LatLng(-4.669119, -60.829511);
   var myOptions = {
     zoom: 5,
@@ -64,12 +73,13 @@ function initialize(pglang) {
     panControl: false,
     scaleControl: true,
     streetViewControl: false,
-    mapTypeId: google.maps.MapTypeId.TERRAIN
+    mapTypeId: google.maps.MapTypeId.TERRAIN,
+    mapId: "{GOOGLE_MAP_ID}"
   }
 
   var map_div = document.getElementById("map")
   var map_pos = get_pos( map_div)
-  var map = new google.maps.Map( map_div, myOptions);
+  var map = new Map( map_div, myOptions);
   var overlay = new google.maps.OverlayView();
   overlay.draw = function() {};
   overlay.setMap( map);
@@ -99,20 +109,12 @@ function initialize(pglang) {
 		parseFloat(lang.getAttribute("lng"))); 
 	var bubble = title + " (" + iso_code + `) <br/> ${pglang["family"]}: ` + family;
 
-	const marker =
-	new google.maps.AdvancedMarkerElement({
+	const marker = new AdvancedMarkerElement({
 	  map: map, 
 	  position: point,
           title: bubble,
-          content: (family in icons ? icons[family] : icons.Other)
+          content: (family in icons ? icons[family].element : icons["Other"].element),
 	});
-
-        // Add a click listener for each marker, and set up the info window.
-        marker.addListener("click", () => {
-          infoWindow.close();
-          infoWindow.setContent(marker.getTitle());
-          infoWindow.open(marker.getMap(), marker);
-        });
 
       if( parm_c != null && parm_c == iso_code) {
         map.panTo( point);
