@@ -57,9 +57,9 @@ The first two of these fields contains a list of simple dicts in which all dict 
 
 * `morphemes`: A list of morphemes in this language that are of note for one or more processes that are referred to in the document.
   * `morpheme_id`: An string identifier for the morpheme.
-  * `morpheme_class`: The kind of morphological element that undergoes the process, if the process's `type` is `morphological`. The value must be one of 'prefix', 'root', 'suffix', 'proclitic', 'enclitic', or if the process `type` is not `morphological`, this field must have the value `NA` to indicate an empty value. (TODO: review the list of allowable values)
-  * `phonological_form`: The phonological form of the morpheme, using symbols from the International Phonetic Alphabet. (TODO: elaborate on the meaning of this field, e.g. UR vs. surface)
-  * `allomorphs`: A list of surface allomorphs of this morpheme, using symbols from the International Phonetic Alphabet. (TODO: check whether this needs to be a list)
+  * `morpheme_type`: The kind of morphological element that undergoes the process, if the process's `type` is `morphological`. The value must be one of 'prefix', 'root', 'suffix', 'proclitic', 'enclitic', or if the process `type` is not `morphological`, this field must have the value `NA` to indicate an empty value. (TODO: review the list of allowable values)
+  * `underlying_form`: The underlying phonological form of the morpheme, using symbols from the International Phonetic Alphabet. (TODO: elaborate on the meaning of this field, e.g. UR vs. surface)
+  * `surface_forms`: A list of surface allomorphs of this morpheme, using symbols from the International Phonetic Alphabet.
   * `gloss`: English language gloss of the morpheme.
 
 The second and third of these fields contains a list of dicts, the values of which can be list or dict datatypes. The first of these is `phonemes`:
@@ -77,6 +77,8 @@ The second and third of these fields contains a list of dicts, the values of whi
 * `processdetails`: A list of details pertaining to all of the (nasal) processes active in the language. Each process described in this list must also refer to a process in the `phoneme` list one or more times. Each value in this list is a dict. The dict values of this list must not have repeated values of the conjunction of their `processtype` and `processname` values (see below).
   * `processname`: The name of the process described. The value must match a string in the `processnames` list in the `phonemes` list. This value is a string.
   * `processtype`: The type of process described. The value is a string that must match one of the values of ... (TODO: add pointer to controlled vocabulary for this field). (TODO: check that this value matches the prefix of `processname`.
+  * `alternationtype`: The type of alternation described. The value is a string that must match one of the values of `proc_alternation_vocab` (TODO: add pointer to controlled vocabulary for this field).
+  * `domain`: The domain in which the process occurs. The value is a string that must be `word-internal` or `cross-word`.
   * `description`: A prose description of the process.
   * `optionality`: One of three values that describe whether the process applies without exception, optionally, or is not known. The valid values of these are, respectively, 'categorical', 'optional', and 'unknown'.
   * `directionality`: One of five values that describe whether in which direction the process applies. The valid values are 'leftward', 'rightward', 'bidirectional', 'circumdirectional', and 'unknown'. (TODO: full description of meanings of these values)
