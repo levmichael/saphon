@@ -8,7 +8,7 @@ from copy import deepcopy
 import pandas as pd
 sys.path.append('..')
 from python.saphon.io import YAMLLang, normalizeIPA, readFeatList
-from vocab import natcat, proc_vocab
+from vocab import natcat, proc_vocab, proc_alternation_vocab
 
 # Published Tupian input spreadsheet
 puburl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRtBRoC1INFhZIP0z5YCe7K-6e_cbJeoCNv5RbdCiugSrNQXLfwLLMHiL5VLo6MTvX1nJbawiBU5KF4'
@@ -241,10 +241,23 @@ def parse_proc(t):
         print(f'Could not parse proc section:\n{t}\n\n')
         raise
     proc = {n: '' for n in ('processname', 'processtype', 'description', 'optionality', 'directionality', 'alternation_type')}
+    proc['domain'] = 'word-internal'
+    procnames = []
     for fld, k in (('process name', 'processname'), ('process type', 'processtype'), ['description'] * 2, ['optionality'] * 2, ['directionality'] * 2, ('alternation type', 'alternation_type')):
         fldm = re.search(f'{fld}:\s+(?P<val>.+)', top, re.IGNORECASE|re.MULTILINE)
         try:
-            proc[k] = fldm.groupdict()['val']
+            val = fldm.groupdict()['val']
+            if k in ('optionality', 'directionality', 'alternation_type'):
+                val = val.lower()
+            elif k in ('processname', 'processtype'):
+                if k == 'processname' and val.startswith('XWP='):
+                    proc['domain'] = 'cross-word'
+                val = val.replace('XMP=','').replace('XWP=','').replace('MPP=','')
+                if k == 'processname':
+                    if val in procnames:
+                        sys.stderr.write(f'Found multiple instances of procname {val}.')
+                procnames.append(val)
+            proc[k] = val
         except AttributeError:
             proc[k] = 'TODO: NOT PARSED'
 
@@ -521,9 +534,13 @@ def parse_env(s):
         else:
             parse = [envre.search(e).groupdict() for e in parse_multienv(s)]
     except Exception as e:
-            parse = [f'ERROR parsing environment string {s}']
+            parse = [{'preceding': f'ERROR TODO parsing environment string {s}', 'following': 'TODO'}]
     return parse
 
+# 20240312
+# TODO: strip XWP|XMP|MPP= tag from process names and make sure there are no name conflicts that result from that
+# TODO: reintroduce 'alternation_type' into `processdetails`: morphphonological|morphological|phonological|OTHER?
+# TODO: add 'domain': 'cross-word' and 'word internal' values either/or/both
 def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
     '''Check processes for each doc.'''
     for doc in [l['synthesis']] + l['ref']:
@@ -550,13 +567,13 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
                       f'for {docid}\n\n'
                 sys.stderr.write(msg)
             try:
-                proc_name = f'{m.group("tag") or ""}{m.group("phone") or ""}{m.group("proc")}'
+                proc_name = f'{m.group("phone") or ""}{m.group("proc")}'
                 assert(
                     proc['processname'].startswith(proc_name + ':') or
                     proc['processname'] == proc_name
                 )
             except AssertionError:
-                msg = f'Process type {proc["processname"]} does not match type {m.group("proc")} (from {proc["processtype"]}) ' \
+                msg = f'Process name {proc["processname"]} does not match {proc_name} ' \
                       f'for {docid}\n\n'
                 sys.stderr.write(msg)
             except KeyError:
@@ -570,6 +587,12 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
                 sys.stderr.write(msg)
             except KeyError:
                 msg = f'Proc {proc} missing "processname" key\n\n'
+                sys.stderr.write(msg)
+            try:
+                assert(proc['alternation_type'] in proc_alternation_vocab)
+            except AssertionError:
+                msg = f'Process alternation type {proc["alternation_type"]} not in proc_alternation_vocab ' \
+                      f'for {docid}\n\n'
                 sys.stderr.write(msg)
             # TODO: do this checking against json outputs instead of below
             continue
@@ -602,7 +625,7 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
                 if v in ['NA', 'None', 'Uncertain', 'Unspecified']:
                     try:
                         assert(v != 'Uncertain' or docid == 'synthesis')
-                        assert(v != 'Unspecified' or docid != 'synthesis')
+#                        assert(v != 'Unspecified' or docid != 'synthesis')
                     except AssertionError:
                         allowed_type = 'ref' if docid == 'synthesis' else 'synthesis'
                         msg = f"{fld} value '{v}' allowed only in {allowed_type} " \
@@ -767,6 +790,7 @@ def check_allophones(l, flatnatclasses):
             try:
                 assert(
                     normalizeIPA(a[0]) in natclass or \
+                    natclass == ['unspecified'] or \
                     a[0] == '∅' or \
                     (a[0] in ['V', 'Ṽ'] and len(a) == 5)  # String mappings can have V or nasalized V as first element of an allophone tuple
                 )
@@ -797,7 +821,7 @@ def check_allophones(l, flatnatclasses):
                 else:
                     procs2check = [aproc]
                 for pn in procs2check:
-                    pn = pn.strip()
+                    pn = pn.strip().replace('XMP=','').replace('XWP=','').replace('MPP=','')
                     procs.append(pn)
                     try:
                         m = re.match(procre, pn)
@@ -805,12 +829,8 @@ def check_allophones(l, flatnatclasses):
                         assert(m.group('proc') in proc_names)
                         if m.group('phone') is not None and m.group('phone') != '':
                             procs.append(m.group('proc'))
-                            if m.group('tag') is not None and m.group('tag') != '':
-                                procs.append(m.group('tag') + m.group('proc'))
                             if m.group('subtype') is not None and m.group('subtype') != '':
                                 procs.append(m.group('procsubtype'))
-                                if m.group('tag') is not None and m.group('tag') != '':
-                                    procs.append(m.group('tag') + m.group('procsubtype'))
                     except AssertionError:
                         msg = f"Allophone processname '{pn.strip()}' does not match available Process names " \
                               f"'{', '.join(proc_names)}' for {docid}\n\n"
@@ -878,19 +898,22 @@ def check_natclasses(l):
         nclasses = []
         flats = []
         catsymb = []
-        try:
-            nc2check = parse_with_delims(doc['natclass'])
-        except Exception as e:
-            msg = f"Error in Natural Class list {doc['natclass']}. " \
-                  f" for {docid}\n"
-            sys.stderr.write(msg)
-            print(e, file=sys.stderr)
-            sys.stderr.write('\n')
-        for nclass in nc2check:
-            nc = check_natclass(nclass)
-            nclasses.append(nc[0])
-            flats.extend(nc[1])
-            catsymb.append(nc[2])
+        if doc['natclass'].strip().lower() == 'unspecified':
+            flats = ['unspecified']
+        else:
+            try:
+                nc2check = parse_with_delims(doc['natclass'])
+            except Exception as e:
+                msg = f"Error in Natural Class list {doc['natclass']}. " \
+                      f" for {docid}\n"
+                sys.stderr.write(msg)
+                print(e, file=sys.stderr)
+                sys.stderr.write('\n')
+            for nclass in nc2check:
+                nc = check_natclass(nclass)
+                nclasses.append(nc[0])
+                flats.extend(nc[1])
+                catsymb.append(nc[2])
         docnatclasses[docid] = nclasses
         docflatnatclasses[docid] = flats
         doccatsymb[docid] = catsymb
