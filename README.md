@@ -22,7 +22,7 @@ The top-level scalar fields of the `synthesis` document are described first:
 
 * `name`: The preferred citation form of the name of the language, in an orthographic form suited to academic publications.  It may contain spaces, hyphens, diacritics, and non-Latin glyphs that would occur in the preferred orthographic representation, e.g. **Arára do Mato Grosso**, **Aʔɨwa**, **Ashéninka (Apurucayali dialect)**.
 
-* `glottolog_name`: The language name [as it appears in Glottolog](https://glottolog.org/).
+* `glottolog_code`: The language code [as assigned in Glottolog](https://glottolog.org/).
 
 * `short_name`: The language name abbreviated to around 12 characters or less, to be used in tables and plots where space is tight.  Spaces, hyphens, diacritics, non-Latin glyphs are all permitted.
 

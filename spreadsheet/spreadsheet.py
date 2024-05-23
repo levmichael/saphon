@@ -104,6 +104,9 @@ fields = {
         'synthesis': 'synthesis',           # TODO: synthesis only
         'date completed': 'date_completed', # TODO: synthesis only 
         'language': 'lang',
+        'alternate_names': 'altnames',
+        'iso_codes': 'iso_codes',
+        'glottocode': 'glottocode',
         'source': 'source',                 # TODO: ref only
         'data inputter': 'data_inputter',
         'summary': 'summary',
@@ -124,7 +127,6 @@ fields = {
         'process type': 'processtype',
         'prose description': 'description',
         'optionality': 'optionality',
-#        'optioanlity': 'optionality',
         'prose descrption': 'description',
         'directionality': 'directionality',
         'domain': 'domain',
