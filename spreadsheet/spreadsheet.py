@@ -591,9 +591,9 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
                 msg = f'Proc {proc} missing "processname" key\n\n'
                 sys.stderr.write(msg)
             try:
-                assert(proc['alternation_type'] in proc_alternation_vocab)
+                assert(proc['alternation_type'].strip().lower() in proc_alternation_vocab)
             except AssertionError:
-                msg = f'Process alternation type {proc["alternation_type"]} not in proc_alternation_vocab ' \
+                msg = f'Process alternation type "{proc["alternation_type"].strip().lower()}" not in proc_alternation_vocab ' \
                       f'for {docid}\n\n'
                 sys.stderr.write(msg)
             # TODO: do this checking against json outputs instead of below
