@@ -30,6 +30,7 @@ natcat = [
 proc_vocab = [
     'BN',
     'BO',
+    'GN',
     'LDNH',
     'LDOH',
     'LN',
