@@ -554,7 +554,7 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
             try:
                 m = re.match(procre, proc['processtype'])
             except KeyError:
-                msg = f'Proc {proc} missing "processtype" key\n\n'
+                msg = f'Proc "{proc}" missing "processtype" key\n\n'
                 sys.stderr.write(msg)
             try:
                 assert(m is not None)
@@ -565,7 +565,7 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
             try:
                 assert(m.group('proc') in proc_vocab)
             except AssertionError:
-                msg = f'Process type {m.group("proc")} (from {proc["processtype"]}) not in proc_vocab ' \
+                msg = f'Process type "{m.group("proc")}" (from {proc["processtype"]}) not in proc_vocab ' \
                       f'for {docid}\n\n'
                 sys.stderr.write(msg)
             try:
@@ -579,21 +579,21 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
                       f'for {docid}\n\n'
                 sys.stderr.write(msg)
             except KeyError:
-                msg = f'Proc {proc} missing "processname" key\n\n'
+                msg = f'Proc "{proc}" missing "processname" key\n\n'
                 sys.stderr.write(msg)
             try:
                 assert(proc['processname'] in alloprocs[docid])
             except AssertionError:
-                msg = f'Process name {proc["processname"]} not used by any allophones ' \
+                msg = f'Process name "{proc["processname"]}" not used by any allophones ' \
                       f' for {docid}\n\n'
                 sys.stderr.write(msg)
             except KeyError:
-                msg = f'Proc {proc} missing "processname" key\n\n'
+                msg = f'Proc "{proc}" missing "processname" key\n\n'
                 sys.stderr.write(msg)
             try:
-                assert(proc['alternation_type'].strip().lower() in proc_alternation_vocab)
+                assert(proc['alternation_type'] in proc_alternation_vocab)
             except AssertionError:
-                msg = f'Process alternation type "{proc["alternation_type"].strip().lower()}" not in proc_alternation_vocab ' \
+                msg = f'Process alternation type "{proc["alternation_type"]}" not in proc_alternation_vocab ' \
                       f'for {docid}\n\n'
                 sys.stderr.write(msg)
             # TODO: do this checking against json outputs instead of below
@@ -602,7 +602,7 @@ def check_procs(l, natclass_map, morph_id_map, catsymb, alloprocs):
                 try:
                     proc[fld]
                 except KeyError:
-                    msg = f'Proc {proc} missing "transparencies", "opacities", or "undergoers" key\n\n'
+                    msg = f'Proc "{proc}" missing "transparencies", "opacities", or "undergoers" key\n\n'
                     sys.stderr.write(msg)
                     continue
                 if fld == 'undergoers':
