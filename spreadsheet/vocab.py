@@ -55,6 +55,7 @@ proc_vocab = [
     'deletion',
     'dentalization',
     'depalatalization',
+    'develarization',
     'devoicing',
     'fortition',
     'fronting',
