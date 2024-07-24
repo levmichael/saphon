@@ -46,6 +46,7 @@ langsheets = {
     'Karo': {'gid': '766861749', 'short': 'Karo', 'include': True},
     'Kayabí (Jawarum)': {'gid': '1565311689', 'short': 'KayabiJ', 'include': True},
     'Kayabí (Xingú)': {'gid': '1161168599', 'short': 'KayabiX', 'include': True},
+    'Kayabí (Kapiwat)': {'gid': '616309283', 'short': 'KayabiTODO', 'include': True},
     'Kokama-Kokamilla': {'gid': '361432087', 'short': 'Kokama', 'include': True},
     'Kuruayá': {'gid': '1041056554', 'short': 'Kuruaya', 'include': True},
     'Makuráp': {'gid': '1353750550', 'short': 'Makurap', 'include': True},
