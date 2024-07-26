@@ -146,7 +146,7 @@ fields = {
     }
 }
 
-def read_lang(infile):
+def read_lang(infile, strict=True):
     '''
     Read a language's input data from a .tsv file.
 
@@ -160,14 +160,14 @@ def read_lang(infile):
     text = ''
     with open(infile, 'r', encoding='utf-8') as fh:
         text = fh.read()
-    lang = read_lang_text(text)
+    lang = read_lang_text(text, strict=strict)
     if lang['synthesis'] == {}:
         sys.stderr.write(f'No synthesis found in lang file {infile}.\n')
     if lang['ref'] == []:
         sys.stderr.write(f'No ref docs found in lang file {infile}.\n')
     return lang
 
-def read_lang_text(text):
+def read_lang_text(text, strict=True):
     '''
     Read a language's input data from tab-delimited text string lines.
 
@@ -188,9 +188,9 @@ def read_lang_text(text):
             lang['synthesis'] = parse_doc(d)
         else:
             raise RuntimeError("Unrecognized document type. Must be 'Reference' or 'Synthesis'.")
-    if lang['synthesis'] == {}:
+    if lang['synthesis'] == {} and strict is True:
         raise RuntimeError(f'No synthesis found.\n')
-    if lang['ref'] == []:
+    if lang['ref'] == [] and strict is True:
         raise RuntimeError(f'No ref docs found.\n')
     return lang
 
