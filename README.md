@@ -46,7 +46,7 @@ Eight fields contain lists of scalar values:
 
 * `tone`: Boolean indicating presence of tone (true) or not (false).
 
-Three fields contain lists of mappings (dicts):
+Five fields contain lists of mappings (dicts):
 
 The first two of these fields contains a list of simple dicts in which all dict values are scalar.
 
@@ -56,23 +56,32 @@ The first two of these fields contains a list of simple dicts in which all dict 
   * `elevation_meters`: The elevation in meters, rounded to the nearest integer meter. May be omitted if unknown.
 
 * `morphemes`: A list of morphemes in this language that are of note for one or more processes that are referred to in the document.
-  * `morpheme_id`: An string identifier for the morpheme.
+  * `morpheme_id`: A string identifier for the morpheme.
   * `morpheme_type`: The kind of morphological element that undergoes the process, if the process's `type` is `morphological`. The value must be one of 'prefix', 'root', 'suffix', 'proclitic', 'enclitic', or if the process `type` is not `morphological`, this field must have the value `NA` to indicate an empty value. (TODO: review the list of allowable values)
   * `underlying_form`: The underlying phonological form of the morpheme, using symbols from the International Phonetic Alphabet. (TODO: elaborate on the meaning of this field, e.g. UR vs. surface)
   * `surface_forms`: A list of surface allomorphs of this morpheme, using symbols from the International Phonetic Alphabet.
   * `gloss`: English language gloss of the morpheme.
 
-The second and third of these fields contains a list of dicts, the values of which can be list or dict datatypes. The first of these is `phonemes`:
+The final three of these fields contains a list of dicts, the values of which can be list or dict datatypes. The first of these is `natural_classes`:
+
+# TODO: `natural_classes` description has not been seen by Lev
+* `natural_classes`: A list of the natural classes defined for the language.
+  * `symbol`: A string representation of the symbol that represents the natural class. Must be exactly one upper case ASCII character.
+  * `members`: A list of the phonemes in the natural class. Each value is a string that matches a phoneme of the language.
+
+The next of these fields is `phonemes`:
 
 * `phonemes`: A list of the phonemes of the language, the allophones of each phoneme, and the environments in which they occur and the processes that are conditioned by each environment. This list is synthesized from the entries listed in the `ref` documents.
 
-  * `phoneme`: A phoneme of the language, using symbols from the International Phonetic Alphabet.
+  * `phoneme`: A phoneme of the language, using symbols from the International Phonetic Alphabet in (TODO: specify normalization form).
   * `environments`: A list of environments in which the phoneme may occur, and the allophones that are conditioned by that environment, and processes that yield each allophone. The values of this list are dicts.
     * `preceding`: A string representation of the part of the environment that precedes the phone.
     * `following`: A string representation of the part of the environment that follows the phone.
     * `allophones`: A list of dicts that represent allophones yielded by the phoneme in this environment. Multiple values in this list implies free variation among the allophones in this list.
       * `processnames`: A list of process names that yield this allophone. Each value is a string. Thist list of process names does not imply free variation. Instead, the list may describe multiple processes that apply simultaneously, e.g. the process by which `phone` `e` yields `allophone` `ɛː` is described as the simultaneous application of two processes named `lowering` and `lengthening`.
       * `allophone`: The allophone yielded by the process(es) in this environment, as denoted in `processnames` and using symbols from the International Phonetic Alphabet.
+
+The last of these fields is `processdetails`:
 
 * `processdetails`: A list of details pertaining to all of the (nasal) processes active in the language. Each process described in this list must also refer to a process in the `phoneme` list one or more times. Each value in this list is a dict. The dict values of this list must not have repeated values of the conjunction of their `processtype` and `processname` values (see below).
   * `processname`: The name of the process described. The value must match a string in the `processnames` list in the `phonemes` list. This value is a string.
@@ -82,7 +91,7 @@ The second and third of these fields contains a list of dicts, the values of whi
   * `description`: A prose description of the process.
   * `optionality`: One of three values that describe whether the process applies without exception, optionally, or is not known. The valid values of these are, respectively, 'categorical', 'optional', and 'unknown'.
   * `directionality`: One of five values that describe whether in which direction the process applies. The valid values are 'leftward', 'rightward', 'bidirectional', 'circumdirectional', and 'unknown'. (TODO: full description of meanings of these values)
-  * `alternation_type`: One of three values that describe the type of alternation described by this process. The valid values are 'phonological', 'morphophonological', and 'morphological'. (TODO: full description of the meanings of these values)
+  * `alternation_type`: One of three values that describe the type of alternation described by this process. The valid values are 'phonological', 'morphophonological', and 'morphological'. (TODO: full description of the meanings of these values) (TODO: alternationtype is also a property of processdetails)
   * `undergoers`: A dict of the elements that are subject to this process, as listed under the keys `segments` and `morphemes:
     * `segments` A dict of the segments that are subject to the process, as listed under the keys `units` and `positional_restriction`. Note that the value is a simple dict and not a list of dicts as for `triggers`, `transparent`, and `opaque` values.
       * `units` A list of valid natural class and phoneme symbols for this language.
