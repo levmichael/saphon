@@ -20,7 +20,8 @@
   "properties": {
     "doctype": {
       "description": "The SAPhon language document type.",
-      "const": "synthesis"
+      "const": "synthesis",
+      "default": "synthesis"
     },
     "name": {
       "description": "The preferred citation form of the name of the language, in an orthographic form suited to academic publications.  It may contain spaces, hyphens, diacritics, and non-Latin glyphs that would occur in the preferred orthographic representation, e.g. **Arára do Mato Grosso**, **Aʔɨwa**, **Ashéninka (Apurucayali dialect)**.",
