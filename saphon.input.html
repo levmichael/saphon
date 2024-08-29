@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Saphon JSON generator</title>
+</head>
+<body>
+    <h1>Saphon JSON generator</h1>
+
+    <!-- Create a div where the JSON editor will be rendered -->
+    <div id="editor_holder"></div>
+
+    <!-- Create buttons to interact with the editor -->
+    <button id="submit">Submit</button>
+    <button id="reset">Reset</button>
+
+    <!-- Display the JSON output -->
+    <pre id="output"></pre>
+
+    <!-- Include the JSON Editor JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@json-editor/json-editor@latest/dist/jsoneditor.min.js"></script>
+
+ <script>
+        const schemaUrl = 'https://raw.githubusercontent.com/levmichael/saphon/spreadsheet/saphonlang.schema.json';
+        // Fetch the schema from GitHub
+        fetch(schemaUrl)
+            .then(response => response.json())
+            .then(schema => {
+                // Initialize the JSON Editor with the fetched schema
+                const editor = new JSONEditor(document.getElementById('editor_holder'), {
+                    schema: schema
+                });
+
+                // Handle the submit button
+                document.getElementById('submit').addEventListener('click', () => {
+                    const json = editor.getValue();
+                    document.getElementById('output').textContent = JSON.stringify(json, null, 2);
+                });
+
+                // Handle the reset button
+                document.getElementById('reset').addEventListener('click', () => {
+                    editor.setValue({});
+                    document.getElementById('output').textContent = '';
+                });
+            })
+            .catch(error => {
+                console.error('Error loading schema:', error);
+                document.getElementById('output').textContent = 'Error loading schema. Please check the console for more details.';
+            });
+    </script>
+</body>
+</html>
