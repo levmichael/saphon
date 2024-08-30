@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/levmichael/saphon/synthesis.schema.json",
+  "title": "saphonlang",
+  "description": "A SAPhon language synthesis",
+  "type": "object",
+  "required": [
+    "name",
+    "glottolog_code",
+    "short_name",
+    "synthesis"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "description": "The preferred citation form of the name of the language, in an orthographic form suited to academic publications.  It may contain spaces, hyphens, diacritics, and non-Latin glyphs that would occur in the preferred orthographic representation, e.g. **Arára do Mato Grosso**, **Aʔɨwa**, **Ashéninka (Apurucayali dialect)**.",
+      "type": "string"
+    },
+    "glottolog_code": {
+      "description": "The language code [as assigned in Glottolog](https://glottolog.org/)",
+      "type": "string",
+      "pattern": "^[a-z0-9]{4}[1-9][0-9]{3}$"
+    },
+    "short_name": {
+      "description": "The language name abbreviated to around 12 characters or less, to be used in tables and plots where space is tight.  Spaces, hyphens, diacritics, non-Latin glyphs are all permitted.",
+      "type": "string",
+      "pattern": "^.{1,12}$"
+    },
+    "synthesis": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "synthesisdesc": {
+          "description": "synthesis description",
+          "type": "string"
+        },
+        "natural_classes": {
+          "description": "TODO",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "symbol",
+              "members"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "symbol": {
+                "description": "TODO",
+                "type": "string",
+                "pattern": "^([A-Z]|Ṽ)$"
+              },
+              "members": {
+                "description": "TODO",
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/ipastring"
+                }
+              }
+            }
+          },
+          "minItems": 0
+        }
+      }
+    }
+  }
+}
