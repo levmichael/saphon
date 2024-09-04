@@ -1,107 +1,110 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/levmichael/saphon/synthesis.schema.json",
+  "$id": "https://github.com/levmichael/saphon/saphonlang.schema.json",
   "title": "saphonlang",
   "description": "A SAPhon language synthesis",
   "type": "object",
   "required": [
-    "name",
-    "short_name",
-    "alternate_names",
-    "glottolog_code",
-    "iso_codes",
-    "family",
-    "countries",
-    "notes",
+    "info",
     "synthesis",
     "sources"
   ],
   "additionalProperties": false,
   "properties": {
-    "name": {
-      "description": "The preferred citation form of the name of the language, in an orthographic form suited to academic publications.  It may contain spaces, hyphens, diacritics, and non-Latin glyphs that would occur in the preferred orthographic representation, e.g. **Arára do Mato Grosso**, **Aʔɨwa**, **Ashéninka (Apurucayali dialect)**.",
-      "type": "string"
-    },
-    "glottolog_code": {
-      "description": "The language code [as assigned in Glottolog](https://glottolog.org/)",
-      "type": "string",
-      "pattern": "^[a-z0-9]{4}[1-9][0-9]{3}$"
-    },
-    "short_name": {
-      "description": "The language name abbreviated to around 12 characters or less, to be used in tables and plots where space is tight.  Spaces, hyphens, diacritics, non-Latin glyphs are all permitted.",
-      "type": "string",
-      "pattern": "^.{1,12}$"
-    },
-    "family": {
-      "description": "This is the linguistic family of the language, or `Isolate` for linguistic isolates.",
-      "type": "string"
-    },
-    "alternate_names": {
-      "description": "A list of alternative or outdated names for the language.",
-      "type": "array",
-      "items": {
-        "type": "string",
-        "minLength": 1
-      },
-      "minItems": 0
-    },
-    "iso_codes": {
-      "description": "A sequence of ISO 639-3 codes for the language, or of our own devising when the ISO codes are inadequate. When we need to distinguish language varieties not distinguished by ISO 639-3, we add a three letter extension to the code with an underscore '_' separator. Ordinarily the sequence contains only one code, but more values occur when multiple ISO codes refer to the same language (e.g. [Huaylas-Conchucos Quechua]('langs/HuaylasCQ.txt' contains codes `qxn`, `qwh`).",
-      "type": "array",
-      "items": {
-        "type": "string",
-        "pattern": "^(([a-z]{3})|([a-z]{3}_[a-z]{3}))$"
-      },
-      "minItems": 0
-    },
-    "countries": {
-      "description": "A list of country names where the language is indigenous.",
-      "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "minItems": 0
-    },
-    "notes": {
-      "description": "A list of notes relating to the language.",
-      "type": "string"
-    },
-    "laryngeal_harmony": {
-      "description": "Boolean indicating presence of laryngeal harmony (true) or not (false).",
-      "type": "boolean"
-    },
-    "tone": {
-      "description": "Boolean indicating presence of tone (true) or not (false).",
-      "type": "boolean"
-    },
-    "coordinates": {
-      "description": "A list of the geographical coordinates for the language.",
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": [
-          "latitude",
-          "longitude"
-        ],
-        "additionalProperties": false,
-        "properties": {
-          "latitude": {
-            "description": "The coordinate latitude in decimal format, given to 3 decimal places.",
-            "type": "number",
-            "multipleOf": 0.001,
-        "minimum": -90.000,
-        "maximum": 90.000
+    "info": {
+      "description": "General language metadata",
+      "type": "object",
+      "required": [
+        "name",
+        "short_name",
+        "alternate_names",
+        "glottolog_code",
+        "iso_codes",
+        "family",
+        "countries",
+        "notes",
+	"coordinates"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "description": "The preferred citation form of the name of the language, in an orthographic form suited to academic publications.  It may contain spaces, hyphens, diacritics, and non-Latin glyphs that would occur in the preferred orthographic representation, e.g. **Arára do Mato Grosso**, **Aʔɨwa**, **Ashéninka (Apurucayali dialect)**.",
+          "type": "string"
+        },
+        "short_name": {
+          "description": "The language name abbreviated to around 12 characters or less, to be used in tables and plots where space is tight.  Spaces, hyphens, diacritics, non-Latin glyphs are all permitted.",
+          "type": "string",
+          "pattern": "^.{1,12}$"
+        },
+        "alternate_names": {
+          "description": "A list of alternative or outdated names for the language.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
           },
-          "longitude": {
-            "description": "The coordinate longitude in decimal format, given to 3 decimal places.",
-            "type": "number",
-            "multipleOf": 0.001,
-        "minimum": -180.000,
-        "maximum": 180.000
+          "minItems": 0
+        },
+        "glottolog_code": {
+          "description": "The language code [as assigned in Glottolog](https://glottolog.org/)",
+          "type": "string",
+          "pattern": "^[a-z0-9]{4}[1-9][0-9]{3}$"
+        },
+        "iso_codes": {
+          "description": "A sequence of ISO 639-3 codes for the language, or of our own devising when the ISO codes are inadequate. When we need to distinguish language varieties not distinguished by ISO 639-3, we add a three letter extension to the code with an underscore '_' separator. Ordinarily the sequence contains only one code, but more values occur when multiple ISO codes refer to the same language (e.g. [Huaylas-Conchucos Quechua]('langs/HuaylasCQ.txt' contains codes `qxn`, `qwh`).",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(([a-z]{3})|([a-z]{3}_[a-z]{3}))$"
           },
-          "elevation_meters": {
-            "description": "The elevation in meters, rounded to the nearest integer meter. May be omitted if unknown.",
-            "type": "integer"
+          "minItems": 0
+        },
+        "family": {
+          "description": "This is the linguistic family of the language, or `Isolate` for linguistic isolates.",
+          "type": "string"
+        },
+        "countries": {
+          "description": "A list of country names where the language is indigenous.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 0
+        },
+        "notes": {
+          "description": "Notes relating to the language.",
+          "type": "string"
+        },
+        "coordinates": {
+          "description": "A list of the geographical coordinates for the language.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "latitude",
+              "longitude"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "latitude": {
+                "description": "The coordinate latitude in decimal format, given to 3 decimal places.",
+                "type": "number",
+                "multipleOf": 0.001,
+            "minimum": -90.000,
+            "maximum": 90.000
+              },
+              "longitude": {
+                "description": "The coordinate longitude in decimal format, given to 3 decimal places.",
+                "type": "number",
+                "multipleOf": 0.001,
+            "minimum": -180.000,
+            "maximum": 180.000
+              },
+              "elevation_meters": {
+                "description": "The elevation in meters, rounded to the nearest integer meter. May be omitted if unknown.",
+                "type": "integer"
+              }
+            }
           }
         }
       }
@@ -390,6 +393,14 @@
               }
             }
           }
+        },
+        "laryngeal_harmony": {
+          "description": "Boolean indicating presence of laryngeal harmony (true) or not (false).",
+          "type": "boolean"
+        },
+        "tone": {
+          "description": "Boolean indicating presence of tone (true) or not (false).",
+          "type": "boolean"
         }
       }
     },
