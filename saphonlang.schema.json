@@ -2,6 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/levmichael/saphon/saphonlang.schema.json",
   "title": "saphonlang",
+"format": "categories",
   "description": "A SAPhon language synthesis",
   "type": "object",
   "required": [
@@ -12,6 +13,8 @@
   "additionalProperties": false,
   "properties": {
     "info": {
+"format": "categories",
+"basicCategoryTitle": "basic",
       "description": "General language metadata",
       "type": "object",
       "required": [
@@ -22,8 +25,8 @@
         "iso_codes",
         "family",
         "countries",
-        "notes",
-	"coordinates"
+	"coordinates",
+        "notes"
       ],
       "additionalProperties": false,
       "properties": {
@@ -71,10 +74,6 @@
           },
           "minItems": 0
         },
-        "notes": {
-          "description": "A list of notes relating to the language",
-          "$ref": "#/$defs/notes"
-        },
         "coordinates": {
           "description": "A list of the geographical coordinates for the language.",
           "type": "array",
@@ -106,10 +105,16 @@
               }
             }
           }
+        },
+        "notes": {
+          "description": "Notes relating to the language",
+          "$ref": "#/$defs/notes"
         }
       }
     },
     "synthesis": {
+"format": "categories",
+"basicCategoryTitle": "basic",
       "type": "object",
       "required": [
         "summary",
@@ -126,7 +131,7 @@
           "type": "string"
         },
         "notes": {
-          "description": "A list of notes relating to the synthesis",
+          "description": "Notes relating to the synthesis",
           "$ref": "#/$defs/notes"
         },
         "natural_classes": {
@@ -135,15 +140,9 @@
         },
         "morphemes": { "$ref": "#/$defs/morphemes" },
         "phonemes": { "$ref": "#/$defs/phonemes" },
-        "process_details": { "$ref": "#/$defs/process_details" },
-        "laryngeal_harmony": {
-          "description": "Boolean indicating presence of laryngeal harmony (true) or not (false).",
-          "type": "boolean"
-        },
-        "tone": {
-          "description": "Boolean indicating presence of tone (true) or not (false).",
-          "type": "boolean"
-        }
+        "processdetails": { "$ref": "#/$defs/processdetails" },
+        "laryngeal_harmony": { "$ref": "#/$defs/laryngeal_harmony" },
+        "tone": { "$ref": "#/$defs/tone" }
       }
     },
     "sources": {
@@ -154,12 +153,16 @@
     }
   },
   "$defs": {
+        "laryngeal_harmony": {
+          "description": "Boolean indicating presence of laryngeal harmony (true) or not (false).",
+          "type": "boolean"
+        },
+        "tone": {
+          "description": "Boolean indicating presence of tone (true) or not (false).",
+          "type": "boolean"
+        },
     "notes": {
-      "type": "array",
-      "items": {
-        "type": "string",
-        "minLength": 1
-      },
+      "type": "string",
       "minLength": 0
     },
     "ipastring": {
@@ -380,7 +383,7 @@
         }
       }
     },
-    "process_details": {
+    "processdetails": {
       "description": "A list of details pertaining to all of the (nasal) processes active in the language. Each process described in this list must also refer to a process in the `phoneme` list one or more times. Each value in this list is a dict. The dict values of this list must not have repeated values of the conjunction of their `processtype` and `processname` values (see below).",
       "type": "array",
       "items": {
@@ -390,7 +393,7 @@
           "processtype",
           "alternation_type",
           "domain",
-          "description",
+          "summary",
           "optionality",
           "directionality"
         ],
@@ -419,7 +422,7 @@
           "cross-word"
         ]
           },
-          "description": {
+          "summary": {
             "description": "A prose description of the process.",
             "type": "string",
         "$comment": "TODO: test for vocab value; also, it is confusing to have a saphon name be the same as the json schema keyword 'description'"
@@ -508,12 +511,12 @@
       }
     },
     "source": {
+"format": "categories",
+"basicCategoryTitle": "basic",
       "type": "object",
       "required": [
         "summary",
         "citation",
-	"graphemes2phonemes",
-	"ref_allophones",
         "phonemes",
         "morphemes",
         "processdetails"
@@ -526,54 +529,19 @@
         },
         "citation": {
           "description": "One or more bibliographic citations for the source",
-          "type": "string"
-        },
-        "graphemes2phonemes": {
-          "description": "A list of mappings of graphemes that appear in the source document and the phoneme it corresponds with in the synthesis phonemes list",
           "type": "array",
           "items": {
-            "type": "object",
-            "additionalProperties": false,
-            "properties": {
-              "grapheme": {
-                "description": "The grapheme in the source document",
-                "type": "string"
-              },
-              "phoneme": {
-                "description": "The phoneme corresponding to the grapheme, written in IPA. The phoneme must exactly match an entry in the phonemes list or be null",
-                "$ref": "#/$defs/ipastring"
-              }
-            }
+            "type": "string",
+            "minLength": 1
           },
-          "minLength": 0
-        },
-        "allophones": {
-          "description": "A list of mappings of allophonic variants to phonemes in the language, as described and written in the source document",
-          "type": "array",
-          "items": {
-            "type": "object",
-            "additionalProperties": false,
-            "properties": {
-              "grapheme_allophone": {
-                "description": "The allophonic variant",
-                "type": "string"
-              },
-              "grapheme_phoneme": {
-                "description": "The phoneme corresponding to the allophonic variant",
-                "$ref": "#/$defs/ipastring"
-              }
-            }
-          },
-          "minLength": 0
+          "minItems": 1
         },
         "natural_classes": { "$ref": "#/$defs/natural_classes" },
         "phonemes": { "$ref": "#/$defs/phonemes" },
         "morphemes": { "$ref": "#/$defs/morphemes" },
-        "process_details": { "$ref": "#/$defs/process_details" },
-        "notes": {
-          "description": "A list of notes relating to the source",
-          "$ref": "#/$defs/notes"
-        }
+        "processdetails": { "$ref": "#/$defs/processdetails" },
+        "laryngeal_harmony": { "$ref": "#/$defs/laryngeal_harmony" },
+        "tone": { "$ref": "#/$defs/tone" }
       }
     }
   }
