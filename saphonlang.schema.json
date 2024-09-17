@@ -387,6 +387,8 @@
       "description": "A list of details pertaining to all of the (nasal) processes active in the language. Each process described in this list must also refer to a process in the `phoneme` list one or more times. Each value in this list is a dict. The dict values of this list must not have repeated values of the conjunction of their `processtype` and `processname` values (see below).",
       "type": "array",
       "items": {
+"format": "categories",
+"basicCategoryTitle": "basic",
         "type": "object",
         "required": [
           "processname",
@@ -448,6 +450,8 @@
         ]
           },
           "undergoers": {
+"format": "categories",
+"basicCategoryTitle": "basic",
             "description": "A dict of the elements that are subject to this process, as listed under the keys `segments` and `morphemes.",
             "type": "object",
             "additionalProperties": false,
@@ -463,6 +467,8 @@
         }
           },
           "triggers": {
+"format": "categories",
+"basicCategoryTitle": "basic",
             "description": "A dict of the elements that trigger this process, as listed under the keys `segments` and `morphemes:",
             "type": "object",
             "additionalProperties": false,
@@ -478,6 +484,8 @@
         }
           },
           "transparent": {
+"format": "categories",
+"basicCategoryTitle": "basic",
             "description": "A dict of the elements that are transparent to this process, as listed under the keys `segments` and `morphemes:",
             "type": "object",
             "additionalProperties": false,
@@ -493,6 +501,8 @@
         }
           },
           "opaque": {
+"format": "categories",
+"basicCategoryTitle": "basic",
             "description": "A dict of the elements that are opaque to this process. The elements are described by a dict:",
             "type": "object",
             "additionalProperties": false,
