@@ -3,9 +3,7 @@
   "$id": "https://github.com/levmichael/saphon/saphonlang.schema.json",
   "title": "saphonlang",
 "format": "categories",
-  "options": {
-    "infoText": "A SAPhon language synthesis"
-  },
+  "description": "A SAPhon language synthesis",
   "type": "object",
   "required": [
     "info",
@@ -17,9 +15,7 @@
     "info": {
 "format": "categories",
 "basicCategoryTitle": "basic",
-      "options": {
-        "infoText": "General language metadata"
-      },
+      "description": "General language metadata",
       "type": "object",
       "required": [
         "name",
@@ -35,22 +31,16 @@
       "additionalProperties": false,
       "properties": {
         "name": {
-          "options": {
-            "infoText": "The preferred citation form of the name of the language, in an orthographic form suited to academic publications.  It may contain spaces, hyphens, diacritics, and non-Latin glyphs that would occur in the preferred orthographic representation, e.g. **Arára do Mato Grosso**, **Aʔɨwa**, **Ashéninka (Apurucayali dialect)**."
-          },
+          "description": "The preferred citation form of the name of the language, in an orthographic form suited to academic publications.  It may contain spaces, hyphens, diacritics, and non-Latin glyphs that would occur in the preferred orthographic representation, e.g. **Arára do Mato Grosso**, **Aʔɨwa**, **Ashéninka (Apurucayali dialect)**.",
           "type": "string"
         },
         "short_name": {
-          "options": {
-            "infoText": "The language name abbreviated to around 12 characters or less, to be used in tables and plots where space is tight.  Spaces, hyphens, diacritics, non-Latin glyphs are all permitted."
-          },
+          "description": "The language name abbreviated to around 12 characters or less, to be used in tables and plots where space is tight.  Spaces, hyphens, diacritics, non-Latin glyphs are all permitted.",
           "type": "string",
           "pattern": "^.{1,12}$"
         },
         "alternate_names": {
-          "options": {
-            "infoText": "A list of alternative or outdated names for the language."
-	  },
+          "description": "A list of alternative or outdated names for the language.",
           "type": "array",
           "items": {
             "type": "string",
@@ -59,16 +49,12 @@
           "minItems": 0
         },
         "glottolog_code": {
-          "options": {
-            "infoText": "The language code [as assigned in Glottolog](https://glottolog.org/)"
-	  },
+          "description": "The language code [as assigned in Glottolog](https://glottolog.org/)",
           "type": "string",
           "pattern": "^[a-z0-9]{4}[1-9][0-9]{3}$"
         },
         "iso_codes": {
-          "options": {
-            "infoText": "A sequence of ISO 639-3 codes for the language, or of our own devising when the ISO codes are inadequate. When we need to distinguish language varieties not distinguished by ISO 639-3, we add a three letter extension to the code with an underscore '_' separator. Ordinarily the sequence contains only one code, but more values occur when multiple ISO codes refer to the same language (e.g. [Huaylas-Conchucos Quechua]('langs/HuaylasCQ.txt' contains codes `qxn`, `qwh`)."
-          },
+          "description": "A sequence of ISO 639-3 codes for the language, or of our own devising when the ISO codes are inadequate. When we need to distinguish language varieties not distinguished by ISO 639-3, we add a three letter extension to the code with an underscore '_' separator. Ordinarily the sequence contains only one code, but more values occur when multiple ISO codes refer to the same language (e.g. [Huaylas-Conchucos Quechua]('langs/HuaylasCQ.txt' contains codes `qxn`, `qwh`).",
           "type": "array",
           "items": {
             "type": "string",
@@ -77,15 +63,11 @@
           "minItems": 0
         },
         "family": {
-          "options": {
-            "infoText": "This is the linguistic family of the language, or `Isolate` for linguistic isolates."
-          },
+          "description": "This is the linguistic family of the language, or `Isolate` for linguistic isolates.",
           "type": "string"
         },
         "countries": {
-          "options": {
-            "infoText": "A list of country names where the language is indigenous."
-          },
+          "description": "A list of country names where the language is indigenous.",
           "type": "array",
           "items": {
             "type": "string"
@@ -93,9 +75,7 @@
           "minItems": 0
         },
         "coordinates": {
-          "options": {
-            "infoText": "A list of the geographical coordinates for the language."
-          },
+          "description": "A list of the geographical coordinates for the language.",
           "type": "array",
           "items": {
             "type": "object",
@@ -106,36 +86,28 @@
             "additionalProperties": false,
             "properties": {
               "latitude": {
-                "options": {
-                  "infoText": "The coordinate latitude in decimal format, given to 3 decimal places."
-                },
+                "description": "The coordinate latitude in decimal format, given to 3 decimal places.",
                 "type": "number",
                 "multipleOf": 0.001,
             "minimum": -90.000,
             "maximum": 90.000
               },
               "longitude": {
-                "options": {
-                  "infoText": "The coordinate longitude in decimal format, given to 3 decimal places."
-                },
+                "description": "The coordinate longitude in decimal format, given to 3 decimal places.",
                 "type": "number",
                 "multipleOf": 0.001,
             "minimum": -180.000,
             "maximum": 180.000
               },
               "elevation_meters": {
-                "options": {
-                  "infoText": "The elevation in meters, rounded to the nearest integer meter. May be omitted if unknown."
-                },
+                "description": "The elevation in meters, rounded to the nearest integer meter. May be omitted if unknown.",
                 "type": "integer"
               }
             }
           }
         },
         "notes": {
-          "options": {
-            "infoText": "Notes relating to the language"
-          },
+          "description": "Notes relating to the language",
           "$ref": "#/$defs/notes"
         }
       }
@@ -155,15 +127,11 @@
       "additionalProperties": false,
       "properties": {
         "summary": {
-          "options": {
-            "infoText": "A prose description of the project's synthesis of the source materials. (TODO: rename field?)"
-          },
+          "description": "A prose description of the project's synthesis of the source materials. (TODO: rename field?)",
           "type": "string"
         },
         "notes": {
-          "options": {
-            "infoText": "Notes relating to the synthesis"
-          },
+          "description": "Notes relating to the synthesis",
           "$ref": "#/$defs/notes"
         },
         "natural_classes": {
@@ -185,15 +153,11 @@
   },
   "$defs": {
     "laryngeal_harmony": {
-      "options": {
-        "infoText": "Boolean indicating presence of laryngeal harmony (true) or not (false)."
-      },
+      "description": "Boolean indicating presence of laryngeal harmony (true) or not (false).",
       "type": "boolean"
     },
     "tone": {
-      "options": {
-        "infoText": "Boolean indicating presence of tone (true) or not (false)."
-      },
+      "description": "Boolean indicating presence of tone (true) or not (false).",
       "type": "boolean"
     },
     "notes": {
@@ -221,28 +185,20 @@
       }
     },
     "morphunits": {
-      "options": {
-        "infoText": "A list of valid `morpheme_ids` for this language."
-      },
+      "description": "A list of valid `morpheme_ids` for this language.",
       "type": "array",
       "items": {
-        "options": {
-          "infoText": "A valid `morpheme_id` for this language."
-        },
+        "description": "A valid `morpheme_id` for this language.",
         "type": "string",
         "pattern": ".+"
       },
       "minItems": 0
     },
     "phonunits": {
-      "options": {
-        "infoText": "A list of valid natural class and phoneme symbols for this language."
-      },
+      "description": "A list of valid natural class and phoneme symbols for this language.",
       "type": "array",
       "items": {
-        "options": {
-          "infoText": "A valid natural class or phoneme symbol for this language."
-        },
+        "description": "A valid natural class or phoneme symbol for this language.",
         "type": "string",
     "pattern": ".+",
     "$comment": "TODO: add validation"
@@ -266,9 +222,7 @@
       }
     },
     "natural_classes": {
-      "options": {
-        "infoText": "TODO"
-      },
+      "description": "TODO",
       "type": "array",
       "items": {
         "type": "object",
@@ -279,9 +233,7 @@
         "additionalProperties": false,
         "properties": {
           "symbol": {
-            "options": {
-              "infoText": "TODO"
-            },
+            "description": "TODO",
             "type": "string",
             "pattern": "^([A-Z]|Ṽ)$" 
           },
@@ -318,9 +270,7 @@
       }
     },
     "morphemes": {
-      "options": {
-        "infoText": "A list of morphemes in this language that are of note for one or more processes that are referred to in the document."
-      },
+      "description": "A list of morphemes in this language that are of note for one or more processes that are referred to in the document.",
       "type": "array",
       "items": {
         "type": "object",
@@ -334,15 +284,11 @@
         "additionalProperties": false,
         "properties": {
           "morpheme_id": {
-            "options": {
-              "infoText": "A string identifier for the morpheme."
-            },
+            "description": "A string identifier for the morpheme.",
             "type": "string"
           },
           "morpheme_type": {
-            "options": {
-              "infoText": "The kind of morphological element that undergoes the process, if the process's `type` is `morphological`. The value must be one of 'prefix', 'root', 'suffix', 'proclitic', 'enclitic', or if the process `type` is not `morphological`, this field must have the value `NA` to indicate an empty value. (TODO: review the list of allowable values)"
-            },
+            "description": "The kind of morphological element that undergoes the process, if the process's `type` is `morphological`. The value must be one of 'prefix', 'root', 'suffix', 'proclitic', 'enclitic', or if the process `type` is not `morphological`, this field must have the value `NA` to indicate an empty value. (TODO: review the list of allowable values)",
             "type": "string",
         "enum": [
               "prefix",
@@ -354,15 +300,11 @@
             ]
           },
           "underlying_form": {
-            "options": {
-              "infoText": "The underlying phonological form of the morpheme, using symbols from the International Phonetic Alphabet."
-            },
+            "description": "The underlying phonological form of the morpheme, using symbols from the International Phonetic Alphabet.",
             "$ref": "#/$defs/ipastring"
           },
           "surface_forms": {
-            "options": {
-              "infoText": "A list of surface allomorphs of this morpheme, using symbols from the International Phonetic Alphabet."
-            },
+            "description": "A list of surface allomorphs of this morpheme, using symbols from the International Phonetic Alphabet.",
             "type": "array",
             "items": {
               "$ref": "#/$defs/ipastring"
@@ -370,18 +312,14 @@
             "minItems": 0
           },
           "gloss": {
-            "options": {
-              "infoText": "English language gloss of the morpheme."
-            },
+            "description": "English language gloss of the morpheme.",
             "type": "string"
           }
         }
       }
     },
     "phonemes": {
-      "options": {
-        "infoText": "A list of the phonemes of the language, the allophones of each phoneme, and the environments in which they occur and the processes that are conditioned by each environment. This list is synthesized from the entries listed in the `ref` documents."
-      },
+      "description": "A list of the phonemes of the language, the allophones of each phoneme, and the environments in which they occur and the processes that are conditioned by each environment. This list is synthesized from the entries listed in the `ref` documents.",
       "type": "array",
       "items": {
         "type": "object",
@@ -392,15 +330,11 @@
         "additionalProperties": false,
         "properties": {
           "phoneme": {
-            "options": {
-              "infoText": "A phoneme of the language, using symbols from the International Phonetic Alphabet."
-            },
+            "description": "A phoneme of the language, using symbols from the International Phonetic Alphabet.",
             "$ref": "#/$defs/ipachar"
           },
           "environments": {
-            "options": {
-              "infoText": "A list of environments in which the phoneme may occur, and the allophones that are conditioned by that environment, and processes that yield each allophone. The values of this list are dicts."
-            },
+            "description": "A list of environments in which the phoneme may occur, and the allophones that are conditioned by that environment, and processes that yield each allophone. The values of this list are dicts.",
             "type": "array",
             "items": {
               "type": "object",
@@ -412,23 +346,17 @@
               "additionalProperties": false,
               "properties": {
                 "preceding": {
-                  "options": {
-                    "infoText": "A string representation of the part of the environment that precedes the phone."
-		  },
+                  "description": "A string representation of the part of the environment that precedes the phone.",
                   "type": "string",
                   "minLength": 0
                 },
                 "following": {
-                  "options": {
-                    "infoText": "A string representation of the part of the environment that follows the phone."
-		  },
+                  "description": "A string representation of the part of the environment that follows the phone.",
                   "type": "string",
                   "minLength": 0
                 },
                 "allophones": {
-                  "options": {
-                    "infoText": "A list of dicts that represent allophones yielded by the phoneme in this environment. Multiple values in this list implies free variation among the allophones in this list."
-		  },
+                  "description": "A list of dicts that represent allophones yielded by the phoneme in this environment. Multiple values in this list implies free variation among the allophones in this list.",
                   "type": "array",
                   "items": {
                     "type": "object",
@@ -437,18 +365,14 @@
                     "additionalProperties": false,
                     "properties": {
                       "processnames": {
-                        "options": {
-                          "infoText": "A list of process names that yield this allophone. Each value is a string. Thist list of process names does not imply free variation. Instead, the list may describe multiple processes that apply simultaneously, e.g. the process by which `phone` `e` yields `allophone` `ɛː` is described as the simultaneous application of two processes named `lowering` and `lengthening`."
-                        },
+                        "description": "A list of process names that yield this allophone. Each value is a string. Thist list of process names does not imply free variation. Instead, the list may describe multiple processes that apply simultaneously, e.g. the process by which `phone` `e` yields `allophone` `ɛː` is described as the simultaneous application of two processes named `lowering` and `lengthening`.",
                         "type": "array",
                         "items": {
                           "type": "string"
                         }
                       },
                       "allophone": {
-                        "options": {
-                          "infoText": "The allophone yielded by the process(es) in this environment, as denoted in `processnames` and using symbols from the International Phonetic Alphabet."
-                        },
+                        "description": "The allophone yielded by the process(es) in this environment, as denoted in `processnames` and using symbols from the International Phonetic Alphabet.",
                         "type": "string"
                       }
                     },
@@ -462,9 +386,7 @@
       }
     },
     "processdetails": {
-      "options": {
-        "infoText": "A list of details pertaining to all of the (nasal) processes active in the language. Each process described in this list must also refer to a process in the `phoneme` list one or more times. Each value in this list is a dict. The dict values of this list must not have repeated values of the conjunction of their `processtype` and `processname` values (see below)."
-      },
+      "description": "A list of details pertaining to all of the (nasal) processes active in the language. Each process described in this list must also refer to a process in the `phoneme` list one or more times. Each value in this list is a dict. The dict values of this list must not have repeated values of the conjunction of their `processtype` and `processname` values (see below).",
       "type": "array",
       "items": {
 "format": "categories",
@@ -482,27 +404,19 @@
         "additionalProperties": false,
         "properties": {
           "processname": {
-            "options": {
-              "infoText": "The name of the process described. The value must match a string in the `processnames` list in the `phonemes` list. This value is a string."
-            },
+            "description": "The name of the process described. The value must match a string in the `processnames` list in the `phonemes` list. This value is a string.",
             "type": "string"
           },
           "processtype": {
-            "options": {
-              "infoText": "The type of process described. The value is a string that must match one of the values of ... (TODO: add pointer to controlled vocabulary for this field). (TODO: check that this value matches the prefix of `processname`."
-            },
+            "description": "The type of process described. The value is a string that must match one of the values of ... (TODO: add pointer to controlled vocabulary for this field). (TODO: check that this value matches the prefix of `processname`.",
             "type": "string"
           },
           "alternation_type": {
-            "options": {
-              "infoText": "The type of alternation described. The value is a string that must match one of the values of `proc_alternation_vocab` (TODO: add pointer to controlled vocabulary for this field)."
-            },
+            "description": "The type of alternation described. The value is a string that must match one of the values of `proc_alternation_vocab` (TODO: add pointer to controlled vocabulary for this field).",
             "type": "string"
           },
           "domain": {
-            "options": {
-              "infoText": "The domain in which the process occurs. The value is a string that must be `word-internal` or `cross-word`."
-            },
+            "description": "The domain in which the process occurs. The value is a string that must be `word-internal` or `cross-word`.",
             "type": "string",
         "enum": [
           "word-internal",
@@ -510,16 +424,12 @@
         ]
           },
           "summary": {
-            "options": {
-              "infoText": "A prose description of the process."
-            },
+            "description": "A prose description of the process.",
             "type": "string",
         "$comment": "TODO: test for vocab value; also, it is confusing to have a saphon name be the same as the json schema keyword 'description'"
           },
           "optionality": {
-            "options": {
-              "infoText": "One of three values that describe whether the process applies without exception, optionally, or is not known. The valid values of these are, respectively, 'categorical', 'optional', and 'unknown'."
-            },
+            "description": "One of three values that describe whether the process applies without exception, optionally, or is not known. The valid values of these are, respectively, 'categorical', 'optional', and 'unknown'.",
             "type": "string",
         "enum": [
           "categorical",
@@ -528,9 +438,7 @@
         ]
           },
           "directionality": {
-            "options": {
-              "infoText": "One of five values that describe whether in which direction the process applies. The valid values are 'leftward', 'rightward', 'bidirectional', 'circumdirectional', and 'unknown'. (TODO: full description of meanings of these values)"
-            },
+            "description": "One of five values that describe whether in which direction the process applies. The valid values are 'leftward', 'rightward', 'bidirectional', 'circumdirectional', and 'unknown'. (TODO: full description of meanings of these values)",
             "type": "string",
         "enum": [
           "leftward",
@@ -543,22 +451,16 @@
           "undergoers": {
 "format": "categories",
 "basicCategoryTitle": "basic",
-            "options": {
-              "infoText": "A dict of the elements that are subject to this process, as listed under the keys `segments` and `morphemes."
-            },
+            "description": "A dict of the elements that are subject to this process, as listed under the keys `segments` and `morphemes.",
             "type": "object",
             "additionalProperties": false,
             "properties": {
               "segments": {
-                "options": {
-                  "infoText": "A dict of the segments that are subject to the process, as listed under the keys `units` and `positional_restrictions`. Note that the value is a simple dict and not a list of dicts as for `triggers`, `transparent`, and `opaque` values."
-                },
+                "description": "A dict of the segments that are subject to the process, as listed under the keys `units` and `positional_restrictions`. Note that the value is a simple dict and not a list of dicts as for `triggers`, `transparent`, and `opaque` values.",
                 "$ref": "#/$defs/segments"
               },
               "morphemes": {
-                "options": {
-                  "infoText": "A dict of morphemes that are subject to the process, as listed under the keys `units` and `positional_restrictions`. Note that the value is a simple dict and not a list of dicts as for `triggers`, `transparent`, and `opaque` values."
-                },
+                "description": "A dict of morphemes that are subject to the process, as listed under the keys `units` and `positional_restrictions`. Note that the value is a simple dict and not a list of dicts as for `triggers`, `transparent`, and `opaque` values.",
                 "$ref": "#/$defs/morphemes"
               }
         }
@@ -566,22 +468,16 @@
           "triggers": {
 "format": "categories",
 "basicCategoryTitle": "basic",
-            "options": {
-              "infoText": "A dict of the elements that trigger this process, as listed under the keys `segments` and `morphemes:"
-            },
+            "description": "A dict of the elements that trigger this process, as listed under the keys `segments` and `morphemes:",
             "type": "object",
             "additionalProperties": false,
             "properties": {
               "segments": {
-                "options": {
-                  "infoText": "A list of dicts of the segments that trigger the process, as listed under the keys `units` and `positional_restriction`."
-                },
+                "description": "A list of dicts of the segments that trigger the process, as listed under the keys `units` and `positional_restriction`.",
                 "$ref": "#/$defs/segmentslist"
               },
               "morphemes": {
-                "options": {
-                  "infoText": "A list of dicts of morphemes that trigger the process, as listed under the keys `units` and `positional_restriction`."
-                },
+                "description": "A list of dicts of morphemes that trigger the process, as listed under the keys `units` and `positional_restriction`.",
                 "$ref": "#/$defs/morphemeslist"
               }
         }
@@ -589,22 +485,16 @@
           "transparent": {
 "format": "categories",
 "basicCategoryTitle": "basic",
-            "options": {
-              "infoText": "A dict of the elements that are transparent to this process, as listed under the keys `segments` and `morphemes:"
-            },
+            "description": "A dict of the elements that are transparent to this process, as listed under the keys `segments` and `morphemes:",
             "type": "object",
             "additionalProperties": false,
             "properties": {
               "segments": {
-                "options": {
-                  "infoText": "A list of dicts of the segments that are transparent to the process, as listed under the keys `units` and `positional_restriction`."
-                },
+                "description": "A list of dicts of the segments that are transparent to the process, as listed under the keys `units` and `positional_restriction`.",
                 "$ref": "#/$defs/segmentslist"
               },
               "morphemes": {
-                "options": {
-                  "infoText": "A list of dicts of morphemes that are transparent to the process, as listed under the keys `units` and `positional_restriction`."
-                },
+                "description": "A list of dicts of morphemes that are transparent to the process, as listed under the keys `units` and `positional_restriction`.",
                 "$ref": "#/$defs/morphemeslist"
               }
         }
@@ -612,22 +502,16 @@
           "opaque": {
 "format": "categories",
 "basicCategoryTitle": "basic",
-            "options": {
-              "infoText": "A dict of the elements that are opaque to this process. The elements are described by a dict:"
-            },
+            "description": "A dict of the elements that are opaque to this process. The elements are described by a dict:",
             "type": "object",
             "additionalProperties": false,
             "properties": {
               "segments": {
-                "options": {
-                  "infoText": "A list of dicts of the segments that are opaque to the process, as listed under the keys `units` and `positional_restriction`."
-                },
+                "description": "A list of dicts of the segments that are opaque to the process, as listed under the keys `units` and `positional_restriction`.",
                 "$ref": "#/$defs/segmentslist"
               },
               "morphemes": {
-                "options": {
-                  "infoText": "A list of dicts of morphemes that are opaque to the process, as listed under the keys `units` and `positional_restriction`."
-                },
+                "description": "A list of dicts of morphemes that are opaque to the process, as listed under the keys `units` and `positional_restriction`.",
                 "$ref": "#/$defs/morphemeslist"
               }
         }
@@ -649,15 +533,11 @@
       "additionalProperties": false,
       "properties": {
         "summary": {
-          "options": {
-            "infoText": "A prose description of the source materials. (TODO: rename field?)"
-          },
+          "description": "A prose description of the source materials. (TODO: rename field?)",
           "type": "string"
         },
         "citation": {
-          "options": {
-            "infoText": "One or more bibliographic citations for the source"
-          },
+          "description": "One or more bibliographic citations for the source",
           "type": "array",
           "items": {
             "type": "string",
@@ -675,4 +555,3 @@
     }
   }
 }
-
