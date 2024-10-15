@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/levmichael/saphon/saphonlang.schema.json",
   "title": "saphonlang",
-"format": "categories",
+  "format": "categories",
   "description": "A SAPhon language synthesis",
   "type": "object",
   "required": [
@@ -13,8 +13,8 @@
   "additionalProperties": false,
   "properties": {
     "info": {
-"format": "categories",
-"basicCategoryTitle": "basic",
+      "format": "categories",
+      "basicCategoryTitle": "basic",
       "description": "General language metadata",
       "type": "object",
       "required": [
@@ -113,8 +113,8 @@
       }
     },
     "synthesis": {
-"format": "categories",
-"basicCategoryTitle": "basic",
+      "format": "categories",
+      "basicCategoryTitle": "basic",
       "type": "object",
       "required": [
         "summary",
@@ -128,7 +128,11 @@
       "properties": {
         "summary": {
           "description": "A prose description of the project's synthesis of the source materials. (TODO: rename field?)",
-          "type": "string"
+          "type": "string",
+          "format": "textarea",
+          "options": {
+            "expand_height": true
+          }
         },
         "notes": {
           "description": "Notes relating to the synthesis",
@@ -162,6 +166,10 @@
     },
     "notes": {
       "type": "string",
+      "format": "textarea",
+      "options": {
+        "expand_height": true
+      },
       "minLength": 0
     },
     "ipachar": {
@@ -206,8 +214,20 @@
       "minItems": 0
     },
     "positional_restrictions": {
-      "$comment": "(TODO: do not parse the strings that appear in the data entry spreadsheet into constituent parts right now; later we can inventory all of the string values and decide whether to split this into multiple fields.); TODO: validation",
-      "type": "string"
+      "description": "A string that represents either a positional restriction (1-tuple or 2-tuple), a concatenation of positional restrictions using commas and greater signs, or one of the special vocabulary terms: Unspecified, Uncertain, None, NA.",
+      "oneOf": [
+        {
+          "type": "string",
+          "pattern": "^\\{(root|prefix|suffix|proclitic|enclitic|clitic|word|morpheme|affix|syllable|foot|stressed\\ syllable|unstressed\\ syllable|pretonic\\ syllable|posttonic\\ syllable|utterance|VP)(,\\s*(initial|final|lmost|rmost|medial|onset|coda|nucleus))?\\}(\\s*(,|>)\\s*\\{(root|prefix|suffix|proclitic|enclitic|clitic|word|morpheme|affix|syllable|foot|stressed\\ syllable|unstressed\\ syllable|pretonic\\ syllable|posttonic\\ syllable|utterance|VP)(,\\s*(initial|final|lmost|rmost|medial|onset|coda|nucleus))?\\})*$",
+          "$comment": "This pattern allows for controlled vocabulary in positional restrictions. `foo` is restricted to linguistic elements, and `bar` is restricted to positional terms."
+        },
+        {
+          "type": "string",
+          "enum": ["Unspecified", "Uncertain", "None", "NA"],
+          "$comment": "Special vocabulary terms: Unspecified, Uncertain, None, NA. These do not use brackets or concatenation."
+        }
+      ],
+      "$comment": "The value must either be a grammatical positional restriction or one of the special vocabulary terms."
     },
     "morphemes": {
       "type": "object",
@@ -223,6 +243,7 @@
     },
     "natural_classes": {
       "description": "TODO",
+      "format": "categories",
       "type": "array",
       "items": {
         "type": "object",
@@ -322,6 +343,7 @@
       "description": "A list of the phonemes of the language, the allophones of each phoneme, and the environments in which they occur and the processes that are conditioned by each environment. This list is synthesized from the entries listed in the `ref` documents.",
       "type": "array",
       "items": {
+        "format": "categories",
         "type": "object",
         "required": [
           "phoneme",
@@ -337,6 +359,7 @@
             "description": "A list of environments in which the phoneme may occur, and the allophones that are conditioned by that environment, and processes that yield each allophone. The values of this list are dicts.",
             "type": "array",
             "items": {
+              "format": "categories",
               "type": "object",
               "required": [
                 "preceding",
@@ -389,8 +412,8 @@
       "description": "A list of details pertaining to all of the (nasal) processes active in the language. Each process described in this list must also refer to a process in the `phoneme` list one or more times. Each value in this list is a dict. The dict values of this list must not have repeated values of the conjunction of their `processtype` and `processname` values (see below).",
       "type": "array",
       "items": {
-"format": "categories",
-"basicCategoryTitle": "basic",
+        "format": "categories",
+        "basicCategoryTitle": "Main",
         "type": "object",
         "required": [
           "processname",
@@ -426,6 +449,10 @@
           "summary": {
             "description": "A prose description of the process.",
             "type": "string",
+            "format": "textarea",
+            "options": {
+              "expand_height": true
+            },
         "$comment": "TODO: test for vocab value; also, it is confusing to have a saphon name be the same as the json schema keyword 'description'"
           },
           "optionality": {
@@ -449,8 +476,8 @@
         ]
           },
           "undergoers": {
-"format": "categories",
-"basicCategoryTitle": "basic",
+            "format": "categories",
+            "basicCategoryTitle": "basic",
             "description": "A dict of the elements that are subject to this process, as listed under the keys `segments` and `morphemes.",
             "type": "object",
             "additionalProperties": false,
@@ -466,8 +493,8 @@
         }
           },
           "triggers": {
-"format": "categories",
-"basicCategoryTitle": "basic",
+            "format": "categories",
+            "basicCategoryTitle": "basic",
             "description": "A dict of the elements that trigger this process, as listed under the keys `segments` and `morphemes:",
             "type": "object",
             "additionalProperties": false,
@@ -483,8 +510,8 @@
         }
           },
           "transparent": {
-"format": "categories",
-"basicCategoryTitle": "basic",
+            "format": "categories",
+            "basicCategoryTitle": "basic",
             "description": "A dict of the elements that are transparent to this process, as listed under the keys `segments` and `morphemes:",
             "type": "object",
             "additionalProperties": false,
@@ -500,8 +527,8 @@
         }
           },
           "opaque": {
-"format": "categories",
-"basicCategoryTitle": "basic",
+            "format": "categories",
+            "basicCategoryTitle": "basic",
             "description": "A dict of the elements that are opaque to this process. The elements are described by a dict:",
             "type": "object",
             "additionalProperties": false,
@@ -520,8 +547,8 @@
       }
     },
     "source": {
-"format": "categories",
-"basicCategoryTitle": "basic",
+      "format": "categories",
+      "basicCategoryTitle": "basic",
       "type": "object",
       "required": [
         "summary",
@@ -534,7 +561,11 @@
       "properties": {
         "summary": {
           "description": "A prose description of the source materials. (TODO: rename field?)",
-          "type": "string"
+          "type": "string",
+          "format": "textarea",
+          "options": {
+            "expand_height": true
+          }
         },
         "citation": {
           "description": "One or more bibliographic citations for the source",
