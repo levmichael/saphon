@@ -88,20 +88,26 @@
               "latitude": {
                 "description": "The coordinate latitude in decimal format, given to 3 decimal places.",
                 "type": "number",
-                "multipleOf": 0.001,
             "minimum": -90.000,
             "maximum": 90.000
               },
               "longitude": {
                 "description": "The coordinate longitude in decimal format, given to 3 decimal places.",
                 "type": "number",
-                "multipleOf": 0.001,
             "minimum": -180.000,
             "maximum": 180.000
               },
               "elevation_meters": {
                 "description": "The elevation in meters, rounded to the nearest integer meter. May be omitted if unknown.",
-                "type": "integer"
+                "oneOf": [
+		  {
+                    "type": "integer"
+		  },
+                  {
+                    "type": "string",
+                    "enum": ["Unspecified"]
+                  }
+                ]
               }
             }
           }
@@ -129,10 +135,7 @@
         "summary": {
           "description": "A prose description of the project's synthesis of the source materials. (TODO: rename field?)",
           "type": "string",
-          "format": "textarea",
-          "options": {
-            "expand_height": true
-          }
+          "format": "textarea"
         },
         "notes": {
           "description": "Notes relating to the synthesis",
@@ -141,7 +144,7 @@
         "natural_classes": {
           "$ref": "#/$defs/natural_classes"
         },
-        "morphemes": { "$ref": "#/$defs/morphemes" },
+        "morphemes": { "$ref": "#/$defs/morphemelist" },
         "phonemes": { "$ref": "#/$defs/phonemes" },
         "processdetails": { "$ref": "#/$defs/processdetails" },
         "laryngeal_harmony": { "$ref": "#/$defs/laryngeal_harmony" },
@@ -167,9 +170,6 @@
     "notes": {
       "type": "string",
       "format": "textarea",
-      "options": {
-        "expand_height": true
-      },
       "minLength": 0
     },
     "ipachar": {
@@ -208,8 +208,19 @@
       "items": {
         "description": "A valid natural class or phoneme symbol for this language.",
         "type": "string",
-    "pattern": ".+",
-    "$comment": "TODO: add validation"
+        "pattern": ".+",
+        "$comment": "TODO: add validation"
+      },
+      "minItems": 0
+    },
+    "suprasegmentunits": {
+      "description": "A list of valid suprasegment symbols for this language.",
+      "type": "array",
+      "items": {
+        "description": "A valid suprasegment symbol for this language.",
+        "type": "string",
+        "pattern": ".+",
+        "$comment": "TODO: add validation"
       },
       "minItems": 0
     },
@@ -256,86 +267,134 @@
           "symbol": {
             "description": "TODO",
             "type": "string",
-            "pattern": "^([A-Z]|Ṽ)$" 
+            "pattern": "^([A-Z]|ND|Ṽ)$"
           },
           "members": {
             "$ref": "#/$defs/ipachararray",
-            "minItems": 2
+            "minItems": 1
           }
         }
       },
       "minItems": 0
     },
-    "segments": {
+    "procsegment": {
+      "description": "A dict of the segments that are subject to the process, as listed under the keys `units` and `positional_restrictions`. Note that the value is a simple dict and not a list of dicts as for `triggers`, `transparent`, and `opaque` values.",
       "type": "object",
-      "required": [
-        "units",
-        "positional_restrictions"
-      ],
+      "dependentRequired": {
+        "units": ["positional_restrictions"]
+      },
       "additionalProperties": false,
       "properties": {
         "units": { "$ref": "#/$defs/phonunits" },
         "positional_restrictions": { "$ref": "#/$defs/positional_restrictions" }
       }
     },
-    "morphemeslist": {
+    "procsegmentlist": {
+      "description": "A list of dicts of the segments that are subject to the process, as listed under the keys `units` and `positional_restrictions`.",
       "type": "array",
       "items": {
-         "$ref": "#/$defs/morphemes"
+         "$ref": "#/$defs/procsegment"
+      },
+      "minItems": 0
+    },
+    "procsuprasegment": {
+      "description": "A dict of the suprasegments that are subject to the process, as listed under the keys `units` and `positional_restrictions`. TODO: validation",
+      "type": "object",
+      "dependentRequired": {
+        "units": ["positional_restrictions"]
+      },
+      "additionalProperties": false,
+      "properties": {
+        "units": { "$ref": "#/$defs/suprasegmentunits" },
+        "positional_restrictions": { "$ref": "#/$defs/positional_restrictions" }
       }
+    },
+    "procsuprasegmentlist": {
+      "description": "A list of dicts of the suprasegments that are subject to the process, as listed under the keys `units` and `positional_restrictions`.",
+      "type": "array",
+      "items": {
+         "$ref": "#/$defs/procsuprasegment"
+      },
+      "minItems": 0
+    },
+    "procmorph": {
+      "description": "A dict of the morphemes that are subject to the process.",
+      "type": "object",
+      "dependentRequired": {
+        "units": ["positional_restrictions"]
+      },
+      "additionalProperties": false,
+      "properties": {
+        "units": { "$ref": "#/$defs/morphunits" },
+        "positional_restrictions": { "$ref": "#/$defs/positional_restrictions" }
+      }
+    },
+    "procmorphlist": {
+      "description": "A list of dicts of the morphemes that are subject to the process.",
+      "type": "array",
+      "items": {
+         "$ref": "#/$defs/procmorph"
+      },
+      "minItems": 0
+    },
+    "morphemelist": {
+      "description": "A list of morphemes in this language that are of note for one or more processes that are referred to in the document.",
+      "type": "array",
+      "items": {
+         "$ref": "#/$defs/morpheme"
+      },
+      "minItems": 0
     },
     "segmentslist": {
       "type": "array",
       "items": {
-         "$ref": "#/$defs/segments"
-      }
+         "$ref": "#/$defs/segment"
+      },
+      "minItems": 0
     },
-    "morphemes": {
-      "description": "A list of morphemes in this language that are of note for one or more processes that are referred to in the document.",
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": [
-          "morpheme_id",
-          "morpheme_type",
-      "underlying_form",
-      "surface_forms",
-      "gloss"
-        ],
-        "additionalProperties": false,
-        "properties": {
-          "morpheme_id": {
-            "description": "A string identifier for the morpheme.",
-            "type": "string"
-          },
-          "morpheme_type": {
-            "description": "The kind of morphological element that undergoes the process, if the process's `type` is `morphological`. The value must be one of 'prefix', 'root', 'suffix', 'proclitic', 'enclitic', or if the process `type` is not `morphological`, this field must have the value `NA` to indicate an empty value. (TODO: review the list of allowable values)",
-            "type": "string",
-        "enum": [
-              "prefix",
-              "root",
-              "suffix",
-              "proclitic",
-              "enclitic",
-              "NA"
-            ]
-          },
-          "underlying_form": {
-            "description": "The underlying phonological form of the morpheme, using symbols from the International Phonetic Alphabet.",
+    "morpheme": {
+      "description": "A morpheme in this language that is of note for one or more processes that are referred to in the document.",
+      "type": "object",
+      "required": [
+        "morpheme_id",
+        "morpheme_type",
+        "underlying_form",
+        "surface_forms",
+        "gloss"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "morpheme_id": {
+          "description": "A string identifier for the morpheme.",
+          "type": "string"
+        },
+        "morpheme_type": {
+          "description": "The kind of morphological element that undergoes the process, if the process's `type` is `morphological`. The value must be one of 'prefix', 'root', 'suffix', 'proclitic', 'enclitic', or if the process `type` is not `morphological`, this field must have the value `NA` to indicate an empty value. (TODO: review the list of allowable values)",
+          "type": "string",
+      "enum": [
+            "prefix",
+            "root",
+            "suffix",
+            "proclitic",
+            "enclitic",
+            "NA"
+          ]
+        },
+        "underlying_form": {
+          "description": "The underlying phonological form of the morpheme, using symbols from the International Phonetic Alphabet.",
+          "$ref": "#/$defs/ipastring"
+        },
+        "surface_forms": {
+          "description": "A list of surface allomorphs of this morpheme, using symbols from the International Phonetic Alphabet.",
+          "type": "array",
+          "items": {
             "$ref": "#/$defs/ipastring"
           },
-          "surface_forms": {
-            "description": "A list of surface allomorphs of this morpheme, using symbols from the International Phonetic Alphabet.",
-            "type": "array",
-            "items": {
-              "$ref": "#/$defs/ipastring"
-            },
-            "minItems": 0
-          },
-          "gloss": {
-            "description": "English language gloss of the morpheme.",
-            "type": "string"
-          }
+          "minItems": 0
+        },
+        "gloss": {
+          "description": "English language gloss of the morpheme.",
+          "type": "string"
         }
       }
     },
@@ -436,7 +495,12 @@
           },
           "alternation_type": {
             "description": "The type of alternation described. The value is a string that must match one of the values of `proc_alternation_vocab` (TODO: add pointer to controlled vocabulary for this field).",
-            "type": "string"
+            "type": "string",
+        "enum": [
+          "phonological",
+          "morphological",
+          "morphophonological"
+        ]
           },
           "domain": {
             "description": "The domain in which the process occurs. The value is a string that must be `word-internal` or `cross-word`.",
@@ -450,9 +514,6 @@
             "description": "A prose description of the process.",
             "type": "string",
             "format": "textarea",
-            "options": {
-              "expand_height": true
-            },
         "$comment": "TODO: test for vocab value; also, it is confusing to have a saphon name be the same as the json schema keyword 'description'"
           },
           "optionality": {
@@ -461,7 +522,8 @@
         "enum": [
           "categorical",
           "optional",
-          "unknown"
+          "unknown",
+          "unspecified"
         ]
           },
           "directionality": {
@@ -472,25 +534,28 @@
           "rightward",
           "bidirectional",
           "circumdirectional",
-          "unknown"
+          "unknown",
+	  "NA"
         ]
           },
           "undergoers": {
             "format": "categories",
             "basicCategoryTitle": "basic",
-            "description": "A dict of the elements that are subject to this process, as listed under the keys `segments` and `morphemes.",
+            "description": "A dict of the elements that are subject to this process, as listed under the keys `segments` and `.",
             "type": "object",
             "additionalProperties": false,
             "properties": {
               "segments": {
-                "description": "A dict of the segments that are subject to the process, as listed under the keys `units` and `positional_restrictions`. Note that the value is a simple dict and not a list of dicts as for `triggers`, `transparent`, and `opaque` values.",
-                "$ref": "#/$defs/segments"
+                "$ref": "#/$defs/procsegment"
               },
               "morphemes": {
-                "description": "A dict of morphemes that are subject to the process, as listed under the keys `units` and `positional_restrictions`. Note that the value is a simple dict and not a list of dicts as for `triggers`, `transparent`, and `opaque` values.",
-                "$ref": "#/$defs/morphemes"
+                "description": "A dict of the morphemes that are subject to the process, as listed under the keys `units` and `positional_restrictions`. Note that the value is a simple dict and not a list of dicts as for `triggers`, `transparent`, and `opaque` values.",
+                "$ref": "#/$defs/procmorph"
+              },
+              "suprasegments": {
+                "$ref": "#/$defs/procsuprasegment"
               }
-        }
+            }
           },
           "triggers": {
             "format": "categories",
@@ -501,11 +566,14 @@
             "properties": {
               "segments": {
                 "description": "A list of dicts of the segments that trigger the process, as listed under the keys `units` and `positional_restriction`.",
-                "$ref": "#/$defs/segmentslist"
+                "$ref": "#/$defs/procsegmentlist"
               },
               "morphemes": {
                 "description": "A list of dicts of morphemes that trigger the process, as listed under the keys `units` and `positional_restriction`.",
-                "$ref": "#/$defs/morphemeslist"
+                "$ref": "#/$defs/procmorphlist"
+              },
+              "suprasegments": {
+                "$ref": "#/$defs/procsuprasegment"
               }
         }
           },
@@ -518,13 +586,13 @@
             "properties": {
               "segments": {
                 "description": "A list of dicts of the segments that are transparent to the process, as listed under the keys `units` and `positional_restriction`.",
-                "$ref": "#/$defs/segmentslist"
+                "$ref": "#/$defs/procsegmentlist"
               },
               "morphemes": {
                 "description": "A list of dicts of morphemes that are transparent to the process, as listed under the keys `units` and `positional_restriction`.",
-                "$ref": "#/$defs/morphemeslist"
+                "$ref": "#/$defs/procmorphlist"
               }
-        }
+            }
           },
           "opaque": {
             "format": "categories",
@@ -535,11 +603,11 @@
             "properties": {
               "segments": {
                 "description": "A list of dicts of the segments that are opaque to the process, as listed under the keys `units` and `positional_restriction`.",
-                "$ref": "#/$defs/segmentslist"
+                "$ref": "#/$defs/procsegmentlist"
               },
               "morphemes": {
                 "description": "A list of dicts of morphemes that are opaque to the process, as listed under the keys `units` and `positional_restriction`.",
-                "$ref": "#/$defs/morphemeslist"
+                "$ref": "#/$defs/procmorphlist"
               }
         }
           }
@@ -562,10 +630,7 @@
         "summary": {
           "description": "A prose description of the source materials. (TODO: rename field?)",
           "type": "string",
-          "format": "textarea",
-          "options": {
-            "expand_height": true
-          }
+          "format": "textarea"
         },
         "citation": {
           "description": "One or more bibliographic citations for the source",
@@ -578,7 +643,7 @@
         },
         "natural_classes": { "$ref": "#/$defs/natural_classes" },
         "phonemes": { "$ref": "#/$defs/phonemes" },
-        "morphemes": { "$ref": "#/$defs/morphemes" },
+        "morphemes": { "$ref": "#/$defs/morphemelist" },
         "processdetails": { "$ref": "#/$defs/processdetails" },
         "laryngeal_harmony": { "$ref": "#/$defs/laryngeal_harmony" },
         "tone": { "$ref": "#/$defs/tone" }
