@@ -573,7 +573,7 @@
                 "$ref": "#/$defs/procmorphlist"
               },
               "suprasegments": {
-                "$ref": "#/$defs/procsuprasegment"
+                "$ref": "#/$defs/procsuprasegmentlist"
               }
         }
           },
