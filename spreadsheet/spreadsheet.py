@@ -126,9 +126,9 @@ fields = {
         'page numbers': 'page_num',
         'process name': 'processname',
         'process type': 'processtype',
-        'prose description': 'description',
+        'prose description': 'summary',
         'optionality': 'optionality',
-        'prose descrption': 'description',
+        'prose descrption': 'summary',
         'directionality': 'directionality',
         'domain': 'domain',
         'alternation type': 'alternation_type',
@@ -243,15 +243,17 @@ def parse_proc(t):
     except:
         print(f'Could not parse proc section:\n{t}\n\n')
         raise
-    proc = {n: '' for n in ('processname', 'processtype', 'description', 'optionality', 'directionality', 'alternation_type')}
-    proc['domain'] = 'word-internal'
+    proc = {n: '' for n in ('processname', 'processtype', 'summary', 'optionality', 'directionality', 'alternation_type')}
+    proc['domain'] = 'word-internal'  # TODO: is this what we want to autofill for all procs in all langs?
     procnames = []
-    for fld, k in (('process name', 'processname'), ('process type', 'processtype'), ['description'] * 2, ['optionality'] * 2, ['directionality'] * 2, ('alternation type', 'alternation_type')):
+    for fld, k in (('process name', 'processname'), ('process type', 'processtype'), ('prose description', 'summary'), ['optionality'] * 2, ['directionality'] * 2, ('alternation type', 'alternation_type')):
         fldm = re.search(f'{fld}:\s+(?P<val>.+)', top, re.IGNORECASE|re.MULTILINE)
         try:
             val = fldm.groupdict()['val']
             if k in ('optionality', 'directionality', 'alternation_type'):
                 val = val.lower()
+                if val == 'na':
+                    val = 'NA'
             elif k in ('processname', 'processtype'):
                 if k == 'processname' and val.startswith('XWP='):
                     proc['domain'] = 'cross-word'
@@ -264,30 +266,77 @@ def parse_proc(t):
         except AttributeError:
             proc[k] = 'TODO: NOT PARSED'
 
-    proc['undergoers'] = {'segments': {'units': [], 'positional_restrictions': ''}, 'morphemes': {'units': [], 'positional_restrictions': ''}}
-    for fld in ('triggers', 'transparent', 'opaque'):
-        proc[fld] = {'segments': [], 'morphemes': []}
+    proc['undergoers'] =  {'segments': {}, 'morphemes': {}, 'suprasegments': {}}
+    proc['triggers'] =    {'segments': [], 'morphemes': [], 'suprasegments': []}
+    proc['transparent'] = {'segments': [], 'morphemes': []}
+    proc['opaque'] =      {'segments': [], 'morphemes': []}
     bottom = m.groupdict()['bottom']
     for m in re.finditer(utosre, bottom, re.MULTILINE|re.IGNORECASE):
         gd = m.groupdict()
+        gdfld = {
+            'undergoers': 'undergoers',
+            'triggers': 'triggers',
+            'transparencies': 'transparent',
+            'opacities': 'opaque'
+        }[gd['fld'].lower()]
+        posres = gd['posres']
+        if posres == 'na':
+            posres = 'NA'
+        if gd['type'] is None or gd['type'].lower() in ('na', 'none', 'boundary'):
+            if gdfld in ('transparent', 'opaque'):
+                proc[gdfld] = {'segments': [], 'morphemes': []}
+            elif gdfld == 'triggers':
+                proc[gdfld] = {'segments': [], 'morphemes': [], 'suprasegments': []}
+            elif gdfld == 'undergoers':
+                proc[gdfld] = {'segments': {}, 'morphemes': {}, 'suprasegments': {}}
+            continue
         if gd['tos'] is not None:
-            myfld = {'transparencies': 'transparent', 'opacities': 'opaque'}[gd['fld'].lower()]
-            proc[myfld]['segments'].append({'units': [c.strip().strip('{').strip('}').strip() for c in gd['tos'].split(',')], 'positional_restrictions': ''})
-        else:
-            # TODO: for triggers, collect in separate lists for segments/morphemes and add later
-            objs = [c.strip().strip('{').strip('}').strip() for c in gd['objs'].split(',')]
-            if gd['type'].lower() == 'segmental':
-                if gd['fld'].lower() == 'triggers':
-                    proc[gd['fld'].lower()]['segments'].append({'units': objs, 'positional_restrictions': gd['posres']})
-                else:
-                    proc[gd['fld'].lower()]['segments']['units'] = objs
-                    proc[gd['fld'].lower()]['segments']['positional_restrictions'] = gd['posres']
+            sys.stderr.write('*****tos*****' + gd['tos'] + '*****tos*****')
+            myfld = {
+                'undergoers': 'undergoers',
+                'transparencies': 'transparent',
+                'opacities': 'opaque'
+            }[gdfld]
+            fldval = {
+                'units': [
+                    c.strip().strip('{').strip('}').strip() \
+                        for c in gd['tos'].split(',')
+                ],
+                'positional_restrictions': posres
+            }
+            if gdfld == 'undergoers':
+                proc['undergoers'] = fldval
             else:
-                if gd['fld'].lower() == 'triggers':
-                    proc[gd['fld'].lower()]['morphemes'].append({'units': objs, 'positional_restrictions': gd['posres']})
-                else:
-                    proc[gd['fld'].lower()]['morphemes']['units'] = objs
-                    proc[gd['fld'].lower()]['morphemes']['positional_restrictions'] = gd['posres']
+                proc[myfld]['segments'].append(fldval)
+        else:
+            objs = [
+                c.strip().strip('{').strip('}').strip() \
+                    for c in gd['objs'].split(',')
+            ]
+            try:
+                keytype = {
+                    'segmental': 'segments',
+                    'morphological': 'morphemes',
+                    'morpheme': 'morphemes',
+                    'morphemic': 'morphemes',
+                    'suprasegmental': 'suprasegments',
+                    'suprasegment': 'suprasegments'
+                }[gd['type'].lower().strip()]
+            except Exception as e:
+                print(f'top: {top}')
+                print(f'bottom: {bottom}')
+                print(f'gd: {gd}')
+                raise e
+            if gdfld == 'undergoers':
+                proc[gdfld][keytype] = {
+                    'units': objs,
+                    'positional_restrictions': posres
+                }
+            else:
+                proc[gdfld][keytype].append({
+                    'units': objs,
+                    'positional_restrictions': posres
+                })
     return proc
 
 def parse_proc_old(t, fmap, fmap_sub):
