@@ -39,6 +39,7 @@ jobs:
         with:
           python-version: '3.13'
           cache: 'pip'
+      - name: Run pip
         run: pip install -r spreadsheet/build-requirements.txt
       - name: Build html pages to _site/
         run: |
