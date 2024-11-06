@@ -54,6 +54,14 @@ if do_download:
 # 
 # Functions used to create version 2.0 yaml, work in progress.
 
+langre = re.compile(
+    r'''
+    (?P<name>[^\[]+)
+    (?P<iso>\[[^\]]+\])?
+    ''',
+    re.VERBOSE
+)
+
 def _clean(s):
     '''
     Clean string of extraneous markup.
