@@ -1,0 +1,236 @@
+/* lang_info.css */
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Styling for the main entry container */
+.entry {
+    margin: auto;
+}
+
+/* Styling for headings */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+hr {
+    border: 3px solid black;
+    margin: 20px 0;
+}
+
+/* Styling for each field container */
+.field {
+    margin-bottom: 15px;
+}
+
+/* Styling for key-value pairs */
+.key {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.value {
+    font-size: 1.1em;
+    color: #000;
+}
+
+/* Styling for the phoneme table */
+table.inv {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table.inv th, table.inv td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table.inv th {
+    font-weight: bold;
+}
+
+/* Styling for synthesis notes and processes sections */
+.synthesis-notes, .processes {
+    margin-top: 20px;
+    padding: 10px;
+    border-left: 5px solid #ccc;
+}
+
+.synthesis-notes p, .processes p {
+    margin: 0;
+}
+
+.processname {
+    font-weight: lighter;
+    display: none;
+}
+
+.process{
+    font-weight: lighter;
+}
+
+.process-title{
+    font-size: 1.25em;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+.process-descriptor{
+    font-weight: bold;
+}
+
+.pd-subsection{
+    display: none;
+}
+
+.process-descriptor-sub{
+    font-weight: normal;
+}
+
+.process-description{
+    font-weight: lighter;
+}
+
+.process:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.elipses{
+    font-weight: lighter;
+}
+
+.elipses:hover{
+    font-weight: bold;
+}
+
+.hidden{
+    display: none;
+}
+
+.visible-phoneme{
+    display: contents;
+    color: black;
+}
+
+.visible-allophone{
+    display: contents;
+    color: blue;
+    cursor: pointer;
+}
+
+table, th, td { 
+    border: 1px solid black; 
+    border-collapse: collapse; 
+    padding: 5px; 
+}
+
+.na{
+    font-weight: lighter;
+}
+
+.processDescTable {
+    border: none;
+}
+
+.processDescTable th {
+    font-weight: bold;
+    border: none;
+    text-align: left;
+    vertical-align: top;
+}
+
+.processDescTable td {
+    font-weight: bold;
+    border: none;
+    text-align: left;
+    vertical-align: top;
+}
+
+.processDescTable tr {
+    border: none;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Basic styling for the dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-button {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: none;
+    border: 1px solid lightgray;
+    border-radius: 25%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+.dropdown-button:hover {
+    background-color: lightgray;
+    color: black;
+  }
+  
+.dropdown-button .arrow {
+    margin-left: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Show the dropdown menu */
+.dropdown.show .dropdown-content {
+    display: block;
+  }
+  
+  /* Rotate the arrow when dropdown is active */
+.dropdown.show .arrow {
+    transform: rotate(-135deg);
+  }
+
+.highlight {
+    font-weight: bolder;
+    background-color: yellow !important;
+}
+  

@@ -1,0 +1,68 @@
+# This action builds html pages from lang .json files and copies the
+# pages to the selected target branch when this action is invoked manually.
+
+name: Build saphon lang pages and deploy to target repo
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_branch:
+        description: Branch to which generated site will be pushed
+        type: choice
+        required: true
+        options:
+        - gh-pages
+        - gh-pages-awscloudfront
+        - gh-pages-awss3
+        - gh-pages-dev
+        - gh-pages-local-dev
+        - gh-pages-prod
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo source and target branches
+        run: echo "::notice Building source branch ${{ github.ref_name }} and pushing to target branch ${{ inputs.target_branch }}."
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v3
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+        run: pip install -r spreadsheet/build-requirements.txt
+      - name: Build html pages to _site/
+        run: |
+          cd spreadsheet
+          python lang-tab-to-yaml.py
+          ls -al newlangs/json/*.json
+          python html_generator.py newlangs/json
+          cp lang_info.css _site/
+          ls -al _site/en/synth_inv/*.html
+          ls -al _site/en/ref_inv/*.html
+          echo "${{ steps.deployment.outputs.page_url }}"
+      - name: Upload artifact
+        uses: action/upload-pages-artifact@v2
+
+  deploy:
+    needs: build
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: pages
+        uses: actions/deploy-pages@v4
