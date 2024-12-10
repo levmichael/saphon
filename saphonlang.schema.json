@@ -620,6 +620,7 @@
       "type": "object",
       "required": [
         "summary",
+        "notes",
         "citation",
         "phonemes",
         "morphemes",
@@ -631,6 +632,10 @@
           "description": "A prose description of the source materials. (TODO: rename field?)",
           "type": "string",
           "format": "textarea"
+        },
+        "notes": {
+          "description": "Notes relating to the source materials",
+          "$ref": "#/$defs/notes"
         },
         "citation": {
           "description": "One or more bibliographic citations for the source",
