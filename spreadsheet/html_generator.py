@@ -265,8 +265,16 @@ def generate_html_body(lang, template, processes, process_map, phonemes, allopho
     <div class=field><h2>Processes</h2>{processes}</div>
     <div class=field><h2>Process Details</h2>{process_detail_scraper(template.get("processdetails", []), process_map, indices)}</div>
     """
+    try:
+        html_content += f"""
+          <div class=field><h2>Citation</h2>{'<br />'.join(template['citation'])}</div>
+        """
+    except KeyError:
+        pass
+
     html_content += f"""
-    <div class=field><h2>Notes</h2><p>{template['summary']}</p></div>
+    <div class=field><h2>Summary</h2><p>{template['summary']}</p></div>
+    <div class=field><h2>Notes</h2><p>{template['notes']}</p></div>
     """
     return html_content
 
@@ -635,8 +643,8 @@ def process_templates_from_folder(input_folder, synth_output_folder, ref_output_
     print(lost_phonemes)
 
 # Specify the folder containing template files and the output folder for HTML files
-input_folder = Path(sys.argv[1])
-synth_output_folder = Path('en/synth_inv')
-ref_output_folder = Path('en/ref_inv')
+#input_folder = Path(sys.argv[1])
+#synth_output_folder = Path('en/synth_inv')
+#ref_output_folder = Path('en/ref_inv')
 # Run the script to process all template files in the specified folder and save the HTML files in the output folder
-process_templates_from_folder(input_folder, synth_output_folder, ref_output_folder)
+#process_templates_from_folder(input_folder, synth_output_folder, ref_output_folder)
